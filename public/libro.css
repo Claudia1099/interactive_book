@@ -1,0 +1,115 @@
+.App-book{
+    min-width: 100%;
+    /*overflow-y:scroll;*/
+}
+.background{
+    background-color: #A7A3A2;
+}
+.libro{
+    height:auto;width:100%;
+    display:flex;align-items:center;
+    flex-direction:column;overflow:hidden;
+    justify-content:center;
+}
+.Portada{
+    height:74vh;width:99%;margin-bottom:20px;
+    object-position:center;border-radius:6px;
+    box-shadow: 0px 0px 4px 1px grey;margin-top: 0.3px;
+}
+.Portada img{
+    height:74vh;width:100%;object-fit:cover;
+    border-radius:6px;
+}
+.Hoja{
+    height:74vh;width:99%;
+    margin-bottom:20px;background-color:white;
+    box-shadow: 0px 0px 4px 1px grey;
+    border-radius:6px;overflow:hidden;
+}
+.Encavezado{
+    display:flex;justify-content:space-between;
+}
+.Hoja-logo{
+    height:5vh;margin-left:8px;margin-top:8px;
+}
+.Esquina{
+    height:15vh;margin:0%;padding:0%;
+}
+.Contenido{
+    position:relative;top:-40px;
+    display:flex;flex-direction:column;
+    justify-content:center;align-items:center;
+}
+.bloque{
+    display:flex;justify-content:center;
+    font-size:0.5em;width:90vw;
+    font-family:'Arial','sans-serif';
+}
+.linea{
+    background-color:#d81c3f;
+    height:0.1vmax;width:90%;margin: 0% auto;
+    margin-top: 5px; margin-bottom: 5px;
+}
+.btnA{
+    border:none;
+    color:grey;margin:0%;padding:0%;
+    font-size:1.5em;
+}
+table{
+    width: 90%;
+    padding: 0%;
+    margin: 0%;
+}
+.titulos{
+    text-align: center;
+    color: #e32548;
+}
+.titulos h2{
+    font-size: 0.6em;
+}
+.titulos h3{
+    font-size: 0.3em;
+}
+.titulos h4{
+    font-size: 0.2em;
+    color:black;
+}
+.SHAPES{
+    width: 50px;
+}
+.txt-ali{
+    text-align: justify;
+}
+.imgtimes{
+    width: 95px;
+}
+.videoPm{
+    margin-top: 10% ;    
+    width:230px ; height: 130px;
+}
+.Answer{
+    display:flex;align-items:center;
+    margin-bottom:11px;
+}
+.Quiz{
+    color:black;font-weight:bold;
+}
+.Answer img{
+    width:80px;
+}
+.Answer span{
+    width:25px;height:20px;
+    margin-left:2px;text-align:center;
+}
+.Correcto{
+    font-size:2.3em;color:chartreuse;
+}
+.Incorrecto{
+    font-size:2.3em;color:red;
+}
+.rellenoPm{
+    margin-top:30px;width:190px;
+}
+.rellenoPc{
+    margin-top:10px;width:110px;
+}
