@@ -105,19 +105,17 @@ class EBook1  extends Component{
 
                     <h6 className="subTitulo3-page-1">TEACHER:</h6>
                     <span className="item28-page-1">- What's your name?</span>
-                    {/*<span className="item30-page-1">Her</span>*/}
-                    {/*<span className="item31-page-1">His</span>*/}
-                    <br/>
-                    {/*<span className="item32-page-1">- Spell it, please</span>*/}
-                    <br/>
-                    {/*<span className="item33-page-1">- Nice to meet you</span>*/}
+                    <span className="item29-page-1">Her</span>
+                    <span className="item30-page-1">His</span>
+                    <span className="item31-page-1">- Spell it, please</span>
+                    <span className="item32-page-1">- Nice to meet you</span>
 
-                    {/*<span className="subTitulo4-page-1">STUDENT:</span>*/}
-                    {/*<span className="item34-page-1">- My name is.......</span>*/}
-                    {/*<span className="item35-page-1">Her</span>*/}
-                    {/*<span className="item36-page-1">His</span>*/}
-                    {/*<span className="item37-page-1">- W-I-L-T-O-N</span>*/}
-                    {/*<span className="item38-page-1">- Nice to meet you too</span>*/}
+                    <h6 className="subTitulo4-page-1">STUDENT:</h6>
+                    <span className="item33-page-1">- My name is................</span>
+                    <span className="item34-page-1">Her</span>
+                    <span className="item35-page-1">His</span>
+                    <span className="item36-page-1">- W-I-L-T-O-N</span>
+                    <span className="item37-page-1">- Nice to meet you too</span>
               </div>
         </div>
     </div>

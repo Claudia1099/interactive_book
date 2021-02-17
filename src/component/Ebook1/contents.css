@@ -383,10 +383,60 @@ left: 26%;
 .subTitulo3-page-1{
     position: absolute;
     top: 72%;
-    left: 11%;
+    left: 17%;
 }
 .item28-page-1{
     position: absolute;
     top: 75%;
     left: 11%;
+}
+.item29-page-1{
+    position: absolute;
+    top: 77%;
+    left: 21%;
+}
+.item30-page-1{
+    position: absolute;
+    top: 79%;
+    left: 21%;
+}
+.item31-page-1{
+    position: absolute;
+    top: 82%;
+    left: 11%;
+}
+.item32-page-1{
+    position: absolute;
+    top: 85%;
+    left: 11%;
+}
+.subTitulo4-page-1{
+    position: absolute;
+    top: 72%;
+    left: 57%;
+}
+.item33-page-1{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+}
+.item34-page-1{
+    position: absolute;
+    top: 77%;
+    left: 51.5%;
+}
+.item35-page-1{
+    position: absolute;
+    top: 79%;
+    left: 51.5%;
+}
+.item36-page-1{
+    position: absolute;
+    top: 82%;
+    left: 50%;
+}
+.item37-page-1{
+    position: absolute;
+    top: 85%;
+    left: 50%;
 }
