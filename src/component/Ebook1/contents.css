@@ -7,6 +7,9 @@
 .img2{
     position: relative;
 }
+.img3{
+    position: relative;
+}
 .item1{
     position: absolute;
     top: 16.5%;
@@ -439,4 +442,47 @@ left: 26%;
     position: absolute;
     top: 85%;
     left: 50%;
+}
+.item38-page-2{
+    position: absolute;
+    top: 24%;
+    left: 11%;
+}
+.item39-page-2{
+    position: absolute;
+    top: 27%;
+    left: 11%;
+}
+.form{
+    border:1px solid black
+}
+.item40-page-2{
+    position: absolute;
+    top: 31%;
+    left: 11%;
+}
+.item41-page-2{
+    position: absolute;
+    top: 34%;
+    left: 11%;
+}
+.item42-page-2{
+    position: absolute;
+    top: 24%;
+    left: 60%;
+}
+.item43-page-2{
+    position: absolute;
+    top: 28%;
+    left: 60%;
+}
+.item44-page-2{
+    position: absolute;
+    top: 31%;
+    left: 60%;
+}
+.item45-page-2{
+    position: absolute;
+    top: 35%;
+    left: 60%;
 }
