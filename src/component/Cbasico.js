@@ -1016,117 +1016,117 @@ class Cbasico extends Component{
                                     <tr>
                                         <td>APPLE.</td>
                                         <td>MANZANA.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/APPLE.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>COCONUT.</td>
                                         <td>COCO.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/COCONUT.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>PEACH.</td>
                                         <td>DURAZNO.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/PEACH.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>PEAR.</td>
                                         <td>PERA.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/PEAR.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>CHERRY.</td>
                                         <td>CEREZA.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/CHERRY.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>BANANA.</td>
                                         <td>BANANO.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/BANANA.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>PLUM.</td>
                                         <td>CIRUELA.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/PLUM.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>APRICOT.</td>
                                         <td>ALBARICOQUE.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/APRICOT.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>KIWI.</td>
                                         <td>KIWI.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/KIWI.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>MANGO.</td>
                                         <td>MANGO.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/MANGO.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>PAPAYA.</td>
                                         <td>PAPAYA.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/PAPAYA.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>FIG.</td>
                                         <td>BREVA.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/FIG.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>AVOCADO.</td>
                                         <td>AGUACATE.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/AVOCADO.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>LEMON.</td>
                                         <td>LIMON.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/LEMON.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>GRAPES.</td>
                                         <td>UVAS.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/GRAPES.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>RAISINS.</td>
                                         <td>UVAS PASAS.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/RAISINS.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>STRAWBERRY.</td>
                                         <td>FRESA.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/STRAWBERRY.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>BLACKBERRY.</td>
                                         <td>MORA.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/BLACKBERRY.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>ORANGE.</td>
                                         <td>NARANJA.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/ORANGE.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>MELON.</td>
                                         <td>MELON.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/MELON.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>TANGERINE.</td>
                                         <td>MANDARINA.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/TANGERINE.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>PINEAPPLE.</td>
                                         <td>PIÑA.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/PINEAPPLE.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>WATERMELON.</td>
                                         <td>SANDIA/PATILLA.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/WATERMELON.mp3')}}></span></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -1151,69 +1151,69 @@ class Cbasico extends Component{
                                 <tbody>
                                     <tr>
                                         <td>A (ei)</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/a.mp3')}}></span></td>
                                         <td>B (bi)</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/b.mp3')}}></span></td>
                                         <td>C (ci)</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/c.mp3')}}></span></td>
                                         <td>D (di)</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/d.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>E (ii)</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/e.mp3')}}></span></td>
                                         <td>F (ef)</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/f.mp3')}}></span></td>
                                         <td>G (yi)</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/g.mp3')}}></span></td>
                                         <td>H (eich)</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/h.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>I (ai)</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/i.mp3')}}></span></td>
                                         <td>J (yei)</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/j.mp3')}}></span></td>
                                         <td>K (kei)</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/k.mp3')}}></span></td>
                                         <td>L (el)</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/l.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>M (em)</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/m.mp3')}}></span></td>
                                         <td>N (n)</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/n.mp3')}}></span></td>
                                         <td>O (ou)</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/o.mp3')}}></span></td>
                                         <td>P (pi)</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/p.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>Q (kiu)</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/q.mp3')}}></span></td>
                                         <td>R (ar)</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/r.mp3')}}></span></td>
                                         <td>S (es)</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/s.mp3')}}></span></td>
                                         <td>T (ti)</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/t.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>U (iu)</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/u.mp3')}}></span></td>
                                         <td>V (vi)</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/v.mp3')}}></span></td>
                                         <td>W (dabliu)</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/w.mp3')}}></span></td>
                                         <td>X (ex)</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/x.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>Y (uai)</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/y.mp3')}}></span></td>
                                         <td>Z (zii)</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/z.mp3')}}></span></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -1240,37 +1240,37 @@ class Cbasico extends Component{
                                     <tr>
                                         <td>CAR.</td>
                                         <td>CARRO.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/CAR.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>TRAIN.</td>
                                         <td>TREN.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/TRAIN.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>MOTORCYCLE.</td>
                                         <td>MOTOCICLETA.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/MOTORCYCLE.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>BIKE.</td>
                                         <td>BICICLETA.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/BIKE.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>BOAT.</td>
                                         <td>BOTE.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/BOAT.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>SHIP.</td>
                                         <td>BARCO.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/SHIP.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>BUS.</td>
                                         <td>BUS.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/BUS.mp3')}}></span></td>
                                     </tr>
                                 </tbody>
                             </table>
