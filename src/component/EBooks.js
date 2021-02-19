@@ -17,12 +17,11 @@ class EBooks  extends Component{
             listaEBooksVw:false,
             eBooks1Vw:true,
         })
-        document.getElementById("fondo").setAttribute("class","background")
       }
 
     render(){
         return(
-            <div id="fondo" className="App-cont">
+            <div className="App-cont">
                 <div className="App-book mb-5 App-mg">
 
                     {

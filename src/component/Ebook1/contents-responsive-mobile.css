@@ -1,0 +1,260 @@
+@media screen and (max-width: 414px){
+    /*Contenido*/
+    .titulo{
+        font-size: 22px;
+        margin-left: 10px;
+    }
+    .item1, .item2, .item3, .item4, .item5, .item6,
+    .item7, .item8, .item9, .item10, .item11, .item12,
+    .item13, .item14, .item15, .item16, .item17, .item18,
+    .item19, .item20, .item21, .item22, .item23, .item24,
+    .item25, .item26{
+        font-size: 12px;
+    }
+    .circle1, .circle2, .circle3, .circle4, .circle5, .circle6,
+    .circle7, .circle8, .circle9, .circle10, .circle11, .circle12,
+    .circle13{
+        font-size: 16px;
+    }
+    /*Page 1*/
+    .titulo-page-1{
+        font-size: 22px;
+    }
+    .subTitulo1-page-1,.subTitulo2-page-1{
+        font-size: 17px;
+    }
+    /*Dialogo page 1*/
+    .item1-page-1,.item1-1-page-1,.item1-2-page-1{
+        font-size: 11px;
+    }
+    .item1-1-page-1{
+        top:44.2%;
+    }
+    /*Alfabeto*/
+    .item2-page-1,.item3-page-1,.item4-page-1,.item5-page-1,
+    .item6-page-1,.item7-page-1,.item8-page-1,.item9-page-1,
+    .item10-page-1,.item11-page-1,.item12-page-1,.item13-page-1,
+    .item14-page-1,.item15-page-1,.item16-page-1,.item17-page-1,
+    .item18-page-1,.item19-page-1,.item20-page-1,.item21-page-1,
+    .item22-page-1,.item23-page-1,.item24-page-1,.item25-page-1,
+    .item26-page-1,.item27-page-1,.item28-page-1,.item29-page-1,
+    .item30-page-1,.item31-page-1,.item32-page-1,.item33-page-1,
+    .item34-page-1,.item35-page-1,.item36-page-1,.item37-page-1{
+        font-size: 12px;
+    }
+    .item2-page-1,.item3-page-1,.item4-page-1,.item5-page-1,
+    .item6-page-1,.item7-page-1,.item8-page-1,.item9-page-1,
+    .item10-page-1,.item11-page-1{
+        top: 54.5%;
+    }
+    .item12-page-1,.item13-page-1,.item14-page-1,.item15-page-1,
+    .item16-page-1,.item17-page-1,.item18-page-1,.item19-page-1,
+    .item20-page-1,.item21-page-1{
+        top: 61.5%;
+    }
+    .item22-page-1,.item23-page-1,.item24-page-1,.item25-page-1,
+    .item26-page-1,.item27-page-1{
+        top: 68.8%;
+    }
+    .item25-page-1, .item26-page-1, .item27-page-1{
+        margin-left: 10px;
+    }
+    /*Dialogo Teacher - student*/
+    .subTitulo3-page-1,.subTitulo4-page-1{
+        font-size: 13px;
+        top: 77%;
+    }
+    .item28-page-1, .item33-page-1{
+        top: 79.5%;
+    }
+    .item29-page-1, .item34-page-1{
+        top: 82%;
+    }
+    .item30-page-1, .item35-page-1{
+        top: 84.5%;
+    }
+    .item31-page-1, .item36-page-1{
+        top: 87%;
+    }
+    .item32-page-1, .item37-page-1{
+        top: 90%;
+    }
+    /*Page 2*/
+    .item1-page-2, .item3-page-2, .item6-page-2, .item8-page-2, .item9-page-2, .item13-page-2, .item17-page-2{
+        font-size: 12px;
+    }
+    /*Ubicación primeros 2 personajes*/
+    .item2-page-2, .item6-page-2{
+        top: 29.5%;
+    }
+    .item3-page-2, .item7-page-2{
+        top: 34.5%;
+    }
+    .item4-page-2, .item8-page-2{
+        top: 40%;
+    }
+    /*Ubicación segundos 2 personajes*/
+    .item9-page-2, .item13-page-2{
+        top: 70%;
+    }
+    .item10-page-2, .item14-page-2{
+        top: 74.5%;
+    }
+    .item11-page-2, .item15-page-2{
+        top: 81.5%;
+    }
+    .item12-page-2, .item16-page-2{
+        top: 88%;
+    }
+    .form-sm-page-2{
+        font-size: 10px;
+        width: 70%;
+    }
+    /*Numeración de pagina*/
+    .item17-page-2{
+    font-size: 8px;
+    }
+    /*Page 3*/
+    .subTitulo1-page-3, .subTitulo2-page-3, .subTitulo3-page-3{
+        font-size: 13px;
+    }
+    /*Numeros, escritura y pronunciación*/
+    .item1-page-3, .item2-page-3, .item3-page-3, .item4-page-3, .item5-page-3,
+    .item6-page-3, .item7-page-3, .item8-page-3, .item9-page-3, .item10-page-3,
+    .item11-page-3, .item12-page-3, .item13-page-3, .item14-page-3, .item15-page-3,
+    .item16-page-3, .item17-page-3, .item18-page-3, .item19-page-3, .item20-page-3,
+    .item21-page-3, .item22-page-3, .item23-page-3, .item24-page-3, .item25-page-3,
+    .item26-page-3, .item27-page-3, .item28-page-3, .item29-page-3, .item30-page-3,
+    .item31-page-3, .item32-page-3, .item33-page-3, .item34-page-3, .item35-page-3,
+    .item36-page-3, .item37-page-3, .item38-page-3, .item39-page-3, .item40-page-3,
+    .item41-page-3, .item42-page-3, .item43-page-3, .item44-page-3, .item45-page-3,
+    .item46-page-3, .item47-page-3, .item48-page-3, .item49-page-3{
+        font-size: 11px;
+    }
+    /*Escritura*/
+    .item12-page-3, .item13-page-3, .item14-page-3, .item15-page-3, .item16-page-3,
+    .item17-page-3, .item18-page-3, .item19-page-3, .item20-page-3, .item21-page-3,
+    .item22-page-3{
+        font-size: 9px;
+    }
+    /*Pronunciación*/
+    .item23-page-3, .item24-page-3, .item25-page-3, .item26-page-3, .item27-page-3,
+    .item28-page-3, .item29-page-3, .item30-page-3, .item31-page-3, .item32-page-3,
+    .item33-page-3{
+        font-size: 8px;
+    }
+    /*Escritura: mover Four del Three*/
+    .item16-page-3, .item17-page-3{
+        margin-left: 1px;
+    }
+    /*Parrafo en medio de la pagina*/
+    .item34-page-3{
+        font-size: 10.5px;
+        left: 8%;
+    }
+    /*Subtitulos Teacher y student*/
+    .subTitulo2-page-3, .subTitulo3-page-3{
+        top: 55%;
+    }
+
+    /*Dialogo Teacher y student*/
+    .item36-page-3, .item43-page-3{
+        top: 60%;
+    }
+    .item36-page-3, .item39-page-3, .item42-page-3{
+        left: 8%;
+    }
+    .item37-page-3, .item44-page-3{
+        top: 63%;
+    }
+    .item38-page-3, .item45-page-3{
+        top: 65.5%;
+    }
+    .item39-page-3, .item46-page-3{
+        top: 69%;
+    }
+    .item40-page-3, .item47-page-3{
+        top: 72%;
+    }
+    .item41-page-3, .item48-page-3{
+        top: 74.5%;
+    }
+    .item42-page-3, .item49-page-3{
+        top: 78%;
+    }
+    .item50-page-3{
+        font-size: 8px;
+    }
+    /*Page 4*/
+    /*-----------------------------------------------------*/
+    /*-----------------------------------------------------*/
+    /*-----------------------------------------------------*/
+    /*-----------------------------------------------------*/
+    /*Page 5*/
+    .titulo-page-5{
+        font-size: 13px;
+    }
+    /*Preguntas*/
+    .item2-page-5, .item3-page-5, .item4-page-5, .item5-page-5,
+    .item6-page-5, .item7-page-5{
+        font-size: 11px;
+    }
+    /*Cuadros Classmate 1 y 2*/
+    .subTitulo1-page-5, .subTitulo2-page-5, .subTitulo3-page-5{
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .item8-page-5, .item9-page-5, .item10-page-5, .item11-page-5,
+    .item12-page-5, .item13-page-5, .item14-page-5, .item15-page-5,
+    .item16-page-5, .item17-page-5, .item18-page-5{
+        font-size: 11px;
+    }
+    /*Parrafo Reading*/
+    .item18-page-5{
+        font-size: 8.6px;
+    }
+    /*Cuadro Final*/
+    .item19-page-5, .item20-page-5, .item21-page-5, .item22-page-5,
+    .item23-page-5, .item24-page-5, .item25-page-5, .item26-page-5,
+    .item27-page-5, .item28-page-5{
+        font-size: 9px;
+    }
+    /*Botones Editar*/
+    .btn1-page-5{
+        font-size: 10px;
+        top: 17%;
+        left: 87%;
+    }
+
+}
+@media screen and (max-width: 375px){
+    /*Page 5*/
+    .titulo-page-5{
+        font-size: 10px;
+    }
+    /*Preguntas*/
+    .item2-page-5, .item3-page-5, .item4-page-5, .item5-page-5,
+    .item6-page-5, .item7-page-5{
+        font-size: 9px;
+    }
+    /*Cuadros Classmate 1 y 2*/
+    .subTitulo1-page-5, .subTitulo2-page-5, .subTitulo3-page-5{
+        font-size: 9px;
+        font-weight: bold;
+    }
+    .item8-page-5, .item9-page-5, .item10-page-5, .item11-page-5,
+    .item12-page-5, .item13-page-5, .item14-page-5, .item15-page-5,
+    .item16-page-5, .item17-page-5, .item18-page-5{
+        font-size: 8px;
+    }
+    /*Parrafo Reading*/
+    .item18-page-5{
+        font-size: 7px;
+    }
+    /*Cuadro Final*/
+    .item19-page-5, .item20-page-5, .item21-page-5, .item22-page-5,
+    .item23-page-5, .item24-page-5, .item25-page-5, .item26-page-5,
+    .item27-page-5, .item28-page-5{
+        font-size: 8px;
+    }
+}
