@@ -19,13 +19,15 @@
     /*Page 1*/
     .titulo-page-1{
         font-size: 22px;
+        top: .5%;
+        left: 12%;
     }
     .subTitulo1-page-1,.subTitulo2-page-1{
-        font-size: 17px;
+        font-size: 13px;
     }
     /*Dialogo page 1*/
     .item1-page-1,.item1-1-page-1,.item1-2-page-1{
-        font-size: 11px;
+        font-size: 9px;
     }
     .item1-1-page-1{
         top:44.2%;
@@ -40,7 +42,7 @@
     .item26-page-1,.item27-page-1,.item28-page-1,.item29-page-1,
     .item30-page-1,.item31-page-1,.item32-page-1,.item33-page-1,
     .item34-page-1,.item35-page-1,.item36-page-1,.item37-page-1{
-        font-size: 12px;
+        font-size: 9px;
     }
     .item2-page-1,.item3-page-1,.item4-page-1,.item5-page-1,
     .item6-page-1,.item7-page-1,.item8-page-1,.item9-page-1,
@@ -56,32 +58,76 @@
     .item26-page-1,.item27-page-1{
         top: 68.8%;
     }
-    .item25-page-1, .item26-page-1, .item27-page-1{
-        margin-left: 10px;
-    }
     /*Dialogo Teacher - student*/
     .subTitulo3-page-1,.subTitulo4-page-1{
         font-size: 13px;
-        top: 77%;
+        top: 74%;
     }
     .item28-page-1, .item33-page-1{
-        top: 79.5%;
+        top: 77%;
     }
     .item29-page-1, .item34-page-1{
-        top: 82%;
+        top: 79%;
     }
     .item30-page-1, .item35-page-1{
-        top: 84.5%;
+        top: 81%;
     }
     .item31-page-1, .item36-page-1{
-        top: 87%;
+        top: 83%;
     }
     .item32-page-1, .item37-page-1{
-        top: 90%;
+        top: 85%;
     }
     /*Page 2*/
     .item1-page-2, .item3-page-2, .item6-page-2, .item8-page-2, .item9-page-2, .item13-page-2, .item17-page-2{
-        font-size: 12px;
+        font-size: 10px;
+    }
+    /*Underline*/
+    .item2-page-2, .item4-page-2, .item5-page-2, .item7-page-2, .item10-page-2, .item11-page-2, .item12-page-2,
+    .item14-page-2, .item15-page-2, .item16-page-2{
+        font-size: 10px;
+    }
+    /*Botones de llenado*/
+    .btn1-page-2{
+        top: 29%;
+        left: 37%;
+    }
+    .btn2-page-2{
+        top: 39%;
+        left: 37%;
+    }
+    .btn3-page-2{
+        top: 23.5%;
+        left: 84%;
+    }
+    .btn4-page-2{
+        top: 34%;
+        left: 84%;
+    }
+    .btn5-page-2{
+        top: 74%;
+        left: 37%;
+    }
+    .btn6-page-2{
+        top: 81%;
+        left: 37%;
+    }
+    .btn7-page-2{
+        top: 87.8%;
+    }
+    .btn8-page-2{
+        top: 74%;
+    }
+    .btn9-page-2{
+        top: 81%;
+    }
+    .btn10-page-2{
+        top: 87.8%;
+    }
+    /*Tamaño botones*/
+    .btn1-page-2, .btn2-page-2, .btn3-page-2, .btn4-page-2, .btn5-page-2, .btn6-page-2,
+    .btn7-page-2, .btn8-page-2, .btn9-page-2, .btn10-page-2{
+        font-size: 10px;
     }
     /*Ubicación primeros 2 personajes*/
     .item2-page-2, .item6-page-2{
@@ -186,10 +232,20 @@
         font-size: 8px;
     }
     /*Page 4*/
-    /*-----------------------------------------------------*/
-    /*-----------------------------------------------------*/
-    /*-----------------------------------------------------*/
-    /*-----------------------------------------------------*/
+    /*Tamaño fuente*/
+    .item1-page-4, .item2-page-4, .item3-page-4, .item4-page-4, .item5-page-4,
+    .item6-page-4, .item7-page-4, .item8-page-4, .item9-page-4, .item10-page-4,
+    .item11-page-4, .item12-page-4, .item13-page-4, .item14-page-4, .item15-page-4,
+    .item16-page-4, .item17-page-4, .item18-page-4, .item19-page-4, .item20-page-4{
+        font-size: 8px;
+    }
+    /*Tamaño botones*/
+    .btn1-page-4, .btn2-page-4, .btn3-page-4, .btn4-page-4, .btn5-page-4,
+    .btn6-page-4, .btn7-page-4, .btn8-page-4, .btn9-page-4, .btn10-page-4,
+    .btn11-page-4, .btn12-page-4, .btn13-page-4, .btn14-page-4, .btn15-page-4,
+    .btn16-page-4, .btn17-page-4, .btn18-page-4, .btn19-page-4{
+        font-size: 10px;
+    }
     /*Page 5*/
     .titulo-page-5{
         font-size: 13px;
@@ -197,7 +253,7 @@
     /*Preguntas*/
     .item2-page-5, .item3-page-5, .item4-page-5, .item5-page-5,
     .item6-page-5, .item7-page-5{
-        font-size: 11px;
+        font-size: 9px;
     }
     /*Cuadros Classmate 1 y 2*/
     .subTitulo1-page-5, .subTitulo2-page-5, .subTitulo3-page-5{
@@ -207,7 +263,7 @@
     .item8-page-5, .item9-page-5, .item10-page-5, .item11-page-5,
     .item12-page-5, .item13-page-5, .item14-page-5, .item15-page-5,
     .item16-page-5, .item17-page-5, .item18-page-5{
-        font-size: 11px;
+        font-size: 9px;
     }
     /*Parrafo Reading*/
     .item18-page-5{
@@ -222,8 +278,18 @@
     /*Botones Editar*/
     .btn1-page-5{
         font-size: 10px;
-        top: 17%;
-        left: 87%;
+    }
+    .btn2-page-5{
+        font-size: 10px;
+    }
+    .btn3-page-5{
+        font-size: 10px;
+    }
+    .btn4-page-5{
+        font-size: 10px;
+    }
+    .btn5-page-5{
+        font-size: 10px;
     }
 
 }
