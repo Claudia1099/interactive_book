@@ -73,7 +73,17 @@ class EBook1  extends Component{
             ans15Page6 : "",
             ans16Page6 : "",
             ans17Page6 : "",
-            ans18Page6 : ""
+            ans18Page6 : "",
+            ans19Page6 : "",
+            ans20Page6 : "",
+            ans21Page6 : "",
+            ans22Page6 : "",
+            ans23Page6 : "",
+            ans24Page6 : "",
+            ans25Page6 : "",
+            ans26Page6 : "",
+            ans27Page6 : "",
+            ans28Page6 : ""
         }
     }
     edit1Page2 = () =>{
@@ -1056,6 +1066,329 @@ class EBook1  extends Component{
             }
         })
     }
+    edit10Page6 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans10Page6 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit11Page6 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans11Page6 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit12Page6 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans12Page6 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit13Page6 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans13Page6 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit14Page6 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans14Page6 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit15Page6 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans15Page6 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit16Page6 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans16Page6 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit17Page6 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans17Page6 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit18Page6 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans18Page6 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit19Page6 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans19Page6 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit20Page6 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans20Page6 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit21Page6 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans21Page6 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit22Page6 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans22Page6 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit23Page6 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans23Page6 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit24Page6 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans24Page6 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit25Page6 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans25Page6 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit26Page6 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans26Page6 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit27Page6 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans27Page6 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit28Page6 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans28Page6 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
     render(){
         return(
             
@@ -1409,15 +1742,44 @@ class EBook1  extends Component{
                 <a href="#" onClick={() => this.edit8Page6()} className="btn8-page-6"><i className="fas fa-pencil-alt"></i></a>
                 <span className="item9-page-6">{this.state.ans9Page6}</span>
                 <a href="#" onClick={() => this.edit9Page6()} className="btn9-page-6"><i className="fas fa-pencil-alt"></i></a>
-                <span className="item10-page-6">six</span>
-                <span className="item11-page-6">six</span>
-                <span className="item12-page-6">six</span>
-                <span className="item13-page-6">six</span>
-                <span className="item14-page-6">six</span>
-                <span className="item15-page-6">six</span>
-                <span className="item16-page-6">six</span>
-                <span className="item17-page-6">six</span>
-                <span className="item18-page-6">six</span>
+                <span className="item10-page-6">{this.state.ans10Page6}</span>
+                <a href="#" onClick={() => this.edit10Page6()} className="btn10-page-6"><i className="fas fa-pencil-alt"></i></a>
+                <span className="item11-page-6">{this.state.ans11Page6}</span>
+                <a href="#" onClick={() => this.edit11Page6()} className="btn11-page-6"><i className="fas fa-pencil-alt"></i></a>
+                <span className="item12-page-6">{this.state.ans12Page6}</span>
+                <a href="#" onClick={() => this.edit12Page6()} className="btn12-page-6"><i className="fas fa-pencil-alt"></i></a>
+                <span className="item13-page-6">{this.state.ans13Page6}</span>
+                <a href="#" onClick={() => this.edit13Page6()} className="btn13-page-6"><i className="fas fa-pencil-alt"></i></a>
+                <span className="item14-page-6">{this.state.ans14Page6}</span>
+                <a href="#" onClick={() => this.edit14Page6()} className="btn14-page-6"><i className="fas fa-pencil-alt"></i></a>
+                <span className="item15-page-6">{this.state.ans15Page6}</span>
+                <a href="#" onClick={() => this.edit15Page6()} className="btn15-page-6"><i className="fas fa-pencil-alt"></i></a>
+                <span className="item16-page-6">{this.state.ans16Page6}</span>
+                <a href="#" onClick={() => this.edit16Page6()} className="btn16-page-6"><i className="fas fa-pencil-alt"></i></a>
+                <span className="item17-page-6">{this.state.ans17Page6}</span>
+                <a href="#" onClick={() => this.edit17Page6()} className="btn17-page-6"><i className="fas fa-pencil-alt"></i></a>
+                <span className="item18-page-6">{this.state.ans18Page6}</span>
+                <a href="#" onClick={() => this.edit18Page6()} className="btn18-page-6"><i className="fas fa-pencil-alt"></i></a>
+                <span className="item19-page-6">{this.state.ans19Page6}</span>
+                <a href="#" onClick={() => this.edit19Page6()} className="btn19-page-6"><i className="fas fa-pencil-alt"></i></a>
+                <span className="item20-page-6">{this.state.ans20Page6}</span>
+                <a href="#" onClick={() => this.edit20Page6()} className="btn20-page-6"><i className="fas fa-pencil-alt"></i></a>
+                <span className="item21-page-6">{this.state.ans21Page6}</span>
+                <a href="#" onClick={() => this.edit21Page6()} className="btn21-page-6"><i className="fas fa-pencil-alt"></i></a>
+                <span className="item22-page-6">{this.state.ans22Page6}</span>
+                <a href="#" onClick={() => this.edit22Page6()} className="btn22-page-6"><i className="fas fa-pencil-alt"></i></a>
+                <span className="item23-page-6">{this.state.ans23Page6}</span>
+                <a href="#" onClick={() => this.edit23Page6()} className="btn23-page-6"><i className="fas fa-pencil-alt"></i></a>
+                <span className="item24-page-6">{this.state.ans24Page6}</span>
+                <a href="#" onClick={() => this.edit24Page6()} className="btn24-page-6"><i className="fas fa-pencil-alt"></i></a>
+                <span className="item25-page-6">{this.state.ans25Page6}</span>
+                <a href="#" onClick={() => this.edit25Page6()} className="btn25-page-6"><i className="fas fa-pencil-alt"></i></a>
+                <span className="item26-page-6">{this.state.ans26Page6}</span>
+                <a href="#" onClick={() => this.edit26Page6()} className="btn26-page-6"><i className="fas fa-pencil-alt"></i></a>
+                <span className="item27-page-6">{this.state.ans27Page6}</span>
+                <a href="#" onClick={() => this.edit27Page6()} className="btn27-page-6"><i className="fas fa-pencil-alt"></i></a>
+                <span className="item28-page-6">{this.state.ans28Page6}</span>
+                <a href="#" onClick={() => this.edit28Page6()} className="btn28-page-6"><i className="fas fa-pencil-alt"></i></a>
             </div>
         </div>
         <div className="col-md-6 offset-md-3 mb-3">

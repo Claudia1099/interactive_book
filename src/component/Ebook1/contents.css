@@ -1592,12 +1592,12 @@ left: 26%;
 .item11-page-6{
     position: absolute;
     top: 13.4%;
-    left: 83.7%;
+    left: 82.5%;
 }
 .item12-page-6{
     position: absolute;
     top: 16.4%;
-    left: 83.7%;
+    left: 83%;
 }
 .item13-page-6{
     position: absolute;
@@ -1607,7 +1607,7 @@ left: 26%;
 .item14-page-6{
     position: absolute;
     top: 22.4%;
-    left: 83.7%;
+    left: 83%;
 }
 .item15-page-6{
     position: absolute;
@@ -1628,6 +1628,56 @@ left: 26%;
     position: absolute;
     top: 34.4%;
     left: 83.7%;
+}
+.item19-page-6{
+    position: absolute;
+    top: 55.5%;
+    left: 18.5%;
+}
+.item20-page-6{
+    position: absolute;
+    top: 58.8%;
+    left: 24.8%;
+}
+.item21-page-6{
+    position: absolute;
+    top: 62.3%;
+    left: 18%;
+}
+.item22-page-6{
+    position: absolute;
+    top: 62.3%;
+    left: 35%;
+}
+.item23-page-6{
+    position: absolute;
+    top: 73%;
+    left: 53.5%;
+}
+.item24-page-6{
+    position: absolute;
+    top: 73%;
+    left: 67.5%;
+}
+.item25-page-6{
+    position: absolute;
+    top: 76%;
+    left: 50%;
+}
+.item26-page-6{
+    position: absolute;
+    top: 76%;
+    left: 61.5%;
+}
+.item27-page-6{
+    position: absolute;
+    top: 79.5%;
+    left: 54.2%;
+}
+.item28-page-6{
+    position: absolute;
+    top: 83%;
+    left: 60.8%;
 }
 /*Botones*/
 .btn1-page-6{
@@ -1674,4 +1724,99 @@ left: 26%;
     position: absolute;
     top: 34.4%;
     left: 61%;
+}
+.btn10-page-6{
+    position: absolute;
+    top: 10.4%;
+    left: 91%;
+}
+.btn11-page-6{
+    position: absolute;
+    top: 13.4%;
+    left: 91%;
+}
+.btn12-page-6{
+    position: absolute;
+    top: 16.4%;
+    left: 91%;
+}
+.btn13-page-6{
+    position: absolute;
+    top: 19.4%;
+    left: 91%;
+}
+.btn14-page-6{
+    position: absolute;
+    top: 22.4%;
+    left: 91%;
+}
+.btn15-page-6{
+    position: absolute;
+    top: 25.4%;
+    left: 91%;
+}
+.btn16-page-6{
+    position: absolute;
+    top: 28.4%;
+    left: 91%;
+}
+.btn17-page-6{
+    position: absolute;
+    top: 31.4%;
+    left: 91%;
+}
+.btn18-page-6{
+    position: absolute;
+    top: 34.4%;
+    left: 91%;
+}
+.btn19-page-6{
+    position: absolute;
+    top: 54.8%;
+    left: 28%;
+}
+.btn20-page-6{
+    position: absolute;
+    top: 58.8%;
+    left: 33%;
+}
+.btn21-page-6{
+    position: absolute;
+    top: 62.3%;
+    left: 27%;
+}
+.btn22-page-6{
+    position: absolute;
+    top: 62.3%;
+    left: 42%;
+}
+.btn23-page-6{
+    position: absolute;
+    top: 72.8%;
+    left: 60%;
+}
+.btn24-page-6{
+    position: absolute;
+    top: 72.5%;
+    left: 72%;
+}
+.btn25-page-6{
+    position: absolute;
+    top: 76%;
+    left: 59%;
+}
+.btn26-page-6{
+    position: absolute;
+    top: 75.8%;
+    left: 68.5%;
+}
+.btn27-page-6{
+    position: absolute;
+    top: 78.5%;
+    left: 60%;
+}
+.btn28-page-6{
+    position: absolute;
+    top: 82.8%;
+    left: 68%;
 }
