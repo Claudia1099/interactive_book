@@ -548,8 +548,13 @@
     .subTitulo1-page-9, .subTitulo2-page-9{
         font-size: 11px;
     }
-    .item1-page-9, .item2-page-9, .btn1-page-9, .btn2-page-9, .btn3-page-9,
-    .btn4-page-9, .btn5-page-9, .btn6-page-9{
+    .item1-page-9, .item2-page-9, .item3-page-9, .item4-page-9, .item5-page-9,
+    .item6-page-9, .item7-page-9, .item8-page-9, .item9-page-9, .item10-page-9,
+    .item11-page-9, .btn1-page-9, .btn2-page-9, .btn3-page-9, .btn4-page-9,
+    .btn5-page-9, .btn6-page-9, .btn7-page-9, .btn8-page-9, .btn9-page-9,
+    .btn10-page-9, .btn11-page-9, .btn12-page-9, .btn13-page-9, .btn14-page-9,
+    .btn15-page-9, .btn16-page-9, .btn17-page-9, .btn18-page-9, .btn19-page-9,
+    .btn20-page-9{
         font-size: 9px;
     }
     .result1-page-9{
@@ -569,6 +574,11 @@
     }
     .result6-page-9{
         left: 44.5%;
+    }
+    .result7-page-9, .result8-page-9, .result9-page-9, .result10-page-9, .result11-page-9,
+    .result12-page-9, .result13-page-9, .result14-page-9, .result15-page-9, .result16-page-9,
+    .result17-page-9, .result18-page-9, .result19-page-9, .result20-page-9{
+        left: 35%;
     }
     .btn1-page-9{
         top: 5.5%;
@@ -593,6 +603,61 @@
         top: 23.7%;
         left: 86.5%;
     }
+    /***************************************************/
+    /***************************************************/
+    /**********************Page 10***********************/
+    /***************************************************/
+    /***************************************************/
+    .unidadTitulo-page-10{
+        font-size: 22px;
+        top: .5%;
+        left: 13%;
+    }
+    .titulo1-page-10{
+        font-size: 18px;
+    }
+    .item1-page-10, .item2-page-10, .item3-page-10, .item4-page-10,
+    .item5-page-10, .item6-page-10, .item7-page-10, .item8-page-10,
+    .item9-page-10, .item10-page-10, .item11-page-10, .item12-page-10,
+    .btn1-page-10, .btn2-page-10, .btn3-page-10, .btn4-page-10{
+        font-size: 9px;
+    }
+    .subTitulo1-page-10{
+        font-size: 11px;
+    }
+    .result1-page-10{
+        top: 57.5%;
+        left: 20.5%;
+    }
+    .result2-page-10{
+        top: 68%;
+        left: 20.5%;
+    }
+    .result3-page-10{
+        top: 78.5%;
+        left: 20.5%;
+    }
+    .result4-page-10{
+        top: 89.5%;
+        left: 20.5%;
+    }
+    .btn1-page-10{
+        top: 64.8%;
+        left: 95.5%;
+    }
+    .btn2-page-10{
+        top: 67.5%;
+        left: 95.5%;
+    }
+    .btn3-page-10{
+        top: 70.3%;
+        left: 95.5%;
+    }
+    .btn4-page-10{
+        top: 73%;
+        left: 95.5%;
+    }
+
 }
 @media screen and (max-width: 375px){
     /*Page 5*/
