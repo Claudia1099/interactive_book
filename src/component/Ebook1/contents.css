@@ -48,6 +48,10 @@
     position: relative;
     padding-right: 5%;
 }
+.img12{
+    position: relative;
+    padding-right: 5%;
+}
 .item1{
     position: absolute;
     top: 16.5%;
@@ -2254,6 +2258,11 @@ left: 26%;
     left: 70%;
     list-style: upper-alpha;
 }
+.item12-page-9{
+    position: absolute;
+    top: 95.5%;
+    left: 90%;
+}
 .result1-page-9{
     position: absolute;
     left: 36%;
@@ -2533,6 +2542,11 @@ left: 26%;
     left: 57%;
     list-style: circle;
 }
+.item13-page-10{
+    position: absolute;
+    top: 95.5%;
+    left: 90%;
+}
 .result1-page-10{
     position: absolute;
     top: 57%;
@@ -2572,4 +2586,193 @@ left: 26%;
     position: absolute;
     top: 74.5%;
     left: 94%;
+}
+/***************************************************/
+/***************************************************/
+/**********************Page 11***********************/
+/***************************************************/
+/***************************************************/
+.item1-page-11{
+    position: absolute;
+    top: 24%;
+    left: 10%;
+    list-style: none;
+}
+.item2-page-11{
+    position: absolute;
+    top: 24%;
+    left: 55%;
+    list-style: none;
+}
+.item3-page-11{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    list-style: none;
+}
+.item4-page-11{
+    position: absolute;
+    top: 70%;
+    left: 55%;
+    list-style: none;
+}
+.result1-page-11{
+    position: absolute;
+    top: 15.5%;
+    left: 34.7%;
+}
+.result2-page-11{
+    position: absolute;
+    top: 50%;
+    left: 34%;
+}
+.result3-page-11{
+    position: absolute;
+    top: 15.5%;
+    left: 34%;
+}
+.result4-page-11{
+    position: absolute;
+    top: 50%;
+    left: 34%;
+}
+.result5-page-11{
+    position: absolute;
+    top: 0%;
+    left: 21.5%;
+}
+.result6-page-11{
+    position: absolute;
+    top: 15.8%;
+    left: 34%;
+}
+.result7-page-11{
+    position: absolute;
+    top: 33%;
+    left: 22%;
+}
+.result8-page-11{
+    position: absolute;
+    top: 50%;
+    left: 34%;
+}
+.result9-page-11{
+    position: absolute;
+    top: 66.5%;
+    left: 22%;
+}
+.result10-page-11{
+    position: absolute;
+    top: 83.5%;
+    left: 22%;
+}
+.result11-page-11{
+    position: absolute;
+    top: 0%;
+    left: 21.5%;
+}
+.result12-page-11{
+    position: absolute;
+    top: 15.8%;
+    left: 34%;
+}
+.result13-page-11{
+    position: absolute;
+    top: 33%;
+    left: 22%;
+}
+.result14-page-11{
+    position: absolute;
+    top: 50%;
+    left: 34%;
+}
+.result15-page-11{
+    position: absolute;
+    top: 66.5%;
+    left: 22%;
+}
+.result16-page-11{
+    position: absolute;
+    top: 83.5%;
+    left: 22%;
+}
+.btn1-page-11{
+    position: absolute;
+    top: 26.5%;
+    left: 45%;
+}
+.btn2-page-11{
+    position: absolute;
+    top: 32.5%;
+    left: 45.5%;
+}
+.btn3-page-11{
+    position: absolute;
+    top: 26.5%;
+    left: 91%;
+}
+.btn4-page-11{
+    position: absolute;
+    top: 32.5%;
+    left: 91.7%;
+}
+.btn5-page-11{
+    position: absolute;
+    top: 69.5%;
+    left: 46.5%;
+}
+.btn6-page-11{
+    position: absolute;
+    top: 72.5%;
+    left: 46.5%;
+}
+.btn7-page-11{
+    position: absolute;
+    top: 75.5%;
+    left: 46.5%;
+}
+.btn8-page-11{
+    position: absolute;
+    top: 78.5%;
+    left: 46.5%;
+}
+.btn9-page-11{
+    position: absolute;
+    top: 81.5%;
+    left: 46.5%;
+}
+.btn10-page-11{
+    position: absolute;
+    top: 84.5%;
+    left: 46.5%;
+}
+.btn11-page-11{
+    position: absolute;
+    top: 69.5%;
+    left: 91.5%;
+}
+.btn12-page-11{
+    position: absolute;
+    top: 72.5%;
+    left: 91.5%;
+}
+.btn13-page-11{
+    position: absolute;
+    top: 75.5%;
+    left: 91.5%;
+}
+.btn14-page-11{
+    position: absolute;
+    top: 78.5%;
+    left: 91.5%;
+}
+.btn15-page-11{
+    position: absolute;
+    top: 81.5%;
+    left: 91.5%;
+}
+.btn16-page-11{
+    position: absolute;
+    top: 84.5%;
+    left: 91.5%;
 }
