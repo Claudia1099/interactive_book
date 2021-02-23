@@ -2683,10 +2683,10 @@ class EBook1  extends Component{
                     <li>No, it isn't a pencil.</li>
                     <li>Yes, they are sharpeners.</li>
                     <li>No, they aren't sheets of paper.</li>
-                    <li><span className="result1-page-10">{this.state.ans1Page10}</span>________________________________.</li>
-                    <li><span className="result2-page-10">{this.state.ans2Page10}</span>________________________________.</li>
-                    <li><span className="result3-page-10">{this.state.ans3Page10}</span>________________________________.</li>
-                    <li><span className="result4-page-10">{this.state.ans4Page10}</span>________________________________.</li>
+                    <li><span className="result1-page-10">{this.state.ans1Page10}</span>_____________________________.</li>
+                    <li><span className="result2-page-10">{this.state.ans2Page10}</span>_____________________________.</li>
+                    <li><span className="result3-page-10">{this.state.ans3Page10}</span>_____________________________.</li>
+                    <li><span className="result4-page-10">{this.state.ans4Page10}</span>_____________________________.</li>
                 </ul>
                 <span className="item13-page-10"><small>Page 10</small></span>
                 <a href="#" className="btn1-page-10" onClick={() => this.edit1Page10()}><i className="fas fa-pencil-alt"></i></a>
@@ -2730,6 +2730,7 @@ class EBook1  extends Component{
                         <li><b>A. </b><span className="result15-page-11">{this.state.ans15Page11}</span> ___________________________?</li>
                         <li><b>B. </b><span className="result16-page-11">{this.state.ans16Page11}</span> ____________________________</li>
                     </ol>
+                    <span className="item5-page-11"><small>Page 11</small></span>
                     <a href="#" className="btn1-page-11" onClick={() => this.edit1Page11()}><i className="fas fa-pencil-alt"></i></a>
                     <a href="#" className="btn2-page-11" onClick={() => this.edit2Page11()}><i className="fas fa-pencil-alt"></i></a>
                     <a href="#" className="btn3-page-11" onClick={() => this.edit3Page11()}><i className="fas fa-pencil-alt"></i></a>

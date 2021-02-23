@@ -9,12 +9,12 @@
     .item13, .item14, .item15, .item16, .item17, .item18,
     .item19, .item20, .item21, .item22, .item23, .item24,
     .item25, .item26{
-        font-size: 12px;
+        font-size: 10px;
     }
     .circle1, .circle2, .circle3, .circle4, .circle5, .circle6,
     .circle7, .circle8, .circle9, .circle10, .circle11, .circle12,
     .circle13{
-        font-size: 16px;
+        font-size: 15px;
     }
     /***************************************************/
     /***************************************************/
@@ -23,8 +23,8 @@
     /***************************************************/
     .titulo-page-1{
         font-size: 22px;
-        top: .5%;
-        left: 12%;
+        top: 0%;
+        left: 10.5%;
     }
     .subTitulo1-page-1,.subTitulo2-page-1{
         font-size: 13px;
@@ -260,7 +260,7 @@
     .btn6-page-4, .btn7-page-4, .btn8-page-4, .btn9-page-4, .btn10-page-4,
     .btn11-page-4, .btn12-page-4, .btn13-page-4, .btn14-page-4, .btn15-page-4,
     .btn16-page-4, .btn17-page-4, .btn18-page-4, .btn19-page-4{
-        font-size: 10px;
+        font-size: 9px;
     }
     /***************************************************/
     /***************************************************/
@@ -268,11 +268,11 @@
     /***************************************************/
     /***************************************************/
     .titulo-page-5{
-        font-size: 13px;
+        font-size: 11px;
     }
     /*Cuadros Classmate 1 y 2*/
     .subTitulo1-page-5, .subTitulo2-page-5, .subTitulo3-page-5{
-        font-size: 11px;
+        font-size: 10px;
         font-weight: bold;
     }
     .item2-page-5, .item3-page-5, .item4-page-5, .item5-page-5,
@@ -284,24 +284,24 @@
     .result8-page-5, .result9-page-5, .result10-page-5, .result11-page-5,
     .result12-page-5, .result13-page-5, .result14-page-5, .result15-page-5,
     .result16-page-5, .result17-page-5, .result18-page-5, .result19-page-5{
-        font-size: 9px;
+        font-size: 8px;
     }
     /*Parrafo Reading*/
     .item18-page-5{
-        font-size: 8.6px;
+        font-size: 7.3px;
     }
     /*Cuadro Final*/
     .item19-page-5, .item20-page-5, .item21-page-5, .item22-page-5,
     .item23-page-5, .item24-page-5, .item25-page-5, .item26-page-5,
     .item27-page-5, .item28-page-5{
-        font-size: 9px;
+        font-size: 8px;
     }
     /*Botones Editar*/
     .btn1-page-5, .btn2-page-5, .btn3-page-5, .btn4-page-5, .btn5-page-5,
     .btn6-page-5, .btn7-page-5, .btn8-page-5, .btn9-page-5, .btn10-page-5,
     .btn11-page-5, .btn12-page-5, .btn13-page-5, .btn14-page-5, .btn15-page-5,
     .btn16-page-5, .btn17-page-5, .btn18-page-5, .btn19-page-5{
-        font-size: 10px;
+        font-size: 9px;
     }
     /***************************************************/
     /***************************************************/
@@ -314,7 +314,7 @@
     .item16-page-6, .item17-page-6, .item18-page-6, .item19-page-6, .item20-page-6,
     .item21-page-6, .item22-page-6, .item23-page-6, .item24-page-6, .item25-page-6,
     .item26-page-6, .item27-page-6, .item28-page-6, .item29-page-6{
-        font-size: 8.5px;
+        font-size: 8px;
     }
     .btn1-page-6, .btn2-page-6, .btn3-page-6, .btn4-page-6, .btn5-page-6,
     .btn6-page-6, .btn7-page-6, .btn8-page-6, .btn9-page-6, .btn10-page-6,
@@ -325,92 +325,74 @@
         font-size: 9px;
     }
     .item1-page-6{
-        position: absolute;
         top: 10.8%;
         left: 54.5%;
     }
     .item2-page-6{
-        position: absolute;
         top: 13.8%;
         left: 54.5%;
     }
     .item3-page-6{
-        position: absolute;
         top: 16.8%;
         left: 54.5%;
     }
     .item4-page-6{
-        position: absolute;
         top: 19.8%;
         left: 54.5%;
     }
     .item5-page-6{
-        position: absolute;
         top: 22.8%;
         left: 54.5%;
     }
     .item6-page-6{
-        position: absolute;
         top: 25.8%;
         left: 54.5%;
     }
     .item7-page-6{
-        position: absolute;
         top: 28.8%;
         left: 54.5%;
     }
     .item8-page-6{
-        position: absolute;
         top: 31.8%;
         left: 54.5%;
     }
     .item9-page-6{
-        position: absolute;
         top: 34.8%;
         left: 54.5%;
     }
     .item10-page-6{
-        position: absolute;
         top: 10.6%;
         left: 83.9%;
     }
     .item11-page-6{
-        position: absolute;
         top: 13.6%;
         left: 82.7%;
     }
     .item12-page-6{
-        position: absolute;
         top: 16.6%;
         left: 83%;
     }
     .item13-page-6{
-        position: absolute;
         top: 19.6%;
         left: 83.9%;
     }
     .item14-page-6{
-        position: absolute;
         top: 22.6%;
         left: 83%;
     }
     .item15-page-6{
-        position: absolute;
         top: 25.6%;
         left: 83.9%;
     }
     .item16-page-6{
-        position: absolute;
         top: 28.6%;
         left: 83.9%;
     }
     .item17-page-6{
-        position: absolute;
         top: 31.6%;
         left: 83.9%;
     }
     .item18-page-6{
-        position: absolute;
         top: 34.6%;
         left: 83.9%;
     }
@@ -440,32 +422,37 @@
     .item9-page-7, .item10-page-7, .item11-page-7, .result1-page-7,
     .result2-page-7, .result3-page-7, .result4-page-7, .result5-page-7,
     .result6-page-7{
-        font-size: 9px;
+        font-size: 8px;
     }
     .btn1-page-7, .btn2-page-7, .btn3-page-7, .btn4-page-7,
     .btn5-page-7, .btn6-page-7{
         font-size: 9px;
     }
     .result1-page-7{
-        left: 28%;
+        left: 28.5%;
     }
     .btn1-page-7{
-        left: 43%;
+        left: 45%;
     }
     .btn2-page-7{
-        left: 32.5%;
+        top: 57%;
+        left: 33%;
     }
     .btn3-page-7{
-        left: 33.9%;
+        top: 64%;
+        left: 34%;
     }
     .btn4-page-7{
-        left: 47.8%;
+        top: 70.8%;
+        left: 49%;
     }
     .btn5-page-7{
-        left: 44%;
+        top: 77.5%;
+        left: 45.5%;
     }
     .btn6-page-7{
-        left: 38.3%;
+        top: 84.7%;
+        left: 39%;
     }
     /***************************************************/
     /***************************************************/
@@ -550,11 +537,13 @@
     }
     .item1-page-9, .item2-page-9, .item3-page-9, .item4-page-9, .item5-page-9,
     .item6-page-9, .item7-page-9, .item8-page-9, .item9-page-9, .item10-page-9,
-    .item11-page-9, .item12-page-9, .btn1-page-9, .btn2-page-9, .btn3-page-9,
-    .btn4-page-9, .btn5-page-9, .btn6-page-9, .btn7-page-9, .btn8-page-9,
-    .btn9-page-9, .btn10-page-9, .btn11-page-9, .btn12-page-9, .btn13-page-9,
-    .btn14-page-9, .btn15-page-9, .btn16-page-9, .btn17-page-9, .btn18-page-9,
-    .btn19-page-9, .btn20-page-9{
+    .item11-page-9, .item12-page-9{
+        font-size: 8px;
+    }
+    .btn1-page-9, .btn2-page-9, .btn3-page-9, .btn4-page-9, .btn5-page-9,
+    .btn6-page-9, .btn7-page-9, .btn8-page-9, .btn9-page-9, .btn10-page-9,
+    .btn11-page-9, .btn12-page-9, .btn13-page-9, .btn14-page-9, .btn15-page-9,
+    .btn16-page-9, .btn17-page-9, .btn18-page-9, .btn19-page-9, .btn20-page-9{
         font-size: 9px;
     }
     .result1-page-9{
@@ -580,69 +569,76 @@
     .result17-page-9, .result18-page-9, .result19-page-9, .result20-page-9{
         left: 35%;
     }
-    .btn1-page-9{
-        top: 5.5%;
-        left: 76.5%;
-    }
-    .btn2-page-9{
-        top: 8.3%;
-        left: 76.5%;
-    }
     .btn3-page-9{
-        left: 87%;
+        top: 11%;
+        left: 90%;
     }
     .btn4-page-9{
-        top: 13.6%;
-        left: 87%;
+        top: 14%;
+        left: 90%;
     }
     .btn5-page-9{
-        top: 21.2%;
-        left: 86.7%;
+        top: 22%;
+        left: 90%;
     }
     .btn6-page-9{
-        top: 23.7%;
-        left: 86.5%;
+        top: 25%;
+        left: 90%;
     }
     .btn7-page-9{
-        left: 31.5%;
+        top: 47.5%;
+        left: 32%;
     }
     .btn8-page-9{
-        left: 66.5%;
+        top: 47.5%;
+        left: 67%;
     }
     .btn9-page-9{
-        left: 93.5%;
+        top: 44.8%;
+        left: 94%;
     }
     .btn10-page-9{
-        left: 31.5%;
+        top: 69.5%;
+        left: 32%;
     }
     .btn11-page-9{
+        top: 66.5%;
         left: 67.5%;
     }
     .btn12-page-9{
+        top: 69.5%;
         left: 67.5%;
     }
     .btn13-page-9{
+        top: 66.5%;
         left: 94.5%;
     }
     .btn14-page-9{
+        top: 69.5%;
         left: 94.5%;
     }
     .btn15-page-9{
-        left: 32.5%;
+        top: 86.8%;
+        left: 33%;
     }
     .btn16-page-9{
-        left: 32.5%;
+        top: 90%;
+        left: 33%;
     }
     .btn17-page-9{
-        left: 67.5%;
+        top: 86.8%;
+        left: 68%;
     }
     .btn18-page-9{
-        left: 67.6%;
+        top: 89.8%;
+        left: 68%;
     }
     .btn19-page-9{
+        top: 86.8%;
         left: 94.5%;
     }
     .btn20-page-9{
+        top: 89.8%;
         left: 94.5%;
     }
     /***************************************************/
@@ -663,49 +659,51 @@
     .item9-page-10, .item10-page-10, .item11-page-10, .item12-page-10,
     .item13-page-10, .btn1-page-10, .btn2-page-10, .btn3-page-10,
     .btn4-page-10{
-        font-size: 9px;
+        font-size: 8px;
     }
     .subTitulo1-page-10{
         font-size: 11px;
     }
     .result1-page-10{
-        top: 57.5%;
-        left: 20.5%;
+        top: 60%;
+        left: 22%;
     }
     .result2-page-10{
-        top: 68%;
-        left: 20.5%;
+        top: 69%;
+        left: 22%;
     }
     .result3-page-10{
-        top: 78.5%;
-        left: 20.5%;
+        top: 79%;
+        left: 22%;
     }
     .result4-page-10{
         top: 89.5%;
-        left: 20.5%;
+        left: 22%;
     }
     .btn1-page-10{
-        top: 64.8%;
-        left: 95.5%;
+        top: 66.5%;
+        left: 96%;
     }
     .btn2-page-10{
-        top: 67.5%;
-        left: 95.5%;
+        top: 69.5%;
+        left: 96%;
     }
     .btn3-page-10{
-        top: 70.3%;
-        left: 95.5%;
+        top: 72.5%;
+        left: 96%;
     }
     .btn4-page-10{
-        top: 73%;
-        left: 95.5%;
+        top: 75.5%;
+        left: 96%;
     }
     /***************************************************/
     /***************************************************/
     /**********************Page 11***********************/
     /***************************************************/
     /***************************************************/
-    .item1-page-11, .item2-page-11, .item3-page-11, .item4-page-11,
+    .item1-page-11, .item2-page-11, .item3-page-11, .item4-page-11, .item5-page-11{
+        font-size: 8px;
+    }
     .btn1-page-11, .btn2-page-11, .btn3-page-11, .btn4-page-11,
     .btn5-page-11, .btn6-page-11, .btn7-page-11, .btn8-page-11,
     .btn9-page-11, .btn10-page-11, .btn11-page-11, .btn12-page-11,
@@ -713,120 +711,104 @@
         font-size: 9px;
     }
     .result1-page-11{
-        top: 16%;
-        left: 41%;
+        left: 42.5%;
     }
     .result2-page-11{
-        left: 41%;
+        left: 42.5%;
     }
     .result3-page-11{
-        position: absolute;
-        top: 16%;
-        left: 40%;
+        left: 41%;
     }
     .result4-page-11{
-        left: 40%;
+        left: 41%;
     }
     .result5-page-11{
-        left: 29%;
+        left: 31%;
     }
     .result6-page-11{
         top: 16.5%;
-        left: 40%;
+        left: 42%;
     }
     .result7-page-11{
-        position: absolute;
-        top: 33.5%;
-        left: 29%;
+        left: 31%;
     }
     .result8-page-11{
-        left: 40%;
+        left: 41%;
     }
     .result9-page-11{
-        left: 29%;
+        left: 31%;
     }
     .result10-page-11{
-        left: 29%;
+        left: 31%;
     }
     .result11-page-11{
         top: 0%;
-        left: 29%;
+        left: 31%;
     }
     .result12-page-11{
         top: 16.5%;
-        left: 40%;
+        left: 41.5%;
     }
     .result13-page-11{
         top: 33.5%;
-        left: 29%;
+        left: 31%;
     }
     .result14-page-11{
-        left: 40%;
+        left: 41%;
     }
     .result15-page-11{
-        left: 29%;
+        left: 31%;
     }
     .result16-page-11{
-        left: 29%;
+        left: 31%;
     }
     .btn1-page-11{
-        left: 46.5%;
+        left: 49.5%;
     }
     .btn2-page-11{
-        top: 31.8%;
-        left: 47%;
+        left: 49.5%;
     }
     .btn3-page-11{
-        left: 92.5%;
+        left: 95%;
     }
     .btn4-page-11{
-        position: absolute;
-        top: 31.8%;
-        left: 93%;
+        left: 95.5%;
     }
     .btn5-page-11{
-        left: 47.7%;
+        left: 50.5%;
     }
     .btn6-page-11{
-        left: 47.7%;
+        left: 50.5%;
     }
     .btn7-page-11{
-        top: 75%;
-        left: 47.7%;
+        left: 50.5%;
     }
     .btn8-page-11{
-        top: 78%;
-        left: 47.7%;
+        left: 50.5%;
     }
     .btn9-page-11{
-        top: 80.5%;
-        left: 47.7%;
+        left: 50.5%;
     }
     .btn10-page-11{
-        top: 83.2%;
-        left: 47.7%;
+        left: 50.5%;
     }
     .btn11-page-11{
-        left: 92.7%;
+        left: 95.5%;
     }
     .btn12-page-11{
-        left: 92.7%;
+        left: 95.5%;
     }
     .btn13-page-11{
-        top: 75%;
-        left: 92.7%;
+        left: 95.5%;
     }
     .btn14-page-11{
-        top: 77.5%;
-        left: 92.7%;
+        left: 95.5%;
     }
     .btn15-page-11{
-        top: 80.3%;
-        left: 92.7%;
+        left: 95.5%;
     }
     .btn16-page-11{
-        top: 83.2%;
-        left: 92.7%;
+        left: 95.5%;
     }
 
 }
