@@ -548,8 +548,50 @@
     .subTitulo1-page-9, .subTitulo2-page-9{
         font-size: 11px;
     }
-    .item1-page-9, .item2-page-9{
+    .item1-page-9, .item2-page-9, .btn1-page-9, .btn2-page-9, .btn3-page-9,
+    .btn4-page-9, .btn5-page-9, .btn6-page-9{
         font-size: 9px;
+    }
+    .result1-page-9{
+        left: 40.7%;
+    }
+    .result2-page-9{
+        left: 40.7%;
+    }
+    .result3-page-9{
+        left: 45%;
+    }
+    .result4-page-9{
+        left: 45%;
+    }
+    .result5-page-9{
+        left: 38.4%;
+    }
+    .result6-page-9{
+        left: 44.5%;
+    }
+    .btn1-page-9{
+        top: 5.5%;
+        left: 76.5%;
+    }
+    .btn2-page-9{
+        top: 8.3%;
+        left: 76.5%;
+    }
+    .btn3-page-9{
+        left: 87%;
+    }
+    .btn4-page-9{
+        top: 13.6%;
+        left: 87%;
+    }
+    .btn5-page-9{
+        top: 21.2%;
+        left: 86.7%;
+    }
+    .btn6-page-9{
+        top: 23.7%;
+        left: 86.5%;
     }
 }
 @media screen and (max-width: 375px){

@@ -89,7 +89,14 @@ class EBook1  extends Component{
             ans3Page7 : "",
             ans4Page7 : "",
             ans5Page7 : "",
-            ans6Page7 : ""        }
+            ans6Page7 : "",
+            ans1Page7 : "",
+            ans2Page7 : "",
+            ans3Page7 : "",
+            ans4Page7 : "",
+            ans5Page7 : "",
+            ans6Page7 : "" 
+        }
     }
     edit1Page2 = () =>{
         
@@ -1496,6 +1503,108 @@ class EBook1  extends Component{
             }
         })
     }
+    edit1Page9 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans1Page9 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit2Page9 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans2Page9 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit3Page9 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans3Page9 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit4Page9 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans4Page9 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit5Page9 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans5Page9 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit6Page9 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans6Page9 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
     render(){
         return(
             
@@ -1977,15 +2086,21 @@ class EBook1  extends Component{
             </ul>
             <h5 className="subTitulo2-page-9">STUDENT:</h5>
             <ul className="item2-page-9">
-                <li><b>ANSWER:</b> ___________________ book</li>
-                <li><b>ANSWER:</b> ___________________ books</li>
-                <li><b>QUESTION:</b> ___________________________</li>
-                <li><b>QUESTION:</b> ___________________________</li>
+                <li><b>ANSWER:</b><span className="result1-page-9">{this.state.ans1Page9}</span> ___________________ book</li>
+                <li><b>ANSWER:</b><span className="result2-page-9">{this.state.ans2Page9}</span> ___________________ books</li>
+                <li><b>QUESTION:</b><span className="result3-page-9">{this.state.ans3Page9}</span> ___________________________</li>
+                <li><b>QUESTION:</b><span className="result4-page-9">{this.state.ans4Page9}</span> ___________________________</li>
                 <li><b>PLURAL:</b> They are chairs</li>
                 <li><b>SINGULAR:</b> It's a map</li>
-                <li><b>PLURAL:</b> ______________________________</li>
-                <li><b>SINGULAR:</b> ___________________________</li>
+                <li><b>PLURAL:</b><span className="result5-page-9">{this.state.ans5Page9}</span> ______________________________</li>
+                <li><b>SINGULAR:</b><span className="result6-page-9">{this.state.ans6Page9}</span> ___________________________</li>
             </ul>
+            <a href="#" className="btn1-page-9" onClick={() => this.edit1Page9()}><i className="fas fa-pencil-alt"></i></a>
+            <a href="#" className="btn2-page-9" onClick={() => this.edit2Page9()}><i className="fas fa-pencil-alt"></i></a>
+            <a href="#" className="btn3-page-9" onClick={() => this.edit3Page9()}><i className="fas fa-pencil-alt"></i></a>
+            <a href="#" className="btn4-page-9" onClick={() => this.edit4Page9()}><i className="fas fa-pencil-alt"></i></a>
+            <a href="#" className="btn5-page-9" onClick={() => this.edit5Page9()}><i className="fas fa-pencil-alt"></i></a>
+            <a href="#" className="btn6-page-9" onClick={() => this.edit6Page9()}><i className="fas fa-pencil-alt"></i></a>
             </div>
         </div>
         <div className="col-md-6 offset-md-3 mb-3">
