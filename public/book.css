@@ -38,7 +38,7 @@
 }
 .bloque{
     display:flex;justify-content:center;
-    font-size:0.7em;width:100%;
+    font-size:0.7em;width:90%;
     font-family:'Arial','sans-serif';
 }
 .linea{
@@ -52,6 +52,11 @@
     font-size:2em;
 }
 table{
+    width: 90%;
+    padding: 0%;
+    margin: 0%;
+}
+.table{
     width: 90%;
     padding: 0%;
     margin: 0%;
@@ -75,6 +80,7 @@ table{
 }
 .txt-ali{
     text-align: justify;
+    font-size: 1.1em;
 }
 .imgtimes{
     width: 150px;
@@ -108,4 +114,10 @@ table{
 }
 .rellenoPc{
     margin-top:10px;width:200px;
+}
+.display360{
+    display:table-row;
+}
+.display640{
+    display:none;
 }
