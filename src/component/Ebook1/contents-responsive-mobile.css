@@ -810,6 +810,40 @@
     .btn16-page-11{
         left: 95.5%;
     }
+    /***************************************************/
+    /***************************************************/
+    /**********************Page 12***********************/
+    /***************************************************/
+    /***************************************************/
+    .item1-page-12, .item2-page-12, .item3-page-12, .item4-page-12,
+    .item5-page-12, .item6-page-12, .item7-page-12, .result1-page-12,
+    .result2-page-12, .result3-page-12, .result4-page-12, .result5-page-12,
+    .result6-page-12, .result7-page-12, .result8-page-12, .result9-page-12,
+    .result10-page-12, .result11-page-12, .result12-page-12, .result13-page-12,
+    .result14-page-12, .result15-page-12, .result16-page-12, .result17-page-12,
+    .result18-page-12, .result19-page-12{
+        font-size: 8px;
+    }
+    .result1-page-12, .result2-page-12, .result3-page-12, .result4-page-12,
+    .result5-page-12, .result6-page-12, .result7-page-12, .result8-page-12,
+    .result9-page-12, .result10-page-12, .result11-page-12, .result12-page-12,
+    .result13-page-12, .result14-page-12, .result15-page-12, .result16-page-12,
+    .result17-page-12, .result18-page-12, .result19-page-12{
+        margin-left: 4%;
+    }
+    .btn1-page-12, .btn2-page-12, .btn3-page-12, .btn4-page-12,
+    .btn5-page-12, .btn6-page-12, .btn7-page-12, .btn8-page-12,
+    .btn9-page-12, .btn10-page-12, .btn11-page-12, .btn12-page-12,
+    .btn13-page-12, .btn14-page-12, .btn15-page-12, .btn16-page-12,
+    .btn17-page-12, .btn18-page-12, .btn19-page-12{
+        font-size: 9px;
+        margin-left: 4.5%;
+    }
+    /***************************************************/
+    /***************************************************/
+    /**********************Page 13***********************/
+    /***************************************************/
+    /***************************************************/
 
 }
 @media screen and (max-width: 375px){
