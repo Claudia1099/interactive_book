@@ -75,6 +75,11 @@
     padding-top: 10%;
     padding-right: 5%;
 }
+.img18{
+    position: relative;
+    padding-top: 10%;
+    padding-right: 5%;
+}
 .item1{
     position: absolute;
     top: 16.5%;
@@ -3295,3 +3300,160 @@ left: 26%;
 /**********************Page 16***********************/
 /***************************************************/
 /***************************************************/
+@font-face{
+    font-family: "Courgette";
+    src: url("../../assets/Courgette-Regular.ttf");
+}
+.titulo1-page-16{
+    position: absolute;
+    top: 8%;
+    left: 40%;
+    color: #fff;
+}
+.titulo2-page-16{
+    position: absolute;
+    top: 46.8%;
+    left: 13%;
+    color: #fff;
+}
+.subTitulo1-page-16{
+    position: absolute;
+    top: 26%;
+    left: 28%;
+    font-weight: bold;
+}
+.item1-page-16{
+    position: absolute;
+    top: 15%;
+    left: 13%;
+    font-family: "Courgette";
+    font-size: 19px;
+}
+.item2-page-16{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    font-family: "Courgette";
+    font-size: 19px;
+}
+.item3-page-16{
+    position: absolute;
+    top: 15.5%;
+    left: 68%;
+}
+.item4-page-16{
+    position: absolute;
+    top: 19.5%;
+    left: 13%;
+    font-family: "Courgette";
+    font-size: 19px;
+}
+.item5-page-16{
+    position: absolute;
+    top: 19.5%;
+    left: 30%;
+    font-family: "Courgette";
+    font-size: 19px;
+}
+.item6-page-16{
+    position: absolute;
+    top: 19.5%;
+    left: 55%;
+    font-family: "Courgette";
+    font-size: 19px;
+}
+.item7-page-16{
+    position: absolute;
+    top: 19.5%;
+    left: 56%;
+    font-family: "Courgette";
+    font-size: 19px;
+}
+.item8-page-16{
+    position: absolute;
+    top: 29%;
+    left: 13%;
+    font-size: 12px;
+}
+.item9-page-16{
+    position: absolute;
+    top: 50%;
+    left: 13%;
+    font-size: 13px;
+}
+.item10-page-16{
+    position: absolute;
+    top: 52.5%;
+    left: 22.5%;
+    font-size: 13px;
+}
+.item11-page-16{
+    position: absolute;
+    top: 57%;
+    left: 13%;
+    font-size: 14px;
+}
+.item12-page-16{
+    position: absolute;
+    top: 95.5%;
+    left: 90%;
+}
+.result1-page-16, .result2-page-16, .result3-page-16, .result4-page-16, .result5-page-16,
+.result6-page-16, .result7-page-16, .result8-page-16, .result9-page-16, .result10-page-16,
+.result11-page-16, .result12-page-16, .result13-page-16, .result14-page-16, .result15-page-16,
+.result16-page-16, .result17-page-16, .result18-page-16, .result19-page-16{
+    position: absolute;
+    margin-left: 1%;
+}
+/***************************************************/
+/***************************************************/
+/**********************Page 17***********************/
+/***************************************************/
+/***************************************************/
+.titulo1-page-17{
+    position: absolute;
+    top: 7%;
+    left: 12.5%;
+    color: #fff;
+}
+.item1-page-17{
+    position: absolute;
+    top: 13%;
+    left: 7%;
+    list-style: none;
+}
+.item2-page-17{
+    position: absolute;
+    top: 16%;
+    left: 38%;
+}
+.item3-page-17{
+    position: absolute;
+    top: 16%;
+    left: 58%;
+    list-style: none;
+}
+.item4-page-17{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+.item5-page-17{
+    position: absolute;
+    top: 66%;
+    left: 12.5%;
+    font-size: 15px;
+}
+.item5-page-17 > li{
+    margin-bottom: 1%;
+}
+.result1-page-17, .result2-page-17, .result3-page-17, .result4-page-17,
+.result5-page-17, .result6-page-17, .result7-page-17, .result8-page-17,
+.result9-page-17, .result10-page-17, .result11-page-17, .result12-page-17,
+.result13-page-17, .result14-page-17, .result15-page-17{
+    position: absolute;
+    margin-left: 1%;
+}
+.fuente-curva{
+    font-family: "Courgette";
+}

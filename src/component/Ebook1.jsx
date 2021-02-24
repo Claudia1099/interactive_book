@@ -2654,6 +2654,584 @@ class EBook1  extends Component{
             }
         })
     }
+    edit1Page16 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans1Page16 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit2Page16 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans2Page16 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit3Page16 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans3Page16 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit4Page16 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans4Page16 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit5Page16 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans5Page16 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit6Page16 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans6Page16 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit7Page16 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans7Page16 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit8Page16 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans8Page16 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit9Page16 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans9Page16 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit10Page16 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans10Page16 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit11Page16 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans11Page16 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit12Page16 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans12Page16 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit13Page16 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans13Page16 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit14Page16 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans14Page16 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit15Page16 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans15Page16 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit16Page16 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans16Page16 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit17Page16 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans17Page16 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit18Page16 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans18Page16 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit19Page16 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans19Page16 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit1Page17 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans1Page17 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit2Page17 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans2Page17 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit3Page17 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans3Page17 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit4Page17 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans4Page17 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit5Page17 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans5Page17 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit6Page17 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans6Page17 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit7Page17 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans7Page17 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit8Page17 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans8Page17 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit9Page17 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans9Page17 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit10Page17 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans10Page17 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit11Page17 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans11Page17 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit12Page17 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans12Page17 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit13Page17 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans13Page17 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit14Page17 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans14Page17 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit15Page17 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans15Page17 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
     render(){
         return(
             
@@ -3405,7 +3983,7 @@ class EBook1  extends Component{
                 <h5 className="item6-page-13">6</h5>
                 <h5 className="item7-page-13">7</h5>
                 <h5 className="item8-page-13">8</h5>
-                <div class="row item9-page-13">
+                <div className="row item9-page-13">
                     <div className="col-md-3">
                         <h6>1. AT</h6>
                     </div>
@@ -3514,9 +4092,93 @@ class EBook1  extends Component{
         <div className="col-md-6 offset-md-3 mb-3">
             <div className="bordeLibro img17">
                 <img alt="page-16" className="img-fluid" src="data:image/png;base64,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"/>
+                <h5 className="titulo1-page-16">REVIEW No. 1</h5>
+                <span className="item1-page-16">Given name:</span>
+                <span className="item2-page-16">Family name:</span>
+                <span className="item3-page-16">________________________</span>
+                <span className="item4-page-16">Age:</span>
+                <span className="item5-page-16">Phone:</span>
+                <span className="item6-page-16">Address:</span>
+                <span className="item7-page-16">_______________________</span>
+                <h6 className="subTitulo1-page-16">ANSWER THE FOLLOWING QUESTIONS</h6>
+                <ol className="item8-page-16">
+                    <li>How are you?<span className="result1-page-16">{this.state.ans1Page16}</span> ______________________________________________________ <a href="#" className="btn1-page-16" onClick={() => this.edit1Page16()}><i className="fas fa-pencil-alt"></i></a></li>
+                    <li>How old are you?<span className="result2-page-16">{this.state.ans2Page16}</span> __________________________________________________<a href="#" className="btn2-page-16" onClick={() => this.edit2Page16()}><i className="fas fa-pencil-alt"></i></a></li>
+                    <li>Where are you from?<span className="result3-page-16">{this.state.ans3Page16}</span> ______________________________________________<a href="#" className="btn3-page-16" onClick={() => this.edit3Page16()}><i className="fas fa-pencil-alt"></i></a></li>
+                    <li>What's your mother's name?<span className="result4-page-16">{this.state.ans4Page16}</span> ______________________________________<a href="#" className="btn4-page-16" onClick={() => this.edit4Page16()}><i className="fas fa-pencil-alt"></i></a></li>
+                    <li>Where do you live?<span className="result5-page-16">{this.state.ans5Page16}</span> ________________________________________________<a href="#" className="btn5-page-16" onClick={() => this.edit5Page16()}><i className="fas fa-pencil-alt"></i></a></li>
+                    <li>What's your phone number?<span className="result6-page-16">{this.state.ans6Page16}</span> ______________________________________<a href="#" className="btn6-page-16" onClick={() => this.edit6Page16()}><i className="fas fa-pencil-alt"></i></a></li>
+                    <li>Nice to meet you<span className="result7-page-16">{this.state.ans7Page16}</span> __________________________________________________<a href="#" className="btn7-page-16" onClick={() => this.edit7Page16()}><i className="fas fa-pencil-alt"></i></a></li>
+                </ol>
+                <h6 className="titulo2-page-16">ACTIVITY 1.1</h6>
+                <span className="item9-page-16">Example: The United States <span>is a</span> big country</span>
+                <span className="item10-page-16">The United States and Canada <span>are</span> big countries</span>
+                <ol className="item11-page-16">
+                    <li>California <span className="result8-page-16">{this.state.ans8Page16}</span> _________ <a href="#" className="btn8-page-16" onClick={() => this.edit8Page16()}><i className="fas fa-pencil-alt"></i></a> state</li>
+                    <li>San Francisco and Los Angeles<span className="result9-page-16">{this.state.ans9Page16}</span> ____________<a href="#" className="btn9-page-16" onClick={() => this.edit9Page16()}><i className="fas fa-pencil-alt"></i></a> cities in California</li>
+                    <li>Chicago, New York and Los Angeles<span className="result10-page-16">{this.state.ans10Page16}</span> ____________<a href="#" className="btn10-page-16" onClick={() => this.edit10Page16()}><i className="fas fa-pencil-alt"></i></a> big cities</li>
+                    <li>Puerto Rico and Hawaii<span className="result11-page-16">{this.state.ans11Page16}</span> ____________<a href="#" className="btn11-page-16" onClick={() => this.edit11Page16()}><i className="fas fa-pencil-alt"></i></a> islands</li>
+                    <li>Puerto Rico<span className="result12-page-16">{this.state.ans12Page16}</span> ___________ <a href="#" className="btn12-page-16" onClick={() => this.edit12Page16()}><i className="fas fa-pencil-alt"></i></a>American territory</li>
+                    <li>Chevrolet<span className="result13-page-16">{this.state.ans13Page16}</span> ____________ <a href="#" className="btn13-page-16" onClick={() => this.edit13Page16()}><i className="fas fa-pencil-alt"></i></a>American cars</li>
+                    <li>Toyota and Datsun<span className="result13-page-16">{this.state.ans14Page16}</span> ____________<a href="#" className="btn14-page-16" onClick={() => this.edit14Page16()}><i className="fas fa-pencil-alt"></i></a> Japanese cars</li>
+                    <li>Coke<span className="result15-page-16">{this.state.ans15Page16}</span> ___________<a href="#" className="btn15-page-16" onClick={() => this.edit15Page16()}><i className="fas fa-pencil-alt"></i></a> sof drink</li>
+                    <li>Beer and wine<span className="result16-page-16">{this.state.ans16Page16}</span> ____________<a href="#" className="btn16-page-16" onClick={() => this.edit16Page16()}><i className="fas fa-pencil-alt"></i></a> alcoholic drinks</li>
+                    <li>Thanks giving<span className="result17-page-16">{this.state.ans17Page16}</span> ____________<a href="#" className="btn17-page-16" onClick={() => this.edit17Page16()}><i className="fas fa-pencil-alt"></i></a> American holiday</li>
+                    <li>Passover<span className="result18-page-16">{this.state.ans18Page16}</span> ____________ <a href="#" className="btn18-page-16" onClick={() => this.edit18Page16()}><i className="fas fa-pencil-alt"></i></a>Jewish holiday</li>
+                    <li>Christmas and Easter<span className="result19-page-16">{this.state.ans19Page16}</span> ___________<a href="#" className="btn19-page-16" onClick={() => this.edit19Page16()}><i className="fas fa-pencil-alt"></i></a> Christian holidays</li>
+                </ol>
+                <span className="item12-page-16"><small>Page 16</small></span>
             </div>
         </div>
-    
+        <div className="col-md-6 offset-md-3 mb-3">
+            <div className="bordeLibro img18">
+                <img alt="page-17" className="img-fluid" src="data:image/png;base64,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"/>
+                <h6 className="titulo1-page-17">ACTIVITY 1.2</h6>
+                <ul className="item1-page-17">
+                    <li>Where are they?</li>
+                    <li>(Mr. and Mrs. Chen)</li>
+                    <li>(Ms. Carter)</li>
+                    <li>(Mr. Grant)</li>
+                    <li>(Harry and Mary)</li>
+                    <li>(Ellen and I)</li>
+                    <li>(The bookshelf)</li>
+                    <li>(Mr. White)</li>
+                    <li>(Mrs. Miller)</li>
+                    <li>(The telephone book)</li>
+                </ul>
+                <ol className="item2-page-17">
+                    <li><span className="result1-page-17">{this.state.ans1Page17}</span>____________<a href="#" className="btn1-page-17" onClick={() => this.edit1Page17()}><i className="fas fa-pencil-alt"></i></a></li>
+                    <li><span className="result2-page-17">{this.state.ans2Page17}</span>____________<a href="#" className="btn2-page-17" onClick={() => this.edit2Page17()}><i className="fas fa-pencil-alt"></i></a></li>
+                    <li><span className="result3-page-17">{this.state.ans3Page17}</span>____________<a href="#" className="btn3-page-17" onClick={() => this.edit3Page17()}><i className="fas fa-pencil-alt"></i></a></li>
+                    <li><span className="result4-page-17">{this.state.ans4Page17}</span>____________<a href="#" className="btn4-page-17" onClick={() => this.edit4Page17()}><i className="fas fa-pencil-alt"></i></a></li>
+                    <li><span className="result5-page-17">{this.state.ans5Page17}</span>____________<a href="#" className="btn5-page-17" onClick={() => this.edit5Page17()}><i className="fas fa-pencil-alt"></i></a></li>
+                    <li><span className="result6-page-17">{this.state.ans6Page17}</span>____________<a href="#" className="btn6-page-17" onClick={() => this.edit6Page17()}><i className="fas fa-pencil-alt"></i></a></li>
+                    <li><span className="result7-page-17">{this.state.ans7Page17}</span>____________<a href="#" className="btn7-page-17" onClick={() => this.edit7Page17()}><i className="fas fa-pencil-alt"></i></a></li>
+                    <li><span className="result8-page-17">{this.state.ans8Page17}</span>____________<a href="#" className="btn8-page-17" onClick={() => this.edit8Page17()}><i className="fas fa-pencil-alt"></i></a></li>
+                    <li><span className="result9-page-17">{this.state.ans9Page17}</span>____________<a href="#" className="btn9-page-17" onClick={() => this.edit9Page17()}><i className="fas fa-pencil-alt"></i></a></li>
+                </ol>
+                <ul className="item3-page-17">
+                    <li>are in the kitchen</li>
+                    <li>is in the dining room</li>
+                    <li>is in the bathroom</li>
+                    <li>are in the basement</li>
+                    <li>are in the attic</li>
+                    <li>is in the living room</li>
+                    <li>is in the garage</li>
+                    <li>is in the classroom</li>
+                    <li>is in the bedroom</li>
+                </ul>
+                <span className="item4-page-17">Example:<span className="fuente-curva"> Sophia's</span> an actress. <span className="fuente-curva">She's</span> pretty</span>
+                <ol className="item5-page-17">
+                    <li>The teachers here. <span className="result10-page-17">{this.state.ans10Page17}</span> _________________<a href="#" className="btn10-page-17" onClick={() => this.edit10Page17()}><i className="fas fa-pencil-alt"></i></a> in the classroom</li>
+                    <li>Today's a school day. <span className="result11-page-17">{this.state.ans11Page17}</span>________________<a href="#" className="btn11-page-17" onClick={() => this.edit11Page17()}><i className="fas fa-pencil-alt"></i></a> (Monday)</li>
+                    <li>The school's open today. <span className="result12-page-17">{this.state.ans12Page17}</span>_______________<a href="#" className="btn12-page-17" onClick={() => this.edit12Page17()}><i className="fas fa-pencil-alt"></i></a> closed on Sundays</li>
+                    <li>The day's are short in the winter. <span className="result13-page-17">{this.state.ans13Page17}</span>________________<a href="#" className="btn13-page-17" onClick={() => this.edit13Page17()}><i className="fas fa-pencil-alt"></i></a> long in the summer</li>
+                    <li>The President's famous. <span className="result14-page-17">{this.state.ans14Page17}</span>_______________<a href="#" className="btn14-page-17" onClick={() => this.edit14Page17()}><i className="fas fa-pencil-alt"></i></a> an important leader</li>
+                    <li>Dallas and Houston are big cities. <span className="result15-page-17">{this.state.ans15Page17}</span>_______________<a href="#" className="btn15-page-17" onClick={() => this.edit15Page17()}><i className="fas fa-pencil-alt"></i></a> in Texas</li>
+                </ol>
+            </div>
+        </div>
     
     
     
