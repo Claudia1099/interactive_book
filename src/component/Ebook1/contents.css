@@ -80,6 +80,10 @@
     padding-top: 10%;
     padding-right: 5%;
 }
+.img19{
+    position: relative;
+    padding-right: 5%;
+}
 .item1{
     position: absolute;
     top: 16.5%;
@@ -3461,4 +3465,20 @@ left: 26%;
 }
 .fuente-curva{
     font-family: "Courgette";
+}
+/***************************************************/
+/***************************************************/
+/**********************Page 17***********************/
+/***************************************************/
+/***************************************************/
+.unidadTitulo-page-18{
+    position: absolute;
+    top: 0%;
+    left: 12%;
+    color: rgb(250, 246, 27);
+}
+.titulo-page-18{
+    position: absolute;
+    top: 9%;
+    left: 24%;
 }
