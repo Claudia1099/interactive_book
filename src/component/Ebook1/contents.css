@@ -3447,6 +3447,11 @@ left: 26%;
 .item5-page-17 > li{
     margin-bottom: 1%;
 }
+.item6-page-17{
+    position: absolute;
+    top: 95.5%;
+    left: 90%;
+}
 .result1-page-17, .result2-page-17, .result3-page-17, .result4-page-17,
 .result5-page-17, .result6-page-17, .result7-page-17, .result8-page-17,
 .result9-page-17, .result10-page-17, .result11-page-17, .result12-page-17,

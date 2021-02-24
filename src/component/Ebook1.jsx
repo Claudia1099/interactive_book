@@ -4177,6 +4177,7 @@ class EBook1  extends Component{
                     <li>The President's famous. <span className="result14-page-17">{this.state.ans14Page17}</span>_______________<a href="#" className="btn14-page-17" onClick={() => this.edit14Page17()}><i className="fas fa-pencil-alt"></i></a> an important leader</li>
                     <li>Dallas and Houston are big cities. <span className="result15-page-17">{this.state.ans15Page17}</span>_______________<a href="#" className="btn15-page-17" onClick={() => this.edit15Page17()}><i className="fas fa-pencil-alt"></i></a> in Texas</li>
                 </ol>
+                <span className="item6-page-17"><small>Page 17</small></span>
             </div>
         </div>
     
