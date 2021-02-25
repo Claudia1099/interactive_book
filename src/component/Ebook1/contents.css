@@ -99,6 +99,19 @@
     padding-top: 8%;
     padding-right: 5%;
 }
+.img23{
+    position: relative;
+    padding-top: 16%;
+    padding-right: 5%;
+}
+.img24{
+    position: relative;
+}
+.img25{
+    position: relative;
+    padding-top: 10%;
+    padding-right: 5%;
+}
 .item1{
     position: absolute;
     top: 16.5%;
@@ -3598,4 +3611,217 @@ left: 26%;
 .result9-page-20, .result10-page-20, .result11-page-20, .result12-page-20,
 .result13-page-20, .result14-page-20, .result15-page-20, .result16-page-20{
     position: absolute;
+}
+/***************************************************/
+/***************************************************/
+/**********************Page 21***********************/
+/***************************************************/
+/***************************************************/
+.titulo1-page-21{
+    position: absolute;
+    top: 3.7%;
+    left: 12.5%;
+}
+.titulo2-page-21{
+    position: absolute;
+    top: 50%;
+    left: 12%;
+}
+.item1-page-21{
+    position: absolute;
+    top: 7%;
+    left: 12.5%;
+}
+.item2-page-21{
+    position: absolute;
+    top: 38.5%;
+    left: 8%;
+    font-size: 15px;
+    list-style: none;
+}
+.item2-page-21 > li{
+    margin: -5px;
+}
+.item3-page-21{
+    position: absolute;
+    top: 53%;
+    left: 59%;
+    font-size: 13px;
+    width: 36.9%;
+}
+.item4-page-21{
+    position: absolute;
+    top: 82%;
+    left: 13%;
+}
+.item5-page-21{
+    position: absolute;
+    top: 84%;
+    left: 13%;
+    font-size: 10px;
+    width: 83%;
+}
+.item6-page-21{
+    position: absolute;
+    top: 95.5%;
+    left: 90%;
+}
+.result2-page-21{
+    position: absolute;
+}
+/***************************************************/
+/***************************************************/
+/**********************Page 22***********************/
+/***************************************************/
+/***************************************************/
+.item1-page-22{
+    position: absolute;
+    top: 3%;
+    left: 8%;
+    font-size: 14px;
+    font-weight: bold;
+}
+.item2-page-22{
+    position: absolute;
+    top: 12%;
+    left: 56%;
+    font-size: 11px;
+    width: 40%;
+}
+.item3-page-22{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    font-weight: bold;
+}
+.item4-page-22{
+    position: absolute;
+    top: 53%;
+    left: 2.5%;
+    list-style: none;
+}
+.item5-page-22{
+    position: absolute;
+    top: 50%;
+    font-size: 15px;
+    list-style: none;
+}
+.item6-page-22{
+    position: absolute;
+    top:200%;
+    list-style: none;
+}
+.item7-page-22{
+    list-style: none;
+}
+.item8-page-22{
+    position: absolute;
+    top: 57%;
+    left: 65%;
+    list-style: circle;
+}
+.item9-page-22{
+    position: absolute;
+    top: 95.5%;
+    left: 90%;
+}
+.result3-page-22{
+    position: absolute;
+}
+.result1-page-22{
+    position: absolute;
+    top: 14%;
+    left: 56%;
+    font-size: 11px;
+}
+.result2-page-22{
+    position: absolute;
+    top: 14%;
+    left: 83.7%;
+    font-size: 11px;
+}
+/***************************************************/
+/***************************************************/
+/**********************Page 23***********************/
+/***************************************************/
+/***************************************************/
+.unidadTitulo-page-23{
+    position: absolute;
+    top: 0%;
+    left: 9%;
+    color: rgb(250, 246, 27);
+}
+.titulo1-page-23{
+    position: absolute;
+    top: 7%;
+    left: 33%;
+}
+.subTitulo1-page-23{
+    position: absolute;
+    top: 11%;
+    left: 13%;
+}
+.titulo2-page-23{
+    position: absolute;
+    top: 14%;
+    left: 33%;
+}
+.item1-page-23{
+    position: absolute;
+    top: 17%;
+    left: 6%;
+    font-weight: bold;
+}
+.item2-page-23{
+    position: absolute;
+    top: 17%;
+    left: 31.5%;
+    font-weight: bold;
+}
+.item3-page-23{
+    position: absolute;
+    top: 17%;
+    left: 55%;
+    font-weight: bold;
+}
+.item4-page-23{
+    position: absolute;
+    top: 17%;
+    left: 78.7%;
+    font-weight: bold;
+}
+.item5-page-23{
+    position: absolute;
+    top: 38.4%;
+    left: 6.3%;
+    font-weight: bold;
+}
+.item6-page-23{
+    position: absolute;
+    top: 38.4%;
+    left: 30.5%;
+    font-weight: bold;
+}
+.item7-page-23{
+    position: absolute;
+    top: 38.4%;
+    left: 54.5%;
+    font-weight: bold;
+}
+.item8-page-23{
+    position: absolute;
+    top: 38.4%;
+    left: 78%;
+    font-weight: bold;
+}
+.item9-page-23{
+    position: absolute;
+    top: 60.3%;
+    left: 6.3%;
+    font-weight: bold;
+}
+.item10-page-23{
+    position: absolute;
+    top: 80%;
+    left: 6%;
 }
