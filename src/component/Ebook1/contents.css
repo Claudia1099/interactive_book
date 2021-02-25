@@ -84,6 +84,21 @@
     position: relative;
     padding-right: 5%;
 }
+.img20{
+    position: relative;
+    padding-top: 15%;
+    padding-right: 5%;
+}
+.img21{
+    position: relative;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+.img22{
+    position: relative;
+    padding-top: 8%;
+    padding-right: 5%;
+}
 .item1{
     position: absolute;
     top: 16.5%;
@@ -3468,7 +3483,7 @@ left: 26%;
 }
 /***************************************************/
 /***************************************************/
-/**********************Page 17***********************/
+/**********************Page 18***********************/
 /***************************************************/
 /***************************************************/
 .unidadTitulo-page-18{
@@ -3481,4 +3496,106 @@ left: 26%;
     position: absolute;
     top: 9%;
     left: 24%;
+}
+/***************************************************/
+/***************************************************/
+/**********************Page 19***********************/
+/***************************************************/
+/***************************************************/
+.item1-page-19{
+    position: absolute;
+    top: 5%;
+    left: 13%;
+}
+.item2-page-19{
+    position: absolute;
+    top: 13%;
+    left: 29%;
+    font-size: 11px;
+    list-style: none;
+}
+.item3-page-19{
+    position: absolute;
+    top: 13%;
+    left: 38%;
+    font-size: 11px;
+    list-style: none;
+}
+.item4-page-19{
+    position: absolute;
+    top: 32.5%;
+    left: 13%;
+    font-size: 14px;
+    list-style: circle;
+}
+.item5-page-19{
+    position: absolute;
+    top: 37%;
+    left: 40%;
+    list-style: none;
+}
+.item6-page-19{
+    position: absolute;
+    top: 33%;
+    left: 45.3%;
+    font-size: 14px;
+    list-style: none;
+}
+.item7-page-19{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    font-size: 14px;
+    list-style: none;
+}
+.item8-page-19{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    font-size: 14px;
+    list-style: none;
+}
+.item9-page-19{
+    position: absolute;
+    top: 95.5%;
+    left: 90%;
+}   
+.result1-page-19, .result2-page-19, .result3-page-19, .result4-page-19, .result5-page-19,
+.result6-page-19{
+    position: absolute;
+}
+/***************************************************/
+/***************************************************/
+/**********************Page 20***********************/
+/***************************************************/
+/***************************************************/
+.item1-page-20{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    list-style: none;
+}
+.item2-page-20{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    list-style: none;
+}
+.item3-page-20{
+    position: absolute;
+    top: 73%;
+    left: 8%;
+    list-style: none;
+}
+.item4-page-20{
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    list-style: none;
+}
+.result1-page-20, .result2-page-20, .result3-page-20, .result4-page-20,
+.result5-page-20, .result6-page-20, .result7-page-20, .result8-page-20,
+.result9-page-20, .result10-page-20, .result11-page-20, .result12-page-20,
+.result13-page-20, .result14-page-20, .result15-page-20, .result16-page-20{
+    position: absolute;
 }
