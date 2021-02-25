@@ -3691,6 +3691,125 @@ class EBook1  extends Component{
             }
         })
     }
+    edit1Page24 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans1Page24 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit2Page24 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans2Page24 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit3Page24 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans3Page24 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit4Page24 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans4Page24 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit5Page24 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans5Page24 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit6Page24 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans6Page24 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
+    edit7Page24 = () =>{
+        Swal.fire({
+            title:"Write the right answer",
+            input:"text",
+            showCancelButton: true,
+            showLoaderOnConfirm: true
+        }).then((result) => {
+            if(result.isConfirmed && result.value){
+                this.setState( state => ({
+                    ans7Page24 : result.value
+                }))
+                Swal.fire('Saved!', '', 'success')
+            } else if(result.isConfirmed && !result.value){
+                Swal.fire('You need to write something!', '', 'info')
+            }
+        })
+    }
     render(){
         return(
             
@@ -4901,7 +5020,82 @@ class EBook1  extends Component{
         <div className="col-md-6 offset-md-3 mb-3">
                     <div className="bordeLibro img25">
                         <img alt="page-24" className="img-fluid" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABA0AAATVCAMAAAD/zt2dAAADAFBMVEX///8AAABiJCMAk91ZWVnf39+lpaX7+/v39/fExMT9/f77///i4uLz+//n9/////u54/n3///09PTk5OO23/f6+fn3+//v+P/G5/iEzvJDsesppefP6/zK6vus3vfu+/9ivvDi9P2j2vZTtuw6rOgdoOjW7/zr9/vw9/lTuu77+/+c1/iQ0vV7xvFbue5Otuze8/39+ff3/PvO7/h+yvLW7//X8PiEzveo2vZeve+95/295/ix3/have9Js+ofpejr9//e7/fO6Pec1vOKzvJzxvA6reyj0OsXnOfg9//m9Pz9/vu04vri8Phpv/BJte8kpOgDg8T/+/zS7vul3vhvwvBDtO6n1e1Creo0qukUdrje7/7P7/7B5/t3yPGy1+4wq+gYoOUKmOL1/f/0+fu32+41reqUyegQnOH4+P/n9/rY6vaY1PVrxu89sOovpej//f7///eU1veU0vIuqu0rqecAkdn///7a7/zG6/vx7ve94feMz/fT6fW/3vDh6e0DlOQNZpXv///t+f7o8/i15/eu3vQPm+cQe7wLbqPY9P7n7/f39/RyxvSK0vPv7++czugBjdTG5/2r3vzN5fTH3+/F1eF2stcCicwkgb4Hd7FYgpp/f3/s9PrB5/eh2PXr7fJ7zvGu1e61zuCmxdyYvddDkscleLQUcqIZZpK15//3+Pu91+mNxueEweV7vOAAjuCNvNxbo9AHcbUFbK4dWHi+4/vw9Pbf6vTB4fPG5PIkjcY9hbsCZaoRa6AKV4fw+/zX5+/O4e+EyO/q6uq9ztmgwtlJm85kncgwjccUhsJTk79FeZgvbI4WXYQPUnfX7Pvn5vHz8e3f3O3V4uurzOJnq9d+rs5vpcqIo8U2iL9ylrE7gqktdqMqcZYiYYXM2+iz0eezxNY8mc+eu8sYc6Y+dZJkv+p7vefS0uEYnODLy9ZQo9XBwcGasLxHiKx1kqNei6MtZoQ9PT339++PwOTa2+GLlZtmhZWBgYH78/OLsdAvlce1tbVubm4YGBgusJZWAAAa70lEQVR42uzXwQnEMBAEwXUKzj/Y42gHoJ+EqEpgfg0z27wDnOOdfR7gKLNKDeBys0oN4HKzSg3gcrNKDeBys0oN4HKzzbcPHOGEGjzAfifU4H2A/U6owTgLsJUaAGoAqAGgBoAaAGoAqAGgBoAaAGoAqAGgBoAaAGoA/KkBEDUAogZA1ACIGgBRAyBqAEQNgKgBEDUAogZA1ACIGgBRAyBqAEQNgKgBEDUAogZA1ACIGgBRAyBqAEQNgKgBEDUAogZA1ACIGgBRAyBqAEQNgKgBEDUAfuzYu20CURQAUVbat5ZT+i+HbhwSWAT+BFOBxZUM6JwiJpioARA1AKIGQNQAiBoAUQMgagBEDYCoARA1AKIGQNQAiBoAUQMgagBEDYCoARA1AKIGQNQAiBoAUQMgagBEDYCoARA1AKIGQNQAiBoAefkarG3EdZ/zfQxag07w0jW47CN+Nv4tn7djzvuacznxXDV4QOc15+OY87kP2vibfdBxt6UGPKbLmvN1zLntc67bQznUAF7B27rbWQ0A3wA4qQEQNQCiBkDUAIgaAFEDIGoARA2AqAEQNQCiBkDUAIgaAFEDIGoARA2AqAEQNQCiBkDUAIgaAFEDIGoAv+zUsQAAAADAIH/rHdMoiJgNgNkAmA2A2QCYDYDZAJgNgNkAmA2A2QCYDYDZAJgNgNkAmA2A2QCYDYDZAJgNgNkAmA2A2QCYDYDZAJgNgNkAmA2A2QCYDYDZAJgNgNkAmA2A2QCYDYDZAJgNgNkAmA2A2QCYDYDZAJgNgNkAmA2A2QCYDYDZAJgNgNkAmA2A2QCYDYDZAJgNgNkAmA2A2QCYDYidOhYAAAAAGORvvWMaBRHMBsBsAMwGwGwAzAbAbADMBsBsAMwGwGwAzAbAbADMBsBsAMwGwGwAzAbAbADMBsBsAMwGwGwAzAbAbADMBsBsAMwGwGwAzAbAbADMBsBsAMwGwGwAzAbAbADMBsBsAMwGwGwAzAbAbADMBsBsAMwGwGwAzAbAbADMBsBsAMwGwGwAzAbAbADMBsBsAMwGwGwAzAaxU8cCAAAAAIP8rXdMoyACZgNgNgBmA2A2AGYDYDYAZgNgNgBmA2A2AGYDYDYAZgNgNgBmA2A2AGYDYDYAZgNgNgBmA2A2AGYDYDYAZgNgNgBmA2A2AGYDYDYAZgNgNgBmA2A2AGYDYDYAZgNgNgBmA2A2AGYDYDYAZgNgNgBmA2A2AGYDYDYAZgNgNgBmA2A2AGYDYDYAZgNgNgBmA2A2AGKnjgUAAAAABvlb75hGQTQbALMBMBsAswEwGwCzATAbALMBMBsAswEwGwCzATAbALMBMBsAswEwGwCzATAbALMBMBsAswEwGwCzATAbALMBMBsAswEwGwCzATAbALMBMBsAswEwGwCzATAbALMBMBsAswEwGwCzATAbALMBMBsAswEwGwCzATAbALMBMBsAswEwGwCzATAbALMBMBsAswEwG0Ds1DERwDAMALGUQvmD7fAEutmXk0CI2ACIDYDYAIgNgNgAiA2A2ACIDYDYAIgNgNgAiA2A2ACIDYDYAMjNGwDzbADYALABYANg8wbvA8zbsAGwwvwGwBbnLxvA5Q4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8LEHBwIAAAAAQP6vjaCqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqKuzBgQAAAAAAkP9rI6iqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqCntwIAAAAAAA5P/aCKqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqwh4cCAAAAAAA+b82gqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqsAcHAgAAAABA/q+NoKqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqoq7MGBAAAAAACQ/2sjqKqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqoKe3AgAAAAAADk/9oIqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqrCHhwIAAAAAAD5vzaCqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqwBwcCAAAAAED+r42gqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqirswYEAAAAAAJD/ayOoqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqgp7cCAAAAAAAOT/2giqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqsIeHAgAAAAAAPm/NoKqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqrB3975JhAEcxx99BsA4afwfjJt/hZMDK4uLm4suNzh4YYM4GIYChZo0obwYWXiLJhWJjUpVkNhYrC1Wa2sXtbVNfIk6eNikwXLIlbvoPc33kxC2G7/5cXfcAQAAAAAAAAAAAAAAAAAAAAAAAAAAAADgZj7xTxwXAFzObg0mqQFwQNjeBjepAXAw2KnB5GXPxVNCHKEGwEEwUg3uTUXFy1vi1OVTnDcADoydGkyIXRPC1Echrs9cfbu29imZbDSSyeSnrxsv33aXwe35vDg7JnpNUANAPVa3gWct2emE/XHZw+8PbyaXlhZisTExxjYAFGelBlcfLHUSETlAPLy8/iQWi+Wv5KkBoLChNfAsbeX6SmBShM12u5sEagCoakgN9G9GCiyJ5F4V2+c+x1YuUANASX+tweRWQlqnBbfrxXZ7hRoAShpQgwnjcyuZkPujBZfrH4rFlXzf4agB4HqDt8FGTpP7pgU7q0YPxArbAFDNoBpcXY/Lkfhfrxr74N48NQAUM6AG95uaHFGk8nO1XhTz1ABQi3kN9KYcnVaZfrRapwaAYkxrEG1KO7TW9HSmLuapAaASsxrcbEp7tIqRg8wMNQBUYlaDb5q0KXLj8aNMhhoAKjGpwYOQtC382MjBQ2oAKMSkBg3pgKePpx8tUgNAIb01+CgMt/WElM6Mg8XFGe5FBJTRvw2S0gmRXMgYB1a2wWEA/4GFGujr0hE3QuPj4zPUAHApCzWIvnKqBkYO0tQAcCkLNbi3LB2R69ZgjBoALjW8BrpwqgYJowacNwDcangNTqac+qWQCAWybAPArYbXQKQaDtWgFAqMF7jfAFDG3hp49S1NOiB+txQIFLimALiVlfsN0jnpgGAiEBCC8waAW1mowWRqXdqnPe1OA+5MBhTi2/vCtOPPfwSlba1qqXcbHKIGgOv5xF7HUo24tCkULBvTgH80AyrxiT76mW1N2hKvGTHI8iQ0QCkmNbgfLVRs5SDSKpcCszwXEVCLT/Q7nopVIjaWQTcGd3iCOqCYnRpM/HEq8bueL2z75YgStXIptDBHDQDF+ISZ+28KneCIlxaD1VJmlvcwAsoxr8HFuWh6tuIfYRi0quXAixRvZQXUs1uDY17h8XqFt/vlEd45fWphc7898Ndq1fKTtC5+H8Ozc6hrxtGuUQPA9XZrcEL86fRcdGqh+XofPUgYLcg+efHmpuhlVMFz4vRRAcDlfGKgS9cevEx9Sb6LSAsi4Vawms2knwkTHkENANfr2Qb9vry/LIRnoxkcshD8uae1cPbO7JR+XpjyUINf7N3JyxJxGAfwBzoYDZoTls2My7w5FpOmRpppLm+LoiVqpaKVohZiUNkmtAiZEZJUh4ro0r7RcujQdqguUQRFtEEbUUQdqkuH/oBm1EpqqqvG8+EHIvPi8ct3nnl8Rajv/UiDkfC7Jx/XAMCBVy9uf7n/p0RYcPbN5bM3Ll1/fufpSBn8wUhMA4T63t+6wYonT9YAyD5+Xr753Yvrr9+cfbBz284FCxYcFDaMhJed224+OPvm9Zkz1+89O/n22nn4Ixl2A4T63480kEmlweb2y5oVTz4euP3u1LO7906/PPPhw82bO2/evPlh8Znr1+/dffb+9tOeGwRJMuwGCPW/v3aDR+00OH9082bZwvkjj259euDAiZMn79w5derUnTsnT5648PbptUOyNfAvMnymgFD/++vc4OijFQs3P3p0dAX0GL0W1q4dDcLpgd0AoYH312cKKzYLrv56hSSXyQkAwDRA6L8iMTcgHPsS+9onodp/3BOGNq1KD4LtexPranPNEcc5LQldjZlKEhpL3arIuYjq3BBsOueAtiWRpQTuGyA0ICS6wbJAyGg0+oVTsJrTRsM6GwjYoAZgeG+SaRaLxSZbq0b10EG4rfRGm311qZTJZCrcDMLln7sMRBOYnLz92dgNEOp/EnMDubee8rpYF8t6qQn5+og6P5MEMDDjYdjJ1JvGfMpqmOsMWdTQQejS3HhzvWBZFY0mVwWugLXsHAciU2iVHECGdwoIDQKJbiB3GfcpOvTakjFVLVYphZqPawlzqM6ZN7VsQ4ohp9GlgA4iklqtdBVzYYViWDjLwFpwEiBaadwtBwF+TwGhASAxN5CzcRV0LaqkHDNj9bK3tprROoIXg1kSQDjLnH72RxqcS9NuV3MlfMeHpsiBIIFcJ6QBThERGhBS3YAtBq08bzDwVvuRvJUEDZWvF8rVbK24OjEOhqIpq4GijK7hnm4wbWUok3Pad+ecETlY6xu8FovXYig1xTQYhfsGCA0CqbkBe7E+4uKIi8JhKM6nBiCvsMY6o/SOcApvWj5/6CLt9Ft+dANdinMMr+PTaY4pNpk5JH+xWSwXm+URzWJA3v5s7AYI9T/JuUHRZV5pNu8xz93nyfvkIFDsqzIzrKEZ4mWt0lmOOeM93YDmFgEx0a3y7HOW6pyGL1pNR0ymCSZvtxuM3YVpgFDfk5gb6NmCrmduQEIbz+h4/w5oO8zEqA29c4NgC7oSwVAi5q9Bm8kfkONmMkIDQqIb6F2hCT/SQOwGbQZGyYrdQKQ0it1A0dMNHNDV2m00pwrUuO4zhaTYDWS4b4DQAJDcNwgloEuTT6lBRBqY7PpCIAyiSCglzA3UPXODadAVDhhNvk/f9w0KnX2DqV8xDRDqe5LdoDzhZxrQchARBkbbov2BjUSnG1Bxl/7nMwWuBR3jEqXqXr5ALevtBrhvgNAgkJobeMvrGkRDTjb0PXMDIQ3AFGq6VGESEv6Yk+GX6hvDioZCQQpzAwdBkmRD3thXaQbUfIgiQNTdNxiJ+wYIDQDJbjBig4HnrVbeZ/dkfN+7QXw8TDJZ4htog6VUFOYGIdpHx2g6HVMK+wabTBZxP8HH+C0aMJSPLeukQacbLBw7BtMAob4nNTc4Vs0zVYbxMyGDx8uuABGZjGkAYNaRgDUdLHH2hC/OxP1xxm+s6Gauco2fy2U4LphmddMBkpxpHIh0NDUOxF9nwLkBQv1PohsQS7Jud9atVKo8Gr1WA0AIJmv2ykEkt2m0m7S2sPZKNusWjvuKXj9Nq7dls1qtdukkELS0Q9Cm1oZBfKaA3QChASD5/w2WkGqNAkSLFLB0wh4ndcw5gbTt8OhUSpXSrQmHbSta7pnZvdmZ7mx4UxhE8qVLJrojqh0RndI9/uE5nU74a7d7IwBMxbkBQgNA4k5BnUxuWpm2eOQAG6PmTXw84/PRqWR4Ap0p5SulDMeuTNqX5rhgppIPZnyUgWqBYJMvl8twpWolw+VZO5MJcsEgR88RuwHuIiI0ACTSQO/zuW+V64Upe8dN8wWoEXnPrI2O6TZQBpIsV+aj0dqRtCs8JxnwlfOBaM5Uii7trCR5zdGklyl4A9FaYITl2JQpx3JTlADi7zBiGiDU9yTSYNgQ20Hl2WC5sk4Xy1Hl4MyhSfpxAMv0221UxT2sl2tpC0FuV3uYgFqvbq3upkGBt+nVe1lOs12vpgqeYf2wYBnIZNgNEBoEEnMDNW/Y4aQd07z+woYNU5QbiqtX2Wu6ofaldaXx4jQh5QWBcoMdABT0qmntd+1vNU5btXo6ANRCu00TEsLR4L4BQgNC4pnCdoNVZafnEbaIpRyyT5ppt1oNviC/lwBQmDNiGmhoCwhU1SkAEE4nu3cKliGAadHVEwHAXDTG/fF4vLIeQDYVnykgNAB+pMEY+E5tsO6YQocBYOhWdcokaEycrR2/vsIOCZfm5jeJaZDupAEjpoFiddQBAuUn7zyApSwnvps7wlubS1H2W1tgrQxGPsY0QOgbe3fynDQUxwH8d3uZZCDBiSEooKADkYJCaBGlLixuKOqADjqouIALuKNDHYSDIgerHcepN1uXq9t4UduTyz/gf6HjjEfvvgQU0Tp6bGZ+n/5I6EvaW19++eYxnff6vcHAbDC8Lwh6ExC4DjrLzuVX/ugNLgXo1rVob1j/Tu8N7N3eYOJIRzommZaYTEBY7A0QMoI5coONK5aJqxfFgTqwK2CFLtu5gwDmXm6wa82vucFSGSj3hqVLfuYGExtG4QfChDA3QGj+6z9TGOwNFgWBcuz60RuYV5xNAGz077/S7w0EvTc4tuayzQQQXHckpdJDn7TegLMd6YCuDgRzA4QMYa71BlpusG8bUPKiTZ6E7JAd4qbdj7wA5tRheTA3oB5sXeyXxTNfPmlhYriXG5xMWhXF6lVUYAiD6w0QMoD+bMBDj3f9LnF4eQEox6IzyVWb6YcVj+9f6gEA88Q57dFCePOK7mxwCKjrtkWXN1/avTIsAT306bjeGxzddYjaOzwNPGEY7A0Qmv/mWm9wZmfs4hozUCM7bTsCS2+fuZ1yeoEyD61K0J1n3SagpnddBV1kYunOIRdowo9WRgAs7sWXFl++tHj3PjcAwfUGCBnBHHcK3FjBlB7jgDIVKm/TLpcrvUTtHqp8lLSoYCwIlNWThq7rwbQJdJJrTDvD20zYHQ67I5HWegPMDRAygP56Awb+Dwe/snD9tzAHHpgQ5gYIGcEf6w2Ia9TD5Zw5OCa4c+AVPA4hWMq51IZwXbK7SoIoiA0tYVRHo0LYIziFUVn1yMTh3nHQc10QOZ+cNjmTwugrrjLqFKYzfBZ7A4QM4Y/cwCJP7JmuPdphuTlkc4IrMHwjscTqlK/5a6MjzrDZH+tcTXm0824vjRau2M4MB4YsjSRE1/ntFe9QIHbgYqRy1ZaInY57Hp2xXbQDEAb/1xJCBtDPDQjoTAejbrc7KbiSbueE6DkUcDfS6aisnBZePfB7XKm7OyZsMgCUhk+bITfhdwc6RKhJ7qWn7RvT0eR0Z2/TnLLlhNSYPfXBP9HgswvxmQJCRtCfDZjePmKPFEbk5ohTHHHmx8Sc6HZU5BFFNHMNt1npiI3Ono/aeYIZIBOLZJx2CIvMFbcQG6nIEUjU4kuSKTHvtETEG0JUhhCDuQFCRjDQGxCgJAk4HyepEuc7ZpIkjjOZODom+Xxv0xsVk9drMlkIcIprY4lIkspJJslk8nk9wcrbY6oPuLc+VjvpGPgUr1JSgSxkbmFvgND8N5AbzOEUZ7EC+IAqrI3FDiyJBC1QKUgR+VUsbLHGr3EgHYiAeW1s2gyVbRKAxwq/YiCEuQFCRvBHbkC06mHBLHhGo5GwLPEA0ZqQqHiTtWmv2Ak+iMphZyER9XBw/UNSjZ0WhOm3cjJXidSCwINWLECd306wN0DIGAbWG9DitSL6ngGAwlAsNRQNuC0AkPzg3HbBdVF07hnOe4bEsdhwQx5KcODd5FcTyT3JWqQRcN/IHyoAAKFfwNAiwNAQEXMDhOa//noDAsCzUKc7Uge6ZbVKd8JReSwZtfAAnVQt6nB1gmn7A9E7+sA9ZMt9PJ10Cq7TUdZR89ei6UT0Y9qTdEEW6oQFltBiCWGwN0DICP6RG1gqb81WMAeB8o7kwgWflaPvrBA/IMsJc6YhdsRIIuGKNBpyQZky04MK/IowtG5hboDQ/NedDe7/fKbA0iLahu60gvMAddCxoJbamTfNycmZmXK5XCw+zm/R3KGvfP7x42KxXG61ZpvVeNtbAooH6PYGC7A3QGj+G8gNTuk3+z7GB4x+45+FLmUq/m4y0WqVH9O//Tsn7pw4ob/oVts9e/ns+YsXn/Wir+fPTtx5XL7XjLcV4IFcYOidAuYGCM1/g+sN6sDywPaaAeIrtduFarM5ea9VzGvX/zy9/M/MTE42q9U38Uwm055KZ+KRanNydrb1o1m4Q6eHZ9+eP3/+bEtxppmZYkIh7A0QMoI5cwNVOaWMZ+KJ2VZRawbyxdZstRqvnFIZ+DtiUaas7fh4vNpM3CvnTzzTZ4SZd+NtBdcbIGQAA88UsiwhT0rt+ORMuagnAa17zWomPfW6JKmEY/k6AC1er2ydnOdZ4M//GKjriQNHWJ+kagFDdbZczufLxS2th9gbIGQAg+sNSpXqu2qrWG7dm4xnxpWS8gTIBeAvZCFEIMsQoEUYWr13/YH+OA/ZEGTpj6gM7TCqs0/fj+N6A4QMoJ8bqKDEq5HMuJYHKIrqY7PA8r1HCwT0YrXSB9jeAOgDZOAMvnsaaL+APHn9+vUC7A0QMoCfs0E7bvVapxQVLDCA6MUAXOgvVCT6d8zAAPPbAM/wQIuELtAUEXMDhOa/n7PBm3FJJXWezWb1C/12oNvehb43sJ1sJ2Q7Tze0eP2w/v7XAbY3wBIN0Jf2gBF7A4QM4OdscCsE/G+pAJDBgX/lBnMOMMwC/JwCQkbQnQ2+AtwicH4wH+jHAfrVXtvwA2dQ0B9gyVwDCxkG1yIiZAi/rjdg6ZYFch7Y7XpQyLPA9QZ8tL6PC6wIIQBWD1TBABbgBioGC3iDFUHUAyl20M1r7KOlwSgYBYMdAACsNG9Ur4rOFQAAAABJRU5ErkJggg=="/>
-                        
+                        <h6 className="item1-page-24">Grammar flash</h6>
+                        <span className="item2-page-24">Personal pronoun</span>
+                        <span className="item3-page-24">P. Adj</span>
+                        <span className="item4-page-24">P. Pronoun</span>
+                        <ul className="item5-page-24">
+                            <li>I</li>
+                            <li>You</li>
+                            <li>She</li>
+                            <li>He</li>
+                            <li>It</li>
+                            <li>We</li>
+                            <li>They</li>
+                        </ul>
+                        <ul className="item6-page-24">
+                            <li>My</li>
+                            <li>Your</li>
+                            <li>Her</li>
+                            <li>His</li>
+                            <li>Its</li>
+                            <li>Our</li>
+                            <li>Their</li>
+                        </ul>
+                        <ul className="item7-page-24">
+                            <li>Mine</li>
+                            <li>Yours</li>
+                            <li>Hers</li>
+                            <li>His</li>
+                            <li>---</li>
+                            <li>Ours</li>
+                            <li>Theirs</li>
+                        </ul>
+                        <ul className="item8-page-24">
+                            <h6 className="subTitulo1-page-24">TEACHER: (possessive adjective)</h6>
+                            <li>This is my book</li>
+                            <li>This is her book</li>
+                            <li>This is our wallet</li>
+                            <li>These are your glasses</li>
+                            <li>These are their earrings</li>
+                            <li>This is her bracelet</li>
+                            <li>This is your handkerchief</li>
+                            <li>These are my rings</li>
+                            <li>This is our classroom</li>
+                            <li>These are her watches</li>
+                            <li>These are his hats</li>
+                            <li>This is his plate</li>  
+                        </ul>
+                        <ul className="item9-page-24">
+                            <li>.....</li>
+                            <li>.....</li>
+                            <li>.....</li>
+                            <li>.....</li>
+                            <li>.....</li>
+                            <li>.....</li>
+                            <li>.....</li>
+                            <li>.....</li>
+                            <li>.....</li>
+                            <li>.....</li>
+                            <li>.....</li>
+                            <li>.....</li>
+                        </ul>
+                        <ul className="item10-page-24">
+                            <h5 className="subTitulo2-page-24">STUDENTS: (possessive adjective)</h5>
+                            <li>it is mine</li>
+                            <li>it is hers</li>
+                            <li>it is ours</li>
+                            <li>they are yours</li>
+                            <li>they are their</li>
+                            <li><span className="result1-page-24">{this.state.ans1Page24}</span>__________________<a className="btn1-page-24" href="#" onClick={() => this.edit1Page24()}><i className="fas fa-pencil-alt"></i></a></li>
+                            <li><span className="result2-page-24">{this.state.ans2Page24}</span>__________________<a className="btn2-page-24" href="#" onClick={() => this.edit2Page24()}><i className="fas fa-pencil-alt"></i></a></li>
+                            <li><span className="result3-page-24">{this.state.ans3Page24}</span>__________________<a className="btn3-page-24" href="#" onClick={() => this.edit3Page24()}><i className="fas fa-pencil-alt"></i></a></li>
+                            <li><span className="result4-page-24">{this.state.ans4Page24}</span>__________________<a className="btn4-page-24" href="#" onClick={() => this.edit4Page24()}><i className="fas fa-pencil-alt"></i></a></li>
+                            <li><span className="result5-page-24">{this.state.ans5Page24}</span>__________________<a className="btn5-page-24" href="#" onClick={() => this.edit5Page24()}><i className="fas fa-pencil-alt"></i></a></li>
+                            <li><span className="result6-page-24">{this.state.ans6Page24}</span>__________________<a className="btn6-page-24" href="#" onClick={() => this.edit6Page24()}><i className="fas fa-pencil-alt"></i></a></li>
+                            <li><span className="result7-page-24">{this.state.ans7Page24}</span>__________________<a className="btn7-page-24" href="#" onClick={() => this.edit7Page24()}><i className="fas fa-pencil-alt"></i></a></li>
+                        </ul>
+                        <span className="item11-page-24"><small>Page 24</small></span>
                     </div>
                 </div>
     

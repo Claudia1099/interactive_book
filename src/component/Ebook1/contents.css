@@ -3825,3 +3825,90 @@ left: 26%;
     top: 80%;
     left: 6%;
 }
+/***************************************************/
+/***************************************************/
+/**********************Page 24***********************/
+/***************************************************/
+/***************************************************/
+.item1-page-24{
+    position: absolute;
+    top: 2%;
+    left: 13%;
+}
+.item2-page-24{
+    position: absolute;
+    top: 11%;
+    left: 23%;
+    font-size: 15px;
+}
+.item3-page-24{
+    position: absolute;
+    top: 11%;
+    left: 48.5%;
+    font-size: 15px;
+}
+.item4-page-24{
+    position: absolute;
+    top: 11%;
+    left: 60%;
+    font-size: 15px;
+}
+.item5-page-24{
+    position: absolute;
+    top: 14.5%;
+    left: 23%;
+    list-style: none;
+    font-size: 14px;
+}
+.item6-page-24{
+    position: absolute;
+    top: 14.5%;
+    left: 44%;
+    list-style: none;
+    font-size: 14px;
+}
+.item7-page-24{
+    position: absolute;
+    top: 14.5%;
+    left: 58%;
+    list-style: none;
+    font-size: 14px;
+}
+.item8-page-24{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    list-style: circle;
+    font-size: 15px;
+}
+.subTitulo1-page-24{
+    font-size: 14px;
+    margin-left: -10%;
+}
+.item9-page-24{
+    position: absolute;
+    top: 43%;
+    left: 44%;
+    font-size: 15px;
+    list-style: none;
+}
+.subTitulo2-page-24{
+    font-size: 14px;
+    margin-left: -10%;
+}
+.item10-page-24{
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    font-size: 15px;
+    list-style: none;
+}
+.item11-page-24{
+    position: absolute;
+    top: 95.5%;
+    left: 90%;
+}
+.result1-page-24, .result2-page-24, .result3-page-24, .result4-page-24, .result5-page-24,
+.result6-page-24, .result7-page-24{
+    position: absolute;
+}
