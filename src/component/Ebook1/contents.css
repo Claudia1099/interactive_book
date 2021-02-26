@@ -112,6 +112,16 @@
     padding-top: 10%;
     padding-right: 5%;
 }
+.img26{
+    position: relative;
+    padding-top: 10%;
+    padding-right: 5%;
+}
+.img27{
+    position: relative;
+    padding-top: 50%;
+    padding-right: 5%;
+}
 .item1{
     position: absolute;
     top: 16.5%;
@@ -566,6 +576,11 @@ left: 26%;
     position: absolute;
     top: 85%;
     left: 50%;
+}
+.item38-page-1{
+    position: absolute;
+    top: 95.5%;
+    left: 90%;
 }
 /***************************************************/
 /***************************************************/
@@ -3510,6 +3525,11 @@ left: 26%;
     top: 9%;
     left: 24%;
 }
+.item1-page-18{
+    position: absolute;
+    top: 95.5%;
+    left: 90%;
+}
 /***************************************************/
 /***************************************************/
 /**********************Page 19***********************/
@@ -3605,6 +3625,11 @@ left: 26%;
     top: 73%;
     left: 50%;
     list-style: none;
+}
+.item5-page-20{
+    position: absolute;
+    top: 95.5%;
+    left: 90%;
 }
 .result1-page-20, .result2-page-20, .result3-page-20, .result4-page-20,
 .result5-page-20, .result6-page-20, .result7-page-20, .result8-page-20,
@@ -3825,6 +3850,11 @@ left: 26%;
     top: 80%;
     left: 6%;
 }
+.item11-page-23{
+    position: absolute;
+    top: 95.5%;
+    left: 90%;
+}
 /***************************************************/
 /***************************************************/
 /**********************Page 24***********************/
@@ -3910,5 +3940,66 @@ left: 26%;
 }
 .result1-page-24, .result2-page-24, .result3-page-24, .result4-page-24, .result5-page-24,
 .result6-page-24, .result7-page-24{
+    position: absolute;
+}
+/***************************************************/
+/***************************************************/
+/**********************Page 26***********************/
+/***************************************************/
+/***************************************************/
+.item1-page-26{
+    position: absolute;
+    top: 25%;
+    left: 12%;
+    font-size: 13px;
+    list-style: upper-alpha;
+}
+.item2-page-26, .item4-page-26, .item6-page-26, .item8-page-26, .item10-page-26, .item12-page-26{
+    margin-left: -15%;
+    list-style: none;
+}
+.item3-page-26{
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    font-size: 13px;
+    list-style: upper-alpha;
+}
+.item5-page-26{
+    position: absolute;
+    top: 54%;
+    left: 12%;
+    font-size: 13px;
+    list-style: upper-alpha;
+}
+.item7-page-26{
+    position: absolute;
+    top: 54%;
+    left: 55%;
+    font-size: 13px;
+    list-style: upper-alpha;
+}
+.item9-page-26{
+    position: absolute;
+    top: 83%;
+    left: 12%;
+    font-size: 13px;
+    list-style: upper-alpha;
+}
+.item11-page-26{
+    position: absolute;
+    top: 83%;
+    left: 55%;
+    font-size: 13px;
+    list-style: upper-alpha;
+}
+.item13-page-26{
+    position: absolute;
+    top: 95.5%;
+    left: 90%;
+}
+.result1-page-26, .result2-page-26, .result3-page-26, .result4-page-26,
+.result5-page-26, .result6-page-26, .result7-page-26, .result8-page-26,
+.result9-page-26, .result10-page-26{
     position: absolute;
 }
