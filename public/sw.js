@@ -16,7 +16,7 @@ UpUp.start({
         'main.css',
         'css/all.css',
         'static/css/main.b596d975.chunk.css',
-        'static/css/bootstrap.css',
+        'bootstrap.css',
         
         /* js */
         'upup.sw.min.js',
