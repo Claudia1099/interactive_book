@@ -4080,7 +4080,7 @@ class Cbasico extends Component{
                             <h3>Examen 1</h3>
                         </div>
                         <div className="bloque">
-                            <h6>*Select the correct option for each exercise.</h6>
+                            <p className="subquiz">*Select the correct option for each exercise.</p>
                         </div>
                         <div className="bloque">
                             <div className="questions">
@@ -4155,7 +4155,7 @@ class Cbasico extends Component{
                             <h3>Examen 1</h3>
                         </div>
                         <div className="bloque">
-                            <h6>*Select the correct option for each exercise.</h6>
+                            <p className="subquiz">*Select the correct option for each exercise.</p>
                         </div>
                         <div className="bloque">
                             <div className="questions">
@@ -4178,8 +4178,8 @@ class Cbasico extends Component{
                             </div>
                         </div>
                         <div className="bloque">
-                            <h6>*From exercise 6-10</h6>
-                            <h6>Select the correct expression to use in the classroom.</h6>
+                            <p className="subquiz">*From exercise 6-10</p>
+                            <p className="subquiz">Select the correct expression to use in the classroom.</p>
                         </div>
                         <div className="bloque">
                             <div className="questions">
@@ -4242,8 +4242,8 @@ class Cbasico extends Component{
                             <h3>Examen 1</h3>
                         </div>
                         <div className="bloque">
-                            <h6>*From exercise 6-10</h6>
-                            <h6>Select the correct expression to use in the classroom.</h6>
+                            <p className="subquiz">*From exercise 6-10</p>
+                            <p className="subquiz">Select the correct expression to use in the classroom.</p>
                         </div>
                         <div className="bloque">
                             <div className="questions">
@@ -4263,8 +4263,8 @@ class Cbasico extends Component{
                             </div>
                         </div>
                         <div className="bloque">
-                            <h6>*From exercise 11-15</h6>
-                            <h6>Select the correct word for each picture</h6>
+                            <p className="subquiz">*From exercise 11-15</p>
+                            <p className="subquiz">Select the correct word for each picture</p>
                         </div>
                         <div className="bloque">
                             <div className="questions">
@@ -4315,8 +4315,8 @@ class Cbasico extends Component{
                             <h3>Examen 1</h3>
                         </div>
                         <div className="bloque">
-                            <h6>*From exercise 11-15</h6>
-                            <h6>Select the correct word for each picture</h6>
+                            <p className="subquiz">*From exercise 11-15</p>
+                            <p className="subquiz">Select the correct word for each picture</p>
                         </div>
                         <div className="bloque">
                             <div className="questions">
@@ -4379,8 +4379,8 @@ class Cbasico extends Component{
                             <h3>Examen 2</h3>
                         </div>
                         <div className="bloque">
-                            <h6>*From exercise 1 to 5</h6>
-                            <h6>Select the correct spelling</h6>
+                            <p className="subquiz">*From exercise 1 to 5</p>
+                            <p className="subquiz">Select the correct spelling</p>
                         </div>
                         <div className="bloque">
                             <div className="questions">
@@ -4436,8 +4436,8 @@ class Cbasico extends Component{
                             </div>
                         </div>
                         <div className="bloque">
-                            <h6>*From exercise 6 to 10</h6>
-                            <h6>Select the correct number</h6>
+                            <p className="subquiz">*From exercise 6 to 10</p>
+                            <p className="subquiz">Select the correct number</p>
                         </div>
                         <div className="bloque">
                             <div className="questions">
@@ -4482,8 +4482,8 @@ class Cbasico extends Component{
                             <h3>Examen 2</h3>
                         </div>
                         <div className="bloque">
-                            <h6>*From exercise 6 to 10</h6>
-                            <h6>Select the correct number</h6>
+                            <p className="subquiz">*From exercise 6 to 10</p>
+                            <p className="subquiz">Select the correct number</p>
                         </div>
                         <div className="bloque">
                             <div className="questions">
@@ -4521,8 +4521,8 @@ class Cbasico extends Component{
                             </div>
                         </div>
                         <div className="bloque">
-                            <h6>*From exercise 11-15</h6>
-                            <h6>Select the correct word for each picture</h6>
+                            <p className="subquiz">*From exercise 11-15</p>
+                            <p className="subquiz">Select the correct word for each picture</p>
                         </div>
                         <div className="bloque">
                             <div className="questions">
@@ -4561,8 +4561,8 @@ class Cbasico extends Component{
                             <h3>Examen 2</h3>
                         </div>
                         <div className="bloque">
-                            <h6>*From exercise 11-15</h6>
-                            <h6>Select the correct word for each picture</h6>
+                            <p className="subquiz">*From exercise 11-15</p>
+                            <p className="subquiz">Select the correct word for each picture</p>
                         </div>
                         <div className="bloque">
                             <div className="questions">
@@ -4625,8 +4625,8 @@ class Cbasico extends Component{
                             <h3>Examen 2</h3>
                         </div>
                         <div className="bloque">
-                            <h6>*From exercise 11-15</h6>
-                            <h6>Select the correct word for each picture</h6>
+                            <p className="subquiz">*From exercise 11-15</p>
+                            <p className="subquiz">Select the correct word for each picture</p>
                         </div>
                         <div className="bloque">
                             <div className="questions">
@@ -4653,8 +4653,8 @@ class Cbasico extends Component{
                             <h3>Examen 3</h3>
                         </div>
                         <div className="bloque">
-                            <h6>*From exercise 1-5</h6>
-                            <h6>Select TRUE or FALSE</h6>
+                            <p className="subquiz">*From exercise 1-5</p>
+                            <p className="subquiz">Select TRUE or FALSE</p>
                         </div>
                         <div className="bloque">
                             <div className="questions">
@@ -4701,8 +4701,8 @@ class Cbasico extends Component{
                             <h3>Examen 3</h3>
                         </div>
                         <div className="bloque">
-                            <h6>*From exercise 1-5</h6>
-                            <h6>Select TRUE or FALSE</h6>
+                            <p className="subquiz">*From exercise 1-5</p>
+                            <p className="subquiz">Select TRUE or FALSE</p>
                         </div>
                         <div className="bloque">
                             <div className="questions">
@@ -4743,8 +4743,8 @@ class Cbasico extends Component{
                             </div>
                         </div>
                         <div className="bloque">
-                            <h6>*From exercise 6-10</h6>
-                            <h6>Select the correct option</h6>
+                            <p className="subquiz">*From exercise 6-10</p>
+                            <p className="subquiz">Select the correct option</p>
                         </div>
                         <div className="bloque">
                             <div className="questions">
@@ -4783,8 +4783,8 @@ class Cbasico extends Component{
                             <h3>Examen 3</h3>
                         </div>
                         <div className="bloque">
-                            <h6>*From exercise 6-10</h6>
-                            <h6>Select the correct option</h6>
+                            <p className="subquiz">*From exercise 6-10</p>
+                            <p className="subquiz">Select the correct option</p>
                         </div>
                         <div className="bloque">
                             <div className="questions">
@@ -4859,8 +4859,8 @@ class Cbasico extends Component{
                             <h3>Examen 3</h3>
                         </div>
                         <div className="bloque">
-                            <h6>*From exercise 11-15</h6>
-                            <h6>Select the correct word for each picture</h6>
+                            <p className="subquiz">*From exercise 11-15</p>
+                            <p className="subquiz">Select the correct word for each picture</p>
                         </div>
                         <div className="bloque">
                             <div className="questions">
@@ -4923,8 +4923,8 @@ class Cbasico extends Component{
                             <h3>Examen 3</h3>
                         </div>
                         <div className="bloque">
-                            <h6>*From exercise 11-15</h6>
-                            <h6>Select the correct word for each picture</h6>
+                            <p className="subquiz">*From exercise 11-15</p>
+                            <p className="subquiz">Select the correct word for each picture</p>
                         </div>
                         <div className="bloque">
                             <div className="questions">

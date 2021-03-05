@@ -2,11 +2,6 @@
     /* min-width: 100%; */
     overflow-y:scroll;
 }
-h6{
-    font-weight: bold;
-    font-size: 8px;
-}
-
 .background{
     background-color: #A7A3A2;
 }
@@ -120,4 +115,8 @@ td p{
 }
 .Quiz{
     font-weight: bold;
+}
+.subquiz{
+    font-weight: bold;
+    font-size: 1.1em;
 }
