@@ -101,11 +101,30 @@ class Cbasico extends Component{
                                         <td>Buenos días Señora Garcia. Como esta usted hoy.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/good-morning-mrs-garcia.mp3')}}></span></td>
                                     </tr>
+                                    <tr className="display360">
+                                        <td>FINE AND YOU?</td>
+                                        <td>Bien y usted.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/fine-and-you.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>GOOD AFTERNOON, MRS, REYES. IT’S GOOD TO SEE YOU.</td>
+                                        <td>Buenas tardes Señora Reyes, es un placer verla.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/good-afternoon-mrs-reyes.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>HOW ARE YOU DOING?</td>
+                                        <td>¿Cómo la estás pasando?</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/how-are-you-doing.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>VERY WELL THANK YOU!</td>
+                                        <td>Muy bien gracias</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/very-well-thank-you.mp3')}}></span></td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>   
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">1</span></div>
                 </div>
                 
                 {/* hoja 2*/}
@@ -113,32 +132,32 @@ class Cbasico extends Component{
                 <div className="Hoja">
                     <div className="Encavezado">
                         <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/possible-gretings.png'className="Esquina" alt=""/>
+                        <img src='./img/courses/personalInformation.png'className="Esquina" alt="Personal Information"/>
                     </div>
                     <div className="Contenido">
-                        <div className="titulos">
+                    <   div className="titulos">
                             <h2>Possible Greetings</h2>
                             <h3>Posible saludos</h3>
                         </div>
                         <div className="bloque">
                             <table className="table table-striped">
                                 <tbody>
-                                     <tr className="">
+                                     <tr className="display640">
                                         <td>FINE AND YOU?</td>
                                         <td>Bien y usted.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/fine-and-you.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr className="display640">
                                         <td >GOOD AFTERNOON, MRS, REYES. IT’S GOOD TO SEE YOU.</td>
                                         <td>Buenas tardes Señora Reyes, es un placer verla.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/good-afternoon-mrs-reyes.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr className="display640">
                                         <td >HOW ARE YOU DOING?</td>
                                         <td>¿Cómo la estás pasando?</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/how-are-you-doing.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr className="display640">
                                         <td>VERY WELL THANK YOU!</td>
                                         <td>Muy bien gracias</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/very-well-thank-you.mp3')}}></span></td>
@@ -176,8 +195,59 @@ class Cbasico extends Component{
                                 </tbody>
                             </table>
                         </div>
+                        <div className="titulos display360">
+                            <h2>PERSONAL INFORMATION</h2>
+                            <h3>INFORMACIÓN PERSONAL</h3>
+                        </div>
+                        <div className="bloque display360">
+                            <table className="table table-striped">
+                                <tbody>
+                                    <tr>
+                                        <td>WHAT IS YOUR NAME?</td>
+                                        <td>¿Cual es tu nombre?</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/what-is-your-name.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>MY NAME IS …</td>
+                                        <td>Mi nombre es …</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/my-name-is.mp3')}}></span></td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr className="display360">
+                                        <td>WHERE ARE YOU FROM?</td>
+                                        <td>¿De dónde eres?</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/where-are-you-from.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>I AM FROM …</td>
+                                        <td>Yo soy de …</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/i-am-from.mp3')}}></span></td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr className="display360">
+                                        <td>HOW OLD ARE YOU?</td>
+                                        <td>¿Cuántos años tienes?</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/how-old-are-you.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>I AM 6 YEARS OD</td>
+                                        <td>Yo tengo 6 años de edad</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/i-am-6-years.mp3')}}></span></td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr className="display360">
+                                        <td>WHAT IS YOUR PHONE NUMBER?</td>
+                                        <td>¿Cuál es tu número telefónico?</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/what-is-you-phone.mp3')}}></span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">2</span></div>
+                    <div className="Pie"></div>
                 </div>
 
                 {/* hoja 3*/}
@@ -185,53 +255,53 @@ class Cbasico extends Component{
                 <div className="Hoja">
                     <div className="Encavezado">
                         <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/personalInformation.png'className="Esquina" alt="Farewells"/>
+                        <img src='./img/courses/farewells.png'className="Esquina" alt="Farewells"/>
                     </div>
                     <div className="Contenido">
-                        <div className="titulos">
+                    <div className="titulos">
                             <h2>PERSONAL INFORMATION</h2>
                             <h3>INFORMACIÓN PERSONAL</h3>
                         </div>
                         <div className="bloque">
-                            <table className="table table-striped">
+                        <table className="table table-striped">
                                 <tbody>
-                                    <tr className="">
+                                    <tr className="display640">
                                         <td>WHAT IS YOUR NAME?</td>
                                         <td>¿Cual es tu nombre?</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/what-is-your-name.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr className="display640">
                                         <td>MY NAME IS …</td>
                                         <td>Mi nombre es …</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/my-name-is.mp3')}}></span></td>
                                     </tr>
                                 </tbody>
                                 <tbody>
-                                    <tr className="">
+                                    <tr className="display640">
                                         <td>WHERE ARE YOU FROM?</td>
                                         <td>¿De dónde eres?</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/where-are-you-from.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr className="display640">
                                         <td>I AM FROM …</td>
                                         <td>Yo soy de …</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/i-am-from.mp3')}}></span></td>
                                     </tr>
                                 </tbody>
                                 <tbody>
-                                    <tr className="">
+                                    <tr className="display640">
                                         <td>HOW OLD ARE YOU?</td>
                                         <td>¿Cuántos años tienes?</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/how-old-are-you.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr className="display640">
                                         <td>I AM 6 YEARS OD</td>
                                         <td>Yo tengo 6 años de edad</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/i-am-6-years.mp3')}}></span></td>
                                     </tr>
                                 </tbody>
                                 <tbody>
-                                    <tr className="">
+                                    <tr className="display640">
                                         <td>WHAT IS YOUR PHONE NUMBER?</td>
                                         <td>¿Cuál es tu número telefónico?</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/what-is-you-phone.mp3')}}></span></td>
@@ -253,88 +323,271 @@ class Cbasico extends Component{
                                         <td>Yo vivo en el barrio Nápoles</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/i-live-in.mp3')}}></span></td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>    
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">3</span></div>
-                </div>
-
-                {/* hoja 4*/}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/personalInformation.png'className="Esquina" alt="Farewells"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>PERSONAL INFORMATION</h2>
-                            <h3>INFORMACIÓN PERSONAL</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table table-striped">
-                                <tbody>
-                                    <tr className="">
+                                    <tr className="display360">
                                         <td>Who do you live with?</td>
                                         <td>¿Con quien vives?</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/in.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/i-live-in.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr className="display360">
                                         <td>I live with my mother and father</td>
                                         <td>Yo vivo con mi mamá y papá.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/in.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/i-live-in.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr className="display360">
                                         <td>What is your favorite color?</td>
                                         <td>¿Cuál es tu color favorito?</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/in.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/i-live-in.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr className="display360">
                                         <td>My favorite color is blue</td>
                                         <td>Mi color favorito es azul</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/in.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/i-live-in.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr className="display360">
                                         <td>Who is your best friend?</td>
                                         <td>¿Quién es tu mejor amigo?</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/in.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/i-live-in.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr className="display360">
                                         <td>My best friend is …</td>
                                         <td>Mi mejor amigo es …</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/in.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/i-live-in.mp3')}}></span></td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
-                        <div className="titulos">
+                        <div className="titulos display360">
                             <h2>FAREWELLS</h2>
                             <h3>DESPEDIDAS</h3>
                         </div>
-                        <div className="bloque">
+                        <div className="bloque display360">
                             <table className="table table-striped">
                                 <tbody>
-                                    <tr className="">
+                                    <tr>
                                         <td>BYE.</td>
                                         <td>ADIOS.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/bye.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr>
                                         <td>BYE, BYE.</td>
                                         <td>ADIOS.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/bye-bye.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr>
                                         <td>GOOD BYE.</td>
                                         <td>ADIOS.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/good-bye.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>SEE YOU</td>
+                                        <td>NOS VEMOS.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/see-you.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display640">
+                                        <td>SEE YOU TOMORROW</td>
+                                        <td>NOS VEMOS MAÑANA.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/see-you-tomorrow.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display640">
+                                        <td>SO LONG.</td>
+                                        <td>HASTA LUEGO.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/so-long.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display640">
+                                        <td>SEE YOU SOON.</td>
+                                        <td>NOS VEMOS PRONTO.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/see-you-soon.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display640">
+                                        <td>SEE YOU THEN.</td>
+                                        <td>NOS VEMOS DESPUES.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/see-you-then.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display640">
+                                        <td>GOOD NIGHT</td>
+                                        <td>BUENAS NOCHES (DESPEDIDA).T</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/good-night.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display640">
+                                        <td>TAKE CARE.</td>
+                                        <td>CUIDATE.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/take-care.mp3')}}></span></td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>  
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">4</span></div>
+                    <div className="Pie"></div>
+                </div>
+
+                {/* hoja 4*/}
+
+                <div className="Hoja display640">
+                    <div className="Encavezado">
+                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
+                        <img src='./img/courses/farewells.png'className="Esquina" alt="Farewells"/>
+                    </div>
+                    <div className="Contenido">
+                    <div className="titulos display640">
+                            <h2>PERSONAL INFORMATION</h2>
+                            <h3>INFORMACIÓN PERSONAL</h3>
+                        </div>
+                        <div className="bloque display640">
+                        <table className="table table-striped">
+                                <tbody>
+                                    <tr className="display360">
+                                        <td>WHAT IS YOUR NAME?</td>
+                                        <td>¿Cual es tu nombre?</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/what-is-your-name.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>MY NAME IS …</td>
+                                        <td>Mi nombre es …</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/my-name-is.mp3')}}></span></td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr className="display360">
+                                        <td>WHERE ARE YOU FROM?</td>
+                                        <td>¿De dónde eres?</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/where-are-you-from.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>I AM FROM …</td>
+                                        <td>Yo soy de …</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/i-am-from.mp3')}}></span></td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr className="display360">
+                                        <td>HOW OLD ARE YOU?</td>
+                                        <td>¿Cuántos años tienes?</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/how-old-are-you.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>I AM 6 YEARS OD</td>
+                                        <td>Yo tengo 6 años de edad</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/i-am-6-years.mp3')}}></span></td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr className="display360">
+                                        <td>WHAT IS YOUR PHONE NUMBER?</td>
+                                        <td>¿Cuál es tu número telefónico?</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/what-is-you-phone.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>MY PHONE NUMBER IS</td>
+                                        <td>Mi número telefónico es …</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/my-phone-number-is.mp3')}}></span></td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr className="display360">
+                                        <td>WHERE DO YOU LIVE?</td>
+                                        <td>¿Donde vives?</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/where-do-you-live.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>I LIVE IN NÁPOLES NEIGHBORHOOD</td>
+                                        <td>Yo vivo en el barrio Nápoles</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/i-live-in.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="">
+                                        <td>Who do you live with?</td>
+                                        <td>¿Con quien vives?</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/i-live-in.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="">
+                                        <td>I live with my mother and father</td>
+                                        <td>Yo vivo con mi mamá y papá.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/i-live-in.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="">
+                                        <td>What is your favorite color?</td>
+                                        <td>¿Cuál es tu color favorito?</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/i-live-in.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="">
+                                        <td>My favorite color is blue</td>
+                                        <td>Mi color favorito es azul</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/i-live-in.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="">
+                                        <td>Who is your best friend?</td>
+                                        <td>¿Quién es tu mejor amigo?</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/i-live-in.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="">
+                                        <td>My best friend is …</td>
+                                        <td>Mi mejor amigo es …</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/i-live-in.mp3')}}></span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div className="titulos display640">
+                            <h2>FAREWELLS</h2>
+                            <h3>DESPEDIDAS</h3>
+                        </div>
+                        <div className="bloque display640">
+                            <table className="table table-striped">
+                                <tbody>
+                                    <tr className="display640">
+                                        <td>BYE.</td>
+                                        <td>ADIOS.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/bye.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display640">
+                                        <td>BYE, BYE.</td>
+                                        <td>ADIOS.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/bye-bye.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display640">
+                                        <td>GOOD BYE.</td>
+                                        <td>ADIOS.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/good-bye.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>SEE YOU</td>
+                                        <td>NOS VEMOS.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/see-you.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>SEE YOU TOMORROW</td>
+                                        <td>NOS VEMOS MAÑANA.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/see-you-tomorrow.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>SO LONG.</td>
+                                        <td>HASTA LUEGO.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/so-long.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>SEE YOU SOON.</td>
+                                        <td>NOS VEMOS PRONTO.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/see-you-soon.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>SEE YOU THEN.</td>
+                                        <td>NOS VEMOS DESPUES.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/see-you-then.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>GOOD NIGHT</td>
+                                        <td>BUENAS NOCHES (DESPEDIDA).T</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/good-night.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>TAKE CARE.</td>
+                                        <td>CUIDATE.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/take-care.mp3')}}></span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>  
+                    </div>
+                    <div className="Pie"></div>
                 </div>
 
                 {/* hoja 5*/}
@@ -342,16 +595,31 @@ class Cbasico extends Component{
                 <div className="Hoja">
                     <div className="Encavezado">
                         <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/farewells.png'className="Esquina" alt="Expressions"/>
+                        <img src='./img/courses/expressions.png'className="Esquina" alt="Expressions"/>
                     </div>
                     <div className="Contenido">
-                        <div className="titulos">
+                        <div className="titulos">   
                             <h2>FAREWELLS</h2>
                             <h3>DESPEDIDAS</h3>
                         </div>
                         <div className="bloque">
                             <table className="table table-striped">
                                 <tbody>
+                                    <tr className="display360">
+                                        <td>BYE.</td>
+                                        <td>ADIOS.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/bye.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>BYE, BYE.</td>
+                                        <td>ADIOS.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/bye-bye.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>GOOD BYE.</td>
+                                        <td>ADIOS.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/good-bye.mp3')}}></span></td>
+                                    </tr>
                                     <tr className="">
                                         <td>SEE YOU</td>
                                         <td>NOS VEMOS.</td>
@@ -407,11 +675,101 @@ class Cbasico extends Component{
                                         <td>SIÉNTESE / TOME SU ASIENTO.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/sit-down.mp3')}}></span></td>
                                     </tr>
+                                    <tr className="display360">
+                                        <td>SIT STILL!</td>
+                                        <td>PERMANEZCA SENTADO Y QUIETO.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/sit-still.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>GO TO THE BOARD!</td>
+                                        <td>PASE AL TABLERO.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/go-to-the-board!.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>WRITE YOUR NAME</td>
+                                        <td>ESCRIBA SU NOMBRE.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/write-your-name.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>ERASE YOUR NAME</td>
+                                        <td>BORRE SU NOMBRE.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/erase-your-name.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>OPEN YOUR BOOK!</td>
+                                        <td>ABRA SU LIBRO.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/open-your-book.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>READ PAGE EIGHT!</td>
+                                        <td>LEA PÁGINA 8.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/read-page-eight.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>CLOSE YOUR BOOK!</td>
+                                        <td>CIERRE SU LIBRO.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/close-your-book.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>QUESTION.</td>
+                                        <td>PREGUNTA.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/question.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>ANSWER.</td>
+                                        <td>RESPUESTA.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>PUT AWAY YOUR BOOK!.</td>
+                                        <td>GUARDEN SU LIBRO..</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/put-away-your-book.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>TAKE OUT A SHEET OF PAPER.</td>
+                                        <td>SAQUE UNA HOJA DE PAPEL.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/take-out-a-sheet-of-paper.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>PASS OUT THE TESTS.</td>
+                                        <td>REPARTA LOS EXAMENES.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/pass-out-the-tests.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>ANSWER THE QUESTIONS.</td>
+                                        <td>RESPONDAN LAS PREGUNTAS.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/answer-the-questions.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>CHECK YOUR ANSWERS.</td>
+                                        <td>REVISEN SUS RESPUESTAS.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/check-your-answer.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>GO OVER THE ANSWERS.</td>
+                                        <td>REVISEN LAS RESPUESTAS.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/go-over-the-answers.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>LISTEN TO THE QUESTIONS.</td>
+                                        <td>ESCUCHEN LAS PREGUNTAS.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/listen-to-the-question.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>RAISE UP YOUR HAND.</td>
+                                        <td>LEVANTE SU MANO.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/raise-up-your-hand.mp3')}}></span></td>
+                                    </tr>
+                                    <tr className="display360">
+                                        <td>GIVE THE ANSWER!.</td>
+                                        <td>DÉ LA RESPUESTA.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/give-the-answer.mp3')}}></span></td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>   
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">5</span></div>
+                    <div className="Pie"></div>
                 </div>
 
                 {/* hoja 6*/}
@@ -479,28 +837,6 @@ class Cbasico extends Component{
                                         <td>GUARDEN SU LIBRO..</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/put-away-your-book.mp3')}}></span></td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>   
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">6</span></div>
-                </div>
-
-                {/* hoja 7*/}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/expressions.png'className="Esquina" alt="Expressions"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>ACTIONS IN CLASSROOM</h2>
-                            <h3>ACCIONES EN EL AULA</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table table-striped">
-                                <tbody>
                                     <tr className="">
                                         <td>TAKE OUT A SHEET OF PAPER.</td>
                                         <td>SAQUE UNA HOJA DE PAPEL.</td>
@@ -541,163 +877,119 @@ class Cbasico extends Component{
                                         <td>DÉ LA RESPUESTA.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/give-the-answer.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr>
                                         <td>WORK IN GROUPS.</td>
                                         <td>TRABAJEN EN GRUPOS.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/work-in-groups.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr>
                                         <td>WORK IN PAIRS.</td>
                                         <td>TRABAJEN EN PAREJAS.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/work-in-pairs.mp3')}}></span></td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>   
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">7</span></div>
-                </div>
-
-                {/* hoja 8*/}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/expressions.png'className="Esquina" alt="Expressions"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>ACTIONS IN CLASSROOM</h2>
-                            <h3>ACCIONES EN EL AULA</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table table-striped">
-                                <tbody>
-                                    <tr className="">
+                                    <tr>
                                         <td>HELP EACH OTHER.</td>
                                         <td>AYUDENSE UNOS A OTROS.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/help-each-other.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr>
                                         <td>DO YOUR HOMEWORK!</td>
                                         <td>HAZ TU AREA.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/do-your-home-work.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr>
                                         <td>BRING IN YOUR HOMEWORK.</td>
                                         <td>TRAIGAN SU TAREA.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/bring-in-your-home-work.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr>
                                         <td>CORRECT YOUR MISTAKES.</td>
                                         <td>CORRIJAN SUS ERRORES.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/correct-your-mistakes.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr>
                                         <td>HAND IN YOUR HOMEWORK.</td>
                                         <td>ENTREGUEN SU TAREA.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/hand-in-your-homework.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr>
                                         <td>COLLECT THE TESTS.</td>
                                         <td>RECOJA LOS EXAMENES.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/collect-the-tests.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr>
                                         <td>OPEN THE WINDOW.</td>
                                         <td>ABRAN LA VENTANA.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/open-the-window.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr>
                                         <td>CLOSE THE WINDOW.</td>
                                         <td>CIERREN LA VENTANA.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/close-the-window.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr>
                                         <td>OPEN/CLOSE THE DOOR.</td>
                                         <td>ABRAN /CIERREN LA PUERTA.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/open-the-door.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr>
                                         <td>TAKE NOTES.</td>
                                         <td>TOMAR NOTAS.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/take-notes.mp3')}}></span></td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">8</span></div>
-                </div>
-
-                {/* hoja 9*/}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/expressions.png'className="Esquina" alt="Expressions"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>ACTIONS IN CLASSROOM</h2>
-                            <h3>ACCIONES EN EL AULA</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table table-striped">
-                                <tbody>
-                                    <tr className="">
+                                    <tr>
                                         <td>READ THE TEXT.</td>
                                         <td>LEA EL TEXTO.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/read-the-text.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr>
                                         <td>GO TO PAGE 87.</td>
                                         <td>IR A LA PAGINA 87.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/go-to-page-87.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr>
                                         <td>COPY.</td>
                                         <td>COPIAR.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/copy.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr>
                                         <td>TURN OFF YOUR CELL PHONE.</td>
                                         <td>APAGUE SU CELULAR</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/turn-off-you-cellphone.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr>
                                         <td>DON´T WRITE.</td>
                                         <td>NO ESCRIBAN.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/dont-write.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr>
                                         <td>LISTEN AND REPEAT.</td>
                                         <td>ESCUCHEN Y REPITAN.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/listen-and-repeat.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr>
                                         <td>DON´T SPEAK SPANISH!.</td>
                                         <td>NO HABLE ESPAÑOL.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/dont-speak-spanish.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr>
                                         <td>BE QUIET!</td>
                                         <td>SILENCIO.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/be-quiet.mp3')}}></span></td>
                                     </tr>
-                                    <tr className="">
+                                    <tr>
                                         <td>PAY ATTENTION.</td>
                                         <td>PONGA CUIDADO.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/pay-attention.mp3')}}></span></td>
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>    
+                        </div>   
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">9</span></div>
+                    <div className="Pie"></div>
                 </div>
 
-                {/* hoja 10*/}
+                {/* hoja 6*/}
 
                 <div className="Hoja">
                     <div className="Encavezado">
@@ -753,37 +1045,10 @@ class Cbasico extends Component{
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/Scissors.mp3')}}></span></td>
                                     </tr>
                                     <tr>
-                                        <td>COMPUTER.</td>
-                                        <td>COMPUTADOR.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/in.mp3')}}></span></td>
-                                    </tr>
-                                    <tr>
                                         <td>CRAYON.</td>
                                         <td>CRAYOLA.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/Crayon.mp3')}}></span></td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>   
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">10</span></div>
-                </div>
-
-                {/* hoja 11*/}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/expressions.png'className="Esquina" alt="Expressions"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>CLASSROOM VOCABULARY</h2>
-                            <h3>VOCABULARIO EN EL AULA</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table table-striped">
-                                <tbody>
                                     <tr>
                                         <td>PENCIL.</td>
                                         <td>LAPIZ.</td>
@@ -815,11 +1080,6 @@ class Cbasico extends Component{
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/Eraser.mp3')}}></span></td>
                                     </tr>
                                     <tr>
-                                        <td>CARDBOARD PAPER.</td>
-                                        <td>CARTULINA.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/in.mp3')}}></span></td>
-                                    </tr>
-                                    <tr>
                                         <td>RULER.</td>
                                         <td>REGLA.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/Ruler.mp3')}}></span></td>
@@ -834,28 +1094,6 @@ class Cbasico extends Component{
                                         <td>CUADERNO.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/Notebook.mp3')}}></span></td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>   
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">11</span></div>
-                </div>
-
-                {/* hoja 12*/}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/expressions.png'className="Esquina" alt="Expressions"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>CLASSROOM VOCABULARY</h2>
-                            <h3>VOCABULARIO EN EL AULA</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table table-striped">
-                                <tbody>
                                     <tr>
                                         <td>COTTON.</td>
                                         <td>ALGODON.</td>
@@ -871,6 +1109,28 @@ class Cbasico extends Component{
                                         <td>ENCOGER.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/Shrink.mp3')}}></span></td>
                                     </tr>
+                                </tbody>
+                            </table>
+                        </div>   
+                    </div>
+                    <div className="Pie"></div>
+                </div>
+
+                {/* hoja 7*/}
+
+                <div className="Hoja">
+                    <div className="Encavezado">
+                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
+                        <img src='./img/courses/expressions.png'className="Esquina" alt="Expressions"/>
+                    </div>
+                    <div className="Contenido">
+                        <div className="titulos">
+                            <h2>CLASSROOM VOCABULARY</h2>
+                            <h3>VOCABULARIO EN EL AULA</h3>
+                        </div>
+                        <div className="bloque">
+                            <table className="table table-striped">
+                                <tbody>
                                     <tr>
                                         <td>CRUMPLE.</td>
                                         <td>ARRUGAR.</td>
@@ -906,28 +1166,6 @@ class Cbasico extends Component{
                                         <td>CAJA.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/Box.mp3')}}></span></td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>   
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">12</span></div>
-                </div>
-
-                {/* hoja 13*/}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/expressions.png'className="Esquina" alt="Expressions"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>CLASSROOM VOCABULARY</h2>
-                            <h3>VOCABULARIO EN EL AULA</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table table-striped">
-                                <tbody>
                                     <tr>
                                         <td>BAG.</td>
                                         <td>BOLSA.</td>
@@ -953,10 +1191,10 @@ class Cbasico extends Component{
                         </div>  
                         <video className ="videoPm" src="./media/video2.mp4" controls></video> 
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">13</span></div>
+                    <div className="Pie"></div>
                 </div>
 
-                 {/* hoja 14*/}
+                 {/* hoja 8*/}
 
                  <div className="Hoja">
                     <div className="Encavezado">
@@ -1021,28 +1259,6 @@ class Cbasico extends Component{
                                         <td>NARANJA.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/ORANGE.mp3')}}></span></td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>   
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">14</span></div>
-                </div>
-
-                {/* hoja 15*/}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/colors.png'className="Esquina" alt="Colors"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>COLORS</h2>
-                            <h3>COLORES</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table table-striped">
-                                <tbody>
                                     <tr>
                                         <td>BROWN.</td>
                                         <td>CAFÉ.</td>
@@ -1068,10 +1284,10 @@ class Cbasico extends Component{
                         </div>
                         <img className="rellenoPc" src="img/courses/colorspen.png"></img>   
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">15</span></div>
+                    <div className="Pie"></div>
                 </div>
 
-                {/* hoja 16*/}
+                {/* hoja 9*/}
 
                 <div className="Hoja">
                     <div className="Encavezado">
@@ -1084,7 +1300,7 @@ class Cbasico extends Component{
                             <h3>FORMAS</h3>
                         </div>
                         <div className="bloque">
-                            <table className="table">
+                            <table className="table table-striped">
                                 <tbody>
                                     <tr>
                                         <td>SQUARE.</td>
@@ -1132,10 +1348,10 @@ class Cbasico extends Component{
                             </table>
                         </div>   
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">16</span></div>
+                    <div className="Pie"></div>
                 </div>
 
-                {/* hoja 17*/}
+                {/* hoja 10*/}
 
                 <div className="Hoja">
                     <div className="Encavezado">
@@ -1143,12 +1359,8 @@ class Cbasico extends Component{
                         <img src='./img/courses/shapes.png'className="Esquina" alt="Shapes"/>
                     </div>
                     <div className="Contenido">
-                        <div className="titulos">
-                            <h2>SHAPES</h2>
-                            <h3>FORMAS</h3>
-                        </div>
                         <div className="bloque">
-                            <table className="table">
+                            <table className="table table-striped">
                                 <tbody>
                                     <tr>
                                         <td>STAR.</td>
@@ -1196,10 +1408,9 @@ class Cbasico extends Component{
                             </table>
                         </div>   
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">17</span></div>
                 </div>
 
-                {/* hoja 18 */}
+                {/* hoja 11 */}
 
                 <div className="Hoja">
                     <div className="Encavezado">
@@ -1264,28 +1475,6 @@ class Cbasico extends Component{
                                         <td>MANGO.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/MANGO.mp3')}}></span></td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>   
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">18</span></div>
-                </div>
-
-                {/* hoja 19 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/fruits.png'className="Esquina" alt="Fruits"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>FRUITS</h2>
-                            <h3>FRUTAS</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table table-striped">
-                                <tbody>
                                     <tr>
                                         <td>PAPAYA.</td>
                                         <td>PAPAYA.</td>
@@ -1336,28 +1525,6 @@ class Cbasico extends Component{
                                         <td>MELON.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/MELON.mp3')}}></span></td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>   
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">19</span></div>
-                </div>
-
-                {/* hoja 20 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/fruits.png'className="Esquina" alt="Fruits"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>FRUITS</h2>
-                            <h3>FRUTAS</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table table-striped">
-                                <tbody>
                                     <tr>
                                         <td>TANGERINE.</td>
                                         <td>MANDARINA.</td>
@@ -1375,13 +1542,11 @@ class Cbasico extends Component{
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>
-                        <img className="rellenoPc" src="img/courses/fruts.jpg"></img>   
+                        </div>   
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">20</span></div>
                 </div>
 
-                {/* hoja 21 */}
+                {/* hoja 12 */}
 
                 <div className="Hoja">
                     <div className="Encavezado">
@@ -1403,24 +1568,22 @@ class Cbasico extends Component{
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/b.mp3')}}></span></td>
                                         <td>C (ci)</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/c.mp3')}}></span></td>
-                                    </tr>
-                                    <tr>
                                         <td>D (di)</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/d.mp3')}}></span></td>
+                                    </tr>
+                                    <tr>
                                         <td>E (ii)</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/e.mp3')}}></span></td>
                                         <td>F (ef)</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/f.mp3')}}></span></td>
-                                    </tr>
-                                    <tr>
                                         <td>G (yi)</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/g.mp3')}}></span></td>
                                         <td>H (eich)</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/h.mp3')}}></span></td>
-                                        <td>I (ai)</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/i.mp3')}}></span></td>
                                     </tr>
                                     <tr>
+                                        <td>I (ai)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/i.mp3')}}></span></td>
                                         <td>J (yei)</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/j.mp3')}}></span></td>
                                         <td>K (kei)</td>
@@ -1435,24 +1598,22 @@ class Cbasico extends Component{
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/n.mp3')}}></span></td>
                                         <td>O (ou)</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/o.mp3')}}></span></td>
-                                    </tr>
-                                    <tr>
                                         <td>P (pi)</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/p.mp3')}}></span></td>
+                                    </tr>
+                                    <tr>
                                         <td>Q (kiu)</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/q.mp3')}}></span></td>
                                         <td>R (ar)</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/r.mp3')}}></span></td>
-                                    </tr>
-                                    <tr>
                                         <td>S (es)</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/s.mp3')}}></span></td>
                                         <td>T (ti)</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/t.mp3')}}></span></td>
-                                        <td>U (iu)</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/u.mp3')}}></span></td>
                                     </tr>
                                     <tr>
+                                        <td>U (iu)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/u.mp3')}}></span></td>
                                         <td>V (vi)</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/v.mp3')}}></span></td>
                                         <td>W (dabliu)</td>
@@ -1468,12 +1629,12 @@ class Cbasico extends Component{
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>
+                        </div>   
+                        <img className="rellenoPm" src="./img/courses/alphabet-animal.png"></img>
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">21</span></div>
                 </div>
 
-                {/* hoja 22 */}
+                {/* hoja 12 */}
 
                 <div className="Hoja">
                     <div className="Encavezado">
@@ -1526,6 +1687,7 @@ class Cbasico extends Component{
                                 </tbody>
                             </table>
                         </div>
+                        <div className="linea"></div>
                         <div className="titulos">
                             <h2>FARM ANIMALS</h2>
                             <h3>ANIMALES DE FINCA</h3>
@@ -1543,28 +1705,6 @@ class Cbasico extends Component{
                                         <td>POLLO.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/CHICKEN.mp3')}}></span></td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>    
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">22</span></div>
-                </div>
-
-                {/* hoja 23 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/farm-animals.png'className="Esquina" alt="Transportation"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>FARM ANIMALS</h2>
-                            <h3>ANIMALES DE FINCA</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table table-striped">
-                                <tbody>
                                     <tr>
                                         <td>HEN.</td>
                                         <td>GALLINA.</td>
@@ -1615,28 +1755,6 @@ class Cbasico extends Component{
                                         <td>LECHON.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/PIGLET.mp3')}}></span></td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>    
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">23</span></div>
-                </div>
-
-                {/* hoja 24 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/farm-animals.png'className="Esquina" alt="Transportation"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>FARM ANIMALS</h2>
-                            <h3>ANIMALES DE FINCA</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table table-striped">
-                                <tbody>
                                     <tr>
                                         <td>COW.</td>
                                         <td>VACA.</td>
@@ -1652,35 +1770,19 @@ class Cbasico extends Component{
                                         <td>TERNERO.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/CALF.mp3')}}></span></td>
                                     </tr>
-                                    <tr>
-                                        <td>HORSE.</td>
-                                        <td>CABALLO.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/HORSE.mp3')}}></span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>DONKEY.</td>
-                                        <td>BURRO.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/DONKEY.mp3')}}></span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>RABBIT.</td>
-                                        <td>CONEJO.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/RABBIT.mp3')}}></span></td>
-                                    </tr>
                                 </tbody>
                             </table>
-                        </div>
-                        <img className="rellenoPc wild" src="./img/courses/farmAnimals.jpg"></img>
+                        </div>    
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">24</span></div>
+                    <div className="Pie"></div>
                 </div>
 
-                {/* hoja 25 */}
+                {/* hoja 13 */}
 
                 <div className="Hoja">
                     <div className="Encavezado">
                         <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/wild-animal.png'className="Esquina" alt="Wild Animals"/>
+                        <img src='./img/courses/wildAnimals.png'className="Esquina" alt="Wild Animals"/>
                     </div>
                     <div className="Contenido">
                         <div className="titulos">
@@ -1740,28 +1842,6 @@ class Cbasico extends Component{
                                         <td>HIPOPOTAMO.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/HIPPOPOTAMUS.mp3')}}></span></td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>    
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">25</span></div>
-                </div>
-
-                {/* hoja 26 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/wild-animal.png'className="Esquina" alt="Wild Animals"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>WILD ANIMAL</h2>
-                            <h3>ANIMALES SALVAJES</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table table-striped">
-                                <tbody>
                                     <tr>
                                         <td>COCODRILE.</td>
                                         <td>COCODRILO.</td>
@@ -1795,19 +1875,7 @@ class Cbasico extends Component{
                                 </tbody>
                             </table>
                         </div>
-                        <img className="rellenoPc wild" src="./img/courses/wil-animals.jpg"></img>
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">26</span></div>
-                </div>
-
-                {/* hoja 27 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/places-city.png'className="Esquina" alt="Wild Animals"/>
-                    </div>
-                    <div className="Contenido">
+                        <div className="linea"></div>
                         <div className="titulos">
                             <h2>PLACES IN THE CITY</h2>
                             <h3>SITIOS EN LA CIUDAD</h3>
@@ -1815,21 +1883,6 @@ class Cbasico extends Component{
                         <div className="bloque">
                             <table className="table table-striped">
                                 <tbody>
-                                    <tr>
-                                        <td>CITY HALL.</td>
-                                        <td>ALCALDIA.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/CITY HALL.mp3')}}></span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>POLICE STATION.</td>
-                                        <td>ESTACION DE POLICIA.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/POLICE.mp3')}}></span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>FIRE STATION..</td>
-                                        <td>ESTACION DE BOMBEROS.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/FIRE STATION.mp3')}}></span></td>
-                                    </tr>
                                     <tr>
                                         <td>CITY HALL.</td>
                                         <td>ALCALDIA.</td>
@@ -1860,24 +1913,19 @@ class Cbasico extends Component{
                                         <td>SUPERMERCADOS.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/SUPERMARKET.mp3')}}></span></td>
                                     </tr>
-                                    <tr>
-                                        <td>PARK.</td>
-                                        <td>PARQUE.</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/PARK.mp3')}}></span></td>
-                                    </tr>
                                 </tbody>
                             </table>
                         </div>    
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">27</span></div>
+                    <div className="Pie"></div>
                 </div>
 
-                {/* hoja 28 */}
+                {/* hoja 14 */}
 
                 <div className="Hoja">
                     <div className="Encavezado">
                         <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/places-city.png'className="Esquina" alt="Expressions"/>
+                        <img src='./img/courses/expressions.png'className="Esquina" alt="Expressions"/>
                     </div>
                     <div className="Contenido">
                         <div className="titulos">
@@ -1887,6 +1935,11 @@ class Cbasico extends Component{
                         <div className="bloque">
                             <table className="table table-striped">
                                 <tbody>
+                                    <tr>
+                                        <td>PARK.</td>
+                                        <td>PARQUE.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/PARK.mp3')}}></span></td>
+                                    </tr>
                                     <tr>
                                         <td>PARKING LOT.</td>
                                         <td>PARQUEADERO.</td>
@@ -1937,28 +1990,6 @@ class Cbasico extends Component{
                                         <td>SALA DE CINE.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/CINEMA.mp3')}}></span></td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>   
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">28</span></div>
-                </div>
-
-                {/* hoja 29 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/places-school.png'className="Esquina" alt="Expressions"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>PLACES IN THE CITY</h2>
-                            <h3>SITIOS EN LA CIUDAD</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table table-striped">
-                                <tbody>
                                     <tr>
                                         <td>RESTAURANT.</td>
                                         <td>RESTAURANTE.</td>
@@ -1972,6 +2003,7 @@ class Cbasico extends Component{
                                 </tbody>
                             </table>
                         </div>
+                        <div className="linea"></div>
                         <div className="titulos">
                             <h2>PLACES IN THE SCHOOL</h2>
                             <h3>SITIOS EN EL COLEGIO</h3>
@@ -2009,28 +2041,6 @@ class Cbasico extends Component{
                                         <td>RECEPCION.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/FRONT DESK.mp3')}}></span></td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>   
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">29</span></div>
-                </div>
-
-                {/* hoja 30 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/places-school.png'className="Esquina" alt="Expressions"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>PLACES IN THE SCHOOL</h2>
-                            <h3>SITIOS EN EL COLEGIO</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table table-striped">
-                                <tbody>
                                     <tr>
                                         <td>PLAYGROUND.</td>
                                         <td>PATIO DE RECREO.</td>
@@ -2046,6 +2056,28 @@ class Cbasico extends Component{
                                         <td>CAMPO DE DEPORTES.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/SPORTS FIELD.mp3')}}></span></td>
                                     </tr>
+                                </tbody>
+                            </table>
+                        </div>   
+                    </div>
+                    <div className="Pie"></div>
+                </div>
+
+                {/* hoja 15 */}
+
+                <div className="Hoja">
+                    <div className="Encavezado">
+                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
+                        <img src='./img/courses/expressions.png'className="Esquina" alt="Expressions"/>
+                    </div>
+                    <div className="Contenido">
+                        <div className="titulos">
+                            <h2>PLACES IN THE SCHOOL</h2>
+                            <h3>SITIOS EN EL COLEGIO</h3>
+                        </div>
+                        <div className="bloque">
+                            <table className="table table-striped">
+                                <tbody>
                                     <tr>
                                         <td>TEACHERS’ LOUNGE.</td>
                                         <td>SALA DE PROFESORES.</td>
@@ -2081,28 +2113,6 @@ class Cbasico extends Component{
                                         <td>CAMPO DE FUTBOL.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/SOCCER FIELD.mp3')}}></span></td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>   
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">30</span></div>
-                </div>
-
-                {/* hoja 31 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/numbers.png'className="Esquina" alt="Expressions"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>PLACES IN THE SCHOOL</h2>
-                            <h3>SITIOS EN EL COLEGIO</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table table-striped">
-                                <tbody>
                                     <tr>
                                         <td>BASKETBALL COURT.</td>
                                         <td>CANCHA DE BASQUET.</td>
@@ -2110,7 +2120,19 @@ class Cbasico extends Component{
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>
+                        </div>   
+                    </div>
+                    <div className="Pie"></div>
+                </div>
+
+                {/* hoja 16 */}
+
+                <div className="Hoja">
+                    <div className="Encavezado">
+                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
+                        <img src='./img/courses/expressions.png'className="Esquina" alt="Expressions"/>
+                    </div>
+                    <div className="Contenido">
                         <div className="titulos">
                             <h2>NUMBERS</h2>
                             <h3>NUMEROS</h3>
@@ -2180,34 +2202,6 @@ class Cbasico extends Component{
                                         <td>Sixth</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/6th.mp3')}}></span></td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">31</span></div>
-                </div>
-
-                {/* hoja 32 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/numbers.png'className="Esquina" alt="Expressions"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>NUMBERS</h2>
-                            <h3>NUMEROS</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table table-striped">
-                                <thead>
-                                    <tr>
-                                        <th colSpan="3">Cardinal numbers</th>
-          	                            <th colSpan="3">Ordinal numbers</th>  	
-                                    </tr>      
-                                </thead>
-                                <tbody>
                                     <tr>
                                         <td>7</td>
                                         <td>Seven</td>
@@ -2280,34 +2274,6 @@ class Cbasico extends Component{
                                         <td>Fifteenth</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/15th.mp3')}}></span></td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>   
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">32</span></div>
-                </div>
-
-                {/* hoja 33 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/numbers.png'className="Esquina" alt="Expressions"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>NUMBERS</h2>
-                            <h3>NUMEROS</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table table-striped">
-                                <thead>
-                                    <tr>
-                                        <th colSpan="3">Cardinal numbers</th>
-          	                            <th colSpan="3">Ordinal numbers</th>  	
-                                    </tr>      
-                                </thead>
-                                <tbody>
                                     <tr>
                                         <td>16</td>
                                         <td>Sixteen</td>
@@ -2372,27 +2338,19 @@ class Cbasico extends Component{
                                         <td>--</td>
                                         <td><span className="" >--</span></td>
                                     </tr>
-                                    <tr>
-                                        <td>50</td>
-                                        <td>Fifty</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/Fifty.mp3')}}></span></td>
-                                        <td>--</td>
-                                        <td>--</td>
-                                        <td><span className="" >--</span></td>
-                                    </tr>
                                 </tbody>
                             </table>
                         </div>   
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">33</span></div>
+                    <div className="Pie"></div>
                 </div>
 
-                {/* hoja 34 */}
+                {/* hoja 17 */}
 
                 <div className="Hoja">
                     <div className="Encavezado">
                         <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/numbers.png'className="Esquina" alt="Expressions"/>
+                        <img src='./img/courses/expressions.png'className="Esquina" alt="Expressions"/>
                     </div>
                     <div className="Contenido">
                         <div className="titulos">
@@ -2408,6 +2366,14 @@ class Cbasico extends Component{
                                     </tr>      
                                 </thead>
                                 <tbody>
+                                    <tr>
+                                        <td>50</td>
+                                        <td>Fifty</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/Fifty.mp3')}}></span></td>
+                                        <td>--</td>
+                                        <td>--</td>
+                                        <td><span className="" >--</span></td>
+                                    </tr>
                                     <tr>
                                         <td>60</td>
                                         <td>Sixty</td>
@@ -2480,34 +2446,6 @@ class Cbasico extends Component{
                                         <td>--</td>
                                         <td><span className="" >--</span></td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>   
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">34</span></div>
-                </div>
-
-                {/* hoja 35 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/adjetives.png'className="Esquina" alt="Expressions"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>NUMBERS</h2>
-                            <h3>NUMEROS</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table table-striped">
-                                <thead>
-                                    <tr>
-                                        <th colSpan="3">Cardinal numbers</th>
-          	                            <th colSpan="3">Ordinal numbers</th>  	
-                                    </tr>      
-                                </thead>
-                                <tbody>
                                     <tr>
                                         <td>1,000,000,000</td>
                                         <td>a/one billion</td>
@@ -2518,7 +2456,19 @@ class Cbasico extends Component{
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>
+                        </div>   
+                    </div>
+                    <div className="Pie"></div>
+                </div>
+
+                {/* hoja 18 */}
+
+                <div className="Hoja">
+                    <div className="Encavezado">
+                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
+                        <img src='./img/courses/expressions.png'className="Esquina" alt="Expressions"/>
+                    </div>
+                    <div className="Contenido">
                         <div className="titulos">
                             <h2>ADJETIVES</h2>
                             <h3>adjetivos</h3>
@@ -2582,28 +2532,6 @@ class Cbasico extends Component{
                                         <td>Largo</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/Long.mp3')}}></span></td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>   
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">35</span></div>
-                </div>
-
-                {/* hoja 36 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/adjetives.png'className="Esquina" alt="Expressions"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>ADJETIVES</h2>
-                            <h3>adjetivos</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table table-striped">
-                                <tbody>
                                     <tr>
                                         <td>ugly</td>
                                         <td>feo</td>
@@ -2653,14 +2581,6 @@ class Cbasico extends Component{
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/Happy.mp3')}}></span></td>
                                     </tr>
                                     <tr>
-                                        <td>Dirty</td>
-                                        <td>Sucio</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/Clean.mp3')}}></span></td>
-                                        <td>sad</td>
-                                        <td>Triste</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/Happy.mp3')}}></span></td>
-                                    </tr>
-                                    <tr>
                                         <td>Worry</td>
                                         <td>Preocupado</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/Worry.mp3')}}></span></td>
@@ -2680,15 +2600,16 @@ class Cbasico extends Component{
                             </table>
                         </div>   
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">36</span></div>
+                    <div className="linea"></div>
+                    <div className="Pie"></div>
                 </div>
 
-                {/* hoja 37 */}
+                {/* hoja 19 */}
 
                 <div className="Hoja">
                     <div className="Encavezado">
                         <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/time.png'className="Esquina" alt="Expressions"/>
+                        <img src='./img/courses/expressions.png'className="Esquina" alt="Expressions"/>
                     </div>
                     <div className="Contenido">
                         <div className="titulos">
@@ -2696,7 +2617,7 @@ class Cbasico extends Component{
                             <h3>Hora</h3>
                         </div>
                         <div className="bloque">
-                            <table className="table">
+                            <table className="table table-striped">
                                 <tbody>
                                     <tr>
                                         <td><img src='./img/courses/time1.png'className="imgtimes" alt="SQUARE"/></td>
@@ -2704,9 +2625,14 @@ class Cbasico extends Component{
                                         <td><img src='./img/courses/time3.png'className="imgtimes" alt="SQUARE"/></td>
                                     </tr>
                                     <tr>
-                                        <td><p>What's the time?</p><p>¿Que hora es?</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/time1.mp3')}}></span></td>
-                                        <td><p>It's ten past ten</p><p>Son las diez y diez</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/time2.mp3')}}></span></td>
-                                        <td><p>It's quarter past nine</p><p>Son las nueve y cuarto</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/time3.mp3')}}></span></td>
+                                        <td>What's the time? <span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/time1.mp3')}}></span></td>
+                                        <td>It's ten past ten <span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/time2.mp3')}}></span></td>
+                                        <td>It's quarter past nine <span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/time3.mp3')}}></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>¿Que hora es?</td>
+                                        <td>Son las diez y diez</td>
+                                        <td>Son las nueve y cuarto</td>
                                     </tr>
                                     <tr>
                                         <td><img src='./img/courses/time4.png'className="imgtimes" alt="SQUARE"/></td>
@@ -2714,9 +2640,14 @@ class Cbasico extends Component{
                                         <td><img src='./img/courses/time6.png'className="imgtimes" alt="SQUARE"/></td>
                                     </tr>
                                     <tr>
-                                        <td><p>It's twenty past twelve</p><p>Son las doce y veinte</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/time4.mp3')}}></span></td>
-                                        <td><p>It's twenty- five past six</p><p>Son las seis y veinticinco</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/time5.mp3')}}></span></td>
-                                        <td><p>It's half past eight</p><p>Son las ocho y media</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/time6.mp3')}}></span></td>
+                                        <td>It's twenty past twelve <span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/time4.mp3')}}></span></td>
+                                        <td>It's twenty- five past six <span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/time5.mp3')}}></span></td>
+                                        <td>It's half past eight <span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/time6.mp3')}}></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Son las doce y veinte</td>
+                                        <td>Son las seis y veinticinco</td>
+                                        <td>Son las ocho y media</td>
                                     </tr>
                                     <tr>
                                         <td><img src='./img/courses/time7.png'className="imgtimes" alt="SQUARE"/></td>
@@ -2724,23 +2655,28 @@ class Cbasico extends Component{
                                         <td><img src='./img/courses/time9.png'className="imgtimes" alt="SQUARE"/></td>
                                     </tr>
                                     <tr>
-                                        <td><p>It's twenty-five to six</p><p>25 para las seis</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/time7.mp3')}}></span></td>
-                                        <td><p>It's five minutes to six</p><p>Son cinco para las seis</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/time8.mp3')}}></span></td>
-                                        <td><p>It's three o'clock</p><p>Son las tres en punto</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/time9.mp3')}}></span></td>
+                                        <td>It's twenty-five to six <span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/time7.mp3')}}></span></td>
+                                        <td>It's five minutes to six <span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/time8.mp3')}}></span></td>
+                                        <td>It's three o'clock <span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/time9.mp3')}}></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>25 para las seis</td>
+                                        <td>Son cinco para las seis</td>
+                                        <td>Son las tres en punto</td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>   
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">37</span></div>
+                    <div className="Pie"></div>
                 </div>
 
-                {/* hoja 38 */}
+                {/* hoja 20 */}
 
                 <div className="Hoja">
                     <div className="Encavezado">
                         <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/day-week.png'className="Esquina" alt="Expressions"/>
+                        <img src='./img/courses/expressions.png'className="Esquina" alt="Expressions"/>
                     </div>
                     <div className="Contenido">
                         <div className="titulos">
@@ -2781,12 +2717,14 @@ class Cbasico extends Component{
                                 </tbody>
                             </table>
                         </div>   
-                        <div className="titulos">
+                    </div>
+                    <div className="linea"></div>
+                    <div className="titulos">
                             <h2>MONTHS OF THE YEAR</h2>
                             <h3>meses del año</h3>
                         </div>
                         <div className="bloque">
-                            <table className="table table-striped">
+                            <table>
                                 <tbody>
                                     <tr>
                                         <td>January-Enero.</td>
@@ -2796,28 +2734,6 @@ class Cbasico extends Component{
                                         <td>February-Febrero.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/months2.mp3')}}></span></td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">38</span></div>
-                </div>
-
-                {/* hoja 39 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/month-year.png'className="Esquina" alt="Expressions"/>
-                    </div>
-                    <div className="Contenido">   
-                        <div className="titulos">
-                            <h2>MONTHS OF THE YEAR</h2>
-                            <h3>meses del año</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table table-striped">
-                                <tbody>
                                     <tr>
                                         <td>March-Marzo.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/months3.mp3')}}></span></td>
@@ -2861,16 +2777,15 @@ class Cbasico extends Component{
                                 </tbody>
                             </table>
                         </div>
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">39</span></div>
+                    <div className="Pie"></div>
                 </div>
 
-                {/* hoja 40 */}
+                {/* hoja 21 */}
 
                 <div className="Hoja">
                     <div className="Encavezado">
                         <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/dates.png'className="Esquina" alt="Expressions"/>
+                        <img src='./img/courses/expressions.png'className="Esquina" alt="Expressions"/>
                     </div>
                     <div className="Contenido">
                         <div className="titulos">
@@ -2900,6 +2815,7 @@ class Cbasico extends Component{
                                 </tbody>
                             </table>
                         </div>
+                        <div className="linea"></div>
                         <div className="titulos">
                             <h2>HOLIDAYS</h2>
                             <h3>United States Legal Federal Holidays 2011</h3>
@@ -2928,29 +2844,6 @@ class Cbasico extends Component{
                                         </td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/holidays4.mp3')}}></span></td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>                    
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">40</span></div>
-                </div>
-
-                {/* hoja 41 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/holidays.png'className="Esquina" alt="Expressions"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>HOLIDAYS</h2>
-                            <h3>United States Legal Federal Holidays 2011</h3>
-                            <h3>días festivos en Estados Unidos</h3>   
-                        </div>
-                        <div className="bloque">
-                            <table className="table table-striped">
-                                <tbody>
                                     <tr>
                                         <td>
                                             July 4, 2011 (monday): Independence Day [July 4th every year]
@@ -2995,18 +2888,17 @@ class Cbasico extends Component{
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>
-                        <img className="rellenoPc display360" src="img/courses/holydays-calendar.jpg"></img>                    
+                        </div>                    
+                        <div className="Pie"></div>
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">41</span></div>
                 </div>
 
-                {/* hoja 42 */}
+                {/* hoja 22 */}
 
-                <div className="Hoja">
+                 <div className="Hoja">
                     <div className="Encavezado">
                         <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/family.png'className="Esquina" alt="Expressions"/>
+                        <img src='./img/courses/expressions.png'className="Esquina" alt="Expressions"/>
                     </div>
                     <div className="Contenido">
                         <div className="titulos">
@@ -3066,28 +2958,6 @@ class Cbasico extends Component{
                                         <td>novia</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/fami10.mp3')}}></span></td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>   
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">42</span></div>
-                </div>
-
-                {/* hoja 43 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/family.png'className="Esquina" alt="Expressions"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>FAMILY</h2>
-                            <h3>FAMILIA</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table table-striped">
-                                <tbody>
                                     <tr>
                                         <td>godfather</td>
                                         <td>padrino</td>
@@ -3133,28 +3003,6 @@ class Cbasico extends Component{
                                         <td>bisabuelo</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/fami19.mp3')}}></span></td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>   
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">43</span></div>
-                </div>
-
-                {/* hoja 44 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/family.png'className="Esquina" alt="Expressions"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>FAMILY</h2>
-                            <h3>FAMILIA</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table table-striped">
-                                <tbody>
                                     <tr>
                                         <td>great-grandmother</td>
                                         <td>bisabuela</td>
@@ -3190,6 +3038,28 @@ class Cbasico extends Component{
                                         <td>hermana</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/fami26.mp3')}}></span></td>
                                     </tr>
+                                </tbody>
+                            </table>
+                        </div>   
+                    </div>
+                    <div className="Pie"></div>
+                </div>
+
+                {/* hoja 23 */}
+
+                <div className="Hoja">
+                    <div className="Encavezado">
+                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
+                        <img src='./img/courses/expressions.png'className="Esquina" alt="Expressions"/>
+                    </div>
+                    <div className="Contenido">
+                        <div className="titulos">
+                            <h2>FAMILY</h2>
+                            <h3>FAMILIA</h3>
+                        </div>
+                        <div className="bloque">
+                            <table className="table table-striped">
+                                <tbody>
                                     <tr>
                                         <td>son</td>
                                         <td>hijo</td>
@@ -3205,28 +3075,6 @@ class Cbasico extends Component{
                                         <td>madrastra</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/fami29.mp3')}}></span></td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>   
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">44</span></div>
-                </div>
-
-                {/* hoja 45 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/family.png'className="Esquina" alt="Expressions"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>FAMILY</h2>
-                            <h3>FAMILIA</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table table-striped">
-                                <tbody>
                                     <tr>
                                         <td>stepfather</td>
                                         <td>padrastro</td>
@@ -3260,6 +3108,7 @@ class Cbasico extends Component{
                                 </tbody>
                             </table>
                         </div>
+                        <div className="linea"></div>
                         <div className="titulos">
                             <h2>Sickness</h2>
                             <h3>enfermedades</h3>
@@ -3282,28 +3131,6 @@ class Cbasico extends Component{
                                         <td>dolor de estomago</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/sick3.mp3')}}></span></td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">45</span></div>
-                </div>
-
-                {/* hoja 46 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/sickness.png'className="Esquina" alt="Expressions"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>Sickness</h2>
-                            <h3>enfermedades</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table table-striped">
-                                <tbody>
                                     <tr>
                                         <td>Earache</td>
                                         <td>dolor de oído</td>
@@ -3358,15 +3185,15 @@ class Cbasico extends Component{
                             </table>
                         </div>
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">46</span></div>
+                    <div className="Pie"></div>
                 </div>
 
-                {/* hoja 47 */}
+                {/* hoja 24 */}
 
                 <div className="Hoja">
                     <div className="Encavezado">
                         <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/sickness.png'className="Esquina" alt="Expressions"/>
+                        <img src='./img/courses/expressions.png'className="Esquina" alt="Expressions"/>
                     </div>
                     <div className="Contenido">
                         <div className="titulos">
@@ -3409,17 +3236,16 @@ class Cbasico extends Component{
                                 </tbody>
                             </table>
                         </div>
-                        <img className="rellenoPc" src="./img/courses/Sickness.jpg"></img>
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">47</span></div>
+                    <div className="Pie"></div>
                 </div>
 
-                {/* hoja 48 */}
+                {/* hoja 25 */}
 
                 <div className="Hoja">
                     <div className="Encavezado">
                         <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/parts-body.png'className="Esquina" alt="Expressions"/>
+                        <img src='./img/courses/expressions.png'className="Esquina" alt="Expressions"/>
                     </div>
                     <div className="Contenido">
                         <div className="titulos">
@@ -3452,12 +3278,12 @@ class Cbasico extends Component{
                                     <tr>
                                         <td>Wrist</td>
                                         <td>Muñeca</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/body14.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/body5.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>Hip</td>
                                         <td>Cadera</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/body15.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/body6.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>Leg</td>
@@ -3477,30 +3303,8 @@ class Cbasico extends Component{
                                     <tr>
                                         <td>Elbow</td>
                                         <td>Codo</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/Elbow.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/body9.mp3')}}></span></td>
                                     </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">48</span></div>
-                </div>
-
-                {/* hoja 49 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/parts-body.png'className="Esquina" alt="Expressions"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>PARTS OF THE BODY</h2>
-                            <h3>PARTES DEL CUERPO</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table table-striped">
-                                <tbody>
                                     <tr>
                                         <td>Hand</td>
                                         <td>Mano</td>
@@ -3519,37 +3323,36 @@ class Cbasico extends Component{
                                     <tr>
                                         <td>Thigh</td>
                                         <td>Muslo</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/Thigh.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/body14.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>Knee</td>
                                         <td>Rodilla</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/Knee.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/body15.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>Shin</td>
                                         <td>Espinilla</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/Shin.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/body16.mp3')}}></span></td>
                                     </tr>
                                     <tr>
                                         <td>Ankle</td>
                                         <td>Tobillo</td>
-                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/body9.mp3')}}></span></td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/body17.mp3')}}></span></td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
-                        <img className="rellenoPc display360" src="./img/courses/body.png"></img>
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">49</span></div>
+                    <div className="Pie"></div>
                 </div>
 
-                {/* hoja 50 */}
+                {/* hoja 26 */}
 
                 <div className="Hoja">
                     <div className="Encavezado">
                         <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/vocabulary.png'className="Esquina" alt="Expressions"/>
+                        <img src='./img/courses/expressions.png'className="Esquina" alt="Expressions"/>
                     </div>
                     <div className="Contenido">
                         <div className="titulos">
@@ -3557,49 +3360,128 @@ class Cbasico extends Component{
                             <h3>VOCABULARIO DE ROPA</h3>
                         </div>
                         <div className="bloque">
-                            <table className="table">
-                                <caption>Men's Clothes</caption>
+                            <span>Men's Clothes</span>
+                        </div>
+                        <div className="bloque">
+                            <table className="table table-striped">
                                 <tbody>
                                     <tr>
-                                        <td className="text-center"><img src='./img/courses/suit.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/shirt.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/tie.png'className="imgtimes" alt=""></img></td>
+                                        <td ><img src='./img/courses/suit.png'className="imgtimes" alt=""></img></td>
+                                        <td><img src='./img/courses/shirt.png'className="imgtimes" alt=""></img></td>
+                                        <td><img src='./img/courses/tie.png'className="imgtimes" alt=""></img></td>
                                     </tr>
                                     <tr>
-                                        <td className="text-center"><p>suit(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot1.mp3')}}></span></td>
-                                        <td className="text-center"><p>shirt(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot2.mp3')}}></span></td>
-                                        <td className="text-center"><p>tie(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot3.mp3')}}></span></td>
+                                        <td className="text-center">suit(s) <span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot1.mp3')}}></span></td>
+                                        <td className="text-center">shirt(s) <span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot2.mp3')}}></span></td>
+                                        <td className="text-center">tie(s) <span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot3.mp3')}}></span></td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                         <div className="bloque">
-                            <table className="table">
-                                <caption>Women's Clothes</caption>
+                            <table className="table table-striped">
                                 <tbody>
                                     <tr>
-                                        <td className="text-center"><img src='./img/courses/dress.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/blouse.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/skirt.png'className="imgtimes" alt=""></img></td>
+                                        <td ><img src='./img/courses/suit.png'className="imgtimes" alt=""></img></td>
+                                        <td><img src='./img/courses/shirt.png'className="imgtimes" alt=""></img></td>
+                                        <td><img src='./img/courses/tie.png'className="imgtimes" alt=""></img></td>
                                     </tr>
                                     <tr>
-                                        <td className="text-center"><p>dress(es)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot4.mp3')}}></span></td>
-                                        <td className="text-center"><p>blouse(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot5.mp3')}}></span></td>
-                                        <td className="text-center"><p>skirt(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot6.mp3')}}></span></td>
+                                        <td></td>
+                                        <td>suit(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot4.mp3')}}></span></td>
+                                        <td>shirt(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot5.mp3')}}></span></td>
+                                        <td>tie(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot6.mp3')}}></span></td>
                                     </tr>
+                                    <tr>
+                                        <td>Women's Clothes</td>
+                                        <td><img src='./img/courses/dress.png'className="imgtimes" alt=""></img></td>
+                                        <td><img src='./img/courses/blouse.png'className="imgtimes" alt=""></img></td>
+                                        <td><img src='./img/courses/skirt.png'className="imgtimes" alt=""></img></td>
+                                    </tr>
+                                    <tr>
+                                        <td>.</td>
+                                        <td>dress(es)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot7.mp3')}}></span></td>
+                                        <td>blouse(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot8.mp3')}}></span></td>
+                                        <td>skirt(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot9.mp3')}}></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Uni-Sex</td>
+                                        <td><img src='./img/courses/coat.png'className="imgtimes" alt=""></img></td>
+                                        <td><img src='./img/courses/jacket.png'className="imgtimes" alt=""></img></td>
+                                        <td><img src='./img/courses/t-shirt.png'className="imgtimes" alt=""></img></td>
+                                    </tr>
+                                    <tr>
+                                        <td>.</td>
+                                        <td>coat(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot10.mp3')}}></span></td>
+                                        <td>jacket(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot11.mp3')}}></span></td>
+                                        <td>t-shirt(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot12.mp3')}}></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><img src='./img/courses/trouser.png'className="imgtimes" alt=""></img></td>
+                                        <td><img src='./img/courses/jean.png'className="imgtimes" alt=""></img></td>
+                                        <td><img src='./img/courses/short.png'className="imgtimes" alt=""></img></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>trouser(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot13.mp3')}}></span></td>
+                                        <td>jean(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot14.mp3')}}></span></td>
+                                        <td>short(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot15.mp3')}}></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><img src='./img/courses/jumper.png'className="imgtimes" alt=""></img></td>
+                                        <td><img src='./img/courses/cardigan.png'className="imgtimes" alt=""></img></td>
+                                        <td><img src='./img/courses/sweatshirt.png'className="imgtimes" alt=""></img></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>jumper(s) pullover(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot16.mp3')}}></span></td>
+                                        <td>cardigan(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot17.mp3')}}></span></td>
+                                        <td>sweatshirt(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot18.mp3')}}></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td><img src='./img/courses/glove.png'className="imgtimes" alt=""></img></td>
+                                        <td><img src='./img/courses/mitten.png'className="imgtimes" alt=""></img></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>glove(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot19.mp3')}}></span></td>
+                                        <td>mitten(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot20.mp3')}}></span></td>
+                                        <td></td>
+                                    </tr>                                    
                                 </tbody>
                             </table>
                         </div>
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">50</span></div>
+                    <div className="Pie"></div>
                 </div>
 
-                {/* hoja 51 */}
+                {/* hoja 27 */}
 
                 <div className="Hoja">
                     <div className="Encavezado">
                         <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/vocabulary.png'className="Esquina" alt="Expressions"/>
+                        <img src='./img/courses/expressions.png'className="Esquina" alt="Expressions"/>
                     </div>
                     <div className="Contenido">
                         <div className="titulos">
@@ -3607,263 +3489,140 @@ class Cbasico extends Component{
                             <h3>VOCABULARIO DE ROPA</h3>
                         </div>
                         <div className="bloque">
-                            <table className="table">
-                                <caption>Uni-Sex</caption>
+                            <table className="table table-striped">
                                 <tbody>
                                     <tr>
-                                        <td className="text-center"><img src='./img/courses/coat.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/jacket.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/t-shirt.png'className="imgtimes" alt=""></img></td>
+                                        <td>Baby Clothes</td>
+                                        <td><img src='./img/courses/romper suit.png'className="imgtimes" alt=""></img></td>
+                                        <td><img src='./img/courses/nappy.png'className="imgtimes" alt=""></img></td>
+                                        <td><img src='./img/courses/sweatshirt.png'className="imgtimes" alt=""></img></td>
+                                        <td></td>
                                     </tr>
                                     <tr>
-                                        <td className="text-center"><p>coat(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot7.mp3')}}></span></td>
-                                        <td className="text-center"><p>jacket(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot8.mp3')}}></span></td>
-                                        <td className="text-center"><p>t-shirt(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot9.mp3')}}></span></td>
+                                        <td>.</td>
+                                        <td>romper suit(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot21.mp3')}}></span></td>
+                                        <td>nappy (nappies)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot22.mp3')}}></span></td>
+                                        <td>.</td>
                                     </tr>
                                     <tr>
-                                        <td className="text-center"><img src='./img/courses/trouser.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/jean.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/short.png'className="imgtimes" alt=""></img></td>
+                                        <td>Holiday/Leisure Clothes</td>
+                                        <td>carie</td>
+                                        <td>carie</td>
+                                        <td>carie</td>
                                     </tr>
                                     <tr>
-                                        <td className="text-center"><p>trouser(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot10.mp3')}}></span></td>
-                                        <td className="text-center"><p>jean(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot11.mp3')}}></span></td>
-                                        <td className="text-center"><p>short(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot12.mp3')}}></span></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">51</span></div>
-                </div>
-
-                {/* hoja 52 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/vocabulary.png'className="Esquina" alt="Expressions"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>CLOTHES VOCABULARY</h2>
-                            <h3>VOCABULARIO DE ROPA</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table">
-                                <caption>Uni-Sex</caption>
-                                <tbody>
-                                    <tr>
-                                        <td className="text-center"><img src='./img/courses/jumper.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/cardigan.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/sweatshirt.png'className="imgtimes" alt=""></img></td>
+                                        <td>.</td>
+                                        <td>swimming trunk(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot23.mp3')}}></span></td>
+                                        <td>bikini(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot24.mp3')}}></span></td>
+                                        <td>swimsuit(s) swimming costume(s) bathing costume(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot25.mp3')}}></span></td>
                                     </tr>
                                     <tr>
-                                        <td className="text-center"><p>jumper(s) pullover(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot13.mp3')}}></span></td>
-                                        <td className="text-center"><p>cardigan(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot15.mp3')}}></span></td>
-                                        <td className="text-center"><p>sweatshirt(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot16.mp3')}}></span></td>
+                                        <td>Nightwear</td>
+                                        <td>carie</td>
+                                        <td>carie</td>
+                                        <td>carie</td>
                                     </tr>
                                     <tr>
-                                        <td className="text-center"><img src='./img/courses/glove.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/mitten.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center">--</td>
+                                        <td>.</td>
+                                        <td>nightdress(es) nightie(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot26.mp3')}}></span></td>
+                                        <td>pyjama(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot27.mp3')}}></span></td>
+                                        <td>dressing gown(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot28.mp3')}}></span></td>
                                     </tr>
                                     <tr>
-                                        <td className="text-center"><p>glove(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot17.mp3')}}></span></td>
-                                        <td className="text-center"><p>mitten(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot18.mp3')}}></span></td>
-                                        <td className="text-center">--</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">52</span></div>
-                </div>
-               
-                {/* hoja 53 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/vocabulary.png'className="Esquina" alt="Expressions"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>CLOTHES VOCABULARY</h2>
-                            <h3>VOCABULARIO DE ROPA</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table">
-                                <caption>Baby Clothes</caption>
-                                <tbody>
-                                    <tr>
-                                        <td className="text-center"><img src='./img/courses/romper suit.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/nappy.png'className="imgtimes" alt=""></img></td>
+                                        <td>Underwear Mens</td>
+                                        <td>carie</td>
+                                        <td>carie</td>
+                                        <td>carie</td>
                                     </tr>
                                     <tr>
-                                        <td className="text-center"><p>romper suit(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot19.mp3')}}></span></td>
-                                        <td className="text-center"><p>nappy (nappies)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot20.mp3')}}></span></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div className="bloque">
-                            <table className="table">
-                                <caption>Holiday/Leisure Clothes</caption>
-                                <tbody>
-                                    <tr>
-                                        <td className="text-center"><img src='./img/courses/swimming trunk.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/bikini.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/swimsuit.png'className="imgtimes" alt=""></img></td>
+                                        <td>.</td>
+                                        <td>boxers</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot29.mp3')}}></span></td>
+                                        <td>y-fronts</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot30.mp3')}}></span></td>
+                                        <td>.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot31.mp3')}}></span></td>
                                     </tr>
                                     <tr>
-                                        <td className="text-center"><p>swimming trunk(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot21.mp3')}}></span></td>
-                                        <td className="text-center"><p>bikini(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot22.mp3')}}></span></td>
-                                        <td className="text-center"><p>swimsuit(s)</p><p>swimming costume(s)</p><p>bathing costume(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot23.mp3')}}></span></td>
+                                        <td>Ladies (Lingerie)</td>
+                                        <td>carie</td>
+                                        <td>carie</td>
+                                        <td>carie</td>
+                                    </tr>
+                                    <tr>
+                                        <td>.</td>
+                                        <td>bra(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot32.mp3')}}></span></td>
+                                        <td>panties(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot33.mp3')}}></span></td>
+                                        <td>.</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot34.mp3')}}></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>.</td>
+                                        <td>carie</td>
+                                        <td>carie</td>
+                                        <td>.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>.</td>
+                                        <td>stocking(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot35.mp3')}}></span></td>
+                                        <td>tight(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot36.mp3')}}></span></td>
+                                        <td>.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Footwear</td>
+                                        <td>carie</td>
+                                        <td>carie</td>
+                                        <td>carie</td>
+                                    </tr>
+                                    <tr>
+                                        <td>.</td>
+                                        <td>shoe(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot37.mp3')}}></span></td>
+                                        <td>sandal(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot38.mp3')}}></span></td>
+                                        <td>boot(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot39.mp3')}}></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>.</td>
+                                        <td>carie</td>
+                                        <td>carie</td>
+                                        <td>.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>.</td>
+                                        <td>wellington(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot40.mp3')}}></span></td>
+                                        <td>slipper(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot41.mp3')}}></span></td>
+                                        <td>sock(s)</td>
+                                        <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot42.mp3')}}></span></td>
                                     </tr>                                                 
                                 </tbody>
                             </table>
                         </div>
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">53</span></div>
+                    <div className="Pie"></div>
                 </div>
 
-                {/* hoja 54 */}
+                {/* hoja 28 */}
 
                 <div className="Hoja">
                     <div className="Encavezado">
                         <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/vocabulary.png'className="Esquina" alt="Expressions"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>CLOTHES VOCABULARY</h2>
-                            <h3>VOCABULARIO DE ROPA</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table">
-                                <caption>Nightwear</caption>
-                                <tbody>
-                                    <tr>
-                                        <td className="text-center"><img src='./img/courses/nightdress.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/pyjama.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/dressingGown.png'className="imgtimes" alt=""></img></td>
-                                    </tr>
-                                    <tr>
-                                        <td className="text-center"><p>nightdress(es) nightie(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot27.mp3')}}></span></td>
-                                        <td className="text-center"><p>pyjama(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot28.mp3')}}></span></td>
-                                        <td className="text-center"><p>dressing gown(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot29.mp3')}}></span></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div className="bloque">
-                            <table className="table">
-                                <caption>Underwear Mens</caption>
-                                <tbody>
-                                    <tr>                                    
-                                        <td className="text-center"><img src='./img/courses/boxers.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/y-fronts.png'className="imgtimes" alt=""></img></td>
-                                    </tr>
-                                    <tr>
-                                        <td className="text-center"><p>boxers</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot30.mp3')}}></span></td>
-                                        <td className="text-center"><p>y-fronts</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot31.mp3')}}></span></td>
-                                    </tr>                                                 
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">54</span></div>
-                </div>
-
-                {/* hoja 55 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/vocabulary.png'className="Esquina" alt="Expressions"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>CLOTHES VOCABULARY</h2>
-                            <h3>VOCABULARIO DE ROPA</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table">
-                                <caption>Ladies (Lingerie)</caption>
-                                <tbody>
-                                    <tr>
-                                        <td className="text-center"><img src='./img/courses/bra.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/panties.png'className="imgtimes" alt=""></img></td>
-                                    </tr>
-                                    <tr>
-                                        <td className="text-center"><p>bra(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot32.mp3')}}></span></td>
-                                        <td className="text-center"><p>panties(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot33.mp3')}}></span></td>
-                                    </tr>
-                                    <tr>                                    
-                                        <td className="text-center"><img src='./img/courses/stocking.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/tight.png'className="imgtimes" alt=""></img></td>
-                                    </tr>
-                                    <tr>
-                                        <td className="text-center"><p>stocking(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot34.mp3')}}></span></td>
-                                        <td className="text-center"><p>tight(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot35.mp3')}}></span></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">55</span></div>
-                </div>
-
-                {/* hoja 56 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/vocabulary.png'className="Esquina" alt="Expressions"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>CLOTHES VOCABULARY</h2>
-                            <h3>VOCABULARIO DE ROPA</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table">
-                                <caption>Footwear</caption>
-                                <tbody>
-                                    <tr>
-                                        <td className="text-center"><img src='./img/courses/shoe.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/sandal.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/boot.png'className="imgtimes" alt=""></img></td>
-                                    </tr>
-                                    <tr>
-                                        <td className="text-center"><p>shoe(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot36.mp3')}}></span></td>
-                                        <td className="text-center"><p>sandal(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot37.mp3')}}></span></td>
-                                        <td className="text-center"><p>boot(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot38.mp3')}}></span></td>
-                                    </tr>
-                                    <tr>                                    
-                                        <td className="text-center"><img src='./img/courses/wellington.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/slipper.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/sock.png'className="imgtimes" alt=""></img></td>
-                                    </tr>
-                                    <tr>
-                                        <td className="text-center"><p>wellington(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot39.mp3')}}></span></td>
-                                        <td className="text-center"><p>slipper(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot40.mp3')}}></span></td>
-                                        <td className="text-center"><p>sock(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot41.mp3')}}></span></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">56</span></div>
-                </div>
-
-                {/* hoja 57 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/food.png'className="Esquina" alt="Expressions"/>
+                        <img src='./img/courses/expressions.png'className="Esquina" alt="Expressions"/>
                     </div>
                     <div className="Contenido">
                         <div className="titulos">
@@ -3871,7 +3630,7 @@ class Cbasico extends Component{
                             <h3>COMIDA</h3>
                         </div>
                         <div className="bloque">
-                            <table className="table">
+                            <table className="table table-striped">
                                 <tbody>
                                     <tr>
                                         <td>
@@ -3924,34 +3683,12 @@ class Cbasico extends Component{
                                         <td>corn</td>
                                         <td>An ear of corn.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/food7.mp3')}}></span></td>
-                                    </tr>
+                                    </tr>    
                                     <tr>
                                         <td>fruit</td>
                                         <td>A piece of fruit.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/food8.mp3')}}></span></td>
-                                    </tr>                
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">57</span></div>
-                </div>
-
-                {/* hoja 58 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/food.png'className="Esquina" alt="Expressions"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>FOOD</h2>
-                            <h3>COMIDA</h3>
-                        </div>
-                        <div className="bloque">
-                            <table className="table table-striped">
-                                <tbody>        
+                                    </tr>    
                                     <tr>
                                         <td>garlic</td>
                                         <td>A bulb of garlic.</td>
@@ -3971,7 +3708,7 @@ class Cbasico extends Component{
                                         <td>lamb</td>
                                         <td>A leg of lamb.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/food12.mp3')}}></span></td>
-                                    </tr>
+                                    </tr>    
                                     <tr>
                                         <td>pepper</td>
                                         <td>A pot of pepper.</td>
@@ -3981,7 +3718,29 @@ class Cbasico extends Component{
                                         <td>pork</td>
                                         <td>A joint of pork.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/food14.mp3')}}></span></td>
-                                    </tr>
+                                    </tr>            
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div className="Pie"></div>
+                </div>
+
+                {/* hoja 29 */}
+
+                <div className="Hoja">
+                    <div className="Encavezado">
+                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
+                        <img src='./img/courses/expressions.png'className="Esquina" alt="Expressions"/>
+                    </div>
+                    <div className="Contenido">
+                        <div className="titulos">
+                            <h2>FOOD</h2>
+                            <h3>COMIDA</h3>
+                        </div>
+                        <div className="bloque">
+                            <table className="table table-striped">
+                                <tbody>
                                     <tr>
                                         <td>rice</td>
                                         <td>A grain of rice.</td>
@@ -4001,22 +3760,11 @@ class Cbasico extends Component{
                                         <td>sugar</td>
                                         <td>A cube of sugar.</td>
                                         <td><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/food18.mp3')}}></span></td>
-                                    </tr>            
+                                    </tr>             
                                 </tbody>
                             </table>
                         </div>
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">58</span></div>
-                </div>
-
-                {/* hoja 59 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/food.png'className="Esquina" alt="Expressions"/>
-                    </div>
-                    <div className="Contenido">
+                        <div className="linea"></div>
                         <div className="titulos">
                             <h2>Things to do with eggs</h2>
                             <h3>Cosas que hacer con huevos</h3>
@@ -4047,32 +3795,16 @@ class Cbasico extends Component{
                                 </tbody>
                             </table>
                         </div>
-                        <img className="rellenoPc" src="./img/courses/eggs.jpg"></img>
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">59</span></div>
+                    <div className="Pie"></div>
                 </div>
 
-                {/* hoja 60 */}
+                {/* hoja 30 */}
 
                 <div className="Hoja">
                     <div className="Encavezado">
                         <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/quiz-ss.png'className="Esquina" alt="Expressions"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="bloque">
-                            <img className="rellenoPc" src="./img/courses/quiz.png"></img>
-                        </div>
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">60</span></div>
-                </div>
-
-                {/* hoja 61 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/quiz-ss.png'className="Esquina" alt="Quiz"/>
+                        <img src='./img/courses/quiz.png'className="Esquina" alt="Quiz"/>
                     </div>
                     <div className="Contenido">
                         <div className="titulos">
@@ -4080,234 +3812,86 @@ class Cbasico extends Component{
                             <h3>Examen 1</h3>
                         </div>
                         <div className="bloque">
-                            <h6>*Select the correct option for each exercise.</h6>
-                        </div>
-                        <div className="bloque">
                             <div className="questions">
-                                <table className="table">
-                                    <tbody>
-                                        <tr>
-                                            <td colSpan="7"><span className="Quiz">1)Which of these words is a greeting?</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>A)Good Bye</label></td>
-                                            <td><input type="radio" name="answer1" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer1')}}></input></td>
-                                            <td><label>B)Good Afternoon</label></td>
-                                            <td><input type="radio" name="answer1" onChange={(e) => {this.quiz(e, 'Correcto', 'answer1')}}></input></td>
-                                            <td><label>C)Take Care</label></td>
-                                            <td><input type="radio" name="answer1" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer1')}}></input></td>
-                                            <td><span id="answer1"></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td colSpan="7"><span className="Quiz">2)How are you today?</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>A)See you tomorrow</label></td>
-                                            <td><input type="radio" name="answer2" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer2')}}></input></td>
-                                            <td><label>B)Thank you</label></td>
-                                            <td><input type="radio" name="answer2" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer2')}}></input></td>
-                                            <td><label>C)Fine And you?</label></td>
-                                            <td><input type="radio" name="answer2" onChange={(e) => {this.quiz(e, 'Correcto', 'answer2')}}></input></td>
-                                            <td><span id="answer2"></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td colSpan="7"><span className="Quiz">3)Where are you from?</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>A)Very well</label></td>
-                                            <td><input  type="radio" name="answer3" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer3')}}></input></td>
-                                            <td><label>B)I from Brazil</label></td>
-                                            <td><input  type="radio" name="answer3" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer3')}}></input></td>
-                                            <td><label>C)I am from Brazil</label></td>
-                                            <td><input  type="radio" name="answer3" onChange={(e) => {this.quiz(e, 'Correcto', 'answer3')}}></input></td>
-                                            <td><span id="answer3"></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td colSpan="7"><span className="Quiz">4)What is your name?</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>A)My name is Kevin</label></td>
-                                            <td><input  type="radio" name="answer4" onChange={(e) => {this.quiz(e, 'Correcto', 'answer4')}}></input></td>
-                                            <td><label>B)My name Kevin</label></td>
-                                            <td><input  type="radio" name="answer4" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer4')}}></input></td>
-                                            <td><label>C)Her name is Kevin</label></td>
-                                            <td><input type="radio" name="answer4" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer4')}}></input></td>
-                                            <td><span id="answer4"></span></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                <h3>*Select the correct option for each exercise.</h3>
+                                <span className="Quiz">1)Which of these words is a greeting?</span>
+                                <form className="Answer">
+                                    <label>A) Good Bye <input type="radio" name="answer1" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer1')}}></input></label>
+                                    <label>B) Good Afternoon <input type="radio" name="answer1" onChange={(e) => {this.quiz(e, 'Correcto', 'answer1')}}></input></label>
+                                    <label>C) Take Care <input type="radio" name="answer1" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer1')}}></input></label>
+                                    <span id="answer1"></span>
+                                </form>
+                                <span className="Quiz">2)How are you today?</span>
+                                <form className="Answer">
+                                    <label>A) See you tomorrow <input type="radio" name="answer2" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer2')}}></input></label>
+                                    <label>B) Thank you <input type="radio" name="answer2" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer2')}}></input></label>
+                                    <label>C) Fine And you? <input type="radio" name="answer2" onChange={(e) => {this.quiz(e, 'Correcto', 'answer2')}}></input></label>
+                                    <span id="answer2"></span>
+                                </form>
+                                <span className="Quiz">3)Where are you from?</span>
+                                <form className="Answer">
+                                    <label>A) Very well <input  type="radio" name="answer3" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer3')}}></input></label>
+                                    <label>B) I from Brazil <input  type="radio" name="answer3" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer3')}}></input></label>
+                                    <label>C) I am from Brazil <input  type="radio" name="answer3" onChange={(e) => {this.quiz(e, 'Correcto', 'answer3')}}></input></label>
+                                    <span id="answer3"></span>
+                                </form>
+                                <span className="Quiz">4)What is your name?</span>
+                                <form className="Answer">
+                                    <label>A) My name is Kevin <input  type="radio" name="answer4" onChange={(e) => {this.quiz(e, 'Correcto', 'answer4')}}></input></label>
+                                    <label>B) My name Kevin <input  type="radio" name="answer4" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer4')}}></input></label>
+                                    <label>C) Her name is Kevin <input type="radio" name="answer4" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer4')}}></input></label>
+                                    <span id="answer4"></span>
+                                </form>
+                                <span className="Quiz">5)Which of these words is a farewell?</span>
+                                <form className="Answer">
+                                    <label>A) Hello <input type="radio" name="answer5" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer5')}}></input></label>
+                                    <label>B) See you later <input  type="radio" name="answer5" onChange={(e) => {this.quiz(e, 'Correcto', 'answer5')}}></input></label>
+                                    <label>C) I am fine <input type="radio" name="answer5" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer5')}}></input></label>
+                                    <span id="answer5"></span>
+                                </form>
+                                <h3>*From exercise 6-10 select the correct expression to use in the classroom.</h3>
+                                <form className="Answer">
+                                    <label>6) A) Open your book <input type="radio" name="answer6" onChange={(e) => {this.quiz(e, 'Correcto', 'answer6')}}></input></label>
+                                    <label>B) Not too bad <input  type="radio" name="answer6" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer6')}}></input></label>
+                                    <label>C) Reb <input type="radio" name="answer6"  onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer6')}}></input></label>
+                                    <span id="answer6"></span>
+                                </form>
+                                <form className="Answer">
+                                    <label>7) A) I live with my mother <input  type="radio" name="answer7" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer7')}}></input></label>
+                                    <label>B) Nothing much <input type="radio" name="answer7" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer7')}}></input></label>
+                                    <label>C) Do the homework <input  type="radio" name="answer7" onChange={(e) => {this.quiz(e, 'Correcto', 'answer7')}}></input></label>
+                                    <span id="answer7"></span>
+                               </form>
+                                <form className="Answer">
+                                    <label>8) A) Study page 8 <input  type="radio" name="answer8" onChange={(e) => {this.quiz(e, 'Correcto', 'answer8')}}></input></label>
+                                    <label>B) My best friend is <input  type="radio" name="answer8" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer8')}}></input></label>
+                                    <label>C) What is your phone number?<input type="radio" name="answer8" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer8')}}></input></label>
+                                    <span id="answer8"></span>
+                                </form>
+                                <form className="Answer">
+                                    <label>9) A) How old are you? <input  type="radio" name="answer9" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer9')}}></input></label>
+                                    <label>B) Listen and repeat <input  type="radio" name="answer9" onChange={(e) => {this.quiz(e, 'Correcto', 'answer9')}}></input></label>
+                                    <label>C) Pretty good, thank you <input  type="radio" name="answer9" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer9')}}></input></label>
+                                    <span id="answer9"></span>
+                                </form>
+                                <form className="Answer">
+                                    <label>10) A) What’s up? <input  type="radio" name="answer10" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer10')}}></input></label>
+                                    <label>B) Open your book! <input   type="radio" name="answer10" onChange={(e) => {this.quiz(e, 'Correcto', 'answer10')}}></input></label>
+                                    <label>C) farewell <input type="radio" name="answer10"  onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer10')}}></input></label>
+                                    <span id="answer10"></span>
+                                </form>
                             </div>
                         </div>
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">61</span></div>
-                </div>
-
-                {/* hoja 62 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/quiz-ss.png'className="Esquina" alt="Quiz"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>Quiz 1</h2>
-                            <h3>Examen 1</h3>
-                        </div>
-                        <div className="bloque">
-                            <h6>*Select the correct option for each exercise.</h6>
-                        </div>
-                        <div className="bloque">
-                            <div className="questions">
-                                <table className="table">
-                                    <tbody>
-                                        <tr>
-                                            <td colSpan="7"><span className="Quiz">5)Which of these words is a farewell?</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>A)Hello</label></td>
-                                            <td><input type="radio" name="answer5" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer5')}}></input></td>
-                                            <td><label>B)See you later</label></td>
-                                            <td><input  type="radio" name="answer5" onChange={(e) => {this.quiz(e, 'Correcto', 'answer5')}}></input></td>
-                                            <td><label>C)I am fine</label></td>
-                                            <td><input type="radio" name="answer5" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer5')}}></input></td>
-                                            <td><span id="answer5"></span></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                        <div className="bloque">
-                            <h6>*From exercise 6-10</h6>
-                            <h6>Select the correct expression to use in the classroom.</h6>
-                        </div>
-                        <div className="bloque">
-                            <div className="questions">
-                                <table className="table">
-                                    <tbody>
-                                        <tr>
-                                            <td><label>6) A)Open your book</label></td>
-                                            <td><input type="radio" name="answer6" onChange={(e) => {this.quiz(e, 'Correcto', 'answer6')}}></input></td>
-                                            <td><label>B)Not too bad</label></td>
-                                            <td><input  type="radio" name="answer6" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer6')}}></input></td>
-                                            <td><label>C)Reb</label></td>
-                                            <td><input type="radio" name="answer6"  onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer6')}}></input></td>
-                                            <td><span id="answer6"></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>7) A)I live with my mother</label></td>
-                                            <td><input  type="radio" name="answer7" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer7')}}></input></td>
-                                            <td><label>B)Nothing much</label></td>
-                                            <td><input type="radio" name="answer7" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer7')}}></input></td>
-                                            <td><label>C)Do the homework</label></td>
-                                            <td><input  type="radio" name="answer7" onChange={(e) => {this.quiz(e, 'Correcto', 'answer7')}}></input></td>
-                                            <td><span id="answer7"></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>8) A) Study page 8</label></td>
-                                            <td><input  type="radio" name="answer8" onChange={(e) => {this.quiz(e, 'Correcto', 'answer8')}}></input></td>
-                                            <td><label>B) My best friend is</label></td>
-                                            <td><input  type="radio" name="answer8" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer8')}}></input></td>
-                                            <td><label>C) What is your phone number?</label></td>
-                                            <td><input type="radio" name="answer8" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer8')}}></input></td>
-                                            <td><span id="answer8"></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>9) A) How old are you?</label></td>
-                                            <td><input  type="radio" name="answer9" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer9')}}></input></td>
-                                            <td><label>B) Listen and repeat</label></td>
-                                            <td><input  type="radio" name="answer9" onChange={(e) => {this.quiz(e, 'Correcto', 'answer9')}}></input></td>
-                                            <td><label>C) Pretty good, thank you</label></td>
-                                            <td><input  type="radio" name="answer9" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer9')}}></input></td>
-                                            <td><span id="answer9"></span></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">62</span></div>
-                </div>
-
-                {/* hoja 63 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/quiz-ss.png'className="Esquina" alt="Quiz"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>Quiz 1</h2>
-                            <h3>Examen 1</h3>
-                        </div>
-                        <div className="bloque">
-                            <h6>*From exercise 6-10</h6>
-                            <h6>Select the correct expression to use in the classroom.</h6>
-                        </div>
-                        <div className="bloque">
-                            <div className="questions">
-                                <table className="table">
-                                    <tbody>
-                                        <tr>
-                                            <td><label>10) A) What’s up?</label></td>
-                                            <td><input  type="radio" name="answer10" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer10')}}></input></td>
-                                            <td><label>B) Open your book!</label></td>
-                                            <td><input   type="radio" name="answer10" onChange={(e) => {this.quiz(e, 'Correcto', 'answer10')}}></input></td>
-                                            <td><label>C) farewell</label></td>
-                                            <td><input type="radio" name="answer10"  onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer10')}}></input></td>
-                                            <td><span id="answer10"></span></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                        <div className="bloque">
-                            <h6>*From exercise 11-15</h6>
-                            <h6>Select the correct word for each picture</h6>
-                        </div>
-                        <div className="bloque">
-                            <div className="questions">
-                                <table className="table">
-                                    <tbody>
-                                        <tr>
-                                            <td colSpan="7" className="text-center"><img src='./img/courses/aesComputer.png' className="Answer" alt="Computer"/></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>11) A) Book</label></td>
-                                            <td><input type="radio" name="answer11" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer11')}}></input></td>
-                                            <td><label>B) Marker</label></td>
-                                            <td><input  type="radio" name="answer11" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer11')}}></input></td>
-                                            <td><label>C) Computer</label></td>
-                                            <td><input  type="radio" name="answer11" onChange={(e) => {this.quiz(e, 'Correcto', 'answer11')}}></input></td>
-                                            <td><span id="answer11"></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td colSpan="7" className="text-center"><img src='./img/courses/aesScissors.png' className="Answer" alt="Scissors"/></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>12) A) Scissors</label></td>
-                                            <td><input  type="radio" name="answer12" onChange={(e) => {this.quiz(e, 'Correcto', 'answer12')}}></input></td>
-                                            <td><label>B) Eraser</label></td>
-                                            <td><input  type="radio" name="answer12" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer12')}}></input></td>
-                                            <td><label>C) Paint</label></td>
-                                            <td><input  type="radio" name="answer12" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer12')}}></input></td>
-                                            <td><span id="answer12"></span></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">63</span></div>
+                    <div className="Pie"></div>
                 </div>
                 
-                {/* hoja 64 */}
+                {/* hoja 31 */}
 
                 <div className="Hoja">
                     <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/quiz-ss.png'className="Esquina" alt="Quiz"/>
+                        <img src='./aesLogoHeader.png' className="Hoja-logo" alt="Logo"/>
+                        <img src='./img/courses/quiz.png' className="Esquina" alt="Quiz"/>
                     </div>
                     <div className="Contenido">
                         <div className="titulos">
@@ -4315,63 +3899,55 @@ class Cbasico extends Component{
                             <h3>Examen 1</h3>
                         </div>
                         <div className="bloque">
-                            <h6>*From exercise 11-15</h6>
-                            <h6>Select the correct word for each picture</h6>
-                        </div>
-                        <div className="bloque">
                             <div className="questions">
-                                <table className="table">
-                                    <tbody>
-                                        <tr>
-                                            <td colSpan="7" className="text-center"><img src='./img/courses/aesNotebook.png' className="Answer" alt="Notebook"/></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>13) A) Compass</label></td>
-                                            <td><input  type="radio" name="answer13" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer13')}}></input></td>
-                                            <td><label>B) Notebook</label></td>
-                                            <td><input type="radio" name="answer13" onChange={(e) => {this.quiz(e, 'Correcto', 'answer13')}}></input></td>
-                                            <td><label>C) Bag</label></td>
-                                            <td><input  type="radio" name="answer13" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer13')}}></input></td>
-                                            <td><span id="answer13"></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td colSpan="7" className="text-center"><img src='./img/courses/aesRed.png' className="Answer" alt="Red"/></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>14) A) Blue</label></td>
-                                            <td><input  type="radio" name="answer14" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer14')}}></input></td>
-                                            <td><label>B) Red</label></td>
-                                            <td><input  type="radio" name="answer14" onChange={(e) => {this.quiz(e, 'Correcto', 'answer14')}}></input></td>
-                                            <td><label>C) White</label></td>
-                                            <td><input  type="radio" name="answer14" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer14')}}></input></td>
-                                            <td><span id="answer14"></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td colSpan="7" className="text-center"><img src='./img/courses/aesBlack.png' className="Answer" alt="Black"/></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>15) A) Yellow</label></td>
-                                            <td><input  type="radio" name="answer15" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer15')}}></input></td>
-                                            <td><label>B) Green</label></td>
-                                            <td><input  type="radio" name="answer15" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer15')}}></input></td>
-                                            <td><label>C) Black</label></td>
-                                            <td><input type="radio" name="answer15" onChange={(e) => {this.quiz(e, 'Correcto', 'answer15')}}></input></td>
-                                            <td><span id="answer15"></span></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                <h3>*From exercise 11-15, select the correct word for each picture</h3>
+                                <form className="Answer">
+                                    <img src='./img/courses/aesComputer.png' className="" alt="Computer"/>
+                                    <label>11) A) Book <input type="radio" name="answer11" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer11')}}></input></label>
+                                    <label>B) Marker <input  type="radio" name="answer11" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer11')}}></input></label>
+                                    <label>C) Computer <input  type="radio" name="answer11" onChange={(e) => {this.quiz(e, 'Correcto', 'answer11')}}></input></label>
+                                    <span id="answer11"></span>
+                                </form>
+                                <form className="Answer">
+                                    <img src='./img/courses/aesScissors.png' className="" alt="Scissors"/>
+                                    <label>12) A) Scissors <input  type="radio" name="answer12" onChange={(e) => {this.quiz(e, 'Correcto', 'answer12')}}></input></label>
+                                    <label>B) Eraser <input  type="radio" name="answer12" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer12')}}></input></label>
+                                    <label>C) Paint <input  type="radio" name="answer12" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer12')}}></input></label>
+                                    <span id="answer12"></span>
+                                </form>
+                                <form className="Answer">
+                                    <img src='./img/courses/aesNotebook.png' className="" alt="Notebook"/>
+                                    <label>13) A) Compass <input  type="radio" name="answer13" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer13')}}></input></label>
+                                    <label>B) Notebook <input type="radio" name="answer13" onChange={(e) => {this.quiz(e, 'Correcto', 'answer13')}}></input></label>
+                                    <label>C) Bag <input  type="radio" name="answer13" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer13')}}></input></label>
+                                    <span id="answer13"></span>
+                                </form>
+                                <form className="Answer">
+                                    <img src='./img/courses/aesRed.png' className="" alt="Red"/>
+                                    <label>14) A) Blue <input  type="radio" name="answer14" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer14')}}></input></label>
+                                    <label>B) Red <input  type="radio" name="answer14" onChange={(e) => {this.quiz(e, 'Correcto', 'answer14')}}></input></label>
+                                    <label>C) White <input  type="radio" name="answer14" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer14')}}></input></label>
+                                    <span id="answer14"></span>
+                                </form>
+                                <form className="Answer">
+                                    <img src='./img/courses/aesBlack.png' className="" alt="Black"/>
+                                    <label>15) A) Yellow <input  type="radio" name="answer15" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer15')}}></input></label>
+                                    <label>B) Green <input  type="radio" name="answer15" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer15')}}></input></label>
+                                    <label>C) Black <input type="radio" name="answer15" onChange={(e) => {this.quiz(e, 'Correcto', 'answer15')}}></input></label>
+                                    <span id="answer15"></span>
+                                </form>
                             </div>
                         </div>
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">64</span></div>
+                    <div className="Pie"></div>
                 </div>
 
-                {/* hoja 65 */}
+                {/* hoja 32 */}
 
                 <div className="Hoja">
                     <div className="Encavezado">
                         <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/quiz-ss.png'className="Esquina" alt="Quiz"/>
+                        <img src='./img/courses/quiz.png'className="Esquina" alt="Quiz"/>
                     </div>
                     <div className="Contenido">
                         <div className="titulos">
@@ -4379,403 +3955,138 @@ class Cbasico extends Component{
                             <h3>Examen 2</h3>
                         </div>
                         <div className="bloque">
-                            <h6>*From exercise 1 to 5</h6>
-                            <h6>Select the correct spelling</h6>
-                        </div>
-                        <div className="bloque">
                             <div className="questions">
-                                <table className="table">
-                                    <tbody>
-                                        <tr>
-                                            <td><label>1) A) Orange</label></td>
-                                            <td><input type="radio" name="answer16" onChange={(e) => {this.quiz(e, 'Correcto', 'answer16')}}></input></td>
-                                            <td><label>B) Orrange</label></td>
-                                            <td><input  type="radio" name="answer16" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer16')}}></input></td>
-                                            <td><label>C) Orangge</label></td>
-                                            <td><input  type="radio" name="answer16" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer16')}}></input></td>
-                                            <td><span id="answer16"></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>2) A) Wuatermelon</label></td>
-                                            <td><input  type="radio" name="answer17" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer17')}}></input></td>
-                                            <td><label>B) Watermellon</label></td>
-                                            <td><input  type="radio" name="answer17" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer17')}}></input></td>
-                                            <td><label>C) Watermelon</label></td>
-                                            <td><input  type="radio" name="answer17" onChange={(e) => {this.quiz(e, 'Correcto', 'answer17')}}></input></td>
-                                            <td><span id="answer17"></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>3) A) Train</label></td>
-                                            <td><input  type="radio" name="answer18" onChange={(e) => {this.quiz(e, 'Correcto', 'answer18')}}></input></td>
-                                            <td><label>B) Trein</label></td>
-                                            <td><input type="radio" name="answer18" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer18')}}></input></td>
-                                            <td><label>C) Trainn</label></td>
-                                            <td><input  type="radio" name="answer18" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer18')}}></input></td>
-                                            <td><span id="answer18"></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>4) A) Horrse</label></td>
-                                            <td><input  type="radio" name="answer19" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer19')}}></input></td>
-                                            <td><label>B) Horse</label></td>
-                                            <td><input  type="radio" name="answer19" onChange={(e) => {this.quiz(e, 'Correcto', 'answer19')}}></input></td>
-                                            <td><label>C) Jorse</label></td>
-                                            <td><input  type="radio" name="answer19" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer19')}}></input></td>
-                                            <td><span id="answer19"></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>5) A) Bout</label></td>
-                                            <td><input  type="radio" name="answer20" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer20')}}></input></td>
-                                            <td><label>B) Boat</label></td>
-                                            <td><input  type="radio" name="answer20" onChange={(e) => {this.quiz(e, 'Correcto', 'answer20')}}></input></td>
-                                            <td><label>C) Baot</label></td>
-                                            <td><input type="radio" name="answer20" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer20')}}></input></td>
-                                            <td><span id="answer20"></span></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                        <div className="bloque">
-                            <h6>*From exercise 6 to 10</h6>
-                            <h6>Select the correct number</h6>
-                        </div>
-                        <div className="bloque">
-                            <div className="questions">
-                                <table className="table">
-                                    <tbody>                
-                                        <tr>
-                                            <td><label>6) 64: A) Seventy four</label></td>
-                                            <td><input  type="radio" name="answer21" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer21')}}></input></td>
-                                            <td><label>B) Fifty four</label></td>
-                                            <td><input  type="radio" name="answer21" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer21')}}></input></td>
-                                            <td><label>C) Sixty four</label></td>
-                                            <td><input type="radio" name="answer21" onChange={(e) => {this.quiz(e, 'Correcto', 'answer21')}}></input></td>
-                                            <td><span id="answer21"></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>7) 13: A) Thirty</label></td>
-                                            <td><input  type="radio" name="answer22" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer22')}}></input></td>
-                                            <td><label>B) Thirteen</label></td>
-                                            <td><input  type="radio" name="answer22" onChange={(e) => {this.quiz(e, 'Correcto', 'answer22')}}></input></td>
-                                            <td><label>C) Thirteen three</label></td>
-                                            <td> <input type="radio" name="answer22" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer22')}}></input></td>
-                                            <td><span id="answer22"></span></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                <h3>*From exercise 1 to 5, select the correct spelling.</h3>
+                                <form className="Answer">
+                                    <label>1) A) Orange <input type="radio" name="answer16" onChange={(e) => {this.quiz(e, 'Correcto', 'answer16')}}></input></label>
+                                    <label>B) Orrange <input  type="radio" name="answer16" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer16')}}></input></label>
+                                    <label>C) Orangge <input  type="radio" name="answer16" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer16')}}></input></label>
+                                    <span id="answer16"></span>
+                                </form>
+                                <form className="Answer">
+                                    <label>2) A) Wuatermelon <input  type="radio" name="answer17" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer17')}}></input></label>
+                                    <label>B) Watermellon <input  type="radio" name="answer17" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer17')}}></input></label>
+                                    <label>C) Watermelon <input  type="radio" name="answer17" onChange={(e) => {this.quiz(e, 'Correcto', 'answer17')}}></input></label>
+                                    <span id="answer17"></span>
+                                </form>
+                                <form className="Answer">
+                                    <label>3) A) Train <input  type="radio" name="answer18" onChange={(e) => {this.quiz(e, 'Correcto', 'answer18')}}></input></label>
+                                    <label>B) Trein <input type="radio" name="answer18" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer18')}}></input></label>
+                                    <label>C) Trainn <input  type="radio" name="answer18" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer18')}}></input></label>
+                                    <span id="answer18"></span>
+                                </form>
+                                <form className="Answer">
+                                    <label>4) A) Horrse <input  type="radio" name="answer19" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer19')}}></input></label>
+                                    <label>B) Horse <input  type="radio" name="answer19" onChange={(e) => {this.quiz(e, 'Correcto', 'answer19')}}></input></label>
+                                    <label>C) Jorse <input  type="radio" name="answer19" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer19')}}></input></label>
+                                    <span id="answer19"></span>
+                                </form>
+                                <form className="Answer">
+                                    <label>5) A) Bout <input  type="radio" name="answer20" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer20')}}></input></label>
+                                    <label>B) Boat <input  type="radio" name="answer20" onChange={(e) => {this.quiz(e, 'Correcto', 'answer20')}}></input></label>
+                                    <label>C) Baot <input type="radio" name="answer20" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer20')}}></input></label>
+                                    <span id="answer20"></span>
+                                </form>
+                                <h3>*From exercise 1 to 5, select the correct spelling.</h3>
+                                <form className="Answer">
+                                    <label>6) 64: A) Seventy four <input  type="radio" name="answer21" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer21')}}></input></label>
+                                    <label>B) Fifty four <input  type="radio" name="answer21" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer21')}}></input></label>
+                                    <label>C) Sixty four <input type="radio" name="answer21" onChange={(e) => {this.quiz(e, 'Correcto', 'answer21')}}></input></label>
+                                    <span id="answer21"></span>
+                                </form>
+                                <form className="Answer">
+                                    <label>7) 13: A) Thirty <input  type="radio" name="answer22" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer22')}}></input></label>
+                                    <label>B) Thirteen <input  type="radio" name="answer22" onChange={(e) => {this.quiz(e, 'Correcto', 'answer22')}}></input></label>
+                                    <label>C) Thirteen three <input type="radio" name="answer22" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer22')}}></input></label>
+                                    <span id="answer22"></span>
+                                </form>
+                                <form className="Answer">
+                                    <label>8) 100: A) One thousand <input  type="radio" name="answer23" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer23')}}></input></label>
+                                    <label>B) One hundred <input  type="radio" name="answer23" onChange={(e) => {this.quiz(e, 'Correcto', 'answer23')}}></input></label>
+                                    <label>C) One million <input type="radio" name="answer23" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer23')}}></input></label>
+                                    <span id="answer23"></span>
+                                </form>
+                                <form className="Answer">
+                                    <label>9) 19: A) ninety <input  type="radio" name="answer24" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer24')}}></input></label>
+                                    <label>B) Ninety nine <input  type="radio" name="answer24" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer24')}}></input></label>
+                                    <label>C) Nineteen <input type="radio" name="answer24" onChange={(e) => {this.quiz(e, 'Correcto', 'answer24')}}></input></label>
+                                    <span id="answer24"></span>
+                                </form>
+                                <form className="Answer">
+                                    <label>10) 83: A) Eighty Three <input  type="radio" name="answer25" onChange={(e) => {this.quiz(e, 'Correcto', 'answer25')}}></input></label>
+                                    <label>B) Eighty <input  type="radio" name="answer25" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer25')}}></input></label>
+                                    <label>C) Seventy three <input type="radio" name="answer25" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer25')}}></input></label>
+                                    <span id="answer25"></span>
+                                </form>
                             </div>
                         </div>
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">65</span></div>
+                    <div className="Pie"></div>
                 </div>
 
-                {/* hoja 66 */}
+                {/* hoja 33 */}
 
                 <div className="Hoja">
                     <div className="Encavezado">
                         <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/quiz-ss.png'className="Esquina" alt="Quiz"/>
+                        <img src='./img/courses/quiz.png'className="Esquina" alt="Quiz"/>
                     </div>
                     <div className="Contenido">
                         <div className="titulos">
                             <h2>Quiz 2</h2>
                             <h3>Examen 2</h3>
                         </div>
-                        <div className="bloque">
-                            <h6>*From exercise 6 to 10</h6>
-                            <h6>Select the correct number</h6>
-                        </div>
+                        
                         <div className="bloque">
                             <div className="questions">
-                                <table className="table">
-                                    <tbody>
-                                        <tr>
-                                            <td><label>8) 100: A) One thousand</label></td>
-                                            <td><input  type="radio" name="answer23" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer23')}}></input></td>
-                                            <td><label>B) One hundred</label></td>
-                                            <td><input  type="radio" name="answer23" onChange={(e) => {this.quiz(e, 'Correcto', 'answer23')}}></input></td>
-                                            <td><label>C) One million </label></td>
-                                            <td><input type="radio" name="answer23" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer23')}}></input></td>
-                                            <td><span id="answer23"></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>9) 19: A) ninety</label></td>
-                                            <td><input  type="radio" name="answer24" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer24')}}></input></td>
-                                            <td><label>B) Ninety nine</label></td>
-                                            <td><input  type="radio" name="answer24" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer24')}}></input></td>
-                                            <td><label>C) Nineteen</label></td>
-                                            <td><input type="radio" name="answer24" onChange={(e) => {this.quiz(e, 'Correcto', 'answer24')}}></input></td>
-                                            <td><span id="answer24"></span></td>
-                                        </tr>               
-                                        <tr>
-                                            <td><label>10) 83: A) Eighty Three</label></td>
-                                            <td><input  type="radio" name="answer25" onChange={(e) => {this.quiz(e, 'Correcto', 'answer25')}}></input></td>
-                                            <td><label>B) Eighty</label></td>
-                                            <td><input  type="radio" name="answer25" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer25')}}></input></td>
-                                            <td><label>C) Seventy three</label></td>
-                                            <td><input type="radio" name="answer25" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer25')}}></input></td>
-                                            <td><span id="answer25"></span></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                        <div className="bloque">
-                            <h6>*From exercise 11-15</h6>
-                            <h6>Select the correct word for each picture</h6>
-                        </div>
-                        <div className="bloque">
-                            <div className="questions">
-                                <table className="table">
-                                    <tbody>
-                                        <tr>
-                                            <td colSpan="7" className="text-center"><img src='./img/courses/square.png'className="Answer" alt="Square"/></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>11) A) Triangle</label></td>
-                                            <td><input  type="radio" name="answer26" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer26')}}></input></td>
-                                            <td><label>B) Square</label></td>
-                                            <td><input  type="radio" name="answer26" onChange={(e) => {this.quiz(e, 'Correcto', 'answer26')}}></input></td>
-                                            <td><label>C) Exagon</label></td>
-                                            <td><input type="radio" name="answer26" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer26')}}></input></td>
-                                            <td><span id="answer26"></span></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                <h3>*From exercise 11-15, select the correct word for each picture.</h3>
+                                <form className="Answer">
+                                    <img src='./img/courses/square.png'className="" alt="Square"/>
+                                    <label>11) A) Triangle <input  type="radio" name="answer26" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer26')}}></input></label>
+                                    <label>B) Square <input  type="radio" name="answer26" onChange={(e) => {this.quiz(e, 'Correcto', 'answer26')}}></input></label>
+                                    <label>C) Exagon <input type="radio" name="answer26" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer26')}}></input></label>
+                                    <span id="answer26"></span>
+                                </form>
+                                <form className="Answer">
+                                    <img src='./img/courses/aesAvocado.png'className="" alt="Avocado"/>
+                                    <label>12) A) Avocado <input  type="radio" name="answer27" onChange={(e) => {this.quiz(e, 'Correcto', 'answer27')}}></input></label>
+                                    <label>B) Lemon <input  type="radio" name="answer27" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer27')}}></input></label>
+                                    <label>C) Watermelon <input type="radio" name="answer27" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer27')}}></input></label>
+                                    <span id="answer27"></span>
+                                </form>
+                                <form className="Answer">
+                                    <img src='./img/courses/aesDonkey.png'className="" alt="Donkey"/>
+                                    <label>13) A) Donkey <input  type="radio" name="answer28" onChange={(e) => {this.quiz(e, 'Correcto', 'answer28')}}></input></label>
+                                    <label>B) Monkey <input  type="radio" name="answer28" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer28')}}></input></label>
+                                    <label>C) Tiger <input type="radio" name="answer28" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer28')}}></input></label>
+                                    <span id="answer28"></span>
+                                </form>
+                                <form className="Answer">
+                                    <img src='./img/courses/aesStadium.png'className="" alt="Stadium"/>
+                                    <label>14) A) Stadium <input  type="radio" name="answer29" onChange={(e) => {this.quiz(e, 'Correcto', 'answer29')}}></input></label>
+                                    <label>B) Park <input  type="radio" name="answer29" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer29')}}></input></label>
+                                    <label>C) Cinema <input type="radio" name="answer29" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer29')}}></input></label>
+                                    <span id="answer29"></span>
+                                </form>
+                                <form className="Answer">
+                                    <img src='./img/courses/aesClassroom.png'className="" alt="Classroom"/>
+                                    <label>15) A) Classmate <input  type="radio" name="answer30" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer30')}}></input></label>
+                                    <label>B) Class <input  type="radio" name="answer30" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer30')}}></input></label>
+                                    <label>C) Classroom <input type="radio" name="answer30" onChange={(e) => {this.quiz(e, 'Correcto', 'answer30')}}></input></label>
+                                    <span id="answer30"></span>
+                                </form>
                             </div>
                         </div>
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">66</span></div>
-                </div>
-
-                {/* hoja 67 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/quiz-ss.png'className="Esquina" alt="Quiz"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>Quiz 2</h2>
-                            <h3>Examen 2</h3>
-                        </div>
-                        <div className="bloque">
-                            <h6>*From exercise 11-15</h6>
-                            <h6>Select the correct word for each picture</h6>
-                        </div>
-                        <div className="bloque">
-                            <div className="questions">
-                                <table className="table">
-                                    <tbody>
-                                        <tr>
-                                            <td colSpan="7" className="text-center"><img src='./img/courses/aesAvocado.png'className="Answer" alt="Avocado"/></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>12) A) Avocado</label></td>
-                                            <td><input  type="radio" name="answer27" onChange={(e) => {this.quiz(e, 'Correcto', 'answer27')}}></input></td>
-                                            <td><label>B) Lemon</label></td>
-                                            <td><input  type="radio" name="answer27" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer27')}}></input></td>
-                                            <td><label>C) Watermelon</label></td>
-                                            <td><input type="radio" name="answer27" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer27')}}></input></td>
-                                            <td><span id="answer27"></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td colSpan="7" className="text-center"><img src='./img/courses/aesDonkey.png'className="Answer" alt="Donkey"/></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>13) A) Donkey</label></td>
-                                            <td><input  type="radio" name="answer28" onChange={(e) => {this.quiz(e, 'Correcto', 'answer28')}}></input></td>
-                                            <td><label>B) Monkey</label></td>
-                                            <td><input  type="radio" name="answer28" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer28')}}></input></td>
-                                            <td><label>C) Tiger</label></td>
-                                            <td><input type="radio" name="answer28" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer28')}}></input></td>
-                                            <td><span id="answer28"></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td colSpan="7" className="text-center"><img src='./img/courses/aesStadium.png'className="Answer" alt="Stadium"/></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>14) A) Stadium</label></td>
-                                            <td><input  type="radio" name="answer29" onChange={(e) => {this.quiz(e, 'Correcto', 'answer29')}}></input></td>
-                                            <td><label>B) Monkey</label></td>
-                                            <td><input  type="radio" name="answer29" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer29')}}></input></td>
-                                            <td><label>C) Cinema</label></td>
-                                            <td><input type="radio" name="answer29" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer29')}}></input></td>
-                                            <td><span id="answer29"></span></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">67</span></div>
-                </div>
-
-                {/* hoja 68 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/quiz-ss.png'className="Esquina" alt="Quiz"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>Quiz 2</h2>
-                            <h3>Examen 2</h3>
-                        </div>
-                        <div className="bloque">
-                            <h6>*From exercise 11-15</h6>
-                            <h6>Select the correct word for each picture</h6>
-                        </div>
-                        <div className="bloque">
-                            <div className="questions">
-                                <table className="table">
-                                    <tbody>
-                                        <tr>
-                                            <td colSpan="7" className="text-center"><img src='./img/courses/aesClassroom.png'className="Answer" alt="Classroom"/></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>15) A) Classmate</label></td>
-                                            <td><input  type="radio" name="answer30" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer30')}}></input></td>
-                                            <td><label>B) Class</label></td>
-                                            <td><input  type="radio" name="answer30" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer30')}}></input></td>
-                                            <td><label>C) Classroom</label></td>
-                                            <td><input type="radio" name="answer30" onChange={(e) => {this.quiz(e, 'Correcto', 'answer30')}}></input></td>
-                                            <td><span id="answer30"></span></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                        <div className="titulos">
-                            <h2>Quiz 3</h2>
-                            <h3>Examen 3</h3>
-                        </div>
-                        <div className="bloque">
-                            <h6>*From exercise 1-5</h6>
-                            <h6>Select TRUE or FALSE</h6>
-                        </div>
-                        <div className="bloque">
-                            <div className="questions">
-                                <table className="table">
-                                    <tbody>
-                                        <tr>
-                                            <td colSpan="7" className=""><span className="Quiz">1) (5:30) It’s half past five</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>True</label></td>
-                                            <td><input  type="radio" name="answer31" onChange={(e) => {this.quiz(e, 'Correcto', 'answer31')}}></input></td>
-                                            <td><label>False</label></td>
-                                            <td><input  type="radio" name="answer31" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer31')}}></input></td>
-                                            <td><span id="answer31"></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td colSpan="7" className=""><span className="Quiz">2) (3:15) It’s three past a quarter</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>True</label></td>
-                                            <td><input  type="radio" name="answer32" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer32')}}></input></td>
-                                            <td><label>False</label></td>
-                                            <td><input  type="radio" name="answer32" onChange={(e) => {this.quiz(e, 'Correcto', 'answer32')}}></input></td>
-                                            <td><span id="answer32"></span></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">68</span></div>
-                </div>
-
-                {/* hoja 69 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/quiz-ss.png'className="Esquina" alt="Quiz"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>Quiz 3</h2>
-                            <h3>Examen 3</h3>
-                        </div>
-                        <div className="bloque">
-                            <h6>*From exercise 1-5</h6>
-                            <h6>Select TRUE or FALSE</h6>
-                        </div>
-                        <div className="bloque">
-                            <div className="questions">
-                                <table className="table">
-                                    <tbody>
-                                        <tr>
-                                            <td colSpan="7" className=""><span className="Quiz">3) (10:10) It’s ten to ten</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>True</label></td>
-                                            <td><input  type="radio" name="answer33" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer33')}}></input></td>
-                                            <td><label>False</label></td>
-                                            <td><input  type="radio" name="answer33" onChange={(e) => {this.quiz(e, 'Correcto', 'answer33')}}></input></td>
-                                            <td><span id="answer33"></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td colSpan="7" className=""><span className="Quiz">4) (5:35) It’s twenty five to six</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>True</label></td>
-                                            <td><input  type="radio" name="answer34" onChange={(e) => {this.quiz(e, 'Correcto', 'answer34')}}></input></td>
-                                            <td><label>False</label></td>
-                                            <td><input  type="radio" name="answer34" onChange={(e) => {this.quiz(e, 'Incorrecto' ,'answer34')}}></input></td>
-                                            <td><span id="answer34"></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td colSpan="7" className=""><span className="Quiz">5) (8:00) It’s Eight o’clock </span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>True</label></td>
-                                            <td><input  type="radio" name="answer35" onChange={(e) => {this.quiz(e, 'Correcto', 'answer35')}}></input></td>
-                                            <td><label>False</label></td>
-                                            <td><input  type="radio" name="answer35" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer35')}}></input></td>
-                                            <td><span id="answer35"></span></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                        <div className="bloque">
-                            <h6>*From exercise 6-10</h6>
-                            <h6>Select the correct option</h6>
-                        </div>
-                        <div className="bloque">
-                            <div className="questions">
-                                <table className="table">
-                                    <tbody>
-                                        <tr>
-                                            <td colSpan="7" className=""><span className="Quiz">6) January 1</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>A) New year's day</label></td>
-                                            <td><input  type="radio" name="answer36" onChange={(e) => {this.quiz(e, 'Correcto', 'answer36')}}></input></td>
-                                            <td><label>B) Christmas</label></td>
-                                            <td><input  type="radio" name="answer36" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer36')}}></input></td>
-                                            <td><label>C) Thanksgiving day</label></td>
-                                            <td><input type="radio" name="answer36" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer36')}}></input></td>
-                                            <td><span id="answer36"></span></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">69</span></div>
+                    <div className="Pie"></div>
                 </div>
                 
-                {/* hoja 70 */}
+                {/* hoja 34 */}
 
                 <div className="Hoja">
                     <div className="Encavezado">
                         <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/quiz-ss.png'className="Esquina" alt="Quiz"/>
+                        <img src='./img/courses/quiz.png'className="Esquina" alt="Quiz"/>
                     </div>
                     <div className="Contenido">
                         <div className="titulos">
@@ -4783,75 +4094,82 @@ class Cbasico extends Component{
                             <h3>Examen 3</h3>
                         </div>
                         <div className="bloque">
-                            <h6>*From exercise 6-10</h6>
-                            <h6>Select the correct option</h6>
-                        </div>
-                        <div className="bloque">
                             <div className="questions">
-                                <table className="table">
-                                    <tbody>
-                                        <tr>
-                                            <td colSpan="7" className=""><span className="Quiz">7) December 25</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>A) Labor day</label></td>
-                                            <td><input  type="radio" name="answer37" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer37')}}></input></td>
-                                            <td><label>B) Christmas day</label></td>
-                                            <td><input  type="radio" name="answer37" onChange={(e) => {this.quiz(e, 'Correcto', 'answer37')}}></input></td>
-                                            <td><label>C) Memorial day</label></td>
-                                            <td><input type="radio" name="answer37" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer37')}}></input></td>
-                                            <td><span id="answer37"></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td colSpan="7" className=""><span className="Quiz">8) A) Agost</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>A) Labor day</label></td>
-                                            <td><input  type="radio" name="answer38" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer38')}}></input></td>
-                                            <td><label>B) Agust</label></td>
-                                            <td><input  type="radio" name="answer38" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer38')}}></input></td>
-                                            <td><label>C) August</label></td>
-                                            <td><input type="radio" name="answer38" onChange={(e) => {this.quiz(e, 'Correcto', 'answer38')}}></input></td>
-                                            <td><span id="answer38"></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td colSpan="7" className=""><span className="Quiz">9) A) Hosban</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>A) Labor day</label></td>
-                                            <td><input  type="radio" name="answer39" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer39')}}></input></td>
-                                            <td><label>B) Husban</label></td>
-                                            <td><input  type="radio" name="answer39" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer39')}}></input></td>
-                                            <td><label>C) Husband</label></td>
-                                            <td><input type="radio" name="answer39" onChange={(e) => {this.quiz(e, 'Correcto', 'answer39')}}></input></td>
-                                            <td><span id="answer39"></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td colSpan="7" className=""><span className="Quiz">10) What is the time?</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>A) I am fine</label></td>
-                                            <td><input type="radio" name="answer40" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer40')}}></input></td>
-                                            <td><label>B) It's 10:00 o'clock</label></td>
-                                            <td><input type="radio" name="answer40" onChange={(e) => {this.quiz(e, 'Correcto', 'answer40')}}></input></td>
-                                            <td><label>C) it's November</label></td>
-                                            <td><input type="radio" name="answer40" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer40')}}></input></td>
-                                            <td><span id="answer40"></span></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                <h3>*From exercise 1-5, select TRUE or FALSE</h3>
+                                <span className="Quiz">1) (5:30) It’s half past five</span>
+                                <form className="Answer">
+                                    <label> True <input  type="radio" name="answer31" onChange={(e) => {this.quiz(e, 'Correcto', 'answer31')}}></input></label>
+                                    <label> False <input  type="radio" name="answer31" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer31')}}></input></label>
+                                    <span id="answer31"></span>
+                                </form>
+                                <span className="Quiz">2) (3:15) It’s three past a quarter</span>
+                                <form className="Answer">
+                                    <label> True <input  type="radio" name="answer32" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer32')}}></input></label>
+                                    <label> False <input  type="radio" name="answer32" onChange={(e) => {this.quiz(e, 'Correcto', 'answer32')}}></input></label>
+                                    <span id="answer32"></span>
+                                </form>
+                                <span className="Quiz">3) (10:10) It’s ten to ten</span>
+                                <form className="Answer">
+                                    <label> True <input  type="radio" name="answer33" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer33')}}></input></label>
+                                    <label> False <input  type="radio" name="answer33" onChange={(e) => {this.quiz(e, 'Correcto', 'answer33')}}></input></label>
+                                    <span id="answer33"></span>
+                                </form>
+                                <span className="Quiz">4) (5:35) It’s twenty five to six</span>
+                                <form className="Answer">
+                                    <label> True <input  type="radio" name="answer34" onChange={(e) => {this.quiz(e, 'Correcto', 'answer34')}}></input></label>
+                                    <label> False <input  type="radio" name="answer34" onChange={(e) => {this.quiz(e, 'Incorrecto' ,'answer34')}}></input></label>
+                                    <span id="answer34"></span>
+                                </form>
+                                <span className="Quiz">5) (8:00) It’s Eight o’clock </span>
+                                <form className="Answer">
+                                    <label> True <input  type="radio" name="answer35" onChange={(e) => {this.quiz(e, 'Correcto', 'answer35')}}></input></label>
+                                    <label> False <input  type="radio" name="answer35" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer35')}}></input></label>
+                                    <span id="answer35"></span>
+                                </form>
+                                <h3>*From exercise 6-10, select the correct option.</h3>
+                                <form className="Answer">
+                                    <label>6) January 1 A) New year's day <input  type="radio" name="answer36" onChange={(e) => {this.quiz(e, 'Correcto', 'answer36')}}></input></label>
+                                    <label>B) Christmas <input  type="radio" name="answer36" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer36')}}></input></label>
+                                    <label>C) Thanksgiving day <input type="radio" name="answer36" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer36')}}></input></label>
+                                    <span id="answer36"></span>
+                                </form>
+                                <form className="Answer">
+                                    <label>7) December 25 A) Labor day <input  type="radio" name="answer37" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer37')}}></input></label>
+                                    <label>B) Christmas day <input  type="radio" name="answer37" onChange={(e) => {this.quiz(e, 'Correcto', 'answer37')}}></input></label>
+                                    <label>C) Memorial day <input type="radio" name="answer37" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer37')}}></input></label>
+                                    <span id="answer37"></span>
+                                </form>
+                                <form className="Answer">
+                                    <label>8) A) Agost <input  type="radio" name="answer38" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer38')}}></input></label>
+                                    <label>B) Agust <input  type="radio" name="answer38" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer38')}}></input></label>
+                                    <label>C) August <input type="radio" name="answer38" onChange={(e) => {this.quiz(e, 'Correcto', 'answer38')}}></input></label>
+                                    <span id="answer38"></span>
+                                </form>
+                                <form className="Answer">
+                                    <label>9) A) Hosban <input  type="radio" name="answer39" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer39')}}></input></label>
+                                    <label>B) Husban <input  type="radio" name="answer39" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer39')}}></input></label>
+                                    <label>C) Husband <input type="radio" name="answer39" onChange={(e) => {this.quiz(e, 'Correcto', 'answer39')}}></input></label>
+                                    <span id="answer39"></span>
+                                </form>
+                                <span className="Quiz">10) What is the time? </span>
+                                <form className="Answer">
+                                    <label> A) I am fine <input type="radio" name="answer40" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer40')}}></input></label>
+                                    <label> B) It's 10:00 o'clock <input type="radio" name="answer40" onChange={(e) => {this.quiz(e, 'Correcto', 'answer40')}}></input></label>
+                                    <label> C) it's November <input type="radio" name="answer40" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer40')}}></input></label>
+                                    <span id="answer40"></span>
+                                </form>
                             </div>
                         </div>
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">70</span></div>
+                    <div className="Pie"></div>
                 </div>
 
-                {/* hoja 71 */}
+                 {/* hoja 35 */}
 
-                <div className="Hoja">
+                 <div className="Hoja">
                     <div className="Encavezado">
                         <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/quiz-ss.png'className="Esquina" alt="Quiz"/>
+                        <img src='./img/courses/quiz.png'className="Esquina" alt="Quiz"/>
                     </div>
                     <div className="Contenido">
                         <div className="titulos">
@@ -4859,109 +4177,49 @@ class Cbasico extends Component{
                             <h3>Examen 3</h3>
                         </div>
                         <div className="bloque">
-                            <h6>*From exercise 11-15</h6>
-                            <h6>Select the correct word for each picture</h6>
-                        </div>
-                        <div className="bloque">
                             <div className="questions">
-                                <table className="table">
-                                    <tbody>
-                                        <tr>
-                                            <td colSpan="7" className="text-center"><img src='./img/courses/grandmother.png'className="Answer" alt="Square"/></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>11) A) Daughter</label></td>
-                                            <td><input type="radio" name="answer41" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer41')}}></input></td>
-                                            <td><label>B) Grandmother</label></td>
-                                            <td><input type="radio" name="answer41" onChange={(e) => {this.quiz(e, 'Correcto', 'answer41')}}></input></td>
-                                            <td><label>C) Granddaughther</label></td>
-                                            <td><input type="radio" name="answer41" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer41')}}></input></td>
-                                            <td><span id="answer41"></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td colSpan="7" className="text-center"><img src='./img/courses/toothache.png'className="Answer" alt="Avocado"/></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>12) A) Fever</label></td>
-                                            <td><input type="radio" name="answer42" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer42')}}></input></td>
-                                            <td><label>B) Toothache</label></td>
-                                            <td><input type="radio" name="answer42" onChange={(e) => {this.quiz(e, 'Correcto', 'answer42')}}></input></td>
-                                            <td><label>C) Backache</label></td>
-                                            <td><input type="radio" name="answer42" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer42')}}></input></td>
-                                            <td><span id="answer42"></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td colSpan="7" className="text-center"><img src='./img/courses/foot.png'className="Answer" alt="Donkey"/></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>13) A) Foot</label></td>
-                                            <td><input type="radio" name="answer43" onChange={(e) => {this.quiz(e, 'Correcto', 'answer43')}}></input></td>
-                                            <td><label>B) Tooth</label></td>
-                                            <td><input type="radio" name="answer43" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer43')}}></input></td>
-                                            <td><label>C) Hand</label></td>
-                                            <td><input type="radio" name="answer43" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer43')}}></input></td>
-                                            <td><span id="answer43"></span></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                <h3>*From exercise 11-15, select the correct word for each picture.</h3>
+                                <form className="Answer">
+                                    <img src='./img/courses/grandmother.png'className="" alt="Square"/>
+                                    <label>11) A) Daughter <input type="radio" name="answer41" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer41')}}></input></label>
+                                    <label>B) Grandmother <input type="radio" name="answer41" onChange={(e) => {this.quiz(e, 'Correcto', 'answer41')}}></input></label>
+                                    <label>C) Granddaughther <input type="radio" name="answer41" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer41')}}></input></label>
+                                    <span id="answer41"></span>
+                                </form>
+                                <form className="Answer">
+                                    <img src='./img/courses/toothache.png'className="" alt="Avocado"/>
+                                    <label>12) A) Fever <input type="radio" name="answer42" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer42')}}></input></label>
+                                    <label>B) Toothache <input type="radio" name="answer42" onChange={(e) => {this.quiz(e, 'Correcto', 'answer42')}}></input></label>
+                                    <label>C) Backache <input type="radio" name="answer42" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer42')}}></input></label>
+                                    <span id="answer42"></span>
+                                </form>
+                                <form className="Answer">
+                                    <img src='./img/courses/foot.png'className="" alt="Donkey"/>
+                                    <label>13) A) Foot <input type="radio" name="answer43" onChange={(e) => {this.quiz(e, 'Correcto', 'answer43')}}></input></label>
+                                    <label>B) Tooth <input type="radio" name="answer43" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer43')}}></input></label>
+                                    <label>C) Hand <input type="radio" name="answer43" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer43')}}></input></label>
+                                    <span id="answer43"></span>
+                                </form>
+                                <form className="Answer">
+                                    <img src='./img/courses/tie.png'className="" alt="Stadium"/>
+                                    <label>14) A) Tie <input type="radio" name="answer44" onChange={(e) => {this.quiz(e, 'Correcto','answer44')}}></input></label>
+                                    <label>B) Shirt <input type="radio" name="answer44" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer44')}}></input></label>
+                                    <label>C) Jeans <input type="radio" name="answer44" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer44')}}></input></label>
+                                    <span id="answer44"></span>
+                                </form>
+                                <form className="Answer">
+                                    <img src='./img/courses/dress.png'className="" alt="Classroom"/>
+                                    <label>15) A) Dress <input type="radio" name="answer45" onChange={(e) => {this.quiz(e, 'Correcto','answer45')}}></input></label>
+                                    <label>B) Sweater <input type="radio" name="answer45" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer45')}}></input></label>
+                                    <label>C) Shirt <input type="radio" name="answer45" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer45')}}></input></label>
+                                    <span id="answer45"></span>
+                                </form>
                             </div>
                         </div>
                     </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">71</span></div>
+                    <div className="Pie"></div>
                 </div>
-
-                {/* hoja 72 */}
-
-                <div className="Hoja">
-                    <div className="Encavezado">
-                        <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/quiz-ss.png'className="Esquina" alt="Quiz"/>
-                    </div>
-                    <div className="Contenido">
-                        <div className="titulos">
-                            <h2>Quiz 3</h2>
-                            <h3>Examen 3</h3>
-                        </div>
-                        <div className="bloque">
-                            <h6>*From exercise 11-15</h6>
-                            <h6>Select the correct word for each picture</h6>
-                        </div>
-                        <div className="bloque">
-                            <div className="questions">
-                                <table className="table">
-                                    <tbody>
-                                        <tr>
-                                            <td colSpan="7" className="text-center"><img src='./img/courses/tie.png'className="Answer" alt="Stadium"/></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>14) A) Tie</label></td>
-                                            <td><input type="radio" name="answer44" onChange={(e) => {this.quiz(e, 'Correcto','answer44')}}></input></td>
-                                            <td><label>B) Shirt</label></td>
-                                            <td><input type="radio" name="answer44" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer44')}}></input></td>
-                                            <td><label>C) Jeans</label></td>
-                                            <td><input type="radio" name="answer44" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer44')}}></input></td>
-                                            <td><span id="answer44"></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td colSpan="7" className="text-center"><img src='./img/courses/dress.png'className="Answer" alt="Classroom"/></td>
-                                        </tr>
-                                        <tr>
-                                            <td><label>15) A) Dress</label></td>
-                                            <td><input type="radio" name="answer45" onChange={(e) => {this.quiz(e, 'Correcto','answer45')}}></input></td>
-                                            <td><label>B) Sweater</label></td>
-                                            <td><input type="radio" name="answer45" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer45')}}></input></td>
-                                            <td><label>C) Shirt</label></td>
-                                            <td><input type="radio" name="answer45" onChange={(e) => {this.quiz(e, 'Incorrecto', 'answer45')}}></input></td>
-                                            <td><span id="answer45"></span></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="Pie"><span className="badge badge-pill badge-dark">72</span></div>
-                </div>
-                {/* end book */}
+            {/* end book */}
             </div>
         );
     }

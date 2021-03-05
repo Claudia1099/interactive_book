@@ -1,6 +1,10 @@
 .App-book{
     overflow-y:scroll;
 }
+h6{
+    font-weight: bold;
+    font-size: 1.1em;
+}
 .libro{
     height:auto;width:600px;
     display:flex;align-items:center;
@@ -38,8 +42,8 @@
 }
 .bloque{
     display:flex;justify-content:center;
-    font-size:0.7em;width:90%;
-    font-family:'Arial','sans-serif';
+    font-size:0.8em;width:90%;
+    font-family: Helvetica, sans-serif;
 }
 .linea{
     background-color:#d81c3f;
@@ -56,21 +60,21 @@
     color: #e32548;
 }
 .titulos h2{
-    font-size: 0.9em;
+    font-size: 1.2em;
 }
 .titulos h3{
-    font-size: 0.7em;
+    font-size: 0.9em;
 }
 .titulos h4{
-    font-size: 0.2em;
+    font-size: 0.4em;
     color:black;
 }
 .SHAPES{
-    width: 78px;
+    width: 60px;
 }
 .txt-ali{
     text-align: justify;
-    font-size: 1.1em;
+    font-size: 1.3em;
 }
 .imgtimes{
     width: 150px;
@@ -80,34 +84,28 @@
     width:350px;height:200px;
 }
 .Answer{
-    display:flex;align-items:center;
-    margin-bottom:15px;
-}
-.Quiz{
-    color:black;font-weight:bold;
-}
-.Answer img{
-    width:100px;
-}
-.Answer span{
-    width:25px;height:20px;
-    margin-left:2px;text-align:center;
+    width:95px;
 }
 .Correcto{
-    font-size:2.3em;color:chartreuse;
+    font-size:2em;color:chartreuse;
 }
 .Incorrecto{
-    font-size:2.3em;color:red;
-}
-.rellenoPm{
-    margin-top:30px;width:350px;
+    font-size:2em;color:red;
 }
 .rellenoPc{
-    margin-top:10px;width:200px;
+    max-width:300px;
+    padding: 0%;
+    margin: 0%;
 }
 .display360{
     display:table-row;
 }
 .display640{
     display:none;
+}
+td p{
+    font-size: 1.2em;
+}
+.Quiz{
+    font-weight: bold;
 }
