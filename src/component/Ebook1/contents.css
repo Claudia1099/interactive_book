@@ -870,12 +870,11 @@ left: 26%;
     position: absolute;
     top: 20%;
     left: 11%;
-    font: center;
     padding-left: 3%;
 }
-.item1-page-3>th{
+/*.item1-page-3>th{
     margin-left: 50%;
-}
+}*/
 
 
 
@@ -885,11 +884,11 @@ left: 26%;
     left: 10%;
     font-size: 18px;
 }
-.item35-page-3{
+/*.item35-page-3{
     position: absolute;
     top: 70%;
     left: 0%;
-}
+}*/
 .subTitulo2-page-3{
     position: absolute;
     top: 60%;

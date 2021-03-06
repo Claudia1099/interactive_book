@@ -1,3 +1,201 @@
+@media screen and (max-width: 1366px){
+    /***************************************************/
+    /***************************************************/
+    /**********************Page 2***********************/
+    /***************************************************/
+    /***************************************************/
+    .subTitulo1-page-1, .subTitulo2-page-1, .subTitulo3-page-1, .subTitulo4-page-1{
+        font-size: 18px;
+    }
+    .item2-page-1, .item3-page-1, .item4-page-1, .item5-page-1, .item6-page-1,
+    .item7-page-1, .item8-page-1, .item9-page-1, .item10-page-1, .item11-page-1,
+    .item12-page-1, .item13-page-1, .item14-page-1, .item15-page-1, .item16-page-1,
+    .item17-page-1, .item18-page-1, .item19-page-1, .item20-page-1, .item21-page-1,
+    .item22-page-1, .item23-page-1, .item24-page-1, .item25-page-1, .item26-page-1,
+    .item27-page-1, .item28-page-1, .item29-page-1, .item30-page-1, .item31-page-1,
+    .item32-page-1, .item33-page-1, .item34-page-1, .item35-page-1, .item36-page-1,
+    .item37-page-1, .item38-page-1{
+        margin-top: 1%;
+        font-size: 13.5px;
+    }
+    .subTitulo3-page-1, .subTitulo4-page-1{
+        margin-top: 1%;
+    }
+    /***************************************************/
+    /***************************************************/
+    /**********************Page 4***********************/
+    /***************************************************/
+    /***************************************************/
+    .subTitulo1-page-3, .subTitulo2-page-3, .subTitulo3-page-3{
+        font-size: 18px;
+    }
+    .item1-page-3, .item36-page-3, .item37-page-3, .item38-page-3, .item39-page-3,
+    .item40-page-3, .item41-page-3, .item42-page-3, .item43-page-3, .item44-page-3, .item45-page-3,
+    .item46-page-3, .item47-page-3, .item48-page-3, .item49-page-3{
+        font-size: 13px;
+    }
+    .item34-page-3{
+        font-size: 18px;
+    }
+    /***************************************************/
+    /***************************************************/
+    /**********************Page 6***********************/
+    /***************************************************/
+    /***************************************************/
+    .item1-page-5, .item2-page-5, .item3-page-5, .item4-page-5, .item5-page-5,
+    .item6-page-5, .item7-page-5, .item8-page-5, .item9-page-5, .item10-page-5,
+    .item11-page-5, .item12-page-5, .item13-page-5, .item14-page-5, .item15-page-5,
+    .item16-page-5, .item17-page-5, .item19-page-5, .item20-page-5,
+    .item21-page-5, .item22-page-5, .item23-page-5, .item24-page-5, .item25-page-5,
+    .item26-page-5, .item27-page-5{
+        font-size: 13px;
+    }
+    .item18-page-5{
+        font-size: 11px;
+        margin-right: 5%;
+    }
+    /***************************************************/
+    /***************************************************/
+    /**********************Page 8***********************/
+    /***************************************************/
+    /***************************************************/
+    .btn1-page-7, .btn2-page-7, .btn3-page-7, .btn4-page-7, .btn5-page-7, .btn6-page-7{
+        margin-left: 12%;
+    }
+    /***************************************************/
+    /***************************************************/
+    /**********************Page 9***********************/
+    /***************************************************/
+    /***************************************************/
+    .item22-page-8, .item23-page-8, .item24-page-8, .item25-page-8, .item26-page-8, .item27-page-8,
+    .item28-page-8, .item29-page-8, .item30-page-8, .item31-page-8, .item32-page-8, .item33-page-8{
+        font-size: 13px;
+    }
+    /***************************************************/
+    /***************************************************/
+    /**********************Page 10***********************/
+    /***************************************************/
+    /***************************************************/
+    .item1-page-9, .item2-page-9, .item3-page-9, .item4-page-9, .item5-page-9, .item6-page-9,
+    .item7-page-9, .item8-page-9, .item9-page-9, .item10-page-9, .item11-page-9{
+        font-size: 13px;
+    }
+    .btn1-page-9, .btn2-page-9{
+        margin-left: 11%;
+    }
+    .btn3-page-9, .btn4-page-9{
+        margin-top: 1%;
+        margin-left: 13%;
+    }
+    .btn5-page-9, .btn6-page-9{
+        margin-top: 2.3%;
+        margin-left: 13%;
+    }
+    .btn7-page-9, .btn8-page-9, .btn9-page-9, .btn10-page-9, .btn11-page-9, .btn12-page-9,
+    .btn13-page-9, .btn14-page-9, .btn15-page-9, .btn16-page-9, .btn17-page-9, .btn18-page-9,
+    .btn19-page-9, .btn20-page-9{
+        margin-left: 10%;
+    }
+    /***************************************************/
+    /***************************************************/
+    /**********************Page 11***********************/
+    /***************************************************/
+    /***************************************************/
+    .item1-page-10, .item2-page-10, .item3-page-10, .item4-page-10, .item5-page-10,
+    .item6-page-10, .item7-page-10, .item8-page-10, .item9-page-10, .item10-page-10,
+    .item11-page-10, .item12-page-10{
+        font-size: 13px;
+    }
+    .titulo1-page-10{
+        left: 32%;
+        font-size: 27px;
+    }
+    .subTitulo1-page-10{
+        font-size: 18px;
+    }
+    .btn1-page-10, .btn2-page-10, .btn3-page-10, .btn4-page-10{
+        margin-top: 2.5%;
+        margin-left: 11%;
+    }
+    /***************************************************/
+    /***************************************************/
+    /**********************Page 12***********************/
+    /***************************************************/
+    /***************************************************/
+    .item1-page-11, .item2-page-11, .item3-page-11, .item4-page-11{
+        font-size: 13px;
+    }
+    .btn1-page-11, .btn2-page-11, .btn3-page-11, .btn4-page-11, .btn5-page-11, .btn6-page-11,
+    .btn7-page-11, .btn8-page-11, .btn9-page-11, .btn10-page-11, .btn11-page-11, .btn12-page-11,
+    .btn13-page-11, .btn14-page-11, .btn15-page-11, .btn16-page-11{
+        margin-left: 12.5%;
+    }
+    /***************************************************/
+    /***************************************************/
+    /**********************Page 13***********************/
+    /***************************************************/
+    /***************************************************/
+    .btn1-page-12, .btn2-page-12, .btn3-page-12, .btn4-page-12, .btn5-page-12, .btn6-page-12,
+    .btn7-page-12, .btn8-page-12, .btn9-page-12, .btn10-page-12, .btn11-page-12, .btn12-page-12,
+    .btn13-page-12, .btn14-page-12, .btn15-page-12, .btn16-page-12, .btn17-page-12, .btn18-page-12,
+    .btn19-page-12{
+        margin-left: 17.5%;
+    }
+    .btn2-page-12{
+        margin-top: 1%;
+    }
+    .btn3-page-12{
+        margin-top: 2%;
+    }
+    .btn4-page-12{
+        margin-top: 4%;
+    }
+    .btn5-page-12{
+        margin-top: 4.5%;
+    }
+    .btn6-page-12{
+        margin-top: 5.5%;
+    }
+    .btn8-page-12{
+        margin-top: 1%;
+    }
+    .btn9-page-12{
+        margin-top: 2%;
+    }
+    .btn10-page-12{
+        margin-top: 3%;
+    }
+    .btn11-page-12{
+        margin-top: 4%;
+    }
+    .btn12-page-12{
+        margin-top: 5%;
+    }
+    .btn14-page-12{
+        margin-top: 1%;
+    }
+    .btn15-page-12{
+        margin-top: 2%;
+    }
+    .btn16-page-12{
+        margin-top: 3%;
+    }
+    .btn18-page-12{
+        margin-top: 1%;
+    }
+    .btn19-page-12{
+        margin-top: 2%;
+    }
+    /***************************************************/
+    /***************************************************/
+    /**********************Page 14***********************/
+    /***************************************************/
+    /***************************************************/
+    .item9-page-13 > h6{
+        font-size: 1%;
+    }
+}
+
 @media screen and (max-width: 414px){
     /*Contenido*/
     .titulo{
