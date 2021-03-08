@@ -1,0 +1,22 @@
+.bordeLibro{
+    box-shadow: 5px 5px 5px 5px #635f5f;
+}
+.pagina{
+    position: relative;
+    padding-top: 15%;
+    padding-right: 5%;
+}
+/************************************************/
+/********************Page 2**********************/
+/************************************************/
+/************************************************/
+.btn1-page-2{
+    position: absolute;
+    top: 66%;
+    left: 68%;
+}
+.result1-page-2{
+    position: absolute;
+    top: 66%;
+    left: 49%;
+}
