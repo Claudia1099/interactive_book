@@ -11,6 +11,11 @@
     padding-top: 15%;
     padding-right: 5%;
 }
+.pagina67{
+    position: relative;
+    padding-top: 50%;
+    padding-right: 5%;
+}
 .unidad{
     position: relative;
 }
@@ -7102,3 +7107,106 @@ left: 26%;
 /**********************Page 66***********************/
 /***************************************************/
 /***************************************************/
+.item1-page-66{
+    position: absolute;
+    top: 10.5%;
+    left: 13%;
+    font-weight: bold;
+    background: tomato;
+}
+.item2-page-66{
+    position: absolute;
+    top: 13%;
+    left: 13%;
+    font-weight: bold;
+}
+.item3-page-66{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-weight: bold;
+}
+.item4-page-66{
+    position: absolute;
+    top: 54.5%;
+    left: 16%;
+}
+.item4-page-66>li{
+    margin-bottom: 2%;
+}
+/***************************************************/
+/***************************************************/
+/**********************Page 67***********************/
+/***************************************************/
+/***************************************************/
+
+.item1-page-67{
+    position: absolute;
+    top: 10.5%;
+    left: 13%;
+    font-weight: bold;
+    color: white;
+}
+.item2-page-67{
+    position: absolute;
+    top: 13%;
+    left: 13%;
+}
+.item3-page-67{
+    position: absolute;
+    top: 16%;
+    left: 15%;
+    font-weight: bold;
+}
+.item4-page-67{
+    position: absolute;
+    top: 18%;
+    left: 20%;
+    font-weight: bold;
+}
+.item5-page-67{
+    position: absolute;
+    top: 22%;
+    left: 20%;
+    list-style: none;
+}
+.item5-page-67>li{
+    margin-bottom: 4%;
+}
+
+.item6-page-67{
+    position: absolute;
+    top: 50%;
+    left: 13%;
+    font-weight: bold;
+    color: white;
+}
+.item7-page-67{
+    position: absolute;
+    top: 53%;
+    left: 13%;
+}
+.item8-page-67{
+    position: absolute;
+    top: 54%;
+    left: 13%;
+    font-weight: bold;
+}
+.item9-page-67{
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    font-weight: bold;
+}
+.item10-page-67{
+    position: absolute;
+    top: 60%;
+    left: 13%;
+    font-weight: bold;
+}
+.item11-page-67{
+    position: absolute;
+    top: 63%;
+    left: 13%;
+    
+}
