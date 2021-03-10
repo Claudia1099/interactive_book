@@ -47,6 +47,7 @@ class App extends Component {
       ebooksVw:false,
       contactoVw:false
     })
+    document.getElementById("adaptable").setAttribute("content","width=device-width, initial-scale=1.0")
   }
 
   render() {
