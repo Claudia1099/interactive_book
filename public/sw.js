@@ -1,5 +1,5 @@
 UpUp.start({
-    'cache-version':'v1',
+    'cache-version':'v2',
     'content-url':'index.hml',
     'assets':[
         /* logo-ico */
@@ -15,7 +15,7 @@ UpUp.start({
         'libro.css',
         'main.css',
         'css/all.css',
-        'static/css/main.b596d975.chunk.css',
+        'static/css/main.dc7c743a.chunk.css',
         'bootstrap.css',
         
         /* js */
@@ -24,17 +24,17 @@ UpUp.start({
         'sw.js',
         'static/js/2.2128f5f6.chunk.js',
         'static/js/3.3fcf9b6a.chunk.js',
-        'static/js/main.87ceb43f.chunk.js',
+        'static/js/main.7487af23.chunk.js',
         'static/js/runtime-main.990a9f21.js',
 
         /* map */
         'upup.min.js.map',
         'upup.sw.min.map',
-        'static/css/main.b596d975.chunk.css.map',
-        'static/js/2.2128f5f6.chunk.map',
-        'static/js/3.3fcf9b6a.chunk.map',
-        'static/js/main.87ceb43f.chunk.map',
-        'static/js/runtime-main.990a9f21.map',
+        'static/css/main.dc7c743a.chunk.css.map',
+        'static/js/2.2128f5f6.chunk.js.map',
+        'static/js/3.3fcf9b6a.chunk.js.map',
+        'static/js/main.7487af23.chunk.js.map',
+        'static/js/runtime-main.990a9f21.js.map',
 
         /* json */
         'manifest.json',
