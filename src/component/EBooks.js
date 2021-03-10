@@ -55,11 +55,11 @@ class EBooks  extends Component{
                                 <span onClick={() => this.abrirEBooks(false, false, true, false)}><Lista courses="Book 2" imgurl="./img/book2.png" imgalt="Book 2"/></span>
                                 <span onClick={() => this.abrirEBooks(false, false, false, true)}><Lista courses="Book 3" imgurl="./img/book3.png" imgalt="Book 3"/></span>
                                 {/*<span onClick={(e) => this.eBooks1Vw()}><Lista courses="Book 1" imgurl="./img/book1.png" imgalt="Book 1"/></span>
-                                <span onClick={(e) => this.eBooks2Vw()}><Lista courses="Book 2" imgurl="./img/book2.png" imgalt="Book 2"/></span>*/}
+                                <span onClick={(e) => this.eBooks2Vw()}><Lista courses="Book 2" imgurl="./img/book2.png" imgalt="Book 2"/></span>
                                 <span onClick={() => this.abrirEBooks(false, true, false)}><Lista courses="Book 1" imgurl="./img/book1.png" imgalt="Book 1"/></span>
                                 <span onClick={() => this.abrirEBooks(false, false, true)}><Lista courses="Book 2" imgurl="./img/book2.png" imgalt="Book 2"/></span>
                                 <span ><Lista courses="Book 3" imgurl="./img/book3.png" imgalt="Book 3"/></span>
-                                <span ><Lista courses="Book 4" imgurl="./img/book4.png" imgalt="Book 4"/></span>
+                                <span ><Lista courses="Book 4" imgurl="./img/book4.png" imgalt="Book 4"/></span>*/}
                             </div>
                         </div>
                         :null
