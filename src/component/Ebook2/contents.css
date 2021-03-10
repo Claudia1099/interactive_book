@@ -10,13 +10,289 @@
 /********************Page 2**********************/
 /************************************************/
 /************************************************/
-.btn1-page-2{
+.btn1-page-2, .btn2-page-2, .btn3-page-2, .btn4-page-2, .btn5-page-2, .btn6-page-2, .btn7-page-2,
+.btn8-page-2, .btn9-page-2, .btn10-page-2, .btn11-page-2, .btn12-page-2, .btn13-page-2{
     position: absolute;
-    top: 66%;
     left: 68%;
 }
-.result1-page-2{
-    position: absolute;
+.btn1-page-2{
     top: 66%;
+}
+.btn2-page-2{
+    top: 67.8%;
+}
+.btn3-page-2{
+    top: 69.4%;
+}
+.btn4-page-2{
+    top: 71%;
+}
+.btn5-page-2{
+    top: 72.5%;
+}
+.btn6-page-2{
+    top: 74%;
+}
+.btn7-page-2{
+    top: 75.5%;
+}
+.btn8-page-2{
+    top: 77.2%;
+}
+.btn9-page-2{
+    top: 78.7%;
+}
+.btn10-page-2{
+    top: 80.3%;
+}
+.btn11-page-2{
+    top: 82%;
+}
+.btn12-page-2{
+    top: 83.5%;
+}
+.btn13-page-2{
+    top: 85%;
+}
+.result1-page-2, .result2-page-2, .result3-page-2, .result4-page-2, .result5-page-2,
+.result6-page-2, .result7-page-2, .result8-page-2, .result9-page-2, .result10-page-2,
+.result11-page-2, .result12-page-2, .result13-page-2{
+    position: absolute;
     left: 49%;
+}
+.result1-page-2{
+    top: 66%;
+}
+.result2-page-2{
+ top: 67.8%; 
+}
+.result3-page-2{
+    top: 69.4%;
+}
+.result4-page-2{
+    top: 71%;  
+}
+.result5-page-2{
+    top: 72.5%;
+}
+.result6-page-2{
+    top: 74%;  
+}
+.result7-page-2{
+    top: 75.5%;
+}
+.result8-page-2{
+    top: 77.2%;  
+}
+.result9-page-2{
+    top: 78.7%;
+}
+.result10-page-2{
+    top: 80.3%;  
+}
+.result11-page-2{
+    top: 82%;  
+}
+.result12-page-2{
+    top: 83.5%;
+}
+.result13-page-2{
+    top: 85%;
+}
+/************************************************/
+/********************Page 3**********************/
+/************************************************/
+/************************************************/
+.result1-page-3, .result2-page-3, .result3-page-3, .result4-page-3, .result5-page-3,
+.result6-page-3, .result7-page-3, .result8-page-3, .result9-page-3, .result10-page-3,
+.result11-page-3, .btn1-page-3, .btn2-page-3, .btn3-page-3, .btn4-page-3, .btn5-page-3,
+.btn6-page-3, .btn7-page-3, .btn8-page-3, .btn9-page-3, .btn10-page-3, .btn11-page-3{
+    position: absolute;
+}
+.result1-page-3{
+    top: 38%;
+    left: 18%;
+}
+.btn1-page-3{
+    top: 38%;
+    left: 35%;
+}
+.result2-page-3{
+    top: 38%;
+    left: 43%;
+}
+.btn2-page-3{
+    top: 38%;
+    left: 60%;
+}
+.result3-page-3{
+    top: 38%;
+    left: 67.5%;
+}
+.btn3-page-3{
+    top: 38%;
+    left: 85%;
+}
+.result4-page-3{
+    top: 55%;
+    left: 18%;
+}
+.btn4-page-3{
+    top: 55%;
+    left: 35%;
+}
+.result5-page-3{
+    top: 55%;
+    left: 43%;
+}
+.btn5-page-3{
+    top: 55%;
+    left: 60%;
+}
+.result6-page-3{
+    top: 56.5%;
+    left: 66.6%;
+}
+.btn6-page-3{
+    top: 56.2%;
+    left: 85%;
+}
+.result7-page-3{
+    top: 73%;
+    left: 18%;
+}
+.btn7-page-3{
+    top: 73%;
+    left: 35%;
+}
+.result8-page-3{
+    top: 74.5%;
+    left: 42%;
+}
+.btn8-page-3{
+    top: 74.5%;
+    left: 60%;
+}
+.result9-page-3{
+    top: 74.3%;
+    left: 67.5%;
+}
+.btn9-page-3{
+    top: 74%;
+    left: 85%;
+}
+.result10-page-3{
+    top: 89.5%;
+    left: 42.7%;
+}
+.btn10-page-3{
+    top: 89.3%;
+    left: 60%;
+}
+.result11-page-3{
+    top: 89.5%;
+    left: 67.5%;
+}
+.btn11-page-3{
+    top: 89.5%;
+    left: 85%;
+}
+/************************************************/
+/********************Page 4**********************/
+/************************************************/
+/************************************************/
+.result1-page-4, .result2-page-4, .result3-page-4, .result4-page-4, .result5-page-4,
+.result6-page-4, .result7-page-4, .btn1-page-4, .btn2-page-4, .btn3-page-4, .btn4-page-4,
+.btn5-page-4, .btn6-page-4, .btn7-page-4{
+    position: absolute;
+}
+.result1-page-4{
+    top: 17.5%;
+    left: 18%;
+}
+.btn1-page-4{
+    top: 16.5%;
+    left: 35%;
+}
+.result2-page-4{
+    top: 75.5%;
+    left: 35.5%;
+}
+.btn2-page-4{
+    top: 75%;
+    left: 42%;
+}
+.result3-page-4{
+    top: 80.3%;
+    left: 39%;
+}
+.btn3-page-4{
+    top: 78.5%;
+    left: 45%;
+}
+.result4-page-4{
+    top: 85%;
+    left: 42%;
+}
+.btn4-page-4{
+    top: 83%;
+    left: 46%;
+}
+.result5-page-4{
+    top: 75.5%;
+    left: 73.5%;
+}
+.btn5-page-4{
+    top: 73.8%;
+    left: 79%;
+}
+.result6-page-4{
+    top: 80.2%;
+    left: 73.8%;
+}
+.btn6-page-4{
+    top: 78%;
+    left: 79%;
+}
+.result7-page-4{
+    top: 84.8%;
+    left: 63%;
+}
+.btn7-page-4{
+    top: 84%;
+    left: 72.5%;
+}
+/************************************************/
+/********************Page 6**********************/
+/************************************************/
+/************************************************/
+.result1-page-6, .result2-page-6, .result3-page-6, .result4-page-6, .result5-page-6,
+.result6-page-6, .result7-page-6, .result8-page-6, .result9-page-6,.btn1-page-6,
+.btn2-page-6, .btn3-page-6, .btn4-page-6, .btn5-page-6, .btn6-page-6, .btn7-page-6,
+.btn8-page-6, .btn9-page-6{
+    position: absolute;
+}
+.result1-page-6{
+    top: 53.5%;
+    left: 55.7%;
+}
+.btn1-page-6{
+    top: 53.5%;
+    left: 85%;
+}
+.result2-page-6{
+    top: 56.7%;
+    left: 55.7%;
+}
+.btn2-page-6{
+    top: 56.7%;
+    left: 85%;
+}
+.result3-page-6{
+    top: 60.3%;
+    left: 55.7%;
+}
+.btn3-page-6{
+    top: 60.3%;
+    left: 85%;
 }

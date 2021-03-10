@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Lista from "./Lista";
 import Ebook1 from "./Ebook1";
 import Ebook2 from "./Ebook2";
-import EBook2 from "./Ebook2";
 import EBook3 from "./Ebook3";
 
 class EBooks  extends Component{
@@ -38,9 +37,10 @@ class EBooks  extends Component{
             eBooks3Vw: book3,
             eBooks2Vw: book2
         })
-        if(window.screen.width <= 1024)
-        document.getElementById("adaptable").setAttribute("content","width=device-width, initial-scale=0.5")
+        if(window.screen.width <= 1024){
+            document.getElementById("adaptable").setAttribute("content","width=device-width, initial-scale=0.5")
       }
+    }
 
     render(){
         return(
