@@ -746,77 +746,77 @@ class EBook2  extends Component{
                             <div className="bordeLibro pagina">
                                 <img alt="page-2" className="img-fluid" src="./img/Book2/page2.jpg"/>
                                 <span className="result1-page-2">{this.state.ans1Page2}</span>
-                                <a href="#" className="btn1-page-2" onClick={() => this.edit1Page2()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn1-page-2" onClick={() => this.edit1Page2()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result2-page-2">{this.state.ans2Page2}</span>
-                                <a href="#" className="btn2-page-2" onClick={() => this.edit2Page2()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn2-page-2" onClick={() => this.edit2Page2()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result3-page-2">{this.state.ans3Page2}</span>
-                                <a href="#" className="btn3-page-2" onClick={() => this.edit3Page2()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn3-page-2" onClick={() => this.edit3Page2()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result4-page-2">{this.state.ans4Page2}</span>
-                                <a href="#" className="btn4-page-2" onClick={() => this.edit4Page2()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn4-page-2" onClick={() => this.edit4Page2()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result5-page-2">{this.state.ans5Page2}</span>
-                                <a href="#" className="btn5-page-2" onClick={() => this.edit5Page2()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn5-page-2" onClick={() => this.edit5Page2()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result6-page-2">{this.state.ans6Page2}</span>
-                                <a href="#" className="btn6-page-2" onClick={() => this.edit6Page2()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn6-page-2" onClick={() => this.edit6Page2()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result7-page-2">{this.state.ans7Page2}</span>
-                                <a href="#" className="btn7-page-2" onClick={() => this.edit7Page2()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn7-page-2" onClick={() => this.edit7Page2()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result8-page-2">{this.state.ans8Page2}</span>
-                                <a href="#" className="btn8-page-2" onClick={() => this.edit8Page2()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn8-page-2" onClick={() => this.edit8Page2()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result9-page-2">{this.state.ans9Page2}</span>
-                                <a href="#" className="btn9-page-2" onClick={() => this.edit9Page2()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn9-page-2" onClick={() => this.edit9Page2()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result10-page-2">{this.state.ans10Page2}</span>
-                                <a href="#" className="btn10-page-2" onClick={() => this.edit10Page2()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn10-page-2" onClick={() => this.edit10Page2()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result11-page-2">{this.state.ans11Page2}</span>
-                                <a href="#" className="btn11-page-2" onClick={() => this.edit11Page2()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn11-page-2" onClick={() => this.edit11Page2()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result12-page-2">{this.state.ans12Page2}</span>
-                                <a href="#" className="btn12-page-2" onClick={() => this.edit12Page2()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn12-page-2" onClick={() => this.edit12Page2()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result13-page-2">{this.state.ans13Page2}</span>
-                                <a href="#" className="btn13-page-2" onClick={() => this.edit13Page2()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn13-page-2" onClick={() => this.edit13Page2()}><i className="fas fa-pencil-alt"></i></a>
                             </div>
                         </div>
                         <div className="col-md-6 offset-md-3 mb-3">
                             <div className="bordeLibro pagina">
                                 <img alt="page-3" className="img-fluid" src="./img/Book2/page3.jpg"/>
                                 <span className="result1-page-3">{this.state.ans1Page3}</span>
-                                <a href="#" className="btn1-page-3" onClick={() => this.edit1Page3()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn1-page-3" onClick={() => this.edit1Page3()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result2-page-3">{this.state.ans2Page3}</span>
-                                <a href="#" className="btn2-page-3" onClick={() => this.edit2Page3()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn2-page-3" onClick={() => this.edit2Page3()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result3-page-3">{this.state.ans3Page3}</span>
-                                <a href="#" className="btn3-page-3" onClick={() => this.edit3Page3()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn3-page-3" onClick={() => this.edit3Page3()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result4-page-3">{this.state.ans3Page3}</span>
-                                <a href="#" className="btn4-page-3" onClick={() => this.edit4Page3()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn4-page-3" onClick={() => this.edit4Page3()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result5-page-3">{this.state.ans5Page3}</span>
-                                <a href="#" className="btn5-page-3" onClick={() => this.edit5Page3()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn5-page-3" onClick={() => this.edit5Page3()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result6-page-3">{this.state.ans6Page3}</span>
-                                <a href="#" className="btn6-page-3" onClick={() => this.edit6Page3()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn6-page-3" onClick={() => this.edit6Page3()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result7-page-3">{this.state.ans7Page3}</span>
-                                <a href="#" className="btn7-page-3" onClick={() => this.edit7Page3()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn7-page-3" onClick={() => this.edit7Page3()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result8-page-3">{this.state.ans8Page3}</span>
-                                <a href="#" className="btn8-page-3" onClick={() => this.edit8Page3()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn8-page-3" onClick={() => this.edit8Page3()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result9-page-3">{this.state.ans9Page3}</span>
-                                <a href="#" className="btn9-page-3" onClick={() => this.edit9Page3()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn9-page-3" onClick={() => this.edit9Page3()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result10-page-3">{this.state.ans10Page3}</span>
-                                <a href="#" className="btn10-page-3" onClick={() => this.edit10Page3()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn10-page-3" onClick={() => this.edit10Page3()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result11-page-3">{this.state.ans11Page3}</span>
-                                <a href="#" className="btn11-page-3" onClick={() => this.edit11Page3()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn11-page-3" onClick={() => this.edit11Page3()}><i className="fas fa-pencil-alt"></i></a>
                             </div>
                         </div>
                         <div className="col-md-6 offset-md-3 mb-3">
                             <div className="bordeLibro pagina">
                                 <img alt="page-4" className="img-fluid" src="./img/Book2/page4.jpg"/>
                                 <span className="result1-page-4">{this.state.ans1Page4}</span>
-                                <a href="#" className="btn1-page-4" onClick={() => this.edit1Page4()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn1-page-4" onClick={() => this.edit1Page4()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result2-page-4">{this.state.ans2Page4}</span>
-                                <a href="#" className="btn2-page-4" onClick={() => this.edit2Page4()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn2-page-4" onClick={() => this.edit2Page4()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result3-page-4">{this.state.ans3Page4}</span>
-                                <a href="#" className="btn3-page-4" onClick={() => this.edit3Page4()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn3-page-4" onClick={() => this.edit3Page4()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result4-page-4">{this.state.ans4Page4}</span>
-                                <a href="#" className="btn4-page-4" onClick={() => this.edit4Page4()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn4-page-4" onClick={() => this.edit4Page4()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result5-page-4">{this.state.ans5Page4}</span>
-                                <a href="#" className="btn5-page-4" onClick={() => this.edit5Page4()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn5-page-4" onClick={() => this.edit5Page4()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result6-page-4">{this.state.ans6Page4}</span>
-                                <a href="#" className="btn6-page-4" onClick={() => this.edit6Page4()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn6-page-4" onClick={() => this.edit6Page4()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result7-page-4">{this.state.ans7Page4}</span>
-                                <a href="#" className="btn7-page-4" onClick={() => this.edit7Page4()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn7-page-4" onClick={() => this.edit7Page4()}><i className="fas fa-pencil-alt"></i></a>
                             </div>
                         </div>
                         <div className="col-md-6 offset-md-3 mb-3">
@@ -828,23 +828,23 @@ class EBook2  extends Component{
                             <div className="bordeLibro pagina">
                                 <img alt="page-6" className="img-fluid" src="./img/Book2/page6.jpg" />
                                 <span className="result1-page-6">{this.state.ans1Page6}</span>
-                                <a href="#" className="btn1-page-6" onClick={() => this.edit1Page6()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn1-page-6" onClick={() => this.edit1Page6()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result2-page-6">{this.state.ans2Page6}</span>
-                                <a href="#" className="btn2-page-6" onClick={() => this.edit2Page6()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn2-page-6" onClick={() => this.edit2Page6()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result3-page-6">{this.state.ans3Page6}</span>
-                                <a href="#" className="btn3-page-6" onClick={() => this.edit3Page6()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn3-page-6" onClick={() => this.edit3Page6()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result4-page-6">{this.state.ans4Page6}</span>
-                                <a href="#" className="btn4-page-6" onClick={() => this.edit4Page6()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn4-page-6" onClick={() => this.edit4Page6()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result5-page-6">{this.state.ans5Page6}</span>
-                                <a href="#" className="btn5-page-6" onClick={() => this.edit5Page6()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn5-page-6" onClick={() => this.edit5Page6()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result6-page-6">{this.state.ans6Page6}</span>
-                                <a href="#" className="btn6-page-6" onClick={() => this.edit6Page6()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn6-page-6" onClick={() => this.edit6Page6()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result7-page-6">{this.state.ans7Page6}</span>
-                                <a href="#" className="btn7-page-6" onClick={() => this.edit7Page6()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn7-page-6" onClick={() => this.edit7Page6()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result8-page-6">{this.state.ans8Page6}</span>
-                                <a href="#" className="btn8-page-6" onClick={() => this.edit8Page6()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn8-page-6" onClick={() => this.edit8Page6()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result9-page-6">{this.state.ans9Page6}</span>
-                                <a href="#" className="btn9-page-6" onClick={() => this.edit9Page6()}><i className="fas fa-pencil-alt"></i></a>
+                                <a href="/#" className="btn9-page-6" onClick={() => this.edit9Page6()}><i className="fas fa-pencil-alt"></i></a>
                             </div>
                         </div>
                         <div className="col-md-6 offset-md-3 mb-3">
