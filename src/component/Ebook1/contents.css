@@ -809,52 +809,52 @@ left: 26%;
     top: 83%;
     left: 60%;
 }
-.btn0-page-2{
+.boton1-page-2{
     position: absolute;
     top: 27%;
     left: 37%;
 }
-.btn1-page-2{
+.boton2-page-2{
     position: absolute;
     top: 34%;
     left: 37%;
 }
-.btn3-page-2{
+.boton3-page-2{
     position: absolute;
     top: 24%;
     left: 84%;
 }
-.btn4-page-2{
+.boton4-page-2{
     position: absolute;
     top: 31%;
     left: 84%;
 }
-.btn5-page-2{
+.boton5-page-2{
     position: absolute;
     top: 75%;
     left: 37%;
 }
-.btn6-page-2{
+.boton6-page-2{
     position: absolute;
     top: 79%;
     left: 37%;
 }
-.btn7-page-2{
+.boton7-page-2{
     position: absolute;
     top: 83%;
     left: 37%;
 }
-.btn8-page-2{
+.boton8-page-2{
     position: absolute;
     top: 75%;
     left: 84%;
 }
-.btn9-page-2{
+.boton9-page-2{
     position: absolute;
     top: 79%;
     left: 84%;
 }
-.btn10-page-2{
+.boton10-page-2{
     position: absolute;
     top: 83%;
     left: 84%;
@@ -1107,223 +1107,213 @@ left: 26%;
 }
 .item21-page-4{
     position: absolute;
+    margin-left: -6px;
     top: 15%;
     left: 43%;
     
 }
 .item22-page-4{
     position: absolute;
+    margin-left: -6px;
     top: 15%;
     left: 84.5%;
     
 }
 .item23-page-4{
     position: absolute;
+    margin-left: -6px;
     top: 21.5%;
     left: 47%;
     
 }
 .item24-page-4{
     position: absolute;
+    margin-left: -6px;
     top: 21%;
     left: 95%;
     
 }
 .item25-page-4{
     position: absolute;
+    margin-left: -6px;
     top: 78.5%;
     left: 92%;
     
 }
 .item26-page-4{
     position: absolute;
+    margin-left: -6px;
     top: 27.5%;
     left: 46%;
     
 }
 .item27-page-4{
     position: absolute;
+    margin-left: -6px;
     top: 27.5%;
     left: 95%;
     
 }
 .item28-page-4{
     position: absolute;
+    margin-left: -6px;
     top: 78.5%;
     left: 51.5%;
     
 }
 .item29-page-4{
     position: absolute;
+    margin-left: -6px;
     top: 50%;
     left: 41%;
     
 }
 .item30-page-4{
     position: absolute;
+    margin-left: -6px;
     top: 50.3%;
     left: 85%;
     
 }
 .item31-page-4{
     position: absolute;
+    margin-left: -6px;
     top: 56%;
     left: 51%;
     
 }
 .item32-page-4{
     position: absolute;
+    margin-left: -6px;
     top: 55.8%;
     left: 92%;
     
 }
 .item33-page-4{
     position: absolute;
+    margin-left: -6px;
     top: 70.7%;
     left: 45%;
     
 }
 .item34-page-4{
     position: absolute;
+    margin-left: -6px;
     top: 71.7%;
     left: 92%;
     
 }
-.item14-page-4{
+.boton1-page-4{
     position: absolute;
-    top: 72%;
-    left: 59.3%;
-    font-size: 12px;
-}
-.item15-page-4{
-    position: absolute;
-    top: 72%;
-    left: 72.3%;
-    font-size: 12px;
-}
-.item16-page-4{
-    position: absolute;
-    top: 77.5%;
-    left: 27%;
-    font-size: 12px;
-}
-.item17-page-4{
-    position: absolute;
-    top: 77.5%;
-    left: 39.3%;
-    font-size: 12px;
-}
-.item18-page-4{
-    position: absolute;
-    top: 78.8%;
-    left: 66%;
-    font-size: 12px;
-}
-.item19-page-4{
-    position: absolute;
-    top: 78.8%;
-    left: 75%;
-    font-size: 12px;
-}
-.item20-page-4{
-    position: absolute;
-    top: 95.5%;
-    left: 92%;
-    font-size: 12px;
-}
-
-.btn1-page-4{
-    position: absolute;
+    margin-top: -10px;
     top: 15%;
     left: 32%;
 }
-.btn2-page-4{
+.boton2-page-4{
     position: absolute;
+    margin-top: -10px;
     top: 15%;
     left: 69.5%;
 }
-.btn3-page-4{
+.boton3-page-4{
     position: absolute;
+    margin-top: -10px;
     top: 21%;
     left: 43%;
 }
-.btn4-page-4{
+.boton4-page-4{
     position: absolute;
+    margin-top: -10px;
     top: 21%;
     left: 64%;
 }
-.btn5-page-4{
+.boton5-page-4{
     position: absolute;
+    margin-top: -10px;
     top: 21%;
     left: 79%;
 }
-.btn6-page-4{
+.boton6-page-4{
     position: absolute;
+    margin-top: -10px;
     top: 27.5%;
     left: 37.5%;
 }
-.btn7-page-4{
+.boton7-page-4{
     position: absolute;
+    margin-top: -10px;
     top: 27.5%;
     left: 69%;
 }
-.btn8-page-4{
+.boton8-page-4{
     position: absolute;
+    margin-top: -10px;
     top: 27.5%;
     left: 83%;
 }
-.btn9-page-4{
+.boton9-page-4{
     position: absolute;
+    margin-top: -10px;
     top: 50%;
     left: 34%;
 }
-.btn10-page-4{
+.boton10-page-4{
     position: absolute;
+    margin-top: -10px;
     top: 50%;
     left: 70.5%;
 }
-.btn11-page-4{
+.boton11-page-4{
     position: absolute;
+    margin-top: -10px;
     top: 55.5%;
     left: 38.5%;
 }
-.btn12-page-4{
+.boton12-page-4{
     position: absolute;
+    margin-top: -10px;
     top: 55.5%;
     left: 87.5%;
 }
-.btn13-page-4{
+.boton13-page-4{
     position: absolute;
+    margin-top: -10px;
     top: 70.3%;
     left: 41%;
 }
-.btn14-page-4{
+.boton14-page-4{
     position: absolute;
+    margin-top: -10px;
     top: 72%;
     left: 70.3%;
 }
-.btn15-page-4{
+.boton15-page-4{
     position: absolute;
+    margin-top: -10px;
     top: 72%;
     left: 81%;
 }
-.btn16-page-4{
+.boton16-page-4{
     position: absolute;
+    margin-top: -10px;
     top: 77.5%;
     left: 32.5%;
 }
-.btn17-page-4{
+.boton17-page-4{
     position: absolute;
+    margin-top: -10px;
     top: 77.5%;
     left: 49.5%;
 }
-.btn18-page-4{
+.boton18-page-4{
     position: absolute;
+    margin-top: -10px;
     top: 78.8%;
     left: 73%;
 }
-.btn19-page-4{
+.boton19-page-4{
     position: absolute;
+    margin-top: -10px;
     top: 78.8%;
     left: 84%;
 }
@@ -1846,142 +1836,142 @@ left: 26%;
     left: 90%;
 }
 /*Botones*/
-.btn1-page-6{
+.boton1-page-6{
     position: absolute;
     top: 10%;
     left: 61%;
 }
-.btn2-page-6{
+.boton2-page-6{
     position: absolute;
     top: 13.4%;
     left: 61%;
 }
-.btn3-page-6{
+.boton3-page-6{
     position: absolute;
     top: 16.4%;
     left: 61%;
 }
-.btn4-page-6{
+.boton4-page-6{
     position: absolute;
     top: 19.4%;
     left: 61%;
 }
-.btn5-page-6{
+.boton5-page-6{
     position: absolute;
     top: 22.4%;
     left: 61%;
 }
-.btn6-page-6{
+.boton6-page-6{
     position: absolute;
     top: 25.4%;
     left: 61%;
 }
-.btn7-page-6{
+.boton7-page-6{
     position: absolute;
     top: 28.4%;
     left: 61%;
 }
-.btn8-page-6{
+.boton8-page-6{
     position: absolute;
     top: 31.4%;
     left: 61%;
 }
-.btn9-page-6{
+.boton9-page-6{
     position: absolute;
     top: 34.4%;
     left: 61%;
 }
-.btn10-page-6{
+.boton10-page-6{
     position: absolute;
     top: 10.4%;
     left: 91%;
 }
-.btn11-page-6{
+.boton11-page-6{
     position: absolute;
     top: 13.4%;
     left: 91%;
 }
-.btn12-page-6{
+.boton12-page-6{
     position: absolute;
     top: 16.4%;
     left: 91%;
 }
-.btn13-page-6{
+.boton13-page-6{
     position: absolute;
     top: 19.4%;
     left: 91%;
 }
-.btn14-page-6{
+.boton14-page-6{
     position: absolute;
     top: 22.4%;
     left: 91%;
 }
-.btn15-page-6{
+.boton15-page-6{
     position: absolute;
     top: 25.4%;
     left: 91%;
 }
-.btn16-page-6{
+.boton16-page-6{
     position: absolute;
     top: 28.4%;
     left: 91%;
 }
-.btn17-page-6{
+.boton17-page-6{
     position: absolute;
     top: 31.4%;
     left: 91%;
 }
-.btn18-page-6{
+.boton18-page-6{
     position: absolute;
     top: 34.4%;
     left: 91%;
 }
-.btn19-page-6{
+.boton19-page-6{
     position: absolute;
     top: 55.5%;
     left: 27%;
 }
-.btn20-page-6{
+.boton20-page-6{
     position: absolute;
     top: 58.8%;
     left: 33%;
 }
-.btn21-page-6{
+.boton21-page-6{
     position: absolute;
     top: 62.3%;
     left: 27%;
 }
-.btn22-page-6{
+.boton22-page-6{
     position: absolute;
     top: 62.3%;
     left: 42%;
 }
-.btn23-page-6{
+.boton23-page-6{
     position: absolute;
     top: 72.8%;
     left: 60%;
 }
-.btn24-page-6{
+.boton24-page-6{
     position: absolute;
     top: 72.5%;
     left: 72%;
 }
-.btn25-page-6{
+.boton25-page-6{
     position: absolute;
     top: 76.5%;
     left: 59%;
 }
-.btn26-page-6{
+.boton26-page-6{
     position: absolute;
     top: 76.5%;
     left: 68%;
 }
-.btn27-page-6{
+.boton27-page-6{
     position: absolute;
     top: 79.8%;
     left: 58.5%;
 }
-.btn28-page-6{
+.boton28-page-6{
     position: absolute;
     top: 83.3%;
     left: 67%;
@@ -2541,102 +2531,102 @@ left: 26%;
     top: 50%;
     left: 23%;
 }
-.btn1-page-9{
+.boton1-page-9{
     position: absolute;
     top: 5.5%;
     left: 71%;
 }
-.btn2-page-9{
+.boton2-page-9{
     position: absolute;
     top: 8%;
     left: 71%;
 }
-.btn3-page-9{
+.boton3-page-9{
     position: absolute;
     top: 10%;
     left: 80%;
 }
-.btn4-page-9{
+.boton4-page-9{
     position: absolute;
     top: 12.4%;
     left: 80%;
 }
-.btn5-page-9{
+.boton5-page-9{
     position: absolute;
     top: 19%;
     left: 80%;
 }
-.btn6-page-9{
+.boton6-page-9{
     position: absolute;
     top: 21%;
     left: 80%;
 }
-.btn7-page-9{
+.boton7-page-9{
     position: absolute;
     top: 47%;
     left: 28%;
 }
-.btn8-page-9{
+.boton8-page-9{
     position: absolute;
     top: 47%;
     left: 63%;
 }
-.btn9-page-9{
+.boton9-page-9{
     position: absolute;
     top: 44.8%;
     left: 86%;
 }
-.btn10-page-9{
+.boton10-page-9{
     position: absolute;
     top: 69%;
     left: 28%;
 }
-.btn11-page-9{
+.boton11-page-9{
     position: absolute;
     top: 66.5%;
     left: 60%;
 }
-.btn12-page-9{
+.boton12-page-9{
     position: absolute;
     top: 69%;
     left: 64%;
 }
-.btn13-page-9{
+.boton13-page-9{
     position: absolute;
     top: 66.5%;
     left: 88%;
 }
-.btn14-page-9{
+.boton14-page-9{
     position: absolute;
     top: 69%;
     left: 90%;
 }
-.btn15-page-9{
+.boton15-page-9{
     position: absolute;
     top: 86.8%;
     left:26%;
 }
-.btn16-page-9{
+.boton16-page-9{
     position: absolute;
     top: 89%;
     left: 28%;
 }
-.btn17-page-9{
+.boton17-page-9{
     position: absolute;
     top: 86.8%;
     left:60%;
 }
-.btn18-page-9{
+.boton18-page-9{
     position: absolute;
     top: 89%;
     left: 64%;
 }
-.btn19-page-9{
+.boton19-page-9{
     position: absolute;
     top: 86.8%;
     left: 88%;
 }
-.btn20-page-9{
+.boton20-page-9{
     position: absolute;
     top: 89%;
     left: 90%;
@@ -3381,11 +3371,6 @@ left: 26%;
     left: 50%;
     list-style-type: none;
 }
-.item22-page-14{
-    position: absolute;
-    top: 95.5%;
-    left: 90%;
-}
 .result1-page-14, .result2-page-14, .result3-page-14, .result4-page-14{
     position: absolute;
     left: 12.5%;
@@ -3432,11 +3417,6 @@ left: 26%;
     top: 66%;
     left: 10%;
 }
-.item6-page-15{
-    position: absolute;
-    top: 95.5%;
-    left: 90%;
-}
 .result1-page-15, .result2-page-15, .result4-page-15, .result5-page-15,
 .result7-page-15, .result8-page-15, .result10-page-15{
     position: absolute;
@@ -3462,7 +3442,7 @@ left: 26%;
 }
 .titulo2-page-16{
     position: absolute;
-    top: 47.2%;
+    top: 47%;
     left: 13%;
     color: #fff;
 }
@@ -3542,11 +3522,6 @@ left: 26%;
     top: 57%;
     left: 13%;
 }
-.item12-page-16{
-    position: absolute;
-    top: 95.5%;
-    left: 90%;
-}
 
 .result1-page-16, .result2-page-16, .result3-page-16, .result4-page-16, .result5-page-16,
 .result6-page-16, .result7-page-16, .result8-page-16, .result9-page-16, .result10-page-16,
@@ -3562,7 +3537,7 @@ left: 26%;
 /***************************************************/
 .titulo1-page-17{
     position: absolute;
-    top: 7.5%;
+    top: 7%;
     left: 12.5%;
     color: #fff;
 }
@@ -3598,14 +3573,9 @@ left: 26%;
 .item5-page-17 > li{
     margin-bottom: 3%;
 }
-.item6-page-17{
-    position: absolute;
-    top: 95.5%;
-    left: 90%;
-}
 .titulo2-page-17{
     position: absolute;
-    top: 55.4%;
+    top: 55%;
     left: 12.5%;
     color: #fff;
 }
@@ -3801,11 +3771,6 @@ left: 26%;
     left: 50%;
     list-style: none;
 }
-.item5-page-20{
-    position: absolute;
-    top: 95.5%;
-    left: 90%;
-}
 .result1-page-20, .result2-page-20, .result3-page-20, .result4-page-20,
 .result5-page-20, .result6-page-20, .result7-page-20, .result8-page-20,
 .result9-page-20, .result10-page-20, .result11-page-20, .result12-page-20,
@@ -3858,11 +3823,6 @@ left: 26%;
     top: 84%;
     left: 13%;
     width: 83%;
-}
-.item6-page-21{
-    position: absolute;
-    top: 95.5%;
-    left: 90%;
 }
 .result1-page-21,.result2-page-21{
     position: absolute;
@@ -3917,11 +3877,6 @@ left: 26%;
     top: 57%;
     left: 65%;
     list-style: circle;
-}
-.item9-page-22{
-    position: absolute;
-    top: 95.5%;
-    left: 90%;
 }
 .result3-page-22{
     position: absolute;
@@ -4022,11 +3977,6 @@ left: 26%;
     position: absolute;
     top: 80%;
     left: 6%;
-}
-.item11-page-23{
-    position: absolute;
-    top: 95.5%;
-    left: 90%;
 }
 /***************************************************/
 /***************************************************/

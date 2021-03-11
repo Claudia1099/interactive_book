@@ -37,8 +37,20 @@ class EBooks  extends Component{
             eBooks3Vw: book3,
             eBooks2Vw: book2
         })
-        if(window.screen.width <= 1024){
-            document.getElementById("adaptable").setAttribute("content","width=device-width, initial-scale=0.5")
+        if(window.screen.width <= 280){
+            document.getElementById("adaptable").setAttribute("content","width=device-width, initial-scale=0.4");
+      }else if(window.screen.width <= 320){
+            document.getElementById("adaptable").setAttribute("content","width=device-width, initial-scale=0.46");
+      }else if(window.screen.width <= 375){
+            document.getElementById("adaptable").setAttribute("content","width=device-width, initial-scale=0.55");
+      }else if(window.screen.width <= 414){
+            document.getElementById("adaptable").setAttribute("content","width=device-width, initial-scale=0.6");
+      }else if (window.screen.width <= 768){
+            document.getElementById("adaptable").setAttribute("content","width=device-width, initial-scale=0.4");
+      }else if(window.screen.width <= 1024){
+            document.getElementById("adaptable").setAttribute("content","width=device-width, initial-scale=0.55");
+      }else{
+            document.getElementById("adaptable").setAttribute("content","width=device-width, initial-scale=1.0");
       }
     }
 
