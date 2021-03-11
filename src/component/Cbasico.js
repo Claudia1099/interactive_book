@@ -2,11 +2,6 @@ import React, { Component } from "react";
 
 class Cbasico extends Component{
 
-    constructor(props){
-        super(props);
-      
-    }
-
     funcion (evt,aUrl){
         var audioUrl = new Audio(aUrl);
         audioUrl.play();
