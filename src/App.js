@@ -66,7 +66,7 @@ class App extends Component {
           <div className="App-cont">
             <div className="App-mg">
               <div className="App-btn">
-                <a className="App-lnk" href="https://www.aesinstituto.com" target="_blank">
+                <a className="App-lnk" href="https://www.aesinstituto.com" target="_blank" rel="noreferrer">
                   <span className="fas fa-home"></span>
                   <p>HOME</p>
                 </a>
