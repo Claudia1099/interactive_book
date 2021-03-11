@@ -56,7 +56,7 @@ class App extends Component {
 
         <div className="App-header">
           <img src='./aesLogoHeader.png'className="App-logo" alt="logo"/>
-            <a className="App-header-btn" href="#" onClick={() => this.abrirHome()}>
+            <a className="App-header-btn" href="/#" onClick={() => this.abrirHome()}>
               <span className="fas fa-bars"></span>
             </a>
         </div>   
@@ -72,19 +72,19 @@ class App extends Component {
                 </a>
               </div>
               <div className="App-btn">
-                <a className="App-lnk" href="#" onClick={() => this.abrirCursos()}>
+                <a className="App-lnk" href="/#"  onClick={() => this.abrirCursos()}>
                   <span className="fas fa-pencil-ruler"></span>
                   <p>FREE COURSES</p>
                 </a>
               </div>
               <div className="App-btn">
-                <a className="App-lnk" href="#" onClick={() => this.abrirEBooks()}>
+                <a className="App-lnk" href="/#"  onClick={() => this.abrirEBooks()}>
                   <span className="fas fa-book"></span>
                   <p>E-BOOKS</p>
                 </a>
               </div>
               <div className="App-btn">
-                <a className="App-lnk" href="#" onClick={() => this.abrirContacto()}>
+                <a className="App-lnk" href="/#"  onClick={() => this.abrirContacto()}>
                   <span className="fas fa-id-card"></span>
                   <p>CONTACT US</p>
                 </a>
