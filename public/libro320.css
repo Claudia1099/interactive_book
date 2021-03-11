@@ -1,0 +1,121 @@
+.App-book{
+    overflow-y:scroll;
+}
+.background{
+    background-color: #A7A3A2;
+}
+.libro{
+    height:auto;width:100%;
+    display:flex;align-items:center;
+    flex-direction:column;overflow:hidden;
+    justify-content:center;
+}
+.Portada{
+    height:74vh;width:99%;margin-bottom:20px;
+    object-position:center;border-radius:6px;
+    box-shadow: 0px 0px 4px 1px grey;margin-top: 0.3px;
+}
+.Portada img{
+    height:74vh;width:100%;object-fit:cover;
+    border-radius:6px;
+}
+.Hoja{
+    height:74vh;width:99%;
+    margin-bottom:20px;background-color:white;
+    box-shadow: 0px 0px 4px 1px grey;
+    border-radius:6px;overflow:hidden;
+}
+.Encavezado{
+    display:flex;justify-content:space-between;
+    height: 25%;
+}
+.Hoja-logo{
+    height:3vh;margin-left:8px;margin-top:8px;
+}
+.Esquina{
+    height:10vh;margin:0%;padding:0%;
+}
+.Contenido{
+    height: 59%;
+    position:relative;/* top:-40px; */
+    display:flex;flex-direction:column;
+    justify-content:center;align-items:center;
+}
+.bloque{
+    display:flex;justify-content:center;
+    font-size:0.5em;width:90%;
+    font-family: Helvetica, sans-serif;
+}
+.btnA{
+    border:none;
+    color:grey;margin:0%;padding:0%;
+    font-size:1.3em;
+}
+.titulos{
+    text-align: center;
+    color: #e32548;
+}
+.titulos h2{
+    font-size: 0.6em;
+}
+.titulos h3{
+    font-size: 0.3em;
+}
+.titulos h4{
+    font-size: 0.2em;
+    color:black;
+}
+.SHAPES{
+    width: 25px;
+}
+.txt-ali{
+    text-align: justify;
+    font-size: 1em;
+}
+.imgtimes{
+    width: 45px;
+}
+.videoPm{
+    margin-top: 5% ;    
+    width:230px ; height: 130px;
+}
+.Answer{
+    width:40px;
+}
+.Correcto{
+    font-size:1em;color:chartreuse;
+}
+.Incorrecto{
+    font-size:1em;color:red;
+}
+.rellenoPc{
+    max-width:70%;
+}
+.Pie{
+    height: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 5px;
+    padding-bottom: 5px;
+}
+.Pie span{
+    height: 10px;
+    font-size: 7px;
+}
+.display360{
+    display: none;
+}
+.wild{
+    max-width:55%; 
+}
+td p{
+    font-size: 0.7em;
+}
+.Quiz{
+    font-weight: bold;
+}
+.subquiz{
+    font-weight: bold;
+    font-size: 0.8em;
+}
