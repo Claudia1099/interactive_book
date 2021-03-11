@@ -39,16 +39,21 @@ p{
   justify-content:center;
   flex-direction: column;
 }
+.App-lnk a {
+  text-decoration: none;
+}
 .App-lnk p{
   margin-top: 5px;
 }
 .App-lnk:hover{
   color:#e32548;
   font-size:4em;
+  text-decoration: none;
 }
 .App-lnk:active{
   color:#e32548;
   font-size:4em;
+  text-decoration: none;
 }
 .App-footer{
   height:7vh;width:100vw;color:#1f317f;
