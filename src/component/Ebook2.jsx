@@ -833,6 +833,18 @@ class EBook2  extends Component{
                                 <a href="#" className="btn2-page-6" onClick={() => this.edit2Page6()}><i className="fas fa-pencil-alt"></i></a>
                                 <span className="result3-page-6">{this.state.ans3Page6}</span>
                                 <a href="#" className="btn3-page-6" onClick={() => this.edit3Page6()}><i className="fas fa-pencil-alt"></i></a>
+                                <span className="result4-page-6">{this.state.ans4Page6}</span>
+                                <a href="#" className="btn4-page-6" onClick={() => this.edit4Page6()}><i className="fas fa-pencil-alt"></i></a>
+                                <span className="result5-page-6">{this.state.ans5Page6}</span>
+                                <a href="#" className="btn5-page-6" onClick={() => this.edit5Page6()}><i className="fas fa-pencil-alt"></i></a>
+                                <span className="result6-page-6">{this.state.ans6Page6}</span>
+                                <a href="#" className="btn6-page-6" onClick={() => this.edit6Page6()}><i className="fas fa-pencil-alt"></i></a>
+                                <span className="result7-page-6">{this.state.ans7Page6}</span>
+                                <a href="#" className="btn7-page-6" onClick={() => this.edit7Page6()}><i className="fas fa-pencil-alt"></i></a>
+                                <span className="result8-page-6">{this.state.ans8Page6}</span>
+                                <a href="#" className="btn8-page-6" onClick={() => this.edit8Page6()}><i className="fas fa-pencil-alt"></i></a>
+                                <span className="result9-page-6">{this.state.ans9Page6}</span>
+                                <a href="#" className="btn9-page-6" onClick={() => this.edit9Page6()}><i className="fas fa-pencil-alt"></i></a>
                             </div>
                         </div>
                         <div className="col-md-6 offset-md-3 mb-3">
