@@ -5,8 +5,8 @@ class Login extends Component{
     render(){
         return(
             <div className="App-cont">
-                <div className="">
-                    <form onSubmit={this.props.onSubmit}>
+                <div className="App-mg">
+                    <form method="post" onsubmit="return false" action="return false">
                         <div className="card">
                             <img src="./img/backLogin.png" className="card-img-top" alt="backLogin"></img>
                             <div className="card-body">
