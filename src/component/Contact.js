@@ -9,7 +9,7 @@ class Contact extends Component{
                         <h3>CONTACT US</h3>
                         <div className="App-redes">
                             <div>
-                                <a className="App-lnk" href="https://www.facebook.com/EnglishSchoolAES/" target="_blank">
+                                <a className="App-lnk" href="https://www.facebook.com/EnglishSchoolAES/" rel="noreferrer noopener" target="_blank">
                                     <div className="Contact-btn">
                                         <span className="fab fa-facebook"></span>
                                         <span><p>Facebook</p></span>
@@ -17,7 +17,7 @@ class Contact extends Component{
                                 </a>
                             </div>
                             <div>
-                                <a className="App-lnk" href="https://www.instagram.com/aes.englishschool/" target="_blank">
+                                <a className="App-lnk" href="https://www.instagram.com/aes.englishschool/"  rel="noreferrer noopener" target="_blank">
                                     <div className="Contact-btn">
                                         <span className="fab fa-instagram"></span>
                                         <span><p>Instagram</p></span>
@@ -25,7 +25,7 @@ class Contact extends Component{
                                 </a>
                             </div>
                             <div>
-                                <a className="App-lnk" href="https://www.youtube.com/channel/UCcwaKVf3xMqYBrjZgvetBng" target="_blank">
+                                <a className="App-lnk" href="https://www.youtube.com/channel/UCcwaKVf3xMqYBrjZgvetBng" rel="noreferrer noopener" target="_blank">
                                     <div className="Contact-btn">
                                         <span className="fab fa-youtube"></span>
                                         <span><p>YouTube</p></span>

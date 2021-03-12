@@ -108,7 +108,7 @@ class Cbasico extends Component{
                 <div className="Hoja">
                     <div className="Encavezado">
                         <img src='./aesLogoHeader.png'className="Hoja-logo" alt="Logo"/>
-                        <img src='./img/courses/possible-gretings.png'className="Esquina" alt=""/>
+                        <img src='./img/courses/possible-gretings.png'className="Esquina" alt="possible-gretings"/>
                     </div>
                     <div className="Contenido">
                         <div className="titulos">
@@ -3556,9 +3556,9 @@ class Cbasico extends Component{
                                 <caption>Men's Clothes</caption>
                                 <tbody>
                                     <tr>
-                                        <td className="text-center"><img src='./img/courses/suit.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/shirt.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/tie.png'className="imgtimes" alt=""></img></td>
+                                        <td className="text-center"><img src='./img/courses/suit.png'className="imgtimes" alt="imagen Aes"></img></td>
+                                        <td className="text-center"><img src='./img/courses/shirt.png'className="imgtimes" alt="imagen Aes"></img></td>
+                                        <td className="text-center"><img src='./img/courses/tie.png'className="imgtimes" alt="imagen Aes"></img></td>
                                     </tr>
                                     <tr>
                                         <td className="text-center"><p>suit(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot1.mp3')}}></span></td>
@@ -3573,9 +3573,9 @@ class Cbasico extends Component{
                                 <caption>Women's Clothes</caption>
                                 <tbody>
                                     <tr>
-                                        <td className="text-center"><img src='./img/courses/dress.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/blouse.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/skirt.png'className="imgtimes" alt=""></img></td>
+                                        <td className="text-center"><img src='./img/courses/dress.png'className="imgtimes" alt="imagen Aes"></img></td>
+                                        <td className="text-center"><img src='./img/courses/blouse.png'className="imgtimes" alt="imagen Aes"></img></td>
+                                        <td className="text-center"><img src='./img/courses/skirt.png'className="imgtimes" alt="imagen Aes"></img></td>
                                     </tr>
                                     <tr>
                                         <td className="text-center"><p>dress(es)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot4.mp3')}}></span></td>
@@ -3606,9 +3606,9 @@ class Cbasico extends Component{
                                 <caption>Uni-Sex</caption>
                                 <tbody>
                                     <tr>
-                                        <td className="text-center"><img src='./img/courses/coat.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/jacket.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/t-shirt.png'className="imgtimes" alt=""></img></td>
+                                        <td className="text-center"><img src='./img/courses/coat.png'className="imgtimes" alt="imagen Aes"></img></td>
+                                        <td className="text-center"><img src='./img/courses/jacket.png'className="imgtimes" alt="imagen Aes"></img></td>
+                                        <td className="text-center"><img src='./img/courses/t-shirt.png'className="imgtimes" alt="imagen Aes"></img></td>
                                     </tr>
                                     <tr>
                                         <td className="text-center"><p>coat(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot7.mp3')}}></span></td>
@@ -3616,9 +3616,9 @@ class Cbasico extends Component{
                                         <td className="text-center"><p>t-shirt(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot9.mp3')}}></span></td>
                                     </tr>
                                     <tr>
-                                        <td className="text-center"><img src='./img/courses/trouser.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/jean.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/short.png'className="imgtimes" alt=""></img></td>
+                                        <td className="text-center"><img src='./img/courses/trouser.png'className="imgtimes" alt="imagen Aes"></img></td>
+                                        <td className="text-center"><img src='./img/courses/jean.png'className="imgtimes" alt="imagen Aes"></img></td>
+                                        <td className="text-center"><img src='./img/courses/short.png'className="imgtimes" alt="imagen Aes"></img></td>
                                     </tr>
                                     <tr>
                                         <td className="text-center"><p>trouser(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot10.mp3')}}></span></td>
@@ -3649,9 +3649,9 @@ class Cbasico extends Component{
                                 <caption>Uni-Sex</caption>
                                 <tbody>
                                     <tr>
-                                        <td className="text-center"><img src='./img/courses/jumper.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/cardigan.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/sweatshirt.png'className="imgtimes" alt=""></img></td>
+                                        <td className="text-center"><img src='./img/courses/jumper.png'className="imgtimes" alt="imagen Aes"></img></td>
+                                        <td className="text-center"><img src='./img/courses/cardigan.png'className="imgtimes" alt="imagen Aes"></img></td>
+                                        <td className="text-center"><img src='./img/courses/sweatshirt.png'className="imgtimes" alt="imagen Aes"></img></td>
                                     </tr>
                                     <tr>
                                         <td className="text-center"><p>jumper(s) pullover(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot13.mp3')}}></span></td>
@@ -3659,8 +3659,8 @@ class Cbasico extends Component{
                                         <td className="text-center"><p>sweatshirt(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot16.mp3')}}></span></td>
                                     </tr>
                                     <tr>
-                                        <td className="text-center"><img src='./img/courses/glove.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/mitten.png'className="imgtimes" alt=""></img></td>
+                                        <td className="text-center"><img src='./img/courses/glove.png'className="imgtimes" alt="imagen Aes"></img></td>
+                                        <td className="text-center"><img src='./img/courses/mitten.png'className="imgtimes" alt="imagen Aes"></img></td>
                                         <td className="text-center">--</td>
                                     </tr>
                                     <tr>
@@ -3692,8 +3692,8 @@ class Cbasico extends Component{
                                 <caption>Baby Clothes</caption>
                                 <tbody>
                                     <tr>
-                                        <td className="text-center"><img src='./img/courses/romper suit.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/nappy.png'className="imgtimes" alt=""></img></td>
+                                        <td className="text-center"><img src='./img/courses/romper suit.png'className="imgtimes" alt="imagen Aes"></img></td>
+                                        <td className="text-center"><img src='./img/courses/nappy.png'className="imgtimes" alt="imagen Aes"></img></td>
                                     </tr>
                                     <tr>
                                         <td className="text-center"><p>romper suit(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot19.mp3')}}></span></td>
@@ -3707,9 +3707,9 @@ class Cbasico extends Component{
                                 <caption>Holiday/Leisure Clothes</caption>
                                 <tbody>
                                     <tr>
-                                        <td className="text-center"><img src='./img/courses/swimming trunk.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/bikini.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/swimsuit.png'className="imgtimes" alt=""></img></td>
+                                        <td className="text-center"><img src='./img/courses/swimming trunk.png'className="imgtimes" alt="imagen Aes"></img></td>
+                                        <td className="text-center"><img src='./img/courses/bikini.png'className="imgtimes" alt="imagen Aes"></img></td>
+                                        <td className="text-center"><img src='./img/courses/swimsuit.png'className="imgtimes" alt="imagen Aes"></img></td>
                                     </tr>
                                     <tr>
                                         <td className="text-center"><p>swimming trunk(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot21.mp3')}}></span></td>
@@ -3740,9 +3740,9 @@ class Cbasico extends Component{
                                 <caption>Nightwear</caption>
                                 <tbody>
                                     <tr>
-                                        <td className="text-center"><img src='./img/courses/nightdress.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/pyjama.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/dressingGown.png'className="imgtimes" alt=""></img></td>
+                                        <td className="text-center"><img src='./img/courses/nightdress.png'className="imgtimes" alt="imagen Aes"></img></td>
+                                        <td className="text-center"><img src='./img/courses/pyjama.png'className="imgtimes" alt="imagen Aes"></img></td>
+                                        <td className="text-center"><img src='./img/courses/dressingGown.png'className="imgtimes" alt="imagen Aes"></img></td>
                                     </tr>
                                     <tr>
                                         <td className="text-center"><p>nightdress(es) nightie(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot27.mp3')}}></span></td>
@@ -3757,8 +3757,8 @@ class Cbasico extends Component{
                                 <caption>Underwear Mens</caption>
                                 <tbody>
                                     <tr>                                    
-                                        <td className="text-center"><img src='./img/courses/boxers.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/y-fronts.png'className="imgtimes" alt=""></img></td>
+                                        <td className="text-center"><img src='./img/courses/boxers.png'className="imgtimes" alt="imagen Aes"></img></td>
+                                        <td className="text-center"><img src='./img/courses/y-fronts.png'className="imgtimes" alt="imagen Aes"></img></td>
                                     </tr>
                                     <tr>
                                         <td className="text-center"><p>boxers</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot30.mp3')}}></span></td>
@@ -3788,16 +3788,16 @@ class Cbasico extends Component{
                                 <caption>Ladies (Lingerie)</caption>
                                 <tbody>
                                     <tr>
-                                        <td className="text-center"><img src='./img/courses/bra.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/panties.png'className="imgtimes" alt=""></img></td>
+                                        <td className="text-center"><img src='./img/courses/bra.png'className="imgtimes" alt="imagen Aes"></img></td>
+                                        <td className="text-center"><img src='./img/courses/panties.png'className="imgtimes" alt="imagen Aes"></img></td>
                                     </tr>
                                     <tr>
                                         <td className="text-center"><p>bra(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot32.mp3')}}></span></td>
                                         <td className="text-center"><p>panties(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot33.mp3')}}></span></td>
                                     </tr>
                                     <tr>                                    
-                                        <td className="text-center"><img src='./img/courses/stocking.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/tight.png'className="imgtimes" alt=""></img></td>
+                                        <td className="text-center"><img src='./img/courses/stocking.png'className="imgtimes" alt="imagen Aes"></img></td>
+                                        <td className="text-center"><img src='./img/courses/tight.png'className="imgtimes" alt="imagen Aes"></img></td>
                                     </tr>
                                     <tr>
                                         <td className="text-center"><p>stocking(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot34.mp3')}}></span></td>
@@ -3827,9 +3827,9 @@ class Cbasico extends Component{
                                 <caption>Footwear</caption>
                                 <tbody>
                                     <tr>
-                                        <td className="text-center"><img src='./img/courses/shoe.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/sandal.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/boot.png'className="imgtimes" alt=""></img></td>
+                                        <td className="text-center"><img src='./img/courses/shoe.png'className="imgtimes" alt="imagen Aes"></img></td>
+                                        <td className="text-center"><img src='./img/courses/sandal.png'className="imgtimes" alt="imagen Aes"></img></td>
+                                        <td className="text-center"><img src='./img/courses/boot.png'className="imgtimes" alt="imagen Aes"></img></td>
                                     </tr>
                                     <tr>
                                         <td className="text-center"><p>shoe(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot36.mp3')}}></span></td>
@@ -3837,9 +3837,9 @@ class Cbasico extends Component{
                                         <td className="text-center"><p>boot(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot38.mp3')}}></span></td>
                                     </tr>
                                     <tr>                                    
-                                        <td className="text-center"><img src='./img/courses/wellington.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/slipper.png'className="imgtimes" alt=""></img></td>
-                                        <td className="text-center"><img src='./img/courses/sock.png'className="imgtimes" alt=""></img></td>
+                                        <td className="text-center"><img src='./img/courses/wellington.png'className="imgtimes" alt="imagen Aes"></img></td>
+                                        <td className="text-center"><img src='./img/courses/slipper.png'className="imgtimes" alt="imagen Aes"></img></td>
+                                        <td className="text-center"><img src='./img/courses/sock.png'className="imgtimes" alt="imagen Aes"></img></td>
                                     </tr>
                                     <tr>
                                         <td className="text-center"><p>wellington(s)</p><span className="btnA fas fa-play-circle" onClick={(e) => {this.funcion(e, './audio/clot39.mp3')}}></span></td>

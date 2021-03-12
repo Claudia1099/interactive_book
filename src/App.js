@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Login from './component/Login';
 import Curso from './component/Curso';
 import EBooks from './component/EBooks';
 import Contact from './component/Contact';
@@ -11,6 +12,7 @@ class App extends Component {
     super()
     this.state={
       homeVw:true,
+      loginVw:false,
       cursosVw:false,
       librosVw:false,
       ebooksVw:false,
@@ -39,9 +41,21 @@ class App extends Component {
     })
   }
 
+  abrirLogin(){
+    this.setState({
+      loginVw:true,
+      homeVw:false,
+      cursosVw:false,
+      librosVw:false,
+      ebooksVw:false,
+      contactoVw:false
+    })
+  }
+
   abrirHome(){
     this.setState({
       homeVw:true,
+      loginVw:false,
       cursosVw:false,
       librosVw:false,
       ebooksVw:false,
@@ -56,9 +70,14 @@ class App extends Component {
 
         <div className="App-header">
           <img src='./aesLogoHeader.png'className="App-logo" alt="logo"/>
-            <a className="App-header-btn" href="/#" onClick={() => this.abrirHome()}>
+          <div className="nv-header">
+            <a className="App-header-btn" href="/#" aria-label="login app" onClick={() => this.abrirLogin()}>
+              <span className="fas fa-user"></span>
+            </a>
+            <a className="App-header-btn" href="/#" aria-label="home app" onClick={() => this.abrirHome()}>
               <span className="fas fa-bars"></span>
             </a>
+          </div>
         </div>   
         
         {
@@ -66,31 +85,37 @@ class App extends Component {
           <div className="App-cont">
             <div className="App-mg">
               <div className="App-btn">
-                <a className="App-lnk" href="https://www.aesinstituto.com" target="_blank" rel="noreferrer">
+                <a className="App-lnk" href="https://www.aesinstituto.com" aria-label="home page" rel="noreferrer noopener" target="_blank">
                   <span className="fas fa-home"></span>
                   <p>HOME</p>
                 </a>
               </div>
               <div className="App-btn">
-                <a className="App-lnk" href="/#"  onClick={() => this.abrirCursos()}>
+                <a className="App-lnk" href="/#" aria-label="free courses" onClick={() => this.abrirCursos()}>
                   <span className="fas fa-pencil-ruler"></span>
                   <p>FREE COURSES</p>
                 </a>
               </div>
               <div className="App-btn">
-                <a className="App-lnk" href="/#"  onClick={() => this.abrirEBooks()}>
+                <a className="App-lnk" href="/#" aria-label="e-books" onClick={() => this.abrirEBooks()}>
                   <span className="fas fa-book"></span>
                   <p>E-BOOKS</p>
                 </a>
               </div>
               <div className="App-btn">
-                <a className="App-lnk" href="/#"  onClick={() => this.abrirContacto()}>
+                <a className="App-lnk" href="/#"  aria-label="contact" onClick={() => this.abrirContacto()}>
                   <span className="fas fa-id-card"></span>
                   <p>CONTACT US</p>
                 </a>
               </div>
             </div>
           </div>
+          :null
+        }
+
+        {
+          this.state.loginVw?
+          <Login/>
           :null
         }
                 
