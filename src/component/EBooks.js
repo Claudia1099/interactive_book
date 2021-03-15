@@ -34,8 +34,7 @@ class EBooks  extends Component{
             listaEBooksVw: listaBook,
             eBooks1Vw: book1,
             eBooks2Vw: book2,
-            eBooks3Vw: book3,
-            eBooks2Vw: book2
+            eBooks3Vw: book3
         })
         if(window.screen.width <= 280){
             document.getElementById("adaptable").setAttribute("content","width=device-width, initial-scale=0.4");
