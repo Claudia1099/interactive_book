@@ -14,7 +14,7 @@ class Login extends Component{
                                 <input className="inpt-login form-control" type="password" id="password" name ="pass" label="password" placeholder="Password"/>
                             </div>
                         </div>
-                        <button className="btn-login btn btn-primary" type="submit" value="Sign In"></button>
+                        <button className="btn-login btn btn-primary" type="submit" value="Log In">Log In</button>
                     </form>
                 </div>
             </div>
