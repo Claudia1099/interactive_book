@@ -6,15 +6,15 @@ class Login extends Component{
         return(
             <div className="App-cont">
                 <div className="App-mg">
-                    <form method="post" onsubmit="return false" action="return false">
+                    <form id="login" method="POST" action="action.php" encType="multipart/form-data">
                         <div className="card">
                             <img src="./img/backLogin.png" className="card-img-top" alt="backLogin"></img>
                             <div className="card-body">
-                                <input className="inpt-login form-control" type="text" id="username" label="user name" placeholder="Username"/>
-                                <input className="inpt-login form-control" type="password" id="password" label="password" placeholder="Password"/>
+                                <input className="inpt-login form-control" type="text" id="username" name="username" label="user name" placeholder="Username"/>
+                                <input className="inpt-login form-control" type="password" id="password" name ="pass" label="password" placeholder="Password"/>
                             </div>
                         </div>
-                        <button className="btn-login btn btn-primary" type="submit">Sign In</button>
+                        <button className="btn-login btn btn-primary" type="submit" value="Sign In"></button>
                     </form>
                 </div>
             </div>
