@@ -1061,7 +1061,7 @@ class Cbasico extends Component{
                                 </tbody>
                             </table>
                         </div>
-                        <img className="rellenoPc" src="img/courses/colorspen.png"></img>   
+                        <img className="rellenoPc" src="img/courses/colorspen.png" alt="colorspen"></img>   
                     </div>
                     <div className="Pie"><span className="badge badge-pill badge-dark">15</span></div>
                 </div>
@@ -1371,7 +1371,7 @@ class Cbasico extends Component{
                                 </tbody>
                             </table>
                         </div>
-                        <img className="rellenoPc" src="img/courses/fruts.jpg"></img>   
+                        <img className="rellenoPc" src="img/courses/fruts.jpg" alt="fruts"></img>   
                     </div>
                     <div className="Pie"><span className="badge badge-pill badge-dark">20</span></div>
                 </div>
@@ -1665,7 +1665,7 @@ class Cbasico extends Component{
                                 </tbody>
                             </table>
                         </div>
-                        <img className="rellenoPc wild" src="./img/courses/farmAnimals.jpg"></img>
+                        <img className="rellenoPc wild" src="./img/courses/farmAnimals.jpg" alt="farmAnimals"></img>
                     </div>
                     <div className="Pie"><span className="badge badge-pill badge-dark">24</span></div>
                 </div>
@@ -1790,7 +1790,7 @@ class Cbasico extends Component{
                                 </tbody>
                             </table>
                         </div>
-                        <img className="rellenoPc wild" src="./img/courses/wil-animals.jpg"></img>
+                        <img className="rellenoPc wild" src="./img/courses/wil-animals.jpg" alt="wild-animals"></img>
                     </div>
                     <div className="Pie"><span className="badge badge-pill badge-dark">26</span></div>
                 </div>
@@ -2991,7 +2991,7 @@ class Cbasico extends Component{
                                 </tbody>
                             </table>
                         </div>
-                        <img className="rellenoPc display360" src="img/courses/holydays-calendar.jpg"></img>                    
+                        <img className="rellenoPc display360" src="img/courses/holydays-calendar.jpg" alt="holydays"></img>                    
                     </div>
                     <div className="Pie"><span className="badge badge-pill badge-dark">41</span></div>
                 </div>
@@ -3404,7 +3404,7 @@ class Cbasico extends Component{
                                 </tbody>
                             </table>
                         </div>
-                        <img className="rellenoPc" src="./img/courses/Sickness.jpg"></img>
+                        <img className="rellenoPc" src="./img/courses/Sickness.jpg" alt="Sickness"></img>
                     </div>
                     <div className="Pie"><span className="badge badge-pill badge-dark">47</span></div>
                 </div>
@@ -3534,7 +3534,7 @@ class Cbasico extends Component{
                                 </tbody>
                             </table>
                         </div>
-                        <img className="rellenoPc display360" src="./img/courses/body.png"></img>
+                        <img className="rellenoPc display360" src="./img/courses/body.png" alt="body"></img>
                     </div>
                     <div className="Pie"><span className="badge badge-pill badge-dark">49</span></div>
                 </div>
@@ -4042,7 +4042,7 @@ class Cbasico extends Component{
                                 </tbody>
                             </table>
                         </div>
-                        <img className="rellenoPc" src="./img/courses/eggs.jpg"></img>
+                        <img className="rellenoPc" src="./img/courses/eggs.jpg" alt="eggs"></img>
                     </div>
                     <div className="Pie"><span className="badge badge-pill badge-dark">59</span></div>
                 </div>
@@ -4056,7 +4056,7 @@ class Cbasico extends Component{
                     </div>
                     <div className="Contenido">
                         <div className="bloque">
-                            <img className="rellenoPc" src="./img/courses/quiz.png"></img>
+                            <img className="rellenoPc" src="./img/courses/quiz.png" alt="quiz"></img>
                         </div>
                     </div>
                     <div className="Pie"><span className="badge badge-pill badge-dark">60</span></div>
