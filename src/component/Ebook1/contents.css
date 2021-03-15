@@ -16,6 +16,11 @@
     padding-top: 50%;
     padding-right: 5%;
 }
+.quizbg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
 .pagina68{
     position: relative;
     top: 0%;
@@ -2082,65 +2087,8 @@ left: 26%;
     top: 95.5%;
     left: 90%;
 }
-.result1-page-7{
+.result1-page-7,.result2-page-7,.result3-page-7,.result4-page-7,.result5-page-7,.result6-page-7{
     position: absolute;
-    top: 55%;
-    left: 31.3%;
-}
-.result2-page-7{
-    position: absolute;
-    top: 57.5%;
-    left: 17.5%;
-}
-.result3-page-7{
-    position: absolute;
-    top: 64.5%;
-    left: 19.5%;
-}
-.result4-page-7{
-    position: absolute;
-    top: 71.5%;
-    left: 13.3%;
-}
-.result5-page-7{
-    position: absolute;
-    top: 78.5%;
-    left: 13.3%;
-}
-.result6-page-7{
-    position: absolute;
-    top: 85.5%;
-    left: 13.3%;
-}
-.btn1-page-7{
-    position: absolute;
-    top: 54.5%;
-    left: 37%;
-}
-.btn2-page-7{
-    position: absolute;
-    top: 57%;
-    left: 28%;
-}
-.btn3-page-7{
-    position: absolute;
-    top: 64%;
-    left: 29%;
-}
-.btn4-page-7{
-    position: absolute;
-    top: 71%;
-    left: 41%;
-}
-.btn5-page-7{
-    position: absolute;
-    top: 78%;
-    left: 37%;
-}
-.btn6-page-7{
-    position: absolute;
-    top: 85%;
-    left: 32%;
 }
 /***************************************************/
 /***************************************************/
@@ -2432,204 +2380,9 @@ left: 26%;
     top: 95.5%;
     left: 90%;
 }
-.result1-page-9{
+.result1-page-9,.result2-page-9,.result3-page-9,.result4-page-9,.result5-page-9,.result6-page-9,.result7-page-9,.result8-page-9,.result9-page-9,.result10-page-9,
+.result11-page-9,.result12-page-9,.result13-page-9,.result14-page-9,.result15-page-9,.result16-page-9,.result17-page-9,.result18-page-9,.result19-page-9,.result20-page-9{
     position: absolute;
-    left: 36%;
-}
-.result2-page-9{    
-    position: absolute;
-    top: 12.5%;
-    left: 36%;
-}
-.result3-page-9{    
-    position: absolute;
-    top: 25%;
-    left: 40%;
-}
-.result4-page-9{    
-    position: absolute;
-    top: 37.8%;
-    left: 40%;
-}
-.result5-page-9{    
-    position: absolute;
-    top: 75%;
-    left: 33%;
-}
-.result6-page-9{    
-    position: absolute;
-    top: 87.5%;
-    left: 40%;
-}
-.result7-page-9{
-    position: absolute;
-    top: 50%;
-    left: 23%;
-}
-.result8-page-9{
-    position: absolute;
-    top: 50%;
-    left: 23%;
-}
-.result9-page-9{
-    position: absolute;
-    top: 0%;
-    left: 23%;
-}
-.result10-page-9{
-    position: absolute;
-    top: 50%;
-    left: 23%;
-}
-.result11-page-9{
-    position: absolute;
-    top: 0%;
-    left: 22%;
-}
-.result12-page-9{
-    position: absolute;
-    top: 50%;
-    left: 23%;
-}
-.result13-page-9{
-    position: absolute;
-    top: 0%;
-    left: 23%;
-}
-.result14-page-9{
-    position: absolute;
-    top: 50%;
-    left: 23%;
-}
-.result15-page-9{
-    position: absolute;
-    top: 0%;
-    left: 23%;
-}
-.result16-page-9{
-    position: absolute;
-    top: 50%;
-    left: 23%;
-}
-.result17-page-9{
-    position: absolute;
-    top: 0%;
-    left: 23%;
-}
-.result18-page-9{
-    position: absolute;
-    top: 50%;
-    left: 23%;
-}
-.result19-page-9{
-    position: absolute;
-    top: 0%;
-    left: 23%;
-}
-.result20-page-9{
-    position: absolute;
-    top: 50%;
-    left: 23%;
-}
-.boton1-page-9{
-    position: absolute;
-    top: 5.5%;
-    left: 71%;
-}
-.boton2-page-9{
-    position: absolute;
-    top: 8%;
-    left: 71%;
-}
-.boton3-page-9{
-    position: absolute;
-    top: 10%;
-    left: 80%;
-}
-.boton4-page-9{
-    position: absolute;
-    top: 12.4%;
-    left: 80%;
-}
-.boton5-page-9{
-    position: absolute;
-    top: 19%;
-    left: 80%;
-}
-.boton6-page-9{
-    position: absolute;
-    top: 21%;
-    left: 80%;
-}
-.boton7-page-9{
-    position: absolute;
-    top: 47%;
-    left: 28%;
-}
-.boton8-page-9{
-    position: absolute;
-    top: 47%;
-    left: 63%;
-}
-.boton9-page-9{
-    position: absolute;
-    top: 44.8%;
-    left: 86%;
-}
-.boton10-page-9{
-    position: absolute;
-    top: 69%;
-    left: 28%;
-}
-.boton11-page-9{
-    position: absolute;
-    top: 66.5%;
-    left: 60%;
-}
-.boton12-page-9{
-    position: absolute;
-    top: 69%;
-    left: 64%;
-}
-.boton13-page-9{
-    position: absolute;
-    top: 66.5%;
-    left: 88%;
-}
-.boton14-page-9{
-    position: absolute;
-    top: 69%;
-    left: 90%;
-}
-.boton15-page-9{
-    position: absolute;
-    top: 86.8%;
-    left:26%;
-}
-.boton16-page-9{
-    position: absolute;
-    top: 89%;
-    left: 28%;
-}
-.boton17-page-9{
-    position: absolute;
-    top: 86.8%;
-    left:60%;
-}
-.boton18-page-9{
-    position: absolute;
-    top: 89%;
-    left: 64%;
-}
-.boton19-page-9{
-    position: absolute;
-    top: 86.8%;
-    left: 88%;
-}
-.boton20-page-9{
-    position: absolute;
-    top: 89%;
-    left: 90%;
 }
 /***************************************************/
 /***************************************************/
@@ -2716,46 +2469,11 @@ left: 26%;
     top: 95.5%;
     left: 90%;
 }
-.result1-page-10{
+.result1-page-10,.result2-page-10,.result3-page-10,.result4-page-10{
     position: absolute;
-    top: 61%;
-    left: 12.3%;
+    
 }
-.result2-page-10{
-    position: absolute;
-    top: 70%;
-    left: 12.3%;
-}
-.result3-page-10{
-    position: absolute;
-    top: 80%;
-    left: 12.3%;
-}
-.result4-page-10{
-    position: absolute;
-    top: 90%;
-    left: 12.3%;
-}
-.btn1-page-10{
-    position: absolute;
-    top: 62%;
-    left: 89%;
-}
-.btn2-page-10{
-    position: absolute;
-    top: 64.5%;
-    left: 89%;
-}
-.btn3-page-10{
-    position: absolute;
-    top: 67%;
-    left: 89%;
-}
-.btn4-page-10{
-    position: absolute;
-    top: 69.4%;
-    left: 89%;
-}
+
 /***************************************************/
 /***************************************************/
 /**********************Page 11***********************/
