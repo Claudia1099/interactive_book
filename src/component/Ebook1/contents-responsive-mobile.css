@@ -54,14 +54,7 @@
         font-size: 11px;
         margin-right: 5%;
     }
-    /***************************************************/
-    /***************************************************/
-    /**********************Page 8***********************/
-    /***************************************************/
-    /***************************************************/
-    .btn1-page-7, .btn2-page-7, .btn3-page-7, .btn4-page-7, .btn5-page-7, .btn6-page-7{
-        margin-left: 12%;
-    }
+   
     /***************************************************/
     /***************************************************/
     /**********************Page 9***********************/
@@ -80,22 +73,7 @@
     .item7-page-9, .item8-page-9, .item9-page-9, .item10-page-9, .item11-page-9{
         font-size: 13px;
     }
-    .boton1-page-9, .boton2-page-9{
-        margin-top: -1%;
-        margin-left: 7%;
-    }
-    .boton3-page-9, .boton4-page-9{
-        margin-left: 8%;
-    }
-    .boton5-page-9, .boton6-page-9{
-        margin-top: 2%;
-        margin-left: 8%;
-    }
-    .boton7-page-9, .boton8-page-9, .boton9-page-9, .boton10-page-9, .boton11-page-9, .boton12-page-9,
-    .boton13-page-9, .boton14-page-9, .boton15-page-9, .boton16-page-9, .boton17-page-9, .boton18-page-9,
-    .boton19-page-9, .boton20-page-9{
-        margin-left: 5%;
-    }
+    
     /***************************************************/
     /***************************************************/
     /**********************Page 11***********************/
@@ -113,10 +91,7 @@
     .subTitulo1-page-10{
         font-size: 18px;
     }
-    .btn1-page-10, .btn2-page-10, .btn3-page-10, .btn4-page-10{
-        margin-top: 2.5%;
-        margin-left: 6%;
-    }
+   
     /***************************************************/
     /***************************************************/
     /**********************Page 12***********************/
@@ -125,11 +100,7 @@
     .item1-page-11, .item2-page-11, .item3-page-11, .item4-page-11{
         font-size: 13px;
     }
-    .btn1-page-11, .btn2-page-11, .btn3-page-11, .btn4-page-11, .btn5-page-11, .btn6-page-11,
-    .btn7-page-11, .btn8-page-11, .btn9-page-11, .btn10-page-11, .btn11-page-11, .btn12-page-11,
-    .btn13-page-11, .btn14-page-11, .btn15-page-11, .btn16-page-11{
-        margin-left: 10%;
-    }
+   
     /***************************************************/
     /***************************************************/
     /**********************Page 13***********************/
@@ -138,57 +109,7 @@
     .item3-page-12{
         font-size: 13px;
     }
-    .btn1-page-12, .btn2-page-12, .btn3-page-12, .btn4-page-12, .btn5-page-12, .btn6-page-12,
-    .btn7-page-12, .btn8-page-12, .btn9-page-12, .btn10-page-12, .btn11-page-12, .btn12-page-12,
-    .btn13-page-12, .btn14-page-12, .btn15-page-12, .btn16-page-12, .btn17-page-12, .btn18-page-12,
-    .btn19-page-12{
-        margin-left: 11%;
-    }
-    .btn2-page-12{
-        margin-top: 1%;
-    }
-    .btn3-page-12{
-        margin-top: 2%;
-    }
-    .btn4-page-12{
-        margin-top: 4%;
-    }
-    .btn5-page-12{
-        margin-top: 4.5%;
-    }
-    .btn6-page-12{
-        margin-top: 5.5%;
-    }
-    .btn8-page-12{
-        margin-top: 1%;
-    }
-    .btn9-page-12{
-        margin-top: 2%;
-    }
-    .btn10-page-12{
-        margin-top: 3%;
-    }
-    .btn11-page-12{
-        margin-top: 4%;
-    }
-    .btn12-page-12{
-        margin-top: 5%;
-    }
-    .btn14-page-12{
-        margin-top: 1%;
-    }
-    .btn15-page-12{
-        margin-top: 2%;
-    }
-    .btn16-page-12{
-        margin-top: 3%;
-    }
-    .btn18-page-12{
-        margin-top: 1%;
-    }
-    .btn19-page-12{
-        margin-top: 2%;
-    }
+    
     /***************************************************/
     /***************************************************/
     /**********************Page 14***********************/
@@ -708,7 +629,7 @@
     .item2-page-64, .item3-page-64, .item4-page-64, .item5-page-64,
     .item6-page-64, .item7-page-64, .item8-page-64, .item9-page-64,
     .item10-page-64, .item11-page-64, .item12-page-64{
-        font-size: 12px;
+        font-size: 11px;
     }
     /***************************************************/
     /***************************************************/
