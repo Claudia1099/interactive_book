@@ -5,7 +5,7 @@ class EBook3 extends Component{
     render(){
     return(
         <div>
-            <h1>Hola mundo</h1>
+            <h1>En Proceso...</h1>
         </div>
     );
     }
