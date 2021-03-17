@@ -734,7 +734,7 @@ class EBook2  extends Component{
                     <div className="row">
                         <div className="col-md-6 offset-md-3 mt-3 mb-3">
                         <div className="bordeLibro">
-                            <img alt="portada" src="./img/courses/portadaCursoBasico.png" width="100%" className="img-fluid"/>
+                            <img alt="portada" src="./img/book2.png" width="100%" className="img-fluid"/>
                             </div>
                         </div>
                         <div className="col-md-6 offset-md-3 mb-3">
