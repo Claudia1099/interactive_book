@@ -6,11 +6,7 @@
     top: 95.5%;
     left: 90%;
 }
-.pagina{
-    position: relative;
-    padding-top: 15%;
-    padding-right: 5%;
-}
+
 .pagina67{
     position: relative;
     padding-top: 50%;
@@ -31,16 +27,13 @@
 .unidad{
     position: relative;
 }
-.img1{
+.pagina, .img20, .img38, .img45, .img47,.img46, .img48, .img49{
     position: relative;
-}
-.img2{
-    position: relative;
+    padding-top: 15%;
     padding-right: 5%;
 }
-.img3{
+.img1, .img5, .img14, .img24, .img32{
     position: relative;
-    padding-right: 5%;
 }
 .img4{
     position: relative;
@@ -48,78 +41,28 @@
     padding-top: 100%;
     padding-right: 5%;
 }
-.img5{
-    position: relative;
-}
 .img6{
     position: relative;
     padding-top: 25%;
     padding-right: 5%;
 }
-.img7{
+.img7, .img9, .img11, .img12,.img19, .img35, .img37, .img43{
     position: relative;
     padding-right: 5%;
 }
-.img8{
+.img8, .img13, .img15, .img25, .img26, .img28,.img29, .img30, .img31, .img41, .img42,  .img16, .img17 , .img18{
     position: relative;
     padding-top: 10%;
     padding-right: 5%;
 }
-.img9{
-    position: relative;
-    padding-right: 5%;
-}
-.img10{
+
+.img10, .img33{
     position: relative;
     padding-top: 40%;
     padding-right: 5%;
 }
-.img11{
-    position: relative;
-    padding-right: 5%;
-}
-.img12{
-    position: relative;
-    padding-right: 5%;
-}
-.img13{
-    position: relative;
-    padding-top: 10%;
-    padding-right: 5%;
-}
-.img14{
-    position: relative;
-}
-.img15{
-    padding-top: 10%;
-    padding-right: 5%;
-    position: relative;
-}
-.img16{
-    position: relative;
-    padding-top: 10%;
-    padding-right: 5%;
-}
-.img17{
-    position: relative;
-    padding-top: 10%;
-    padding-right: 5%;
-}
-.img18{
-    position: relative;
-    padding-top: 10%;
-    padding-right: 5%;
-}
-.img19{
-    position: relative;
-    padding-right: 5%;
-}
-.img20{
-    position: relative;
-    padding-top: 15%;
-    padding-right: 5%;
-}
-.img21{
+
+.img21, .img34, .img36, .img39,.img40{
     position: relative;
     padding-top: 5%;
     padding-right: 5%;
@@ -134,97 +77,10 @@
     padding-top: 16%;
     padding-right: 5%;
 }
-.img24{
-    position: relative;
-}
-.img25{
-    position: relative;
-    padding-top: 10%;
-    padding-right: 5%;
-}
-.img26{
-    position: relative;
-    padding-top: 10%;
-    padding-right: 5%;
-}
+
 .img27{
     position: relative;
     padding-top: 55%;
-    padding-right: 5%;
-}
-.img28{
-    position: relative;
-    padding-right: 5%;
-}
-.img29{
-    position: relative;
-    padding-top: 10%;
-    padding-right: 5%;
-}
-.img30{
-    position: relative;
-    padding-top: 10%;
-    padding-right: 5%;
-}
-.img31{
-    position: relative;
-    padding-top: 10%;
-    padding-right: 5%;
-
-}
-.img32{
-    position: relative;
-}
-.img33{
-    position: relative;
-    padding-top: 40%;
-    padding-right: 5%;
-}
-.img34{
-    position: relative;
-    padding-top: 5%;
-    padding-right: 5%;
-}
-.img35{
-    position: relative;
-    padding-right: 5%;
-}
-.img36{
-    position: relative;
-    padding-top: 5%;
-    padding-right: 5%;
-}
-.img37{
-    position: relative;
-    padding-right: 5%;
-}
-.img38{
-    position: relative;
-    padding-top: 15%;
-    padding-right: 5%;
-}
-.img39{
-    position: relative;
-    padding-top: 5%;
-    padding-right: 5%;
-}
-.img40{
-    position: relative;
-    padding-top: 5%;
-    padding-right: 5%;
-}
-.img41{
-    position: relative;
-    padding-top: 10%;
-    padding-right: 5%;
-}
-.img42{
-    position: relative;
-    padding-right: 5%;
-    padding-top: 10%;
-}
-.img43{
-    position: relative;
     padding-right: 5%;
 }
 .img44{
@@ -232,31 +88,8 @@
     padding-top: 20%;
     padding-right: 5%;
 }
-.img45{
-    position: relative;
-    padding-top: 15%;
-    padding-right: 5%;
-}
-.img46{
-    position: relative;
-    padding-top: 15%;
-    padding-right: 5%;
-}
-.img47{
-    position: relative;
-    padding-top: 15%;
-    padding-right: 5%;
-}
-.img48{
-    position: relative;
-    padding-top: 15%;
-    padding-right: 5%;
-}
-.img49{
-    position: relative;
-    padding-top: 15%;
-    padding-right: 5%;
-}
+
+
 .img55{
     position: relative;
     padding-top: 120%;
@@ -2461,8 +2294,8 @@ left: 26%;
 .item12-page-10{
     position: absolute;
     top: 50%;
-    left: 57%;
-    list-style: circle;
+    left: 50%;
+    list-style: none;
 }
 .item13-page-10{
     position: absolute;
@@ -2508,166 +2341,12 @@ left: 26%;
     top: 95.5%;
     left: 90%;
 }
-.result1-page-11{
+.result1-page-11,.result2-page-11,.result3-page-11,.result4-page-11,.result5-page-11,.result6-page-11,
+.result7-page-11,.result8-page-11,.result9-page-11,.result10-page-11,.result11-page-11,.result12-page-11,
+.result13-page-11,.result14-page-11,.result15-page-11,.result16-page-11{
     position: absolute;
-    top: 15.5%;
-    left: 34.7%;
 }
-.result2-page-11{
-    position: absolute;
-    top: 50%;
-    left: 34%;
-}
-.result3-page-11{
-    position: absolute;
-    top: 15.5%;
-    left: 34%;
-}
-.result4-page-11{
-    position: absolute;
-    top: 50%;
-    left: 34%;
-}
-.result5-page-11{
-    position: absolute;
-    top: 0%;
-    left: 21.5%;
-}
-.result6-page-11{
-    position: absolute;
-    top: 15.8%;
-    left: 34%;
-}
-.result7-page-11{
-    position: absolute;
-    top: 33%;
-    left: 22%;
-}
-.result8-page-11{
-    position: absolute;
-    top: 50%;
-    left: 34%;
-}
-.result9-page-11{
-    position: absolute;
-    top: 66.5%;
-    left: 22%;
-}
-.result10-page-11{
-    position: absolute;
-    top: 83.5%;
-    left: 22%;
-}
-.result11-page-11{
-    position: absolute;
-    top: 0%;
-    left: 21.5%;
-}
-.result12-page-11{
-    position: absolute;
-    top: 15.8%;
-    left: 34%;
-}
-.result13-page-11{
-    position: absolute;
-    top: 33%;
-    left: 22%;
-}
-.result14-page-11{
-    position: absolute;
-    top: 50%;
-    left: 34%;
-}
-.result15-page-11{
-    position: absolute;
-    top: 66.5%;
-    left: 22%;
-}
-.result16-page-11{
-    position: absolute;
-    top: 83.5%;
-    left: 22%;
-}
-.btn1-page-11{
-    position: absolute;
-    top: 26%;
-    left: 41%;
-}
-.btn2-page-11{
-    position: absolute;
-    top: 30.5%;
-    left: 41%;
-}
-.btn3-page-11{
-    position: absolute;
-    top: 26%;
-    left: 87%;
-}
-.btn4-page-11{
-    position: absolute;
-    top: 30.5%;
-    left: 87%;
-}
-.btn5-page-11{
-    position: absolute;
-    top: 69.5%;
-    left: 40%;
-}
-.btn6-page-11{
-    position: absolute;
-    top: 72%;
-    left: 40%;
-}
-.btn7-page-11{
-    position: absolute;
-    top: 74.5%;
-    left: 40%;
-}
-.btn8-page-11{
-    position: absolute;
-    top: 76.7%;
-    left: 40%;
-}
-.btn9-page-11{
-    position: absolute;
-    top: 79%;
-    left: 40%;
-}
-.btn10-page-11{
-    position: absolute;
-    top: 81.4%;
-    left: 40%;
-}
-.btn11-page-11{
-    position: absolute;
-    top: 69.5%;
-    left: 85.5%;
-}
-.btn12-page-11{
-    position: absolute;
-    top: 72%;
-    left: 85.5%;
-}
-.btn13-page-11{
-    position: absolute;
-    top: 74.5%;
-    left: 85.5%;
-}
-.btn14-page-11{
-    position: absolute;
-    top: 76.8%;
-    left:85.5%;
-}
-.btn15-page-11{
-    position: absolute;
-    top: 79%;
-    left: 85.5%;
-}
-.btn16-page-11{
-    position: absolute;
-    top: 81.4%;
-    left: 85.5%;
-}
+
 /***************************************************/
 /***************************************************/
 /**********************Page 12***********************/
@@ -2700,13 +2379,7 @@ left: 26%;
     list-style: none;
     font-size: 14px;
 }
-.item5-page-12{
-    position: absolute;
-    top: 83.5%;
-    left: 55%;
-    list-style: none;
-    font-size: 14px;
-}
+
 .item6-page-12{
     position: absolute;
     top: 45%;
@@ -2718,196 +2391,12 @@ left: 26%;
     top: 95.5%;
     left: 90%;
 }
-.result1-page-12{
+.result1-page-12,.result2-page-12,.result3-page-12,.result4-page-12,.result5-page-12,.result6-page-12,.result7-page-12,
+.result8-page-12,.result9-page-12,.result10-page-12,.result11-page-12,.result12-page-12,.result13-page-12,
+.result14-page-12,.result15-page-12,.result16-page-12,.result17-page-12,.result18-page-12,.result19-page-12,.result20-page-12{
     position: absolute;
-    top: 27.8%;
-    left: 21.5%;
 }
-.result2-page-12{
-    position: absolute;
-    top: 30.5%;
-    left: 26%;
-}
-.result3-page-12{
-    position: absolute;
-    top: 33.3%;
-    left: 21.5%;
-}
-.result4-page-12{
-    position: absolute;
-    top: 36%;
-    left: 26%;
-}
-.result5-page-12{
-    position: absolute;
-    top: 38.6%;
-    left: 21.5%;
-}
-.result6-page-12{
-    position: absolute;
-    top: 41.3%;
-    left: 21.5%;
-}
-.result7-page-12{
-    position: absolute;
-    top: 27.6%;
-    left: 63.5%;
-}
-.result8-page-12{
-    position: absolute;
-    top: 30.5%;
-    left: 67.7%;
-}
-.result9-page-12{
-    position: absolute;
-    top: 33%;
-    left: 63.5%;
-}
-.result10-page-12{
-    position: absolute;
-    top: 35.8%;
-    left: 67.7%;
-}
-.result11-page-12{
-    position: absolute;
-    top: 38.5%;
-    left: 63.5%;
-}
-.result12-page-12{
-    position: absolute;
-    top: 41.3%;
-    left: 63.5%;
-}
-.result13-page-12{
-    position: absolute;
-    top: 71.3%;
-    left: 63.5%;
-}
-.result14-page-12{
-    position: absolute;
-    top: 74%;
-    left: 63.5%;
-}
-.result15-page-12{
-    position: absolute;
-    top: 76.7%;
-    left: 63.5%;
-}
-.result16-page-12{
-    position: absolute;
-    top: 79.5%;
-    left: 63.5%;
-}
-.result17-page-12{
-    position: absolute;
-    top: 83.3%;
-    left: 63.5%;
-}
-.result18-page-12{
-    position: absolute;
-    top: 86%;
-    left: 63.5%;
-}
-.result19-page-12{
-    position: absolute;
-    top: 88.8%;
-    left: 63.5%;
-}
-.btn1-page-12{
-    position: absolute;
-    top: 27.5%;
-    left: 40%;
-}
-.btn2-page-12{
-    position: absolute;
-    top: 29.5%;
-    left: 40%;
-}
-.btn3-page-12{
-    position: absolute;
-    top: 31.4%;
-    left: 40%;
-}
-.btn4-page-12{
-    position: absolute;
-    top: 33%;
-    left: 40%;
-}
-.btn5-page-12{
-    position: absolute;
-    top: 35%;
-    left: 40%;
-}
-.btn6-page-12{
-    position: absolute;
-    top: 37%;
-    left: 40%;
-}
-.btn7-page-12{
-    position: absolute;
-    top: 27.5%;
-    left: 82%;
-}
-.btn8-page-12{
-    position: absolute;
-    top: 29.5%;
-    left: 82%;
-}
-.btn9-page-12{
-    position: absolute;
-    top: 31.3%;
-    left: 82%;
-}
-.btn10-page-12{
-    position: absolute;
-    top: 33.3%;
-    left: 82%;
-}
-.btn11-page-12{
-    position: absolute;
-    top: 35.3%;
-    left: 82%;
-}
-.btn12-page-12{
-    position: absolute;
-    top: 37.3%;
-    left: 82%;
-}
-.btn13-page-12{
-    position: absolute;
-    top: 71%;
-    left: 83%;
-}
-.btn14-page-12{
-    position: absolute;
-    top: 73%;
-    left: 83%;
-}
-.btn15-page-12{
-    position: absolute;
-    top: 75%;
-    left: 83%;
-}
-.btn16-page-12{
-    position: absolute;
-    top: 77%;
-    left: 83%;
-}
-.btn17-page-12{
-    position: absolute;
-    top: 83%;
-    left: 83%;
-}
-.btn18-page-12{
-    position: absolute;
-    top: 85%;
-    left: 83%;
-}
-.btn19-page-12{
-    position: absolute;
-    top: 87%;
-    left: 83%;
-}
+
 /***************************************************/
 /***************************************************/
 /**********************Page 13***********************/
@@ -3091,11 +2580,8 @@ left: 26%;
 }
 .result1-page-14, .result2-page-14, .result3-page-14, .result4-page-14{
     position: absolute;
-    left: 12.5%;
 }
-.btn1-page-14, .btn2-page-14, .btn3-page-14, .btn4-page-14{
-    position: absolute;
-}
+
 /***************************************************/
 /***************************************************/
 /**********************Page 15***********************/
@@ -3136,11 +2622,7 @@ left: 26%;
     left: 10%;
 }
 .result1-page-15, .result2-page-15, .result4-page-15, .result5-page-15,
-.result7-page-15, .result8-page-15, .result10-page-15{
-    position: absolute;
-    margin-left: 1%;
-}
-.result3-page-15, .result6-page-15, .result9-page-15{
+.result7-page-15, .result8-page-15, .result10-page-15,.result3-page-15, .result6-page-15, .result9-page-15{
     position: absolute;   
 }
 /***************************************************/
@@ -3172,51 +2654,46 @@ left: 26%;
 }
 .item1-page-16{
     position: absolute;
-    top: 15%;
-    left: 13%;
+    top: 16%;
+    left: 11%;
     font-family: "Courgette";
     font-size: 19px;
+    background-color: white;
 }
 .item2-page-16{
     position: absolute;
-    top: 15%;
+    top: 16%;
     left: 50%;
     font-family: "Courgette";
     font-size: 19px;
+    background-color: white;
 }
-.item3-page-16{
-    position: absolute;
-    top: 16.2%;
-    left: 68%;
-}
+
 .item4-page-16{
     position: absolute;
-    top: 19.5%;
-    left: 13%;
+    top: 21%;
+    left: 11%;
     font-family: "Courgette";
     font-size: 19px;
+    background-color: white;
 }
 .item5-page-16{
     position: absolute;
-    top: 19.5%;
-    left: 30%;
+    top: 21%;
+    left: 26%;
     font-family: "Courgette";
     font-size: 19px;
+    background-color: white;
 }
 .item6-page-16{
     position: absolute;
-    top: 19.5%;
-    left: 55%;
+    top: 21%;
+    left: 54%;
     font-family: "Courgette";
     font-size: 19px;
+    background-color: white;
 }
-.item7-page-16{
-    position: absolute;
-    top: 20.5%;
-    left: 60%;
-    font-family: "Courgette";
-    font-size: 19px;
-}
+
 .item8-page-16{
     position: absolute;
     top: 29%;
@@ -3244,9 +2721,10 @@ left: 26%;
 .result1-page-16, .result2-page-16, .result3-page-16, .result4-page-16, .result5-page-16,
 .result6-page-16, .result7-page-16, .result8-page-16, .result9-page-16, .result10-page-16,
 .result11-page-16, .result12-page-16, .result13-page-16, .result14-page-16, .result15-page-16,
-.result16-page-16, .result17-page-16, .result18-page-16, .result19-page-16{
-    position: absolute;
-    margin-left: 1%;
+.result16-page-16, .result17-page-16, .result18-page-16, .result19-page-16,
+.result20-page-16,.result21-page-16, .result22-page-16, .result23-page-16, .result24-page-16{
+        position: absolute;
+        margin-left: 1%;
 }
 /***************************************************/
 /***************************************************/
@@ -3268,7 +2746,7 @@ left: 26%;
 .item2-page-17{
     position: absolute;
     top: 17%;
-    left: 38%;
+    left: 33%;
 }
 .item3-page-17{
     position: absolute;
@@ -3287,6 +2765,7 @@ left: 26%;
     top: 65.5%;
     left: 15%;
     font-size: 17px;
+    background-color: white;
 }
 .item5-page-17 > li{
     margin-bottom: 3%;
@@ -3429,6 +2908,7 @@ left: 26%;
     left: 47%;
     font-size: 15px;
     list-style: none;
+    background-color: white;
 }
 .item4-page-19>li{
     margin-bottom: 4%;
@@ -3540,7 +3020,7 @@ left: 26%;
     position: absolute;
     top: 84%;
     left: 13%;
-    width: 70%;
+    width: 75%;
 }
 .result1-page-21,.result2-page-21{
     position: absolute;
@@ -3561,7 +3041,7 @@ left: 26%;
     position: absolute;
     top: 12%;
     left: 56%;
-    width: 35%;
+    width: 38%;
 
 }
 .item3-page-22{
@@ -5002,6 +4482,10 @@ left: 26%;
     left: 54.6%;
     list-style: none;
 }
+.item13-page-40{
+    background-color: rgb(110, 238, 110);
+    font-weight: bold;
+}
 .result1-page-40, .result2-page-40, .result3-page-40, .result4-page-40,
 .result13-page-40, .result14-page-40, .result15-page-40, .result16-page-40,
 .result17-page-40, .result18-page-40{
@@ -5023,15 +4507,15 @@ left: 26%;
     top: 12%;
     left: 10%;
     list-style: none;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 .item3-page-41{
     position: absolute;
     top: 12%;
-    left: 30%;
+    left: 28%;
     list-style: none;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 .item4-page-41{
@@ -5039,7 +4523,7 @@ left: 26%;
     top: 12%;
     left: 50%;
     list-style: none;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 .item5-page-41{
@@ -5047,7 +4531,7 @@ left: 26%;
     top: 12%;
     left: 70%;
     list-style: none;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 .item2-page-41{
@@ -5851,6 +5335,12 @@ left: 26%;
     top: 36.6%;
     left: 6.2%;
 }
+.item5-page-54{
+    position: absolute;
+    top: 36.6%;
+    left: 39%;
+    background-color: white;
+}
 .item6-page-54{
     position: absolute;
     top: 36.6%;
@@ -6065,7 +5555,9 @@ left: 26%;
     left: 50%;
     list-style: none;
 }
-
+.item3-page-57>li{
+    background-color: white;
+}
 
 .result1-page-57, .result2-page-57, .result3-page-57, .result4-page-57,
 .result5-page-57, .result6-page-57, .result7-page-57, .result8-page-57,
@@ -6092,61 +5584,73 @@ left: 26%;
     position: absolute;
     top: 15%;
     left: 8%;
+    background-color: white;
 }
 .item2-page-58{
     position: absolute;
     top: 15%;
     left: 30.5%;
+    background-color: white;
 }
 .item3-page-58{
     position: absolute;
     top: 15%;
     left: 53%;
+    background-color: white;
 }
 .item4-page-58{
     position: absolute;
     top: 15%;
     left: 75%;
+    background-color: white;
 }
 .item5-page-58{
     position: absolute;
     top: 37.5%;
     left: 7%;
+    background-color: white;
 }
 .item6-page-58{
     position: absolute;
     top: 37.5%;
     left: 31%;
+    background-color: white;
 }
 .item7-page-58{
     position: absolute;
     top: 37.5%;
     left: 53%;
+    background-color: white;
 }
 .item8-page-58{
     position: absolute;
     top: 37.5%;
     left: 75%;
+    background-color: white;
 }
 .item9-page-58{
     position: absolute;
     top: 58.5%;
     left: 7%;
+    background-color: white;
 }
 .item10-page-58{
     position: absolute;
     top: 58.5%;
     left: 30%;
+    background-color: white;
 }
 .item11-page-58{
     position: absolute;
     top: 56.5%;
     left: 53%;
+    background-color: white;
 }
 .item12-page-58{
     position: absolute;
     top: 56.5%;
     left: 79%;
+    background-color: white;
 }
 .item13-page-58{
     position: absolute;
@@ -6218,6 +5722,9 @@ left: 26%;
     top:25.7%;
     left: 25%;
     list-style: none;
+}
+.item9-page-59>li{
+    background-color: white;
 }
 .item9-page-59>li{
     margin-bottom: 2%;
@@ -6501,7 +6008,7 @@ left: 26%;
     left: -5px;
     font-size: 20px;
 }
-.result1-page-63,.result4-page-63,.result5-page-63,.result6-page-63,.result7-page-63,.result9-page-63,.result10-page-63,.result11-page-63,.result12-page-63,.result14-page-63,.result15-page-63,.result17-page-63,.result18-page-63{
+.result1-page-63,.result4-page-63,.result5-page-63,.result6-page-63,.result7-page-63,.result9-page-63,.result10-page-63,.result11-page-63,.result12-page-63,.result13-page-63,.result14-page-63,.result15-page-63,.result17-page-63,.result18-page-63{
     position: absolute;
     top: 3px;
     right: 10px;
@@ -6629,61 +6136,53 @@ left: 26%;
     position: absolute;
     top: 12%;
     left: 48%;
-    font-weight: bold;
 }
 .item2-page-64{
     position: absolute;
     top: 18%;
     left: 40%;
-    font-weight: bold;
 }
 .item3-page-64{
     position: absolute;
     top: 22%;
-    left: 13%;
-    font-weight: bold;
+    left: 9%;
 }
 .item4-page-64{
     position: absolute;
     top: 25%;
-    left: 13%;
-    font-weight: bold;
+    left: 11%;
 }
 .item5-page-64{
     position: absolute;
     top: 25%;
-    left: 45%;
-    font-weight: bold;
+    left: 43%;
 }
 .item6-page-64{
     position: absolute;
     top: 25%;
-    left: 80%;
-    font-weight: bold;
+    left: 78%;
 }
 .item7-page-64{
     position: absolute;
     top: 28%;
-    left: 13%;
-    font-weight: bold;
+    left: 11%;
 }
 .item8-page-64{
     position: absolute;
     top: 31%;
-    left: 13%;
-    font-weight: bold;
+    left: 11%;
 }
 .item9-page-64{
     position: absolute;
     top: 37%;
-    left: 13%;
+    left: 11%;
     color: #fff;
     font-weight: bold;
 }
 .item10-page-64{
     position: absolute;
     top: 42%;
-    left: 13%;
+    left: 11%;
     font-weight: bold;
 }
 .item11-page-64{
@@ -6696,6 +6195,9 @@ left: 26%;
     position: absolute;
     top: 48%;
     left: 13%;
+}
+.result1-page-64,.result2-page-64,.result3-page-64,.result4-page-64,.result5-page-64,.result6-page-64,.result7-page-64,.result8-page-64,.result9-page-64,.result10-page-64,.result11-page-64,.result12-page-64,.result13-page-64,.result14-page-64{
+    position: absolute;
 }
 /***************************************************/
 /***************************************************/
