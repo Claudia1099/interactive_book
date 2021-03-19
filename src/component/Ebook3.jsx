@@ -1,16 +1,15 @@
 import React, { Component } from "react";
-import Swal  from "sweetalert2";
-import "./Ebook3/contents.css";
+import Book3 from "./Ebook3/Book3"
 
-class EBook3 extends Component{
+class Ebook3 extends Component{
     
     render(){
-    return(
-        <div>
-                <iframe width="1000" height="550" allowfullscreen="" src="../../book-one-page/book3/book3.html" frameborder="0"></iframe>
-        </div>
-    );
+        return(
+            <div className="App-cont">
+                <Book3/>
+            </div>
+        );
     }
 }
 
-export default EBook3;
+export default Ebook3;
