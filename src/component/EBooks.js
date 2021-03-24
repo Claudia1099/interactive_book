@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Lista from "./Lista";
 import Ebook1 from "./Ebook1";
 import Ebook2 from "./Ebook2";
-import EBook3 from "./Ebook3";
+import Book3 from "./Ebook3/Book3";
 
 class EBooks  extends Component{
     
@@ -67,7 +67,7 @@ class EBooks  extends Component{
                     }
                     {
                         this.state.eBooks3Vw?
-                        <EBook3/>
+                        <Book3/>
                         :null
                     }
                     
