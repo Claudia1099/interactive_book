@@ -1,204 +1,284 @@
 .bordeLibro{
     box-shadow: 5px 5px 5px 5px #635f5f;
 }
+.flecha-arriba{
+    font-size: 250%;
+    position: absolute;
+    left: 85%;
+    top: 80%;
+    color: rgb(70, 133, 250);
+    }
 .pagina{
     position: relative;
     padding-top: 15%;
-    padding-right: 5%;
+    padding-right: 8%;
+    padding-left: 8%;
+    padding-bottom: 6%;
+}
+
+.unidad{
+    position: relative;
+    padding-bottom: 6%;
+}
+.paginacion{
+    position: absolute;
+    top: 95.5%;
+    left: 85%;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color:  rgba(206, 37, 51, 0.479) !important;
+ }
+/************************************************/
+/********************Portada**********************/
+/************************************************/
+/************************************************/
+
+.item1-p-l2{
+    position: absolute;
+    top: 3%;
+    left: 35%;
+    font-size: 200%;
+    font-weight: bold;
+    color: white;
+}
+.item2-p-l2{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    font-size: 85%;
+    font-weight: bold;
+    width: 90%;
+    background-color: white;
+}
+
+
+/************************************************/
+/********************Page 1**********************/
+/************************************************/
+/************************************************/
+.item1-p1-l2{
+    position: absolute;
+      top:0%;
+      left: 10%;
+      font-weight: bold;
+      font-size: 250%;  
+      color: white;
+}
+.item2-p1-l2{
+    position: absolute;
+    top: 8%;
+    left: 35%;
+    font-weight: bold;
+}
+.item3-p1-l2{
+    position: absolute;
+    top: 13.5%;
+    left: 10%;
+    font-weight: bold;
+}
+
+.item4-p1-l2{
+    position: absolute;
+    top: 13.5%;
+    left: 32.5%;
+    font-weight: bold;
+}
+
+.item5-p1-l2{
+    position: absolute;
+    top: 13.5%;
+    left: 56.5%;
+    font-weight: bold;
+}
+.item6-p1-l2{
+    position: absolute;
+    top: 13.5%;
+    left: 80%;
+    font-weight: bold;
+}	
+.item7-p1-l2{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-weight: bold;
+}
+.item8-p1-l2{
+    position: absolute;
+    top: 35%;
+    left: 32.5%;
+    font-weight: bold;
+}
+.item9-p1-l2{
+    position: absolute;
+    top: 35%;
+    left: 56.5%;
+    font-weight: bold;
+}
+.item10-p1-l2{
+    position: absolute;
+    top: 35%;
+    left: 80%;
+    font-weight: bold;
+}
+.item11-p1-l2{
+    position: absolute;
+    top: 56%;
+    left: 9%;
+    font-weight: bold;
+}
+.item12-p1-l2{
+    position: absolute;
+    top: 56%;
+    left: 32.5%;
+    font-weight: bold;
+}
+
+.item13-p1-l2{
+    position: absolute;
+    top: 56%;
+    left: 57%;
+    font-weight: bold;
+}
+
+.item14-p1-l2{
+    position: absolute;
+    top: 56%;
+    left: 79%;
+    font-weight: bold;
+}
+
+.item15-p1-l2{
+    position: absolute;
+    top: 80%;
+    left: 2%;
+    font-weight: bold;
+    list-style: none;
+}
+
+.item16-p1-l2{
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    font-weight: bold;
+    list-style: none;
+}
+
+.item17-p1-l2{
+    position: absolute;
+    top: 80%;
+    left: 48%;
+    font-weight: bold;
+    list-style: none;
+}
+
+.item18-p1-l2{
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    font-weight: bold;
+    list-style: none;
 }
 /************************************************/
 /********************Page 2**********************/
 /************************************************/
 /************************************************/
-.btn1-page-2, .btn2-page-2, .btn3-page-2, .btn4-page-2, .btn5-page-2, .btn6-page-2, .btn7-page-2,
-.btn8-page-2, .btn9-page-2, .btn10-page-2, .btn11-page-2, .btn12-page-2, .btn13-page-2{
+.result1-p2-l2, .result2-p2-l2, .result3-p2-l2, .result4-p2-l2, .result5-p2-l2,
+.result6-p2-l2, .result7-p2-l2{
     position: absolute;
-    left: 68%;
+
 }
-.btn1-page-2{
-    top: 66%;
-}
-.btn2-page-2{
-    top: 67.8%;
-}
-.btn3-page-2{
-    top: 69.4%;
-}
-.btn4-page-2{
-    top: 71%;
-}
-.btn5-page-2{
-    top: 72.5%;
-}
-.btn6-page-2{
-    top: 74%;
-}
-.btn7-page-2{
-    top: 75.5%;
-}
-.btn8-page-2{
-    top: 77.2%;
-}
-.btn9-page-2{
-    top: 78.7%;
-}
-.btn10-page-2{
-    top: 80.3%;
-}
-.btn11-page-2{
-    top: 82%;
-}
-.btn12-page-2{
-    top: 83.5%;
-}
-.btn13-page-2{
-    top: 85%;
-}
-.result1-page-2, .result2-page-2, .result3-page-2, .result4-page-2, .result5-page-2,
-.result6-page-2, .result7-page-2, .result8-page-2, .result9-page-2, .result10-page-2,
-.result11-page-2, .result12-page-2, .result13-page-2{
+.item1-p2-l2{
     position: absolute;
-    left: 49%;
+       top: 8%;
+       left: 35%;
+       font-weight:  bold; 
 }
-.result1-page-2{
-    top: 66%;
+.item2-p2-l2{
+    position: absolute;
+    top: 13%;
+    left: 20%;
+    font-size: 85%;
 }
-.result2-page-2{
- top: 67.8%; 
+.item3-p2-l2{
+    position: absolute;
+    top: 13%;
+    left: 65%;
+    font-size: 85%;
 }
-.result3-page-2{
-    top: 69.4%;
+
+.item4-p2-l2{
+    position: absolute;
+    top: 19%;
+    left: 25%;
+    font-size: 75%;
 }
-.result4-page-2{
-    top: 71%;  
+
+.item5-p2-l2{
+    position: absolute;
+    top: 22%;
+    left: 16%;
+    font-size: 75%;
+    list-style: none;
 }
-.result5-page-2{
-    top: 72.5%;
+.item5-p2-l2>li{
+margin-bottom: -5%;
 }
-.result6-page-2{
-    top: 74%;  
+.item6-p2-l2{
+    position: absolute;
+    top: 29%;
+    left: 16%;
+    font-size: 75%;
+    list-style: none;
 }
-.result7-page-2{
-    top: 75.5%;
+.item6-p2-l2>li{
+margin-bottom: -5%;
 }
-.result8-page-2{
-    top: 77.2%;  
+.item7-p2-l2{
+    position: absolute;
+    top: 19.5%;
+    left: 40%;
+    font-size: 75%;
 }
-.result9-page-2{
-    top: 78.7%;
+.item8-p2-l2{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    font-size: 75%;
 }
-.result10-page-2{
-    top: 80.3%;  
+.item9-p2-l2{
+    position: absolute;
+    top: 31%;
+    left: 40%;
+    font-size: 75%;
 }
-.result11-page-2{
-    top: 82%;  
+.item10-p2-l2{
+    position: absolute;
+    top: 22%;
+    left: 58%;
+    font-size: 75%;
+    list-style: none;
 }
-.result12-page-2{
-    top: 83.5%;
+.item11-p2-l2{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-weight: bold;
 }
-.result13-page-2{
-    top: 85%;
+.item12-p2-l2{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    list-style: none;
+}
+
+.item13-p2-l2{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    list-style: none;
 }
 /************************************************/
 /********************Page 3**********************/
-/************************************************/
-/************************************************/
-.result1-page-3, .result2-page-3, .result3-page-3, .result4-page-3, .result5-page-3,
-.result6-page-3, .result7-page-3, .result8-page-3, .result9-page-3, .result10-page-3,
-.result11-page-3, .btn1-page-3, .btn2-page-3, .btn3-page-3, .btn4-page-3, .btn5-page-3,
-.btn6-page-3, .btn7-page-3, .btn8-page-3, .btn9-page-3, .btn10-page-3, .btn11-page-3{
-    position: absolute;
-}
-.result1-page-3{
-    top: 38%;
-    left: 18%;
-}
-.btn1-page-3{
-    top: 38%;
-    left: 35%;
-}
-.result2-page-3{
-    top: 38%;
-    left: 43%;
-}
-.btn2-page-3{
-    top: 38%;
-    left: 60%;
-}
-.result3-page-3{
-    top: 38%;
-    left: 67.5%;
-}
-.btn3-page-3{
-    top: 38%;
-    left: 85%;
-}
-.result4-page-3{
-    top: 55%;
-    left: 18%;
-}
-.btn4-page-3{
-    top: 55%;
-    left: 35%;
-}
-.result5-page-3{
-    top: 55%;
-    left: 43%;
-}
-.btn5-page-3{
-    top: 55%;
-    left: 60%;
-}
-.result6-page-3{
-    top: 56.5%;
-    left: 66.6%;
-}
-.btn6-page-3{
-    top: 56.2%;
-    left: 85%;
-}
-.result7-page-3{
-    top: 73%;
-    left: 18%;
-}
-.btn7-page-3{
-    top: 73%;
-    left: 35%;
-}
-.result8-page-3{
-    top: 74.5%;
-    left: 42%;
-}
-.btn8-page-3{
-    top: 74.5%;
-    left: 60%;
-}
-.result9-page-3{
-    top: 74.3%;
-    left: 67.5%;
-}
-.btn9-page-3{
-    top: 74%;
-    left: 85%;
-}
-.result10-page-3{
-    top: 89.5%;
-    left: 42.7%;
-}
-.btn10-page-3{
-    top: 89.3%;
-    left: 60%;
-}
-.result11-page-3{
-    top: 89.5%;
-    left: 67.5%;
-}
-.btn11-page-3{
-    top: 89.5%;
-    left: 85%;
-}
-/************************************************/
-/********************Page 4**********************/
 /************************************************/
 /************************************************/
 .result1-page-4, .result2-page-4, .result3-page-4, .result4-page-4, .result5-page-4,

@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { auth } from '../firebaseconfig';
 import Swal from 'sweetalert2';
+import { render } from "@testing-library/react";
 
 
  
-const Login =() =>{    
+const Login = () =>{    
 
     const [email, setEmail] = useState('');
     const [pass, setPass] = useState('');
@@ -21,11 +22,22 @@ const Login =() =>{
                 showConfirmButton: false,
                 timer: 1500
             })
-            localStorage.setItem('email', email);
+            
+            localStorage.setItem('email', email.toLowerCase());
+            window.location.reload();
         },error => Swal.fire('Usuario o contraseña incorrectos','','error'));
     }
 
+    const logout = (e) => {
+        auth.signOut();
+        localStorage.removeItem('email');
+        Swal.fire('Has cerrado sesión','','success');
+        window.location.reload();
+    }
     return(       
+        <div>
+            {
+                !localStorage.getItem('email')?
             <div className="App-cont">
                 <div className="App-mg">
                     <form onSubmit={loginForEmail} id="login">
@@ -40,7 +52,13 @@ const Login =() =>{
                     </form>
                 </div>
             </div>
+            :
+            <div>
+                <h1>Tiene la Sesión Iniciada</h1>
+                <button className="btn btn-primary" onClick={logout}>Cerrar Sesión</button>
+            </div>
+            }       
+        </div>
         );
     }
-
 export default Login;

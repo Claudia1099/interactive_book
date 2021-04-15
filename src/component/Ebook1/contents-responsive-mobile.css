@@ -594,10 +594,10 @@
     /**********************Page 62***********************/
     /***************************************************/
     /***************************************************/
-    .item1-page-62, .item2-page-62, .item3-page-62, .item4-page-62, .item5-page-62,
+    /* .item1-page-62, .item2-page-62, .item3-page-62, .item4-page-62, .item5-page-62,
     .item6-page-62, .item7-page-62, .item8-page-62, .item9-page-62{
         font-size: 13px;
-    }
+    } */
     .item1-page-62{
         margin-top: -2%;
         margin-left: -2%;
@@ -613,14 +613,7 @@
     .item16-page-63, .item17-page-63, .item18-page-63, .item19-page-63, .item20-page-63{
         font-size: 13px;
     }
-    .item19-page-63>li{
-        margin-left: -40%;
-        margin-bottom: 45%;
-    }
-    .item20-page-63>li{
-        margin-left: -40%;
-        margin-bottom: 45%;
-    }
+    
     /***************************************************/
     /***************************************************/
     /**********************Page 64***********************/
@@ -629,7 +622,7 @@
     .item2-page-64, .item3-page-64, .item4-page-64, .item5-page-64,
     .item6-page-64, .item7-page-64, .item8-page-64, .item9-page-64,
     .item10-page-64, .item11-page-64, .item12-page-64{
-        font-size: 11px;
+        /* font-size: 11px; */
     }
     /***************************************************/
     /***************************************************/
@@ -639,10 +632,10 @@
     .item1-page-65, .item2-page-65, .item3-page-65, .item4-page-65, .item5-page-65,
     .item5-5-page-65, .item6-page-65, .item7-page-65, .item8-page-65,
     .item9-page-65, .item10-page-65{
-        font-size: 12px;
+        /* font-size: 12px;
     }
     .item11-page-65{
-        font-size: 11px;
+        font-size: 11px; */
     }
     /***************************************************/
     /***************************************************/
@@ -746,7 +739,9 @@
     .item1-page-74{
         font-size: 13px;
     }
-}
+}   
+
+
 
 @media screen and (max-width: 490%){
     /*Contenido*/
@@ -796,7 +791,7 @@
     .item26-page-1,.item27-page-1,.item28-page-1,.item29-page-1,
     .item30-page-1,.item31-page-1,.item32-page-1,.item33-page-1,
     .item34-page-1,.item35-page-1,.item36-page-1,.item37-page-1{
-        font-size: 9px;
+        font-size: 65%;
     }
     .item2-page-1,.item3-page-1,.item4-page-1,.item5-page-1,
     .item6-page-1,.item7-page-1,.item8-page-1,.item9-page-1,

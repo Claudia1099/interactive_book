@@ -94,6 +94,9 @@ p{
 .Contact-btn span{
   padding-top:5px;
 }
+.no-libros{
+  font-size: 50px;
+}
 /* styles Cursos */
 /* .Cursos{
   height: 100%; width: 100%;

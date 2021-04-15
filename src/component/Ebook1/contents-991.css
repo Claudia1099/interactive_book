@@ -1,0 +1,288 @@
+@media screen and (max-width: 991px){
+    .titulo{
+        font-size: 22px;
+        margin-left: 10px;
+    }
+    .item1, .item2, .item3, .item4, .item5, .item6,
+    .item7, .item8, .item9, .item10, .item11, .item12,
+    .item13, .item14, .item15, .item16, .item17, .item18,
+    .item19, .item20, .item21, .item22, .item23, .item24,
+    .item25, .item26{
+        font-size: 10px;
+    }
+    .circle1, .circle2, .circle3, .circle4, .circle5, .circle6,
+    .circle7, .circle8, .circle9, .circle10, .circle11, .circle12,
+    .circle13{
+        font-size: 15px;
+    }
+    /***************************************************/
+    /***************************************************/
+    /**********************Page 1***********************/
+    /***************************************************/
+    /***************************************************/
+    .titulo-page-1{
+        font-size: 22px;
+        top: 0%;
+        left: 10.5%;
+    }
+    .subTitulo1-page-1,.subTitulo2-page-1{
+        font-size: 13px;
+    }
+    /*Dialogo page 1*/
+    .item1-page-1,.item1-1-page-1,.item1-2-page-1{
+        font-size: 9px;
+    }
+    .item1-1-page-1{
+        top:44.2%;
+    }
+    
+    /*Alfabeto*/
+    .item2-page-1,.item3-page-1,.item4-page-1,.item5-page-1,
+    .item6-page-1,.item7-page-1,.item8-page-1,.item9-page-1,
+    .item10-page-1,.item11-page-1,.item12-page-1,.item13-page-1,
+    .item14-page-1,.item15-page-1,.item16-page-1,.item17-page-1,
+    .item18-page-1,.item19-page-1,.item20-page-1,.item21-page-1,
+    .item22-page-1,.item23-page-1,.item24-page-1,.item25-page-1,
+    .item26-page-1,.item27-page-1,.item28-page-1,.item29-page-1,
+    .item30-page-1,.item31-page-1,.item32-page-1,.item33-page-1,
+    .item34-page-1,.item35-page-1,.item36-page-1,.item37-page-1{
+        font-size: 7px;
+    }
+    .item2-page-1,.item3-page-1,.item4-page-1,.item5-page-1,
+    .item6-page-1,.item7-page-1,.item8-page-1,.item9-page-1,
+    .item10-page-1,.item11-page-1{
+        top: 53%;
+    }
+    .item12-page-1,.item13-page-1,.item14-page-1,.item15-page-1,
+    .item16-page-1,.item17-page-1,.item18-page-1,.item19-page-1,
+    .item20-page-1,.item21-page-1{
+        top: 60%;
+    }
+    .item22-page-1,.item23-page-1,.item24-page-1,.item25-page-1,
+    .item26-page-1,.item27-page-1{
+        top: 67%;
+    }
+    /*Dialogo Teacher - student*/
+    .subTitulo3-page-1,.subTitulo4-page-1{
+        font-size: 11px;
+        top: 74%;
+    }
+    .item28-page-1, .item33-page-1{
+        top: 77%;
+    }
+    .item29-page-1, .item34-page-1{
+        top: 79%;
+    }
+    .item30-page-1, .item35-page-1{
+        top: 81%;
+    }
+    .item31-page-1, .item36-page-1{
+        top: 83%;
+    }
+    .item32-page-1, .item37-page-1{
+        top: 85%;
+    }
+    /***************************************************/
+    /***************************************************/
+    /**********************Page 2***********************/
+    /***************************************************/
+    /***************************************************/
+    
+    .item1-page-2{
+        position: absolute;
+        top: 33%;
+        left:-2%;
+        list-style: none;
+        font-size: 55%;
+    }
+    .item2-page-2{
+        position: absolute;
+        top: 33%;
+        left: 45%;
+        list-style: none;
+        font-size: 55%;
+    }
+    .item3-page-2{
+        position: absolute;
+        top: 72%;
+        left:-2%;
+        list-style: none;
+        font-size: 55%;
+    }
+    .item4-page-2{
+        position: absolute;
+        top: 72%;
+        left: 45%;
+        list-style: none;
+        font-size: 55%;
+    }
+        /***************************************************/
+    /***************************************************/
+    /**********************Page 3***********************/
+    /***************************************************/
+    /***************************************************/
+    .subTitulo1-page-3{
+        position: absolute;
+        top: 10%;
+        left: 11%;
+        font-weight: bold;
+    }
+    .item1-page-3{
+        position: absolute;
+        top: 20%;
+        left: 11%;
+        padding-left: 3%;
+        font-size: 35%;
+    }
+    .item2-page-3{
+        position: absolute;
+        top: 38%;
+        left: 10%;
+        font-size: 75%;
+        width: 90%;
+    }
+    
+    .subTitulo2-page-3{
+        position: absolute;
+        top: 55%;
+        left: 13%;
+        font-weight: bold;
+        font-size: 75%;
+    }
+    .item3-page-3{
+        position: absolute;
+        top: 65%;
+        left: -4%;
+        font-size: 45%;
+        list-style: none;
+    }
+    
+    .subTitulo3-page-3{
+        position: absolute;
+        top: 55%;
+        left: 66%;
+        font-weight: bold;
+        font-size: 75%;
+    }
+    .item4-page-3{
+        position: absolute;
+        top: 65%;
+        left: 45%;
+        font-size: 45%;
+        list-style: none;
+    }
+    /***************************************************/
+/***************************************************/
+/**********************Page 4***********************/
+/***************************************************/
+/***************************************************/
+.item1-page-4,.item2-page-4,.item3-page-4,.item4-page-4,.item5-page-4,.item6-page-4,.item7-page-4,.item8-page-4,.item9-page-4,.item10-page-4,.item11-page-4,.item12-page-4,.item13-page-4,.item14-page-4,.item15-page-4,.item16-page-4,.item17-page-4,.item18-page-4,.item19-page-4,.item20-page-4,.item21-page-4,.item22-page-4,.item23-page-4,.item24-page-4,.item25-page-4,.item26-page-4,.item27-page-4,.item28-page-4,.item29-page-4,.item30-page-4,.item31-page-4,.item32-page-4,.item33-page-4,
+.item34-page-4,.boton1-page-4,.boton2-page-4,.boton3-page-4,.boton4-page-4,.boton5-page-4,.boton6-page-4,
+.boton7-page-4,.boton8-page-4,.boton9-page-4,.boton10-page-4,.boton11-page-4,.boton12-page-4,.boton13-page-4,.boton14-page-4,.boton15-page-4,.boton16-page-4,.boton17-page-4,.boton18-page-4,.boton19-page-4{
+    font-size: 5%;
+}
+/************************************************/
+/********************Page 5**********************/
+/************************************************/
+/************************************************/
+.titulo-page-5{
+    font-size: 9px;
+}
+/*Cuadros Classmate 1 y 2*/
+.subTitulo1-page-5, .subTitulo2-page-5, .subTitulo3-page-5{
+    font-size: 9px;
+    font-weight: bold;
+}
+.item2-page-5, .item3-page-5, .item4-page-5, .item5-page-5,
+.item6-page-5, .item7-page-5, .item8-page-5, .item9-page-5,
+.item10-page-5, .item11-page-5, .item12-page-5, .item13-page-5,
+.item14-page-5, .item15-page-5, .item16-page-5, .item17-page-5,
+.item18-page-5, .result1-page-5, .result2-page-5, .result3-page-5,
+.result4-page-5, .result5-page-5, .result6-page-5, .result7-page-5,
+.result8-page-5, .result9-page-5, .result10-page-5, .result11-page-5,
+.result12-page-5, .result13-page-5, .result14-page-5, .result15-page-5,
+.result16-page-5, .result17-page-5, .result18-page-5, .result19-page-5{
+    font-size: 7px;
+}
+/*Parrafo Reading*/
+.item18-page-5{
+    font-size: 6px;
+}
+/*Cuadro Final*/
+.item19-page-5, .item20-page-5, .item21-page-5, .item22-page-5,
+.item23-page-5, .item24-page-5, .item25-page-5, .item26-page-5,
+.item27-page-5, .item28-page-5{
+    font-size: 6px;
+}
+/*Botones Editar*/
+.btn1-page-5, .btn2-page-5, .btn3-page-5, .btn4-page-5, .btn5-page-5,
+.btn6-page-5, .btn7-page-5, .btn8-page-5, .btn9-page-5, .btn10-page-5,
+.btn11-page-5, .btn12-page-5, .btn13-page-5, .btn14-page-5, .btn15-page-5,
+.btn16-page-5, .btn17-page-5, .btn18-page-5, .btn19-page-5{
+    font-size: 7px;
+}
+/***************************************************/
+    /***************************************************/
+    /**********************Page 6***********************/
+    /***************************************************/
+    /***************************************************/
+    .item1-page-6, .item2-page-6, .item3-page-6, .item4-page-6, .item5-page-6,
+    .item6-page-6, .item7-page-6, .item8-page-6, .item9-page-6, .item10-page-6,
+    .item11-page-6, .item12-page-6, .item13-page-6, .item14-page-6, .item15-page-6,
+    .item16-page-6, .item17-page-6, .item18-page-6, .item19-page-6, .item20-page-6,
+    .item21-page-6, .item22-page-6, .item23-page-6, .item24-page-6, .item25-page-6,
+    .item26-page-6, .item27-page-6, .item28-page-6, .item29-page-6{
+        font-size: 8px;
+    }
+    .btn1-page-6, .btn2-page-6, .btn3-page-6, .btn4-page-6, .btn5-page-6,
+    .btn6-page-6, .btn7-page-6, .btn8-page-6, .btn9-page-6, .btn10-page-6,
+    .btn11-page-6, .btn12-page-6, .btn13-page-6, .btn14-page-6, .btn15-page-6,
+    .btn16-page-6, .btn17-page-6, .btn18-page-6, .btn19-page-6, .btn20-page-6,
+    .btn21-page-6, .btn22-page-6, .btn23-page-6, .btn24-page-6, .btn25-page-6,
+    .btn26-page-6, .btn27-page-6, .btn28-page-6{    
+        font-size: 9px;
+    }
+    /***************************************************/
+    /***************************************************/
+    /**********************Page 7***********************/
+    /***************************************************/
+    /***************************************************/
+    .titulo-page-7{
+        top: 4%;
+        left: 35%;
+        font-size: 75%;
+    }
+    .item1-page-7,.item2-page-7,.item3-page-7,.item4-page-7,.item5-page-7,.item6-page-7,.item7-page-7,.item8-page-7,.item9-page-7,.item10-page-7,.item11-page-7{
+        font-size: 55%;
+    }
+
+/***************************************************/
+/***************************************************/
+/**********************Page 9***********************/
+/***************************************************/
+/***************************************************/
+.unidadTitulo{
+    font-size: 100%;
+}
+.titulo1-page-8,.titulo2-page-8,.item1-page-8,.item2-page-8,.item3-page-8,.item4-page-8,.item5-page-8,
+.item6-page-8,.item7-page-8,.item8-page-8,.item9-page-8,.item10-page-8,.item11-page-8,.item12-page-8,
+.item13-page-8,.item14-page-8,.item15-page-8,.item16-page-8,.item17-page-8,.item18-page-8,.item19-page-8,
+.item20-page-8,.item21-page-8,.item22-page-8,.item23-page-8,.item24-page-8,.item25-page-8,.item26-page-8
+,.item27-page-8,.item28-page-8,.item29-page-8,.item30-page-8,.item31-page-8,.item32-page-8,.item33-page-8,
+.item34-page-8{
+    font-size: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

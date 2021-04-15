@@ -1,0 +1,471 @@
+.bordeLibro{
+    box-shadow: 5px 5px 5px 5px #635f5f;
+}
+.introduccion{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    padding-top: 100%;
+}
+.quizbg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.paginacion{
+    position: absolute;
+    top: 95.5%;
+    left: 85%;
+}
+.flecha-arriba{
+    font-size: 250%;
+    position: absolute;
+    left: 85%;
+    top: 80%;
+    color: rgb(70, 133, 250);
+    }
+.paginaA1{
+    position: relative;
+    padding-top: 2%;
+    padding-right: 5%;
+    padding-left: 8%;
+    padding-bottom: 6%;
+}
+
+.unidad{
+    position: relative;
+    padding-bottom: 6%;
+}
+/* ********************************incio pagina 1*************************  */   
+.item1-p1-A1{
+    position: absolute;
+    top: 13%;
+    left: 8%;
+}
+.item2-p1-A1{
+    position: absolute;
+    top: 17%;
+    left: 45%;
+}
+.item3-p1-A1{
+    position: absolute;
+    top: 23%;
+    left: 2%;
+}
+
+.item4-p1-A1{
+    position: absolute;
+    top: 23%;
+    left: 55%;
+}
+
+.item5-p1-A1{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+/* ******************************** FIN pagina 1*************************  */ 
+/* ********************************incio pagina 2*************************  */   
+.item1-p2-A1{
+    position: absolute;
+        top: 15%;
+        left: 59%;
+        font-size: 75%;
+        width: 32%;
+}
+.item1-p2-A1>li{
+    margin-bottom: 5%;
+}
+.item2-p2-A1{
+    position: absolute;
+        top: 63.5%;
+        left: 15%;
+        font-size: 75%;
+}
+.item3-p2-A1{
+    position: absolute;
+      top: 69.6%;
+      left: 5%;
+      font-size: 75%; 
+      background-color: white ; 
+      width: 90%;
+}
+/* ******************************** FIN pagina 2*************************  */  
+
+/* ********************************incio pagina 3*************************  */   
+.item1-p3-A1{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-size: 75%; 
+    background-color: white ; 
+    width: 90%; 
+}
+.item2-p3-A1{
+    position: absolute;
+      top: 43%;
+      left: 40%;
+      font-size: 75%;
+
+}
+.item3-p3-A1{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    font-size: 75%;
+}
+
+.item4-p3-A1{
+    position: absolute;
+    top: 51%;
+    left: 15%;
+    font-size: 75%; 
+}
+
+.item5-p3-A1{
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    font-size: 75%;
+}
+.item6-p3-A1{
+    position: absolute;
+    top: 68%;
+    left: 10%;
+    font-size: 75%;
+}	
+.item7-p3-A1{
+    position: absolute;
+    top: 71%;
+    left: 20%;
+    font-size: 70%;
+    list-style: none;
+    background-color: white;
+}
+.item8-p3-A1{
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    font-size: 75%;
+}
+/* ******************************** FIN pagina 3*************************  */ 
+/* ********************************incio pagina 4*************************  */   
+.item1-p4-A1{
+    position: absolute;
+        top: 29%;
+        left: 40%;
+        font-size: 85%;
+        font-weight: bold;
+}
+.item2-p4-A1{
+    position: absolute;
+        top: 32%;
+        left: 10%;
+        font-size: 85%;
+}
+.item3-p4-A1{
+    position: absolute;
+        top:  50%;
+        left: 40%;
+        font-size: 85%;
+        list-style: none;
+}
+
+.item4-p4-A1{
+    position: absolute;
+      top: 70% ;
+      left: 20%;
+      font-size: 85%;  
+}
+/* ******************************** FIN pagina 4*************************  */ 
+/* ********************************incio pagina 5*************************  */   
+.item1-p5-A1{
+    position: absolute;
+        top: 15% ;
+        left: 45%;
+        font-weight: bold;
+}
+.item2-p5-A1{
+    position: absolute;
+      top: 18% ;
+      left: 10%;  
+      font-size: 85%;
+}
+.item3-p5-A1{
+    position: absolute;
+      top: 23.5%;
+      left:13.5% ;
+      font-size: 60%;  
+}
+.item3-p5-A1>li{
+    width: 28%;
+    text-align: center;
+}
+.item4-p5-A1{
+    position: absolute;
+     top: 33% ;
+     left: 5%;
+     font-size: 75%;   
+}
+
+.item5-p5-A1{
+    position: absolute;
+    top:  38%;
+    left:10% ;
+    font-size: 85%;
+    background-color: white;
+    width: 90%;
+    
+}
+.item5-p5-A1>table{
+    width: 90%;
+}
+.item6-p5-A1{
+    position: absolute;
+    top: 49%;
+    left: 0%;
+    font-size: 75%;
+    background-color: white;
+    list-style: upper-alpha;
+}
+.item6-p5-A1>li{
+    margin-bottom: -1%;
+}
+/* ******************************** FIN pagina 5*************************  */ 
+/* ********************************incio pagina 6*************************  */   
+.item1-p6-A1{
+    position: absolute;
+        top: 10.5%;
+        left: 10%;
+        font-size: 85%;
+}
+.item2-p6-A1{
+    position: absolute;
+     top: 14%;
+     left: 10%;
+     font-size: 75%;
+     background-color: white;  
+     width: 85%; 
+}
+.item3-p6-A1{
+    position: absolute;
+      top: 22%;
+      left: 20%;
+      font-size: 85%;  
+      font-weight: bold;
+      background-color: white;
+}
+
+.item4-p6-A1{
+    position: absolute;
+     top: 26%;
+     left: 5%;
+     font-size: 65%;   
+     background-color: white;
+     width: 90%;
+}
+
+.item5-p6-A1{
+    position: absolute;
+    top: 33%;
+     left: 10%;
+     font-size: 75%;   
+     background-color: white;
+     width: 85%;
+}
+.item6-p6-A1{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 75%;
+    width: 85%;
+
+}
+/* ******************************** FIN pagina 6*************************  */ 
+/* ********************************incio pagina 7*************************  */   
+.item1-p7-A1{
+    position: absolute;
+    top: 12%;
+    left: 18%;
+    font-size: 85%;
+    text-align: center;
+}
+.item2-p7-A1{
+    position: absolute;
+    top: 12%;
+    left: 41%;
+    font-size: 85%;
+    text-align: center;
+    
+}
+.item3-p7-A1{
+    position: absolute;
+    top: 12%;
+    left:68% ;
+    font-size: 85%;
+    text-align: center;
+}
+
+.item4-p7-A1{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 75%;
+}
+
+.item5-p7-A1{
+    position: absolute;
+top: 76%;
+left: 10% ;
+font-size: 75%;
+}
+.item6-p7-A1{
+    position: absolute;
+top: 82%;
+left: 10%;
+font-size: 75%;
+}
+/* ******************************** FIN pagina 7*************************  */ 
+
+/* ********************************incio pagina 8*************************  */   
+.item1-p8-A1{
+    position: absolute;
+        top: 10% ;
+        left: 10%;
+        font-size: 70%;
+        list-style: disc;
+}
+.item2-p8-A1{
+    position: absolute;
+        top:   32%;
+        left: 40%;
+        font-size: 75%;
+        font-weight: bold;
+}
+.item3-p8-A1{
+    position: absolute;
+        top:35% ;
+        left: 10%;
+        font-size: 70%;
+}
+
+.item4-p8-A1{
+    position: absolute;
+        top: 48%;
+        left: 40%;
+        font-size: 75%;
+        font-weight: bold;
+}
+
+.item5-p8-A1{
+    position: absolute;
+    top: 51%;
+    left: 5%;
+    font-size: 65%;
+    width: 90%;
+    background-color: white;
+}
+.item6-p8-A1{
+    position: absolute;
+    top: 67%;
+    left: 5%;
+    font-size: 65%;
+    background-color: white;
+    list-style: none;
+}
+.item7-p8-A1{
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    font-size: 65%;
+    background-color: white;
+    list-style: none;
+}
+/* ******************************** FIN pagina 8*************************  */ 
+/* ********************************incio pagina 9*************************  */   
+.item0-p9-A1{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 85%;
+        
+}
+.item1-p9-A1{
+    position: absolute;
+    top: 13%;
+    left: 10%;
+    font-size: 200%;
+        
+}
+.item2-p9-A1{
+    position: absolute;
+    top: 13%;
+    left: 40% ;
+    font-size: 85%;
+    font-weight: bold;        
+}
+.item3-p9-A1{
+    position: absolute;
+    top:20% ;
+    left: 18%;
+    font-size: 85%;
+        
+}
+
+.item4-p9-A1{
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    font-size: 85%;
+        
+}
+
+.item5-p9-A1{
+    position: absolute;
+    top:  27%;
+    left: 40% ;
+    font-size: 85%;
+    font-weight: bold;
+}
+.item6-p9-A1{
+    position: absolute;
+    top: 29% ;
+    left: 10%;
+    font-size: 85%;
+    
+}	
+.item7-p9-A1{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 75%;
+    background-color: white;
+}
+.item8-p9-A1{
+    position: absolute;
+    top: 56%;
+    left: 5%;
+    font-size: 85%;
+    width: 95%;
+    background-color: white;
+}
+.item8-p9-A1>table{
+    width: 95%;
+}
+.item9-p9-A1{
+    position: absolute;
+    top: 77%;
+    left: 10%;
+    font-size: 85%;
+  
+}
+.item10-p9-A1{
+    position: absolute;
+    top:81% ;
+    left: 5%;
+    font-size: 75%;
+  width: 90%;
+}
+/* ******************************** FIN pagina 9*************************  */ 

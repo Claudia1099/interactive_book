@@ -72,7 +72,7 @@ class App extends Component {
           <img src='./aesLogoHeader.png'className="App-logo" alt="logo"/>
           <div className="nv-header">
             <a className="App-header-btn" href="/#" aria-label="login app" onClick={() => this.abrirLogin()}>
-              <span className="fas fa-user"></span>
+              <span className="fas fa-user"> <b>iniciar Sesion</b></span>
             </a>
             <a className="App-header-btn" href="/#" aria-label="home app" onClick={() => this.abrirHome()}>
               <span className="fas fa-bars"></span>
@@ -87,25 +87,25 @@ class App extends Component {
               <div className="App-btn">
                 <a className="App-lnk" href="https://www.aesinstituto.com" aria-label="home page" rel="noreferrer noopener" target="_blank">
                   <span className="fas fa-home"></span>
-                  <p>HOME</p>
+                  <p>Página AES</p>
                 </a>
               </div>
               <div className="App-btn">
                 <a className="App-lnk" href="/#" aria-label="free courses" onClick={() => this.abrirCursos()}>
                   <span className="fas fa-pencil-ruler"></span>
-                  <p>FREE COURSES</p>
+                  <p>Cursos Gratis</p>
                 </a>
               </div>
               <div className="App-btn">
                 <a className="App-lnk" href="/#" aria-label="e-books" onClick={() => this.abrirEBooks()}>
                   <span className="fas fa-book"></span>
-                  <p>E-BOOKS</p>
+                  <p>Mis Libros</p>
                 </a>
               </div>
               <div className="App-btn">
                 <a className="App-lnk" href="/#"  aria-label="contact" onClick={() => this.abrirContacto()}>
                   <span className="fas fa-id-card"></span>
-                  <p>CONTACT US</p>
+                  <p>Contactanos</p>
                 </a>
               </div>
             </div>

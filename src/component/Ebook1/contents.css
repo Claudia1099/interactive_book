@@ -1,6 +1,14 @@
 .bordeLibro{
     box-shadow: 5px 5px 5px 5px #635f5f;
 }
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(115, 255, 0, 0.226) !important;
+ }
+.columna-fija{
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
 .paginacion{
     position: absolute;
     top: 95.5%;
@@ -28,7 +36,7 @@ color: rgb(70, 133, 250);
     position: relative;
     top: 0%;
     left: 0%;
-    padding-bottom: 140%;
+    padding-bottom: 100%;
     width: 100%;
 }
 .unidad{
@@ -346,7 +354,7 @@ color: rgb(70, 133, 250);
     top: 42%;
     left: 10%;
     color: #000;
-    font-size: 13px;
+    font-size: 80%;
     font-weight: bold;
 }
 .item1-1-page-1{
@@ -354,7 +362,7 @@ color: rgb(70, 133, 250);
     top: 44%;
     left: 10%;
     color: #000;
-    font-size: 13px;
+    font-size: 80%;
     font-weight: bold;
 }
 .item1-2-page-1{
@@ -362,7 +370,7 @@ color: rgb(70, 133, 250);
     top: 46%;
     left: 10%;
     color: #000;
-    font-size: 13px;
+    font-size: 80%;
     font-weight: bold;
 }
 .subTitulo2-page-1{
@@ -577,135 +585,34 @@ left: 26%;
 .item1-page-2{
     position: absolute;
     top: 33%;
-    left: 13%;
+    left: 5%;
+    list-style: none;
+    font-size: 85%;
 }
 .item2-page-2{
     position: absolute;
-    top: 36%;
-    left: 13%;
+    top: 33%;
+    left: 48%;
+    list-style: none;
+    font-size: 85%;
 }
 .item3-page-2{
     position: absolute;
-    top: 39%;
-    left: 13%;
+    top: 72%;
+    left: 5%;
+    list-style: none;
+    font-size: 85%;
 }
 .item4-page-2{
     position: absolute;
-    top: 42%;
-    left: 13%;
+    top: 72%;
+    left: 48%;
+    list-style: none;
+    font-size: 85%;
 }
-.item5-page-2{
+
+.result1-p2,.result2-p2,.result3-p2,.result4-p2, .result5-p2,.result6-p2,.result7-p2,.result8-p2, .result9-p2,.result10-p2{
     position: absolute;
-    top: 33%;
-    left: 60%;
-}
-.item6-page-2{
-    position: absolute;
-    top: 36%;
-    left: 60%;
-}
-.item7-page-2{
-    position: absolute;
-    top: 39%;
-    left: 60%;
-}
-.item8-page-2{
-    position: absolute;
-    top: 42%;
-    left: 60%;
-}
-.item9-page-2{
-    position: absolute;
-    top: 74%;
-    left: 13%;
-}
-.item10-page-2{
-    position: absolute;
-    top: 77%;
-    left: 13%;
-}
-.item11-page-2{
-    position: absolute;
-    top: 80%;
-    left: 13%;
-}
-.item12-page-2{
-    position: absolute;
-    top: 83%;
-    left: 13%;
-}
-.item13-page-2{
-    position: absolute;
-    top: 74%;
-    left: 60%;
-}
-.item14-page-2{
-    position: absolute;
-    top: 77%;
-    left: 60%;
-}
-.item15-page-2{
-    position: absolute;
-    top: 80%;
-    left: 60%;
-}
-.item16-page-2{
-    position: absolute;
-    top: 83%;
-    left: 60%;
-}
-.boton1-page-2{
-    position: absolute;
-    top: 36%;
-    left: 37%;
-}
-.boton2-page-2{
-    position: absolute;
-    top: 42%;
-    left: 37%;
-}
-.boton3-page-2{
-    position: absolute;
-    top: 33%;
-    left: 84%;
-}
-.boton4-page-2{
-    position: absolute;
-    top: 39%;
-    left: 84%;
-}
-.boton5-page-2{
-    position: absolute;
-    top: 77%;
-    left: 37%;
-}
-.boton6-page-2{
-    position: absolute;
-    top: 80%;
-    left: 37%;
-}
-.boton7-page-2{
-    position: absolute;
-    top: 83%;
-    left: 37%;
-}
-.boton8-page-2{
-    position: absolute;
-    top: 77%;
-    left: 84%;
-}
-.boton9-page-2{
-    position: absolute;
-    top: 80%;
-    left: 84%;
-}
-.boton10-page-2{
-    position: absolute;
-    top: 83%;
-    left: 84%;
-}
-.underline{
-    text-decoration: underline;
 }
 /***************************************************/
 /***************************************************/
@@ -724,104 +631,42 @@ left: 26%;
     left: 11%;
     padding-left: 3%;
 }
-/*.item1-page-3>th{
-    margin-left: 50%;
-}*/
-
-
-.item34-page-3{
+.item2-page-3{
     position: absolute;
     top: 46%;
     left: 10%;
-    font-size: 18px;
+    font-size: 100%;
+    width: 85%;
 }
-/*.item35-page-3{
-    position: absolute;
-    top: 70%;
-    left: 0%;
-}*/
+
 .subTitulo2-page-3{
     position: absolute;
     top: 60%;
     left: 13%;
     font-weight: bold;
 }
-.item36-page-3{
+.item3-page-3{
     position: absolute;
     top: 65%;
-    left: 11%;
+    left: 5%;
+    font-size: 80%;
+    list-style: none;
 }
-.item37-page-3{
-    position: absolute;
-    top: 67%;
-    left: 21%;
-}
-.item38-page-3{
-    position: absolute;
-    top: 69%;
-    left: 21%;
-}
-.item39-page-3{
-    position: absolute;
-    top: 74%;
-    left: 11%;
-}
-.item40-page-3{
-    position: absolute;
-    top: 76.3%;
-    left: 21%;
-}
-.item41-page-3{
-    position: absolute;
-    top: 78.3%;
-    left: 21%;
-}
-.item42-page-3{
-    position: absolute;
-    top: 84%;
-    left: 11%;
-}
+
 .subTitulo3-page-3{
     position: absolute;
     top: 60%;
     left: 66%;
     font-weight: bold;
 }
-.item43-page-3{
+.item4-page-3{
     position: absolute;
     top: 65%;
-    left: 60%;
+    left: 50%;
+    font-size: 80%;
+    list-style: none;
 }
-.item44-page-3{
-    position: absolute;
-    top: 67%;
-    left: 61.7%;
-}
-.item45-page-3{
-    position: absolute;
-    top: 69%;
-    left: 61.7%;
-}
-.item46-page-3{
-    position: absolute;
-    top: 74%;
-    left: 60%;
-}
-.item47-page-3{
-    position: absolute;
-    top: 76%;
-    left: 61.7%;
-}
-.item48-page-3{
-    position: absolute;
-    top: 78%;
-    left: 61.7%;
-}
-.item49-page-3{
-    position: absolute;
-    top: 84%;
-    left: 60%;
-}
+
 
 
 
@@ -834,121 +679,121 @@ left: 26%;
     position: absolute;
     top: 15%;
     left: 21%;
-    font-size: 12px;
+    font-size: 75%;
 }
 .item2-page-4{
     position: absolute;
     top: 15%;
     left: 61%;
-    font-size: 12px;
+    font-size: 75%;
 }
 .item3-page-4{
     position: absolute;
     top: 21.5%;
     left: 30.5%;
-    font-size: 12px;
+    font-size: 75%;
 }
 .item4-page-4{
     position: absolute;
     top: 21%;
     left: 57%;
-    font-size: 12px;
+    font-size: 75%;
 }
 .item5-page-4{
     position: absolute;
     top: 21%;
     left: 72.5%;
-    font-size: 12px;
+    font-size: 75%;
 }
 .item6-page-4{
     position: absolute;
     top: 27.5%;
     left: 27%;
-    font-size: 12px;
+    font-size: 75%;
 }
 .item7-page-4{
     position: absolute;
     top: 27.5%;
     left: 60%;
-    font-size: 12px;
+    font-size: 75%;
 }
 .item8-page-4{
     position: absolute;
     top: 27.5%;
     left: 72%;
-    font-size: 12px;
+    font-size: 75%;
 }
 .item9-page-4{
     position: absolute;
     top: 50%;
     left: 25%;
-    font-size: 12px;
+    font-size: 75%;
 }
 .item10-page-4{
     position: absolute;
     top: 50.3%;
     left: 60%;
-    font-size: 12px;
+    font-size: 75%;
 }
 .item11-page-4{
     position: absolute;
     top: 56%;
     left: 30%;
-    font-size: 12px;
+    font-size: 75%;
 }
 .item12-page-4{
     position: absolute;
     top: 55.8%;
     left: 75.5%;
-    font-size: 12px;
+    font-size: 75%;
 }
 .item13-page-4{
     position: absolute;
     top: 70.7%;
     left: 30%;
-    font-size: 12px;
+    font-size: 75%;
 }
 .item14-page-4{
     position: absolute;
     top: 72%;
     left: 59.3%;
-    font-size: 12px;
+    font-size: 75%;
 }
 .item15-page-4{
     position: absolute;
     top: 72%;
     left: 72.3%;
-    font-size: 12px;
+    font-size: 75%;
 }
 .item16-page-4{
     position: absolute;
     top: 77.5%;
     left: 27%;
-    font-size: 12px;
+    font-size: 75%;
 }
 .item17-page-4{
     position: absolute;
     top: 77.5%;
     left: 39.3%;
-    font-size: 12px;
+    font-size: 75%;
 }
 .item18-page-4{
     position: absolute;
     top: 78.8%;
     left: 66%;
-    font-size: 12px;
+    font-size: 75%;
 }
 .item19-page-4{
     position: absolute;
     top: 78.8%;
     left: 75%;
-    font-size: 12px;
+    font-size: 75%;
 }
 .item20-page-4{
     position: absolute;
     top: 95.5%;
     left: 92%;
-    font-size: 12px;
+    font-size: 75%;
 }
 .item21-page-4{
     position: absolute;
@@ -2824,13 +2669,13 @@ left: 26%;
 .item0-page-18{
     position: absolute;
     top: 74.5%;
-    left: 8%;
+    left: 6%;
     list-style: none;
 }
 .item1-page-18{
     position: absolute;
     top: 82.5%;
-    left: 8%;
+    left: 6%;
     list-style: none;
 }
 .item1-page-18>li{
@@ -2839,7 +2684,7 @@ left: 26%;
 .item2-page-18{
     position: absolute;
     top: 74.5%;
-    left: 22%;
+    left: 20%;
     list-style: none;
 }
 .item2-page-18>li{
@@ -2848,7 +2693,7 @@ left: 26%;
 .item3-page-18{
     position: absolute;
     top: 74.5%;
-    left: 36%;
+    left: 34%;
     list-style: none;
 }
 .item3-page-18>li{
@@ -2857,7 +2702,7 @@ left: 26%;
 .item4-page-18{
     position: absolute;
     top: 74.5%;
-    left: 55%;
+    left: 53%;
     list-style: none;
 }
 .item4-page-18>li{
@@ -2866,7 +2711,7 @@ left: 26%;
 .item5-page-18{
     position: absolute;
     top: 74.5%;
-    left: 75.5%;
+    left: 73.5%;
     list-style: none;
 }
 .item5-page-18>li{
@@ -2893,8 +2738,7 @@ left: 26%;
 .item3-page-19{
     position: absolute;
     top: 12%;
-    left: 40%;
-    
+    left: 43%;
     list-style: none;
 }
 .item4-page-19{
@@ -3085,13 +2929,13 @@ left: 26%;
     position: absolute;
     top: 14%;
     left: 56%;
-    font-size: 11px;
+    font-size: 70%;
 }
 .result2-page-22{
     position: absolute;
     top: 14%;
     left: 83.7%;
-    font-size: 11px;
+    font-size: 70%;
 }
 /***************************************************/
 /***************************************************/
@@ -3345,7 +3189,7 @@ left: 26%;
 .item5-page-27{
     position: absolute;
     top: 73%;
-    left: 52%;
+    left: 48%;
     list-style: none;
 }
 
@@ -3576,8 +3420,8 @@ left: 26%;
 }
 .titulo1-page-31{
     position: absolute;
-    top: 49%;
-    left: 12.5%;
+    top: 48%;
+    left: 11%;
 }
 .titulo2-page-31{
     position: absolute;
@@ -4081,8 +3925,9 @@ left: 26%;
 }
 .item8-page-35{
     position: absolute;
-    top: 88%;
-    left: 5%;
+    top: 86%;
+    left: 10%;
+    width: 85%;
     
 }
 
@@ -4711,7 +4556,7 @@ left: 26%;
     position: absolute;
     top: 83%;
     left: 3%;
-    font-size: 85%;
+    font-size: 70% !important;
 }
 .item17-page-43{
     position: absolute;
@@ -5115,10 +4960,10 @@ left: 26%;
 }
 .item9-page-51{
     position: absolute;
-    top: 78%;
+    top: 75%;
     left: 2%;
     font-weight: bold;
-    font-size: 85%;
+    font-size: 80% !important;
 }
 .item10-page-51{
     position: absolute;
@@ -5216,7 +5061,7 @@ left: 26%;
 .item12-page-52{
     position: absolute;
     top: 40%;
-    left: 53%;
+    left: 48%;
     width: 44%;
     list-style: none;
 }
@@ -5236,86 +5081,86 @@ left: 26%;
 .item1-page-53{
     position: absolute;
     top: 13.5%;
-    left: 21%;
-    width: 25%;
-    font-size: 13px;
+    left: 26%;
+    width: 20%;
+    font-size: 80%;
 }
 .item2-page-53{
     position: absolute;
     top: 14.5%;
-    left: 46%;
-    width: 25%;
-    font-size: 13px;
+    left: 49%;
+    width: 20%;
+    font-size: 80%;
 }
 .item3-page-53{
     position: absolute;
-    top: 23.5%;
-    left: 10%;
-    width: 25%;
-    font-size: 13px;
+    top: 22.5%;
+    left: 17%;
+    width: 15%;
+    font-size: 80%;
 }
 .item4-page-53{
     position: absolute;
-    top: 21%;
+    top: 20.5%;
     left: 61%;
-    width: 20%;
-    font-size: 13px;
+    width: 18%;
+    font-size: 80%;
 }
 .item5-page-53{
     position: absolute;
-    top: 36.5%;
-    left: 2.5%;
+    top: 35.3%;
+    left: 11%;
     width: 18%;
-    font-size: 13px;
+    font-size: 80%;
 }
 .item6-page-53{
     position: absolute;
-    top: 29.5%;
+    top: 28.7%;
     left: 62%;
-    width: 21%;
-    font-size: 13px;
+    width: 20%;
+    font-size: 75%;
 }
 .item7-page-53{
     position: absolute;
-    top: 38.5%;
-    left: 66.7%;
-    width: 27%;
-    font-size: 13px;
+    top: 36%;
+    left: 66.5%;
+    width: 25%;
+    font-size: 80%;
 }
 .item8-page-53{
     position: absolute;
-    top: 51.5%;
-    left: 2.5%;
-    width: 28%;
-    font-size: 13px;
+    top: 49.5%;
+    left: 10%;
+    width: 25%;
+    font-size: 80%;
 }
 .item9-page-53{
     position: absolute;
-    top: 51%;
+    top: 48.5%;
     left: 66%;
     width: 28%;
-    font-size: 13px;
+    font-size: 80%;
 }
 .item10-page-53{
     position: absolute;
-    top: 64%;
-    left: 22%;
+    top: 61%;
+    left: 28%;
     width: 28%;
-    font-size: 13px;
+    font-size: 80%;
 }
 .item11-page-53{
     position: absolute;
-    top: 65.5%;
-    left: 60%;
+    top: 62.5%;
+    left: 61%;
     width: 28%;
-    font-size: 13px;
+    font-size: 80%;
 }
 .item12-page-53{
     position: absolute;
-    top: 73.5%;
-    left: 41.5%;
+    top: 70%;
+    left: 44%;
     width: 28%;
-    font-size: 13px;
+    font-size: 80%;
 }
 .titulo2-page-53{
     position: absolute;
@@ -5481,7 +5326,7 @@ left: 26%;
 /***************************************************/
 .item11-page-56{
     position: absolute;
-    top: 25.5%;
+    top: 25%;
     left: 5%;
     list-style: none;
     font-size: 80%;
@@ -5617,6 +5462,7 @@ left: 26%;
     top: 91.5%;
     left: 8.3%;
     color: rgb(250, 246, 27);
+    background-color: rgb(24, 173, 173) !important;
 }
 .titulo1-page-58{
     position: absolute;
@@ -5737,25 +5583,25 @@ left: 26%;
 }
 .item2-page-59{
     position: absolute;
-    top: 11%;
+    top: 12%;
     left: 43%;
     font-weight: bold;
 }
 .item3-page-59{
     position: absolute;
     top: 15%;
-    left: 14%;
+    left: 19%;
 }.item4-page-59{
     position: absolute;
     top: 18.5%;
-    left: 14%;
+    left: 19%;
 }.item5-page-59{
     position: absolute;
     top: 15%;
     left: 52.5%;
 }.item6-page-59{
     position: absolute;
-    top: 19.5%;
+    top: 19%;
     left: 52.5%;
 }
 .item7-page-59{
@@ -5765,67 +5611,64 @@ left: 26%;
 }
 .item8-page-59{
     position: absolute;
-    top:26%;
-    left: 7%;
+    top:25%;
+    left: 8.5%;
     list-style: none;
+    font-size: 75% !important;
 }
-.item8-page-59>li{
-    margin-bottom: 2%;
-}
+
 .item9-page-59{
     position: absolute;
-    top:25.7%;
+    top:25%;
     left: 25%;
     list-style: none;
+    font-size: 75% !important;
 }
+
 .item9-page-59>li{
+   
     background-color: white;
-}
-.item9-page-59>li{
-    margin-bottom: 2%;
-}
-.item9-page-59>li>span{
-    font-size: 15px;
-    font-weight: bold;
 }
 .item10-page-59{
     position: absolute;
     top: 23%;
-    left: 13%;
+    left: 19%;
     font-weight: bold;
+    font-size: 75% !important;
 }
 .item11-page-59{
     position: absolute;
     top: 23%;
-    left: 52.5%;
+    left: 51%;
     font-weight: bold;
+    font-size: 75% !important;
 }
 .item12-page-59{
     position: absolute;
     top: 25.5%;
-    left: 51.5%;
+    left: 49%;
     list-style: none;
 }
 .item12-page-59>li{
-    margin-bottom: 2%;
+    margin-bottom: -2%;
 }
 .item13-page-59{
     position: absolute;
     top: 25.5%;
-    left: 63%;
+    left: 61%;
     list-style: none;
 }
 .item13-page-59>li{
-    margin-bottom: 2%;
+    margin-bottom: -2%;
 }
 .item14-page-59{
     position: absolute;
     top: 25.5%;
-    left: 80%;
+    left: 77%;
     list-style: none;
 }
 .item14-page-59>li{
-    margin-bottom: 2%;
+    margin-bottom: -2%;
 }
 .item15-page-59{
     position: absolute;
@@ -5923,12 +5766,14 @@ left: 26%;
     top: 35%;
     left: 9%;
     list-style: none;
+    background-color: white;
 }
 .item2-page-61{
     position: absolute;
     top: 35%;
     left: 52%;
     list-style: none;
+    background-color: white;
 }
 .item3-page-61{
     position: absolute;
@@ -5946,73 +5791,20 @@ left: 26%;
 /***************************************************/
 .item1-page-62{
     position: absolute;
-    top: 50.5%;
-    left: 7%;
-    list-style: none;
+    top: 50%;
+    left: 10%;
+    background-color: white;
+    
 }
-.item1-page-62>li{
-    margin-bottom: 8%;
-}
+
 
 
 .result1-page-62,.result2-page-62,.result3-page-62,.result4-page-62,.result5-page-62,.result6-page-62,.result7-page-62,.result8-page-62{
     position: absolute;
-    top: 1%;
-    left: 38.5%;
-    font-weight: bold;
-}
-.btn1-page-62,.btn2-page-62,.btn3-page-62,.btn4-page-62,.btn5-page-62,.btn6-page-62,.btn7-page-62,.btn8-page-62{
-    position: absolute;
-}
-.item2-page-62{
-    position: absolute;
-    top: 50.2%;
-    left: 56%;
-    font-weight: bold;
-}
-.item3-page-62{
-    position: absolute;
-    top: 52.5%;
-    left: 83%;
-    font-weight: bold;
-}
-.item4-page-62{
-    position: absolute;
-    top: 55.3%;
-    left: 80%;
-    font-weight: bold;
+    
 }
 
-.item5-page-62{
-    position: absolute;
-    top: 57.5%;
-    left: 67%;
-    font-weight: bold;
-}
-.item6-page-62{
-    position: absolute;
-    top: 59.5%;
-    left: 68%;
-    font-weight: bold;
-}
-.item7-page-62{
-    position: absolute;
-    top: 62%;
-    left: 84.5%;
-    font-weight: bold;
-}
-.item8-page-62{
-    position: absolute;
-    top: 64.3%;
-    left: 69.8%;
-    font-weight: bold;
-}
-.item9-page-62{
-    position: absolute;
-    top: 66.5%;
-    left: 61.5%;
-    font-weight: bold;
-} 
+
 
 /***************************************************/
 /***************************************************/
@@ -6026,34 +5818,40 @@ left: 26%;
 }
 .item19-page-63{
     position: absolute;
-    top: 70%;
-    left: 7%;
+    top: 67%;
+    left: 0%;
     list-style: none;
+    background-color: white;
+    width: 50%;
+    font-size: 80%;
 }
 .item20-page-63{
     position: absolute;
-    top: 70%;
-    left: 48%;
+    top: 67%;
+    left: 50%;
     list-style: none;
+    background-color: white;
+    width: 45%;
+    font-size: 80%;
 }
 .item19-page-63>li{
-    margin-bottom: 70%;
+    margin-bottom: 2% ;
 }
 .item20-page-63>li{
-    margin-bottom: 70%;
+    margin-bottom: 2%;
 }
 
 .result2-page-63{
     position: absolute;
     top: 20px;
-    right: 11px;
+    right: 70%;
     font-size: 20px;
    
 }
 .result3-page-63,.result8-page-63,.result13-page-63{
     position: absolute;
-    top: 13px;
-    right: 11px;
+    top: 80%;
+    right: 70%;
     font-size: 20px;
    
 }
@@ -6067,119 +5865,119 @@ left: 26%;
     position: absolute;
     top: 3px;
     right: 10px;
-    font-size: 20px;
+    font-size: 18px;
 }
 .btn1-page-63,.btn2-page-63,.btn3-page-63,.btn4-page-63,.btn5-page-63,.btn6-page-63,.btn7-page-63,.btn8-page-63,.btn9-page-63,.btn10-page-63,.btn11-page-63,.btn12-page-63,.btn13-page-63,.btn14-page-63,.btn15-page-63,.btn16-page-63,.btn17-page-63,.btn18-page-63{
     position: absolute;
 }
 .item1-page-63{
     position: absolute;
-    top: 17.5%;
-    left: 26.5%;
+    top: 16.8%;
+    left: 32%;
     font-weight: bold;
 }
 .item2-page-63{
     position: absolute;
-    top: 16%;
-    left: 40%;
+    top: 15%;
+    left: 43%;
     font-weight: bold;
 }
 .item3-page-63{
     position: absolute;
-    top: 15%;
-    left: 51%;
+    top: 15.5%;
+    left: 52.5%;
     font-weight: bold;
 }
 .item4-page-63{
     position: absolute;
-    top: 15%;
-    left: 63%;
+    top: 14.5%;
+    left: 65%;
     font-weight: bold;
 }
 
 .item5-page-63{
     position: absolute;
-    top: 17.5%;
-    left: 71%;
+    top: 17%;
+    left: 72%;
     font-weight: bold;
 }
 .item6-page-63{
     position: absolute;
-    top: 16%;
-    left: 84.5%;
+    top: 15.5%;
+    left: 83.5%;
     font-weight: bold;
 }
 .item7-page-63{
     position: absolute;
-    top: 45%;
-    left: 34%;
+    top: 43%;
+    left: 38.5%;
     font-weight: bold;
 }
 .item8-page-63{
     position: absolute;
-    top: 35%;
-    left: 48%;
+    top: 34.3%;
+    left: 49.5%;
     font-weight: bold;
 }
 .item9-page-63{
     position: absolute;
-    top: 34.5%;
-    left: 63%;
+    top: 33%;
+    left: 64.5%;
     font-weight: bold;
 } 
 .item10-page-63{
     position: absolute;
-    top: 35%;
+    top: 33.5%;
     left: 74.5%;
     font-weight: bold;
 }
 .item11-page-63{
     position: absolute;
-    top: 35.8%;
-    left: 85%;
+    top: 34.2%;
+    left: 83.5%;
     font-weight: bold;
 }
 .item12-page-63{
     position: absolute;
-    top: 57.5%;
-    left: 27.5%;
+    top: 55%;
+    left: 32.5%;
     font-weight: bold;
 }
 .item13-page-63{
     position: absolute;
-    top: 52.5%;
-    left: 37.5%;
+    top: 50.7%;
+    left: 41.3%;
     font-weight: bold;
 }
 .item14-page-63{
     position: absolute;
-    top: 51.5%;
-    left: 47.5%;
+    top: 49%;
+    left: 50.8%;
     font-weight: bold;
 }
 
 .item15-page-63{
     position: absolute;
-    top: 51.8%;
-    left: 55.5%;
+    top: 49.5%;
+    left: 58%;
     font-weight: bold;
 }
 .item16-page-63{
     position: absolute;
-    top: 56.5%;
-    left: 63.5%;
+    top: 52.5%;
+    left: 64.5%;
     font-weight: bold;
 }
 .item17-page-63{
     position: absolute;
-    top: 51%;
-    left: 75%;
+    top: 49%;
+    left: 74.5%;
     font-weight: bold;
 }
 .item18-page-63{
     position: absolute;
-    top: 52.4%;
-    left: 84.5%;
+    top: 50%;
+    left: 83.5%;
     font-weight: bold;
 }
 /***************************************************/
@@ -6201,55 +5999,62 @@ left: 26%;
     position: absolute;
     top: 22%;
     left: 9%;
+    font-size: 85% ;
 }
 .item4-page-64{
     position: absolute;
     top: 25%;
     left: 11%;
+    font-size: 85% ;
 }
 .item5-page-64{
     position: absolute;
     top: 25%;
-    left: 43%;
+    left: 25%;
+    font-size: 85% ;
 }
 .item6-page-64{
     position: absolute;
     top: 25%;
-    left: 78%;
+    left: 35%;
+    font-size: 85% ;
 }
 .item7-page-64{
     position: absolute;
     top: 28%;
     left: 11%;
+    font-size: 85% ;
 }
 .item8-page-64{
     position: absolute;
     top: 31%;
-    left: 11%;
+    left: 11%;    
+    font-size: 85% ;
 }
 .item9-page-64{
     position: absolute;
-    top: 36%;
+    top: 35.5%;
     left: 20%;
     color: #fff;
     font-weight: bold;
 }
 .item10-page-64{
     position: absolute;
-    top: 40%;
+    top: 39%;
     left: 11%;
     font-weight: bold;
 }
 .item11-page-64{
     position: absolute;
     top: 42%;
-    left: 22%;
+    left: 24%;
     
 }
 .item12-page-64{
     position: absolute;
-    top: 48%;
-    left: 13%;
+    top: 47%;
+    left: 10%;
+    font-size: 85% ;
 }
 .result1-page-64,.result2-page-64,.result3-page-64,.result4-page-64,.result5-page-64,.result6-page-64,.result7-page-64,.result8-page-64,.result9-page-64,.result10-page-64,.result11-page-64,.result12-page-64,.result13-page-64,.result14-page-64{
     position: absolute;
@@ -6262,8 +6067,9 @@ left: 26%;
 .item1-page-65{
     position: absolute;
     top: 10.5%;
-    left: 13%;
+    left: 25%;
     font-weight: bold;
+    font-size: 85% !important;
     color: white;
 }
 .item2-page-65{
@@ -6285,61 +6091,65 @@ left: 26%;
 }
 .item5-page-65{
     position: absolute;
-    top: 28%;
+    top: 26%;
     left: 15%;
     list-style: none;
+    font-size: 85% !important;
 }
 .item5-page-65>li{
-    margin-bottom: 8%;
+    margin-bottom: 5%;
 }
 .item5-5-page-65{
     position: absolute;
-    top: 28%;
-    left: 50%;
+    top: 26%;
+    left: 53%;
     list-style: none;
+    font-size: 85% !important;
 }
 .item5-5-page-65>li{
-    margin-bottom: 18%;
+    margin-bottom: 13%;
 }
 .item6-page-65{
     position: absolute;
-    top: 45%;
-    left: 13%;
+    top: 43.3%;
+    left: 25%;
     font-weight: bold;
     color: white;
+    font-size: 85% !important;
 }
 .item7-page-65{
     position: absolute;
-    top: 50%;
+    top: 48%;
     left: 13%;
+    font-size: 85% !important;
 }
 .item8-page-65{
     position: absolute;
-    top: 55%;
+    top: 53%;
     left: 13%;
     font-weight: bold;
 }
 .item9-page-65{
     position: absolute;
-    top: 58%;
+    top: 56%;
     left: 23%;
     font-weight: bold;
 }
 .item10-page-65{
     position: absolute;
-    top: 60%;
+    top: 59%;
     left: 23%;
     font-weight: bold;
+    font-size: 85% !important;
 }
 .item11-page-65{
     position: absolute;
-    top: 63%;
+    top: 62%;
     left: 15%;
-    
+    background-color: white;
+    font-size: 75% !important;
 }
-.item11-page-65>li{
-    margin-bottom: -2%;
-}
+
 /***************************************************/
 /***************************************************/
 /**********************Page 66***********************/
@@ -6366,8 +6176,10 @@ left: 26%;
 }
 .item4-page-66{
     position: absolute;
-    top: 54.5%;
-    left: 16%;
+    top: 53.5%;
+    left: 2%;
+    font-size: 85% !important;
+    background-color: white;
 }
 
 .result1-page-66,.result2-page-66,.result3-page-66,.result4-page-66,.result5-page-66,.result6-page-66,.result7-page-66,.result8-page-66,.result9-page-66,.result10-page-66{
@@ -6408,7 +6220,7 @@ left: 26%;
 .item5-page-67{
     position: absolute;
     top: 25%;
-    left: 20%;
+    left: 15%;
 }
 .item5-page-67>li{
     margin-bottom: 0%;
@@ -6457,6 +6269,7 @@ left: 26%;
     top: 71%;
     left: 35%;
     list-style: none;
+    font-size: 85% !important;
     
 }
 .result1-page-67,.result2-page-67,.result3-page-67,.result4-page-67,.result5-page-67,.result6-page-67,.result7-page-67,.result8-page-67,.result9-page-67,.result10-page-67,.result11-page-67,.result12-page-67,.result13-page-67{
@@ -6467,6 +6280,7 @@ left: 26%;
 /**********************Page 68***********************/
 /***************************************************/
 /***************************************************/
+
 .item1-page-68{
     position: absolute;
     top: 3%;
@@ -6481,74 +6295,77 @@ left: 26%;
 }
 .item3-page-68{
     position: absolute;
-    top: 10%;
+    top: 11%;
     left: 7%;
 }
 .item4-page-68{
     position: absolute;
-    top: 13.5%;
-    left: 7%;
-    width: 85%;
-    height: 30%;
-    font-size: 13px;
+    top: 19%;
+    left: 5%;
+    width: 90%;
+    height:65%;
+    font-size: 75% !important;
 }
 .item5-page-68{
     position: absolute;
-    top: 45%;
+    top: 90%;
     left: 7%;
 }
 .item6-page-68{
     position: absolute;
-    top: 48%;
+    top: 5%;
     left: 40%;
     font-weight: bold;
+    font-size: 75% !important;
 }
 .item7-page-68{
     position: absolute;
-    top: 51%;
-    left: 7%;
-    width: 85%;
-    height: 13%;
-    font-size: 13px;
+    top: 9%;
+    left: 5%;
+    width: 90%;
+    height: 28%;
+    font-size: 75% !important;
 }
 .espacio{
     height: 50px;
 }
 .item8-page-68{
     position: absolute;
-    top: 61%;
+    top: 32%;
     left: 45%;
     font-weight: bold;
 }
 .item9-page-68{
     position: absolute;
-    top: 64%;
-    left: 7%;
-    height: 10%;
-    width: 85%;
-    font-size: 13px;
+    top: 36%;
+    left: 5%;
+    height: 25%;
+    width: 90%;
+    font-size: 75% !important;
 }
 .item10-page-68{
     position: absolute;
-    top: 76%;
+    top: 65%;
     left: 7%;
     font-weight: bold;
+    font-size: 70% !important;
 }
 .item11-page-68{
     position: absolute;
-    top: 78%;
-    left: 13%;
+    top: 68%;
+    left: 13%;    
+    font-size: 70% !important;
     
 }
 .item12-page-68{
     position: absolute;
-    top: 90%;
+    top: 85%;
     left: 7%;
     height: 13%;
     width: 85%;
 }
 .espaciol{
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .result2-page-68,.result25-page-68{
     position: absolute;
@@ -6845,4 +6662,34 @@ left: 26%;
     left: 10%;
     width: 80%;
     height: 80%;
+}
+/***************************************************/
+/***************************************************/
+/**********************videos***********************/
+/***************************************************/
+/***************************************************/
+.paginaVideo{
+    position: relative;
+    
+}
+.video1{
+    margin-left: 20%;
+    width: 300px;
+}
+.item1-video1{
+    top: 15%;
+    left: 40%;
+    font-size: 100%;
+}
+/***************************************************/
+/***************************************************/
+/**********************dialogos***********************/
+/***************************************************/
+/***************************************************/
+.dialogo{
+    position:absolute;
+    top:10%;
+    left:5%;
+    font-size:75%;
+    width: 90%;
 }
