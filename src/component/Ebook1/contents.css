@@ -2592,21 +2592,17 @@ left: 26%;
 }
 .item1-page-17{
     position: absolute;
-    top: 15%;
-    left: 2%;
+    top: 12%;
+    left: 5%;
     list-style: none;
 }
 .item2-page-17{
     position: absolute;
     top: 17%;
-    left: 28%;
+    left: 10%;
+    font-size: 85%;
 }
-.item3-page-17{
-    position: absolute;
-    top: 17%;
-    left: 62%;
-    list-style: none;
-}
+
 .item4-page-17{
     position: absolute;
     top: 60.5%;
@@ -6267,7 +6263,7 @@ left: 26%;
 .item12-page-67{
     position: absolute;
     top: 71%;
-    left: 35%;
+    left: 45%;
     list-style: none;
     font-size: 85% !important;
     

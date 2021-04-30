@@ -15,7 +15,16 @@
     padding-left: 8%;
     padding-bottom: 6%;
 }
-
+.paginal2{
+    position: relative;
+    padding-top: 15%;
+    padding-right: 5%; 
+}
+.quizbg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
 .unidad{
     position: relative;
     padding-bottom: 6%;
@@ -28,6 +37,10 @@
 .table-striped tbody tr:nth-of-type(odd) {
     background-color:  rgba(206, 37, 51, 0.479) !important;
  }
+ .toggle{
+     display: none;
+ }
+
 /************************************************/
 /********************Portada**********************/
 /************************************************/
@@ -281,146 +294,3379 @@ margin-bottom: -5%;
 /********************Page 3**********************/
 /************************************************/
 /************************************************/
-.result1-page-4, .result2-page-4, .result3-page-4, .result4-page-4, .result5-page-4,
-.result6-page-4, .result7-page-4, .btn1-page-4, .btn2-page-4, .btn3-page-4, .btn4-page-4,
-.btn5-page-4, .btn6-page-4, .btn7-page-4{
+.item0-p3-l2{
+    position: absolute;
+    font-weight: bold;
+    font-size: 150%;
+    top: 5%;
+    left: 40%;
+}
+.item1-p3-l2{
+    position: absolute;
+        top: 24.5%;
+        left: 0%;
+        font-size: 65%;
+}
+
+.item2-p3-l2{
+    position: absolute;
+    top: 43%;
+    left: 0%;
+    font-size: 65%;
+}
+.item2-p3-l2>li{
+    width: 30%;
+}
+.item3-p3-l2{
+    position: absolute;
+    top: 63%;
+    left: 0%;
+    font-size: 65%;
+}
+.item3-p3-l2>li{
+    width: 30%;
+}
+
+.item4-p3-l2{
+    position: absolute;
+    top: 82%;
+    left: 0%;
+    font-size: 65%;
+}
+.item4-p3-l2>li{
+    width: 30%;
+}
+.result1-p3-l2,.result2-p3-l2,.result3-p3-l2,.result4-p3-l2, .result5-p3-l2,.result6-p3-l2,
+.result7-p3-l2,.result8-p3-l2, .result9-p3-l2,.result10-p3-l2,.result11-p3-l2,.result12-p3-l2{
     position: absolute;
 }
-.result1-page-4{
-    top: 17.5%;
-    left: 18%;
+/************************************************/
+/********************Page 4**********************/
+/************************************************/
+/************************************************/
+
+.item1-p4-l2{
+    position: absolute;
+        top: 5%;
+        left: 10%;
+        font-size: 85%;
 }
-.btn1-page-4{
-    top: 16.5%;
-    left: 35%;
+.item2-p4-l2{
+    position: absolute;
+    top: 10%;
+    left: 57%;
+    font-size: 85%;
+    width: 40%;
+    text-align: justify;
 }
-.result2-page-4{
-    top: 75.5%;
-    left: 35.5%;
+.item3-p4-l2{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    font-size: 85%;
 }
-.btn2-page-4{
-    top: 75%;
-    left: 42%;
+
+.item4-p4-l2{
+    position: absolute;
+    top: 64%;
+    left: 10%;
+    font-size: 85%;
+    font-weight: bold;
 }
-.result3-page-4{
-    top: 80.3%;
-    left: 39%;
+
+.item5-p4-l2{
+    position: absolute;
+    top: 67%;
+    left: 0%;
+    font-size: 75%;
+    width: 55%;
+    
 }
-.btn3-page-4{
-    top: 78.5%;
+.item6-p4-l2{
+    position: absolute;
+    top: 67%;
     left: 45%;
+    font-size: 75%;
+    width: 55%;
+}	
+
+/************************************************/
+/********************Page 5**********************/
+/************************************************/
+/************************************************/
+
+.item1-p5-l2{
+    position: absolute;
+        top: 0%;
+        left: 11%;
+        font-size: 250%;
+        color: white;
+        font-weight: bold;
 }
-.result4-page-4{
-    top: 85%;
-    left: 42%;
+.item2-p5-l2{
+    position: absolute;
+        top: 8%;
+        left:35%;
+        font-weight: bold;
+        font-size: 100%;
 }
-.btn4-page-4{
-    top: 83%;
-    left: 46%;
+.item3-p5-l2{
+    position: absolute;
+        top: 14%;
+        left: 14%;
+        font-weight: bold;
 }
-.result5-page-4{
-    top: 75.5%;
-    left: 73.5%;
+
+.item4-p5-l2{
+    position: absolute;
+    top: 14%;
+    left: 45%;
+    font-weight: bold; 
 }
-.btn5-page-4{
-    top: 73.8%;
-    left: 79%;
+
+.item5-p5-l2{
+    position: absolute;
+    top: 14%;
+        left: 75%;
+        font-weight: bold;
 }
-.result6-page-4{
-    top: 80.2%;
-    left: 73.8%;
+.item6-p5-l2{
+    position: absolute;
+    top: 37%;
+    left: 14%;
+    font-weight: bold; 
+}	
+.item7-p5-l2{
+    position: absolute;
+    top: 37%;
+    left: 45%;
+    font-weight: bold; 
 }
-.btn6-page-4{
-    top: 78%;
-    left: 79%;
+.item8-p5-l2{
+    position: absolute;
+    top: 37%;
+    left: 75%;
+    font-weight: bold; 
 }
-.result7-page-4{
-    top: 84.8%;
-    left: 63%;
+.item9-p5-l2{
+    position: absolute;
+    top: 59%;
+    left: 14%;
+    font-weight: bold;
 }
-.btn7-page-4{
-    top: 84%;
-    left: 72.5%;
+.item10-p5-l2{
+    position: absolute;
+    top: 59%;
+    left: 45%;
+    font-weight: bold;
 }
+.item11-p5-l2{
+    position: absolute;
+    top: 59%;
+    left: 75%;
+    font-weight: bold;
+}
+.item12-p5-l2{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    font-weight: bold;
+}
+
+.item13-p5-l2{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    font-weight: bold;
+}
+
+.item14-p5-l2{
+    position: absolute;
+    top: 80%;
+    left: 65%;
+    font-weight: bold;
+}
+
 /************************************************/
 /********************Page 6**********************/
 /************************************************/
 /************************************************/
-.result1-page-6, .result2-page-6, .result3-page-6, .result4-page-6, .result5-page-6,
-.result6-page-6, .result7-page-6, .result8-page-6, .result9-page-6,.btn1-page-6,
-.btn2-page-6, .btn3-page-6, .btn4-page-6, .btn5-page-6, .btn6-page-6, .btn7-page-6,
-.btn8-page-6, .btn9-page-6{
+.item1-p6-l2{
+    position: absolute;
+    font-weight: bold;
+    top: 15%;
+    left: 19%;    
+    font-size: 75%;
+}
+.item2-p6-l2{
+    position: absolute;
+    top: 21%;
+    left: 15%;    
+    font-size: 75%;
+    list-style: none;
+}
+.item2-p6-l2>li{
+    margin-bottom: 70%;
+}
+.item3-p6-l2{
+    position: absolute;
+    top: 20%;
+    left: 28%;    
+    font-size: 75%;
+    list-style: none;
+}
+.item3-p6-l2>li{
+    margin-bottom: 22%;
+}
+
+.item4-p6-l2{
+    position: absolute;
+    top: 20%;
+    left: 45%;    
+    font-size: 75%;
+    list-style: none;
+}
+.item4-p6-l2>li{
+    margin-bottom: 22%;
+}
+
+.item5-p6-l2{
+    position: absolute;
+    top: 20%;
+    left: 55%;    
+    font-size: 75%;
+    list-style: none;
+}
+.item5-p6-l2>li{
+    margin-bottom: 10%;
+}
+.item6-p6-l2{
+    position: absolute;
+    top: 20%;
+    left: 75%;    
+    font-size: 75%;
+    list-style: none;
+}
+.item6-p6-l2>li{
+    margin-bottom: 200%;
+}
+.item7-p6-l2{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-weight: bold;
+}
+.item8-p6-l2{
+    position: absolute;
+    top: 48%;
+    left: 5%;
+    list-style: none;
+    font-size: 85%;
+}
+.item8-p6-l2>li{
+    margin-bottom: 4%;
+}
+.item9-p6-l2{
+    position: absolute;
+    top: 48%;
+    left: 40%;
+    list-style: none;
+    font-size: 85%;
+    background-color: white;
+}
+.item9-p6-l2>li{
+    margin-bottom: 2%;
+}
+.result1-p6-l2,.result2-p6-l2,.result3-p6-l2,.result4-p6-l2, .result5-p6-l2,.result6-p6-l2,.result7-p6-l2,.result8-p6-l2, .result9-p6-l2{
     position: absolute;
 }
-.result1-page-6{
-    top: 53.5%;
-    left: 55.7%;
+/************************************************/
+/********************Page 7**********************/
+/************************************************/
+/************************************************/
+
+.item1-p7-l2{
+    position: absolute;
+        top: 5%;
+        left: 10%;
+        font-weight: bold;
 }
-.btn1-page-6{
-    top: 53.5%;
-    left: 85%;
+.item2-p7-l2{
+    position: absolute;
+        top: 33%;
+        left: 10%;
+        font-size: 85%;
+        width: 100%;
 }
-.result2-page-6{
-    top: 56.7%;
-    left: 55.7%;
+.item2-p7-l2>li{
+    margin-left: 5%;
 }
-.btn2-page-6{
-    top: 56.7%;
-    left: 85%;
+.item3-p7-l2{
+    position: absolute;
+    top: 58%;
+    left: 10%;
+    font-size: 75%;
+    width: 100%;
 }
-.result3-page-6{
-    top: 60.3%;
-    left: 55.7%;
+.item3-p7-l2>li{
+margin-left: 5%;
 }
-.btn3-page-6{
-    top: 60.3%;
-    left: 85%;
+.item4-p7-l2{
+    position: absolute;
+    top: 82%;
+    left: 10%;
+    font-size: 85%;
+    width: 100%;
 }
-.result4-page-6{
-    top: 63.5%;
-    left: 55.7%;
+.item4-p7-l2>li{
+margin-left: 5%;
 }
-.btn4-page-6{
-    top: 63.5%;
-    left: 85%;
+.result1-p7-l2,.result2-p7-l2,.result3-p7-l2,.result4-p7-l2, .result5-p7-l2,.result6-p7-l2{
+    position: absolute;
 }
-.result5-page-6{
+/************************************************/
+/********************Page 8**********************/
+/************************************************/
+/************************************************/
+.item1-p8-l2{
+    position: absolute;
+      top: 5%;  
+      left: 10%;
+      font-weight: bold;
+}
+.item2-p8-l2{
+    position: absolute;
+      top: 20%;  
+      left: 8%;
+      font-size: 75%;
+      list-style: none;
+}
+.item2-p8-l2>li{
+    margin-bottom: -2%;
+}
+.item3-p8-l2{
+    position: absolute;
+    top: 21%;  
+    left: 51%;
+    font-size: 75%;
+    list-style: none;
+}
+.item3-p8-l2>li{
+  margin-bottom: -2%;
+  background-color: white;
+}
+.item4-p8-l2{
+    position: absolute;
+    top: 47.5%;  
+    left: 7%;
+    font-size: 75%;
+    list-style: none;
+}
+.item4-p8-l2>li{
+  margin-bottom: -2%;
+}
+
+.item5-p8-l2{
+    position: absolute;
+    top: 47.5%;  
+    left: 51%;
+    font-size: 75%;
+    list-style: none;
+}
+.item5-p8-l2>li{
+  margin-bottom: -2%;
+}
+.item6-p8-l2{
+    position: absolute;
+    top: 72.5%;  
+    left: 7%;
+    font-size: 75%;
+    list-style: none;
+}
+.item6-p8-l2>li{
+  margin-bottom: -2%;
+}
+.item7-p8-l2{
+    position: absolute;
+    top: 72.5%;  
+    left: 51%;
+    font-size: 75%;
+    list-style: none;
+}
+.item7-p8-l2>li{
+  margin-bottom: -2%;
+}
+.result1-p8-l2,.result2-p8-l2,.result3-p8-l2,.result4-p8-l2, .result5-p8-l2,.result6-p8-l2,.result7-p8-l2,.result8-p8-l2, .result9-p8-l2,.result10-p8-l2,.result11-p8-l2,.result12-p8-l2,
+.result13-p8-l2,.result14-p8-l2,.result15-p8-l2,.result16-p8-l2, .result17-p8-l2,.result18-p8-l2,.result19-p8-l2,.result20-p8-l2, .result21-p8-l2,.result22-p8-l2,.result23-p8-l2,
+.result24-p8-l2, .result25-p8-l2,.result26-p8-l2,.result27-p8-l2{
+    position: absolute;
+}
+/************************************************/
+/********************Page 9**********************/
+/************************************************/
+/************************************************/
+
+.item1-p9-l2{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    font-size: 85%;
+    width: 50%;
+}
+.item2-p9-l2{
+    position: absolute;
+    top: 36%;
+    left: 0%;
+    font-size: 80%;
+    list-style: none;
+}
+.item3-p9-l2{
+    position: absolute;
+    top: 36%;
+    left: 40%;
+    font-size: 80%;
+    width: 50%;
+    list-style: none;
+}
+
+.item4-p9-l2{
+    position: absolute;
+    top: 63%;
+    left: 10%;
+    font-size: 85%;
+    font-weight: bold;
+}
+
+.item5-p9-l2{
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    font-size: 80%;
+    width: 100%;
+}
+.item5-p9-l2>li{
+margin-left: 3%;
+}
+
+
+/************************************************/
+/********************Page 10**********************/
+/************************************************/
+/************************************************/
+
+.item1-p10-l2{
+    position: absolute;
+        top: 0%;
+        left: 11%;
+        font-weight: bold;
+        font-size: 250%;
+        color: white;
+}
+.item2-p10-l2{
+    position: absolute;
+    top: 6%;
+    left: 35%;
+    font-weight: bold;
+    font-size: 150%;
+}
+.item3-p10-l2{
+    position: absolute;
+    top: 11.5%;
+    left: 11%;
+    font-weight: bold; 
+}
+
+.item4-p10-l2{
+    position: absolute;
+    top: 11.5%;
+    left: 43%;
+    font-weight: bold;   
+}
+
+.item5-p10-l2{
+    position: absolute;
+    top: 11.5%;
+    left: 75%;
+    font-weight: bold;
+}
+.item6-p10-l2{
+    position: absolute;
+    top: 44%;
+    left: 11%;
+    font-weight: bold;
+}	
+.item7-p10-l2{
+    position: absolute;
+    top: 44%;
+    left: 43%;
+    font-weight: bold;
+}
+.item8-p10-l2{
+    position: absolute;
+    top: 44%;
+    left: 75%;
+    font-weight: bold;
+}
+.item9-p10-l2{
+    position: absolute;
+    top: 75%;
+    list-style: none;
+    left: 10%;
+    font-weight: bold;
+}
+.item10-p10-l2{
+    position: absolute;
+    top: 75%;
+    list-style: none;
+    left: 45%;
+    font-weight: bold;
+}
+
+
+
+/************************************************/
+/********************Page 11**********************/
+/************************************************/
+/************************************************/
+
+.item1-p11-l2{
+    position: absolute;
+        top: 5%;
+        left: 30%;
+        font-weight: bold;
+}
+.item2-p11-l2{
+    position: absolute;
+        top: 13%;
+        left: 40%;
+        font-size: 80%;
+        list-style: none;
+        font-weight: bold;
+}
+.item3-p11-l2{
+    position: absolute;
+    top: 13%;
+    left: 60%;
+    font-size: 80%;
+    list-style: none;
+    font-weight: bold;
+}
+
+.item4-p11-l2{
+    position: absolute;
+    top: 38%;
+    left: 10%;
+    font-size: 85%;
+    font-weight: bold;  
+}
+
+.item5-p11-l2{
+    position: absolute;
+    top: 44%;
+    left: 5%;
+    font-size: 80%;
+    list-style: none;
+}
+.item6-p11-l2{
+    position: absolute;
+    top: 44%;
+    left: 40%;
+    font-size: 80%;
+    list-style: none;
+}	
+.item7-p11-l2{
+    position: absolute;
+        top: 14%;
+        left: 35%;
+        font-size: 80%;
+        list-style: none;
+        font-weight: bold;
+}
+.result1-p11-l2,.result2-p11-l2,.result3-p11-l2,.result4-p11-l2, .result5-p11-l2,
+.result6-p11-l2,.result7-p11-l2,.result8-p11-l2, .result9-p11-l2,.result10-p11-l2{
+    position: absolute;
+}
+
+/************************************************/
+/********************Page 12**********************/
+/************************************************/
+/************************************************/
+.boton1{
+    position: absolute;
+    top: 14%;
+    left: 13%;
+    font-size: 120%;
+    color: dodgerblue;
+    cursor: pointer;
+}
+.boton2{
+    position: absolute;
+    top: 14%;
+    left: 40%;
+    font-size: 120%;
+    color: dodgerblue;
+    cursor: pointer;
+}
+.boton3{
+    position: absolute;
+    top: 14%;
+    left: 70%;
+    font-size: 120%;
+    color: dodgerblue;
+    cursor: pointer;
+}
+.boton4{
+    position: absolute;
+    top: 38%;
+    left: 13%;
+    font-size: 120%;
+    color: dodgerblue;
+    cursor: pointer;
+}
+.boton5{
+    position: absolute;
+    top: 38%;
+    left: 40%;
+    font-size: 120%;
+    color: dodgerblue;
+    cursor: pointer;
+}
+.boton6{
+    position: absolute;
+    top: 38%;
+    left: 70%;
+    font-size: 120%;
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+.item1-p12-l2{
+    position: absolute;
+        top: 5%;
+        left: 10%;
+        font-weight: bold;
+}
+.item2-p12-l2{
+    position: absolute;
+      top: 29.5%;
+      left: 10%; 
+      font-size: 75%;
+    background-color:white;
+    border: 1px solid #C00;
+}
+
+.item3-p12-l2{
+    position: absolute;
+    top: 29.5%;
+    left: 30%; 
+    font-size: 75%;
+    background-color:white;
+    border: 1px solid #C00; 
+}
+.item4-p12-l2{
+    position: absolute;
+    top: 29.5%;
+    left: 57%;  
+    font-size: 75%;
+    background-color:white;
+    border: 1px solid #C00;  
+}
+.item5-p12-l2{
+    position: absolute;
+    top: 49%;
+    left: 5%;  
+    font-size: 75%;
+    background-color:white;
+    border: 1px solid #C00;  
+}
+.item6-p12-l2{
+    position: absolute;
+    top: 49%;
+    left: 30%;  
+    font-size: 75%;
+    background-color:white;
+    border: 1px solid #C00;    
+}
+.item7-p12-l2{
+    position: absolute;
+    top: 49%;
+    left: 57%;  
+    font-size: 75%;
+    background-color:white;
+    border: 1px solid #C00;   
+}
+
+
+.item8-p12-l2{
+    position: absolute;
+    top: 56%;
+    left: 10%; 
+    font-weight: bold;
+    font-size: 85%; 
+}
+
+.item9-p12-l2{
+    position: absolute;
+    top: 78%;
+      left: 5%;  
+      width: 50%;
+      font-size: 75%;
+      list-style: none;
+}
+.item9-p12-l2>li{
+    margin-bottom: -2%;
+}
+.item10-p12-l2{
+    position: absolute;
+    top: 78%;
+      left: 43%;  
+      width: 50%;
+      font-size: 75%;
+      list-style: none;
+}
+.item10-p12-l2>li{
+    margin-bottom: -2%;
+}
+.result1-p12-l2,.result2-p12-l2,.result3-p12-l2,.result4-p12-l2, .result5-p12-l2,.result6-p12-l2,.result7-p12-l2,.result8-p12-l2, .result9-p12-l2,.result10-p12-l2,.result11-p12-l2,.result12-p12-l2,
+.result13-p12-l2,.result14-p12-l2,.result15-p12-l2,.result16-p12-l2, .result17-p12-l2,.result18-p12-l2{
+    position: absolute;
+}
+/************************************************/
+/********************Page 13**********************/
+/************************************************/
+/************************************************/
+
+.item1-p13-l2{
+    position: absolute;
+        top: 5%;
+        left: 10%;
+        font-weight: bold;
+}
+.item2-p13-l2{
+    position: absolute;
+       top: 12%;
+       left: 62%;
+       font-size: 75%; 
+       width: 30%;
+       text-align: justify;
+}
+.item3-p13-l2{
+    position: absolute;
+    top: 45%;
+    left: 62%;
+    font-size: 75%; 
+    width: 30%;
+    text-align: justify;  
+}
+
+.item4-p13-l2{
+    position: absolute;
+    top: 72%;
+    left: 14%;
+    font-size: 75%; 
+    width: 50%;    
+}
+.item4-p13-l2>ol>li{
+    margin-bottom: -1%;
+}
+.result1-p13-l2{
+    position: absolute;
+}
+/************************************************/
+/********************Page 14**********************/
+/************************************************/
+/************************************************/
+
+.item1-p14-l2{
+    position: absolute;
+      top: 11%;
+      left: 40%;
+      font-weight: bold;  
+}
+.item2-p14-l2{
+    position: absolute;
+        top: 16.5%;
+        left: 15%;
+        font-size: 85%;
+        font-weight: bold;
+        color: white;
+}
+.item3-p14-l2{
+    position: absolute;
+        top: 21%;
+        left: 14%;
+        font-size: 85%;
+}
+
+.item4-p14-l2{
+    position: absolute;
+    top: 28%;
+    left: 0%;
+    font-size: 80%;
+}
+
+.item5-p14-l2{
+    
+    list-style: none;
+    
+}
+.item6-p14-l2{
+    position: absolute;
+    top: 53%;
+    left: 15%;
+    font-size: 85%;
+    font-weight: bold;
+    color: white;
+}	
+.item7-p14-l2{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    font-size: 75%;
+}
+.item8-p14-l2{
+    position: absolute;
+    top: 59%;
+    left: 25%;
+    font-size: 75%;
+}
+.item9-p14-l2{
+    position: absolute;
+    top: 61.5%;
+    left: 5%;
+    font-size: 75%;
+    width: 90%;
+    background-color: white;
+    height:34%;
+}
+.item9-p14-l2>table{
+    width: 100%;
+}
+.item9-p14-l2>table>tbody>tr>td{
+    width: 50%;
+}
+.result1-p14-l2,.result2-p14-l2,.result3-p14-l2,.result4-p14-l2, .result5-p14-l2,.result6-p14-l2,.result7-p14-l2,.result8-p14-l2, .result9-p14-l2,.result10-p14-l2,.result11-p14-l2,.result12-p14-l2,
+.result13-p14-l2,.result14-p14-l2,.result15-p14-l2,.result16-p14-l2, .result17-p14-l2,.result18-p14-l2{
+    position: absolute;
+}
+
+/************************************************/
+/********************Page 15**********************/
+/************************************************/
+/************************************************/
+
+.item1-p15-l2{
+    position: absolute;
+        top: 2%;
+        left: 10%;
+        font-weight: bold;
+        background-color: rgb(138, 42, 8);
+        color: white;
+}
+.item2-p15-l2{
+    position: absolute;
+        top: 5%;
+        left: 10%;
+        font-size: 80%;
+
+}
+.item3-p15-l2{
+    position: absolute;
+    top: 32%;
+    left: 3%;
+    font-size: 80%;
+}
+.item3-p15-l2>li{
+    margin-bottom: -0.3%;
+}
+.item4-p15-l2{
+    position: absolute;
+    top: 47%;
+    left: 15%;
+    font-size: 85%;
+    font-weight: bold;
+    color: white;
+}
+
+.item5-p15-l2{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 85%;
+    font-weight: bold;
+}
+.item6-p15-l2{
+    position: absolute;
     top: 67%;
-    left: 55.7%;
+    left: 10%;
+    font-size: 85%;
+    width: 80%;
+    text-align: justify;
+    background-color: white;
+}	
+.result1-p15-l2,.result2-p15-l2,.result3-p15-l2,.result4-p15-l2, .result5-p15-l2,.result6-p15-l2,.result7-p15-l2,.result8-p15-l2, .result9-p15-l2,.result10-p15-l2,.result11-p15-l2,.result12-p15-l2,
+.result13-p15-l2,.result14-p15-l2,.result15-p15-l2,.result16-p15-l2, .result17-p15-l2,.result18-p15-l2,.result19-p15-l2,.result20-p15-l2{
+    position:absolute;
 }
-.btn5-page-6{
-    top: 67%;
-    left: 85%;
+/************************************************/
+/********************Page 16**********************/
+/************************************************/
+/************************************************/
+.item1-p16-l2{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-size: 85%;
+    width: 90%;
+    text-align: justify;
+}	
+.result1-p16-l2,.result2-p16-l2,.result3-p16-l2,.result4-p16-l2, .result5-p16-l2{
+    position: absolute;
 }
-.result6-page-6{
-    top: 70.5%;
-    left: 55.7%;
+/************************************************/
+/********************Page 17**********************/
+/************************************************/
+/************************************************/
+.item1-p17-l2{
+    position: absolute;
+       top: 0%; 
+       left: 10%;
+       font-size: 250%;
+       font-weight: bold;
+       color: white;
+       background-color: rgb(138, 42, 8) ;
 }
-.btn6-page-6{
-    top: 70.5%;
-    left: 85%;
+.item2-p17-l2{
+    position: absolute;
+    top: 5%; 
+    left: 40%;
+    font-size: 120%;
+    font-weight: bold;
 }
-.result7-page-6{
-    top: 76%;
-    left: 55.7%;
+.item3-p17-l2{
+    position: absolute;
+    top: 12.5%; 
+    left: 20%;
+    font-weight: bold;   
 }
-.btn7-page-6{
-    top: 76%;
-    left: 85%;
+
+.item4-p17-l2{
+    position: absolute;
+    top: 12.5%; 
+    left: 45%;
+    font-weight: bold;       
 }
-.result8-page-6{
-    top: 79%;
-    left: 55.7%;
+
+.item5-p17-l2{
+    position: absolute;
+    top: 12.5%; 
+    left: 69%;
+    font-weight: bold;   
 }
-.btn8-page-6{
-    top: 79%;
-    left: 85%;
+.item6-p17-l2{
+    position: absolute;
+    top: 32.5%; 
+    left: 20%;
+    font-weight: bold;   
+}	
+.item7-p17-l2{
+    position: absolute;
+    top: 32.5%; 
+    left: 45%;
+    font-weight: bold;  
 }
-.result9-page-6{
-    top: 82.5%;
-    left: 55.7%;
+.item8-p17-l2{
+    position: absolute;
+    top: 32.5%; 
+    left: 69%;
+    font-weight: bold;  
 }
-.btn9-page-6{
-    top: 82.5%;
-    left: 85%;
+.item9-p17-l2{
+    position: absolute;
+    top: 53.5%; 
+    left: 20%;
+    font-weight: bold;  
+}
+.item10-p17-l2{
+    position: absolute;
+    top: 53.5%; 
+    left: 45%;
+    font-weight: bold;  
+}
+.item11-p17-l2{
+    position: absolute;
+    top: 53.5%; 
+    left: 69%;
+    font-weight: bold;  
+}
+.item12-p17-l2{
+    position: absolute;
+    top: 75%; 
+    left: 3%;
+    font-weight: bold;  
+    font-size: 80%;
+    list-style: none;
+}
+
+.item13-p17-l2{
+    position: absolute;
+    top: 75%; 
+    left: 30%;
+    font-weight: bold;  
+    font-size: 80%;
+    list-style: none;
+}
+
+.item14-p17-l2{
+    position: absolute;
+    top: 75%; 
+    left: 58%;
+    font-weight: bold;  
+    font-size: 80%;
+    list-style: none;
+}
+
+/************************************************/
+/********************Page 18**********************/
+/************************************************/
+/************************************************/
+
+.item1-p18-l2{
+    position: absolute;
+      top: 5%;
+      left: 10%;
+      font-weight: bold;  
+}
+.item2-p18-l2{
+    position: absolute;
+        top: 13%;
+        left: 20%;
+        font-weight: bold;
+        background-color: white;
+        list-style: none;
+        text-align: center;
+        font-size: 85%;
+}
+.item2-p18-l2>li{
+    margin-bottom: 3%;
+}
+.item3-p18-l2{
+    position: absolute;
+    top: 33%;
+    left: 10%;
+    font-weight: bold;   
+}
+
+.item4-p18-l2{
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    font-size: 80%; 
+    list-style: none;
+    
+}
+.item4-p18-l2>li{
+    margin-bottom: 4%;
+}
+.item5-p18-l2{
+    position: absolute;
+    top: 40%;
+    left: 42%;
+    font-size: 80%; 
+    background-color: white;
+    list-style: none;
+}
+.item5-p18-l2>li{
+    margin-bottom: 3%;
+}
+.result1-p18-l2,.result2-p18-l2,.result3-p18-l2,.result4-p18-l2, .result5-p18-l2,.result6-p18-l2,.result7-p18-l2,.result8-p18-l2, .result9-p18-l2{
+    position: absolute;
+}
+/************************************************/
+/********************Page 19**********************/
+/************************************************/
+/************************************************/
+
+.item1-p19-l2{
+    position: absolute;
+        top: 5%;
+        left: 10%;
+        font-weight: bold;
+}
+.item2-p19-l2{
+    position: absolute;
+      top: 23.5%;
+      left: 10%;  
+      font-size: 75%;
+}
+.item3-p19-l2{
+    position: absolute;
+    top: 46.5%;
+    left: 10%;  
+    font-size: 75%;  
+}
+
+.item4-p19-l2{
+    position: absolute;
+    top: 59%;
+    left: 10%;  
+    font-weight: bold;  
+}
+
+.item5-p19-l2{
+    position: absolute;
+    position: absolute;
+    top: 74%;
+    left: 10%;  
+    font-size: 75%; 
+}
+.mb>li{
+    margin-bottom: -1%;
+}
+.result1-p19-l2,.result2-p19-l2,.result3-p19-l2,.result4-p19-l2, .result5-p19-l2,.result6-p19-l2,.result7-p19-l2,.result8-p19-l2, .result9-p19-l2,.result10-p19-l2,.result11-p19-l2,.result12-p19-l2,
+.result13-p19-l2{
+    position: absolute;
+}
+/************************************************/
+/********************Page 20**********************/
+/************************************************/
+/************************************************/
+.item1-p20-l2{
+    position: absolute;
+     top: 5%;
+     left: 10%;   
+     font-size: 85%;
+}
+.item2-p20-l2{
+    position: absolute;
+    top: 13%;
+    left: 60%;   
+    font-size: 85%;
+    width: 30%;
+}
+.item3-p20-l2{
+    position: absolute;
+    top: 29.5%;
+    left: 60%;   
+    font-size: 85%;
+    width: 35%;   
+}
+
+.item4-p20-l2{
+    position: absolute;
+    top: 49%;
+    left: 60%;   
+    font-size: 85%;
+    width: 35%;
+}
+
+.item5-p20-l2{
+    position: absolute;
+    top: 70%;
+    left: 60%;   
+    font-size: 85%;
+    width: 35%;
+}
+
+.result1-p20-l2,.result2-p20-l2,.result3-p20-l2{
+    position: absolute;
+}
+/************************************************/
+/********************Page 21**********************/
+/************************************************/
+/************************************************/
+.item1-p21-l2{
+    position: absolute;
+    top: 0%; 
+    left: 10%;
+    font-size: 250%;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(138, 42, 8) ; 
+}
+.item2-p21-l2{
+    position: absolute;
+    top: 5%; 
+    left: 40%;
+    font-weight: bold; 
+}
+.item3-p21-l2{
+    position: absolute;
+    top: 12%; 
+    left: 16%;
+    font-weight: bold;
+}
+
+.item4-p21-l2{
+    position: absolute;
+    top: 12%; 
+    left: 55%;
+    font-weight: bold;    
+}
+
+.item5-p21-l2{
+    position: absolute;
+    top: 26%; 
+    left: 17%;
+    font-weight: bold;
+}
+.item6-p21-l2{
+    position: absolute;
+    top: 27%; 
+    left: 55%;
+    font-weight: bold;
+}	
+.item7-p21-l2{
+    position: absolute;
+    top: 39%; 
+    left: 15%;
+    font-weight: bold;
+}
+.item8-p21-l2{
+    position: absolute;
+    top: 39%; 
+    left: 55%;
+    font-weight: bold;
+}
+.item9-p21-l2{
+    position: absolute;
+    top: 54%; 
+    left: 17%;
+    font-weight: bold;
+}
+.item10-p21-l2{
+    position: absolute;
+    top: 54%; 
+    left: 56%;
+    font-weight: bold;
+}
+.item11-p21-l2{
+    position: absolute;
+    top: 69%; 
+    left: 31%;
+    font-weight: bold;
+}
+
+/************************************************/
+/********************Page 22**********************/
+/************************************************/
+/************************************************/
+
+.item1-p22-l2{
+    position: absolute;
+      top: 5%;
+      left: 10%;
+      width: 85%;
+      font-size: 85%;
+      background-color: white;  
+}
+.item1-p22-l2>table{
+    width: 100%;
+}
+.item2-p22-l2{
+    position: absolute;
+    top: 21%;
+    left: 10%;
+    font-size: 85%; 
+    font-weight: bold;
+}
+.item3-p22-l2{
+    position: absolute;
+    top: 24%;
+    left: 30%;
+    font-size: 75%; 
+    font-weight: bold;   
+}
+
+.item4-p22-l2{
+    position: absolute;
+    top: 24%;
+    left: 60%;
+    font-size: 75%; 
+    font-weight: bold; 
+}
+
+.item5-p22-l2{
+    position: absolute;
+    top: 26%;
+    left: 14%;
+    font-size: 85%;
+
+}
+.item6-p22-l2{
+    position: absolute;
+    top: 32%;
+    left: 5%;
+    font-size: 80%;
+    list-style: none;
+    
+}	
+.item7-p22-l2{
+    position: absolute;
+    top: 40.5%;
+    left: 5%;
+    font-size: 80%;
+    list-style: none;
+}
+.item8-p22-l2{
+    position: absolute;
+    top: 29%;
+    left: 32%;
+    font-size: 80%;
+    list-style: none;
+}
+.item9-p22-l2{
+    position: absolute;
+    top: 34%;
+    left: 31%;
+    font-size: 80%;
+    list-style: none;
+}
+.item10-p22-l2{
+    position: absolute;
+    top: 43%;
+    left: 31%;
+    font-size: 80%;
+    list-style: none;
+}
+.item11-p22-l2{
+    position: absolute;
+    top: 34%;
+    left: 51%;
+    font-size: 80%;
+}
+.item12-p22-l2{
+    position: absolute;
+    top: 43%;
+    left: 51%;
+    font-size: 80%;
+}
+
+.item13-p22-l2{
+    position: absolute;
+    top: 37%;
+    left: 63%;
+    font-size: 80%;
+}
+
+.item14-p22-l2{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    font-size: 75%;
+    font-style: italic;
+}
+
+.item15-p22-l2{
+    position: absolute;
+    top: 52%;
+    left: 10%;
+    font-size: 85%;
+    font-weight: bold;
+}
+
+.item16-p22-l2{
+    position: absolute;
+    top: 58%;
+    left: 5%;
+    font-size: 85%;
+    list-style: none;
+}
+
+.item17-p22-l2{
+    position: absolute;
+    top: 58%;
+    left: 40%;
+    font-size: 85%;
+    list-style: none;
+    background-color: white;
+}
+.result1-p22-l2,.result2-p22-l2,.result3-p22-l2,.result4-p22-l2, .result5-p22-l2,.result6-p22-l2,.result7-p22-l2{
+    position: absolute;
+}
+/************************************************/
+/********************Page 23**********************/
+/************************************************/
+/************************************************/
+
+.item1-p23-l2{
+    position: absolute;
+        top: 5%;
+        left: 10%;
+        font-weight: bold;
+}
+.item2-p23-l2{
+    position: absolute;
+    top: 11%;
+    left: 10%; 
+    font-size: 75%;
+}
+.item3-p23-l2{
+    position: absolute;
+    top: 29%;
+    left: 12%; 
+    font-size: 75%; 
+    width: 25%; 
+}
+
+.item4-p23-l2{
+    position: absolute;
+    top: 11%;
+    left: 38%; 
+    font-size: 75%;  
+    width: 25%;
+}
+
+.item5-p23-l2{
+    position: absolute;
+    top: 30%;
+    left: 38%; 
+    font-size: 75%;  
+    width: 25%;
+}
+.item6-p23-l2{
+    position: absolute;
+    top: 11%;
+    left: 65%; 
+    font-size: 75%;  
+}	
+.item7-p23-l2{
+    position: absolute;
+    top: 30%;
+    left: 66%; 
+    font-size: 75%;  
+    width: 25%;
+}
+.item8-p23-l2{
+    position: absolute;
+    top: 34%;
+    left: 12%; 
+    font-size: 75%;  
+    width: 25%;
+}
+.item9-p23-l2{
+    position: absolute;
+    top: 34%;
+    left: 36%; 
+    font-size: 75%;  
+}
+.item10-p23-l2{
+    position: absolute;
+    top: 34%;
+    left: 64%; 
+    font-size: 75%; 
+}
+.item11-p23-l2{
+    position: absolute;
+    top: 54%;
+    left: 12%; 
+    font-size: 75%;  
+    width: 25%;
+}
+.item12-p23-l2{
+    position: absolute;
+    top: 83%;
+    left: 12%; 
+    font-size: 75%; 
+}
+
+.item13-p23-l2{
+    position: absolute;
+    top: 54%;
+    left: 38%; 
+    font-size: 75%;  
+    width: 28%;
+}
+.item14-p23-l2{
+    position: absolute;
+    top: 84%;
+    left: 38%; 
+    font-size: 75%; 
+}
+.item15-p23-l2{
+    position: absolute;
+    top: 54%;
+    left: 65%; 
+    font-size: 75%;  
+    width: 30%;
+}
+
+.item16-p23-l2{
+    position: absolute;
+    top: 83%;
+    left: 65%; 
+    font-size: 75%; 
+}
+.result1-p23-l2,.result2-p23-l2,.result3-p23-l2,.result4-p23-l2, .result5-p23-l2,.result6-p23-l2,.result7-p23-l2{
+    position: absolute;
+}
+/************************************************/
+/********************Page 24**********************/
+/************************************************/
+/************************************************/
+.item1-p24-l2{
+    position: absolute;
+      top: 5%;
+      left: 10%;
+      font-weight: bold;  
+}
+.item2-p24-l2{
+    position: absolute;
+    top: 38%;
+    left: 5%;
+    font-size: 85%;
+    list-style: none;   
+}
+.item3-p24-l2{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    font-size: 85%;  
+    font-weight: bold;
+    width: 40%;
+}
+
+.item4-p24-l2{
+    position: absolute;
+    top: 74%;
+    left: 5%;
+    font-size: 85%;    
+}
+
+/************************************************/
+/********************Page 25**********************/
+/************************************************/
+/************************************************/
+.item1-p25-l2{
+    position: absolute;
+       top: 0%; 
+       left: 12%;
+       font-size: 250%;
+       font-weight: bold;
+       color: white;
+}
+.item2-p25-l2{
+    position: absolute;
+    top: 6%; 
+    left: 40%;
+    font-size: 120%;  
+    font-weight: bold;
+}
+.item3-p25-l2{
+    position: absolute;
+    top: 10.5%; 
+    left: 14%;
+    font-size: 85%;  
+    font-weight: bold;  
+}
+
+.item4-p25-l2{
+    position: absolute;
+    top: 11.5%; 
+    left: 42.5%;
+    font-size: 85%;  
+    font-weight: bold;    
+}
+
+.item5-p25-l2{
+    position: absolute;
+    top: 11.5%; 
+    left: 73.5%;
+    font-size: 85%;  
+    font-weight: bold;
+}
+.item6-p25-l2{
+    position: absolute;
+    top: 33%; 
+    left: 14%;
+    font-size: 85%;  
+    font-weight: bold;
+}	
+.item7-p25-l2{
+    position: absolute;
+    top: 32.5%; 
+    left: 42.5%;
+    font-size: 85%;  
+    font-weight: bold;
+}
+.item8-p25-l2{
+    position: absolute;
+    top: 32.5%; 
+    left:73.5%;
+    font-size: 85%;  
+    font-weight: bold;
+}
+.item9-p25-l2{
+    position: absolute;
+    top: 53%; 
+    left: 25%;
+    font-size: 85%;  
+    font-weight: bold;
+}
+.item10-p25-l2{
+    position: absolute;
+    top: 53.5%; 
+    left: 58%;
+    font-size: 85%;  
+    font-weight: bold;
+}
+.item11-p25-l2{
+    position: absolute;
+    top: 75%; 
+    left: 7%;
+    font-size: 85%;  
+    font-weight: bold;
+}
+/************************************************/
+/********************Page 26**********************/
+/************************************************/
+/************************************************/
+.item1-p26-l2{
+    position: absolute;
+      top: 5%;
+      left: 10%; 
+      font-weight:bold; 
+}
+.item2-p26-l2{
+    position: absolute;
+    top: 14%;
+    left: 15%; 
+    font-weight:bold; 
+    font-size: 75%; 
+}
+.item3-p26-l2{
+    position: absolute;
+    top: 16.5%;
+    left: 6%;
+    list-style: none; 
+    font-size: 75%; 
+}
+.item3-p26-l2>li{
+    margin-bottom: -20%;
+}
+.item4-p26-l2{
+    position: absolute;
+    top: 23%;
+    left: 6%;
+    list-style: none; 
+    font-size: 75%; 
+}
+.item4-p26-l2>li{
+    margin-bottom: -20%;
+}
+.item5-p26-l2{
+    position: absolute;
+    top: 14%;
+    left: 25%;
+    list-style: none; 
+    font-size: 75%; 
+}
+.item5-p26-l2>li{
+    margin-bottom:70%;
+}
+.item6-p26-l2{
+    position: absolute;
+    top: 18%;
+    left: 52%;
+    font-size: 75%; 
+}	
+.item7-p26-l2{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 85%; 
+    font-weight: bold;
+}
+.item8-p26-l2{
+    position: absolute;
+    top: 34%;
+    left: 5%;
+    font-size: 85%; 
+    list-style: none;
+}
+.item8-p26-l2>li{
+    margin-bottom:-2%;
+}
+.item9-p26-l2{
+    position: absolute;
+    top: 34%;
+    left: 45%;
+    font-size: 85%; 
+    list-style: none;
+}
+.item9-p26-l2>li{
+    margin-bottom:-1.5%;
+}
+.item10-p26-l2{
+    position: absolute;
+    top: 58.5%;
+    left: 28%;
+    font-size: 85%; 
+    text-align: center;
+    font-weight: bold;
+}
+.item11-p26-l2{
+    position: absolute;
+    top: 66%;
+    left: 5%;
+    font-size: 80%; 
+    width:90%;
+    height: 28%;
+}
+
+.item12-p26-l2{
+    position: absolute;
+    top: 14%;
+    left: 50%;
+}
+.result1-p26-l2,.result2-p26-l2,.result3-p26-l2,.result4-p26-l2, .result5-p26-l2,.result6-p26-l2,
+.result7-p26-l2{
+position:absolute;
+}
+/************************************************/
+/********************Page 27**********************/
+/************************************************/
+/************************************************/
+.item1-p27-l2{
+    position: absolute;
+      top: 5%;
+      left: 10%;
+      font-weight: bold;  
+}
+.item2-p27-l2{
+    position: absolute;
+    top: 24%;
+    left: 3%;
+    list-style: none; 
+    font-size: 75%;  
+}
+.item3-p27-l2{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    list-style: none; 
+    font-size: 75%;     
+}
+.item3-p27-l2>li{
+    width: 48%;
+}
+.item4-p27-l2{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    list-style: none; 
+    font-size: 75%;     
+}
+.item3-p27-l2>li{
+    width: 48%;
+}
+.result1-p27-l2,.result2-p27-l2,.result3-p27-l2,.result4-p27-l2, .result5-p27-l2,.result6-p27-l2,.result7-p27-l2,
+.result8-p27-l2, .result9-p27-l2,.result10-p27-l2,.result11-p27-l2,.result12-p27-l2,.result13-p27-l2{
+    position:absolute;
+}
+/************************************************/
+/********************Page 28**********************/
+/************************************************/
+/************************************************/
+.item1-p28-l2{
+    position: absolute;
+      top: 10.5%;
+      left: 40%;
+      font-weight: bold;  
+}
+.item2-p28-l2{
+    position: absolute;
+    top: 16.5%;
+    left: 15%;
+    font-weight: bold;   
+    color: white;
+}
+.item3-p28-l2{
+    position: absolute;
+    top: 21%;
+    left: 20%;
+    font-weight: bold;   
+    font-size: 75%;
+    width: 100%;
+}
+.item3-p28-l2>li{
+    width: 30%;
+    margin-left: -7%;
+}
+.item4-p28-l2{
+    position: absolute;
+    top: 35.5%;
+    left: 5%;
+    font-size: 75%;
+    width: 100%; 
+}
+.item4-p28-l2>li{
+    width: 45%;
+}
+
+.item5-p28-l2{
+    position: absolute;
+    top: 51%;
+    left: 5%;
+    font-size: 75%;
+    width: 100%; 
+}
+.item5-p28-l2>li{
+    width: 45%;
+}
+.item6-p28-l2{
+    position: absolute;
+    top: 68%;
+    left: 5%;
+    font-size: 75%;
+    width: 100%; 
+}
+.item6-p28-l2>li{
+    width: 45%;
+}
+.item7-p28-l2{
+    position: absolute;
+    top: 85%;
+    left: 5%;
+    font-size: 75%;
+    width: 100%; 
+}
+.item7-p28-l2>li{
+    width: 45%;
+    background-color: white;
+}
+.result1-p28-l2,.result2-p28-l2,.result3-p28-l2,.result4-p28-l2, .result5-p28-l2,.result6-p28-l2,.result7-p28-l2{
+    position:absolute;
+}
+/************************************************/
+/********************Page 29**********************/
+/************************************************/
+/************************************************/
+.item1-p29-l2{
+    position: absolute;
+      top: 3%;
+      left: 10%;
+      font-weight: bold;  
+      background-color: rgb(138, 42, 8);
+      color: white;
+}
+.item2-p29-l2{
+    position: absolute;
+    top: 7%;
+    left: 3%;  
+    font-size: 85%;
+    width: 60%;
+    list-style: none;
+}
+.item3-p29-l2{
+    position: absolute;
+    top: 56%;
+    left: 15%;  
+    font-weight: bold;
+    color: white;
+}
+
+.item4-p29-l2{
+    position: absolute;
+    top: 60%;
+    left: 5%; 
+    width: 55%;   
+    font-size: 85%; 
+}
+.result1-p29-l2,.result2-p29-l2,.result3-p29-l2,.result4-p29-l2, .result5-p29-l2,.result6-p29-l2,.result7-p29-l2,.result8-p29-l2{
+    position:absolute;
+}
+/************************************************/
+/********************Page 30**********************/
+/************************************************/
+/************************************************/
+.item1-p30-l2{
+    position: absolute;
+        top: 12%;
+        left: 12%;
+        font-weight: bold;
+        width: 100%;
+}
+.item1-p30-l2>li{
+    margin-left: 3%;
+}
+.item2-p30-l2{
+    position: absolute;
+    top: 33%;
+    left: 5%;  
+    font-size: 75%;
+}
+.item2-p30-l2>li{
+    width: 45%;
+    background-color: white;
+}
+.item3-p30-l2{
+    position: absolute;
+    top: 60%;
+    left: 5%;  
+    font-size: 75%;
+}
+.item3-p30-l2>li{
+    width: 45%;
+    background-color: white;
+}
+
+.item4-p30-l2{
+    position: absolute;
+    top: 83%;
+    left: 5%;  
+    font-size: 75%;
+}
+.item4-p30-l2>li{
+    width: 45%;
+    background-color: white;
+}
+.result1-p30-l2,.result2-p30-l2,.result3-p30-l2,.result4-p30-l2, .result5-p30-l2{
+    position:absolute;
+}
+/************************************************/
+/********************Page 31**********************/
+/************************************************/
+/************************************************/
+.item1-p31-l2{
+    position: absolute;
+        top: 10%;
+        left: 14%;
+        font-weight: bold;
+        color: white;
+}
+.item2-p31-l2{
+    position: absolute;
+    top: 15%;
+    left: 12%;
+    font-size: 85%;  
+}
+.item2-p31-l2>ol>li{
+    margin-bottom: 2%;
+}
+.item3-p31-l2{
+    position: absolute;
+    top: 58%;
+    left: 14%;
+    font-weight: bold;
+    color: white;
+}
+
+.item4-p31-l2{
+    position: absolute;
+    top: 62%;
+    left: 12%;
+    font-size: 85%;  
+}
+.item4-p31-l2>ol>li{
+    margin-bottom: 2%;
+}
+.result1-p31-l2,.result2-p31-l2,.result3-p31-l2,.result4-p31-l2, .result5-p31-l2,.result6-p31-l2,.result7-p31-l2,
+.result8-p31-l2, .result9-p31-l2,.result10-p31-l2,.result11-p31-l2,.result12-p31-l2,
+.result13-p31-l2,.result14-p31-l2,.result15-p31-l2,.result16-p31-l2, .result17-p31-l2{
+    position:absolute;
+}
+/************************************************/
+/********************Page 32**********************/
+/************************************************/
+/************************************************/
+.item1-p32-l2{
+    position: absolute;
+        top: 2%;
+        left: 5%;
+        font-size: 85%;
+        list-style: none;
+}
+.item2-p32-l2{
+    position: absolute;
+    top: 12%;
+    left: 25%;
+    font-size: 85%;  
+    font-weight: bold; 
+    color: white;
+}
+.item3-p32-l2{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-size: 80%;
+}
+
+.item4-p32-l2{
+    position: absolute;
+    top: 42%;
+    left: 8%;
+    font-size: 80%;    
+    font-style: italic;
+    width: 63%;
+}
+.result1-p32-l2,.result2-p32-l2,.result3-p32-l2{
+    position:absolute;
+}
+/************************************************/
+/********************Page 33**********************/
+/************************************************/
+/************************************************/
+.item1-p33-l2{
+    position: absolute;
+       top: 0%;
+       left: 11%;
+       font-weight: bold;
+       font-size: 250%;
+        color: white;
+}
+.item2-p33-l2{
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    font-weight: bold;  
+}
+.item3-p33-l2{
+    position: absolute;
+    top: 10%;
+    left: 16.5%;
+    font-weight: bold; 
+}
+
+.item4-p33-l2{
+    position: absolute;
+    top: 10.5%;
+    left: 45.5%;
+    font-weight: bold;    
+}
+
+.item5-p33-l2{
+    position: absolute;
+    top: 10.5%;
+    left: 75%;
+    font-weight: bold; 
+}
+.item6-p33-l2{
+    position: absolute;
+    top: 32.5%;
+    left: 16.5%;
+    font-weight: bold; 
+}	
+.item7-p33-l2{
+    position: absolute;
+    top: 32.5%;
+    left: 45.5%;
+    font-weight: bold; 
+}
+.item8-p33-l2{
+    position: absolute;
+    top: 32.5%;
+    left:75%;
+    font-weight: bold; 
+}
+.item9-p33-l2{
+    position: absolute;
+    top: 54.5%;
+    left: 16.5%;
+    font-weight: bold; 
+}
+.item10-p33-l2{
+    position: absolute;
+    top: 54.5%;
+    left: 45.5%;
+    font-weight: bold;
+}
+.item11-p33-l2{
+    position: absolute;
+    top: 54.5%;
+    left: 75%;
+    font-weight: bold;
+}
+.item12-p33-l2{
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    font-weight: bold;
+    font-size: 85%;
+}
+
+/************************************************/
+/********************Page 34**********************/
+/************************************************/
+/************************************************/
+.item1-p34-l2{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    font-weight: bold;
+}
+.item2-p34-l2{
+    position: absolute;
+    top: 8%;
+    left: 30%;   
+    font-weight: bold;
+}
+.item3-p34-l2{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    font-size: 75%;  
+    list-style: none;
+}
+.item3-p34-l2>li{
+    margin-bottom: -10%;
+}
+.item4-p34-l2{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    font-size: 75%;  
+    list-style: none;
+}
+.item4-p34-l2>li{
+    margin-bottom: 25%;
+}
+
+.item5-p34-l2{
+    position: absolute;
+    top: 21%;
+    left: 40%;
+    font-size: 80%;  
+}
+.item6-p34-l2{
+    position: absolute;
+    top: 38%;
+    left: 10%;
+    font-size: 85%;
+    font-weight: bold; 
+}	
+.item7-p34-l2{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    font-size: 85%;
+    list-style:none;
+}
+.item7-p34-l2>li{
+    margin-bottom: 6.3%;
+}
+.item8-p34-l2{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    font-size: 85%;
+    list-style:none;
+    background-color: white;
+}
+.item8-p34-l2>li{
+    margin-bottom: 5%;
+}
+.result1-p34-l2,.result2-p34-l2,.result3-p34-l2,.result4-p34-l2, .result5-p34-l2,.result6-p34-l2{
+position:absolute;
+}
+/************************************************/
+/********************Page 35**********************/
+/************************************************/
+/************************************************/
+.item1-p35-l2{
+    position: absolute;
+        top: 5%;
+        left: 10%;
+        font-weight: bold;
+}
+.item2-p35-l2{
+    position: absolute;
+    top: 23%;
+    left: 0%;  
+    font-size: 80%;
+    width: 100%;
+}
+.item2-p35-l2>li{
+    margin-left: 10%;
+}
+.item3-p35-l2{
+    position: absolute;
+    top: 41%;
+    left: 5%;  
+    font-size: 80%;
+    width: 100%;
+}
+
+.item4-p35-l2{
+    position: absolute;
+    top: 60%;
+    left: 5%;  
+    font-size: 80%;
+    width: 100%; 
+}
+
+.item5-p35-l2{
+    position: absolute;
+    top: 85%;
+    left: 5%;  
+    font-size: 80%;
+    width: 100%;
+}
+.result1-p35-l2,.result2-p35-l2,.result3-p35-l2,.result4-p35-l2, .result5-p35-l2,.result6-p35-l2,.result7-p35-l2{
+    position:absolute;
+}
+/************************************************/
+/********************Page 36**********************/
+/************************************************/
+/************************************************/
+.item1-p36-l2{
+    position: absolute;
+        top: 5%;
+        left: 10%;
+        font-weight: bold;
+}
+.item2-p36-l2{
+    position: absolute;
+    top: 36%;
+    left: 0%; 
+    font-size: 80%;
+    background-color: white ;
+    width: 40%;
+}
+.item3-p36-l2{
+    position: absolute;
+    top: 35%;
+    left: 40%; 
+    font-size: 80%;
+    background-color: white ;
+    width: 55%;
+    list-style: none;
+}
+
+.item4-p36-l2{
+    position: absolute;
+    top: 62%;
+    left: 10%; 
+    font-size: 85%;
+    font-weight: bold;    
+}
+
+.item5-p36-l2{
+    position: absolute;
+    top: 83%;
+    left: 5%; 
+    font-size: 80%;
+    font-weight: bold;  
+    list-style: none;
+}
+.item6-p36-l2{
+    position: absolute;
+    top: 63%;
+    left: 62%; 
+    font-size: 80%;
+    font-weight: bold; 
+    list-style: none; 
+}
+.result1-p36-l2,.result2-p36-l2,.result3-p36-l2,.result4-p36-l2, .result5-p36-l2,.result6-p36-l2,.result7-p36-l2,.result8-p36-l2, 
+.result9-p36-l2,.result10-p36-l2,.result11-p36-l2,.result12-p36-l2,
+.result13-p36-l2,.result14-p36-l2,.result15-p36-l2,.result16-p36-l2, .result17-p36-l2,.result18-p36-l2,.result19-p36-l2{
+    position:absolute;
+}
+/************************************************/
+/********************Page 37**********************/
+/************************************************/
+/************************************************/
+.item1-p37-l2{
+    position: absolute;
+        top: 7%;
+        left: 28%;
+        font-weight: bold;
+        font-size: 120%;
+        background-color: white;
+}
+.item2-p37-l2{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    font-size: 80%;
+    width: 90%;
+    text-align: justify;
+}
+.result1-p37-l2,.result2-p37-l2,.result3-p37-l2,.result4-p37-l2, .result5-p37-l2,.result6-p37-l2{
+    position:absolute;
+}
+/************************************************/
+/********************Page 38**********************/
+/************************************************/
+/************************************************/
+.item1-p38-l2{
+    position: absolute;
+    top: 11%;
+    left: 40%;
+    font-weight: bold;    
+}
+.item2-p38-l2{
+    position: absolute;
+    top: 16.5%;
+    left: 15%;
+    font-weight: bold; 
+    color: white;   
+}
+.item3-p38-l2{
+    position: absolute;
+    top: 19%;
+    left: 10%;
+    font-weight: bold; 
+    font-size: 80%; 
+}
+
+.item4-p38-l2{
+    position: absolute;
+    top: 33%;
+    left: 10%;
+    font-size: 85%;    
+}
+
+.item5-p38-l2{
+    position: absolute;
+    top: 48%;
+    left: 8%;
+    font-size: 75%; 
+    width: 100%;
+}
+.item5-p38-l2>li{
+    width: 42%;
+}
+.item6-p38-l2{
+    position: absolute;
+    top: 66%;
+    left: 8%;
+    font-size: 75%; 
+    width: 100%;
+}	
+.item6-p38-l2>li{
+    width: 42%;
+}
+.item7-p38-l2{
+    position: absolute;
+    top: 84.5%;
+    left: 8%;
+    font-size: 75%; 
+    width: 100%;
+}	
+.item7-p38-l2>li{
+    width: 42%;
+}
+.result1-p38-l2,.result2-p38-l2,.result3-p38-l2,.result4-p38-l2, .result5-p38-l2,.result6-p38-l2,.result7-p38-l2,.result8-p38-l2, 
+.result9-p38-l2,.result10-p38-l2,.result11-p38-l2,.result12-p38-l2, .result13-p38-l2,.result14-p38-l2,.result15-p38-l2,
+.result16-p38-l2, .result17-p38-l2,.result18-p38-l2,.result19-p38-l2,.result20-p38-l2, .result21-p38-l2,.result22-p38-l2,
+.result23-p38-l2,.result24-p38-l2, .result25-p38-l2,.result26-p38-l2,.result27-p38-l2,.result28-p38-l2{
+    position:absolute;
+}
+/************************************************/
+/********************Page 39**********************/
+/************************************************/
+/************************************************/
+.item1-p39-l2{
+    position: absolute;
+        top: 11%;
+        left: 15%;
+        font-weight: bold;
+        color: white;
+}
+.item2-p39-l2{
+    position: absolute;
+    top: 15%;
+    left: 5%; 
+    background-color: white;
+    font-size: 75%;
+}
+.item3-p39-l2{
+    position: absolute;
+    top: 49%;
+    left: 15%;
+    font-weight: bold;
+    color: white;
+
+}
+
+.item4-p39-l2{
+    position: absolute;
+    top: 55%;
+    left: 10%; 
+    font-size: 80%;    
+    width: 45%;
+}
+
+.item5-p39-l2{
+    position: absolute;
+    top: 87%;
+    left: 57%; 
+    font-size: 80%;   
+}
+.result1-p39-l2,.result2-p39-l2,.result3-p39-l2,.result4-p39-l2, .result5-p39-l2,.result6-p39-l2,.result7-p39-l2,.result8-p39-l2, 
+.result9-p39-l2,.result10-p39-l2,.result11-p39-l2,.result12-p39-l2, .result13-p39-l2,.result14-p39-l2,.result15-p39-l2,
+.result16-p39-l2, .result17-p39-l2,.result18-p39-l2,.result19-p39-l2,.result20-p39-l2, .result21-p39-l2,.result22-p39-l2,
+.result23-p39-l2,.result24-p39-l2, .result25-p39-l2{
+    position:Absolute;
+}
+/************************************************/
+/********************Page 40**********************/
+/************************************************/
+/************************************************/
+.item1-p40-l2{
+    position: absolute;
+        top:10%;
+        left: 55%;
+        font-size:85%;
+        width:40%;
+        text-align:justify;
+}
+.item2-p40-l2{
+    position: absolute;
+    top:45.5%;
+    left: 15%;
+    font-weight:bold;
+    color: white;
+}
+.item3-p40-l2{
+    position: absolute;
+    top:50%;
+    left: 15%;
+    font-size:85%;
+    font-weight:bold;   
+}
+
+.item4-p40-l2{
+    position: absolute;
+    top:60%;
+    left: 30%;
+    font-size:85%;   
+    width: 40%;
+    background-color:white;
+}
+.result1-p40-l2,.result2-p40-l2,.result3-p40-l2,.result4-p40-l2, .result5-p40-l2,.result6-p40-l2,.result7-p40-l2,.result8-p40-l2,
+ .result9-p40-l2,.result10-p40-l2,.result11-p40-l2,.result12-p40-l2, .result13-p40-l2,.result14-p40-l2,.result15-p40-l2{
+    position:absolute;
+}
+/************************************************/
+/********************Page 41**********************/
+/************************************************/
+/************************************************/
+.item1-p41-l2{
+    position: absolute;
+    top:10%;
+    left: 30%;
+    font-size:85%;   
+    width: 40%;   
+    list-style:none;
+}
+.item2-p41-l2{
+    position: absolute;
+    top:67.5%;
+    left: 15%;
+    font-size:85%;  
+    font-weight:bold;
+    color:white;
+}
+.item3-p41-l2{
+    position: absolute;
+    top:76%;
+    left: 14%;
+    font-size:85%;  
+    font-weight:bold; 
+}
+
+.item4-p41-l2{
+    position: absolute;
+    top:76%;
+    left: 57%;
+    font-size:85%;  
+    font-weight:bold;     
+}
+
+.item5-p41-l2{
+    position: absolute;
+    top:86%;
+    left: 5%;
+    font-size:85%;  
+}
+.item5-p41-l2>li{
+    width:45%;
+}
+.result1-p41-l2,.result2-p41-l2,.result3-p41-l2,.result4-p41-l2, .result5-p41-l2,.result6-p41-l2,.result7-p41-l2,.result8-p41-l2, .result9-p41-l2,
+.result10-p41-l2,.result11-p41-l2,.result12-p41-l2, .result13-p41-l2,.result14-p41-l2,.result15-p41-l2,.result16-p41-l2, 
+.result17-p41-l2,.result18-p41-l2,.result19-p41-l2,.result20-p41-l2, .result21-p41-l2,.result22-p41-l2{
+    position:absolute;
+}
+/************************************************/
+/********************Page 42**********************/
+/************************************************/
+/************************************************/
+.item1-p42-l2{
+    position: absolute;
+        top: 11%;
+        left:12%;
+        font-weight: bold;
+}
+.item2-p42-l2{
+    position: absolute;
+    top: 11%;
+    left:61%;
+    font-weight: bold; 
+}
+.item3-p42-l2{
+    position: absolute;
+    top: 32%;
+        left:12%;
+        font-weight: bold;    
+}
+
+.item4-p42-l2{
+    position: absolute;
+    top: 32%;
+    left:60%;
+    font-weight: bold;   
+}
+
+.item5-p42-l2{
+    position: absolute;
+    top: 25%;
+    left:0%;
+    font-size:75%;
+    width:100%;
+}
+.item5-p42-l2>li{
+    width:48%;
+}
+.item6-p42-l2{
+    position: absolute;
+    top: 44%;
+    left:0%;
+    font-size:75%;
+    width:100%;
+}
+.item6-p42-l2>li{
+    width:48%; 
+}	
+.item7-p42-l2{
+    position: absolute;
+    top: 53.3%;
+    left:15%;
+    font-size:85%;
+    font-weight:bold;
+    color:white;
+}
+.item8-p42-l2{
+    position: absolute;
+    top: 58%;
+    left:5%;
+    font-size:85%;
+    width:90%;
+}
+.result1-p42-l2,.result2-p42-l2,.result3-p42-l2,.result4-p42-l2, .result5-p42-l2,.result6-p42-l2,.result7-p42-l2,.result8-p42-l2, 
+.result9-p42-l2,.result10-p42-l2,.result11-p42-l2,.result12-p42-l2, .result13-p42-l2,.result14-p42-l2,.result15-p42-l2,
+.result16-p42-l2, .result17-p42-l2,.result18-p42-l2,.result19-p42-l2,.result20-p42-l2, .result21-p42-l2,.result22-p42-l2,.result23-p42-l2,
+.result24-p42-l2, .result25-p42-l2,.result26-p42-l2,.result27-p42-l2,.result28-p42-l2{
+    position:absolute;
+}
+
+/************************************************/
+/********************Page 43**********************/
+/************************************************/
+/************************************************/
+.paginal2-43{
+    position: relative;
+    padding-top: 60%;
+    padding-right: 8%;
+    padding-bottom: 6%;
+}
+
+.item1-p43-l2{
+    position: absolute;
+        top:8%;
+        left:5%;
+        font-size:85%;
+        list-style:none;
+        width:90%;
+}
+.item2-p43-l2{
+    position: absolute;
+    top:42%;
+    left:13%;
+    font-size:85%;
+    font-weight:bold;    
+}
+.item3-p43-l2{
+    position: absolute;
+    top:45.5%;
+    left:10%;
+    font-size:85%; 
+    width:85%;
+}
+
+.item4-p43-l2{
+    position: absolute;
+    top:72%;
+    left:5%;
+    font-size:85%; 
+    width:85%;   
+}
+.result1-p43-l2,.result2-p43-l2,.result3-p43-l2,.result4-p43-l2, .result5-p43-l2,.result6-p43-l2,
+.result7-p43-l2,.result8-p43-l2, .result9-p43-l2,.result10-p43-l2{
+    position:absolute;
+}
+/************************************************/
+/********************Page 44**********************/
+/************************************************/
+/************************************************/
+.item1-p44-l2{
+    position: absolute;
+    top:0%;
+    left:14%;
+    font-size:250%;
+    font-weight:bold;
+    color:white;
+}
+.item2-p44-l2{
+    position: absolute;
+    top:5%;
+    left:40%;
+    font-size:120%;
+    font-weight:bold;
+}
+.item3-p44-l2{
+    position: absolute;
+    top:9%;
+    left:16%;
+    font-weight:bold;   
+}
+
+.item4-p44-l2{
+    position: absolute;
+    top:10%;
+    left:44%;
+    font-weight:bold;    
+}
+
+.item5-p44-l2{
+    position: absolute;
+    top:9%;
+    left:73%;
+    font-weight:bold;  
+}
+.item6-p44-l2{
+    position: absolute;
+    top:35%;
+    left:15%;
+    font-weight:bold;  
+}	
+.item7-p44-l2{
+    position: absolute;
+    top:35%;
+    left:44%;
+    font-weight:bold;  
+}
+.item8-p44-l2{
+    position: absolute;
+    top:35%;
+    left:73%;
+    font-weight:bold;  
+}
+.item9-p44-l2{
+    position: absolute;
+    top:58%;
+    left:14%;
+    font-weight:bold;  
+}
+.item10-p44-l2{
+    position: absolute;
+    top:58%;
+    left:44%;
+    font-weight:bold;  
+}
+.item11-p44-l2{
+    position: absolute;
+    top:58%;
+    left:73%;
+    font-weight:bold;  
+}
+.item12-p44-l2{
+    position: absolute;
+    top:80%;
+    left:5%;
+    font-weight:bold;
+    font-size:85%;  
+}
+/************************************************/
+/********************Page 45**********************/
+/************************************************/
+/************************************************/
+.item1-p45-l2{
+    position: absolute;
+    top: 5%; 
+    left:10% ;
+    font-weight:bold;  
+}
+.item2-p45-l2{
+    position: absolute;
+    top: 8%; 
+    left:40% ;
+    font-weight:bold;    
+}
+.item3-p45-l2{
+    position: absolute;
+    top: 13%; 
+    left:5% ; 
+    font-size:75%;  
+    list-style:none;  
+}
+
+.item4-p45-l2{
+    position: absolute;
+    top: 14%; 
+    left: 25% ;
+    font-size:75%; 
+    list-style:none;   
+}
+.item4-p45-l2>li{
+    margin-bottom:24%;
+}	
+.item7-p45-l2{
+    position: absolute;
+    top: 16%; 
+    left: 62% ;
+    font-size:75%; 
+    list-style:none; 
+}
+.item8-p45-l2{
+    position: absolute;
+    top: 17%; 
+    left: 75% ;
+    font-size:75%; 
+    list-style:none; 
+}
+.item9-p45-l2{
+    position: absolute;
+    top: 32%; 
+    left:30% ;
+    font-weight:bold; 
+    font-size:80%;
+    list-style:none;
+    width:40%; 
+}
+.item10-p45-l2{
+    position: absolute;
+    top: 14%; 
+    left: 68% ;
+    font-size:75%; 
+    list-style:none; 
+}
+.item11-p45-l2{
+    position: absolute;
+    top: 45%; 
+    left:28% ;
+    font-weight:bold; 
+    font-size:80%; 
+}
+.item12-p45-l2{
+    position: absolute;
+    top: 59%; 
+    left:30% ;
+    font-weight:bold; 
+    font-size:80%; 
+}
+
+.item13-p45-l2{
+    position: absolute;
+    top: 64%; 
+    left:10% ;
+    font-weight:bold;
+}
+
+.item14-p45-l2{
+    position: absolute;
+    top: 67%; 
+    left: 5% ;
+    font-size:85%; 
+    list-style:none;
+}
+.item14-p45-l2>li{
+    margin-bottom:-3%;
+}
+.item15-p45-l2{
+    position: absolute;
+    top: 67%; 
+    left: 40% ;
+    font-size:85%; 
+    list-style:none;
+}
+.item15-p45-l2>li{
+    margin-bottom:-2%;
+}
+.result1-p45-l2,.result2-p45-l2,.result3-p45-l2,.result4-p45-l2, .result5-p45-l2,.result6-p45-l2,.result7-p45-l2,
+.result8-p45-l2, .result9-p45-l2,.result10-p45-l2,.result11-p45-l2{
+    position:absolute;
+}
+/************************************************/
+/********************Page 46**********************/
+/************************************************/
+/************************************************/
+.item1-p46-l2{
+    position: absolute;
+        top:5%;
+        left:10%;
+        font-weight:bold;
+}
+.item2-p46-l2{
+    position: absolute;
+    top:25%;
+    left:10%;  
+    font-size:80%;
+
+}
+.item3-p46-l2{
+    position: absolute;
+      top:43%;
+    left:5%;  
+    font-size:80%;  
+}
+
+.item4-p46-l2{
+    position: absolute;
+    top:63%;
+    left:5%;  
+    font-size:80%;     
+}
+
+.item5-p46-l2{
+    position: absolute;
+    top:86%;
+    left:5%;  
+    font-size:80%;  
+}
+.item5-p46-l2>li{
+    width:45%;
+}
+.result1-p46-l2,.result2-p46-l2,.result3-p46-l2,.result4-p46-l2, .result5-p46-l2,.result6-p46-l2,.result7-p46-l2{
+    position:absolute;
+}
+/************************************************/
+/********************Page 47**********************/
+/************************************************/
+/************************************************/
+.item1-p47-l2{
+    position: absolute;
+    top:30%;
+    left:5%;  
+    font-size:80%;  
+}
+.item1-p47-l2>li{
+    width:48%;
+}
+.item2-p47-l2{
+    position: absolute;
+    top:55%;
+    left:5%;  
+    font-size:80%;  
+}
+.item2-p47-l2>li{
+    width:48%;
+}
+.item3-p47-l2{
+    position: absolute;
+    top:86%;
+    left:5%;  
+    font-size:80%;  
+}
+.item3-p47-l2>li{
+    width:48%;
+}
+.result1-p47-l2,.result2-p47-l2,.result3-p47-l2,.result4-p47-l2, .result5-p47-l2,.result6-p47-l2{
+    position:absolute;
+}
+/************************************************/
+/********************Page 48**********************/
+/************************************************/
+/************************************************/
+.item1-p48-l2{
+    position: absolute;
+        top: 5%;
+        left:5%;
+        font-size:85%;
+        background-color:white;
+        width: 80%;
+}
+.result1-p48-l2,.result2-p48-l2,.result3-p48-l2,.result4-p48-l2, .result5-p48-l2,.result6-p48-l2,.result7-p48-l2,
+.result8-p48-l2, .result9-p48-l2,.result10-p48-l2,.result11-p48-l2{
+    position:absolute;
+}
+/************************************************/
+/********************Page 49**********************/
+/************************************************/
+/************************************************/
+.item1-p49-l2{
+    position: absolute;
+        top: 5%;
+        left:0%;
+        font-size:75%;
+        background-color:white;
+        width: 95%;
+        list-style:none;
+}
+.item2-p49-l2{
+    position: absolute;
+        top: 45%;
+        left:10%;
+        font-weight:bold;
+}
+.result1-p49-l2,.result2-p49-l2,.result3-p49-l2,.result4-p49-l2, .result5-p49-l2,.result6-p49-l2,.result7-p49-l2,.result8-p49-l2,
+ .result9-p49-l2,.result10-p49-l2,.result11-p49-l2,.result12-p49-l2, .result13-p49-l2,.result14-p49-l2,.result15-p49-l2,
+ .result16-p49-l2, .result17-p49-l2,.result18-p49-l2{
+    position:absolute;
+}
+/************************************************/
+/********************Page 50**********************/
+/************************************************/
+/************************************************/
+.paginal2-50{
+    position: relative;
+    padding-top: 80%;
+    padding-right: 5%; 
+}
+
+.item1-p50-l2{
+    position: absolute;
+     top:3%;
+     left: 0%;
+     font-size: 80%;
+     width: 95%;   
+}
+.item2-p50-l2{
+    position: absolute;
+    top:65%;
+    left: 10%;
+    font-weight: bold;
+}
+.item3-p50-l2{
+    position: absolute;
+    top:68.5%;
+     left: 7%;
+     font-size: 80%;
+     width: 90%;  
+     list-style: none;   
+}
+
+.item4-p50-l2{
+    position: absolute;
+    top:68.5%;
+    left: 42%;
+    font-size: 80%;
+    width: 70%;  
+    list-style: none; 
+}
+
+.item5-p50-l2{
+    position: absolute;
+    top:78%;
+    left: 15%;
+    font-weight: bold;
+    font-size: 75%;
+}
+.item6-p50-l2{
+    position: absolute;
+    top:80%;
+    left: 15%;
+    font-size: 75%;
+    width: 80%;  
+}
+.result1-p50-l2,.result2-p50-l2,.result3-p50-l2,.result4-p50-l2, .result5-p50-l2,.result6-p50-l2,.result7-p50-l2,.result8-p50-l2, 
+.result9-p50-l2,.result10-p50-l2,.result11-p50-l2,.result12-p50-l2,
+.result13-p50-l2,.result14-p50-l2,.result15-p50-l2{
+    position:absolute;
+}
+/************************************************/
+/********************Page 51**********************/
+/************************************************/
+/************************************************/
+.item1-p51-l2{
+    position: absolute;
+     top:5%;
+     left: 5%;
+     font-size: 80%;
+     width: 90%;   
+     background-color:white;
+}
+.result1-p51-l2,.result2-p51-l2,.result3-p51-l2,.result4-p51-l2, .result5-p51-l2,.result6-p51-l2,.result7-p51-l2,.result8-p51-l2,
+ .result9-p51-l2,.result10-p51-l2,.result11-p51-l2,.result12-p51-l2,.result13-p51-l2,.result14-p51-l2{
+    position:absolute;
+}
+/************************************************/
+/********************Page 52**********************/
+/************************************************/
+/************************************************/
+.item1-p52-l2{
+    position: absolute;
+     top:47%;
+     left: 5%;
+     font-size: 85%;
+     width: 90%; 
+     list-style:none;  
+}
+.result1-p52-l2,.result2-p52-l2,.result3-p52-l2,.result4-p52-l2, .result5-p52-l2,.result6-p52-l2,.result7-p52-l2,
+.result8-p52-l2, .result9-p52-l2,.result10-p52-l2,.result11-p52-l2,.result12-p52-l2,
+.result13-p52-l2,.result14-p52-l2,.result15-p52-l2{
+    position:absolute;
+}
+/************************************************/
+/********************Page 53**********************/
+/************************************************/
+/************************************************/
+.item1-p53-l2{
+    position: absolute;
+     top:10%;
+     left: 10%;
+     font-size: 85%;
+     width: 80%; 
+     background-color: white; 
+}
+.result1-p53-l2,.result2-p53-l2,.result3-p53-l2,.result4-p53-l2, .result5-p53-l2,.result6-p53-l2,
+.result7-p53-l2,.result8-p53-l2, .result9-p53-l2{
+    position:absolute;
+}
+/************************************************/
+/********************Page 54**********************/
+/************************************************/
+/************************************************/
+.paginal2-54{
+    position: relative;
+    padding-top: 25%;
+    padding-right: 5%; 
+}
+.item1-p54-l2{
+    position: absolute;
+     top: 5%;
+     left: 10%;
+     font-size: 85%;   
+}
+.item2-p54-l2{
+    position: absolute;
+    top: 31%;
+    left: 12.5%;
+    font-weight: bold;  
+}
+.item3-p54-l2{
+    position: absolute;
+    top: 32%;
+    left: 37%;
+    font-weight: bold;   
+}
+
+.item4-p54-l2{
+    position: absolute;
+    top: 32%;
+    left: 63%;
+    font-weight: bold;
+}
+
+.item5-p54-l2{
+    position: absolute;
+    top: 49%;
+    left: 14%;
+    font-weight: bold;
+}
+.item6-p54-l2{
+    position: absolute;
+    top: 49%;
+    left: 38%;
+    font-weight: bold;
+}
+.item7-p54-l2{
+    position: absolute;
+    top: 49%;
+    left: 64%;
+    font-weight: bold;
+}
+.item8-p54-l2{
+    position: absolute;
+    top: 57%;
+     left: 5%;
+     font-size: 85%;
+     width: 85%;  
+     list-style: none;
+}
+.result1-p54-l2,.result2-p54-l2,.result3-p54-l2,.result4-p54-l2, .result5-p54-l2,.result6-p54-l2{
+    position:absolute;
+}
+/************************************************/
+/********************Page 55**********************/
+/************************************************/
+/************************************************/
+.item0-p55-l2{
+    position: absolute;
+     top:0%;
+     left: 12%;
+     font-weight: bold;
+     font-size: 250%;
+     color: white;   
+}
+.item1-p55-l2{
+    position: absolute;
+    top:40.5%;
+    left: 7%;
+    font-weight: bold;
+    font-size: 55%;   
+    width: 25%;
+}
+.item2-p55-l2{
+    position: absolute;
+    top:59.5%;
+    left: 56%;
+    font-weight: bold;
+    font-size: 55%;   
+    width: 50%;   
+}
+.item3-p55-l2{
+    position: absolute;
+    top:63%;
+    left: 7%;
+    font-weight: bold;
+    font-size: 55%;   
+    width: 50%;     
+}
+
+.item4-p55-l2{
+    position: absolute;
+    top:38%;
+    left: 73%;
+    font-weight: bold;
+    font-size: 55%;   
+    width: 25%;    
+}
+
+.item5-p55-l2{
+    position: absolute;
+    top:83%;
+    left: 7%;
+    font-weight: bold;
+    font-size: 55%;   
+    width: 25%;
+}
+.item6-p55-l2{
+    position: absolute;
+    top:83%;
+    left: 44%;
+    font-weight: bold;
+    font-size: 55%;   
+    width: 25%;
+}	
+.item7-p55-l2{
+    position: absolute;
+    top:82.5%;
+    left: 76%;
+    font-weight: bold;
+    font-size: 55%;   
+    width: 25%;
+}
+/************************************************/
+/********************Page 56**********************/
+/************************************************/
+/************************************************/
+.item1-p56-l2{
+    position: absolute;
+    top: 5%;
+    left: 7%;
+    font-size: 80%;
+    background-color: white;
+}
+.item2-p56-l2{
+    position: absolute;
+    top: 24%;
+    left: 5%;
+    font-size: 80%;
+    background-color: white; 
+    width: 90%;  
+    height: 68%;
+}
+
+/************************************************/
+/********************Page 57**********************/
+/************************************************/
+/************************************************/
+.paginal2-57{
+    position: relative;
+    padding-top: 100%;
+    padding-right: 5%; 
+}
+.item1-p57-l2{
+    position: absolute;
+      top: 5%;
+      left: 5%;
+      font-size: 80%;
+      width: 90%;  
+}
+.item2-p57-l2{
+    position: absolute;
+    top: 14%;
+    left: 18%;
+    font-size: 80%;
+    list-style: none;     
+}
+.item3-p57-l2{
+    position: absolute;
+    top: 26%;
+    left: 5%;
+    font-size: 80%;
+}
+
+.item4-p57-l2{
+    position: absolute;
+    top: 51%;
+    left: 5%;
+    font-size: 80%; 
+}
+
+.item5-p57-l2{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    font-size: 80%; 
+    list-style: none;
+}
+.item6-p57-l2{
+    position: absolute;
+    top: 82%;
+    left: 5%;
+    font-size: 85%; 
+}	
+/************************************************/
+/********************Page 58**********************/
+/************************************************/
+/************************************************/
+.paginal2-58{
+    position: relative;
+    padding-top: 50%;
+    padding-right: 5%; 
+}
+.item1-p58-l2{
+    position: absolute;
+       top:5% ;
+       left: 5%;
+       width: 90%;
+       font-size: 85%;
+}
+.item2-p58-l2{
+    position: absolute;
+       top:73% ;
+       left: 55%;
+       font-size: 85%;
+       list-style: none;
+}
+/************************************************/
+/********************Page 59**********************/
+/************************************************/
+/************************************************/
+.paginal2-59{
+    position: relative;
+    padding-top: 120%;
+    padding-right: 5%; 
+}
+.item1-p59-l2{
+    position: absolute;
+     top:5%;
+     left:10%;
+     font-size:80%;   
+}
+
+/************************************************/
+/********************Page 60**********************/
+/************************************************/
+/************************************************/
+.item1-p60-l2{
+    position: absolute;
+        top: 5%;
+        left:35%;
+        font-weight:bold;
+}
+.item2-p60-l2{
+    position: absolute;
+    top: 10%;
+    left:5%;
+    font-size:85%; 
+    width:90%;
+    background-color:white;
+    font-weight:bold;
+}
+.item2-p60-l2>table{
+    width:100%;
+}
+/************************************************/
+/********************Page 61**********************/
+/************************************************/
+/************************************************/
+.item1-p61-l2{
+    position: absolute;
+    top: 10%;
+    left:5%;
+    font-size:85%; 
+    width:90%;
+    background-color:white;
+    font-weight:bold;
+}
+.item1-p61-l2>table{
+    width:100%;
+}
+/************************************************/
+/********************Page quiz**********************/
+/************************************************/
+/************************************************/
+
+.item1-quiz{
+    position:absolute;
+    top:10%;
+    left : 40%;
+    font-weight: bold;
+}
+.item2-quiz{
+    position:absolute;
+    top:15%;
+    left : 5%;
+    font-size: 85%;
+    width: 90%;
+    height: 75%;
+}
+.item3-q2-l2{
+    position: absolute;
+    list-style: none;
+    top: 10%;
+    left: 5%;
+    width: 50%;
+    height: 80%;
+    font-size: 85%;
+}
+.item4-q2-l2{
+    position: absolute;
+    list-style: none;
+    top: 10%;
+    left: 50%;
+    width: 45%;
+    height: 80%;
+    font-size: 85%;
+}
+.item5-q2-l2{
+    position: absolute;
+    list-style: none;
+    top: 40%;
+    left: 5%;
+    width: 45%;
+    height: 80%;
+    font-size: 85%;
+}
+.item6-q2-l2{
+    position: absolute;
+    list-style: none;
+    top: 40%;
+    left: 50%;
+    width: 45%;
+    height: 80%;
+    font-size: 85%;
+}
+.item7-q2-l2{
+    position: absolute;
+    list-style: none;
+    top: 68%;
+    left: 25%;
+    width: 80%;
+    height: 80%;
+    font-size: 85%;
 }

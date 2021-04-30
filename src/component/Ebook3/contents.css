@@ -4101,6 +4101,9 @@ margin-bottom: -50%;
     font-size: 75%;
     list-style: none;
 }
+.result1-p58-l3,.result2-p58-l3,.result3-p58-l3,.result4-p58-l3, .result5-p58-l3,.result6-p58-l3,.result7-p58-l3,.result8-p58-l3, .result9-p58-l3,.result10-p58-l3{
+    position: absolute;
+}
 /* ******************************** FIN pagina 58*************************  */ 
 /* ********************************incio pagina 59*************************  */  
 .pagina59{
@@ -4388,6 +4391,9 @@ margin-bottom: -50%;
     width: 90%;
     text-align: justify;
 }
+.result1-p62-l3,.result2-p62-l3,.result3-p62-l3,.result4-p62-l3, .result5-p62-l3,.result6-p62-l3{
+    position: absolute;
+}
 /* ******************************** FIN pagina 62*************************  */  
 /* ********************************incio pagina 63*************************  */   
 .item1-p63{
@@ -4405,5 +4411,8 @@ margin-bottom: -50%;
 }
 .item2-p63>li{
     margin-bottom: -1%;
+}
+.result1-p63-l3,.result2-p63-l3,.result3-p63-l3{
+    position: absolute;
 }
 /* ******************************** FIN pagina 63*************************  */ 
