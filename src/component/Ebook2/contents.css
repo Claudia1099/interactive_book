@@ -3670,3 +3670,8 @@ position:absolute;
     height: 80%;
     font-size: 85%;
 }
+.result1-pq3-l2,.result2-pq3-l2,.result3-pq3-l2,.result4-pq3-l2, .result5-pq3-l2,.result6-pq3-l2,.result7-pq3-l2,.result8-pq3-l2, .result9-pq3-l2,.result10-pq3-l2,.result11-pq3-l2,.result12-pq3-l2,
+.result13-pq3-l2,.result14-pq3-l2,.result15-pq3-l2,.result16-pq3-l2, .result17-pq3-l2,.result18-pq3-l2,.result19-pq3-l2,.result20-pq3-l2, .result21-pq3-l2,.result22-pq3-l2,.result23-pq3-l2,
+.result24-pq3-l2, .result25-pq3-l2{
+    position: absolute;
+}

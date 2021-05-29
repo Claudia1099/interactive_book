@@ -58,13 +58,14 @@
 .item4-p1-A1{
     position: absolute;
     top: 23%;
-    left: 55%;
+    left: 58%;
 }
 
 .item5-p1-A1{
     position: absolute;
-    top: 50%;
-    left: 35%;
+    top: 5%;
+    left: 30%;
+    color: white;
 }
 /* ******************************** FIN pagina 1*************************  */ 
 /* ********************************incio pagina 2*************************  */   
@@ -91,6 +92,7 @@
       font-size: 75%; 
       background-color: white ; 
       width: 90%;
+      height: 26%;
 }
 /* ******************************** FIN pagina 2*************************  */  
 
@@ -102,6 +104,7 @@
     font-size: 75%; 
     background-color: white ; 
     width: 90%; 
+    height: 40%;
 }
 .item2-p3-A1{
     position: absolute;
@@ -178,6 +181,21 @@
       top: 70% ;
       left: 20%;
       font-size: 85%;  
+}
+.item5-p4-A1{
+    position: absolute;
+      top: 11% ;
+      left: 5%;
+      font-size: 85%;  
+      list-style: none;
+      background-color: white;
+}
+.item6-p4-A1{
+    position: absolute;
+      top: 11% ;
+      left: 45%;
+      font-size: 85%;  
+      list-style: none;
 }
 /* ******************************** FIN pagina 4*************************  */ 
 /* ********************************incio pagina 5*************************  */   
@@ -448,11 +466,12 @@ font-size: 75%;
     top: 56%;
     left: 5%;
     font-size: 85%;
-    width: 95%;
+    width: 90%;
+    height: 20%;
     background-color: white;
 }
 .item8-p9-A1>table{
-    width: 95%;
+    width: 100%;
 }
 .item9-p9-A1{
     position: absolute;
@@ -469,3 +488,28 @@ font-size: 75%;
   width: 90%;
 }
 /* ******************************** FIN pagina 9*************************  */ 
+/* ********************************incio pagina 10*************************  */   
+.item1-p10-A1{
+    position: absolute;
+    top:13% ;
+    left: 5%;
+    font-size: 75%;
+  width: 90%;
+  list-style: none;
+  background-color: white;
+}
+
+/* ******************************** FIN pagina 10*************************  */ 
+/* ********************************incio pagina 11*************************  */   
+.item1-p11-A1{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-size: 85%; 
+    width: 90%;   
+}
+.item2-p11-A1{
+    position: absolute;
+        
+}
+/* ******************************** FIN pagina 11*************************  */ 
