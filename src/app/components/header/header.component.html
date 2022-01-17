@@ -11,9 +11,19 @@
                   </button>
                     <div class="collapse navbar-collapse d-lg-flex justify-content-end align-items-center" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link cursor-pointer"> <i class="fas fa-user text-blue"></i> <span class="text-blue"> Iniciar Sesión</span></a>
-                            <a class="nav-link cursor-pointer"> <i class="fab fa-facebook-f text-blue"></i><span class="d-lg-none text-blue"> Facebook</span></a>
-                            <a class="nav-link cursor-pointer"> <i class="fab fa-instagram text-blue"></i><span class="d-lg-none text-blue"> Instagram</span></a>
+                            <ng-container *ngIf="email | async">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      {{ email |async }}
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li>
+                                            <a class="dropdown-item cursor-pointer" (click)=" logOut() ">Cerrar Sesión</a></li>
+                                    </ul>
+                                </li>
+                            </ng-container>
+                            <a class="nav-link cursor-pointer "> <i class="fab fa-facebook-f text-blue "></i><span class="d-lg-none text-blue "> Facebook</span></a>
+                            <a class="nav-link cursor-pointer "> <i class="fab fa-instagram text-blue "></i><span class="d-lg-none text-blue "> Instagram</span></a>
                         </div>
                     </div>
                 </div>

@@ -2,14 +2,12 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule} from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { PagesComponent } from './pages.component';
-import { LibrosComponent } from './libros/libros.component';
 import { ListadoLibrosComponent } from './listado-libros/listado-libros.component';
 const routers: Routes =[
   {
     path: "home", component: PagesComponent, children:[
       {path: "", component: HomeComponent},
       {path: "home", component: HomeComponent},
-      {path: "libros", component: LibrosComponent},
       {path: "listado", component: ListadoLibrosComponent}
       
     ]

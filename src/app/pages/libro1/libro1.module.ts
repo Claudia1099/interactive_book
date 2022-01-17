@@ -52,6 +52,7 @@ import { L1p47Component } from './paginas/l1p47/l1p47.component';
 import { L1p48Component } from './paginas/l1p48/l1p48.component';
 import { L1p49Component } from './paginas/l1p49/l1p49.component';
 import { L1p50Component } from './paginas/l1p50/l1p50.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -111,7 +112,8 @@ import { L1p50Component } from './paginas/l1p50/l1p50.component';
   ],
   imports: [
     CommonModule,
-    Libro1RoutingModule
+    Libro1RoutingModule,
+    FormsModule
   ]
 })
 export class Libro1Module { }

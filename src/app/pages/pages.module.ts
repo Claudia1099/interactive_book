@@ -4,8 +4,8 @@ import { HomeComponent } from './home/home.component';
 import { PagesComponent } from './pages.component';
 import { RouterModule } from '@angular/router';
 import { ComponentesModule } from '../components/componentes.module';
-import { LibrosComponent } from './libros/libros.component';
 import { ListadoLibrosComponent } from './listado-libros/listado-libros.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -13,13 +13,13 @@ import { ListadoLibrosComponent } from './listado-libros/listado-libros.componen
   declarations: [
     HomeComponent,
     PagesComponent,
-    LibrosComponent,
     ListadoLibrosComponent
   ],
   imports: [
     CommonModule,
     RouterModule,
-    ComponentesModule
+    ComponentesModule,
+    ReactiveFormsModule
   ],
   exports:[
     HomeComponent,

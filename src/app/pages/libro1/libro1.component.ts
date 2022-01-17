@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { AuthService } from 'src/app/services/auth.service';
 declare var $: any;
 @Component({
   selector: 'app-libro1',
@@ -7,18 +9,19 @@ declare var $: any;
 })
 export class Libro1Component implements OnInit {
 
-  constructor() { }
+  constructor(private auth: AuthService) { }
+  email!: Promise<string>;
+  libro1!: Observable<any>;
 
   ngOnInit(): void {
-    this.efectoLibro();
+    this.auth.getUser().subscribe((resp: any) => {
+      this.email = new Promise((resolver, reject) => {
+        resolver(resp.email);
+        reject('No hay correo registrado');
+      })
+    this.email?.then((resp: any) => {
+      this.libro1 = this.auth.obtenerLibro(resp, 'book1');
+    })
+  })
   }
-
-  efectoLibro(){
-    $("#flipbook").turn({
-      width: '100%',
-      height: '100vh',
-      autoCenter: true
-  });
-  }
-
 }
