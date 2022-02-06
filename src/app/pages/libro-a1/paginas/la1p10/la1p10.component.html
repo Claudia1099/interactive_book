@@ -9,33 +9,34 @@
                 <li class="my-2">
                     <strong>Jack:</strong> Hi, Ismael. How are you?
                     <br>
-                    <strong>Ismael: </strong>Hi, Jack. I'm OK but I've got loads of <input type="text">
+                    <strong>Ismael: </strong>Hi, Jack. I'm OK but I've got loads of <input type="text" name="ans1page10" [(ngModel)]="libro.ans1Page10" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()">
                 </li>
                 <li class="my-2">
-                    <strong>Jack:</strong> We don't know. We can't decide. There's that new <input type="text"> film, 'Light and dark'
+                    <strong>Jack:</strong> We don't know. We can't decide. There's that new <input type="text" name="ans2page10" [(ngModel)]="libro.ans2Page10" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"> film, 'Light and dark'
 
                 </li>
                 <li class="my-2">
-                    <strong>Jack:</strong> OK, Well there´s a <input type="text" name="" id=""> about a school.
+                    <strong>Jack:</strong> OK, Well there´s a <input type="text" name="ans3page10" [(ngModel)]="libro.ans3Page10" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" name="" id=""> about a school.
 
                 </li>
                 <li class="my-2">
-                    <strong>Ismael: </strong>Oh, no more school, please! What about a <input type="text"> ?
+                    <strong>Ismael: </strong>Oh, no more school, please! What about a <input type="text" name="ans4page10" [(ngModel)]="libro.ans4Page10" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"> ?
                 </li>
                 <li class="my-2">
-                    <strong>Jack:</strong> What? really? No, I hate romantic films, I like <input type="text">
+                    <strong>Jack:</strong> What? really? No, I hate romantic films, I like <input type="text" name="ans5page10" [(ngModel)]="libro.ans5Page10" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()">
                 </li>
                 <li class="my-2">
                     <strong>Ismael: </strong>Well, there's a new science fiction film, 'Alien attacks'.
                     <br>
-                    <strong>Jack:</strong> OK, I like <input type="text">. Let's see that.
+                    <strong>Jack:</strong> OK, I like <input type="text" name="ans6page10" [(ngModel)]="libro.ans6Page10" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()">. Let's see that.
                 </li>
                 <li class="my-2">
-                    <strong>Ismael: </strong>At 8 o'Clock. Let's meet at 7.30 <input type="text"> the cinema.
+                    <strong>Ismael: </strong>At 8 o'Clock. Let's meet at 7.30 <input type="text" name="ans7page10" [(ngModel)]="libro.ans7Page10" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"> the cinema.
                 </li>
 
                 <li class="my-2">
-                    <strong>Jack:</strong> OK, <input type="text"> you <input type="text">.
+                    <strong>Jack:</strong> OK, <input type="text" name="ans8page10" [(ngModel)]="libro.ans8Page10" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"> you <input type="text" name="ans9page10" [(ngModel)]="libro.ans9Page10" (keyup.enter)="guardarInfo()"
+                        (blur)="guardarInfo()">.
                     <br>
                     <strong>Ismael: </strong>Bye.
                 </li>
@@ -50,10 +51,10 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td><input type="text" placeholder="I like ..." class="form-control"></td>
+                        <td><input type="text" name="ans10page10" [(ngModel)]="libro.ans10Page10" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" placeholder="I like ..." class="form-control"></td>
                     </tr>
                     <tr>
-                        <td><input type="text" placeholder="I don´t really like ..." class="form-control"></td>
+                        <td><input type="text" name="ans11page10" [(ngModel)]="libro.ans11Page10" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" placeholder="I don´t really like ..." class="form-control"></td>
                     </tr>
                 </tbody>
             </table>

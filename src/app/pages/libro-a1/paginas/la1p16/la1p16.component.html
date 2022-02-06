@@ -14,54 +14,54 @@
         </div>
         <div class="col-md-6">
             <ol>
-                <li>What does marco like? <input type="text" name="" id="" placeholder="Answer" class="form-control"></li>
+                <li>What does marco like? <input type="text" name="ans1page16" [(ngModel)]="libro.ans1Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" placeholder="Answer" class="form-control"></li>
                 <li>Marco's family only watches movies in the cinema? <br>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="q1-p16-la1" id="q1-p16-la1-o1" value="option1">
+                        <input class="form-check-input" type="radio" name="q1-p16-la1" id="q1-p16-la1-o1" value="q1-p16-la1-o1" [checked]="libro['q1-p16-la1']==='q1-p16-la1-o1'" [(ngModel)]="libro['q1-p16-la1']" (change)="guardarInfo()">
                         <label class="form-check-label" for="q1-p16-la1-o1">True</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="q1-p16-la1" id="q1-p16-la1-o2" value="option2">
+                        <input class="form-check-input" type="radio" name="q1-p16-la1" id="q1-p16-la1-o2" value="q1-p16-la1-o2" [checked]="libro['q1-p16-la1']==='q1-p16-la1-o2'" [(ngModel)]="libro['q1-p16-la1']" (change)="guardarInfo()">
                         <label class="form-check-label" for="q1-p16-la1-o2">False</label>
                     </div>
                 </li>
                 <li>Everyone in Marco's family likes movies. <br>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="q2-p16-la1" id="q2-p16-la1-o1" value="option1">
+                        <input class="form-check-input" type="radio" name="q2-p16-la1" id="q2-p16-la1-o1" value="q2-p16-la1-o1" [checked]="libro['q2-p16-la1']==='q2-p16-la1-o1'" [(ngModel)]="libro['q2-p16-la1']" (change)="guardarInfo()">
                         <label class="form-check-label" for="q2-p16-la1-o1">True</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="q2-p16-la1" id="q2-p16-la1-o2" value="option2">
+                        <input class="form-check-input" type="radio" name="q2-p16-la1" id="q2-p16-la1-o2" value="q2-p16-la1-o2" [checked]="libro['q2-p16-la1']==='q2-p16-la1-o2'" [(ngModel)]="libro['q2-p16-la1']" (change)="guardarInfo()">
                         <label class="form-check-label" for="q2-p16-la1-o2">False</label>
                     </div>
                 </li>
                 <li>Marco's family saw "The Sound of Music" last year. <br>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="q3-p16-la1" id="q3-p16-la1-o1" value="option1">
+                        <input class="form-check-input" type="radio" name="q3-p16-la1" id="q3-p16-la1-o1" value="q3-p16-la1-o1" [checked]="libro['q3-p16-la1']==='q3-p16-la1-o1'" [(ngModel)]="libro['q3-p16-la1']" (change)="guardarInfo()">
                         <label class="form-check-label" for="q3-p16-la1-o1">True</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="q3-p16-la1" id="q3-p16-la1-o2" value="option2">
+                        <input class="form-check-input" type="radio" name="q3-p16-la1" id="q3-p16-la1-o2" value="q3-p16-la1-o2" [checked]="libro['q3-p16-la1']==='q3-p16-la1-o2'" [(ngModel)]="libro['q3-p16-la1']" (change)="guardarInfo()">
                         <label class="form-check-label" for="q3-p16-la1-o2">False</label>
                     </div>
                 </li>
                 <li>"The Sound of Music" is the name of a movie. <br>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="q4-p16-la1" id="q4-p16-la1-o1" value="option1">
+                        <input class="form-check-input" type="radio" name="q4-p16-la1" id="q4-p16-la1-o1" value="q4-p16-la1-o1" [checked]="libro['q4-p16-la1']==='q4-p16-la1-o1'" [(ngModel)]="libro['q4-p16-la1']" (change)="guardarInfo()">
                         <label class="form-check-label" for="q4-p16-la1-o1">True</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="q4-p16-la1" id="q4-p16-la1-o2" value="option2">
+                        <input class="form-check-input" type="radio" name="q4-p16-la1" id="q4-p16-la1-o2" value="q4-p16-la1-o2" [checked]="libro['q4-p16-la1']==='q4-p16-la1-o2'" [(ngModel)]="libro['q4-p16-la1']" (change)="guardarInfo()">
                         <label class="form-check-label" for="q4-p16-la1-o2">False</label>
                     </div>
                 </li>
-                <li>Who watched "The Sound of Music"? <input type="text" name="" id="" placeholder="Answer" class="form-control"> </li>
+                <li>Who watched "The Sound of Music"? <input type="text" name="ans2page16" [(ngModel)]="libro.ans2Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" placeholder="Answer" class="form-control"> </li>
                 <li>What does the word singers mean?
                     <ol>
 
                         <li>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="q6-p16-la1" id="q6-p16-la1-o1" value="option1">
+                                <input class="form-check-input" type="radio" name="q6-p16-la1" id="q6-p16-la1-o1" value="q6-p16-la1-o1" [checked]="libro['q6-p16-la1']==='q6-p16-la1-o1'" [(ngModel)]="libro['q6-p16-la1']" (change)="guardarInfo()">
                                 <label class="form-check-label" for="q6-p16-la1-o1">
                                 people who make music
                             </label>
@@ -69,7 +69,7 @@
                         </li>
                         <li>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="q6-p16-la1" id="q6-p16-la1-o2" value="option2">
+                                <input class="form-check-input" type="radio" name="q6-p16-la1" id="q6-p16-la1-o2" value="q6-p16-la1-o2" [checked]="libro['q6-p16-la1']==='q6-p16-la1-o2'" [(ngModel)]="libro['q6-p16-la1']" (change)="guardarInfo()">
                                 <label class="form-check-label" for="q6-p16-la1-o2">
                                     people who like music
                                 </label>
@@ -77,7 +77,7 @@
                         </li>
                         <li>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="q6-p16-la1" id="q6-p16-la1-o3" value="option3">
+                                <input class="form-check-input" type="radio" name="q6-p16-la1" id="q6-p16-la1-o3" value="q6-p16-la1-o3" [checked]="libro['q6-p16-la1']==='q6-p16-la1-o3'" [(ngModel)]="libro['q6-p16-la1']" (change)="guardarInfo()">
                                 <label class="form-check-label" for="q6-p16-la1-o3">
                                     people who are in dangerous
                                 </label>
@@ -89,7 +89,7 @@
                     <ol>
                         <li>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="q8-p16-la1" id="q8-p16-la1-o1" value="option1">
+                                <input class="form-check-input" type="radio" name="q8-p16-la1" id="q8-p16-la1-o1" value="q8-p16-la1-o1" [checked]="libro['q8-p16-la1']==='q8-p16-la1-o1'" [(ngModel)]="libro['q8-p16-la1']" (change)="guardarInfo()">
                                 <label class="form-check-label" for="q8-p16-la1-o1">
                             Marco
                         </label>
@@ -97,7 +97,7 @@
                         </li>
                         <li>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="q8-p16-la1" id="q8-p16-la1-o2" value="option2">
+                                <input class="form-check-input" type="radio" name="q8-p16-la1" id="q8-p16-la1-o2" value="q8-p16-la1-o2" [checked]="libro['q8-p16-la1']==='q8-p16-la1-o2'" [(ngModel)]="libro['q8-p16-la1']" (change)="guardarInfo()">
                                 <label class="form-check-label" for="q8-p16-la1-o2">
                                 Marcos sister
                         </label>
@@ -105,7 +105,7 @@
                         </li>
                         <li>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="q8-p16-la1" id="q8-p16-la1-o3" value="option3">
+                                <input class="form-check-input" type="radio" name="q8-p16-la1" id="q8-p16-la1-o3" value="q8-p16-la1-o3" [checked]="libro['q8-p16-la1']==='q8-p16-la1-o3'" [(ngModel)]="libro['q8-p16-la1']" (change)="guardarInfo()">
                                 <label class="form-check-label" for="q8-p16-la1-o3">
                                     Marcos mother
                             </label>

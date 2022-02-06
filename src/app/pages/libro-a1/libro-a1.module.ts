@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LibroA1Component } from './libro-a1.component';
 import { LibroA1RoutingModule } from './libro-a1-routing.module';
-import { La1p1Component } from './paginas/la1p1/la1p1.component';
 import { La1p2Component } from './paginas/la1p2/la1p2.component';
 import { La1p3Component } from './paginas/la1p3/la1p3.component';
 import { La1p4Component } from './paginas/la1p4/la1p4.component';
@@ -50,6 +49,9 @@ import { La1p45Component } from './paginas/la1p45/la1p45.component';
 import { La1p46Component } from './paginas/la1p46/la1p46.component';
 import { La1p47Component } from './paginas/la1p47/la1p47.component';
 import { La1p48Component } from './paginas/la1p48/la1p48.component';
+import { La1p1Component } from './paginas/la1p1/la1p1.component';
+import { FormsModule } from '@angular/forms';
+import { ComponentesModule } from '../../components/componentes.module';
 
 
 
@@ -107,7 +109,9 @@ import { La1p48Component } from './paginas/la1p48/la1p48.component';
   ],
   imports: [
     CommonModule,
-    LibroA1RoutingModule
+    LibroA1RoutingModule,
+    FormsModule,
+    ComponentesModule
   ]
 })
 export class LibroA1Module { }

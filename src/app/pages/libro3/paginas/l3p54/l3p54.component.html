@@ -33,242 +33,242 @@
                         <td>1. go out for dinner this evening</td>
                         <td>
                             <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                                <input type="radio" class="btn-check" name="q54-p1-l3" id="q54-p1-l3-o1" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p1-l3" id="q54-p1-l3-o1" autocomplete="off" value="q54-p1-l3-o1" [checked]="libro['q54-p1-l3']==='q54-p1-l3-o1'" [(ngModel)]="libro['q54-p1-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p1-l3-o1"><i class="fas fa-check"></i></label>
 
-                                <input type="radio" class="btn-check" name="q54-p1-l3" id="q54-p1-l3-o2" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p1-l3" id="q54-p1-l3-o2" autocomplete="off" value="q54-p1-l3-o2" [checked]="libro['q54-p1-l3']==='q54-p1-l3-o2'" [(ngModel)]="libro['q54-p1-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p1-l3-o2"><i class="fas fa-times"></i></label>
 
                             </div>
                         </td>
-                        <td><input type="text" class="form-control" name="" id="" placeholder="Where _____________ ?"></td>
-                        <td><input type="text" class="form-control" name="" id=""></td>
+                        <td><input type="text" class="form-control" name="ans2page55" [(ngModel)]="libro.ans2Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" placeholder="Where _____________ ?"></td>
+                        <td><input type="text" class="form-control" name="ans3page55" [(ngModel)]="libro.ans3Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
                     </tr>
                     <tr>
                         <td>2. watch a film this weekend? </td>
                         <td>
                             <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                                <input type="radio" class="btn-check" name="q54-p2-l3" id="q54-p2-l3-o1" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p2-l3" id="q54-p2-l3-o1" autocomplete="off" value="q54-p2-l3-o1" [checked]="libro['q54-p2-l3']==='q54-p2-l3-o1'" [(ngModel)]="libro['q54-p2-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p2-l3-o1"><i class="fas fa-check"></i></label>
 
-                                <input type="radio" class="btn-check" name="q54-p2-l3" id="q54-p2-l3-o2" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p2-l3" id="q54-p2-l3-o2" autocomplete="off" value="q54-p2-l3-o2" [checked]="libro['q54-p2-l3']==='q54-p2-l3-o2'" [(ngModel)]="libro['q54-p2-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p2-l3-o2"><i class="fas fa-times"></i></label>
 
                             </div>
                         </td>
-                        <td><input type="text" class="form-control" placeholder="What _____________ ?" name="" id=""></td>
-                        <td><input type="text" class="form-control" name="" id=""></td>
+                        <td><input type="text" class="form-control" placeholder="What _____________ ?" name="ans5page55" [(ngModel)]="libro.ans5Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
+                        <td><input type="text" class="form-control" name="ans6page55" [(ngModel)]="libro.ans6Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
                     </tr>
                     <tr>
                         <td>3. meet someone after class?</td>
                         <td>
                             <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                                <input type="radio" class="btn-check" name="q54-p3-l3" id="q54-p3-l3-o1" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p3-l3" id="q54-p3-l3-o1" autocomplete="off" value="q54-p3-l3-o1" [checked]="libro['q54-p3-l3']==='q54-p3-l3-o1'" [(ngModel)]="libro['q54-p3-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p3-l3-o1"><i class="fas fa-check"></i></label>
 
-                                <input type="radio" class="btn-check" name="q54-p3-l3" id="q54-p3-l3-o2" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p3-l3" id="q54-p3-l3-o2" autocomplete="off" value="q54-p3-l3-o2" [checked]="libro['q54-p3-l3']==='q54-p3-l3-o2'" [(ngModel)]="libro['q54-p3-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p3-l3-o2"><i class="fas fa-times"></i></label>
 
                             </div>
                         </td>
-                        <td><input type="text" class="form-control" name="" id="" placeholder="Who _____________ ?"></td>
-                        <td><input type="text" class="form-control" name="" id=""></td>
+                        <td><input type="text" class="form-control" name="ans8page55" [(ngModel)]="libro.ans8Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" placeholder="Who _____________ ?"></td>
+                        <td><input type="text" class="form-control" name="ans9page55" [(ngModel)]="libro.ans9Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
                     </tr>
                     <tr>
                         <td>4. write an email today?</td>
                         <td>
                             <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                                <input type="radio" class="btn-check" name="q54-p4-l3" id="q54-p4-l3-o1" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p4-l3" id="q54-p4-l3-o1" autocomplete="off" value="q54-p4-l3-o1" [checked]="libro['q54-p4-l3']==='q54-p4-l3-o1'" [(ngModel)]="libro['q54-p4-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p4-l3-o1"><i class="fas fa-check"></i></label>
 
-                                <input type="radio" class="btn-check" name="q54-p4-l3" id="q54-p4-l3-o2" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p4-l3" id="q54-p4-l3-o2" autocomplete="off" value="q54-p4-l3-o2" [checked]="libro['q54-p4-l3']==='q54-p4-l3-o2'" [(ngModel)]="libro['q54-p4-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p4-l3-o2"><i class="fas fa-times"></i></label>
 
                             </div>
                         </td>
-                        <td><input type="text" placeholder="Why _____________ ?" class="form-control" name="" id=""></td>
-                        <td><input type="text" class="form-control" name="" id=""></td>
+                        <td><input type="text" placeholder="Why _____________ ?" class="form-control" name="ans11page55" [(ngModel)]="libro.ans11Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
+                        <td><input type="text" class="form-control" name="ans12page55" [(ngModel)]="libro.ans12Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
                     </tr>
                     <tr>
                         <td>5. have breakfast tomorrow?</td>
                         <td>
                             <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                                <input type="radio" class="btn-check" name="q54-p5-l3" id="q54-p5-l3-o1" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p5-l3" id="q54-p5-l3-o1" autocomplete="off" value="q54-p5-l3-o1" [checked]="libro['q54-p5-l3']==='q54-p5-l3-o1'" [(ngModel)]="libro['q54-p5-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p5-l3-o1"><i class="fas fa-check"></i></label>
 
-                                <input type="radio" class="btn-check" name="q54-p5-l3" id="q54-p5-l3-o2" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p5-l3" id="q54-p5-l3-o2" autocomplete="off" value="q54-p5-l3-o2" [checked]="libro['q54-p5-l3']==='q54-p5-l3-o2'" [(ngModel)]="libro['q54-p5-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p5-l3-o2"><i class="fas fa-times"></i></label>
 
                             </div>
                         </td>
-                        <td><input type="text" class="form-control" placeholder="What _____________ ?" name="" id=""></td>
-                        <td><input type="text" class="form-control" name="" id=""></td>
+                        <td><input type="text" class="form-control" placeholder="What _____________ ?" name="ans14page55" [(ngModel)]="libro.ans14Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
+                        <td><input type="text" class="form-control" name="ans15page55" [(ngModel)]="libro.ans15Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
                     </tr>
                     <tr>
                         <td>6. play sport this week? </td>
                         <td>
                             <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                                <input type="radio" class="btn-check" name="q54-p6-l3" id="q54-p6-l3-o1" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p6-l3" id="q54-p6-l3-o1" autocomplete="off" value="q54-p6-l3-o1" [checked]="libro['q54-p6-l3']==='q54-p6-l3-o1'" [(ngModel)]="libro['q54-p6-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p6-l3-o1"><i class="fas fa-check"></i></label>
 
-                                <input type="radio" class="btn-check" name="q54-p6-l3" id="q54-p6-l3-o2" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p6-l3" id="q54-p6-l3-o2" autocomplete="off" value="q54-p6-l3-o2" [checked]="libro['q54-p6-l3']==='q54-p6-l3-o2'" [(ngModel)]="libro['q54-p6-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p6-l3-o2"><i class="fas fa-times"></i></label>
 
                             </div>
                         </td>
-                        <td><input type="text" class="form-control" name="" placeholder="What _____________ ?" id=""></td>
-                        <td><input type="text" class="form-control" name="" id=""></td>
+                        <td><input type="text" class="form-control" name="ans17page55" [(ngModel)]="libro.ans17Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" placeholder="What _____________ ?" id=""></td>
+                        <td><input type="text" class="form-control" name="ans18page55" [(ngModel)]="libro.ans18Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
                     </tr>
                     <tr>
                         <td>7. go on holiday soon?</td>
                         <td>
                             <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                                <input type="radio" class="btn-check" name="q54-p7-l3" id="q54-p7-l3-o1" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p7-l3" id="q54-p7-l3-o1" autocomplete="off" value="q54-p7-l3-o1" [checked]="libro['q54-p7-l3']==='q54-p7-l3-o1'" [(ngModel)]="libro['q54-p7-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p7-l3-o1"><i class="fas fa-check"></i></label>
 
-                                <input type="radio" class="btn-check" name="q54-p7-l3" id="q54-p7-l3-o2" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p7-l3" id="q54-p7-l3-o2" autocomplete="off" value="q54-p7-l3-o2" [checked]="libro['q54-p7-l3']==='q54-p7-l3-o2'" [(ngModel)]="libro['q54-p7-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p7-l3-o2"><i class="fas fa-times"></i></label>
 
                             </div>
                         </td>
-                        <td><input type="text" class="form-control" name="" placeholder="Where _____________ ?" id=""></td>
-                        <td><input type="text" class="form-control" name="" id=""></td>
+                        <td><input type="text" class="form-control" name="ans20page55" [(ngModel)]="libro.ans20Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" placeholder="Where _____________ ?" id=""></td>
+                        <td><input type="text" class="form-control" name="ans21page55" [(ngModel)]="libro.ans21Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
                     </tr>
                     <tr>
                         <td>8. go shopping this weekend? </td>
                         <td>
                             <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                                <input type="radio" class="btn-check" name="q54-p8-l3" id="q54-p8-l3-o1" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p8-l3" id="q54-p8-l3-o1" autocomplete="off" value="q54-p8-l3-o1" [checked]="libro['q54-p8-l3']==='q54-p8-l3-o1'" [(ngModel)]="libro['q54-p8-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p8-l3-o1"><i class="fas fa-check"></i></label>
 
-                                <input type="radio" class="btn-check" name="q54-p8-l3" id="q54-p8-l3-o2" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p8-l3" id="q54-p8-l3-o2" autocomplete="off" value="q54-p8-l3-o2" [checked]="libro['q54-p8-l3']==='q54-p8-l3-o2'" [(ngModel)]="libro['q54-p8-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p8-l3-o2"><i class="fas fa-times"></i></label>
 
                             </div>
                         </td>
-                        <td><input type="text" placeholder="What _____________ ?" class="form-control" name="" id=""></td>
-                        <td><input type="text" class="form-control" name="" id=""></td>
+                        <td><input type="text" placeholder="What _____________ ?" class="form-control" name="ans23page55" [(ngModel)]="libro.ans23Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
+                        <td><input type="text" class="form-control" name="ans24page55" [(ngModel)]="libro.ans24Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
                     </tr>
                     <tr>
                         <td>9. go to bed early tonight?</td>
                         <td>
                             <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                                <input type="radio" class="btn-check" name="q54-p9-l3" id="q54-p9-l3-o1" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p9-l3" id="q54-p9-l3-o1" autocomplete="off" value="q54-p9-l3-o1" [checked]="libro['q54-p9-l3']==='q54-p9-l3-o1'" [(ngModel)]="libro['q54-p9-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p9-l3-o1"><i class="fas fa-check"></i></label>
 
-                                <input type="radio" class="btn-check" name="q54-p9-l3" id="q54-p9-l3-o2" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p9-l3" id="q54-p9-l3-o2" autocomplete="off" value="q54-p9-l3-o2" [checked]="libro['q54-p9-l3']==='q54-p9-l3-o2'" [(ngModel)]="libro['q54-p9-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p9-l3-o2"><i class="fas fa-times"></i></label>
 
                             </div>
                         </td>
-                        <td><input type="text" class="form-control" name="" id="" placeholder="Why _____________ ?"></td>
-                        <td><input type="text" class="form-control" name="" id=""></td>
+                        <td><input type="text" class="form-control" name="ans26page55" [(ngModel)]="libro.ans26Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" placeholder="Why _____________ ?"></td>
+                        <td><input type="text" class="form-control" name="ans27page55" [(ngModel)]="libro.ans27Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
                     </tr>
                     <tr>
                         <td>10. do some exercise today? </td>
                         <td>
                             <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                                <input type="radio" class="btn-check" name="q54-p10-l3" id="q54-p10-l3-o1" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p10-l3" id="q54-p10-l3-o1" autocomplete="off" value="q54-p10-l3-o1" [checked]="libro['q54-p10-l3']==='q54-p10-l3-o1'" [(ngModel)]="libro['q54-p10-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p10-l3-o1"><i class="fas fa-check"></i></label>
 
-                                <input type="radio" class="btn-check" name="q54-p10-l3" id="q54-p10-l3-o2" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p10-l3" id="q54-p10-l3-o2" autocomplete="off" value="q54-p10-l3-o2" [checked]="libro['q54-p10-l3']==='q54-p10-l3-o2'" [(ngModel)]="libro['q54-p10-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p10-l3-o2"><i class="fas fa-times"></i></label>
 
                             </div>
                         </td>
-                        <td><input type="text" class="form-control" placeholder="What _____________ ?" name="" id=""></td>
-                        <td><input type="text" class="form-control" name="" id=""></td>
+                        <td><input type="text" class="form-control" placeholder="What _____________ ?" name="ans29page55" [(ngModel)]="libro.ans29Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
+                        <td><input type="text" class="form-control" name="ans30page55" [(ngModel)]="libro.ans30Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
                     </tr>
                     <tr>
                         <td>11. improve your English skills?</td>
                         <td>
                             <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                                <input type="radio" class="btn-check" name="q54-p11-l3" id="q54-p11-l3-o1" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p11-l3" id="q54-p11-l3-o1" autocomplete="off" value="q54-p11-l3-o1" [checked]="libro['q54-p11-l3']==='q54-p11-l3-o1'" [(ngModel)]="libro['q54-p11-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p11-l3-o1"><i class="fas fa-check"></i></label>
 
-                                <input type="radio" class="btn-check" name="q54-p11-l3" id="q54-p11-l3-o2" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p11-l3" id="q54-p11-l3-o2" autocomplete="off" value="q54-p11-l3-o2" [checked]="libro['q54-p11-l3']==='q54-p11-l3-o2'" [(ngModel)]="libro['q54-p11-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p11-l3-o2"><i class="fas fa-times"></i></label>
 
                             </div>
                         </td>
-                        <td><input type="text" class="form-control" name="" placeholder="How _____________ ?" id=""></td>
-                        <td><input type="text" class="form-control" name="" id=""></td>
+                        <td><input type="text" class="form-control" name="ans32page55" [(ngModel)]="libro.ans32Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" placeholder="How _____________ ?" id=""></td>
+                        <td><input type="text" class="form-control" name="ans33page55" [(ngModel)]="libro.ans33Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
                     </tr>
                     <tr>
                         <td>12. get married in the future?</td>
                         <td>
                             <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                                <input type="radio" class="btn-check" name="q54-p12-l3" id="q54-p12-l3-o1" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p12-l3" id="q54-p12-l3-o1" autocomplete="off" value="q54-p12-l3-o1" [checked]="libro['q54-p12-l3']==='q54-p12-l3-o1'" [(ngModel)]="libro['q54-p12-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p12-l3-o1"><i class="fas fa-check"></i></label>
 
-                                <input type="radio" class="btn-check" name="q54-p12-l3" id="q54-p12-l3-o2" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p12-l3" id="q54-p12-l3-o2" autocomplete="off" value="q54-p12-l3-o2" [checked]="libro['q54-p12-l3']==='q54-p12-l3-o2'" [(ngModel)]="libro['q54-p12-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p12-l3-o2"><i class="fas fa-times"></i></label>
 
                             </div>
                         </td>
-                        <td><input type="text" placeholder="Who _____________ ?" class="form-control" name="" id=""></td>
-                        <td><input type="text" class="form-control" name="" id=""></td>
+                        <td><input type="text" placeholder="Who _____________ ?" class="form-control" name="ans35page55" [(ngModel)]="libro.ans35Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
+                        <td><input type="text" class="form-control" name="ans36page55" [(ngModel)]="libro.ans36Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
                     </tr>
                     <tr>
                         <td>13. learn something new today?</td>
                         <td>
                             <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                                <input type="radio" class="btn-check" name="q54-p13-l3" id="q54-p13-l3-o1" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p13-l3" id="q54-p13-l3-o1" autocomplete="off" value="q54-p13-l3-o1" [checked]="libro['q54-p13-l3']==='q54-p13-l3-o1'" [(ngModel)]="libro['q54-p13-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p13-l3-o1"><i class="fas fa-check"></i></label>
 
-                                <input type="radio" class="btn-check" name="q54-p13-l3" id="q54-p13-l3-o2" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p13-l3" id="q54-p13-l3-o2" autocomplete="off" value="q54-p13-l3-o2" [checked]="libro['q54-p13-l3']==='q54-p13-l3-o2'" [(ngModel)]="libro['q54-p13-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p13-l3-o2"><i class="fas fa-times"></i></label>
 
                             </div>
                         </td>
 
-                        <td><input type="text" class="form-control" name="" placeholder="What _____________ ?" id=""></td>
-                        <td><input type="text" class="form-control" name="" id=""></td>
+                        <td><input type="text" class="form-control" name="ans38page55" [(ngModel)]="libro.ans38Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" placeholder="What _____________ ?" id=""></td>
+                        <td><input type="text" class="form-control" name="ans39page55" [(ngModel)]="libro.ans39Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
                     </tr>
                     <tr>
                         <td>14. travel abroad this year?</td>
                         <td>
                             <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                                <input type="radio" class="btn-check" name="q54-p14-l3" id="q54-p14-l3-o1" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p14-l3" id="q54-p14-l3-o1" autocomplete="off" value="q54-p14-l3-o1" [checked]="libro['q54-p14-l3']==='q54-p14-l3-o1'" [(ngModel)]="libro['q54-p14-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p14-l3-o1"><i class="fas fa-check"></i></label>
 
-                                <input type="radio" class="btn-check" name="q54-p14-l3" id="q54-p14-l3-o2" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p14-l3" id="q54-p14-l3-o2" autocomplete="off" value="q54-p14-l3-o2" [checked]="libro['q54-p14-l3']==='q54-p14-l3-o2'" [(ngModel)]="libro['q54-p14-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p14-l3-o2"><i class="fas fa-times"></i></label>
 
                             </div>
                         </td>
-                        <td><input type="text" placeholder="Where _____________ ?" class="form-control" name="" id=""></td>
-                        <td><input type="text" class="form-control" name="" id=""></td>
+                        <td><input type="text" placeholder="Where _____________ ?" class="form-control" name="ans41page55" [(ngModel)]="libro.ans41Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
+                        <td><input type="text" class="form-control" name="ans42page55" [(ngModel)]="libro.ans42Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
                     </tr>
                     <tr>
                         <td>15. save money this year?</td>
                         <td>
                             <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                                <input type="radio" class="btn-check" name="q54-p15-l3" id="q54-p15-l3-o1" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p15-l3" id="q54-p15-l3-o1" autocomplete="off" value="q54-p15-l3-o1" [checked]="libro['q54-p15-l3']==='q54-p15-l3-o1'" [(ngModel)]="libro['q54-p15-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p15-l3-o1"><i class="fas fa-check"></i></label>
 
-                                <input type="radio" class="btn-check" name="q54-p15-l3" id="q54-p15-l3-o2" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p15-l3" id="q54-p15-l3-o2" autocomplete="off" value="q54-p15-l3-o2" [checked]="libro['q54-p15-l3']==='q54-p15-l3-o2'" [(ngModel)]="libro['q54-p15-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p15-l3-o2"><i class="fas fa-times"></i></label>
 
                             </div>
                         </td>
-                        <td><input type="text" placeholder="Why _____________ ?" class="form-control" name="" id=""></td>
-                        <td><input type="text" class="form-control" name="" id=""></td>
+                        <td><input type="text" placeholder="Why _____________ ?" class="form-control" name="ans44page55" [(ngModel)]="libro.ans44Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
+                        <td><input type="text" class="form-control" name="ans45page55" [(ngModel)]="libro.ans45Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
                     </tr>
                     <tr>
                         <td>16. clean your house soon?</td>
                         <td>
                             <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                                <input type="radio" class="btn-check" name="q54-p16-l3" id="q54-p16-l3-o1" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p16-l3" id="q54-p16-l3-o1" autocomplete="off" value="q54-p16-l3-o1" [checked]="libro['q54-p16-l3']==='q54-p16-l3-o1'" [(ngModel)]="libro['q54-p16-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p16-l3-o1"><i class="fas fa-check"></i></label>
 
-                                <input type="radio" class="btn-check" name="q54-p16-l3" id="q54-p16-l3-o2" autocomplete="off">
+                                <input type="radio" class="btn-check" name="q54-p16-l3" id="q54-p16-l3-o2" autocomplete="off" value="q54-p16-l3-o2" [checked]="libro['q54-p16-l3']==='q54-p16-l3-o2'" [(ngModel)]="libro['q54-p16-l3']" (change)="guardarInfo()">
                                 <label class="btn btn-outline-primary" for="q54-p16-l3-o2"><i class="fas fa-times"></i></label>
 
                             </div>
                         </td>
-                        <td><input type="text" placeholder="When _____________ ?" name="" id="" class="form-control"></td>
-                        <td><input type="text" class="form-control" name="" id=""></td>
+                        <td><input type="text" placeholder="When _____________ ?" name="ans47page55" [(ngModel)]="libro.ans47Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="form-control"></td>
+                        <td><input type="text" class="form-control" name="ans48page55" [(ngModel)]="libro.ans48Page55" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
                     </tr>
 
                 </tbody>

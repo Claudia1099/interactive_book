@@ -8,6 +8,8 @@
             <p class="justify">Alice doesn't stay home alone very often. She doesn't read many books, she doesn't watch TV, and she doesn't listen to music. She's very active.</p>
             <p class="justify">As you can see, Alice is a very outgoing person.</p>
             <br>
+        </div>
+        <div class="col-md-6">
             <strong>A VERY SHY PERSON</strong>
             <p class="justify">Using the story about Alice as a model, tell a story about Sheldon. Begin your story: Sheldon is a very shy person. He doesn't spend a lot of time with his friends. He doesn't go...</p>
             <br>
@@ -16,7 +18,8 @@
                 Then, tell the class about yourself and the other student.</p>
 
         </div>
-        <div class="col-md-6">
+        <div class="col-md-12">
+            <hr>
             <span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span> <strong> Listens</strong>
 
             <hr>
@@ -24,30 +27,36 @@
             <div class="row">
                 <div class="col-md-6">
                     <strong>1. What kind of movies do you like?</strong>
-                    <input type="text" class="form-control" placeholder="Answer" name="" id="">
+                    <input type="text" class="form-control" placeholder="Answer" name="ans13page22" [(ngModel)]="libro.ans13Page22" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
                 </div>
-                <div class="col-md-6">
-                    <img src="assets/img/imagen.jpg" class="img-fluid w-75 m-2" alt="">
+                <div class="col-md-2 card border-info">
+                    <h6 class="text-center">COMEDIES</h6>
+                    <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F65.jpg?alt=media&token=d33ff137-14e0-4d69-8f7e-eef696bc3ca0" class="img-fluid m-2 rounded " alt="img">
                 </div>
-                <div class="col-md-6">
-                    <img src="assets/img/imagen.jpg" class="img-fluid w-75 m-2" alt="">
+                <div class="col-md-2 card border-info">
+                    <h6 class="text-center">DRAMA</h6>
+                    <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F66.jpg?alt=media&token=ad6732ec-1710-4440-83f4-55535c22363a" class="img-fluid m-2 rounded " alt="img">
                 </div>
-                <div class="col-md-6">
-                    <img src="assets/img/imagen.jpg" class="img-fluid w-75 m-2" alt="">
+                <div class="col-md-2 card border-info">
+                    <h6 class="text-center">WESTERNS</h6>
+                    <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F67.jpg?alt=media&token=df015d4d-abd5-40a1-9c8a-53b59eb17446" class="img-fluid m-2 rounded " alt="img">
                 </div>
-                <hr>
+                <hr class="my-2">
                 <div class="col-md-6">
                     <strong>Who’s your favourite movies Star?</strong>
-                    <input type="text" class="form-control" placeholder="Answer" name="" id="">
+                    <input type="text" class="form-control" placeholder="Answer" name="ans14page22" [(ngModel)]="libro.ans14Page22" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
                 </div>
-                <div class="col-md-6">
-                    <img src="assets/img/imagen.jpg" class="img-fluid w-75 m-2" alt="">
+                <div class="col-md-2 card border-info">
+                    <h6 class="text-center">ADVENTURE MOVIES</h6>
+                    <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F68.jpg?alt=media&token=94a6e326-7ba5-46c9-95dc-daca6e52d125" class="img-fluid m-2 rounded " alt="img">
                 </div>
-                <div class="col-md-6">
-                    <img src="assets/img/imagen.jpg" class="img-fluid w-75 m-2" alt="">
+                <div class="col-md-2 card border-info">
+                    <h6 class="text-center">SCIENCE FICTION MOVIES</h6>
+                    <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F69.jpg?alt=media&token=edbb8774-5e5f-41eb-857d-02eb60d49e15" class="img-fluid m-2 rounded " alt="img">
                 </div>
-                <div class="col-md-6">
-                    <img src="assets/img/imagen.jpg" class="img-fluid w-75 m-2" alt="">
+                <div class="col-md-2 card border-info">
+                    <h6 class="text-center">CARTOONS</h6>
+                    <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F70.jpg?alt=media&token=3cd14b57-53e7-4b43-b87f-cfd0b5c4368a" class="img-fluid m-2 rounded " alt="img">
                 </div>
             </div>
         </div>

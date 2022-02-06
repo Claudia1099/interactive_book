@@ -4,10 +4,10 @@
             <h1><span class="badge bg-warning my-2">Class 8</span></h1>
             <h3 class="text-center"><span class="badge azul rounded-pill"><i class="fas fa-volume-up"></i></span> IN THE PARK</h3>
         </div>
-        <div class="col-md-6">
-            <img src="assets/img/imagen.jpg" class="img-fluid p-2" alt="">
+        <div class="col-md-6 card border-info">
+            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F145.PNG?alt=media&token=d7786562-b8ed-4512-a6f9-57b9aa8117e4" class="img-fluid rounded p-2" alt="">
         </div>
-        <div class="col-md-6 table-responsive ">
+        <div class="col-md-6 table-responsive  ">
             <table style="width: 100%;">
                 <tbody>
                     <tr>
@@ -38,9 +38,9 @@
             <hr>
             <h6 class="center m-3">TALK ABOUT THE PICTURE</h6>
             <ul>
-                <li> What’s the little girl doing? <input type="text" class="form-control" placeholder="Answer" name="" id=""></li>
-                <li> What do the old men do every-day? <input type="text" class="form-control" placeholder="Answer" name="" id=""></li>
-                <li> Where does the boy like to go on the weekends? <input type="text" class="form-control" placeholder="Answer" name="" id=""></li>
+                <li> What’s the little girl doing? <input type="text" class="form-control" placeholder="Answer" name="ans1page50" [(ngModel)]="libro.ans1Page50" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
+                <li> What do the old men do every-day? <input type="text" class="form-control" placeholder="Answer" name="ans2page50" [(ngModel)]="libro.ans2Page50" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
+                <li> Where does the boy like to go on the weekends? <input type="text" class="form-control" placeholder="Answer" name="ans3page50" [(ngModel)]="libro.ans3Page50" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
             </ul>
         </div>
     </div>

@@ -64,6 +64,8 @@ import { L3p59Component } from './paginas/l3p59/l3p59.component';
 import { L3p60Component } from './paginas/l3p60/l3p60.component';
 import { L3p61Component } from './paginas/l3p61/l3p61.component';
 import { L3p62Component } from './paginas/l3p62/l3p62.component';
+import { FormsModule } from '@angular/forms';
+import { ComponentesModule } from '../../components/componentes.module';
 
 
 
@@ -132,10 +134,14 @@ import { L3p62Component } from './paginas/l3p62/l3p62.component';
     L3p60Component,
     L3p61Component,
     L3p62Component,
+    
   ],
   imports: [
     CommonModule,
-    Libro3RoutingModule
+    Libro3RoutingModule,
+    FormsModule,
+    ComponentesModule
+    
   ]
 })
 export class Libro3Module { }

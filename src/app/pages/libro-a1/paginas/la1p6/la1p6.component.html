@@ -8,15 +8,15 @@
         </div>
         <div class="col-md-4 col-12 p-1">
             <h6>Thief 1</h6>
-            <textarea name="ta" id="" cols="20" rows="6" class="form-control"></textarea>
+            <textarea name="ans1page6" [(ngModel)]="libro.ans1Page6" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" cols="20" rows="6" class="form-control"></textarea>
         </div>
         <div class="col-md-4 col-12 p-1">
             <h6>Thief 2</h6>
-            <textarea name="ta" id="" cols="20" rows="6" class="form-control"></textarea>
+            <textarea name="ans2page6" [(ngModel)]="libro.ans2Page6" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" cols="20" rows="6" class="form-control"></textarea>
         </div>
         <div class="col-md-4 col-12 p-1">
             <h6>Thief 3</h6>
-            <textarea name="ta" id="" cols="20" rows="6" class="form-control"></textarea>
+            <textarea name="ans3page6" [(ngModel)]="libro.ans3Page6" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" cols="20" rows="6" class="form-control"></textarea>
         </div>
         <div class="col-md-12">
             <ol>
@@ -34,7 +34,8 @@
                 <li> The man with a small nose is bald.</li>
                 <li> All of the thieves wore T-shirts and jeans.</li>
             </ol>
-            <p>When you have finished, compare your drawings with your classmates. Are they the same? <input type="text" class="form-control " placeholder="Answer" name="" id=""></p>
+            <p>When you have finished, compare your drawings with your classmates. Are they the same? <input type="text" class="form-control " placeholder="Answer" name="ans4page6" [(ngModel)]="libro.ans4Page6" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"
+                    id=""></p>
         </div>
     </div>
 </div>

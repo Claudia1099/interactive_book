@@ -3,6 +3,7 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { AuthService } from 'src/app/services/auth.service';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-home',
@@ -13,7 +14,7 @@ export class HomeComponent implements OnInit {
 
   login: FormGroup = new FormGroup({});
   user: Observable<any> | undefined;
-  email: Promise<any> | undefined;
+  email!: Promise<any>;
   token: string = "";
   constructor(private fb: FormBuilder,
               private auth: AuthService) { 
@@ -24,9 +25,11 @@ export class HomeComponent implements OnInit {
   traerEmailAsync(){
     this.auth.user.subscribe((resp: any) => {
       this.email = new Promise((resolver, reject) => {
-        resolver(resp.email);
+        resolver(resp?.email);
         reject('Usuario no registrado')
       });
+    }, error => {
+      console.log(error);
     });
   }
 
@@ -58,7 +61,9 @@ export class HomeComponent implements OnInit {
         control.markAsTouched();
       })
     }
-    this.auth.autenticar(this.login.get('email')?.value, this.login.get('password')?.value);
+    Swal.fire('cargando...', '', 'info');
+    Swal.showLoading();
+    this.login.controls['password'].setValue(this.auth.autenticar(this.login.get('email')?.value, this.login.get('password')?.value));
   }
   logOut(){
     this.auth.logOut();

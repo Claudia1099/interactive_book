@@ -1,1 +1,65 @@
-<p>l1p35 works!</p>
+<div>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="assets/img/imagen.jpg" class="img-fluid" alt="img">
+            <p><b>A.</b> When is your birthday? </p>
+            <b>B.</b> It's ON January 21st
+
+            <hr class="my-3">
+
+            <img src="assets/img/imagen.jpg" class="img-fluid" alt="img">
+            <p><b>A.</b> When is your birthday? </p>
+            <b>B.</b> <input type="text" class="form-control" name="ans1page36" [(ngModel)]="libro.ans1Page36" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
+        </div>
+        <div class="col-md-6">
+            <h5>ORAL PRACTICE</h5>
+            <p>Ask your classmates about their age and their birthday, report the survey to the rest of the class.</p>
+
+            <h6 class="my-2 text-center">PHONETICS</h6>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>TH/</th>
+                        <th>/DTH/</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Three</td>
+                        <td>The</td>
+                    </tr>
+                    <tr>
+                        <td>Thirteen</td>
+                        <td>That</td>
+                    </tr>
+                    <tr>
+                        <td>Thirty</td>
+                        <td>They</td>
+                    </tr>
+                    <tr>
+                        <td>Thirty-three</td>
+                        <td>This</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="my-2">Listen to your teacher's pronunciation and write down if is /th/ of /dth/</p>
+            <table class="table">
+
+                <tbody>
+                    <tr>
+                        <td>Thanks <input type="text" name="ans2page36" [(ngModel)]="libro.ans2Page36" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" placeholder="__ / __ / __" class="form-control" id=""></td>
+                        <td>These <input type="text" name="ans5page36" [(ngModel)]="libro.ans5Page36" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" placeholder="__ / __ / __" class="form-control" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Those <input type="text" name="ans3page36" [(ngModel)]="libro.ans3Page36" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" placeholder="__ / __ / __" class="form-control" id=""></td>
+                        <td>Thirsty <input type="text" name="ans6page36" [(ngModel)]="libro.ans6Page36" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" placeholder="__ / __ / __" class="form-control" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Thus <input type="text" name="ans4page36" [(ngModel)]="libro.ans4Page36" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" placeholder="__ / __ / __" class="form-control" id=""></td>
+                        <td>Thumb <input type="text" name="ans7page36" [(ngModel)]="libro.ans7Page36" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" placeholder="__ / __ / __" class="form-control" id=""></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

@@ -12,8 +12,9 @@
         </div>
         <div class="col-md-6">
             This is my grandmother. Her name is
-            <input type="text" name="" class="m-1" id="">. She is <input type="text" size=40 style="width : 40px; height : 30px" name="" class=" m-1" id=""> year old.
-            <textarea name="" id="" class="form-control m-1" cols="30" rows="5"></textarea>
+            <input type="text" name="ans1Page22" [(ngModel)]="libro.ans1Page22" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" class="m-1" id="">. She is <input type="text" size=40 style="width : 40px; height : 30px" name="ans2Page22" [(ngModel)]="libro.ans2Page22"
+                (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" class=" m-1" id=""> year old.
+            <textarea name="ans3Page22" [(ngModel)]="libro.ans3Page22" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="form-control m-1" cols="30" rows="5"></textarea>
         </div>
         <div class="col-md-12">
             <strong>C. ORAL PRACTICE</strong>

@@ -65,10 +65,10 @@
         </div>
         <div class="col-md-12">
             <p>A. What are you wearing now?</p>
-            <input type="text" placeholder="Answer" class="form-control">
+            <input type="text" name="ans1page4" [(ngModel)]="libro.ans1Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" placeholder="Answer" class="form-control">
 
             <p>B. What did you wear yesterday?</p>
-            <input type="text" placeholder="Answer" class="form-control">
+            <input type="text" name="ans2page4" [(ngModel)]="libro.ans2Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" placeholder="Answer" class="form-control">
         </div>
     </div>
 </div>

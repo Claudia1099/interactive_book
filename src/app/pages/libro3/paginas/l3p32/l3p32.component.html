@@ -17,32 +17,32 @@
                     <ul>
                         <li>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="q1-p32-l3" id="q1-p32-l3-o1" value="option1">
-                                <label class="form-check-label" for="q1-p32-l3-o1">
+                                <input class="form-check-input" type="radio" name="q1-p33-l3" id="q1-p33-l3-o1" value="q7-p33-l3-o1" [checked]="libro['q7-p33-l3']==='q7-p33-l3-o1'" [(ngModel)]="libro['q7-p33-l3']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="q1-p33-l3-o1">
             a. shopping by phone
         </label>
                             </div>
                         </li>
                         <li>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="q1-p32-l3" id="q1-p32-l3-o2" value="option2">
-                                <label class="form-check-label" for="q1-p32-l3-o1">
+                                <input class="form-check-input" type="radio" name="q1-p33-l3" id="q1-p33-l3-o2" value="q7-p33-l3-o2" [checked]="libro['q7-p33-l3']==='q7-p33-l3-o2'" [(ngModel)]="libro['q7-p33-l3']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="q1-p33-l3-o1">
             b. new ways to shop
         </label>
                             </div>
                         </li>
                         <li>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="q1-p32-l3" id="q1-p32-l3-o3" value="option3">
-                                <label class="form-check-label" for="q1-p32-l3-o1">
+                                <input class="form-check-input" type="radio" name="q1-p33-l3" id="q1-p33-l3-o3" value="q7-p33-l3-o3" [checked]="libro['q7-p33-l3']==='q7-p33-l3-o3'" [(ngModel)]="libro['q7-p33-l3']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="q1-p33-l3-o1">
             c. three kinds of bags in supermarkets
         </label>
                             </div>
                         </li>
                         <li>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="q1-p32-l3" id="q1-p32-l3-o4" value="option4">
-                                <label class="form-check-label" for="q1-p32-l3-o1">
+                                <input class="form-check-input" type="radio" name="q1-p33-l3" id="q1-p33-l3-o4" value="q7-p33-l3-o4" [checked]="libro['q7-p33-l3']==='q7-p33-l3-o4'" [(ngModel)]="libro['q7-p33-l3']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="q1-p33-l3-o1">
             d. new things to buy
         </label>
                             </div>
@@ -51,12 +51,18 @@
                 </li>
                 <li>Answer the questions
                     <ul>
-                        <li>a. Tired shoppers in some cities can even buy groceries by phone. What are groceries? <input type="text" class="form-control" placeholder="Answer" name="" id=""></li>
-                        <li>b. Plastic is terrible for the environment. What is the environment? <input type="text" class="form-control" placeholder="Answer" name="" id=""></li>
-                        <li>c. Cloth bags are reusable. What can people do with reusable cloth bags? <input type="text" class="form-control" placeholder="Answer" name="" id=""></li>
-                        <li>d. Cloth bags are washable. What can you do with washable cloth bags? <input type="text" class="form-control" placeholder="Answer" name="" id=""></li>
-                        <li>e. People are changing to different products What are products? <input type="text" class="form-control" placeholder="Answer" name="" id=""></li>
-                        <li>f. Cloth diapers are not bad for the environment. Who wears diapers? <input type="text" class="form-control" placeholder="Answer" name="" id=""></li>
+                        <li>a. Tired shoppers in some cities can even buy groceries by phone. What are groceries? <input type="text" class="form-control" placeholder="Answer" name="ans1page33" [(ngModel)]="libro.ans1Page33" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"
+                                id=""></li>
+                        <li>b. Plastic is terrible for the environment. What is the environment? <input type="text" class="form-control" placeholder="Answer" name="ans2page33" [(ngModel)]="libro.ans2Page33" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"
+                                id=""></li>
+                        <li>c. Cloth bags are reusable. What can people do with reusable cloth bags? <input type="text" class="form-control" placeholder="Answer" name="ans3page33" [(ngModel)]="libro.ans3Page33" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"
+                                id=""></li>
+                        <li>d. Cloth bags are washable. What can you do with washable cloth bags? <input type="text" class="form-control" placeholder="Answer" name="ans4page33" [(ngModel)]="libro.ans4Page33" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"
+                                id=""></li>
+                        <li>e. People are changing to different products What are products? <input type="text" class="form-control" placeholder="Answer" name="ans5page33" [(ngModel)]="libro.ans5Page33" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"
+                                id=""></li>
+                        <li>f. Cloth diapers are not bad for the environment. Who wears diapers? <input type="text" class="form-control" placeholder="Answer" name="ans6page33" [(ngModel)]="libro.ans6Page33" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"
+                                id=""></li>
                     </ul>
                 </li>
             </ol>

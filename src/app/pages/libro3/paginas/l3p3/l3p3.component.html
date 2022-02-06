@@ -29,31 +29,42 @@
         <div class="col-md-6">
             <ul>
                 <li><strong>A. </strong> What´s(1) your name?</li>
-                <li><strong>B. </strong> My <input type="text" placeholder="Answer" name="" id="" class="my-1"> (2) <input type="text" placeholder="Answer" name="" id="" class="my-1">(3) Sung Hee.</li>
-                <li><strong>A. </strong> Where <input type="text" placeholder="Answer" name="" id="" class="my-1">(4) <input type="text" placeholder="Answer" name="" id="" class="my-1">(5) live?</li>
-                <li><strong>B. </strong> I <input type="text" placeholder="Answer" name="" id="" class="my-1"> (6) in Seoul.</li>
-                <li><strong>A. </strong> <input type="text" placeholder="Answer" name="" id="" class="my-1">(7) <input type="text" placeholder="Answer" name="" id="" class="my-1">(8) do you speak?</li>
-                <li><strong>B. </strong> I <input type="text" placeholder="Answer" name="" id="" class="my-1">(9) Korean.</li>
-                <li><strong>A. </strong> What <input type="text" placeholder="Answer" name="" id="" class="my-1">(10) <input type="text" placeholder="Answer" name="" id="" class="my-1">(11) do every day?</li>
-                <li><strong>B. </strong> Every day I <input type="text" placeholder="Answer" name="" id="" class="my-1">(12) Korean food, and I <input type="text" placeholder="Answer" name="" id="" class="my-1"> (13) Korean TV shows</li>
+                <li><strong>B. </strong> My <input type="text" placeholder="Answer" name="ans1page4" [(ngModel)]="libro.ans1Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="my-1 form-control input"> (2) <input type="text" placeholder="Answer"
+                        name="ans2page4" [(ngModel)]="libro.ans2Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="my-1 form-control input">(3) Sung Hee.</li>
+                <li><strong>A. </strong> Where <input type="text" placeholder="Answer" name="ans3page4" [(ngModel)]="libro.ans3Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="my-1 form-control input">(4) <input type="text" placeholder="Answer"
+                        name="ans4page4" [(ngModel)]="libro.ans4Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="my-1 form-control input">(5) live?</li>
+                <li><strong>B. </strong> I <input type="text" placeholder="Answer" name="ans5page4" [(ngModel)]="libro.ans5Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="my-1 form-control input"> (6) in Seoul.</li>
+                <li><strong>A. </strong> <input type="text" placeholder="Answer" name="ans6page4" [(ngModel)]="libro.ans6Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="my-1 form-control input">(7) <input type="text" placeholder="Answer"
+                        name="ans7page4" [(ngModel)]="libro.ans7Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="my-1 form-control input">(8) do you speak?</li>
+                <li><strong>B. </strong> I <input type="text" placeholder="Answer" name="ans8page4" [(ngModel)]="libro.ans8Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="my-1 form-control input">(9) Korean.</li>
+                <li><strong>A. </strong> What <input type="text" placeholder="Answer" name="ans9page4" [(ngModel)]="libro.ans9Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="my-1 form-control input">(10) <input type="text" placeholder="Answer"
+                        name="ans10page4" [(ngModel)]="libro.ans10Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="my-1 form-control input">(11) do every day?</li>
+                <li><strong>B. </strong> Every day I <input type="text" placeholder="Answer" name="ans11page4" [(ngModel)]="libro.ans11Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="my-1 form-control input">(12) Korean food, and
+                    I <input type="text" placeholder="Answer" name="ans12page4" [(ngModel)]="libro.ans12Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="my-1 form-control input"> (13) Korean TV shows</li>
             </ul>
             <div class="center">
-                <img src="assets/img/imagen.jpg" class="img-fluid w-50" alt="">
+                <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F8.jpg?alt=media&token=cebf524d-5e34-4741-b2a0-09bdfba559ed" class="img-fluid " alt="">
             </div>
         </div>
         <div class="col-md-6">
             <ul>
-                <li><strong>A. </strong> What <input type="text" placeholder="Answer" name="" id="" class="my-1">(14) your names?</li>
-                <li><strong>B. </strong> <input type="text" placeholder="Answer" name="" id="" class="my-1">(15) <input type="text" placeholder="Answer" name="" id="" class="my-1">(16) are Carlos and Maria</li>
-                <li><strong>A. </strong> Where <input type="text" placeholder="Answer" name="" id="" class="my-1">(17) <input type="text" placeholder="Answer" name="" id="" class="my-1">(18) live?</li>
-                <li><strong>B. </strong> <input type="text" placeholder="Answer" name="" id="" class="my-1">(19) <input type="text" placeholder="Answer" name="" id="" class="my-1">(20) in Madrid.</li>
-                <li><strong>A. </strong> <input type="text" placeholder="Answer" name="" id="" class="my-1">(21) languaje <input type="text" placeholder="Answer" name="" id="" class="my-1">(22) <input type="text" placeholder="Answer" name="" id="" class="my-1">(23)
-                    speak?
+                <li><strong>A. </strong> What <input type="text" placeholder="Answer" name="ans13page4" [(ngModel)]="libro.ans13Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="my-1 form-control input">(14) your names?</li>
+                <li><strong>B. </strong> <input type="text" placeholder="Answer" name="ans14page4" [(ngModel)]="libro.ans14Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="my-1 form-control input">(15) <input type="text" placeholder="Answer"
+                        name="ans15page4" [(ngModel)]="libro.ans15Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="my-1 form-control input">(16) are Carlos and Maria</li>
+                <li><strong>A. </strong> Where <input type="text" placeholder="Answer" name="ans16page4" [(ngModel)]="libro.ans16Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="my-1 form-control input">(17) <input type="text" placeholder="Answer"
+                        name="ans17page4" [(ngModel)]="libro.ans17Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="my-1 form-control input">(18) live?</li>
+                <li><strong>B. </strong> <input type="text" placeholder="Answer" name="ans18page4" [(ngModel)]="libro.ans18Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="my-1 form-control input">(19) <input type="text" placeholder="Answer"
+                        name="ans19page4" [(ngModel)]="libro.ans19Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="my-1 form-control input">(20) in Madrid.</li>
+                <li><strong>A. </strong> <input type="text" placeholder="Answer" name="ans20page4" [(ngModel)]="libro.ans20Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="my-1 form-control input">(21) languaje <input type="text" placeholder="Answer"
+                        name="ans21page4" [(ngModel)]="libro.ans21Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="my-1 form-control input">(22) <input type="text" placeholder="Answer" name="ans22page4" [(ngModel)]="libro.ans22Page4"
+                        (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="my-1 form-control input">(23) speak?
                 </li>
-                <li><strong>B. </strong> We <input type="text" placeholder="Answer" name="" id="" class="my-1">(24) Spanish?</li>
-                <li><strong>A. </strong> What <input type="text" placeholder="Answer" name="" id="" class="my-1">(25) you <input type="text" placeholder="Answer" name="" id="" class="my-1">(26) every day?</li>
-                <li><strong>B. </strong> Every day <input type="text" placeholder="Answer" name="" id="" class="my-1">(27) <input type="text" placeholder="Answer" name="" id="" class="my-1">(28) Spanish songs, and we <input type="text" placeholder="Answer"
-                        name="" id="" class="my-1">(29) Spanish newspapers</li>
+                <li><strong>B. </strong> We <input type="text" placeholder="Answer" name="ans23page4" [(ngModel)]="libro.ans23Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="my-1 form-control input">(24) Spanish?</li>
+                <li><strong>A. </strong> What <input type="text" placeholder="Answer" name="ans24page4" [(ngModel)]="libro.ans24Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="my-1 form-control input">(25) you <input type="text" placeholder="Answer"
+                        name="ans25page4" [(ngModel)]="libro.ans25Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="my-1 form-control input">(26) every day?</li>
+                <li><strong>B. </strong> Every day <input type="text" placeholder="Answer" name="ans26page4" [(ngModel)]="libro.ans26Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="my-1 form-control input">(27) <input type="text"
+                        placeholder="Answer" name="ans27page4" [(ngModel)]="libro.ans27Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="my-1 form-control input">(28) Spanish songs, and we <input type="text" placeholder="Answer" name="ans28page4"
+                        [(ngModel)]="libro.ans28Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="my-1 form-control input">(29) Spanish newspapers</li>
             </ul>
         </div>
     </div>

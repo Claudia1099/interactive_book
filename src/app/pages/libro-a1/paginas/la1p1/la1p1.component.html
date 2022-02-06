@@ -7,7 +7,7 @@
         <div class="col-md-6 mt-2">
             <div class="d-flex align-items-center">
                 <p> Hello, Good
-                    <input type="text" placeholder="Answer"> . How are you doing?</p>
+                    <input name="ans1page1" [(ngModel)]="libro.ans1Page1" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" type="text" placeholder="Answer"> . How are you doing?</p>
             </div>
             <span class="badge bg-info mx-1"> Morning </span>
             <span class="badge bg-info mx-1"> Afternoon </span>
@@ -16,7 +16,7 @@
         </div>
         <div class="col-md-6 mt-2">
             <p>
-                I´m <input type="text" placeholder="Answer">, and you?
+                I´m <input name="ans2page1" [(ngModel)]="libro.ans2Page1" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" type="text" placeholder="Answer">, and you?
             </p>
             <span class="badge bg-info mx-1"> Fine </span>
             <span class="badge bg-info mx-1"> Good </span>
@@ -29,21 +29,21 @@
         <hr class="my-3">
         <div class="col-md-6 col-12">
             <h6 class="text-center">LET´S TALK ABOUT THE PICTURE</h6>
-            <img class="img-a1" src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/ImgLibro1%2Fimg1_libroA1.png?alt=media&token=500baf30-eb01-491b-ad80-ac52512d3263" alt="img">
+            <img class="img-fluid" src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/ImgLibro1%2Fimg1_libroA1.png?alt=media&token=500baf30-eb01-491b-ad80-ac52512d3263" alt="img">
         </div>
         <div class="col-md-6 col-12">
             <ol>
                 <span><b>Answer these Questions:</b></span>
-                <li class="my-1">Where are they? <input type="text" class="form-control " placeholder="Answer"></li>
-                <li class="my-1">What are the kids doing? <input type="text" class="form-control " placeholder="Answer"></li>
-                <li class="my-1">Who is cooking? <input type="text" class="form-control " placeholder="Answer"></li>
-                <li class="my-1">What are they eating? <input type="text" class="form-control " placeholder="Answer"></li>
-                <li class="my-1">Who is serving the food? <input type="text" class="form-control " placeholder="Answer"></li>
-                <li class="my-1">What fruit are they eating? <input type="text" class="form-control " placeholder="Answer"></li>
-                <li class="my-1">What is grampa eating? <input type="text" class="form-control " placeholder="Answer"></li>
-                <li class="my-1">Is there a pet in the yard? <input type="text" class="form-control " placeholder="Answer"></li>
-                <li class="my-1">Are they having fun? <input type="text" class="form-control " placeholder="Answer"></li>
-                <li class="my-1">How many people are there in the picture? <input type="text" class="form-control " placeholder="Answer"></li>
+                <li class="my-1">Where are they? <input name="ans3page1" [(ngModel)]="libro.ans3Page1" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" type="text" class="form-control " placeholder="Answer"></li>
+                <li class="my-1">What are the kids doing? <input name="ans4page1" [(ngModel)]="libro.ans4Page1" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" type="text" class="form-control " placeholder="Answer"></li>
+                <li class="my-1">Who is cooking? <input name="ans5page1" [(ngModel)]="libro.ans5Page1" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" type="text" class="form-control " placeholder="Answer"></li>
+                <li class="my-1">What are they eating? <input name="ans6page1" [(ngModel)]="libro.ans6Page1" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" type="text" class="form-control " placeholder="Answer"></li>
+                <li class="my-1">Who is serving the food? <input name="ans7page1" [(ngModel)]="libro.ans7Page1" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" type="text" class="form-control " placeholder="Answer"></li>
+                <li class="my-1">What fruit are they eating? <input name="ans8page1" [(ngModel)]="libro.ans8Page1" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" type="text" class="form-control " placeholder="Answer"></li>
+                <li class="my-1">What is grampa eating? <input name="ans9page1" [(ngModel)]="libro.ans9Page1" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" type="text" class="form-control " placeholder="Answer"></li>
+                <li class="my-1">Is there a pet in the yard? <input name="ans10page1" [(ngModel)]="libro.ans10Page1" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" type="text" class="form-control " placeholder="Answer"></li>
+                <li class="my-1">Are they having fun? <input name="ans11page1" [(ngModel)]="libro.ans11Page1" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" type="text" class="form-control " placeholder="Answer"></li>
+                <li class="my-1">How many people are there in the picture? <input name="ans12page1" [(ngModel)]="libro.ans12Page1" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" type="text" class="form-control " placeholder="Answer"></li>
             </ol>
         </div>
     </div>

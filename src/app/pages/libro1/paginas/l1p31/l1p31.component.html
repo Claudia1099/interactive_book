@@ -47,7 +47,7 @@
                 <tbody>
                     <tr>
                         <td class="center"> What day is it today? </td>
-                        <td><input type="text" class="form-control m-1" placeholder=" Today is " name="" id=""></td>
+                        <td><input type="text" class="form-control m-1" placeholder=" Today is " name="ans1page33" [(ngModel)]="libro.ans1Page33" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
                     </tr>
                     <tr>
                         <td class="center"> What day is it after Friday? </td>
@@ -59,11 +59,11 @@
                     </tr>
                     <tr>
                         <td class="center"> What day is it after tomorrow? </td>
-                        <td> <input type="text" class="form-control m-1" name="" id=""></td>
+                        <td> <input type="text" class="form-control m-1" name="ans2page33" [(ngModel)]="libro.ans2Page33" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
                     </tr>
                     <tr>
                         <td class="center"> What day is before Wednesday? </td>
-                        <td> <input type="text" class="form-control m-1" name="" id=""></td>
+                        <td> <input type="text" class="form-control m-1" name="ans3page33" [(ngModel)]="libro.ans3Page33" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
                     </tr>
                 </tbody>
             </table>
