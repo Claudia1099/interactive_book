@@ -1,24 +1,75 @@
 <div>
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12 col-12">
+            <h4 class="my-2">GIVING DIRECTIONS</h4>
             <div class="row">
-                <div class="col-md-6">
-                    <img src="assets/img/imagen.jpg" class="img-fluid" alt="img">
+                <div class="col-md-3 col-6">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F149.jpg?alt=media&token=5a5d31c5-f45d-497e-b232-3e77e433c157" class="img-fluid rounded" alt="img">
                     <h6 class="text-center">1. Around the corner from </h6>
                 </div>
-                <div class="col-md-6">
-                    <img src="assets/img/imagen.jpg" class="img-fluid" alt="img">
+                <div class="col-md-3 col-6">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F150.jpg?alt=media&token=43215699-a2f5-4a8c-aad4-28e280b43748" class="img-fluid rounded" alt="img">
                     <h6 class="text-center">2. Across from </h6>
                 </div>
-                <div class="col-md-6">
-                    <img src="assets/img/imagen.jpg" class="img-fluid" alt="img">
+                <div class="col-md-3 col-6">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F151.jpg?alt=media&token=21025c76-3eee-4d37-acae-be1529150d3a" class="img-fluid rounded" alt="img">
                     <h6 class="text-center">3. Next t </h6>
                 </div>
-                <div class="col-md-6">
-                    <img src="assets/img/imagen.jpg" class="img-fluid" alt="img">
+                <div class="col-md-3 col-6">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F152.jpg?alt=media&token=f1fc075f-9451-417c-b1c4-a4af15cd843a" class="img-fluid rounded" alt="img">
                     <h6 class="text-center">4. Between </h6>
                 </div>
             </div>
+        </div>
+        <div class="col-md-12">
+            <hr class="my-3">
+            <p>Complete the sentence base on the map above.</p>
+            <table class="table table-striped  table-responsive">
+                <thead>
+                    <tr>
+                        <th>TEACHER</th>
+                        <th><span class="badge azul rounded-pill"><i class="fas fa-volume-up"></i></span></th>
+                        <th>STUDENTS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Movie theater (Next to)</td>
+                        <td><span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span></td>
+                        <td><input type="text" class="form-control" name="" value="There is a movie theater next to the library" disabled></td>
+                    </tr>
+                    <tr>
+                        <td>Fire station (Next to)</td>
+                        <td><span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span></td>
+                        <td><input type="text" class="form-control" name="ans1page48" [(ngModel)]="libro.ans1Page48" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Clinic (across from)</td>
+                        <td><span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span></td>
+                        <td><input type="text" class="form-control" name="ans2page48" [(ngModel)]="libro.ans2Page48" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Post office (around the corner from)</td>
+                        <td><span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span></td>
+                        <td><input type="text" class="form-control" name="ans3page48" [(ngModel)]="libro.ans3Page48" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Supermarket (Between)</td>
+                        <td><span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span></td>
+                        <td><input type="text" class="form-control" name="ans4page48" [(ngModel)]="libro.ans4Page48" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Gas Station (Next to)</td>
+                        <td><span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span></td>
+                        <td><input type="text" class="form-control" name="ans5page48" [(ngModel)]="libro.ans5Page48" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>School (across from)</td>
+                        <td><span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span></td>
+                        <td><input type="text" class="form-control" name="ans6page48" [(ngModel)]="libro.ans6Page48" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 </div>

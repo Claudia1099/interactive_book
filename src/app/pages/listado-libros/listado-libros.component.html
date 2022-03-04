@@ -3,8 +3,7 @@
 
         <div class="col-md-2 col-6 my-2">
 
-            <!-- <a [routerLink]="[!libros?.book1?'../listado':'/libro1']"> -->
-            <a href="http://libros.aesinstituto.com/" target="_blank">
+            <a [routerLink]="[!libros?.book1?'../listado':'/libro1']">
                 <h4 class="center" [ngClass]="{'opacidad-3': !libros?.book1}"><span class="center badge morado"> Book 1 - A1 </span></h4>
                 <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Portadas-Libros%2Fbook1.png?alt=media&token=7c124514-9115-44b1-93f9-3aca32e9482d" class="img-fluid my-1" [ngClass]="{'opacidad-3': !libros?.book1}" alt="">
             </a>

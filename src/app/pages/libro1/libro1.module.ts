@@ -53,6 +53,22 @@ import { L1p48Component } from './paginas/l1p48/l1p48.component';
 import { L1p49Component } from './paginas/l1p49/l1p49.component';
 import { L1p50Component } from './paginas/l1p50/l1p50.component';
 import { FormsModule } from '@angular/forms';
+import { ComponentesModule } from 'src/app/components/componentes.module';
+import { L1p51Component } from './paginas/l1p51/l1p51.component';
+import { L1p52Component } from './paginas/l1p52/l1p52.component';
+import { L1p53Component } from './paginas/l1p53/l1p53.component';
+import { L1p54Component } from './paginas/l1p54/l1p54.component';
+import { L1p55Component } from './paginas/l1p55/l1p55.component';
+import { L1p56Component } from './paginas/l1p56/l1p56.component';
+import { L1p57Component } from './paginas/l1p57/l1p57.component';
+import { L1p58Component } from './paginas/l1p58/l1p58.component';
+import { L1p59Component } from './paginas/l1p59/l1p59.component';
+import { L1p60Component } from './paginas/l1p60/l1p60.component';
+import { L1p61Component } from './paginas/l1p61/l1p61.component';
+import { L1p62Component } from './paginas/l1p62/l1p62.component';
+import { L1p63Component } from './paginas/l1p63/l1p63.component';
+import { L1p64Component } from './paginas/l1p64/l1p64.component';
+import { L1p65Component } from './paginas/l1p65/l1p65.component';
 
 
 
@@ -108,12 +124,28 @@ import { FormsModule } from '@angular/forms';
     L1p47Component,
     L1p48Component,
     L1p49Component,
-    L1p50Component
+    L1p50Component,
+    L1p51Component,
+    L1p52Component,
+    L1p53Component,
+    L1p54Component,
+    L1p55Component,
+    L1p56Component,
+    L1p57Component,
+    L1p58Component,
+    L1p59Component,
+    L1p60Component,
+    L1p61Component,
+    L1p62Component,
+    L1p63Component,
+    L1p64Component,
+    L1p65Component,
   ],
   imports: [
     CommonModule,
     Libro1RoutingModule,
-    FormsModule
+    FormsModule,
+    ComponentesModule
   ]
 })
 export class Libro1Module { }

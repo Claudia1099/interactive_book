@@ -1,1 +1,27 @@
-<p>l1p48 works!</p>
+<div>
+    <div class="row">
+        <div class="col-md-12">
+            <h4 class="my-2">MOVE ON</h4>
+        </div>
+        <div class="col-md-6">
+
+            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F153.PNG?alt=media&token=0438c110-2a21-4426-a9d4-e147a7bca468" class="m-1 rounded img-fluid" alt="img">
+        </div>
+        <div class="col-md-6">
+            <ol>
+                <li class="my-2">
+                    <b>A.</b> Is there a bakery in this neighborhood?<br>
+                    <b>B.</b> Yes, there is one on River Avenue Between the barber shop and the bank.<br>
+                    <b>A.</b> Thanks a lot.<br>
+                    <b>B.</b> You're welcome.
+                </li>
+                <li class="my-2">
+                    A. Is there a church near here?
+                    <input type="text" class="form-control my-1" placeholder="B" name="ans1page49" [(ngModel)]="libro.ans1Page49" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
+                    <input type="text" class="form-control my-1" placeholder="A" name="ans2page49" [(ngModel)]="libro.ans2Page49" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
+                    <input type="text" class="form-control my-1" placeholder="B" name="ans3page49" [(ngModel)]="libro.ans3Page49" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
+                </li>
+            </ol>
+        </div>
+    </div>
+</div>

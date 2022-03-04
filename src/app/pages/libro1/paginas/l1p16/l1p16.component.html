@@ -9,10 +9,10 @@
             <div class="row">
 
 
-                <div class="col-md-6"><input type="text" class="form-control m-1" placeholder="Given name and family name" name="ans20Page206" [(ngModel)]="libro.ans20Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></div>
-                <div class="col-md-2"><input type="text" class="form-control m-1" placeholder="Address" name="ans24Page16" [(ngModel)]="libro.ans24Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></div>
-                <div class="col-md-1"><input type="text" class="form-control m-1" size=60 style="width : 60px; height : 30px" placeholder="Age" name="ans22Page16" [(ngModel)]="libro.ans22Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></div>
-                <div class="col-md-3"><input type="text" class="form-control m-1" size=200 style="width : 200px; height : 30px" placeholder="Phone" name="ans23Page16" [(ngModel)]="libro.ans23Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></div>
+                <div class="col-md-6">Name<input type="text" class="form-control m-1" placeholder="Given name and family name" name="ans20Page206" [(ngModel)]="libro.ans20Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></div>
+                <div class="col-md-2">Address<input type="text" class="form-control m-1" placeholder="Address" name="ans24Page16" [(ngModel)]="libro.ans24Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></div>
+                <div class="col-md-1">Age<input type="text" class="form-control m-1" placeholder="Age" name="ans22Page16" [(ngModel)]="libro.ans22Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></div>
+                <div class="col-md-3">Phone<input type="text" class="form-control m-1" placeholder="Phone" name="ans23Page16" [(ngModel)]="libro.ans23Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></div>
             </div>
             <hr class="my-3">
         </div>
@@ -37,18 +37,23 @@
                 <br>The United States and Canada <strong>are</strong> big countries
             </p>
             <ol>
-                <li> California <input type="text" class="m-1" name="ans8Page16" [(ngModel)]="libro.ans8Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> state</li>
-                <li> San Francisco and Los Angeles <input type="text" class="m-1" name="ans9Page16" [(ngModel)]="libro.ans9Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> cities in California</li>
-                <li> Chicago, New York, and Los Angeles <input type="text" class="m-1" name="ans10Page16" [(ngModel)]="libro.ans10Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> big cities</li>
-                <li> Puerto Rico and Hawaii <input type="text" class="m-1" name="ans11Page16" [(ngModel)]="libro.ans11Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> islands</li>
-                <li> Puerto Rico <input type="text" class="m-1" name="ans12Page16" [(ngModel)]="libro.ans12Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> American territory </li>
-                <li> Chevrolet <input type="text" class="m-1" name="ans13Page16" [(ngModel)]="libro.ans13Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> American car </li>
-                <li> Toyota and Datsun <input type="text" class="m-1" name="ans14Page16" [(ngModel)]="libro.ans14Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> Japanese cars </li>
-                <li> Coke <input type="text" class="m-1" name="ans15Page16" [(ngModel)]="libro.ans15Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> soft drink </li>
-                <li> Beer and wine <input type="text" class="m-1" name="ans16Page16" [(ngModel)]="libro.ans16Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> alcoholic drinks</li>
-                <li> Thanksgiving <input type="text" class="m-1" name="ans17Page16" [(ngModel)]="libro.ans17Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> American holiday </li>
-                <li> Passover <input type="text" class="m-1" name="ans18Page16" [(ngModel)]="libro.ans18Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> Jewish holiday </li>
-                <li> Christmas and Easter <input type="text" class="m-1" name="ans19Page16" [(ngModel)]="libro.ans19Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> Christian holidays</li>
+                <li> California <input type="text" class="m-1 form-control input" size=60 style="width : 60px; height : 30px" name="ans8Page16" [(ngModel)]="libro.ans8Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> state</li>
+                <li> San Francisco and Los Angeles <input type="text" class="m-1 form-control input" size=60 style="width : 60px; height : 30px" name="ans9Page16" [(ngModel)]="libro.ans9Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> cities
+                    in California</li>
+                <li> Chicago, New York, and Los Angeles <input type="text" class="m-1 form-control input" size=60 style="width : 60px; height : 30px" name="ans10Page16" [(ngModel)]="libro.ans10Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">                    big cities</li>
+                <li> Puerto Rico and Hawaii <input type="text" class="m-1 form-control input" size=60 style="width : 60px; height : 30px" name="ans11Page16" [(ngModel)]="libro.ans11Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> islands</li>
+                <li> Puerto Rico <input type="text" class="m-1 form-control input" size=60 style="width : 60px; height : 30px" name="ans12Page16" [(ngModel)]="libro.ans12Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> American territory
+                    </li>
+                <li> Chevrolet <input type="text" class="m-1 form-control input" size=60 style="width : 60px; height : 30px" name="ans13Page16" [(ngModel)]="libro.ans13Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> American car </li>
+                <li> Toyota and Datsun <input type="text" class="m-1 form-control input" size=60 style="width : 60px; height : 30px" name="ans14Page16" [(ngModel)]="libro.ans14Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> Japanese cars
+                    </li>
+                <li> Coke <input type="text" class="m-1 form-control input" size=60 style="width : 60px; height : 30px" name="ans15Page16" [(ngModel)]="libro.ans15Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> soft drink </li>
+                <li> Beer and wine <input type="text" class="m-1 form-control input" size=60 style="width : 60px; height : 30px" name="ans16Page16" [(ngModel)]="libro.ans16Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> alcoholic drinks</li>
+                <li> Thanksgiving <input type="text" class="m-1 form-control input" size=60 style="width : 60px; height : 30px" name="ans17Page16" [(ngModel)]="libro.ans17Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> American holiday
+                    </li>
+                <li> Passover <input type="text" class="m-1 form-control input" size=60 style="width : 60px; height : 30px" name="ans18Page16" [(ngModel)]="libro.ans18Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> Jewish holiday </li>
+                <li> Christmas and Easter <input type="text" class="m-1 form-control input" size=60 style="width : 60px; height : 30px" name="ans19Page16" [(ngModel)]="libro.ans19Page16" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> Christian
+                    holidays</li>
             </ol>
         </div>
 

@@ -1,0 +1,84 @@
+<div>
+    <div class="row">
+        <div class="col-md-6">
+            <h6 class="text-white center verde2"> ACTIVITY 1.10</h6>
+            <p>Tell if you are or aren't the following<br>
+                <strong> Example: a Doctor<br>I'm not a Doctor</strong>
+            </p>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="q1-p64-l1-o1" value="q1-p64-l1-o1" [checked]="libro['q1-p64-l1-o1']==='q1-p64-l1-o1'" [(ngModel)]="libro['q1-p64-l1-o1']" (change)="guardarInfo()">
+                <label class="form-check-label" for="q1-p64-l1-o1">
+                    1. a teacher
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="q1-p64-l1-o2" value="q1-p64-l1-o2" [checked]="libro['q1-p64-l1-o2']==='q1-p64-l1-o2'" [(ngModel)]="libro['q1-p64-l1-o2']" (change)="guardarInfo()">
+                <label class="form-check-label" for="q1-p64-l1-o2">
+                    2. a student
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="q1-p64-l1-o3" value="q1-p64-l1-o3" [checked]="libro['q1-p64-l1-o3']==='q1-p64-l1-o3'" [(ngModel)]="libro['q1-p64-l1-o3']" (change)="guardarInfo()">
+                <label class="form-check-label" for="q1-p64-l1-o3">
+                    3. an american citizen
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="q1-p64-l1-o4" value="q1-p64-l1-o4" [checked]="libro['q1-p64-l1-o4']==='q1-p64-l1-o4'" [(ngModel)]="libro['q1-p64-l1-o4']" (change)="guardarInfo()">
+                <label class="form-check-label" for="q1-p64-l1-o4">
+                    4. a resident of the United States
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="q1-p64-l1-o5" value="q1-p64-l1-o5" [checked]="libro['q1-p64-l1-o5']==='q1-p64-l1-o5'" [(ngModel)]="libro['q1-p64-l1-o5']" (change)="guardarInfo()">
+                <label class="form-check-label" for="q1-p64-l1-o5">
+                    5. from Asia
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="q1-p64-l1-o6" value="q1-p64-l1-o6" [checked]="libro['q1-p64-l1-o6']==='q1-p64-l1-o6'" [(ngModel)]="libro['q1-p64-l1-o6']" (change)="guardarInfo()">
+                <label class="form-check-label" for="q1-p64-l1-o6">
+                    6. married
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="q1-p64-l1-o7" value="q1-p64-l1-o7" [checked]="libro['q1-p64-l1-o7']==='q1-p64-l1-o7'" [(ngModel)]="libro['q1-p64-l1-o7']" (change)="guardarInfo()">
+                <label class="form-check-label" for="q1-p64-l1-o7">
+                    7. thirsty
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="q1-p64-l1-o8" value="q1-p64-l1-o8" [checked]="libro['q1-p64-l1-o8']==='q1-p64-l1-o8'" [(ngModel)]="libro['q1-p64-l1-o8']" (change)="guardarInfo()">
+                <label class="form-check-label" for="q1-p64-l1-o8">
+                    8. hungry
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="q1-p64-l1-o9" value="q1-p64-l1-o9" [checked]="libro['q1-p64-l1-o9']==='q1-p64-l1-o9'" [(ngModel)]="libro['q1-p64-l1-o9']" (change)="guardarInfo()">
+                <label class="form-check-label" for="q1-p64-l1-o9">
+                    9. sleepy
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="q1-p64-l1-o10" value="q1-p64-l1-o10" [checked]="libro['q1-p64-l1-o10']==='q1-p64-l1-o10'" [(ngModel)]="libro['q1-p64-l1-o10']" (change)="guardarInfo()">
+                <label class="form-check-label" for="q1-p64-l1-o10">
+                    10. homesick
+                </label>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h6 class="text-white center verde2"> ACTIVITY 1.11</h6>
+            <p>Each statement below is false. Change the sentence to the negative and give a correct statement. Use a pronoun in your correction.
+                <strong>Example: Disneyland's in Washington<br>Disneyland isn't Washington<br>It's in California</strong>
+            </p>
+            <ol>
+                <li>The White House is in New York <input type="text" class="form-control" name="ans2page64" [(ngModel)]="libro.ans2Page64" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
+                <li>New York and Chicago are small towns <input type="text" class="form-control" name="ans3page64" [(ngModel)]="libro.ans3Page64" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
+                <li>Burger King and McDonald's are banks <input type="text" class="form-control" name="ans4page64" [(ngModel)]="libro.ans4Page64" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
+                <li>I'm from England <input type="text" class="form-control" name="ans5page64" [(ngModel)]="libro.ans5Page64" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
+                <li>Christmas is in november <input type="text" class="form-control" name="ans6page64" [(ngModel)]="libro.ans6Page64" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
+                <li>A stop sign's green <input type="text" class="form-control" name="ans7page64" [(ngModel)]="libro.ans7Page64" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
+            </ol>
+        </div>
+    </div>
+</div>

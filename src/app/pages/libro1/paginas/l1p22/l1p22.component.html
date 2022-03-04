@@ -7,13 +7,13 @@
                 </strong>
         </div>
         <hr class="my-3">
-        <div class="col-md-6">
-            <img src="assets/img/imagen.jpg" class="img-fluid m-1" alt="img">
+        <div class="col-md-6 d-flex justify-content-center">
+            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F49.png?alt=media&token=c735ff7a-f5b5-41d0-bd3b-44e6953c8ff1" class="img-fluid m-1 rounded w-50" alt="img">
         </div>
         <div class="col-md-6">
             This is my grandmother. Her name is
-            <input type="text" name="ans1Page22" [(ngModel)]="libro.ans1Page22" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" class="m-1" id="">. She is <input type="text" size=40 style="width : 40px; height : 30px" name="ans2Page22" [(ngModel)]="libro.ans2Page22"
-                (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" class=" m-1" id=""> year old.
+            <input type="text" name="ans1Page22" [(ngModel)]="libro.ans1Page22" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" class="m-1 form-control input" id="">. She is <input type="text" size=60 style="width : 60px; height : 30px" name="ans2Page22"
+                [(ngModel)]="libro.ans2Page22" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" class=" m-1 form-control input" id=""> year old.
             <textarea name="ans3Page22" [(ngModel)]="libro.ans3Page22" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="form-control m-1" cols="30" rows="5"></textarea>
         </div>
         <div class="col-md-12">

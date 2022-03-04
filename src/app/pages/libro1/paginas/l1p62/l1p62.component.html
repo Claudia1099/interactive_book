@@ -1,0 +1,45 @@
+<div>
+    <div class="row">
+        <div class="col-md-12 rojo my-3">
+            <h4 class="text-white center"> REVIEW No. III </h4>
+
+
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+                <h6 class="text-center">DETAILS OF THE PERSON</h6>
+
+                <div class="col-md-12">Surname:<input type="text" class="form-control m-1" placeholder="Surname " name="ans1Page63" [(ngModel)]="libro.ans1Page63" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></div>
+                <div class="col-md-12">First Name: <input type="text" class="form-control m-1" placeholder="First name " name="ans2Page63" [(ngModel)]="libro.ans2Page63" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></div>
+                <div class="col-md-12">Gender:
+                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                        <input type="radio" class="btn-check" name="q3-p63-l1" id="q3-p63-l1-o1" autocomplete="off" value="q3-p63-l1-o1" [checked]="libro['q3-p63-l1-o1']==='q3-p63-l1-o1'" [(ngModel)]="libro['q3-p62-l1-o1']" (change)="guardarInfo()">
+                        <label class="btn btn-outline-primary" for="q3-p63-l1-o1">Male</label>
+
+                        <input type="radio" class="btn-check" name="q3-p63-l1" id="q3-p63-l1-o2" autocomplete="off" value="q3-p63-l1-o2" [checked]="libro['q3-p63-l1-o2']==='q3-p63-l1-o2'" [(ngModel)]="libro['q3-p62-l1-o2']" (change)="guardarInfo()">
+                        <label class="btn btn-outline-primary" for="q3-p63-l1-o2">Female</label>
+
+                    </div>
+                </div>
+                <div class="col-md-12">Date of Birth: <input type="text" class="form-control m-1" placeholder="Date of Birth" name="ans4Page63" [(ngModel)]="libro.ans4Page63" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></div>
+                <div class="col-md-12">Marital Status: <input type="text" class="form-control m-1" placeholder="Marital Status" name="ans5Page63" [(ngModel)]="libro.ans5Page63" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></div>
+            </div>
+
+        </div>
+        <div class="col-md-6">
+            <h6 class="text-white center verde2"> ACTIVITY 1.9</h6>
+            <p>
+                <strong> Example: Monday´s a day (hard)</strong><br>Monday´s a hard day
+            </p>
+            June 21 is a day. (short)
+            <input type="text" class="form-control" name="ans1page63" [(ngModel)]="libro.ans1Page63" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> December 21 is a day (short)
+            <input type="text" class="form-control" name="ans2page63" [(ngModel)]="libro.ans2Page63" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> Christmas and Easter are holiday (Christian)
+            <input type="text" class="form-control" name="ans3page63" [(ngModel)]="libro.ans3Page63" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> Passover's a holiday (Jewish)
+            <input type="text" class="form-control" name="ans4page63" [(ngModel)]="libro.ans4Page63" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> Independence Day's a holiday (American)
+            <input type="text" class="form-control" name="ans5page63" [(ngModel)]="libro.ans5Page63" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> February's a month (Short)
+            <input type="text" class="form-control" name="ans6page63" [(ngModel)]="libro.ans6Page63" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> January's a month (Long)
+            <input type="text" class="form-control" name="ans7page63" [(ngModel)]="libro.ans7Page63" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> January and February are months (Cold)
+            <input type="text" class="form-control" name="ans8page63" [(ngModel)]="libro.ans8Page63" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
+        </div>
+    </div>
+</div>
