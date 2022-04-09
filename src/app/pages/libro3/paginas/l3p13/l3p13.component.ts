@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AudioService } from 'src/app/services/audio.service';
 
 @Component({
   selector: 'app-l3p13',
@@ -6,23 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styles: [],
 })
 export class L3p13Component implements OnInit {
-  audio!: HTMLMediaElement;
-  idAudio: string = '';
-
-  constructor() {}
+  constructor(private audioServices: AudioService) {}
   reproducirAudio(idAudio: string) {
-    if (this.idAudio.length > 0) {
-      if (this.idAudio === idAudio) {
-        this.audio.pause();
-        this.idAudio = '';
-        return;
-      }
-      this.audio.pause();
-      this.idAudio = '';
-    }
-    this.idAudio = idAudio;
-    this.audio = <HTMLMediaElement>document.getElementById(idAudio);
-    this.audio.play();
+    this.audioServices.reproducirAudio(idAudio);
   }
 
   ngOnInit(): void {}

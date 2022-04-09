@@ -1,84 +1,220 @@
 <div>
-    <div class="row">
-        <div class="col-md-5 align-items-center d-flex ">
-            <h4 class="text-center">
-                GRAMMAR FLASH
-            </h4>
-
-        </div>
-        <div class="col-md-7"><img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2FCuadro%204.png?alt=media&token=598e5af7-8fb7-46dc-9c67-7a92ece6f833" class="img-fluid m-2 rounded" alt="img"></div>
-
-        <div class="col-md-8">
-            <h4>DRILL</h4>
-            <table class="table table-striped ">
-                <thead>
-                    <tr>
-                        <th>Teacher</th>
-                        <th>Students</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td> I’m going to play </td>
-                        <td><input type="text" class="form-control" placeholder="Answer" name="ans1page53" [(ngModel)]="libro.ans1Page53" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                    <tr>
-                        <td> (She) </td>
-                        <td><input type="text" class="form-control" placeholder="Answer" name="ans2page53" [(ngModel)]="libro.ans2Page53" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                    <tr>
-                        <td> (They) </td>
-                        <td><input type="text" class="form-control" placeholder="Answer" name="ans3page53" [(ngModel)]="libro.ans3Page53" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                    <tr>
-                        <td> (Mario) </td>
-                        <td><input type="text" class="form-control" placeholder="Answer" name="ans4page53" [(ngModel)]="libro.ans4Page53" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                    <tr>
-                        <td> (We) </td>
-                        <td><input type="text" class="form-control" placeholder="Answer" name="ans5page53" [(ngModel)]="libro.ans5Page53" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                    <tr>
-                        <td> (Wash the dishes) </td>
-                        <td><input type="text" class="form-control" placeholder="Answer" name="ans6page53" [(ngModel)]="libro.ans6Page53" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                    <tr>
-                        <td> (Use the computer </td>
-                        <td><input type="text" class="form-control" placeholder="Answer" name="ans7page53" [(ngModel)]="libro.ans7Page53" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                    <tr>
-                        <td> (She) </td>
-                        <td><input type="text" class="form-control" placeholder="Answer" name="ans8page53" [(ngModel)]="libro.ans8Page53" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                    <tr>
-                        <td> Plant trees </td>
-                        <td><input type="text" class="form-control" placeholder="Answer" name="ans9page53" [(ngModel)]="libro.ans9Page53" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="col-md-4 ">
-            <h5 class="my-2 center">TIME EXPRESSIONS</h5>
-            <div class="card border-primary mb-3 mx-auto" style="max-width: 18rem;">
-                <div class="card-header">THIS</div>
-                <div class="card-body text-primary">
-                    <ul>
-                        <li> Week, month, year, weekend, holiday </li>
-                        <li> Sunday, Saturday, Tuesday, Wednesday, Thursday, Friday, Monday.</li>
-                        <li> January, February, March, April, May, June, July, August, September, October, November, December.</li>
-                    </ul>
-                </div>
-            </div>
-            <br>
-            <div class="card border-primary mb-3 mx-auto" style="max-width: 18rem;">
-                <div class="card-header">NEXT</div>
-                <div class="card-body text-primary">
-                    <ul>
-                        <li>Spring, summer, fall (autumn), winter.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+  <div class="row">
+    <div class="col-md-5 align-items-center d-flex">
+      <h4 class="text-center">
+        <!-- audio 147-->
+        <audio id="a1p52l3" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F147.mp3?alt=media&token=e49acebc-f018-4868-a04e-41c917c6796a"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a1p52l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        GRAMMAR FLASH
+      </h4>
     </div>
+    <div class="col-md-7">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2FCuadro%204.png?alt=media&token=598e5af7-8fb7-46dc-9c67-7a92ece6f833"
+        class="img-fluid m-2 rounded"
+        alt="img"
+      />
+    </div>
+
+    <div class="col-md-8">
+      <h4>
+        <!-- audio 148-->
+        <audio id="a2p52l3" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F148.mp3?alt=media&token=3a939446-55a3-4053-9046-977f5ee643a3"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a2p52l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        DRILL
+      </h4>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Teacher</th>
+            <th>Students</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>I’m going to play</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Answer"
+                name="ans1page53"
+                [(ngModel)]="libro.ans1Page53"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>(She)</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Answer"
+                name="ans2page53"
+                [(ngModel)]="libro.ans2Page53"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>(They)</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Answer"
+                name="ans3page53"
+                [(ngModel)]="libro.ans3Page53"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>(Mario)</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Answer"
+                name="ans4page53"
+                [(ngModel)]="libro.ans4Page53"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>(We)</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Answer"
+                name="ans5page53"
+                [(ngModel)]="libro.ans5Page53"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>(Wash the dishes)</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Answer"
+                name="ans6page53"
+                [(ngModel)]="libro.ans6Page53"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>(Use the computer</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Answer"
+                name="ans7page53"
+                [(ngModel)]="libro.ans7Page53"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>(She)</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Answer"
+                name="ans8page53"
+                [(ngModel)]="libro.ans8Page53"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Plant trees</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Answer"
+                name="ans9page53"
+                [(ngModel)]="libro.ans9Page53"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-4">
+      <h5 class="my-2 center">TIME EXPRESSIONS</h5>
+      <div class="card border-primary mb-3 mx-auto" style="max-width: 18rem">
+        <div class="card-header">THIS</div>
+        <div class="card-body text-primary">
+          <ul>
+            <li>Week, month, year, weekend, holiday</li>
+            <li>
+              Sunday, Saturday, Tuesday, Wednesday, Thursday, Friday, Monday.
+            </li>
+            <li>
+              January, February, March, April, May, June, July, August,
+              September, October, November, December.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <br />
+      <div class="card border-primary mb-3 mx-auto" style="max-width: 18rem">
+        <div class="card-header">NEXT</div>
+        <div class="card-body text-primary">
+          <ul>
+            <li>Spring, summer, fall (autumn), winter.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

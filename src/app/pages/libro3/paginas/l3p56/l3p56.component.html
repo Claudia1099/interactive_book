@@ -1,52 +1,335 @@
 <div>
-    <div class="row">
-        <div class="col-md-8">
-            <h3>GRAMMAR FLASH:</h3>
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2Fcuadro%205.png?alt=media&token=3b498b7e-2218-4681-bdc3-c5583d2b247a" class="img-fluid rounded m-1" alt="img">
-        </div>
-        <div class="col-md-4">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F163.jpg?alt=media&token=236ec528-2a1e-4901-b6f2-330da6b33f89" class="img-fluid rounded m-1 w-75 card border-info" alt="img">
-            <ul>1.
-                <li><b>A. </b> Is he going to pay bills?</li>
-                <li><b>B. </b> Yes, he is. </li>
-                <li><b>A. </b> Is he going to climb a mountain?</li>
-                <li><b>B. </b> No, he isn’t. </li>
-                <li><b>A. </b> What’s he going to do?</li>
-                <li><b>B. </b> He’s going to pay bills</li>
-            </ul>
-        </div>
-        <div class="col-md-4">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F165.jpg?alt=media&token=628e324e-f027-4767-8ec0-fb2489a7c828" class="img-fluid rounded m-1 w-75 card border-info" alt="img">
-            <ul>2.
-                <li><b>A. </b> <input type="text" class="mb-1 form-control input" name="ans1page57" [(ngModel)]="libro.ans1Page57" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> ?</li>
-                <li><b>B. </b> Yes, <input type="text" class="mb-1 form-control input" name="ans2page57" [(ngModel)]="libro.ans2Page57" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li><b>A. </b> <input type="text" class="mb-1 form-control input" name="ans3page57" [(ngModel)]="libro.ans3Page57" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> ?</li>
-                <li><b>B. </b> No, <input type="text" class="mb-1 form-control input" name="ans4page57" [(ngModel)]="libro.ans4Page57" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li><b>A. </b> What <input type="text" class="mb-1 form-control input" name="ans5page57" [(ngModel)]="libro.ans5Page57" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> ?</li>
-                <li><b>B. </b> <input type="text" class="mb-1 form-control input" name="ans6page57" [(ngModel)]="libro.ans6Page57" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-            </ul>
-        </div>
-        <div class="col-md-4">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F171.jpg?alt=media&token=f79bdf4b-cf39-42fa-9cda-b6cb4dda6b72" class="img-fluid rounded m-1 w-75 card border-info" alt="img">
-            <ul>3.
-                <li><b>A. </b> <input type="text" class="mb-1 form-control input" name="ans7page57" [(ngModel)]="libro.ans7Page57" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> ?</li>
-                <li><b>B. </b> Yes, <input type="text" class="mb-1 form-control input" name="ans8page57" [(ngModel)]="libro.ans8Page57" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li><b>A. </b> <input type="text" class="mb-1 form-control input" name="ans9page57" [(ngModel)]="libro.ans9Page57" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> ?</li>
-                <li><b>B. </b> No, <input type="text" class="mb-1 form-control input" name="ans10page57" [(ngModel)]="libro.ans10Page57" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li><b>A. </b> What <input type="text" class="mb-1 form-control input" name="ans11page57" [(ngModel)]="libro.ans11Page57" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> ?</li>
-                <li><b>B. </b> <input type="text" class="mb-1 form-control input" name="ans12page57" [(ngModel)]="libro.ans12Page57" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-            </ul>
-        </div>
-        <div class="col-md-4">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F169.jpg?alt=media&token=ef105262-c504-41f5-abc9-4385579b36de" class="img-fluid rounded m-1 w-75 card border-info" alt="img">
-            <ul>4.
-                <li><b>A. </b> <input type="text" class="mb-1 form-control input" name="ans13page57" [(ngModel)]="libro.ans13Page57" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> ?</li>
-                <li><b>B. </b> Yes, <input type="text" class="mb-1 form-control input" name="ans14page57" [(ngModel)]="libro.ans14Page57" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li><b>A. </b> <input type="text" class="mb-1 form-control input" name="ans15page57" [(ngModel)]="libro.ans15Page57" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> ?</li>
-                <li><b>B. </b> No, <input type="text" class="mb-1 form-control input" name="ans16page57" [(ngModel)]="libro.ans16Page57" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li><b>A. </b> What <input type="text" class="mb-1 form-control input" name="ans17page57" [(ngModel)]="libro.ans17Page57" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> ?</li>
-                <li><b>B. </b> <input type="text" class="mb-1 form-control input" name="ans18page57" [(ngModel)]="libro.ans18Page57" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-            </ul>
-        </div>
+  <div class="row">
+    <div class="col-md-8">
+      <h3>GRAMMAR FLASH:</h3>
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2Fcuadro%205.png?alt=media&token=3b498b7e-2218-4681-bdc3-c5583d2b247a"
+        class="img-fluid rounded m-1"
+        alt="img"
+      />
     </div>
+    <div class="col-md-4">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F163.jpg?alt=media&token=236ec528-2a1e-4901-b6f2-330da6b33f89"
+        class="img-fluid rounded m-1 w-75 card border-info"
+        alt="img"
+      />
+      <ul>
+        <!-- audio 184 -->
+        <audio id="a1p56l3" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F184.mp3?alt=media&token=9fc739e1-3f22-4735-8245-ed46d2c9eedc"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a1p56l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        1.
+        <li><b>A. </b> Is he going to pay bills?</li>
+        <li><b>B. </b> Yes, he is.</li>
+        <li><b>A. </b> Is he going to climb a mountain?</li>
+        <li><b>B. </b> No, he isn’t.</li>
+        <li><b>A. </b> What’s he going to do?</li>
+        <li><b>B. </b> He’s going to pay bills</li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F165.jpg?alt=media&token=628e324e-f027-4767-8ec0-fb2489a7c828"
+        class="img-fluid rounded m-1 w-75 card border-info"
+        alt="img"
+      />
+      <ul>
+        <!-- audio 185-->
+        <audio id="a2p56l3" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F185.mp3?alt=media&token=fec76d39-2251-4134-8678-3ee54f447fb8"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a2p56l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        2.
+        <li>
+          <b>A. </b>
+          <input
+            type="text"
+            class="mb-1 form-control input"
+            name="ans1page57"
+            [(ngModel)]="libro.ans1Page57"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          ?
+        </li>
+        <li>
+          <b>B. </b> Yes,
+          <input
+            type="text"
+            class="mb-1 form-control input"
+            name="ans2page57"
+            [(ngModel)]="libro.ans2Page57"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          <b>A. </b>
+          <input
+            type="text"
+            class="mb-1 form-control input"
+            name="ans3page57"
+            [(ngModel)]="libro.ans3Page57"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          ?
+        </li>
+        <li>
+          <b>B. </b> No,
+          <input
+            type="text"
+            class="mb-1 form-control input"
+            name="ans4page57"
+            [(ngModel)]="libro.ans4Page57"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          <b>A. </b> What
+          <input
+            type="text"
+            class="mb-1 form-control input"
+            name="ans5page57"
+            [(ngModel)]="libro.ans5Page57"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          ?
+        </li>
+        <li>
+          <b>B. </b>
+          <input
+            type="text"
+            class="mb-1 form-control input"
+            name="ans6page57"
+            [(ngModel)]="libro.ans6Page57"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F171.jpg?alt=media&token=f79bdf4b-cf39-42fa-9cda-b6cb4dda6b72"
+        class="img-fluid rounded m-1 w-75 card border-info"
+        alt="img"
+      />
+      <ul>
+        <!-- audio 186-->
+        <audio id="a3p56l3" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F186.mp3?alt=media&token=6421eaf8-e52d-4e53-970a-cef047c0300d"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a3p56l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        3.
+        <li>
+          <b>A. </b>
+          <input
+            type="text"
+            class="mb-1 form-control input"
+            name="ans7page57"
+            [(ngModel)]="libro.ans7Page57"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          ?
+        </li>
+        <li>
+          <b>B. </b> Yes,
+          <input
+            type="text"
+            class="mb-1 form-control input"
+            name="ans8page57"
+            [(ngModel)]="libro.ans8Page57"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          <b>A. </b>
+          <input
+            type="text"
+            class="mb-1 form-control input"
+            name="ans9page57"
+            [(ngModel)]="libro.ans9Page57"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          ?
+        </li>
+        <li>
+          <b>B. </b> No,
+          <input
+            type="text"
+            class="mb-1 form-control input"
+            name="ans10page57"
+            [(ngModel)]="libro.ans10Page57"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          <b>A. </b> What
+          <input
+            type="text"
+            class="mb-1 form-control input"
+            name="ans11page57"
+            [(ngModel)]="libro.ans11Page57"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          ?
+        </li>
+        <li>
+          <b>B. </b>
+          <input
+            type="text"
+            class="mb-1 form-control input"
+            name="ans12page57"
+            [(ngModel)]="libro.ans12Page57"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F169.jpg?alt=media&token=ef105262-c504-41f5-abc9-4385579b36de"
+        class="img-fluid rounded m-1 w-75 card border-info"
+        alt="img"
+      />
+      <ul>
+        <!-- audio 187-->
+        <audio id="a4p56l3" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F187.mp3?alt=media&token=70ae74e3-64fd-463d-897d-6ad322561464"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a4p56l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        4.
+        <li>
+          <b>A. </b>
+          <input
+            type="text"
+            class="mb-1 form-control input"
+            name="ans13page57"
+            [(ngModel)]="libro.ans13Page57"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          ?
+        </li>
+        <li>
+          <b>B. </b> Yes,
+          <input
+            type="text"
+            class="mb-1 form-control input"
+            name="ans14page57"
+            [(ngModel)]="libro.ans14Page57"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          <b>A. </b>
+          <input
+            type="text"
+            class="mb-1 form-control input"
+            name="ans15page57"
+            [(ngModel)]="libro.ans15Page57"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          ?
+        </li>
+        <li>
+          <b>B. </b> No,
+          <input
+            type="text"
+            class="mb-1 form-control input"
+            name="ans16page57"
+            [(ngModel)]="libro.ans16Page57"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          <b>A. </b> What
+          <input
+            type="text"
+            class="mb-1 form-control input"
+            name="ans17page57"
+            [(ngModel)]="libro.ans17Page57"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          ?
+        </li>
+        <li>
+          <b>B. </b>
+          <input
+            type="text"
+            class="mb-1 form-control input"
+            name="ans18page57"
+            [(ngModel)]="libro.ans18Page57"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>

@@ -1,47 +1,117 @@
 <div>
-    <div class="row">
-        <div class="col-md-12 mb-3">
-            <h1><span class="badge bg-warning my-2">Class 8</span></h1>
-            <h3 class="text-center"><span class="badge azul rounded-pill"><i class="fas fa-volume-up"></i></span> IN THE PARK</h3>
-        </div>
-        <div class="col-md-6 card border-info">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F145.PNG?alt=media&token=d7786562-b8ed-4512-a6f9-57b9aa8117e4" class="img-fluid rounded p-2" alt="">
-        </div>
-        <div class="col-md-6 table-responsive  ">
-            <table style="width: 100%;">
-                <tbody>
-                    <tr>
-                        <th>• Run </th>
-                        <th>• Have a picnic </th>
-                        <th>• Jump</th>
-                    </tr>
-
-                    <tr>
-                        <th>• Swim </th>
-                        <th>• Smell </th>
-                        <th>• Eat</th>
-                    </tr>
-
-                    <tr>
-                        <th>• Feed </th>
-                        <th>• Skate board </th>
-                        <th>• Watch</th>
-                    </tr>
-
-                    <tr>
-                        <th>• Sew </th>
-                        <th>• Ride a bicycle </th>
-                        <th>• Talk</th>
-                    </tr>
-                </tbody>
-            </table>
-            <hr>
-            <h6 class="center m-3">TALK ABOUT THE PICTURE</h6>
-            <ul>
-                <li> What’s the little girl doing? <input type="text" class="form-control" placeholder="Answer" name="ans1page50" [(ngModel)]="libro.ans1Page50" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li> What do the old men do every-day? <input type="text" class="form-control" placeholder="Answer" name="ans2page50" [(ngModel)]="libro.ans2Page50" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li> Where does the boy like to go on the weekends? <input type="text" class="form-control" placeholder="Answer" name="ans3page50" [(ngModel)]="libro.ans3Page50" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-            </ul>
-        </div>
+  <div class="row">
+    <div class="col-md-12 mb-3">
+      <h1><span class="badge bg-warning my-2">Class 8</span></h1>
+      <h3 class="text-center">
+        <!-- audio 134-->
+        <audio id="a1p48l3" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F134.mp3?alt=media&token=f1b95ec2-de13-400f-9f73-88a247cb6c3e"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a1p48l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        IN THE PARK
+      </h3>
     </div>
+    <div class="col-md-6 card border-info">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F145.PNG?alt=media&token=d7786562-b8ed-4512-a6f9-57b9aa8117e4"
+        class="img-fluid rounded p-2"
+        alt=""
+      />
+    </div>
+    <div class="col-md-6 table-responsive">
+      <table style="width: 100%">
+        <tbody>
+          <tr>
+            <th>• Run</th>
+            <th>• Have a picnic</th>
+            <th>• Jump</th>
+          </tr>
+
+          <tr>
+            <th>• Swim</th>
+            <th>• Smell</th>
+            <th>• Eat</th>
+          </tr>
+
+          <tr>
+            <th>• Feed</th>
+            <th>• Skate board</th>
+            <th>• Watch</th>
+          </tr>
+
+          <tr>
+            <th>• Sew</th>
+            <th>• Ride a bicycle</th>
+            <th>• Talk</th>
+          </tr>
+        </tbody>
+      </table>
+      <hr />
+      <h6 class="center m-3">
+        <!-- audio 135-->
+        <audio id="a2p48l3" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F135.mp3?alt=media&token=bdf7c6e9-e970-4e73-b2a0-c8ee08c5eba0"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a2p48l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        TALK ABOUT THE PICTURE
+      </h6>
+      <ul>
+        <li>
+          What’s the little girl doing?
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Answer"
+            name="ans1page50"
+            [(ngModel)]="libro.ans1Page50"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          What do the old men do every-day?
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Answer"
+            name="ans2page50"
+            [(ngModel)]="libro.ans2Page50"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          Where does the boy like to go on the weekends?
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Answer"
+            name="ans3page50"
+            [(ngModel)]="libro.ans3Page50"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>

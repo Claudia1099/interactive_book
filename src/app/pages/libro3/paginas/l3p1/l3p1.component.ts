@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
+import { AudioService } from 'src/app/services/audio.service';
 import { AuthService } from 'src/app/services/auth.service';
 
 @Component({
@@ -8,9 +9,7 @@ import { AuthService } from 'src/app/services/auth.service';
   styles: [],
 })
 export class L3p1Component implements OnInit {
-  audio!: HTMLMediaElement;
-  idAudio: string = '';
-  constructor(private auth: AuthService) {}
+  constructor(private auth: AuthService, private audioServices: AudioService) {}
   @Input('libro3')
   libro3!: Observable<any>;
   @Input('email') email!: Promise<string>;
@@ -37,17 +36,6 @@ export class L3p1Component implements OnInit {
   }
 
   reproducirAudio(idAudio: string) {
-    if (this.idAudio.length > 0) {
-      if (this.idAudio === idAudio) {
-        this.audio.pause();
-        this.idAudio = '';
-        return;
-      }
-      this.audio.pause();
-      this.idAudio = '';
-    }
-    this.idAudio = idAudio;
-    this.audio = <HTMLMediaElement>document.getElementById(idAudio);
-    this.audio.play();
+    this.audioServices.reproducirAudio(idAudio);
   }
 }

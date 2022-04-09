@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
+import { AudioService } from 'src/app/services/audio.service';
 import { AuthService } from 'src/app/services/auth.service';
 
 @Component({
@@ -8,7 +9,7 @@ import { AuthService } from 'src/app/services/auth.service';
   styles: [],
 })
 export class L3p54Component implements OnInit {
-  constructor(private auth: AuthService) {}
+  constructor(private auth: AuthService, private audioServices: AudioService) {}
   @Input('libro3')
   libro3!: Observable<any>;
   @Input('email') email!: Promise<string>;
@@ -32,5 +33,9 @@ export class L3p54Component implements OnInit {
           console.log('error');
         });
     });
+  }
+
+  reproducirAudio(idAudio: string) {
+    this.audioServices.reproducirAudio(idAudio);
   }
 }

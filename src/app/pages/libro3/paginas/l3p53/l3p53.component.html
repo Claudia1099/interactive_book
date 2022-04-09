@@ -1,97 +1,358 @@
 <div>
-    <div class="row">
-        <div class="col-md-4">
-            <div class="d-flex justify-content-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F157.jpg?alt=media&token=c49d4d0a-cb44-4fff-9180-be0ca1bb6e9c" class="img-fluid w-75 rounded " alt="img">
-            </div>
-            <ul>
-                <span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span> 1.
-                <li>A. When are you going to cut your hair?</li>
-                <li>B. I’m going to cut it next summer.</li>
-            </ul>
-        </div>
-        <div class="col-md-4">
-            <div class="d-flex justify-content-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F158.png?alt=media&token=75e36fb5-1cdf-4e2f-8eb6-bbb6d384f399" class="img-fluid w-75 rounded " alt="img">
-            </div>
-            <ul>
-                <span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span> 2.
-                <li>A. When are they going to bake a cake?</li>
-                <li>B. <input type="text" class="form-control" placeholder="Answer" name="ans1page54" [(ngModel)]="libro.ans1Page54" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-            </ul>
-        </div>
-        <div class="col-md-4">
-            <div class="d-flex justify-content-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F159.jpg?alt=media&token=c59b5221-da75-4064-8a4e-8f50ad958653" class="img-fluid w-75 rounded " alt="img">
-            </div>
-            <ul>
-                <span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span> 3.
-                <li>A. When is he going to fix the sink?</li>
-                <li>B. <input type="text" class="form-control" placeholder="Answer" name="ans2page54" [(ngModel)]="libro.ans2Page54" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-            </ul>
-        </div>
-        <div class="col-md-4">
-            <div class="d-flex justify-content-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F160.jpg?alt=media&token=8bd575a6-8da7-4571-b109-0b2fd61d5ff0" class="img-fluid w-75 rounded " alt="img">
-            </div>
-            <ul>
-                <span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span> 4.
-                <li>A. When is he going to call his girlfriend?
-                </li>
-                <li>B. <input type="text" class="form-control" placeholder="Answer" name="ans3page54" [(ngModel)]="libro.ans3Page54" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-            </ul>
-        </div>
-        <div class="col-md-4">
-            <div class="d-flex justify-content-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F161.jpg?alt=media&token=b0a2e3e5-d336-46f7-8500-ab71affb565e" class="img-fluid w-75 rounded " alt="img">
-            </div>
-            <ul>
-                <span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span> 5.
-                <li>A. What is he going to iron?</li>
-                <li>B. <input type="text" class="form-control" placeholder="Answer" name="ans4page54" [(ngModel)]="libro.ans4Page54" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-            </ul>
-        </div>
-        <div class="col-md-4">
-            <div class="d-flex justify-content-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F153.jpg?alt=media&token=ebb74d61-5d9e-476a-a593-90afd1c01935" class="img-fluid w-75 rounded " alt="img">
-            </div>
-            <ul>
-                <span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span> 6.
-                <li>A. What are you going to do next week?</li>
-                <li>B. <input type="text" class="form-control" placeholder="Answer" name="ans5page54" [(ngModel)]="libro.ans5Page54" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-            </ul>
-        </div>
-        <div class="col-md-4">
-            <div class="d-flex justify-content-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F150.jpg?alt=media&token=a44dadca-48cd-4a45-8016-7fd2f294339b" class="img-fluid w-75 rounded " alt="img">
-            </div>
-            <ul>
-                <span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span> 7.
-                <li>A. When is she going to wash the dishes?
-                </li>
-                <li>B. <input type="text" class="form-control" placeholder="Answer" name="ans6page54" [(ngModel)]="libro.ans6Page54" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-            </ul>
-        </div>
-        <div class="col-md-4">
-            <div class="d-flex justify-content-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F144.jpg?alt=media&token=815ca1bf-24b9-45af-a43d-655eecf72457" class="img-fluid w-75 rounded " alt="img">
-            </div>
-            <ul>
-                <span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span> 8.
-                <li>A. What is Kate going to buy?
-                </li>
-                <li>B. <input type="text" class="form-control" placeholder="Answer" name="ans7page54" [(ngModel)]="libro.ans7Page54" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-            </ul>
-        </div>
-        <div class="col-md-4">
-            <div class="d-flex justify-content-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F162.jpg?alt=media&token=e1c9c4c4-6474-45a8-8313-eb94f16c58dc" class="img-fluid w-75 rounded " alt="img">
-            </div>
-            <ul>
-                <span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span> 9.
-                <li>A. How much are you going to bet in the casino?</li>
-                <li>B. <input type="text" class="form-control" placeholder="Answer" name="ans8page54" [(ngModel)]="libro.ans8Page54" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-            </ul>
-        </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h4>MOVE ON</h4>
     </div>
+    <div class="col-md-4">
+      <div class="d-flex justify-content-center">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F157.jpg?alt=media&token=c49d4d0a-cb44-4fff-9180-be0ca1bb6e9c"
+          class="img-fluid w-75 rounded"
+          alt="img"
+        />
+      </div>
+      <ul>
+        <!-- audio 149-->
+        <audio id="a1p53l3" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F149.mp3?alt=media&token=19f700c5-013e-4644-a518-edab2a85c368"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a1p53l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        1.
+        <li>A. When are you going to cut your hair?</li>
+        <li>B. I’m going to cut it next summer.</li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <div class="d-flex justify-content-center">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F158.png?alt=media&token=75e36fb5-1cdf-4e2f-8eb6-bbb6d384f399"
+          class="img-fluid w-75 rounded"
+          alt="img"
+        />
+      </div>
+      <ul>
+        <!-- audio 150-->
+        <audio id="a2p53l3" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F150.mp3?alt=media&token=d4eb526c-64bc-4746-abac-ef305fd5d80d"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a2p53l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        2.
+        <li>A. When are they going to bake a cake?</li>
+        <li>
+          B.
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Answer"
+            name="ans1page54"
+            [(ngModel)]="libro.ans1Page54"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <div class="d-flex justify-content-center">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F159.jpg?alt=media&token=c59b5221-da75-4064-8a4e-8f50ad958653"
+          class="img-fluid w-75 rounded"
+          alt="img"
+        />
+      </div>
+      <ul>
+        <!-- audio 151-->
+        <audio id="a3p53l3" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F151.mp3?alt=media&token=96203100-89e4-4b0c-ab54-d0755033ec52"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a3p53l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        3.
+        <li>A. When is he going to fix the sink?</li>
+        <li>
+          B.
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Answer"
+            name="ans2page54"
+            [(ngModel)]="libro.ans2Page54"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <div class="d-flex justify-content-center">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F160.jpg?alt=media&token=8bd575a6-8da7-4571-b109-0b2fd61d5ff0"
+          class="img-fluid w-75 rounded"
+          alt="img"
+        />
+      </div>
+      <ul>
+        <!-- audio 152 -->
+        <audio id="a4p53l3" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F152.mp3?alt=media&token=82ec0518-4117-41e9-8d46-d21037acf142"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a4p53l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        4.
+        <li>A. When is he going to call his girlfriend?</li>
+        <li>
+          <!-- audio 153 -->
+          <audio id="a10p53l3" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F153.mp3?alt=media&token=aeaca1d8-d14e-48b3-b165-2b294380e664"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a10p53l3')"
+            class="btn azul rounded-pill text-white btn-sm"
+          >
+            <i class="fas fa-volume-up"></i></button
+          >B.
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Answer"
+            name="ans3page54"
+            [(ngModel)]="libro.ans3Page54"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <div class="d-flex justify-content-center">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F161.jpg?alt=media&token=b0a2e3e5-d336-46f7-8500-ab71affb565e"
+          class="img-fluid w-75 rounded"
+          alt="img"
+        />
+      </div>
+      <ul>
+        <!-- audio 154-->
+        <audio id="a5p53l3" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F154.mp3?alt=media&token=f9eced11-8295-43ba-846f-de304b74021b"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a5p53l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        5.
+        <li>A. What is he going to iron?</li>
+        <li>
+          B.
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Answer"
+            name="ans4page54"
+            [(ngModel)]="libro.ans4Page54"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <div class="d-flex justify-content-center">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F153.jpg?alt=media&token=ebb74d61-5d9e-476a-a593-90afd1c01935"
+          class="img-fluid w-75 rounded"
+          alt="img"
+        />
+      </div>
+      <ul>
+        <!-- audio 155 -->
+        <audio id="a6p53l3" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F155.mp3?alt=media&token=db00edd3-5ed7-494d-b998-2345321f9c02"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a6p53l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        6.
+        <li>A. What are you going to do next week?</li>
+        <li>
+          B.
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Answer"
+            name="ans5page54"
+            [(ngModel)]="libro.ans5Page54"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <div class="d-flex justify-content-center">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F150.jpg?alt=media&token=a44dadca-48cd-4a45-8016-7fd2f294339b"
+          class="img-fluid w-75 rounded"
+          alt="img"
+        />
+      </div>
+      <ul>
+        <!-- audio 156-->
+        <audio id="a7p53l3" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F156.mp3?alt=media&token=1c280e4c-48b9-41a4-9cbe-6ca53f91d164"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a7p53l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        7.
+        <li>A. When is she going to wash the dishes?</li>
+        <li>
+          B.
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Answer"
+            name="ans6page54"
+            [(ngModel)]="libro.ans6Page54"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <div class="d-flex justify-content-center">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F144.jpg?alt=media&token=815ca1bf-24b9-45af-a43d-655eecf72457"
+          class="img-fluid w-75 rounded"
+          alt="img"
+        />
+      </div>
+      <ul>
+        <!-- audio 157-->
+        <audio id="a8p53l3" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F157.mp3?alt=media&token=46f784a3-73cd-4aaf-ba09-ebbafe45f1cd"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a8p53l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        8.
+        <li>A. What is Kate going to buy?</li>
+        <li>
+          B.
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Answer"
+            name="ans7page54"
+            [(ngModel)]="libro.ans7Page54"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <div class="d-flex justify-content-center">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F162.jpg?alt=media&token=e1c9c4c4-6474-45a8-8313-eb94f16c58dc"
+          class="img-fluid w-75 rounded"
+          alt="img"
+        />
+      </div>
+      <ul>
+        <!-- audio 158-->
+        <audio id="a9p53l3" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F158.mp3?alt=media&token=baf06582-4568-4fff-a700-5cff0a29cc51"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a9p53l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        9.
+        <li>A. How much are you going to bet in the casino?</li>
+        <li>
+          B.
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Answer"
+            name="ans8page54"
+            [(ngModel)]="libro.ans8Page54"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>

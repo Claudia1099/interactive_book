@@ -1,198 +1,843 @@
 <div>
-    <div class="row">
-        <div class="col-md-6">
-            <h6 class="text-white center verde2"> ACTIVITY 3.3</h6>
-            <p>Choose the correct words in italics.</p>
-            <ol>
-                <li class="my-2">Ms. Lee wrote a note on my test paper.
-                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                        <input type="radio" class="btn-check" name="q1-p19-l3" id="q1-p19-l3-o1" autocomplete="off" value="q1-p19-l3-o1" [checked]="libro['q1-p19-l3']==='q1-p19-l3-o1'" [(ngModel)]="libro['q1-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q1-p19-l3-o1">She</label>
+  <div class="row">
+    <div class="col-md-6">
+      <h6 class="text-white center verde2">ACTIVITY 3.3</h6>
+      <p>Choose the correct words in italics.</p>
+      <ol>
+        <li class="my-2">
+          Ms. Lee wrote a note on my test paper.
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q1-p19-l3"
+              id="q1-p19-l3-o1"
+              autocomplete="off"
+              value="q1-p19-l3-o1"
+              [checked]="libro['q1-p19-l3'] === 'q1-p19-l3-o1'"
+              [(ngModel)]="libro['q1-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q1-p19-l3-o1"
+              >She</label
+            >
 
-                        <input type="radio" class="btn-check" name="q1-p19-l3" id="q1-p19-l3-o2" autocomplete="off" value="q1-p19-l3-o2" [checked]="libro['q1-p19-l3']==='q1-p19-l3-o2'" [(ngModel)]="libro['q1-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q1-p19-l3-o2">Her</label>
-                    </div> wanted to talk to
-                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                        <input type="radio" class="btn-check" name="q2-p19-l3" id="q2-p19-l3-o1" autocomplete="off" value="q2-p19-l3-o1" [checked]="libro['q2-p19-l3']==='q2-p19-l3-o1'" [(ngModel)]="libro['q2-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q2-p19-l3-o1">I</label>
+            <input
+              type="radio"
+              class="btn-check"
+              name="q1-p19-l3"
+              id="q1-p19-l3-o2"
+              autocomplete="off"
+              value="q1-p19-l3-o2"
+              [checked]="libro['q1-p19-l3'] === 'q1-p19-l3-o2'"
+              [(ngModel)]="libro['q1-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q1-p19-l3-o2"
+              >Her</label
+            >
+          </div>
+          wanted to talk to
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q2-p19-l3"
+              id="q2-p19-l3-o1"
+              autocomplete="off"
+              value="q2-p19-l3-o1"
+              [checked]="libro['q2-p19-l3'] === 'q2-p19-l3-o1'"
+              [(ngModel)]="libro['q2-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q2-p19-l3-o1">I</label>
 
-                        <input type="radio" class="btn-check" name="q2-p19-l3" id="q2-p19-l3-o2" autocomplete="off" value="q2-p19-l3-o2" [checked]="libro['q2-p19-l3']==='q2-p19-l3-o2'" [(ngModel)]="libro['q2-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q2-p19-l3-o2">me</label>
-                    </div> after class</li>
-                <li class="my-2">Nick ate dinner with
-                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                        <input type="radio" class="btn-check" name="q3-p19-l3" id="q3-p19-l3-o1" autocomplete="off" value="q3-p19-l3-o1" [checked]="libro['q3-p19-l3']==='q3-p19-l3-o1'" [(ngModel)]="libro['q3-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q3-p19-l3-o1">I</label>
+            <input
+              type="radio"
+              class="btn-check"
+              name="q2-p19-l3"
+              id="q2-p19-l3-o2"
+              autocomplete="off"
+              value="q2-p19-l3-o2"
+              [checked]="libro['q2-p19-l3'] === 'q2-p19-l3-o2'"
+              [(ngModel)]="libro['q2-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q2-p19-l3-o2">me</label>
+          </div>
+          after class
+        </li>
+        <li class="my-2">
+          Nick ate dinner with
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q3-p19-l3"
+              id="q3-p19-l3-o1"
+              autocomplete="off"
+              value="q3-p19-l3-o1"
+              [checked]="libro['q3-p19-l3'] === 'q3-p19-l3-o1'"
+              [(ngModel)]="libro['q3-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q3-p19-l3-o1">I</label>
 
-                        <input type="radio" class="btn-check" name="q3-p19-l3" id="q3-p19-l3-o2" autocomplete="off" value="q3-p19-l3-o2" [checked]="libro['q3-p19-l3']==='q3-p19-l3-o2'" [(ngModel)]="libro['q3-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q3-p19-l3-o2">me</label>
-                    </div>
-                </li>
-                <li class="my-2">Nick ate dinner with Betsy and
-                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                        <input type="radio" class="btn-check" name="q4-p19-l3" id="q4-p19-l3-o1" autocomplete="off" value="q4-p19-l3-o1" [checked]="libro['q4-p19-l3']==='q4-p19-l3-o1'" [(ngModel)]="libro['q4-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q4-p19-l3-o1">I</label>
+            <input
+              type="radio"
+              class="btn-check"
+              name="q3-p19-l3"
+              id="q3-p19-l3-o2"
+              autocomplete="off"
+              value="q3-p19-l3-o2"
+              [checked]="libro['q3-p19-l3'] === 'q3-p19-l3-o2'"
+              [(ngModel)]="libro['q3-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q3-p19-l3-o2">me</label>
+          </div>
+        </li>
+        <li class="my-2">
+          Nick ate dinner with Betsy and
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q4-p19-l3"
+              id="q4-p19-l3-o1"
+              autocomplete="off"
+              value="q4-p19-l3-o1"
+              [checked]="libro['q4-p19-l3'] === 'q4-p19-l3-o1'"
+              [(ngModel)]="libro['q4-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q4-p19-l3-o1">I</label>
 
-                        <input type="radio" class="btn-check" name="q4-p19-l3" id="q4-p19-l3-o2" autocomplete="off" value="q4-p19-l3-o2" [checked]="libro['q4-p19-l3']==='q4-p19-l3-o2'" [(ngModel)]="libro['q4-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q4-p19-l3-o2">me</label>
-                    </div>
-                </li>
-                <li class="my-2">
-                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                        <input type="radio" class="btn-check" name="q5-p19-l3" id="q5-p19-l3-o1" autocomplete="off" value="q5-p19-l3-o1" [checked]="libro['q5-p19-l3']==='q5-p19-l3-o1'" [(ngModel)]="libro['q5-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q5-p19-l3-o1">I</label>
+            <input
+              type="radio"
+              class="btn-check"
+              name="q4-p19-l3"
+              id="q4-p19-l3-o2"
+              autocomplete="off"
+              value="q4-p19-l3-o2"
+              [checked]="libro['q4-p19-l3'] === 'q4-p19-l3-o2'"
+              [(ngModel)]="libro['q4-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q4-p19-l3-o2">me</label>
+          </div>
+        </li>
+        <li class="my-2">
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q5-p19-l3"
+              id="q5-p19-l3-o1"
+              autocomplete="off"
+              value="q5-p19-l3-o1"
+              [checked]="libro['q5-p19-l3'] === 'q5-p19-l3-o1'"
+              [(ngModel)]="libro['q5-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q5-p19-l3-o1">I</label>
 
-                        <input type="radio" class="btn-check" name="q5-p19-l3" id="q5-p19-l3-o2" autocomplete="off" value="q5-p19-l3-o2" [checked]="libro['q5-p19-l3']==='q5-p19-l3-o2'" [(ngModel)]="libro['q5-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q5-p19-l3-o2">me</label>
-                    </div> had dinner with Nick last night</li>
-                <li class="my-2">Betsy and
-                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                        <input type="radio" class="btn-check" name="q6-p19-l3" id="q6-p19-l3-o1" autocomplete="off" value="q6-p19-l3-o1" [checked]="libro['q6-p19-l3']==='q6-p19-l3-o1'" [(ngModel)]="libro['q6-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q6-p19-l3-o1">I</label>
+            <input
+              type="radio"
+              class="btn-check"
+              name="q5-p19-l3"
+              id="q5-p19-l3-o2"
+              autocomplete="off"
+              value="q5-p19-l3-o2"
+              [checked]="libro['q5-p19-l3'] === 'q5-p19-l3-o2'"
+              [(ngModel)]="libro['q5-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q5-p19-l3-o2">me</label>
+          </div>
+          had dinner with Nick last night
+        </li>
+        <li class="my-2">
+          Betsy and
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q6-p19-l3"
+              id="q6-p19-l3-o1"
+              autocomplete="off"
+              value="q6-p19-l3-o1"
+              [checked]="libro['q6-p19-l3'] === 'q6-p19-l3-o1'"
+              [(ngModel)]="libro['q6-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q6-p19-l3-o1">I</label>
 
-                        <input type="radio" class="btn-check" name="q6-p19-l3" id="q6-p19-l3-o2" autocomplete="off" value="q6-p19-l3-o2" [checked]="libro['q6-p19-l3']==='q6-p19-l3-o2'" [(ngModel)]="libro['q6-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q6-p19-l3-o2">me</label>
-                    </div> had dinner with Nick last night</li>
-                <li class="my-2">Nick ate dinner with
-                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                        <input type="radio" class="btn-check" name="q7-p19-l3" id="q7-p19-l3-o1" autocomplete="off" value="q7-p19-l3-o1" [checked]="libro['q7-p19-l3']==='q7-p19-l3-o1'" [(ngModel)]="libro['q7-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q7-p19-l3-o1">we</label>
+            <input
+              type="radio"
+              class="btn-check"
+              name="q6-p19-l3"
+              id="q6-p19-l3-o2"
+              autocomplete="off"
+              value="q6-p19-l3-o2"
+              [checked]="libro['q6-p19-l3'] === 'q6-p19-l3-o2'"
+              [(ngModel)]="libro['q6-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q6-p19-l3-o2">me</label>
+          </div>
+          had dinner with Nick last night
+        </li>
+        <li class="my-2">
+          Nick ate dinner with
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q7-p19-l3"
+              id="q7-p19-l3-o1"
+              autocomplete="off"
+              value="q7-p19-l3-o1"
+              [checked]="libro['q7-p19-l3'] === 'q7-p19-l3-o1'"
+              [(ngModel)]="libro['q7-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q7-p19-l3-o1">we</label>
 
-                        <input type="radio" class="btn-check" name="q7-p19-l3" id="q7-p19-l3-o2" autocomplete="off" value="q7-p19-l3-o2" [checked]="libro['q7-p19-l3']==='q7-p19-l3-o2'" [(ngModel)]="libro['q7-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q7-p19-l3-o2">us</label>
-                    </div>
-                </li>
-                <li class="my-2"> Nick ate dinner with Robert son’s and
-                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                        <input type="radio" class="btn-check" name="q8-p19-l3" id="q8-p19-l3-o1" autocomplete="off" value="q8-p19-l3-o1" [checked]="libro['q8-p19-l3']==='q8-p19-l3-o1'" [(ngModel)]="libro['q8-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q8-p19-l3-o1">we</label>
+            <input
+              type="radio"
+              class="btn-check"
+              name="q7-p19-l3"
+              id="q7-p19-l3-o2"
+              autocomplete="off"
+              value="q7-p19-l3-o2"
+              [checked]="libro['q7-p19-l3'] === 'q7-p19-l3-o2'"
+              [(ngModel)]="libro['q7-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q7-p19-l3-o2">us</label>
+          </div>
+        </li>
+        <li class="my-2">
+          Nick ate dinner with Robert son’s and
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q8-p19-l3"
+              id="q8-p19-l3-o1"
+              autocomplete="off"
+              value="q8-p19-l3-o1"
+              [checked]="libro['q8-p19-l3'] === 'q8-p19-l3-o1'"
+              [(ngModel)]="libro['q8-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q8-p19-l3-o1">we</label>
 
-                        <input type="radio" class="btn-check" name="q8-p19-l3" id="q8-p19-l3-o2" autocomplete="off" value="q8-p19-l3-o2" [checked]="libro['q8-p19-l3']==='q8-p19-l3-o2'" [(ngModel)]="libro['q8-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q8-p19-l3-o2">us</label>
-                    </div>
-                </li>
-                <li class="my-2"> My brother drove Emily and
-                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                        <input type="radio" class="btn-check" name="q9-p19-l3" id="q9-p19-l3-o1" autocomplete="off" value="q9-p19-l3-o1" [checked]="libro['q9-p19-l3']==='q9-p19-l3-o1'" [(ngModel)]="libro['q9-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q9-p19-l3-o1">I</label>
+            <input
+              type="radio"
+              class="btn-check"
+              name="q8-p19-l3"
+              id="q8-p19-l3-o2"
+              autocomplete="off"
+              value="q8-p19-l3-o2"
+              [checked]="libro['q8-p19-l3'] === 'q8-p19-l3-o2'"
+              [(ngModel)]="libro['q8-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q8-p19-l3-o2">us</label>
+          </div>
+        </li>
+        <li class="my-2">
+          My brother drove Emily and
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q9-p19-l3"
+              id="q9-p19-l3-o1"
+              autocomplete="off"
+              value="q9-p19-l3-o1"
+              [checked]="libro['q9-p19-l3'] === 'q9-p19-l3-o1'"
+              [(ngModel)]="libro['q9-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q9-p19-l3-o1">I</label>
 
-                        <input type="radio" class="btn-check" name="q9-p19-l3" id="q9-p19-l3-o2" autocomplete="off" value="q9-p19-l3-o2" [checked]="libro['q9-p19-l3']==='q9-p19-l3-o2'" [(ngModel)]="libro['q9-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q9-p19-l3-o2">me</label>
-                    </div> to the store. He didn’t come in. He waited for
-                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                        <input type="radio" class="btn-check" name="q10-p19-l3" id="q10-p19-l3-o1" autocomplete="off" value="q10-p19-l3-o1" [checked]="libro['q10-p19-l3']==='q10-p19-l3-o1'" [(ngModel)]="libro['q10-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q10-p19-l3-o1">we</label>
+            <input
+              type="radio"
+              class="btn-check"
+              name="q9-p19-l3"
+              id="q9-p19-l3-o2"
+              autocomplete="off"
+              value="q9-p19-l3-o2"
+              [checked]="libro['q9-p19-l3'] === 'q9-p19-l3-o2'"
+              [(ngModel)]="libro['q9-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q9-p19-l3-o2">me</label>
+          </div>
+          to the store. He didn’t come in. He waited for
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q10-p19-l3"
+              id="q10-p19-l3-o1"
+              autocomplete="off"
+              value="q10-p19-l3-o1"
+              [checked]="libro['q10-p19-l3'] === 'q10-p19-l3-o1'"
+              [(ngModel)]="libro['q10-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q10-p19-l3-o1"
+              >we</label
+            >
 
-                        <input type="radio" class="btn-check" name="q10-p19-l3" id="q10-p19-l3-o2" autocomplete="off" value="q10-p19-l3-o2" [checked]="libro['q10-p19-l3']==='q10-p19-l3-o2'" [(ngModel)]="libro['q10-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q10-p19-l3-o2">us</label>
-                    </div> in the car.
-                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                        <input type="radio" class="btn-check" name="q11-p19-l3" id="q11-p19-l3-o1" autocomplete="off" value="q11-p19-l3-o1" [checked]="libro['q11-p19-l3']==='q11-p19-l3-o1'" [(ngModel)]="libro['q11-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q11-p19-l3-o1">we</label>
+            <input
+              type="radio"
+              class="btn-check"
+              name="q10-p19-l3"
+              id="q10-p19-l3-o2"
+              autocomplete="off"
+              value="q10-p19-l3-o2"
+              [checked]="libro['q10-p19-l3'] === 'q10-p19-l3-o2'"
+              [(ngModel)]="libro['q10-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q10-p19-l3-o2"
+              >us</label
+            >
+          </div>
+          in the car.
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q11-p19-l3"
+              id="q11-p19-l3-o1"
+              autocomplete="off"
+              value="q11-p19-l3-o1"
+              [checked]="libro['q11-p19-l3'] === 'q11-p19-l3-o1'"
+              [(ngModel)]="libro['q11-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q11-p19-l3-o1"
+              >we</label
+            >
 
-                        <input type="radio" class="btn-check" name="q11-p19-l3" id="q11-p19-l3-o2" autocomplete="off" value="q11-p19-l3-o2" [checked]="libro['q11-p19-l3']==='q11-p19-l3-o2'" [(ngModel)]="libro['q11-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q11-p19-l3-o2">us</label>
-                    </div> hurried</li>
-            </ol>
-        </div>
-        <div class="col-md-6">
-
-            <ul>
-
-
-                <li class="my-2">9.
-                    <ul>
-                        <li class="my-2">A: I want to get tickets for the soccer game </li>
-                        <li class="my-2">B: You’d better get
-                            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                                <input type="radio" class="btn-check" name="q12-p19-l3" id="q12-p19-l3-o1" autocomplete="off" value="q12-p19-l3-o1" [checked]="libro['q12-p19-l3']==='q12-p19-l3-o1'" [(ngModel)]="libro['q12-p19-l3']" (change)="guardarInfo()">
-                                <label class="btn btn-outline-primary" for="q12-p19-l3-o1">it</label>
-
-                                <input type="radio" class="btn-check" name="q12-p19-l3" id="q12-p19-l3-o2" autocomplete="off" value="q12-p19-l3-o2" [checked]="libro['q12-p19-l3']==='q12-p19-l3-o2'" [(ngModel)]="libro['q12-p19-l3']" (change)="guardarInfo()">
-                                <label class="btn btn-outline-primary" for="q12-p19-l3-o2">them</label>
-                            </div> right way.
-                            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                                <input type="radio" class="btn-check" name="q13-p19-l3" id="q13-p19-l3-o1" autocomplete="off" value="q13-p19-l3-o1" [checked]="libro['q13-p19-l3']==='q13-p19-l3-o1'" [(ngModel)]="libro['q13-p19-l3']" (change)="guardarInfo()">
-                                <label class="btn btn-outline-primary" for="q13-p19-l3-o1">It</label>
-
-                                <input type="radio" class="btn-check" name="q13-p19-l3" id="q13-p19-l3-o2" autocomplete="off" value="q13-p19-l3-o2" [checked]="libro['q13-p19-l3']==='q13-p19-l3-o2'" [(ngModel)]="libro['q13-p19-l3']" (change)="guardarInfo()">
-                                <label class="btn btn-outline-primary" for="q13-p19-l3-o2">they</label>
-
-                                <input type="radio" class="btn-check" name="q13-p19-l3" id="q13-p19-l3-o1" autocomplete="off" value="q14-p19-l3-o1" [checked]="libro['q14-p19-l3']==='q14-p19-l3-o1'" [(ngModel)]="libro['q14-p19-l3']" (change)="guardarInfo()">
-                                <label class="btn btn-outline-primary" for="q13-p19-l3-o1">is</label>
-
-                                <input type="radio" class="btn-check" name="q13-p19-l3" id="q13-p19-l3-o2" autocomplete="off" value="q14-p19-l3-o2" [checked]="libro['q14-p19-l3']==='q14-p19-l3-o2'" [(ngModel)]="libro['q14-p19-l3']" (change)="guardarInfo()">
-                                <label class="btn btn-outline-primary" for="q13-p19-l3-o2">are</label>
-                            </div> selling fast</li>
-                    </ul>
-                </li>
-                <li class="my-2">10. Alex bought a ticket to the soccer game. He put
-                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                        <input type="radio" class="btn-check" name="q14-p19-l3" id="q14-p19-l3-o1" autocomplete="off" value="q15-p19-l3-o1" [checked]="libro['q15-p19-l3']==='q15-p19-l3-o1'" [(ngModel)]="libro['q15-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q14-p19-l3-o1">it</label>
-
-                        <input type="radio" class="btn-check" name="q14-p19-l3" id="q14-p19-l3-o2" autocomplete="off" value="q15-p19-l3-o2" [checked]="libro['q15-p19-l3']==='q15-p19-l3-o2'" [(ngModel)]="libro['q15-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q14-p19-l3-o2">them</label>
-                    </div> in his pocket and forgot about
-                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                        <input type="radio" class="btn-check" name="q15-p19-l3" id="q15-p19-l3-o1" autocomplete="off" value="q16-p19-l3-o1" [checked]="libro['q16-p19-l3']==='q16-p19-l3-o1'" [(ngModel)]="libro['q16-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q15-p19-l3-o1">it</label>
-
-                        <input type="radio" class="btn-check" name="q15-p19-l3" id="q15-p19-l3-o2" autocomplete="off" value="q16-p19-l3-o2" [checked]="libro['q16-p19-l3']==='q16-p19-l3-o2'" [(ngModel)]="libro['q16-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q15-p19-l3-o2">them</label>
-                    </div>. The nest day, he put his shirt in the wash. The ticket came out of the washing machine and dryer crumpled and nearly illegible. But when Alex took
-                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                        <input type="radio" class="btn-check" name="q16-p19-l3" id="q16-p19-l3-o1" autocomplete="off" value="q17-p19-l3-o1" [checked]="libro['q17-p19-l3']==='q17-p19-l3-o1'" [(ngModel)]="libro['q17-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q16-p19-l3-o1">it</label>
-
-                        <input type="radio" class="btn-check" name="q16-p19-l3" id="q16-p19-l3-o2" autocomplete="off" value="q17-p19-l3-o2" [checked]="libro['q17-p19-l3']==='q17-p19-l3-o2'" [(ngModel)]="libro['q17-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q16-p19-l3-o2">them</label>
-                    </div> to the game, the ticket taker accepted
-                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                        <input type="radio" class="btn-check" name="q17-p19-l3" id="q17-p19-l3-o1" autocomplete="off" value="q18-p19-l3-o1" [checked]="libro['q18-p19-l3']==='q18-p19-l3-o1'" [(ngModel)]="libro['q18-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q17-p19-l3-o1">it</label>
-
-                        <input type="radio" class="btn-check" name="q17-p19-l3" id="q17-p19-l3-o2" autocomplete="off" value="q18-p19-l3-o2" [checked]="libro['q18-p19-l3']==='q18-p19-l3-o2'" [(ngModel)]="libro['q18-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q17-p19-l3-o2">them</label>
-                    </div> and let Alex in</li>
-                <li class="my-2">11. Please take these food scraps and give
-                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                        <input type="radio" class="btn-check" name="q18-p19-l3" id="q18-p19-l3-o1" autocomplete="off" value="q19-p19-l3-o1" [checked]="libro['q19-p19-l3']==='q19-p19-l3-o1'" [(ngModel)]="libro['q19-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q18-p19-l3-o1">it</label>
-
-                        <input type="radio" class="btn-check" name="q18-p19-l3" id="q18-p19-l3-o2" autocomplete="off" value="q19-p19-l3-o2" [checked]="libro['q19-p19-l3']==='q19-p19-l3-o2'" [(ngModel)]="libro['q19-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q18-p19-l3-o2">them</label>
-                    </div> to the dog</li>
-                <li class="my-2">12. I talked to Jennifer and Mike. I tuld
-                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                        <input type="radio" class="btn-check" name="q19-p19-l3" id="q19-p19-l3-o1" autocomplete="off" value="q20-p19-l3-o1" [checked]="libro['q20-p19-l3']==='q20-p19-l3-o1'" [(ngModel)]="libro['q20-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q19-p19-l3-o1">They</label>
-
-                        <input type="radio" class="btn-check" name="q19-p19-l3" id="q19-p19-l3-o2" autocomplete="off" value="q20-p19-l3-o2" [checked]="libro['q20-p19-l3']==='q20-p19-l3-o2'" [(ngModel)]="libro['q20-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q19-p19-l3-o2">them</label>
-                    </div> about the surprise birthday party for Lizzy.
-                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                        <input type="radio" class="btn-check" name="q20-p19-l3" id="q20-p19-l3-o1" autocomplete="off" value="q21-p19-l3-o1" [checked]="libro['q21-p19-l3']==='q21-p19-l3-o1'" [(ngModel)]="libro['q21-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q20-p19-l3-o1">They</label>
-
-                        <input type="radio" class="btn-check" name="q20-p19-l3" id="q20-p19-l3-o2" autocomplete="off" value="q21-p19-l3-o2" [checked]="libro['q21-p19-l3']==='q21-p19-l3-o2'" [(ngModel)]="libro['q21-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q20-p19-l3-o2">them</label>
-                    </div> won’t tell
-                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                        <input type="radio" class="btn-check" name="q21-p19-l3" id="q21-p19-l3-o1" autocomplete="off" value="q22-p19-l3-o1" [checked]="libro['q22-p19-l3']==='q22-p19-l3-o1'" [(ngModel)]="libro['q22-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q21-p19-l3-o1">She</label>
-
-                        <input type="radio" class="btn-check" name="q21-p19-l3" id="q21-p19-l3-o2" autocomplete="off" value="q22-p19-l3-o2" [checked]="libro['q22-p19-l3']==='q22-p19-l3-o2'" [(ngModel)]="libro['q22-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q21-p19-l3-o2">her</label>
-                    </div> about it, them.
-                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                        <input type="radio" class="btn-check" name="q22-p19-l3" id="q22-p19-l3-o1" autocomplete="off" value="q23-p19-l3-o1" [checked]="libro['q23-p19-l3']==='q23-p19-l3-o1'" [(ngModel)]="libro['q23-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q22-p19-l3-o1">She</label>
-
-                        <input type="radio" class="btn-check" name="q22-p19-l3" id="q22-p19-l3-o2" autocomplete="off" value="q23-p19-l3-o2" [checked]="libro['q23-p19-l3']==='q23-p19-l3-o2'" [(ngModel)]="libro['q23-p19-l3']" (change)="guardarInfo()">
-                        <label class="btn btn-outline-primary" for="q22-p19-l3-o2">her</label>
-                    </div> is really going to be surprised!</li>
-            </ul>
-        </div>
+            <input
+              type="radio"
+              class="btn-check"
+              name="q11-p19-l3"
+              id="q11-p19-l3-o2"
+              autocomplete="off"
+              value="q11-p19-l3-o2"
+              [checked]="libro['q11-p19-l3'] === 'q11-p19-l3-o2'"
+              [(ngModel)]="libro['q11-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q11-p19-l3-o2"
+              >us</label
+            >
+          </div>
+          hurried
+        </li>
+      </ol>
     </div>
+    <div class="col-md-6">
+      <ul>
+        <li class="my-2">
+          9.
+          <ul>
+            <li class="my-2">A: I want to get tickets for the soccer game</li>
+            <li class="my-2">
+              B: You’d better get
+              <div
+                class="btn-group"
+                role="group"
+                aria-label="Basic radio toggle button group"
+              >
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="q12-p19-l3"
+                  id="q12-p19-l3-o1"
+                  autocomplete="off"
+                  value="q12-p19-l3-o1"
+                  [checked]="libro['q12-p19-l3'] === 'q12-p19-l3-o1'"
+                  [(ngModel)]="libro['q12-p19-l3']"
+                  (change)="guardarInfo()"
+                />
+                <label class="btn btn-outline-primary" for="q12-p19-l3-o1"
+                  >it</label
+                >
+
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="q12-p19-l3"
+                  id="q12-p19-l3-o2"
+                  autocomplete="off"
+                  value="q12-p19-l3-o2"
+                  [checked]="libro['q12-p19-l3'] === 'q12-p19-l3-o2'"
+                  [(ngModel)]="libro['q12-p19-l3']"
+                  (change)="guardarInfo()"
+                />
+                <label class="btn btn-outline-primary" for="q12-p19-l3-o2"
+                  >them</label
+                >
+              </div>
+              right way.
+              <div
+                class="btn-group"
+                role="group"
+                aria-label="Basic radio toggle button group"
+              >
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="q13-p19-l3"
+                  id="q13-p19-l3-o1"
+                  autocomplete="off"
+                  value="q13-p19-l3-o1"
+                  [checked]="libro['q13-p19-l3'] === 'q13-p19-l3-o1'"
+                  [(ngModel)]="libro['q13-p19-l3']"
+                  (change)="guardarInfo()"
+                />
+                <label class="btn btn-outline-primary" for="q13-p19-l3-o1"
+                  >It</label
+                >
+
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="q13-p19-l3"
+                  id="q13-p19-l3-o2"
+                  autocomplete="off"
+                  value="q13-p19-l3-o2"
+                  [checked]="libro['q13-p19-l3'] === 'q13-p19-l3-o2'"
+                  [(ngModel)]="libro['q13-p19-l3']"
+                  (change)="guardarInfo()"
+                />
+                <label class="btn btn-outline-primary" for="q13-p19-l3-o2"
+                  >they</label
+                >
+
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="q13-p19-l3"
+                  id="q13-p19-l3-o1"
+                  autocomplete="off"
+                  value="q14-p19-l3-o1"
+                  [checked]="libro['q14-p19-l3'] === 'q14-p19-l3-o1'"
+                  [(ngModel)]="libro['q14-p19-l3']"
+                  (change)="guardarInfo()"
+                />
+                <label class="btn btn-outline-primary" for="q13-p19-l3-o1"
+                  >is</label
+                >
+
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="q13-p19-l3"
+                  id="q13-p19-l3-o2"
+                  autocomplete="off"
+                  value="q14-p19-l3-o2"
+                  [checked]="libro['q14-p19-l3'] === 'q14-p19-l3-o2'"
+                  [(ngModel)]="libro['q14-p19-l3']"
+                  (change)="guardarInfo()"
+                />
+                <label class="btn btn-outline-primary" for="q13-p19-l3-o2"
+                  >are</label
+                >
+              </div>
+              selling fast
+            </li>
+          </ul>
+        </li>
+        <li class="my-2">
+          10. Alex bought a ticket to the soccer game. He put
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q14-p19-l3"
+              id="q14-p19-l3-o1"
+              autocomplete="off"
+              value="q15-p19-l3-o1"
+              [checked]="libro['q15-p19-l3'] === 'q15-p19-l3-o1'"
+              [(ngModel)]="libro['q15-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q14-p19-l3-o1"
+              >it</label
+            >
+
+            <input
+              type="radio"
+              class="btn-check"
+              name="q14-p19-l3"
+              id="q14-p19-l3-o2"
+              autocomplete="off"
+              value="q15-p19-l3-o2"
+              [checked]="libro['q15-p19-l3'] === 'q15-p19-l3-o2'"
+              [(ngModel)]="libro['q15-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q14-p19-l3-o2"
+              >them</label
+            >
+          </div>
+          in his pocket and forgot about
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q15-p19-l3"
+              id="q15-p19-l3-o1"
+              autocomplete="off"
+              value="q16-p19-l3-o1"
+              [checked]="libro['q16-p19-l3'] === 'q16-p19-l3-o1'"
+              [(ngModel)]="libro['q16-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q15-p19-l3-o1"
+              >it</label
+            >
+
+            <input
+              type="radio"
+              class="btn-check"
+              name="q15-p19-l3"
+              id="q15-p19-l3-o2"
+              autocomplete="off"
+              value="q16-p19-l3-o2"
+              [checked]="libro['q16-p19-l3'] === 'q16-p19-l3-o2'"
+              [(ngModel)]="libro['q16-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q15-p19-l3-o2"
+              >them</label
+            >
+          </div>
+          . The nest day, he put his shirt in the wash. The ticket came out of
+          the washing machine and dryer crumpled and nearly illegible. But when
+          Alex took
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q16-p19-l3"
+              id="q16-p19-l3-o1"
+              autocomplete="off"
+              value="q17-p19-l3-o1"
+              [checked]="libro['q17-p19-l3'] === 'q17-p19-l3-o1'"
+              [(ngModel)]="libro['q17-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q16-p19-l3-o1"
+              >it</label
+            >
+
+            <input
+              type="radio"
+              class="btn-check"
+              name="q16-p19-l3"
+              id="q16-p19-l3-o2"
+              autocomplete="off"
+              value="q17-p19-l3-o2"
+              [checked]="libro['q17-p19-l3'] === 'q17-p19-l3-o2'"
+              [(ngModel)]="libro['q17-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q16-p19-l3-o2"
+              >them</label
+            >
+          </div>
+          to the game, the ticket taker accepted
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q17-p19-l3"
+              id="q17-p19-l3-o1"
+              autocomplete="off"
+              value="q18-p19-l3-o1"
+              [checked]="libro['q18-p19-l3'] === 'q18-p19-l3-o1'"
+              [(ngModel)]="libro['q18-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q17-p19-l3-o1"
+              >it</label
+            >
+
+            <input
+              type="radio"
+              class="btn-check"
+              name="q17-p19-l3"
+              id="q17-p19-l3-o2"
+              autocomplete="off"
+              value="q18-p19-l3-o2"
+              [checked]="libro['q18-p19-l3'] === 'q18-p19-l3-o2'"
+              [(ngModel)]="libro['q18-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q17-p19-l3-o2"
+              >them</label
+            >
+          </div>
+          and let Alex in
+        </li>
+        <li class="my-2">
+          11. Please take these food scraps and give
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q18-p19-l3"
+              id="q18-p19-l3-o1"
+              autocomplete="off"
+              value="q19-p19-l3-o1"
+              [checked]="libro['q19-p19-l3'] === 'q19-p19-l3-o1'"
+              [(ngModel)]="libro['q19-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q18-p19-l3-o1"
+              >it</label
+            >
+
+            <input
+              type="radio"
+              class="btn-check"
+              name="q18-p19-l3"
+              id="q18-p19-l3-o2"
+              autocomplete="off"
+              value="q19-p19-l3-o2"
+              [checked]="libro['q19-p19-l3'] === 'q19-p19-l3-o2'"
+              [(ngModel)]="libro['q19-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q18-p19-l3-o2"
+              >them</label
+            >
+          </div>
+          to the dog
+        </li>
+        <li class="my-2">
+          12. I talked to Jennifer and Mike. I tuld
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q19-p19-l3"
+              id="q19-p19-l3-o1"
+              autocomplete="off"
+              value="q20-p19-l3-o1"
+              [checked]="libro['q20-p19-l3'] === 'q20-p19-l3-o1'"
+              [(ngModel)]="libro['q20-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q19-p19-l3-o1"
+              >They</label
+            >
+
+            <input
+              type="radio"
+              class="btn-check"
+              name="q19-p19-l3"
+              id="q19-p19-l3-o2"
+              autocomplete="off"
+              value="q20-p19-l3-o2"
+              [checked]="libro['q20-p19-l3'] === 'q20-p19-l3-o2'"
+              [(ngModel)]="libro['q20-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q19-p19-l3-o2"
+              >them</label
+            >
+          </div>
+          about the surprise birthday party for Lizzy.
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q20-p19-l3"
+              id="q20-p19-l3-o1"
+              autocomplete="off"
+              value="q21-p19-l3-o1"
+              [checked]="libro['q21-p19-l3'] === 'q21-p19-l3-o1'"
+              [(ngModel)]="libro['q21-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q20-p19-l3-o1"
+              >They</label
+            >
+
+            <input
+              type="radio"
+              class="btn-check"
+              name="q20-p19-l3"
+              id="q20-p19-l3-o2"
+              autocomplete="off"
+              value="q21-p19-l3-o2"
+              [checked]="libro['q21-p19-l3'] === 'q21-p19-l3-o2'"
+              [(ngModel)]="libro['q21-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q20-p19-l3-o2"
+              >them</label
+            >
+          </div>
+          won’t tell
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q21-p19-l3"
+              id="q21-p19-l3-o1"
+              autocomplete="off"
+              value="q22-p19-l3-o1"
+              [checked]="libro['q22-p19-l3'] === 'q22-p19-l3-o1'"
+              [(ngModel)]="libro['q22-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q21-p19-l3-o1"
+              >She</label
+            >
+
+            <input
+              type="radio"
+              class="btn-check"
+              name="q21-p19-l3"
+              id="q21-p19-l3-o2"
+              autocomplete="off"
+              value="q22-p19-l3-o2"
+              [checked]="libro['q22-p19-l3'] === 'q22-p19-l3-o2'"
+              [(ngModel)]="libro['q22-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q21-p19-l3-o2"
+              >her</label
+            >
+          </div>
+          about it, them.
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q22-p19-l3"
+              id="q22-p19-l3-o1"
+              autocomplete="off"
+              value="q23-p19-l3-o1"
+              [checked]="libro['q23-p19-l3'] === 'q23-p19-l3-o1'"
+              [(ngModel)]="libro['q23-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q22-p19-l3-o1"
+              >She</label
+            >
+
+            <input
+              type="radio"
+              class="btn-check"
+              name="q22-p19-l3"
+              id="q22-p19-l3-o2"
+              autocomplete="off"
+              value="q23-p19-l3-o2"
+              [checked]="libro['q23-p19-l3'] === 'q23-p19-l3-o2'"
+              [(ngModel)]="libro['q23-p19-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q22-p19-l3-o2"
+              >her</label
+            >
+          </div>
+          is really going to be surprised!
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>

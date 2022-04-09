@@ -1,71 +1,221 @@
 <div>
-    <div class="row">
-        <div class="col-md-6">
-            <h3><span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span></h3>
-            <p class="justify">People are buying things in new ways these days. Many people are busy, and they don't want to go to crowded stores. They shop from mail-order catalogues (books with pictures of things to buy). Tired shoppers in some cities can even buy groceries
-                (things in a supermarket) by phone!</p>
-            <p class="justify">Most people are shopping differently ¡n stores too. They are taking groceries home in a different way. People in the supermarket ask, "Plastic or paper?" Many people like plastic bags, but plastic is terrible for the environment (the air,
-                land, and water around us). Paper bags also are bad because we use too many trees to make them.Only five hundred bags come from each tree. Some people understand this. They aren't using plastic or paper bags. They're taking cloth bags
-                to the store. These cloth bags are reusable. (People can use them again and again for many years.) The bags are washable too. (People can wash them.)</p>
-            <p class="justify">Today many people are thinking about the environment. They want to have a safe world for their children. People are changing to different products (things in a store). Some mail-order companies are now selling special products too. Cloth shopping
-                bags, cloth diapers (for babies to wear), and soap without chemicals help the environment. The mail-order companies help the environment and make a lot of money!</p>
-        </div>
-        <div class="col-md-6">
-            <h5 class="center">Main Ideas</h5>
-            <ol>
-                <li>Circle the letter of the main subject of "It's a New World of Shopping."
-                    <ul>
-                        <li>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="q1-p33-l3" id="q1-p33-l3-o1" value="q7-p33-l3-o1" [checked]="libro['q7-p33-l3']==='q7-p33-l3-o1'" [(ngModel)]="libro['q7-p33-l3']" (change)="guardarInfo()">
-                                <label class="form-check-label" for="q1-p33-l3-o1">
-            a. shopping by phone
-        </label>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="q1-p33-l3" id="q1-p33-l3-o2" value="q7-p33-l3-o2" [checked]="libro['q7-p33-l3']==='q7-p33-l3-o2'" [(ngModel)]="libro['q7-p33-l3']" (change)="guardarInfo()">
-                                <label class="form-check-label" for="q1-p33-l3-o1">
-            b. new ways to shop
-        </label>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="q1-p33-l3" id="q1-p33-l3-o3" value="q7-p33-l3-o3" [checked]="libro['q7-p33-l3']==='q7-p33-l3-o3'" [(ngModel)]="libro['q7-p33-l3']" (change)="guardarInfo()">
-                                <label class="form-check-label" for="q1-p33-l3-o1">
-            c. three kinds of bags in supermarkets
-        </label>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="q1-p33-l3" id="q1-p33-l3-o4" value="q7-p33-l3-o4" [checked]="libro['q7-p33-l3']==='q7-p33-l3-o4'" [(ngModel)]="libro['q7-p33-l3']" (change)="guardarInfo()">
-                                <label class="form-check-label" for="q1-p33-l3-o1">
-            d. new things to buy
-        </label>
-                            </div>
-                        </li>
-                    </ul>
-                </li>
-                <li>Answer the questions
-                    <ul>
-                        <li>a. Tired shoppers in some cities can even buy groceries by phone. What are groceries? <input type="text" class="form-control" placeholder="Answer" name="ans1page33" [(ngModel)]="libro.ans1Page33" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"
-                                id=""></li>
-                        <li>b. Plastic is terrible for the environment. What is the environment? <input type="text" class="form-control" placeholder="Answer" name="ans2page33" [(ngModel)]="libro.ans2Page33" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"
-                                id=""></li>
-                        <li>c. Cloth bags are reusable. What can people do with reusable cloth bags? <input type="text" class="form-control" placeholder="Answer" name="ans3page33" [(ngModel)]="libro.ans3Page33" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"
-                                id=""></li>
-                        <li>d. Cloth bags are washable. What can you do with washable cloth bags? <input type="text" class="form-control" placeholder="Answer" name="ans4page33" [(ngModel)]="libro.ans4Page33" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"
-                                id=""></li>
-                        <li>e. People are changing to different products What are products? <input type="text" class="form-control" placeholder="Answer" name="ans5page33" [(ngModel)]="libro.ans5Page33" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"
-                                id=""></li>
-                        <li>f. Cloth diapers are not bad for the environment. Who wears diapers? <input type="text" class="form-control" placeholder="Answer" name="ans6page33" [(ngModel)]="libro.ans6Page33" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"
-                                id=""></li>
-                    </ul>
-                </li>
-            </ol>
-        </div>
+  <div class="row">
+    <div class="col-md-6">
+      <h3>
+        <!-- audio 72-->
+
+        <button
+          (click)="reproducirAudio('a1p32l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i></button
+        ><br />
+        <audio
+          id="a1p32l3"
+          aria-label="audio"
+          class=""
+          controls
+          controlslist="nodownload"
+        >
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F72.mp3?alt=media&token=420d2c3a-ecf5-4cf5-9003-a1074895b0f9"
+          />
+        </audio>
+      </h3>
+      <p class="justify">
+        People are buying things in new ways these days. Many people are busy,
+        and they don't want to go to crowded stores. They shop from mail-order
+        catalogues (books with pictures of things to buy). Tired shoppers in
+        some cities can even buy groceries (things in a supermarket) by phone!
+      </p>
+      <p class="justify">
+        Most people are shopping differently ¡n stores too. They are taking
+        groceries home in a different way. People in the supermarket ask,
+        "Plastic or paper?" Many people like plastic bags, but plastic is
+        terrible for the environment (the air, land, and water around us). Paper
+        bags also are bad because we use too many trees to make them.Only five
+        hundred bags come from each tree. Some people understand this. They
+        aren't using plastic or paper bags. They're taking cloth bags to the
+        store. These cloth bags are reusable. (People can use them again and
+        again for many years.) The bags are washable too. (People can wash
+        them.)
+      </p>
+      <p class="justify">
+        Today many people are thinking about the environment. They want to have
+        a safe world for their children. People are changing to different
+        products (things in a store). Some mail-order companies are now selling
+        special products too. Cloth shopping bags, cloth diapers (for babies to
+        wear), and soap without chemicals help the environment. The mail-order
+        companies help the environment and make a lot of money!
+      </p>
     </div>
+    <div class="col-md-6">
+      <h5 class="center">Main Ideas</h5>
+      <ol>
+        <li>
+          Circle the letter of the main subject of "It's a New World of
+          Shopping."
+          <ul>
+            <li>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="q1-p33-l3"
+                  id="q1-p33-l3-o1"
+                  value="q7-p33-l3-o1"
+                  [checked]="libro['q7-p33-l3'] === 'q7-p33-l3-o1'"
+                  [(ngModel)]="libro['q7-p33-l3']"
+                  (change)="guardarInfo()"
+                />
+                <label class="form-check-label" for="q1-p33-l3-o1">
+                  a. shopping by phone
+                </label>
+              </div>
+            </li>
+            <li>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="q1-p33-l3"
+                  id="q1-p33-l3-o2"
+                  value="q7-p33-l3-o2"
+                  [checked]="libro['q7-p33-l3'] === 'q7-p33-l3-o2'"
+                  [(ngModel)]="libro['q7-p33-l3']"
+                  (change)="guardarInfo()"
+                />
+                <label class="form-check-label" for="q1-p33-l3-o1">
+                  b. new ways to shop
+                </label>
+              </div>
+            </li>
+            <li>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="q1-p33-l3"
+                  id="q1-p33-l3-o3"
+                  value="q7-p33-l3-o3"
+                  [checked]="libro['q7-p33-l3'] === 'q7-p33-l3-o3'"
+                  [(ngModel)]="libro['q7-p33-l3']"
+                  (change)="guardarInfo()"
+                />
+                <label class="form-check-label" for="q1-p33-l3-o1">
+                  c. three kinds of bags in supermarkets
+                </label>
+              </div>
+            </li>
+            <li>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="q1-p33-l3"
+                  id="q1-p33-l3-o4"
+                  value="q7-p33-l3-o4"
+                  [checked]="libro['q7-p33-l3'] === 'q7-p33-l3-o4'"
+                  [(ngModel)]="libro['q7-p33-l3']"
+                  (change)="guardarInfo()"
+                />
+                <label class="form-check-label" for="q1-p33-l3-o1">
+                  d. new things to buy
+                </label>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li>
+          Answer the questions
+          <ul>
+            <li>
+              a. Tired shoppers in some cities can even buy groceries by phone.
+              What are groceries?
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Answer"
+                name="ans1page33"
+                [(ngModel)]="libro.ans1Page33"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </li>
+            <li>
+              b. Plastic is terrible for the environment. What is the
+              environment?
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Answer"
+                name="ans2page33"
+                [(ngModel)]="libro.ans2Page33"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </li>
+            <li>
+              c. Cloth bags are reusable. What can people do with reusable cloth
+              bags?
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Answer"
+                name="ans3page33"
+                [(ngModel)]="libro.ans3Page33"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </li>
+            <li>
+              d. Cloth bags are washable. What can you do with washable cloth
+              bags?
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Answer"
+                name="ans4page33"
+                [(ngModel)]="libro.ans4Page33"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </li>
+            <li>
+              e. People are changing to different products What are products?
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Answer"
+                name="ans5page33"
+                [(ngModel)]="libro.ans5Page33"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </li>
+            <li>
+              f. Cloth diapers are not bad for the environment. Who wears
+              diapers?
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Answer"
+                name="ans6page33"
+                [(ngModel)]="libro.ans6Page33"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+  </div>
 </div>
