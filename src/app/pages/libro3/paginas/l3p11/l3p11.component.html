@@ -1,124 +1,234 @@
 <div>
-    <div class="row">
-        <div class="col-md-6 center">
-            <h3><span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span> GRAMMAR FLASH</h3>
-            <div class="table-responsive">
-                <table class="table table-striped table-bordered ">
-                    <thead>
-                        <tr>
-                            <th>Personal Pronoun </th>
-                            <th>Objective Pronoun</th>
-                            <th>example</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>I</td>
-                            <td>Me</td>
-                            <td rowspan="2">I see Maria</td>
-                        </tr>
-                        <tr>
-                            <td>You</td>
-                            <td>You</td>
-
-                        </tr>
-                        <tr>
-                            <td>She</td>
-                            <td>Her</td>
-                            <td rowspan="2">I see (her)</td>
-
-                        </tr>
-                        <tr>
-                            <td>He</td>
-                            <td>Him</td>
-
-                        </tr>
-                        <tr>
-                            <td>It</td>
-                            <td>It</td>
-                            <td rowspan="2">I see Mario</td>
-                        </tr>
-                        <tr>
-                            <td>We</td>
-                            <td>Us</td>
-                        </tr>
-                        <tr>
-                            <td>They</td>
-                            <td>Them</td>
-                            <td>I see (Him)</td>
-                        </tr>
-
-                    </tbody>
-                </table>
-
-            </div>
-            <div class="d-flex justify-content-center mt-2">
-                <div class="card text-white bg-success w-50  ">
-                    <h3 class="card-header"><i class="fas fa-chevron-circle-down"></i> MOVE ON</h3>
-                    <div class="card-body">
-                        <h6>HOW OFTEN DO / DOES</h6>
-                        <p>Question for frequency</p>
-                    </div>
-
-                </div>
-            </div>
+  <div class="row">
+    <div class="col-md-6 center">
+      <h3>
+        <audio id="a1p11l3" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F31.mp3?alt=media&token=0b732273-d164-4a51-87b6-689b31eba929"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a1p11l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        GRAMMAR FLASH
+      </h3>
+      <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+          <thead>
+            <tr>
+              <th>Personal Pronoun</th>
+              <th>Objective Pronoun</th>
+              <th>example</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>I</td>
+              <td>Me</td>
+              <td rowspan="2">I see Maria</td>
+            </tr>
+            <tr>
+              <td>You</td>
+              <td>You</td>
+            </tr>
+            <tr>
+              <td>She</td>
+              <td>Her</td>
+              <td rowspan="2">I see (her)</td>
+            </tr>
+            <tr>
+              <td>He</td>
+              <td>Him</td>
+            </tr>
+            <tr>
+              <td>It</td>
+              <td>It</td>
+              <td rowspan="2">I see Mario</td>
+            </tr>
+            <tr>
+              <td>We</td>
+              <td>Us</td>
+            </tr>
+            <tr>
+              <td>They</td>
+              <td>Them</td>
+              <td>I see (Him)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="d-flex justify-content-center mt-2">
+        <div class="card text-white bg-success w-50">
+          <h3 class="card-header">
+            <i class="fas fa-chevron-circle-down"></i> MOVE ON
+          </h3>
+          <div class="card-body">
+            <h6>HOW OFTEN DO / DOES</h6>
+            <p>Question for frequency</p>
+          </div>
         </div>
-        <div class="col-md-6 table-responsive">
-            <h5><span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span> DRILLS</h5>
-            <table class="table table-striped table-inverse">
-                <thead class="thead-inverse">
-                    <tr>
-                        <th>Teacher:</th>
-                        <th>Students:</th>
-
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-
-                        <td>I like Gloria ...</td>
-                        <td>I like her.</td>
-                    </tr>
-                    <tr>
-                        <td>I like my car ...</td>
-                        <td>I like it.</td>
-                    </tr>
-                    <tr>
-                        <td>I like my father...</td>
-                        <td><input type="text" class="form-control" placeholder="Answer" name="ans1page12" [(ngModel)]="libro.ans1Page12" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                    <tr>
-                        <td>I visit my friends everyday ...</td>
-                        <td><input type="text" class="form-control" placeholder="Answer" name="ans2page12" [(ngModel)]="libro.ans2Page12" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                    <tr>
-                        <td>She calls her husband everyday...</td>
-                        <td><input type="text" class="form-control" placeholder="Answer" name="ans3page12" [(ngModel)]="libro.ans3Page12" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                    <tr>
-                        <td>He call his mother everyday...</td>
-                        <td><input type="text" class="form-control" placeholder="Answer" name="ans4page12" [(ngModel)]="libro.ans4Page12" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                    <tr>
-                        <td>We call our parents everyday...</td>
-                        <td><input type="text" class="form-control" placeholder="Answer" name="ans5page12" [(ngModel)]="libro.ans5Page12" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                    <tr>
-                        <td>She calls me and my mother everyday...</td>
-                        <td><input type="text" class="form-control" placeholder="Answer" name="ans6page12" [(ngModel)]="libro.ans6Page12" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                    <tr>
-                        <td>I wash the windows...</td>
-                        <td><input type="text" class="form-control" placeholder="Answer" name="ans7page12" [(ngModel)]="libro.ans7Page12" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                    <tr>
-                        <td>I wash my dog ...</td>
-                        <td><input type="text" class="form-control" placeholder="Answer" name="ans8page12" [(ngModel)]="libro.ans8Page12" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-
-                </tbody>
-            </table>
-        </div>
-
+      </div>
     </div>
+    <div class="col-md-6 table-responsive">
+      <h5>
+        <div class="text-center">
+          <audio id="a2p11l3" class="" controls controlslist="nodownload">
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F32.mp3?alt=media&token=78ea8dd5-5e0b-47f8-ab47-5fa147e273d4"
+            />
+          </audio>
+        </div>
+        <button
+          (click)="reproducirAudio('a2p11l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        DRILLS
+      </h5>
+      <table class="table table-striped table-inverse">
+        <thead class="thead-inverse">
+          <tr>
+            <th>Teacher:</th>
+            <th>Students:</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>I like Gloria ...</td>
+            <td>I like her.</td>
+          </tr>
+          <tr>
+            <td>I like my car ...</td>
+            <td>I like it.</td>
+          </tr>
+          <tr>
+            <td>I like my father...</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Answer"
+                name="ans1page12"
+                [(ngModel)]="libro.ans1Page12"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>I visit my friends everyday ...</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Answer"
+                name="ans2page12"
+                [(ngModel)]="libro.ans2Page12"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>She calls her husband everyday...</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Answer"
+                name="ans3page12"
+                [(ngModel)]="libro.ans3Page12"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>He call his mother everyday...</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Answer"
+                name="ans4page12"
+                [(ngModel)]="libro.ans4Page12"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>We call our parents everyday...</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Answer"
+                name="ans5page12"
+                [(ngModel)]="libro.ans5Page12"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>She calls me and my mother everyday...</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Answer"
+                name="ans6page12"
+                [(ngModel)]="libro.ans6Page12"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>I wash the windows...</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Answer"
+                name="ans7page12"
+                [(ngModel)]="libro.ans7Page12"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>I wash my dog ...</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Answer"
+                name="ans8page12"
+                [(ngModel)]="libro.ans8Page12"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </div>

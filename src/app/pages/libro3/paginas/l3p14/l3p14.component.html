@@ -1,48 +1,300 @@
 <div>
-    <div class="row">
-        <div class="col-md-6">
-            <h3 class="center"><span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span> READING CHECK-UP</h3>
-            <h5>WHAT´S THE WORD?</h5>
-            <p class="justify">Greta is a famous actress. <input type="text" class="input form-control" size=70 style="width : 70px; height : 30px" name="ans1page15" [(ngModel)]="libro.ans1Page15" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="form-control input">                1 lives in Hollywood. <input type="text" class="input form-control" size=70 style="width : 70px; height : 30px" name="ans2page15" [(ngModel)]="libro.ans2Page15" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="form-control input">2
-                movies are very popular.When <input type="text" class="input form-control" size=70 style="width : 70px; height : 30px" name="ans3page15" [(ngModel)]="libro.ans3Page15" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="form-control input">3
-                walks down the street, people always say "hello" to <input type="text" class="input form-control" size=70 style="width : 70px; height : 30px" name="ans4page15" [(ngModel)]="libro.ans4Page15" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"
-                    id="" class="form-control input">4 an tell <input type="text" class="input form-control" size=70 style="width : 70px; height : 30px" name="ans5page15" [(ngModel)]="libro.ans5Page15" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"
-                    id="" class="form-control input">5 how much they like <input type="text" class="input form-control" size=70 style="width : 70px; height : 30px" name="ans6page15" [(ngModel)]="libro.ans6Page15" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"
-                    id="" class="form-control input">6 movies. Dan is always busy <input type="text" class="input form-control" size=70 style="width : 70px; height: 230x;" class="form-control input" name="ans7page15" [(ngModel)]="libro.ans7Page15" (keyup.enter)="guardarInfo()"
-                    (blur)="guardarInfo()" id="">7 works in <input type="text" class="input form-control" size=70 style="width : 70px; height : 30px" name="ans8page15" [(ngModel)]="libro.ans8Page15" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""
-                    class="form-control input">8 laboratory every day. Dan´s friends rarely see <input type="text" class="input form-control" size=70 style="width : 70px; height : 30px" class="form-control input" name="ans9page15" [(ngModel)]="libro.ans9Page15"
-                    (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">9. When they see <input type="text" class="input form-control" size=70 style="width : 70px; height : 30px" name="ans10page15" [(ngModel)]="libro.ans10Page15" (keyup.enter)="guardarInfo()"
-                    (blur)="guardarInfo()" id="" class="form-control input">10, <input type="text" class="input form-control" size=70 style="width : 70px; height : 30px" name="ans11page15" [(ngModel)]="libro.ans11Page15" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"
-                    id="" class="form-control input">11 usually talks about <input type="text" class="input form-control" size=70 style="width : 70px; height : 30px" name="ans12page15" [(ngModel)]="libro.ans12Page15" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"
-                    class="form-control input" id="">12 experiments. Everybody likes <input type="text" class="input form-control" size=70 style="width : 70px; height : 30px" name="ans13page15" [(ngModel)]="libro.ans13Page15" (keyup.enter)="guardarInfo()"
-                    (blur)="guardarInfo()" id="" class="form-control input">13 very much. <input type="text" class="input form-control" size=70 style="width : 70px; height : 30px" class="form-control input" name="ans14page15" [(ngModel)]="libro.ans14Page15"
-                    (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">14 is a very nice person. Bob and Carol are television news reporters. <input type="text" class="input form-control" size=70 style="width : 70px; height : 30px" name="ans15page15"
-                    [(ngModel)]="libro.ans15Page15" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="form-control input">15 friend´s don´t see <input type="text" class="input form-control" size=70 style="width : 70px; height : 30px" class="form-control input"
-                    name="ans16page15" [(ngModel)]="libro.ans16Page15" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">16 very: en Because <input type="text" class="input form-control" size=70 style="width : 70px; height : 30px" name="ans17page15"
-                    [(ngModel)]="libro.ans17Page15" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="form-control input">17 travels around the world all the time . presidents and prime nester often call <input type="text" class="input form-control"
-                    size=70 style="width : 70px; height : 30px" class="form-control input" name="ans18page15" [(ngModel)]="libro.ans18Page15" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">18 on the telephone.
-                <input type="text" class="input form-control" size=70 style="width : 70px; height : 30px" name="ans19page15" [(ngModel)]="libro.ans19Page15" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="form-control input">19 like
-                <input type="text" class="input form-control" size=70 style="width : 70px; height : 30px" name="ans20page15" [(ngModel)]="libro.ans20Page15" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="form-control input">20 work
-                very much.</p>
-        </div>
-        <div class="col-md-6">
-            <h5 class="center">MY CLOSE FRIENDS</h5>
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F43.png?alt=media&token=6018850c-de88-49a9-9352-ec7aff5b5eeb" class="img-fluid my-2 rounded" alt="img">
-                </div>
-                <div class="col-md-6">
-                    <ul>
-                        <strong>Tell about your close friends</strong>
-                        <li>What are their names?</li>
-                        <li>Where do they live?</li>
-                        <li>What do they do?</li>
-                        <li>When do you get together with them?</li>
-                        <li>What do you talk about?</li>
-                    </ul>
-                </div>
-            </div>
-            <textarea name="ans21page15" [(ngModel)]="libro.ans21Page15" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" class="form-control" id="" cols="30" rows="5"></textarea>
-        </div>
+  <div class="row">
+    <div class="col-md-6">
+      <h3 class="center">
+        <button
+          (click)="reproducirAudio('a1p14l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        READING CHECK-UP<br />
+        <audio id="a1p14l3" class="" controls controlslist="nodownload">
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F46.mp3?alt=media&token=ae1f1768-b5b1-465b-afcb-9d6af984a9ff"
+          />
+        </audio>
+      </h3>
+
+      <h5>WHAT´S THE WORD?</h5>
+      <p class="justify">
+        Greta is a famous actress.
+        <input
+          type="text"
+          class="input form-control"
+          size="70"
+          style="width: 70px; height: 30px"
+          name="ans1page15"
+          [(ngModel)]="libro.ans1Page15"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+          class="form-control input"
+        />
+        1 lives in Hollywood.
+        <input
+          type="text"
+          class="input form-control"
+          size="70"
+          style="width: 70px; height: 30px"
+          name="ans2page15"
+          [(ngModel)]="libro.ans2Page15"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+          class="form-control input"
+        />2 movies are very popular.When
+        <input
+          type="text"
+          class="input form-control"
+          size="70"
+          style="width: 70px; height: 30px"
+          name="ans3page15"
+          [(ngModel)]="libro.ans3Page15"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+          class="form-control input"
+        />3 walks down the street, people always say "hello" to
+        <input
+          type="text"
+          class="input form-control"
+          size="70"
+          style="width: 70px; height: 30px"
+          name="ans4page15"
+          [(ngModel)]="libro.ans4Page15"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+          class="form-control input"
+        />4 an tell
+        <input
+          type="text"
+          class="input form-control"
+          size="70"
+          style="width: 70px; height: 30px"
+          name="ans5page15"
+          [(ngModel)]="libro.ans5Page15"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+          class="form-control input"
+        />5 how much they like
+        <input
+          type="text"
+          class="input form-control"
+          size="70"
+          style="width: 70px; height: 30px"
+          name="ans6page15"
+          [(ngModel)]="libro.ans6Page15"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+          class="form-control input"
+        />6 movies. Dan is always busy
+        <input
+          type="text"
+          class="input form-control"
+          size="70"
+          style="width: 70px; height: 230x"
+          class="form-control input"
+          name="ans7page15"
+          [(ngModel)]="libro.ans7Page15"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />7 works in
+        <input
+          type="text"
+          class="input form-control"
+          size="70"
+          style="width: 70px; height: 30px"
+          name="ans8page15"
+          [(ngModel)]="libro.ans8Page15"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+          class="form-control input"
+        />8 laboratory every day. Dan´s friends rarely see
+        <input
+          type="text"
+          class="input form-control"
+          size="70"
+          style="width: 70px; height: 30px"
+          class="form-control input"
+          name="ans9page15"
+          [(ngModel)]="libro.ans9Page15"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />9. When they see
+        <input
+          type="text"
+          class="input form-control"
+          size="70"
+          style="width: 70px; height: 30px"
+          name="ans10page15"
+          [(ngModel)]="libro.ans10Page15"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+          class="form-control input"
+        />10,
+        <input
+          type="text"
+          class="input form-control"
+          size="70"
+          style="width: 70px; height: 30px"
+          name="ans11page15"
+          [(ngModel)]="libro.ans11Page15"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+          class="form-control input"
+        />11 usually talks about
+        <input
+          type="text"
+          class="input form-control"
+          size="70"
+          style="width: 70px; height: 30px"
+          name="ans12page15"
+          [(ngModel)]="libro.ans12Page15"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          class="form-control input"
+          id=""
+        />12 experiments. Everybody likes
+        <input
+          type="text"
+          class="input form-control"
+          size="70"
+          style="width: 70px; height: 30px"
+          name="ans13page15"
+          [(ngModel)]="libro.ans13Page15"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+          class="form-control input"
+        />13 very much.
+        <input
+          type="text"
+          class="input form-control"
+          size="70"
+          style="width: 70px; height: 30px"
+          class="form-control input"
+          name="ans14page15"
+          [(ngModel)]="libro.ans14Page15"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />14 is a very nice person. Bob and Carol are television news reporters.
+        <input
+          type="text"
+          class="input form-control"
+          size="70"
+          style="width: 70px; height: 30px"
+          name="ans15page15"
+          [(ngModel)]="libro.ans15Page15"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+          class="form-control input"
+        />15 friend´s don´t see
+        <input
+          type="text"
+          class="input form-control"
+          size="70"
+          style="width: 70px; height: 30px"
+          class="form-control input"
+          name="ans16page15"
+          [(ngModel)]="libro.ans16Page15"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />16 very: en Because
+        <input
+          type="text"
+          class="input form-control"
+          size="70"
+          style="width: 70px; height: 30px"
+          name="ans17page15"
+          [(ngModel)]="libro.ans17Page15"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+          class="form-control input"
+        />17 travels around the world all the time . presidents and prime nester
+        often call
+        <input
+          type="text"
+          class="input form-control"
+          size="70"
+          style="width: 70px; height: 30px"
+          class="form-control input"
+          name="ans18page15"
+          [(ngModel)]="libro.ans18Page15"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />18 on the telephone.
+        <input
+          type="text"
+          class="input form-control"
+          size="70"
+          style="width: 70px; height: 30px"
+          name="ans19page15"
+          [(ngModel)]="libro.ans19Page15"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+          class="form-control input"
+        />19 like
+        <input
+          type="text"
+          class="input form-control"
+          size="70"
+          style="width: 70px; height: 30px"
+          name="ans20page15"
+          [(ngModel)]="libro.ans20Page15"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+          class="form-control input"
+        />20 work very much.
+      </p>
     </div>
+    <div class="col-md-6">
+      <h5 class="center">MY CLOSE FRIENDS</h5>
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F43.png?alt=media&token=6018850c-de88-49a9-9352-ec7aff5b5eeb"
+            class="img-fluid my-2 rounded"
+            alt="img"
+          />
+        </div>
+        <div class="col-md-6">
+          <ul>
+            <strong>Tell about your close friends</strong>
+            <li>What are their names?</li>
+            <li>Where do they live?</li>
+            <li>What do they do?</li>
+            <li>When do you get together with them?</li>
+            <li>What do you talk about?</li>
+          </ul>
+        </div>
+      </div>
+      <textarea
+        name="ans21page15"
+        [(ngModel)]="libro.ans21Page15"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        class="form-control"
+        id=""
+        cols="30"
+        rows="5"
+      ></textarea>
+    </div>
+  </div>
 </div>

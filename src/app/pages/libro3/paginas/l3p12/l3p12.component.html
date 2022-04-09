@@ -1,52 +1,266 @@
 <div>
-    <div class="row">
-        <div class="col-md-3 col-12 center">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F33.jpg?alt=media&token=14aa8c32-f10c-4590-b44f-a49770cec1c1" class="img-fluid m-2 rounded" alt="">
-            <strong><span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span> 1. </strong>
-            <span> <strong>A.</strong> How often do you visit your mother?
-            </span> <span><strong>B.</strong> <input type="text" class="form-control" placeholder="Answer" name="ans1page13" [(ngModel)]="libro.ans1Page13" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></span>
-        </div>
-        <div class="col-md-3 col-12 center">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F31.jpg?alt=media&token=88306569-9c24-48b5-9853-a4b67fef137a" class="img-fluid m-2 rounded" alt="">
-            <strong><span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span> 2. </strong>
-            <span> <strong>A.</strong> How often does she paint the house?
-            </span> <span><strong>B.</strong> <input type="text" class="form-control" placeholder="Answer" name="ans2page13" [(ngModel)]="libro.ans2Page13" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></span>
-        </div>
-        <div class="col-md-3 col-12 center">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F37.jpg?alt=media&token=f56baa54-b67a-40b2-afec-169b558a7b3d" class="img-fluid m-2 rounded" alt="">
-            <strong><span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span> 3. </strong>
-            <span> <strong>A.</strong> How often do they say hello to you?
-            </span> <span><strong>B.</strong> <input type="text" class="form-control" placeholder="Answer" name="ans3page13" [(ngModel)]="libro.ans3Page13" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></span>
-        </div>
-        <div class="col-md-3 col-12 center">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F35.jpg?alt=media&token=35477c1f-83ef-4c34-accf-d75d334c0cc0" class="img-fluid m-2 rounded" alt="">
-            <strong><span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span> 4. </strong>
-            <span> <strong>A.</strong> How often do you think about me?
-            </span> <span><strong>B.</strong> <input type="text" class="form-control" placeholder="Answer" name="ans4page13" [(ngModel)]="libro.ans4Page13" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></span>
-        </div>
-        <div class="col-md-3 col-12 center">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F38.jpg?alt=media&token=fe433e2d-7576-4893-a06f-e93dd68cd749" class="img-fluid m-2 rounded" alt="">
-            <strong><span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span> 5. </strong>
-            <span> <strong>A.</strong> how often does your father cut his hair?
-            </span> <span><strong>B.</strong> <input type="text" class="form-control" placeholder="Answer" name="ans5page13" [(ngModel)]="libro.ans5Page13" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></span>
-        </div>
-        <div class="col-md-3 col-12 center">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F39.jpg?alt=media&token=32e7a226-476e-4210-92ff-7903aab2349c" class="img-fluid m-2 rounded" alt="">
-            <strong><span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span> 6. </strong>
-            <span> <strong>A.</strong> How often does your brother do his exercises?
-            </span> <span><strong>B.</strong> <input type="text" class="form-control" placeholder="Answer" name="ans6page13" [(ngModel)]="libro.ans6Page13" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></span>
-        </div>
-        <div class="col-md-3 col-12 center">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F34.jpg?alt=media&token=a0ef33b3-7c80-4ea7-8e9c-868510dbb4c9" class="img-fluid m-2 rounded" alt="">
-            <strong><span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span> 7. </strong>
-            <span> <strong>A.</strong> How often do your parentes buy groceries?
-            </span> <span><strong>B.</strong> <input type="text" class="form-control" placeholder="Answer" name="ans7page13" [(ngModel)]="libro.ans7Page13" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></span>
-        </div>
-        <div class="col-md-3 col-12 center">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F36.jpg?alt=media&token=3987fd09-b8a0-47ed-bcea-5881ccc4b75d" class="img-fluid m-2 rounded" alt="">
-            <strong><span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span> 8. </strong>
-            <span> <strong>A.</strong> How often does she write to her mother?
-            </span> <span><strong>B.</strong> <input type="text" class="form-control" placeholder="Answer" name="ans8page13" [(ngModel)]="libro.ans8Page13" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></span>
-        </div>
+  <div class="row">
+    <div class="col-md-3 col-12 center">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F33.jpg?alt=media&token=14aa8c32-f10c-4590-b44f-a49770cec1c1"
+        class="img-fluid m-2 rounded"
+        alt=""
+      />
+      <audio id="a1p12l3" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F33.mp3?alt=media&token=80df8ea2-a32d-4fda-87b2-b32c2d4be188"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a1p12l3')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i></button
+      ><strong> 1. </strong>
+      <span> <strong>A.</strong> How often do you visit your mother? </span>
+      <span
+        ><strong>B.</strong>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Answer"
+          name="ans1page13"
+          [(ngModel)]="libro.ans1Page13"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+      /></span>
     </div>
+    <div class="col-md-3 col-12 center">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F31.jpg?alt=media&token=88306569-9c24-48b5-9853-a4b67fef137a"
+        class="img-fluid m-2 rounded"
+        alt=""
+      />
+      <audio id="a2p12l3" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F34.mp3?alt=media&token=fd61e838-4cbb-4d08-966e-542db4ffcba2"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a2p12l3')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i></button
+      ><strong> 2. </strong>
+      <span> <strong>A.</strong> How often does she paint the house? </span>
+      <span
+        ><strong>B.</strong>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Answer"
+          name="ans2page13"
+          [(ngModel)]="libro.ans2Page13"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+      /></span>
+    </div>
+    <div class="col-md-3 col-12 center">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F37.jpg?alt=media&token=f56baa54-b67a-40b2-afec-169b558a7b3d"
+        class="img-fluid m-2 rounded"
+        alt=""
+      />
+      <audio id="a3p12l3" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F35.mp3?alt=media&token=fcf8e048-e202-4973-b603-a5304b12e6d8"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a3p12l3')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i></button
+      ><strong> 3. </strong>
+      <span> <strong>A.</strong> How often do they say hello to you? </span>
+      <span
+        ><strong>B.</strong>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Answer"
+          name="ans3page13"
+          [(ngModel)]="libro.ans3Page13"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+      /></span>
+    </div>
+    <div class="col-md-3 col-12 center">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F35.jpg?alt=media&token=35477c1f-83ef-4c34-accf-d75d334c0cc0"
+        class="img-fluid m-2 rounded"
+        alt=""
+      />
+      <audio id="a4p12l3" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F37.mp3?alt=media&token=5b50c2af-9386-4b20-9577-167181bfe8c1"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a4p12l3')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i></button
+      ><strong> 4. </strong>
+      <span> <strong>A.</strong> How often do you think about me? </span>
+      <span
+        ><strong>B.</strong>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Answer"
+          name="ans4page13"
+          [(ngModel)]="libro.ans4Page13"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+      /></span>
+    </div>
+    <div class="col-md-3 col-12 center">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F38.jpg?alt=media&token=fe433e2d-7576-4893-a06f-e93dd68cd749"
+        class="img-fluid m-2 rounded"
+        alt=""
+      />
+      <audio id="a5p12l3" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F38.mp3?alt=media&token=fbeeeea1-a472-4ce1-9217-5c93d6f06e00"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a5p12l3')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i></button
+      ><strong> 5. </strong>
+      <span>
+        <strong>A.</strong> how often does your father cut his hair?
+      </span>
+      <span
+        ><strong>B.</strong>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Answer"
+          name="ans5page13"
+          [(ngModel)]="libro.ans5Page13"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+      /></span>
+    </div>
+    <div class="col-md-3 col-12 center">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F39.jpg?alt=media&token=32e7a226-476e-4210-92ff-7903aab2349c"
+        class="img-fluid m-2 rounded"
+        alt=""
+      />
+      <audio id="a6p12l3" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F36.mp3?alt=media&token=b968830f-7121-4f68-af56-c7bf8b343e05"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a6p12l3')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i></button
+      ><strong> 6. </strong>
+      <span>
+        <strong>A.</strong> How often does your brother do his exercises?
+      </span>
+      <span
+        ><strong>B.</strong>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Answer"
+          name="ans6page13"
+          [(ngModel)]="libro.ans6Page13"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+      /></span>
+    </div>
+    <div class="col-md-3 col-12 center">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F34.jpg?alt=media&token=a0ef33b3-7c80-4ea7-8e9c-868510dbb4c9"
+        class="img-fluid m-2 rounded"
+        alt=""
+      />
+      <audio id="a7p12l3" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F39.mp3?alt=media&token=3057c1a3-0a67-45dd-afdd-2833d3e5d663"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a7p12l3')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i></button
+      ><strong> 7. </strong>
+      <span>
+        <strong>A.</strong> How often do your parentes buy groceries?
+      </span>
+      <span
+        ><strong>B.</strong>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Answer"
+          name="ans7page13"
+          [(ngModel)]="libro.ans7Page13"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+      /></span>
+    </div>
+    <div class="col-md-3 col-12 center">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F36.jpg?alt=media&token=3987fd09-b8a0-47ed-bcea-5881ccc4b75d"
+        class="img-fluid m-2 rounded"
+        alt=""
+      />
+      <audio id="a8p12l3" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F40.mp3?alt=media&token=23ba28dd-28a0-4693-9e61-35b36d73f524"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a8p12l3')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i></button
+      ><strong> 8. </strong>
+      <span> <strong>A.</strong> How often does she write to her mother? </span>
+      <span
+        ><strong>B.</strong>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Answer"
+          name="ans8page13"
+          [(ngModel)]="libro.ans8Page13"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+      /></span>
+    </div>
+  </div>
 </div>

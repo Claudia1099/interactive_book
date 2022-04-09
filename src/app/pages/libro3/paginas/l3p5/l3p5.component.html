@@ -1,52 +1,223 @@
 <div>
-    <div class="row">
-        <div class="col-md-3 my-1 center">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F17.jpg?alt=media&token=d4c1a106-4df3-4f93-aa1e-b55b71eca367" class="img-fluid rounded m-1 " alt="img">
-        </div>
-        <div class="col-md-4 my-1">
-            <ul>
-                <span class="badge azul rounded-pill"><i class="fas fa-volume-up"></i></span>
-                <li class="my-1"><strong>A. </strong> Does Stanley cook Greek food on Tuesday?</li>
-                <li class="my-1"><strong>B. </strong> Yes, he does.</li>
-                <li class="my-1"><strong>A. </strong> Ah ok, Can I see the menu, please?</li>
-                <li class="my-1"><strong>B. </strong> Sure, here you are.</li>
-                <strong>Ask six question with "yes" answers</strong>
-            </ul>
-        </div>
-        <div class="col-md-5 my-1">
-            <ol>
-                <li><input type="text" placeholder="Question" class="form-control my-1" name="ans1page6" [(ngModel)]="libro.ans1Page6" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li><input type="text" placeholder="Question" class="form-control my-1" name="ans2page6" [(ngModel)]="libro.ans2Page6" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li><input type="text" placeholder="Question" class="form-control my-1" name="ans3page6" [(ngModel)]="libro.ans3Page6" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li><input type="text" placeholder="Question" class="form-control my-1" name="ans4page6" [(ngModel)]="libro.ans4Page6" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li><input type="text" placeholder="Question" class="form-control my-1" name="ans5page6" [(ngModel)]="libro.ans5Page6" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li><input type="text" placeholder="Question" class="form-control my-1" name="ans6page6" [(ngModel)]="libro.ans6Page6" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-            </ol>
-        </div>
-
-        <div class="col-md-4 my-1">
-            <ul>
-                <span class="badge azul rounded-pill"><i class="fas fa-volume-up"></i></span>
-                <li class="my-1"><strong>A. </strong> Does Stanley cook Japanese food on sunday?</li>
-                <li class="my-1"><strong>B. </strong> No he doesn´t</li>
-                <li class="my-1"><strong>A. </strong> When does he cook Japanese food?</li>
-                <li class="my-1"><strong>B. </strong> He cooks Japanese food on Friday</li>
-                <strong>Ask six Question with "no" answers</strong>
-            </ul>
-        </div>
-        <div class="col-md-5 my-1">
-            <ol>
-                <li><input type="text" placeholder="Question" class="form-control my-1" name="ans7page6" [(ngModel)]="libro.ans7Page6" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li><input type="text" placeholder="Question" class="form-control my-1" name="ans8page6" [(ngModel)]="libro.ans8Page6" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li><input type="text" placeholder="Question" class="form-control my-1" name="ans9page6" [(ngModel)]="libro.ans9Page6" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li><input type="text" placeholder="Question" class="form-control my-1" name="ans10page6" [(ngModel)]="libro.ans10Page6" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li><input type="text" placeholder="Question" class="form-control my-1" name="ans11page6" [(ngModel)]="libro.ans11Page6" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li><input type="text" placeholder="Question" class="form-control my-1" name="ans12page6" [(ngModel)]="libro.ans12Page6" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-            </ol>
-        </div>
-        <div class="col-md-3 my-1 center">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F18.jpg?alt=media&token=ac2c26d5-f257-4f37-bd97-84ee07f7e1ad" class="img-fluid rounded m-1 " alt="img">
-        </div>
-
+  <div class="row">
+    <div class="col-md-3 my-1 center">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F17.jpg?alt=media&token=d4c1a106-4df3-4f93-aa1e-b55b71eca367"
+        class="img-fluid rounded m-1"
+        alt="img"
+      />
     </div>
+    <div class="col-md-4 my-1">
+      <ul>
+        <audio id="a1p5l3" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F19.mp3?alt=media&token=40fc4716-500a-45a5-8b91-49e928eac2da"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a1p5l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        <li class="my-1">
+          <strong>A. </strong> Does Stanley cook Greek food on Tuesday?
+        </li>
+        <li class="my-1"><strong>B. </strong> Yes, he does.</li>
+        <li class="my-1">
+          <strong>A. </strong> Ah ok, Can I see the menu, please?
+        </li>
+        <li class="my-1"><strong>B. </strong> Sure, here you are.</li>
+        <strong>Ask six question with "yes" answers</strong>
+      </ul>
+    </div>
+    <div class="col-md-5 my-1">
+      <ol>
+        <li>
+          <input
+            type="text"
+            placeholder="Question"
+            class="form-control my-1"
+            name="ans1page6"
+            [(ngModel)]="libro.ans1Page6"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          <input
+            type="text"
+            placeholder="Question"
+            class="form-control my-1"
+            name="ans2page6"
+            [(ngModel)]="libro.ans2Page6"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          <input
+            type="text"
+            placeholder="Question"
+            class="form-control my-1"
+            name="ans3page6"
+            [(ngModel)]="libro.ans3Page6"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          <input
+            type="text"
+            placeholder="Question"
+            class="form-control my-1"
+            name="ans4page6"
+            [(ngModel)]="libro.ans4Page6"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          <input
+            type="text"
+            placeholder="Question"
+            class="form-control my-1"
+            name="ans5page6"
+            [(ngModel)]="libro.ans5Page6"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          <input
+            type="text"
+            placeholder="Question"
+            class="form-control my-1"
+            name="ans6page6"
+            [(ngModel)]="libro.ans6Page6"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+      </ol>
+    </div>
+
+    <div class="col-md-4 my-1">
+      <ul>
+        <audio id="a2p5l3" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F20.mp3?alt=media&token=23b97d3f-fd20-4186-b34a-80c6c542d194"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a2p5l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        <li class="my-1">
+          <strong>A. </strong> Does Stanley cook Japanese food on sunday?
+        </li>
+        <li class="my-1"><strong>B. </strong> No he doesn´t</li>
+        <li class="my-1">
+          <strong>A. </strong> When does he cook Japanese food?
+        </li>
+        <li class="my-1">
+          <strong>B. </strong> He cooks Japanese food on Friday
+        </li>
+        <strong>Ask six Question with "no" answers</strong>
+      </ul>
+    </div>
+    <div class="col-md-5 my-1">
+      <ol>
+        <li>
+          <input
+            type="text"
+            placeholder="Question"
+            class="form-control my-1"
+            name="ans7page6"
+            [(ngModel)]="libro.ans7Page6"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          <input
+            type="text"
+            placeholder="Question"
+            class="form-control my-1"
+            name="ans8page6"
+            [(ngModel)]="libro.ans8Page6"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          <input
+            type="text"
+            placeholder="Question"
+            class="form-control my-1"
+            name="ans9page6"
+            [(ngModel)]="libro.ans9Page6"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          <input
+            type="text"
+            placeholder="Question"
+            class="form-control my-1"
+            name="ans10page6"
+            [(ngModel)]="libro.ans10Page6"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          <input
+            type="text"
+            placeholder="Question"
+            class="form-control my-1"
+            name="ans11page6"
+            [(ngModel)]="libro.ans11Page6"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          <input
+            type="text"
+            placeholder="Question"
+            class="form-control my-1"
+            name="ans12page6"
+            [(ngModel)]="libro.ans12Page6"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+      </ol>
+    </div>
+    <div class="col-md-3 my-1 center">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F18.jpg?alt=media&token=ac2c26d5-f257-4f37-bd97-84ee07f7e1ad"
+        class="img-fluid rounded m-1"
+        alt="img"
+      />
+    </div>
+  </div>
 </div>

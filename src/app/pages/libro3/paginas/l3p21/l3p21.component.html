@@ -1,69 +1,245 @@
 <div>
-    <div class="row">
-        <div class="col-md-6">
-            <div class="row">
-                <div class="col-md-4 col-6 text-center card border-info">
-                    <h6 class="text-center">MONDAY</h6>
-                    <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F58.jpg?alt=media&token=eeb117d7-a921-48d2-8e80-afb8f1864fac" class="img-fluid m-2 rounded" alt="img">
-                </div>
-                <div class="col-md-4 col-6 text-center card border-info">
-                    <h6 class="text-center">TUESDAY</h6>
-                    <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F59.jpg?alt=media&token=a45e468d-8090-4041-87ef-1d4b139b98b7" class="img-fluid m-2 rounded" alt="img">
-                </div>
-                <div class="col-md-4 col-6 text-center card border-info">
-                    <h6 class="text-center">WEDNESDAY</h6>
-                    <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F60.jpg?alt=media&token=bc9483f5-06a9-4414-afb1-03de6d35bd0a" class="img-fluid m-2 rounded" alt="img">
-                </div>
-                <div class="col-md-4 col-6 text-center card border-info">
-                    <h6 class="text-center">THURSDAY</h6>
-                    <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F61.jpg?alt=media&token=f6dc1c01-c63a-4ded-b7c9-a5d44986e013" class="img-fluid m-2 rounded" alt="img">
-                </div>
-                <div class="col-md-4 col-6 text-center card border-info">
-                    <h6 class="text-center">FRIDAY</h6>
-                    <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F62.jpg?alt=media&token=f3f586da-10af-40da-9172-cf920b527f97" class="img-fluid m-2 rounded" alt="img">
-                </div>
-                <div class="col-md-4 col-6 text-center card border-info">
-                    <h6 class="text-center">SATURDAY</h6>
-                    <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F63.jpg?alt=media&token=7cfdff89-5c12-4b04-a3f7-cbce8e14e572" class="img-fluid m-2 rounded" alt="img">
-                </div>
-                <div class="col-md-4 col-6 text-center card border-info">
-                    <h6 class="text-center">SUNDAY</h6>
-                    <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F64.jpg?alt=media&token=3d325130-75a7-43b9-974e-5fdb53287432" class="img-fluid m-2 rounded" alt="img">
-                </div>
-            </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-4 col-6 text-center card border-info">
+          <h6 class="text-center">MONDAY</h6>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F58.jpg?alt=media&token=eeb117d7-a921-48d2-8e80-afb8f1864fac"
+            class="img-fluid m-2 rounded"
+            alt="img"
+          />
         </div>
-        <div class="col-md-6">
-
-            <p><span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span> <strong> 1. Based on the following dialogue make the others</strong></p>
-            <div class="text-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F58.jpg?alt=media&token=eeb117d7-a921-48d2-8e80-afb8f1864fac" class="img-fluid m-2 rounded w-50" alt="img">
-            </div>
-            <ul>
-                <li><strong>A. </strong> Do Mr. and Mrs. Baker see a play on Monday?</li>
-                <li><strong>B. </strong> No, they don’t</li>
-                <li><strong>A. </strong> Why not?</li>
-                <li><strong>B. </strong> Because they go to a museum on Monday.</li>
-            </ul>
-
-
-
+        <div class="col-md-4 col-6 text-center card border-info">
+          <h6 class="text-center">TUESDAY</h6>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F59.jpg?alt=media&token=a45e468d-8090-4041-87ef-1d4b139b98b7"
+            class="img-fluid m-2 rounded"
+            alt="img"
+          />
         </div>
-        <div class="col-md-12">
-            <hr class="my-2">
-            <ul>
-                <li>2. Take karate lessons on Wednesday <input type="text" placeholder="Answer" class="my-1 input form-control" name="ans1page22" [(ngModel)]="libro.ans1Page22" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> / <input type="text"
-                        placeholder="Answer" class="my-1 input form-control" name="ans2page22" [(ngModel)]="libro.ans2Page22" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li>3. Go dancing on Saturday <input type="text" placeholder="Answer" class="my-1 input form-control" name="ans3page22" [(ngModel)]="libro.ans3Page22" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> / <input type="text" placeholder="Answer"
-                        class="my-1 input form-control" name="ans4page22" [(ngModel)]="libro.ans4Page22" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li>4. Play cards with their friends on Monday <input type="text" placeholder="Answer" class="my-1 input form-control" name="ans5page22" [(ngModel)]="libro.ans5Page22" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> / <input type="text"
-                        placeholder="Answer" class="my-1 input form-control" name="ans6page22" [(ngModel)]="libro.ans6Page22" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li>5. Go to a concert on Friday <input type="text" placeholder="Answer" class="my-1 input form-control" name="ans7page22" [(ngModel)]="libro.ans7Page22" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> / <input type="text" placeholder="Answer"
-                        class="my-1 input form-control" name="ans8page22" [(ngModel)]="libro.ans8Page22" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li>6. See a movie on Saturday <input type="text" placeholder="Answer" class="my-1 input form-control" name="ans9page22" [(ngModel)]="libro.ans9Page22" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> / <input type="text" placeholder="Answer"
-                        class="my-1 input form-control" name="ans10page22" [(ngModel)]="libro.ans10Page22" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li>7. See a play on Thursday <input type="text" placeholder="Answer" class="my-1 input form-control" name="ans11page22" [(ngModel)]="libro.ans11Page22" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> / <input type="text" placeholder="Answer"
-                        class="my-1 input form-control" name="ans12page22" [(ngModel)]="libro.ans12Page22" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-            </ul>
+        <div class="col-md-4 col-6 text-center card border-info">
+          <h6 class="text-center">WEDNESDAY</h6>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F60.jpg?alt=media&token=bc9483f5-06a9-4414-afb1-03de6d35bd0a"
+            class="img-fluid m-2 rounded"
+            alt="img"
+          />
         </div>
+        <div class="col-md-4 col-6 text-center card border-info">
+          <h6 class="text-center">THURSDAY</h6>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F61.jpg?alt=media&token=f6dc1c01-c63a-4ded-b7c9-a5d44986e013"
+            class="img-fluid m-2 rounded"
+            alt="img"
+          />
+        </div>
+        <div class="col-md-4 col-6 text-center card border-info">
+          <h6 class="text-center">FRIDAY</h6>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F62.jpg?alt=media&token=f3f586da-10af-40da-9172-cf920b527f97"
+            class="img-fluid m-2 rounded"
+            alt="img"
+          />
+        </div>
+        <div class="col-md-4 col-6 text-center card border-info">
+          <h6 class="text-center">SATURDAY</h6>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F63.jpg?alt=media&token=7cfdff89-5c12-4b04-a3f7-cbce8e14e572"
+            class="img-fluid m-2 rounded"
+            alt="img"
+          />
+        </div>
+        <div class="col-md-4 col-6 text-center card border-info">
+          <h6 class="text-center">SUNDAY</h6>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F64.jpg?alt=media&token=3d325130-75a7-43b9-974e-5fdb53287432"
+            class="img-fluid m-2 rounded"
+            alt="img"
+          />
+        </div>
+      </div>
     </div>
+    <div class="col-md-6">
+      <p>
+        <audio id="a1p21l3" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F50.mp3?alt=media&token=0357f70c-7a16-40ae-8b69-080129b08b0a"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a1p21l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        <strong> 1. Based on the following dialogue make the others</strong>
+      </p>
+      <div class="text-center">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F58.jpg?alt=media&token=eeb117d7-a921-48d2-8e80-afb8f1864fac"
+          class="img-fluid m-2 rounded w-50"
+          alt="img"
+        />
+      </div>
+      <ul>
+        <li>
+          <strong>A. </strong> Do Mr. and Mrs. Baker see a play on Monday?
+        </li>
+        <li><strong>B. </strong> No, they don’t</li>
+        <li><strong>A. </strong> Why not?</li>
+        <li><strong>B. </strong> Because they go to a museum on Monday.</li>
+      </ul>
+    </div>
+    <div class="col-md-12">
+      <hr class="my-2" />
+      <ul>
+        <li>
+          2. Take karate lessons on Wednesday
+          <input
+            type="text"
+            placeholder="Answer"
+            class="my-1 input form-control"
+            name="ans1page22"
+            [(ngModel)]="libro.ans1Page22"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          /
+          <input
+            type="text"
+            placeholder="Answer"
+            class="my-1 input form-control"
+            name="ans2page22"
+            [(ngModel)]="libro.ans2Page22"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          3. Go dancing on Saturday
+          <input
+            type="text"
+            placeholder="Answer"
+            class="my-1 input form-control"
+            name="ans3page22"
+            [(ngModel)]="libro.ans3Page22"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          /
+          <input
+            type="text"
+            placeholder="Answer"
+            class="my-1 input form-control"
+            name="ans4page22"
+            [(ngModel)]="libro.ans4Page22"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          4. Play cards with their friends on Monday
+          <input
+            type="text"
+            placeholder="Answer"
+            class="my-1 input form-control"
+            name="ans5page22"
+            [(ngModel)]="libro.ans5Page22"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          /
+          <input
+            type="text"
+            placeholder="Answer"
+            class="my-1 input form-control"
+            name="ans6page22"
+            [(ngModel)]="libro.ans6Page22"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          5. Go to a concert on Friday
+          <input
+            type="text"
+            placeholder="Answer"
+            class="my-1 input form-control"
+            name="ans7page22"
+            [(ngModel)]="libro.ans7Page22"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          /
+          <input
+            type="text"
+            placeholder="Answer"
+            class="my-1 input form-control"
+            name="ans8page22"
+            [(ngModel)]="libro.ans8Page22"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          6. See a movie on Saturday
+          <input
+            type="text"
+            placeholder="Answer"
+            class="my-1 input form-control"
+            name="ans9page22"
+            [(ngModel)]="libro.ans9Page22"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          /
+          <input
+            type="text"
+            placeholder="Answer"
+            class="my-1 input form-control"
+            name="ans10page22"
+            [(ngModel)]="libro.ans10Page22"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          7. See a play on Thursday
+          <input
+            type="text"
+            placeholder="Answer"
+            class="my-1 input form-control"
+            name="ans11page22"
+            [(ngModel)]="libro.ans11Page22"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          /
+          <input
+            type="text"
+            placeholder="Answer"
+            class="my-1 input form-control"
+            name="ans12page22"
+            [(ngModel)]="libro.ans12Page22"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>

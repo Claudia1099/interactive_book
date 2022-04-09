@@ -5,33 +5,49 @@ import { AuthService } from 'src/app/services/auth.service';
 @Component({
   selector: 'app-l3p19',
   templateUrl: './l3p19.component.html',
-  styles: [
-  ]
+  styles: [],
 })
 export class L3p19Component implements OnInit {
+  audio!: HTMLMediaElement;
+  idAudio: string = '';
 
-  constructor(private auth: AuthService) { }
+  constructor(private auth: AuthService) {}
   @Input('libro3')
   libro3!: Observable<any>;
   @Input('email') email!: Promise<string>;
-  libro: any = "";
+  libro: any = '';
 
   ngOnInit(): void {
-      setTimeout(() => {
-        this.libro3.subscribe(resp => {
-          this.libro = resp.payload.data();
-          console.log(this.libro);
-        })
-      }, 3000);
+    setTimeout(() => {
+      this.libro3.subscribe((resp) => {
+        this.libro = resp.payload.data();
+        // console.log(this.libro);
+      });
+    }, 3000);
   }
 
-  guardarInfo(){
-    this.email.then(resp => {
-      this.auth.guardarDatos(resp,'book3',this.libro).then(() => {
-      }).catch(()=> {
-        console.log("error");
-      })
-    })
+  guardarInfo() {
+    this.email.then((resp) => {
+      this.auth
+        .guardarDatos(resp, 'book3', this.libro)
+        .then(() => {})
+        .catch(() => {
+          console.log('error');
+        });
+    });
   }
-
+  reproducirAudio(idAudio: string) {
+    if (this.idAudio.length > 0) {
+      if (this.idAudio === idAudio) {
+        this.audio.pause();
+        this.idAudio = '';
+        return;
+      }
+      this.audio.pause();
+      this.idAudio = '';
+    }
+    this.idAudio = idAudio;
+    this.audio = <HTMLMediaElement>document.getElementById(idAudio);
+    this.audio.play();
+  }
 }

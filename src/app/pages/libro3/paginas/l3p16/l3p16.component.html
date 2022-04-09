@@ -1,73 +1,268 @@
 <div>
-    <div class="row">
-        <div class="col-md-12 rojo my-3">
-            <h4 class="text-white center"> REVIEW No. I </h4>
-        </div>
-        <div class="col-md-6">
-            <h6 class="text-white center verde2"> ACTIVITY 3.1</h6>
-            <p>
-                Answer the question. Use an object pronoun in your answer.
-                <br> <strong>Example: Do you need the textbook? -- R/: Yes, I need it</strong>
-            </p>
-            <ol>
-                <li>Does the bride enter with the groom? <input type="text" class="form-control" placeholder="Answer" name="ans3page17" [(ngModel)]="libro.ans3Page17" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li>Does the groom put the ring on the bride’s right hand? <input type="text" class="form-control" placeholder="Answer" name="ans4page17" [(ngModel)]="libro.ans4Page17" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li>Does the groom kiss the bride at the end of the ceremony? <input type="text" class="form-control" placeholder="Answer" name="ans5page17" [(ngModel)]="libro.ans5Page17" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li>Does the teacher understand you? <input type="text" class="form-control" placeholder="Answer" name="ans6page17" [(ngModel)]="libro.ans6Page17" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li>Does the teacher speak your language? <input type="text" class="form-control" placeholder="Answer" name="ans7page17" [(ngModel)]="libro.ans7Page17" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li>Does the teacher correct your homework? <input type="text" class="form-control" placeholder="Answer" name="ans8page17" [(ngModel)]="libro.ans8Page17" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li>Does the teacher help all of you? <input type="text" class="form-control" placeholder="Answer" name="ans9page17" [(ngModel)]="libro.ans9Page17" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li>Do you bring your book to class? <input type="text" class="form-control" placeholder="Answer" name="ans10page17" [(ngModel)]="libro.ans10Page17" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li>Do you like hamburgers? <input type="text" class="form-control" placeholder="Answer" name="ans11page17" [(ngModel)]="libro.ans11Page17" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-            </ol>
-        </div>
-        <div class="col-md-6">
-            <h6 class="text-white center verde2"> ACTIVITY 3.2</h6>
-            <p>A. Each sentence below is missing an object pronoun. Replace the word BLANK in each sentence with an object pronoun from the box. Write your answers in the pronoun column.</p>
-            <span class="badge bg-primary m-2"> me </span>
-            <span class="badge bg-primary m-2"> you </span>
-            <span class="badge bg-primary m-2"> him </span>
-            <span class="badge bg-primary m-2"> her </span>
-            <span class="badge bg-primary m-2"> it </span>
-            <span class="badge bg-primary m-2"> us </span>
-
-            <div class="table-responsive">
-                <table class="table table-striped  ">
-                    <thead>
-                        <tr>
-                            <th>Question</th>
-                            <th>Pronoun</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1. I really like Katie, but she never notices ________.</td>
-                            <td><input type="text" class="form-control" name="ans0page17" [(ngModel)]="libro.ans0Page17" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                        </tr>
-                        <tr>
-                            <td>2. My brother lives in Mexico. I don't see ________ very often.</td>
-                            <td><input type="text" class="form-control" name="ans1page17" [(ngModel)]="libro.ans1Page17" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                        </tr>
-                        <tr>
-                            <td>3. This worksheet is hard. I'm not sure I can do ________.</td>
-                            <td><input type="text" class="form-control" name="ans2page17" [(ngModel)]="libro.ans2Page17" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                        </tr>
-                        <tr>
-                            <td>4. How are your parents? I haven't seen ________ for ages.</td>
-                            <td><input type="text" class="form-control" name="ans1page18" [(ngModel)]="libro.ans1Page18" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                        </tr>
-                        <tr>
-                            <td>5. Lisa really likes David, but he doesn't like ________.</td>
-                            <td><input type="text" class="form-control" name="ans2page18" [(ngModel)]="libro.ans2Page18" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                        </tr>
-                        <tr>
-                            <td>6. This dress looks a bit small. Do you think it will fit ________?</td>
-                            <td><input type="text" class="form-control" name="ans3page18" [(ngModel)]="libro.ans3Page18" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-        </div>
+  <div class="row">
+    <div class="col-md-12 rojo my-3">
+      <h4 class="text-white center">REVIEW No. I</h4>
     </div>
+    <div class="col-md-6">
+      <h6 class="text-white text-center verde2">ACTIVITY 3.1</h6>
+      <audio id="a1p16l3" class="" controls controlslist="nodownload">
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F47.mp3?alt=media&token=a5a99e87-cb58-49f1-b393-630fb8a188a8"
+        />
+      </audio>
+
+      <p>
+        <button
+          (click)="reproducirAudio('a1p16l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        Answer the question. Use an object pronoun in your answer. <br />
+        <strong
+          >Example: Do you need the textbook? -- R/: Yes, I need it</strong
+        >
+      </p>
+      <ol>
+        <li>
+          Does the bride enter with the groom?
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Answer"
+            name="ans3page17"
+            [(ngModel)]="libro.ans3Page17"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          Does the groom put the ring on the bride’s right hand?
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Answer"
+            name="ans4page17"
+            [(ngModel)]="libro.ans4Page17"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          Does the groom kiss the bride at the end of the ceremony?
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Answer"
+            name="ans5page17"
+            [(ngModel)]="libro.ans5Page17"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          Does the teacher understand you?
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Answer"
+            name="ans6page17"
+            [(ngModel)]="libro.ans6Page17"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          Does the teacher speak your language?
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Answer"
+            name="ans7page17"
+            [(ngModel)]="libro.ans7Page17"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          Does the teacher correct your homework?
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Answer"
+            name="ans8page17"
+            [(ngModel)]="libro.ans8Page17"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          Does the teacher help all of you?
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Answer"
+            name="ans9page17"
+            [(ngModel)]="libro.ans9Page17"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          Do you bring your book to class?
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Answer"
+            name="ans10page17"
+            [(ngModel)]="libro.ans10Page17"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          Do you like hamburgers?
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Answer"
+            name="ans11page17"
+            [(ngModel)]="libro.ans11Page17"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+      </ol>
+    </div>
+    <div class="col-md-6">
+      <h6 class="text-white center verde2">ACTIVITY 3.2</h6>
+      <p>
+        A. Each sentence below is missing an object pronoun. Replace the word
+        BLANK in each sentence with an object pronoun from the box. Write your
+        answers in the pronoun column.
+      </p>
+      <span class="badge bg-primary m-2"> me </span>
+      <span class="badge bg-primary m-2"> you </span>
+      <span class="badge bg-primary m-2"> him </span>
+      <span class="badge bg-primary m-2"> her </span>
+      <span class="badge bg-primary m-2"> it </span>
+      <span class="badge bg-primary m-2"> us </span>
+
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Question</th>
+              <th>Pronoun</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1. I really like Katie, but she never notices ________.</td>
+              <td>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="ans0page17"
+                  [(ngModel)]="libro.ans0Page17"
+                  (keyup.enter)="guardarInfo()"
+                  (blur)="guardarInfo()"
+                  id=""
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                2. My brother lives in Mexico. I don't see ________ very often.
+              </td>
+              <td>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="ans1page17"
+                  [(ngModel)]="libro.ans1Page17"
+                  (keyup.enter)="guardarInfo()"
+                  (blur)="guardarInfo()"
+                  id=""
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                3. This worksheet is hard. I'm not sure I can do ________.
+              </td>
+              <td>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="ans2page17"
+                  [(ngModel)]="libro.ans2Page17"
+                  (keyup.enter)="guardarInfo()"
+                  (blur)="guardarInfo()"
+                  id=""
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                4. How are your parents? I haven't seen ________ for ages.
+              </td>
+              <td>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="ans1page18"
+                  [(ngModel)]="libro.ans1Page18"
+                  (keyup.enter)="guardarInfo()"
+                  (blur)="guardarInfo()"
+                  id=""
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>5. Lisa really likes David, but he doesn't like ________.</td>
+              <td>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="ans2page18"
+                  [(ngModel)]="libro.ans2Page18"
+                  (keyup.enter)="guardarInfo()"
+                  (blur)="guardarInfo()"
+                  id=""
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                6. This dress looks a bit small. Do you think it will fit
+                ________?
+              </td>
+              <td>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="ans3page18"
+                  [(ngModel)]="libro.ans3Page18"
+                  (keyup.enter)="guardarInfo()"
+                  (blur)="guardarInfo()"
+                  id=""
+                />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
 </div>
