@@ -1,107 +1,524 @@
 <div>
-    <div class="row justify-content-center">
-        <div class="col-md-12 ">
-            <h3 class="center my-2">WHAT ARE THEY SAYING?</h3>
-            <div class="text-center">
-                <span class="badge bg-info m-1"> What's </span>
-                <span class="badge bg-info m-1"> is </span>
-                <span class="badge bg-info m-1"> my </span>
-                <span class="badge bg-info m-1"> from </span>
-                <span class="badge bg-info m-1"> phone number </span>
-                <span class="badge bg-info m-1"> where </span>
-                <span class="badge bg-info m-1"> are </span>
-                <span class="badge bg-info m-1"> your </span>
-                <span class="badge bg-info m-1"> i'm </span>
-                <span class="badge bg-info m-1"> address </span>
-            </div>
-            <hr>
-        </div>
-        <div class="col-md-7 card border-info m-2">
-
-            <div class="row">
-                <div class="col-md-12 col-12 my-1 d-flex justify-content-start">
-                    <span class="chat chat1"><input type="text" size=100 style="width : 100px; height : 30px" class="m-1 form-control input"  name="ans1page4" [(ngModel)]="libro.ans1Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"  id=""> your name? </span>
-                </div>
-                <div class="col-md-12 col-12 my-1 d-flex justify-content-end">
-                    <span class="chat chat2">My <input type="text" size=100 style="width : 100px; height : 30px" class="m-1 form-control input" name="ans2page4" [(ngModel)]="libro.ans2Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"  id=""> is Janet Miller.</span>
-
-                </div>
-                <div class="col-md-12 col-12 my-1 d-flex justify-content-start ">
-                    <span class="chat chat1">What's your <input type="text" size=100 style="width : 100px; height : 30px" class="m-1 form-control input" name="ans3page4" [(ngModel)]="libro.ans3Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"  id=""> ?</span>
-
-                </div>
-                <div class="col-md-12 col-12 my-1 d-flex justify-content-end">
-                    <span class="chat chat2"><input type="text" size=60 style="width : 60px; height : 30px" class="m-1 form-control input" name="ans4page4" [(ngModel)]="libro.ans4Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"  id=""> address <input type="text" size=60 style="width : 60px; height : 30px" class="m-1 form-control input" name="ans5page4" [(ngModel)]="libro.ans5Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"  id=""> 456 Main Street.</span>
-
-                </div>
-                <div class="col-md-12 col-12 my-1 d-flex justify-content-start">
-                    <span class="chat chat1">What's <input type="text" size=60 style="width : 60px; height : 30px" class="m-1 form-control input" name="ans6page4" [(ngModel)]="libro.ans6Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"  id=""> phone number?</span>
-
-                </div>
-                <div class="col-md-12 col-12 my-1 d-flex justify-content-end">
-                    <span class="chat chat2">My <input type="text" size=100 style="width : 100px; height : 30px" class="m-1 form-control input" name="ans7page4" [(ngModel)]="libro.ans7Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"  id=""> <input type="text" size=100 style="width : 100px; height : 30px" class="m-1 form-control input" name="ans8page4" [(ngModel)]="libro.ans8Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"  id=""> is 654-3960.</span>
-
-                </div>
-            </div>
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F8.jpg?alt=media&token=6507131e-d635-4dd3-a6f2-cb1e4149e354" class="img-fluid rounded" alt="img">
-        </div>
-        <div class="col-md-4  m-2 d-flex align-items-center">
-
-            <div class="card border-info p-2">
-                <div class="row">
-                    <div class="col-md-12 col-12 my-1 d-flex justify-content-start">
-                        <span class="chat chat1"> What's <input type="text" size=60 style="width : 60px; height : 30px" class="m-1 form-control input" name="ans9page4" [(ngModel)]="libro.ans9Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"  id=""> name? </span>
-                    </div>
-                    <div class="col-md-12 col-12 my-1 d-flex justify-content-end">
-                        <span class="chat chat2">My <input type="text" size=100 style="width : 100px; height : 30px" class="m-1 form-control input" name="ans11page4" [(ngModel)]="libro.ans11Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"  id=""> is Ken Green.</span>
-
-                    </div>
-
-                </div>
-                <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F9.jpg?alt=media&token=8ed36b3b-05fb-4b89-ab46-c6844f0aa93b" class="img-fluid rounded" alt="img">
-            </div>
-        </div>
-        <div class="col-md-4 card border-info ">
-
-            <div class="row">
-                <div class="col-md-12 col-12 my-1 d-flex justify-content-start">
-                    <span class="chat chat1"> <input type="text" size=100 style="width : 100px; height : 30px" class="m-1 form-control input" name="ans10page4" [(ngModel)]="libro.ans10Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"  id=""> your address? </span>
-                </div>
-                <div class="col-md-12 col-12 my-1 d-flex justify-content-end">
-                    <span class="chat chat2">My <input type="text" size=130 style="width : 130px; height : 30px" class="m-1 form-control input" name="ans12page4" [(ngModel)]="libro.ans12Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"  id=""> is 15 park Street.</span>
-
-                </div>
-
-            </div>
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F10.jpg?alt=media&token=b4f631bd-8f7c-4a1f-bc44-1b3e1da7c1d9" class="img-fluid rounded" alt="img">
-        </div>
-        <div class="col-md-4 card border-info ">
-
-            <div class="row">
-                <div class="col-md-12 col-12 my-1 d-flex justify-content-start">
-                    <span class="chat chat1"> What's your <input type="text" size=100 style="width : 100px; height : 30px"  class="m-1 form-control input" name="ans13page4" [(ngModel)]="libro.ans13Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"  id=""> number? </span>
-                </div>
-                <div class="col-md-12 col-12 my-1 d-flex justify-content-end">
-                    <span class="chat chat2"> <input type="text" size=60 style="width : 60px; height : 30px"  class="m-1 form-control input" name="ans16page4" [(ngModel)]="libro.ans16Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"  id=""> phone <input type="text" size=100 style="width : 100px; height : 30px" class="m-1 form-control input" name="ans17page4" [(ngModel)]="libro.ans17Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"  id=""> is 379-1029.</span>
-
-                </div>
-
-            </div>
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F11.jpg?alt=media&token=6924370a-2f0a-4f71-ba67-7f115623ab6e" class="img-fluid rounded" alt="img">
-        </div>
-        <div class="col-md-4 card border-info ">
-
-            <div class="row">
-                <div class="col-md-12 col-12 my-1 d-flex justify-content-start">
-                    <span class="chat chat1"> <input type="text" size=100 style="width : 100px; height : 30px" class="m-1 form-control input" name="ans14page4" [(ngModel)]="libro.ans14Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"  id=""> you from? </span>
-                </div>
-                <div class="col-md-12 col-12 my-1 d-flex justify-content-end">
-                    <span class="chat chat2"><input type="text" size=60 style="width : 60px; height : 30px" class="m-1 form-control input" name="ans18page4" [(ngModel)]="libro.ans18Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"  id=""> <input type="text" size=60 style="width : 60px; height : 30px" class="m-1 form-control input" name="ans19page4" [(ngModel)]="libro.ans19Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"  id=""> Detroit.</span>
-
-                </div>
-
-            </div>
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F12.jpg?alt=media&token=d7e80c26-a6bb-4297-b882-f311173e6070" class="img-fluid rounded" alt="img">
-        </div>
+  <div class="row justify-content-center">
+    <div class="col-md-12">
+      <h3 class="center my-2">WHAT ARE THEY SAYING?</h3>
+      <div class="text-center">
+        <span class="badge bg-info m-1"> What's </span>
+        <span class="badge bg-info m-1"> is </span>
+        <span class="badge bg-info m-1"> my </span>
+        <span class="badge bg-info m-1"> from </span>
+        <span class="badge bg-info m-1"> phone number </span>
+        <span class="badge bg-info m-1"> where </span>
+        <span class="badge bg-info m-1"> are </span>
+        <span class="badge bg-info m-1"> your </span>
+        <span class="badge bg-info m-1"> i'm </span>
+        <span class="badge bg-info m-1"> address </span>
+      </div>
+      <hr />
     </div>
+    <div class="col-md-7 card border-info m-2">
+      <div class="row">
+        <div class="col-md-12 col-12 my-1 d-flex justify-content-start">
+          <span class="chat chat1"
+            ><!-- audio l1 71-->
+            <audio id="a1p4l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F71.mp3?alt=media&token=ccf608fa-67e5-440d-81f7-c8434355f8db"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a1p4l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i></button
+            ><input
+              type="text"
+              size="100"
+              style="width: 100px; height: 30px"
+              class="m-1 form-control input"
+              name="ans1page4"
+              [(ngModel)]="libro.ans1Page4"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+            your name?
+          </span>
+        </div>
+        <div class="col-md-12 col-12 my-1 d-flex justify-content-end">
+          <span class="chat chat2"
+            ><!-- audio l1 72-->
+            <audio id="a2p4l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F72.mp3?alt=media&token=05f444ca-7c59-458f-aa1f-69896670aff4"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a2p4l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+            My
+            <input
+              type="text"
+              size="100"
+              style="width: 100px; height: 30px"
+              class="m-1 form-control input"
+              name="ans2page4"
+              [(ngModel)]="libro.ans2Page4"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+            is Janet Miller.</span
+          >
+        </div>
+        <div class="col-md-12 col-12 my-1 d-flex justify-content-start">
+          <span class="chat chat1"
+            ><!-- audio l1 73-->
+            <audio id="a3p4l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F73.mp3?alt=media&token=4cc4f5ee-e221-41bb-a68f-d14a68a468fe"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a3p4l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i></button
+            >What's your
+            <input
+              type="text"
+              size="100"
+              style="width: 100px; height: 30px"
+              class="m-1 form-control input"
+              name="ans3page4"
+              [(ngModel)]="libro.ans3Page4"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+            ?</span
+          >
+        </div>
+        <div class="col-md-12 col-12 my-1 d-flex justify-content-end">
+          <span class="chat chat2"
+            ><!-- audio l1 74-->
+            <audio id="a4p4l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F74.mp3?alt=media&token=8d56221b-7c00-49c6-aa45-9fd9c740786d"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a4p4l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+            <input
+              type="text"
+              size="60"
+              style="width: 60px; height: 30px"
+              class="m-1 form-control input"
+              name="ans4page4"
+              [(ngModel)]="libro.ans4Page4"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+            address
+            <input
+              type="text"
+              size="60"
+              style="width: 60px; height: 30px"
+              class="m-1 form-control input"
+              name="ans5page4"
+              [(ngModel)]="libro.ans5Page4"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+            456 Main Street.</span
+          >
+        </div>
+        <div class="col-md-12 col-12 my-1 d-flex justify-content-start">
+          <span class="chat chat1"
+            ><!-- audio l1 75-->
+            <audio id="a5p4l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F75.mp3?alt=media&token=df5ad927-32ed-4a71-8fb6-773a2b01c6c4"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a5p4l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i></button
+            >What's
+            <input
+              type="text"
+              size="60"
+              style="width: 60px; height: 30px"
+              class="m-1 form-control input"
+              name="ans6page4"
+              [(ngModel)]="libro.ans6Page4"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+            phone number?</span
+          >
+        </div>
+        <div class="col-md-12 col-12 my-1 d-flex justify-content-end">
+          <span class="chat chat2"
+            ><!-- audio l1 76-->
+            <audio id="a6p4l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F76.mp3?alt=media&token=7d2f6cc5-4de3-4f2d-ab57-058354ec1940"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a6p4l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+            My
+            <input
+              type="text"
+              size="100"
+              style="width: 100px; height: 30px"
+              class="m-1 form-control input"
+              name="ans7page4"
+              [(ngModel)]="libro.ans7Page4"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+            <input
+              type="text"
+              size="100"
+              style="width: 100px; height: 30px"
+              class="m-1 form-control input"
+              name="ans8page4"
+              [(ngModel)]="libro.ans8Page4"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+            is 654-3960.</span
+          >
+        </div>
+      </div>
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F8.jpg?alt=media&token=6507131e-d635-4dd3-a6f2-cb1e4149e354"
+        class="img-fluid rounded"
+        alt="img"
+      />
+    </div>
+    <div class="col-md-4 m-2 d-flex align-items-center">
+      <div class="card border-info p-2">
+        <div class="row">
+          <div class="col-md-12 col-12 my-1 d-flex justify-content-start">
+            <span class="chat chat1"
+              ><!-- audio l1 77-->
+              <audio id="a7p4l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F77.mp3?alt=media&token=0d942a7a-46b0-4b8c-9f8c-2cf0d54719d6"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a7p4l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              What's
+              <input
+                type="text"
+                size="60"
+                style="width: 60px; height: 30px"
+                class="m-1 form-control input"
+                name="ans9page4"
+                [(ngModel)]="libro.ans9Page4"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+              name?
+            </span>
+          </div>
+          <div class="col-md-12 col-12 my-1 d-flex justify-content-end">
+            <span class="chat chat2"
+              ><!-- audio l1 78-->
+              <audio id="a8p4l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F78.mp3?alt=media&token=3e41a6b6-c23c-433c-baec-9925fbe84203"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a8p4l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              My
+              <input
+                type="text"
+                size="100"
+                style="width: 100px; height: 30px"
+                class="m-1 form-control input"
+                name="ans11page4"
+                [(ngModel)]="libro.ans11Page4"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+              is Ken Green.</span
+            >
+          </div>
+        </div>
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F9.jpg?alt=media&token=8ed36b3b-05fb-4b89-ab46-c6844f0aa93b"
+          class="img-fluid rounded"
+          alt="img"
+        />
+      </div>
+    </div>
+    <div class="col-md-4 card border-info">
+      <div class="row">
+        <div class="col-md-12 col-12 my-1 d-flex justify-content-start">
+          <span class="chat chat1"
+            ><!-- audio l1 79-->
+            <audio id="a9p4l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F79.mp3?alt=media&token=aad60469-e67c-4739-95fb-89ee69303392"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a9p4l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+            <input
+              type="text"
+              size="100"
+              style="width: 100px; height: 30px"
+              class="m-1 form-control input"
+              name="ans10page4"
+              [(ngModel)]="libro.ans10Page4"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+            your address?
+          </span>
+        </div>
+        <div class="col-md-12 col-12 my-1 d-flex justify-content-end">
+          <span class="chat chat2"
+            ><!-- audio l1 80-->
+            <audio id="a10p4l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F80.mp3?alt=media&token=18b6defb-5bc1-4527-80b5-6c9337b3f0df"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a10p4l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+            My
+            <input
+              type="text"
+              size="130"
+              style="width: 130px; height: 30px"
+              class="m-1 form-control input"
+              name="ans12page4"
+              [(ngModel)]="libro.ans12Page4"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+            is 15 park Street.</span
+          >
+        </div>
+      </div>
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F10.jpg?alt=media&token=b4f631bd-8f7c-4a1f-bc44-1b3e1da7c1d9"
+        class="img-fluid rounded"
+        alt="img"
+      />
+    </div>
+    <div class="col-md-4 card border-info">
+      <div class="row">
+        <div class="col-md-12 col-12 my-1 d-flex justify-content-start">
+          <span class="chat chat1"
+            ><!-- audio l1 81-->
+            <audio id="a11p4l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F81.mp3?alt=media&token=8585e1d1-cbd8-47ba-937d-59c9c3e133a2"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a11p4l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+            What's your
+            <input
+              type="text"
+              size="100"
+              style="width: 100px; height: 30px"
+              class="m-1 form-control input"
+              name="ans13page4"
+              [(ngModel)]="libro.ans13Page4"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+            number?
+          </span>
+        </div>
+        <div class="col-md-12 col-12 my-1 d-flex justify-content-end">
+          <span class="chat chat2"
+            ><!-- audio l1 82-->
+            <audio id="a12p4l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F82.mp3?alt=media&token=69768a22-467f-4175-9e97-d9d0764f2c31"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a12p4l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+            <input
+              type="text"
+              size="60"
+              style="width: 60px; height: 30px"
+              class="m-1 form-control input"
+              name="ans16page4"
+              [(ngModel)]="libro.ans16Page4"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+            phone
+            <input
+              type="text"
+              size="100"
+              style="width: 100px; height: 30px"
+              class="m-1 form-control input"
+              name="ans17page4"
+              [(ngModel)]="libro.ans17Page4"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+            is 379-1029.</span
+          >
+        </div>
+      </div>
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F11.jpg?alt=media&token=6924370a-2f0a-4f71-ba67-7f115623ab6e"
+        class="img-fluid rounded"
+        alt="img"
+      />
+    </div>
+    <div class="col-md-4 card border-info">
+      <div class="row">
+        <div class="col-md-12 col-12 my-1 d-flex justify-content-start">
+          <span class="chat chat1"
+            ><!-- audio l1 83-->
+            <audio id="a13p4l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F83.mp3?alt=media&token=457c0c8b-3795-4491-9989-dfa3d9479466"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a13p4l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+            <input
+              type="text"
+              size="100"
+              style="width: 100px; height: 30px"
+              class="m-1 form-control input"
+              name="ans14page4"
+              [(ngModel)]="libro.ans14Page4"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+            you from?
+          </span>
+        </div>
+        <div class="col-md-12 col-12 my-1 d-flex justify-content-end">
+          <span class="chat chat2"
+            ><!-- audio l1 84-->
+            <audio id="a14p4l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F84.mp3?alt=media&token=e7a5f811-a230-46bd-8de4-8fc62965ce83"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a14p4l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+            <input
+              type="text"
+              size="60"
+              style="width: 60px; height: 30px"
+              class="m-1 form-control input"
+              name="ans18page4"
+              [(ngModel)]="libro.ans18Page4"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+            <input
+              type="text"
+              size="60"
+              style="width: 60px; height: 30px"
+              class="m-1 form-control input"
+              name="ans19page4"
+              [(ngModel)]="libro.ans19Page4"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+            Detroit.</span
+          >
+        </div>
+      </div>
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F12.jpg?alt=media&token=d7e80c26-a6bb-4297-b882-f311173e6070"
+        class="img-fluid rounded"
+        alt="img"
+      />
+    </div>
+  </div>
 </div>

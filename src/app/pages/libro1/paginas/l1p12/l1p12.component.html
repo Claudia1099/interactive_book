@@ -1,39 +1,623 @@
 <div>
-    <div class="row">
-        <div class="col-md-12">
-            <h3 class="center my-3"> EXERCISES</h3>
-        </div>
-        <div class="col-md-3 col-12">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F26.png?alt=media&token=d24d12de-07c0-45f3-ac40-6d71f7d29f04" class="img-fluid m-1 rounded" alt="img"> <strong>A.</strong> <input class="my-1 form-control input"
-                type="text" name="ans1Page12" [(ngModel)]="libro.ans1Page12" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">? <br> <strong>B.</strong> Yes, <input size=60 style="width : 60px; height : 30px" class="my-1 form-control input" type="text"
-                name="ans2Page12" [(ngModel)]="libro.ans2Page12" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""><br> <strong>A.</strong>
-            <input class="my-1 form-control input" type="text" name="ans3Page12" [(ngModel)]="libro.ans3Page12" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">?
-            <br> <strong>B.</strong> No, <input size=100 style="width : 100px; height : 30px" class="my-1 form-control input" type="text" name="ans4Page12" [(ngModel)]="libro.ans4Page12" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""><br>            <strong>A.</strong> <input class="my-1 form-control input" type="text" name="ans5Page12" [(ngModel)]="libro.ans5Page12" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> <br> <strong>B.</strong> <input class="my-1 form-control input"
-                type="text" name="ans6Page12" [(ngModel)]="libro.ans6Page12" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-        </div>
-        <div class="col-md-3 col-12">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F34.jpg?alt=media&token=cd38fc0e-7eec-4af2-a030-073a4d9e7f66" class="img-fluid m-1 rounded" alt="img"> <strong>A.</strong> <input class="my-1 form-control input"
-                type="text" name="ans7Page12" [(ngModel)]="libro.ans7Page12" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">? <br> <strong>B.</strong> Yes, <input size=120 style="width : 120px; height : 30px" class="my-1 form-control input" type="text"
-                name="ans8Page12" [(ngModel)]="libro.ans8Page12" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""><br> <strong>A.</strong>
-            <input class="my-1 form-control input" type="text" name="ans9Page12" [(ngModel)]="libro.ans9Page12" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">?
-            <br> <strong>B.</strong> No, <input size=120 style="width : 120px; height : 30px" class="my-1 form-control input" type="text" name="ans10Page12" [(ngModel)]="libro.ans10Page12" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""><br>            <strong>A.</strong> <input class="my-1 form-control input" type="text" name="ans11Page12" [(ngModel)]="libro.ans11Page12" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> <br> <strong>B.</strong> <input class="my-1 form-control input"
-                type="text" name="ans12Page12" [(ngModel)]="libro.ans12Page12" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-        </div>
-        <div class="col-md-3 col-12">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F35.PNG?alt=media&token=c26d9ed3-b2ac-4205-bdb1-afb7d3043d22" class="img-fluid m-1 rounded" alt="img"> <strong>A.</strong> excuse me, I lost
-            my umbrella. <br> <strong>B.</strong> What’s your name? <br> <strong>A.</strong> My name is Fabian
-            <br> <strong>B.</strong> what Is your phone number? <br> <strong>A.</strong> 313 630 47 62 <br> <strong>B.</strong> Is this your umbrella?<br> <strong>A.</strong> Oh! Yes, it is. Thank you. <br> <strong>B.</strong> You’re welcome. <br> <strong></strong>
-        </div>
-        <div class="col-md-3 col-12">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F36.PNG?alt=media&token=f03ac41e-e53d-4bf2-9228-9f1e244de7d1" class="img-fluid m-1 rounded" alt="img"> <strong>A.</strong> <input class="my-1 form-control input"
-                type="text" name="ans13Page12" [(ngModel)]="libro.ans13Page12" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> <br> <strong>B.</strong> <input class="my-1 form-control input" type="text" name="ans14Page12" [(ngModel)]="libro.ans14Page12"
-                (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> <br> <strong>A.</strong> <input class="my-1 form-control input" type="text" name="ans15Page12" [(ngModel)]="libro.ans15Page12" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()"
-                id="">
-            <br> <strong>B.</strong><input class="my-1 form-control input" type="text" name="ans16Page12" [(ngModel)]="libro.ans16Page12" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> <br> <strong>A.</strong> <input class="my-1 form-control input"
-                type="text" name="ans17Page12" [(ngModel)]="libro.ans17Page12" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> <br> <strong>B.</strong> <input class="my-1 form-control input" type="text" name="ans18Page12" [(ngModel)]="libro.ans18Page12"
-                (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""><br> <strong>A.</strong>
-            <input class="my-1 form-control input" type="text" name="ans19Page12" [(ngModel)]="libro.ans19Page12" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> <br> <strong>B.</strong> <input class="my-1 form-control input" type="text" name="ans20Page12"
-                [(ngModel)]="libro.ans20Page12" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> <br> <strong></strong>
-        </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h3 class="center my-3">EXERCISES</h3>
     </div>
+    <div class="col-md-3 col-12">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F26.png?alt=media&token=d24d12de-07c0-45f3-ac40-6d71f7d29f04"
+        class="img-fluid m-1 rounded"
+        alt="img"
+      />
+      <!-- audio l1 183-->
+      <audio id="a1p12l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F183.mp3?alt=media&token=b0328156-73bc-4f35-8782-5a82c06bcd4a"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a1p12l1')"
+        class="btn rounded-pill btn-sm audio"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>A.</strong>
+      <input
+        class="my-1 form-control input"
+        type="text"
+        name="ans1Page12"
+        [(ngModel)]="libro.ans1Page12"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />? <br />
+      <!-- audio l1 184-->
+      <audio id="a2p12l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F184.mp3?alt=media&token=aac51940-26b0-4c92-a6e8-732c953557f0"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a2p12l1')"
+        class="btn rounded-pill btn-sm audio"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>B.</strong> Yes,
+      <input
+        size="60"
+        style="width: 60px; height: 30px"
+        class="my-1 form-control input"
+        type="text"
+        name="ans2Page12"
+        [(ngModel)]="libro.ans2Page12"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      /><br />
+      <!-- audio l1 185-->
+      <audio id="a3p12l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F185.mp3?alt=media&token=ff866b52-d8b7-49b6-8c2b-75112c0950f5"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a3p12l1')"
+        class="btn rounded-pill btn-sm audio"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>A.</strong>
+      <input
+        class="my-1 form-control input"
+        type="text"
+        name="ans3Page12"
+        [(ngModel)]="libro.ans3Page12"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />? <br />
+      <!-- audio l1 186-->
+      <audio id="a4p12l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F186.mp3?alt=media&token=1659fc61-3536-43d0-a27b-d6539755a9ce"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a4p12l1')"
+        class="btn rounded-pill btn-sm audio"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>B.</strong> No,
+      <input
+        size="100"
+        style="width: 100px; height: 30px"
+        class="my-1 form-control input"
+        type="text"
+        name="ans4Page12"
+        [(ngModel)]="libro.ans4Page12"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      /><br />
+      <!-- audio l1 187-->
+      <audio id="a5p12l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F187.mp3?alt=media&token=eacac969-5266-4afb-8780-3ed0d33a8742"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a5p12l1')"
+        class="btn rounded-pill btn-sm audio"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>A.</strong>
+      <input
+        class="my-1 form-control input"
+        type="text"
+        name="ans5Page12"
+        [(ngModel)]="libro.ans5Page12"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <br />
+      <!-- audio l1 188-->
+      <audio id="a6p12l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F188.mp3?alt=media&token=e3b1e5fc-bec6-49fd-8af3-df64c2ab1d0f"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a6p12l1')"
+        class="btn rounded-pill btn-sm audio"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>B.</strong>
+      <input
+        class="my-1 form-control input"
+        type="text"
+        name="ans6Page12"
+        [(ngModel)]="libro.ans6Page12"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+    </div>
+    <div class="col-md-3 col-12">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F34.jpg?alt=media&token=cd38fc0e-7eec-4af2-a030-073a4d9e7f66"
+        class="img-fluid m-1 rounded"
+        alt="img"
+      />
+      <!-- audio l1 189-->
+      <audio id="a7p12l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F189.mp3?alt=media&token=abefbea2-3e83-4c6d-ae97-e69557d21d54"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a7p12l1')"
+        class="btn rounded-pill btn-sm audio"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>A.</strong>
+      <input
+        class="my-1 form-control input"
+        type="text"
+        name="ans7Page12"
+        [(ngModel)]="libro.ans7Page12"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />? <br />
+      <!-- audio l1 190-->
+      <audio id="a8p12l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F190.mp3?alt=media&token=919e4328-590a-42a6-88e7-5dc5e67c4e45"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a8p12l1')"
+        class="btn rounded-pill btn-sm audio"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>B.</strong> Yes,
+      <input
+        size="120"
+        style="width: 120px; height: 30px"
+        class="my-1 form-control input"
+        type="text"
+        name="ans8Page12"
+        [(ngModel)]="libro.ans8Page12"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      /><br />
+      <!-- audio l1 191-->
+      <audio id="a9p12l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F191.mp3?alt=media&token=c9538470-2cf9-45fc-ae9d-036979e9f41f"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a9p12l1')"
+        class="btn rounded-pill btn-sm audio"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>A.</strong>
+      <input
+        class="my-1 form-control input"
+        type="text"
+        name="ans9Page12"
+        [(ngModel)]="libro.ans9Page12"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />? <br />
+      <!-- audio l1 192-->
+      <audio id="a10p12l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F192.mp3?alt=media&token=8ca542d5-e157-4379-ac4a-67018e4597af"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a10p12l1')"
+        class="btn rounded-pill btn-sm audio"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>B.</strong> No,
+      <input
+        size="120"
+        style="width: 120px; height: 30px"
+        class="my-1 form-control input"
+        type="text"
+        name="ans10Page12"
+        [(ngModel)]="libro.ans10Page12"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      /><br />
+      <!-- audio l1 193-->
+      <audio id="a11p12l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F193.mp3?alt=media&token=69490f08-ecb1-494b-883c-4954b19287b0"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a11p12l1')"
+        class="btn rounded-pill btn-sm audio"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>A.</strong>
+      <input
+        class="my-1 form-control input"
+        type="text"
+        name="ans11Page12"
+        [(ngModel)]="libro.ans11Page12"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <br />
+      <!-- audio l1 194-->
+      <audio id="a12p12l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F194.mp3?alt=media&token=05a63319-04a8-472e-a53d-48308e437ecc"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a12p12l1')"
+        class="btn rounded-pill btn-sm audio"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>B.</strong>
+      <input
+        class="my-1 form-control input"
+        type="text"
+        name="ans12Page12"
+        [(ngModel)]="libro.ans12Page12"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+    </div>
+    <div class="col-md-3 col-12">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F35.PNG?alt=media&token=c26d9ed3-b2ac-4205-bdb1-afb7d3043d22"
+        class="img-fluid m-1 rounded"
+        alt="img"
+      />
+      <!-- audio l1 195-->
+      <audio id="a13p12l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F195.mp3?alt=media&token=6ca0e3da-db32-47af-88ba-582f88ac7ab8"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a13p12l1')"
+        class="btn rounded-pill btn-sm audio"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>A.</strong> excuse me, I lost my umbrella. <br />
+      <!-- audio l1 196-->
+      <audio id="a14p12l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F196.mp3?alt=media&token=4aced35e-9951-4585-af45-d9bc2abdda0b"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a14p12l1')"
+        class="btn rounded-pill btn-sm audio"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>B.</strong> What’s your name? <br />
+      <!-- audio l1 197-->
+      <audio id="a15p12l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F197.mp3?alt=media&token=89d0b5cd-38a1-4f9b-8a08-42193840e01e"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a15p12l1')"
+        class="btn rounded-pill btn-sm audio"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>A.</strong> My name is Fabian <br />
+      <!-- audio l1 198-->
+      <audio id="a16p12l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F198.mp3?alt=media&token=13c640af-428d-421b-a464-be5dc1ebe3b5"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a16p12l1')"
+        class="btn rounded-pill btn-sm audio"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>B.</strong> what Is your phone number? <br />
+      <!-- audio l1 199-->
+      <audio id="a17p12l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F199.mp3?alt=media&token=0dba1280-e045-4cc3-91ed-a2b492334d46"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a17p12l1')"
+        class="btn rounded-pill btn-sm audio"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>A.</strong> 313 630 47 62 <br />
+      <!-- audio l1 200-->
+      <audio id="a18p12l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F200.mp3?alt=media&token=d63241d9-ff07-4436-931f-9303d41295c8"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a18p12l1')"
+        class="btn rounded-pill btn-sm audio"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>B.</strong> Is this your umbrella?<br />
+      <!-- audio l1 201-->
+      <audio id="a19p12l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F201.mp3?alt=media&token=deac7f51-2ec3-487a-a639-6ebaa380c35f"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a19p12l1')"
+        class="btn rounded-pill btn-sm audio"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>A.</strong> Oh! Yes, it is. Thank you. <br />
+      <!-- audio l1 202-->
+      <audio id="a20p12l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F202.mp3?alt=media&token=e2f4a0fa-87b3-4991-8681-7f997dd026e3"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a20p12l1')"
+        class="btn rounded-pill btn-sm audio"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>B.</strong> You’re welcome. <br />
+    </div>
+    <div class="col-md-3 col-12">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F36.PNG?alt=media&token=f03ac41e-e53d-4bf2-9228-9f1e244de7d1"
+        class="img-fluid m-1 rounded"
+        alt="img"
+      />
+      <!-- audio l1 203-->
+      <audio id="a22p12l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F203.mp3?alt=media&token=db2bef63-092a-481e-bdc8-b0206f73566a"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a22p12l1')"
+        class="btn rounded-pill btn-sm audio"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>A.</strong>
+      <input
+        class="my-1 form-control input"
+        type="text"
+        name="ans13Page12"
+        [(ngModel)]="libro.ans13Page12"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <br />
+      <!-- audio l1 204-->
+      <audio id="a23p12l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F204.mp3?alt=media&token=96654896-0cb4-45f5-8c24-9bdba78c8a1a"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a23p12l1')"
+        class="btn rounded-pill btn-sm audio"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>B.</strong>
+      <input
+        class="my-1 form-control input"
+        type="text"
+        name="ans14Page12"
+        [(ngModel)]="libro.ans14Page12"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <br />
+      <!-- audio l1 205-->
+      <audio id="a24p12l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F205.mp3?alt=media&token=b0b11d27-29ca-4d81-b1e3-c1ad8dd5fe5a"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a24p12l1')"
+        class="btn rounded-pill btn-sm audio"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>A.</strong>
+      <input
+        class="my-1 form-control input"
+        type="text"
+        name="ans15Page12"
+        [(ngModel)]="libro.ans15Page12"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <br />
+      <!-- audio l1 206-->
+      <audio id="a25p12l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F206.mp3?alt=media&token=a996373f-42a2-4e1e-ae17-22a16a967ca0"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a25p12l1')"
+        class="btn rounded-pill btn-sm audio"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>B.</strong
+      ><input
+        class="my-1 form-control input"
+        type="text"
+        name="ans16Page12"
+        [(ngModel)]="libro.ans16Page12"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <br />
+      <!-- audio l1 207-->
+      <audio id="a26p12l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F207.mp3?alt=media&token=ae28f552-308f-4077-9446-0864663bc2d4"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a26p12l1')"
+        class="btn rounded-pill btn-sm audio"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>A.</strong>
+      <input
+        class="my-1 form-control input"
+        type="text"
+        name="ans17Page12"
+        [(ngModel)]="libro.ans17Page12"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <br />
+      <!-- audio l1 208-->
+      <audio id="a27p12l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F208.mp3?alt=media&token=7fc9cbcf-43eb-4a49-b75e-35e7f6b74e74"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a27p12l1')"
+        class="btn rounded-pill btn-sm audio"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>B.</strong>
+      <input
+        class="my-1 form-control input"
+        type="text"
+        name="ans18Page12"
+        [(ngModel)]="libro.ans18Page12"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      /><br />
+      <!-- audio l1 209-->
+      <audio id="a28p12l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F209.mp3?alt=media&token=e3ea0103-03f6-4f14-932f-fb801521b51b"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a28p12l1')"
+        class="btn rounded-pill btn-sm audio"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>A.</strong>
+      <input
+        class="my-1 form-control input"
+        type="text"
+        name="ans19Page12"
+        [(ngModel)]="libro.ans19Page12"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <br />
+      <!-- audio l1 210-->
+      <audio id="a29p12l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F210.mp3?alt=media&token=0e80427c-99e9-42c7-b275-2a8342223943"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a29p12l1')"
+        class="btn rounded-pill btn-sm audio"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>B.</strong>
+      <input
+        class="my-1 form-control input"
+        type="text"
+        name="ans20Page12"
+        [(ngModel)]="libro.ans20Page12"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+    </div>
+  </div>
 </div>

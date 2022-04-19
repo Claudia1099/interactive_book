@@ -1,40 +1,192 @@
 <div>
-    <div class="row">
-        <div class="col-md-12 mb-3">
-            <h1><span class="badge bg-warning my-2">Class 4</span></h1>
-            <h3 class="text-center"><span class="badge azul rounded-pill"><i class="fas fa-volume-up"></i></span> PREPOSITIONS OF PLACES </h3>
-        </div>
-        <div class="col-md-3 text-center">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2Fp1.png?alt=media&token=36721e7d-befa-4eb4-becb-718294e23980" class="img-fluid m-1" alt="img">
-            <h6 class="center">1. AT</h6>
-        </div>
-        <div class="col-md-3 text-center">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2Fp2.png?alt=media&token=7f6398c6-1cf0-4a0f-98c2-0c6ea4701c66" class="img-fluid m-1" alt="img">
-            <h6 class="center">2. ON</h6>
-        </div>
-        <div class="col-md-3 text-center">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2Fp3.png?alt=media&token=213ae0e7-2e79-4230-8477-159ae8eb36de" class="img-fluid m-1" alt="img">
-            <h6 class="center">3. IN</h6>
-        </div>
-        <div class="col-md-3 text-center">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2Fp4.png?alt=media&token=3cfe5445-9361-49a4-8375-8e953cb3a008" class="img-fluid m-1" alt="img">
-            <h6 class="center">4. UNDER</h6>
-        </div>
-        <div class="col-md-3 text-center">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2Fp5.png?alt=media&token=f9723fed-6976-4d22-ba81-5ebf6dc98c2e" class="img-fluid m-1" alt="img">
-            <h6 class="center">5. OVER</h6>
-        </div>
-        <div class="col-md-3 text-center">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2Fp6.png?alt=media&token=081e615b-3c4b-4697-9a91-d28a1497c6b8" class="img-fluid m-1" alt="img">
-            <h6 class="center">6. IN FRONT OF</h6>
-        </div>
-        <div class="col-md-3 text-center">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2Fp7.png?alt=media&token=0344a12e-1720-4e4d-a06a-69d6614b9516" class="img-fluid m-1" alt="img">
-            <h6 class="center">7. BEHIND</h6>
-        </div>
-        <div class="col-md-3 text-center">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2Fp8.png?alt=media&token=fe57c1f3-a7cb-4c08-817c-86147330438c" class="img-fluid m-1" alt="img">
-            <h6 class="center">8. NEXT TO</h6>
-        </div>
+  <div class="row">
+    <div class="col-md-12 mb-3">
+      <h1><span class="badge bg-warning my-2">Class 4</span></h1>
+      <h3 class="text-center">PREPOSITIONS OF PLACES</h3>
     </div>
+    <div class="col-md-3 text-center">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2Fp1.png?alt=media&token=36721e7d-befa-4eb4-becb-718294e23980"
+        class="img-fluid m-1"
+        alt="img"
+      />
+      <h6 class="center">
+        <!-- audio l1 211-->
+        <audio id="a1p13l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F211.mp3?alt=media&token=a2201600-0a48-4e9f-b489-b70f80e8b413"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a1p13l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        1. AT
+      </h6>
+    </div>
+    <div class="col-md-3 text-center">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2Fp2.png?alt=media&token=7f6398c6-1cf0-4a0f-98c2-0c6ea4701c66"
+        class="img-fluid m-1"
+        alt="img"
+      />
+      <h6 class="center">
+        <!-- audio l1 212-->
+        <audio id="a2p13l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F212.mp3?alt=media&token=d0beb798-180b-4366-9b67-57928b937938"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a2p13l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        2. ON
+      </h6>
+    </div>
+    <div class="col-md-3 text-center">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2Fp3.png?alt=media&token=213ae0e7-2e79-4230-8477-159ae8eb36de"
+        class="img-fluid m-1"
+        alt="img"
+      />
+      <h6 class="center">
+        <!-- audio l1 213-->
+        <audio id="a3p13l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F213.mp3?alt=media&token=5b659090-8d08-49fc-be45-0742a2f4c28c"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a3p13l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        3. IN
+      </h6>
+    </div>
+    <div class="col-md-3 text-center">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2Fp4.png?alt=media&token=3cfe5445-9361-49a4-8375-8e953cb3a008"
+        class="img-fluid m-1"
+        alt="img"
+      />
+      <h6 class="center">
+        <!-- audio l1 214-->
+        <audio id="a4p13l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F214.mp3?alt=media&token=c4aba99c-6047-4693-a5a5-b42119f6cfb7"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a4p13l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        4. UNDER
+      </h6>
+    </div>
+    <div class="col-md-3 text-center">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2Fp5.png?alt=media&token=f9723fed-6976-4d22-ba81-5ebf6dc98c2e"
+        class="img-fluid m-1"
+        alt="img"
+      />
+      <h6 class="center">
+        <!-- audio l1 215-->
+        <audio id="a5p13l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F215.mp3?alt=media&token=44824719-b558-44f8-a559-6f3d22def8c4"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a5p13l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        5. OVER
+      </h6>
+    </div>
+    <div class="col-md-3 text-center">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2Fp6.png?alt=media&token=081e615b-3c4b-4697-9a91-d28a1497c6b8"
+        class="img-fluid m-1"
+        alt="img"
+      />
+      <h6 class="center">
+        <!-- audio l1 216-->
+        <audio id="a6p13l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F216.mp3?alt=media&token=8bef7b99-ba8d-46d9-ae02-ea15c1192fe8"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a6p13l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        6. IN FRONT OF
+      </h6>
+    </div>
+    <div class="col-md-3 text-center">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2Fp7.png?alt=media&token=0344a12e-1720-4e4d-a06a-69d6614b9516"
+        class="img-fluid m-1"
+        alt="img"
+      />
+      <h6 class="center">
+        <!-- audio l1 217-->
+        <audio id="a7p13l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F217.mp3?alt=media&token=565c1c8d-cbd3-423b-a4b9-de55dabbf5e4"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a7p13l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        7. BEHIND
+      </h6>
+    </div>
+    <div class="col-md-3 text-center">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2Fp8.png?alt=media&token=fe57c1f3-a7cb-4c08-817c-86147330438c"
+        class="img-fluid m-1"
+        alt="img"
+      />
+      <h6 class="center">
+        <!-- audio l1 218-->
+        <audio id="a8p13l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F218.mp3?alt=media&token=892a96ec-03c5-4c00-97ab-6aac617d0efc"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a8p13l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        8. NEXT TO
+      </h6>
+    </div>
+  </div>
 </div>

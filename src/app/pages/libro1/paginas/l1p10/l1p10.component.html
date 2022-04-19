@@ -1,64 +1,342 @@
 <div>
-    <div class="row">
-        <div class="col-md-12 mb-3">
-            <h1><span class="badge bg-warning my-2">Class 3</span></h1>
-            <h3 class="text-center"><span class="badge azul rounded-pill"><i class="fas fa-volume-up"></i></span> Yes / No Questions </h3>
-        </div>
-        <div class="col-md-6 text-center">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2Fcuadro3.png?alt=media&token=9c262284-89d4-4d85-8e27-4a20dceac042" class="img-fluid rounded " alt="img">
-        </div>
-        <div class="col-md-6">
-            <table class="table table-striped  table-responsive">
-                <thead>
-                    <tr>
-                        <th>Teacher:</th>
-                        <th colspan="2">Students:</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>s it a map?</td>
-                        <td>Affirmative</td>
-                        <td>Yes, it’s a map.</td>
-                    </tr>
-                    <tr>
-                        <td>Is it a pencil? </td>
-                        <td>Negative</td>
-                        <td>No, it isn’t a pencil.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Are they sharpeners? </td>
-                        <td>Affirmative</td>
-                        <td>Yes, they are sharpeners.</td>
-                    </tr>
-                    <tr>
-                        <td>Are they sheets of paper? </td>
-                        <td>Negative</td>
-                        <td>No, they aren’t sheets of paper</td>
-                    </tr>
-                    <tr>
-                        <td>Is it a cell phone?</td>
-                        <td>Negative</td>
-                        <td><input type="text" placeholder="Answer" class="form-control" name="ans1Page10" [(ngModel)]="libro.ans1Page10" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                    <tr>
-                        <td>Are they scissors? </td>
-                        <td>Affirmative</td>
-                        <td><input type="text" placeholder="Answer" class="form-control" name="ans2Page10" [(ngModel)]="libro.ans2Page10" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                    <tr>
-                        <td>Is it a ruler?</td>
-                        <td>Affirmative</td>
-                        <td><input type="text" placeholder="Answer" class="form-control" name="ans3Page10" [(ngModel)]="libro.ans3Page10" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                    <tr>
-                        <td>Are they glasses? </td>
-                        <td>Negative</td>
-                        <td><input type="text" placeholder="Answer" class="form-control" name="ans4Page10" [(ngModel)]="libro.ans4Page10" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+  <div class="row">
+    <div class="col-md-12 mb-3">
+      <h1><span class="badge bg-warning my-2">Class 3</span></h1>
+      <h3 class="text-center">Yes / No Questions</h3>
     </div>
+    <div class="col-md-6 text-center">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2Fcuadro3.png?alt=media&token=9c262284-89d4-4d85-8e27-4a20dceac042"
+        class="img-fluid rounded"
+        alt="img"
+      />
+    </div>
+    <div class="col-md-6">
+      <table class="table table-striped table-responsive">
+        <thead>
+          <tr>
+            <th>Teacher:</th>
+            <th colspan="2">Students:</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <!-- audio l1 142-->
+              <audio id="a1p10l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F142.mp3?alt=media&token=4c18ebeb-bd43-4711-b208-86319033cdac"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a1p10l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              Is it a map?
+            </td>
+            <td>Affirmative</td>
+            <td>
+              <!-- audio l1 143-->
+              <audio id="a2p10l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F143.mp3?alt=media&token=9bd0daeb-5483-4fb9-b222-16c3acbfb71e"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a2p10l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              Yes, it’s a map.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- audio l1 144-->
+              <audio id="a3p10l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F144.mp3?alt=media&token=4ba7c460-6d8e-4150-b0d9-53ccaa32b5a2"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a3p10l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              Is it a pencil?
+            </td>
+            <td>Negative</td>
+            <td>
+              <!-- audio l1 145-->
+              <audio id="a?p10l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F145.mp3?alt=media&token=0e4e78fc-284e-4945-8bb5-c9714a8c42f9"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a?p10l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i></button
+              >No, it isn’t a pencil.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- audio l1 146-->
+              <audio id="a4p10l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F146.mp3?alt=media&token=62fca67a-d0ab-4621-91de-9c8720055b66"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a4p10l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              Are they sharpeners?
+            </td>
+            <td>Affirmative</td>
+            <td>
+              <!-- audio l1 147-->
+              <audio id="a5p10l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F147.mp3?alt=media&token=68c18191-0810-4343-b97d-f69d5ba8787c"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a5p10l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              Yes, they are sharpeners.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- audio l1 148-->
+              <audio id="a6p10l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F148.mp3?alt=media&token=1483ca08-fd39-4dc4-a665-74d29693f162"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a6p10l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              Are they sheets of paper?
+            </td>
+            <td>Negative</td>
+            <td>
+              <!-- audio l1 149-->
+              <audio id="a7p10l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F149.mp3?alt=media&token=07053779-ac54-4a54-8b6e-4f97501c59cb"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a7p10l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              No, they aren’t sheets of paper
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- audio l1 150-->
+              <audio id="a8p10l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F150.mp3?alt=media&token=6dde1a42-bd8e-4b4d-8815-e95f3ac61612"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a8p10l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              Is it a cell phone?
+            </td>
+            <td>Negative</td>
+            <td>
+              <!-- audio l1 151-->
+              <audio id="a9p10l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F151.mp3?alt=media&token=d62c9d3e-fb4d-43a4-9b39-d0b88457525a"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a9p10l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              <input
+                type="text"
+                placeholder="Answer"
+                class="form-control"
+                name="ans1Page10"
+                [(ngModel)]="libro.ans1Page10"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- audio l1 152-->
+              <audio id="a10p10l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F152.mp3?alt=media&token=60345e74-78f3-4a83-8ece-2a1ca4e8ca29"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a10p10l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              Are they scissors?
+            </td>
+            <td>Affirmative</td>
+            <td>
+              <!-- audio l1 153-->
+              <audio id="a11p10l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F153.mp3?alt=media&token=90dacb09-9685-4d25-bb46-bf14522359d2"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a11p10l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              <input
+                type="text"
+                placeholder="Answer"
+                class="form-control"
+                name="ans2Page10"
+                [(ngModel)]="libro.ans2Page10"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- audio l1 154-->
+              <audio id="a12p10l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F154.mp3?alt=media&token=d22b2071-4e05-4f03-9d86-9ef5d51d11b8"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a12p10l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              Is it a ruler?
+            </td>
+            <td>Affirmative</td>
+            <td>
+              <!-- audio l1 155-->
+              <audio id="a13p10l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F155.mp3?alt=media&token=650572f2-aded-40ed-8d7a-227b9165616d"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a13p10l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              <input
+                type="text"
+                placeholder="Answer"
+                class="form-control"
+                name="ans3Page10"
+                [(ngModel)]="libro.ans3Page10"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- audio l1 156-->
+              <audio id="a14p10l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F156.mp3?alt=media&token=56af3014-94ce-4985-9c09-4edcc588601c"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a14p10l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              Are they glasses?
+            </td>
+            <td>Negative</td>
+            <td>
+              <!-- audio l1 158-->
+              <audio id="a15p10l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F158.mp3?alt=media&token=40941b57-2c67-4702-aa7a-83dd0021f450"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a15p10l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              <input
+                type="text"
+                placeholder="Answer"
+                class="form-control"
+                name="ans4Page10"
+                [(ngModel)]="libro.ans4Page10"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </div>

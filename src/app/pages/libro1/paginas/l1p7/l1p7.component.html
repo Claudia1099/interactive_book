@@ -1,64 +1,270 @@
 <div>
-    <div class="row">
-        <div class="col-md-12">
-            <h3 class="center mb-3">SELF – INTRODUCTION</h3>
-        </div>
-        <div class="col-md-6">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F15.png?alt=media&token=656f178c-e54e-498d-b03f-213638dc05ba" class="img-fluid m-1 rounded" alt="img">
-        </div>
-        <div class="col-md-6">
-            <div class="row">
-                <div class="col-md-12 col-12 my-1 d-flex justify-content-start">
-                    <span class="chat chat1">
-                        <strong>A.</strong> Hi, my name is <input type="text" class="m-1 form-control input"  name="ans1Page7" [(ngModel)]="libro.ans1Page7" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">. What is your name?
-                    </span>
-                </div>
-                <div class="col-md-12 col-12 my-1 d-flex justify-content-end">
-                    <span class="chat chat2">
-                        <strong>B.</strong> I’m <input type="text" class="m-1 form-control input"  name="ans2Page7" [(ngModel)]="libro.ans2Page7" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-                    </span>
-                </div>
-                <div class="col-md-12 col-12 my-1 d-flex justify-content-start">
-                    <span class="chat chat1">
-                        <strong>A.</strong> Can you spell it, please?
-                    </span>
-                </div>
-                <div class="col-md-12 col-12 my-1 d-flex justify-content-end">
-                    <span class="chat chat2">
-                        <strong>B.</strong> Sure <input type="text" class="m-1 form-control input"  name="ans3Page7" [(ngModel)]="libro.ans3Page7" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-                    </span>
-                </div>
-                <div class="col-md-12 col-12 my-1 d-flex justify-content-start">
-                    <span class="chat chat1">
-                        <strong>A.</strong> What’s your phone number?
-                    </span>
-                </div>
-                <div class="col-md-12 col-12 my-1 d-flex justify-content-end">
-                    <span class="chat chat2">
-                        <strong>B.</strong>  <input type="text" class="m-1 form-control input"  name="ans4Page7" [(ngModel)]="libro.ans4Page7" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""><input type="text" class="m-1 form-control input"  name="ans44Page7" [(ngModel)]="libro.ans44Page7" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-                    </span>
-                </div>
-                <div class="col-md-12 col-12 my-1 d-flex justify-content-start">
-                    <span class="chat chat1">
-                        <strong>A.</strong> Where are you from?
-                    </span>
-                </div>
-                <div class="col-md-12 col-12 my-1 d-flex justify-content-end">
-                    <span class="chat chat2">
-                        <strong>B.</strong> <input type="text" class="m-1 form-control input"  name="ans5Page7" [(ngModel)]="libro.ans5Page7" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-                    </span>
-                </div>
-                <div class="col-md-12 col-12 my-1 d-flex justify-content-start">
-                    <span class="chat chat1">
-                        <strong>A.</strong> Nice to meet you.
-                    </span>
-                </div>
-                <div class="col-md-12 col-12 my-1 d-flex justify-content-end">
-                    <span class="chat chat2">
-                        <strong>B.</strong>  <input type="text" class="m-1 form-control input"  name="ans6Page7" [(ngModel)]="libro.ans6Page7" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-                    </span>
-                </div>
-            </div>
-        </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h3 class="center mb-3">SELF – INTRODUCTION</h3>
     </div>
+    <div class="col-md-6">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F15.png?alt=media&token=8afe8db8-63a7-4c72-99cb-4e13e564e12e"
+        class="img-fluid m-1 rounded"
+        alt="img"
+      />
+    </div>
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-12 col-12 my-1 d-flex justify-content-start">
+          <span class="chat chat1">
+            <!-- audio l1 93-->
+            <audio id="a1p7l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F93.mp3?alt=media&token=bcee3a0c-4726-4620-9aa4-d6d75ed6b277"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a1p7l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+
+            <strong> A.</strong> Hi, my name is
+            <input
+              type="text"
+              class="m-1 form-control input"
+              name="ans1Page7"
+              [(ngModel)]="libro.ans1Page7"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />. What is your name?
+          </span>
+        </div>
+        <div class="col-md-12 col-12 my-1 d-flex justify-content-end">
+          <span class="chat chat2">
+            <!-- audio l1 94-->
+            <audio id="a2p7l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F94.mp3?alt=media&token=28a6019c-fa70-4d90-a794-d9a4132f20f8"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a2p7l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+
+            <strong> B.</strong> I’m
+            <input
+              type="text"
+              class="m-1 form-control input"
+              name="ans2Page7"
+              [(ngModel)]="libro.ans2Page7"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+          </span>
+        </div>
+        <div class="col-md-12 col-12 my-1 d-flex justify-content-start">
+          <span class="chat chat1">
+            <!-- audio l1 95-->
+            <audio id="a3p7l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F95.mp3?alt=media&token=7b9b17ea-73dc-48b2-a79c-1a3d73b50adb"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a3p7l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+
+            <strong> A.</strong> Can you spell it, please?
+          </span>
+        </div>
+        <div class="col-md-12 col-12 my-1 d-flex justify-content-end">
+          <span class="chat chat2">
+            <!-- audio l1 96-->
+            <audio id="a4p7l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F96.mp3?alt=media&token=7f4ac347-0fef-438b-a573-3cfd5788d17c"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a4p7l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+
+            <strong> B.</strong> Sure
+            <input
+              type="text"
+              class="m-1 form-control input"
+              name="ans3Page7"
+              [(ngModel)]="libro.ans3Page7"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+          </span>
+        </div>
+        <div class="col-md-12 col-12 my-1 d-flex justify-content-start">
+          <span class="chat chat1">
+            <!-- audio l1 97-->
+            <audio id="a5p7l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F97.mp3?alt=media&token=42b17039-8527-4db2-8e76-75f3d68fb5bc"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a5p7l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+
+            <strong> A.</strong> What’s your phone number?
+          </span>
+        </div>
+        <div class="col-md-12 col-12 my-1 d-flex justify-content-end">
+          <span class="chat chat2">
+            <!-- audio l1 98-->
+            <audio id="a6p7l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F98.mp3?alt=media&token=49455665-3f72-4d39-a3f0-656bc8cacd56"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a6p7l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+
+            <strong> B.</strong>
+            <input
+              type="text"
+              class="m-1 form-control input"
+              name="ans4Page7"
+              [(ngModel)]="libro.ans4Page7"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            /><input
+              type="text"
+              class="m-1 form-control input"
+              name="ans44Page7"
+              [(ngModel)]="libro.ans44Page7"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+          </span>
+        </div>
+        <div class="col-md-12 col-12 my-1 d-flex justify-content-start">
+          <span class="chat chat1">
+            <!-- audio l1 99-->
+            <audio id="a7p7l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F99.mp3?alt=media&token=2c86740e-9d85-4c6d-8fab-d8d434cc5403"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a7p7l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+
+            <strong> A.</strong> Where are you from?
+          </span>
+        </div>
+        <div class="col-md-12 col-12 my-1 d-flex justify-content-end">
+          <span class="chat chat2">
+            <!-- audio l1 100-->
+            <audio id="a8p7l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F100.mp3?alt=media&token=fae15cca-3d31-494b-bcc2-19293cecf9e6"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a8p7l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+
+            <strong> B.</strong>
+            <input
+              type="text"
+              class="m-1 form-control input"
+              name="ans5Page7"
+              [(ngModel)]="libro.ans5Page7"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+          </span>
+        </div>
+        <div class="col-md-12 col-12 my-1 d-flex justify-content-start">
+          <span class="chat chat1">
+            <!-- audio l1 101-->
+            <audio id="a9p7l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F101.mp3?alt=media&token=49937509-00a1-4f29-9087-1833b7a06468"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a9p7l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+
+            <strong> A.</strong> Nice to meet you.
+          </span>
+        </div>
+        <div class="col-md-12 col-12 my-1 d-flex justify-content-end">
+          <span class="chat chat2">
+            <!-- audio l1 102-->
+            <audio id="a10p7l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F102.mp3?alt=media&token=f531c08f-fe53-4da9-9f81-a92591d3ab3e"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a10p7l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+
+            <strong> B.</strong>
+            <input
+              type="text"
+              class="m-1 form-control input"
+              name="ans6Page7"
+              [(ngModel)]="libro.ans6Page7"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

@@ -1,33 +1,533 @@
 <div>
-    <div class="row">
-        <div class="col-md-12">
-            <h3 class="center my-3"> EXERCISES</h3>
-        </div>
-        <div class="col-md-3 col-12">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F32.jpg?alt=media&token=e9a8f38c-dfac-4530-838d-fa8c0ba782c6" class="img-fluid m-1 rounded" alt="img"> <strong>A.</strong> Is it a bulletin
-            board? <br> <strong>B.</strong> Yes, <input size=60 style="width : 60px; height : 30px" class="my-1 form-control input" type="text" name="ans1Page11" [(ngModel)]="libro.ans1Page11" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""><br>            <strong>A.</strong> Is it a blackboard?
-            <br> <strong>B.</strong> No, <input size=100 style="width : 100px; height : 30px" class="my-1 form-control input" type="text" name="ans2Page11" [(ngModel)]="libro.ans2Page11" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""><br>            <strong>A.</strong> What is it? <br> <strong>B.</strong> It’s a bulletin board.
-        </div>
-        <div class="col-md-3 col-12">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F33.jpg?alt=media&token=0cd4f1ee-b006-4c11-b33e-3cde19c4db52" class="img-fluid m-1 rounded" alt="img"> <strong>A.</strong> Are they black
-            pens? <br> <strong>B.</strong> Yes, <input size=100 style="width : 100px; height : 30px" class="my-1 form-control input" type="text" name="ans3Page11" [(ngModel)]="libro.ans3Page11" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""><br>            <strong>A.</strong> Are they red pens?
-            <br> <strong>B.</strong> No, <input size=120 style="width : 120px; height : 30px" class="my-1 form-control input" type="text" name="ans4Page11" [(ngModel)]="libro.ans4Page11" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""><br>            <strong>A.</strong> What are they? <br> <strong>B.</strong> They are black pens.
-        </div>
-        <div class="col-md-3 col-12">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F24.jpg?alt=media&token=d12b0b9c-dc0c-4f16-b9c5-b1d8a5a2c55c" class="img-fluid m-1 rounded" alt="img"> <strong>A.</strong> <input class="my-1 form-control input"
-                type="text" name="ans5Page11" [(ngModel)]="libro.ans5Page11" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">? <br> <strong>B.</strong> Yes, <input size=60 style="width : 60px; height : 30px" class="my-1 form-control input" type="text"
-                name="ans6Page11" [(ngModel)]="libro.ans6Page11" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""><br> <strong>A.</strong>
-            <input class="my-1 form-control input" type="text" name="ans7Page11" [(ngModel)]="libro.ans7Page11" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">?
-            <br> <strong>B.</strong> No, <input size=100 style="width : 100px; height : 30px" class="my-1 form-control input" type="text" name="ans8Page11" [(ngModel)]="libro.ans8Page11" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""><br>            <strong>A.</strong> <input class="my-1 form-control input" type="text" name="ans9Page11" [(ngModel)]="libro.ans9Page11" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> <br> <strong>B.</strong> <input class="my-1 form-control input"
-                type="text" name="ans10Page11" [(ngModel)]="libro.ans10Page11" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-        </div>
-        <div class="col-md-3 col-12">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F22.jpg?alt=media&token=6059da56-2039-4d64-9a70-87396842c992" class="img-fluid m-1 rounded" alt="img"> <strong>A.</strong> <input class="my-1 form-control input"
-                type="text" name="ans11Page11" [(ngModel)]="libro.ans11Page11" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">? <br> <strong>B.</strong> Yes, <input size=60 style="width : 60px; height : 30px" class="my-1 form-control input" type="text"
-                name="ans12Page11" [(ngModel)]="libro.ans12Page11" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""><br> <strong>A.</strong>
-            <input class="my-1 form-control input" type="text" name="ans13Page11" [(ngModel)]="libro.ans13Page11" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">?
-            <br> <strong>B.</strong> No, <input size=100 style="width : 100px; height : 30px" class="my-1 form-control input" type="text" name="ans14Page11" [(ngModel)]="libro.ans14Page11" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""><br>            <strong>A.</strong> <input class="my-1 form-control input" type="text" name="ans15Page11" [(ngModel)]="libro.ans15Page11" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> <br> <strong>B.</strong> <input class="my-1 form-control input"
-                type="text" name="ans16Page11" [(ngModel)]="libro.ans16Page11" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-        </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h3 class="center my-3">EXERCISES</h3>
     </div>
+    <div class="col-md-3 col-12">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F32.jpg?alt=media&token=e9a8f38c-dfac-4530-838d-fa8c0ba782c6"
+        class="img-fluid m-1 rounded"
+        alt="img"
+      />
+      <!-- audio l1 159-->
+      <audio id="a1p11l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F159.mp3?alt=media&token=6298fa1b-0e43-471c-838e-b0bd40611ae5"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a1p11l1')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>A.</strong> Is it a bulletin board? <br />
+      <!-- audio l1 160-->
+      <audio id="a2p11l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F160.mp3?alt=media&token=903b0038-8540-4bf6-bbdd-31bfb1684e24"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a2p11l1')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>B.</strong> Yes,
+      <input
+        size="60"
+        style="width: 60px; height: 30px"
+        class="my-1 form-control input"
+        type="text"
+        name="ans1Page11"
+        [(ngModel)]="libro.ans1Page11"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      /><br />
+      <!-- audio l1 161-->
+      <audio id="a3p11l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F161.mp3?alt=media&token=bc321733-4fda-419a-b0df-435bb3ba44ae"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a3p11l1')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>A.</strong> Is it a blackboard? <br />
+      <!-- audio l1 162-->
+      <audio id="a4p11l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F162.mp3?alt=media&token=c014d5e1-fa8b-4288-a7b8-15c280b156a7"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a4p11l1')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>B.</strong> No,
+      <input
+        size="100"
+        style="width: 100px; height: 30px"
+        class="my-1 form-control input"
+        type="text"
+        name="ans2Page11"
+        [(ngModel)]="libro.ans2Page11"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      /><br />
+      <!-- audio l1 163-->
+      <audio id="a5p11l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F163.mp3?alt=media&token=f9171b38-6f06-43dd-9d36-d7d1181a62a8"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a5p11l1')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>A.</strong> What is it? <br />
+      <!-- audio l1 164-->
+      <audio id="a6p11l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F164.mp3?alt=media&token=ff63dc37-26e0-48bc-b0e8-bba1ad4c0235"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a6p11l1')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>B.</strong> It’s a bulletin board.
+    </div>
+    <div class="col-md-3 col-12">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F33.jpg?alt=media&token=0cd4f1ee-b006-4c11-b33e-3cde19c4db52"
+        class="img-fluid m-1 rounded"
+        alt="img"
+      />
+      <!-- audio l1 165-->
+      <audio id="a7p11l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F165.mp3?alt=media&token=961690a2-9c38-4f6a-9f19-e05e1f5f1962"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a7p11l1')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>A.</strong> Are they black pens? <br />
+      <!-- audio l1 166-->
+      <audio id="a8p11l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F166.mp3?alt=media&token=e90e4e58-b806-4fa5-9e30-77ee7ffc64fa"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a8p11l1')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>B.</strong> Yes,
+      <input
+        size="100"
+        style="width: 100px; height: 30px"
+        class="my-1 form-control input"
+        type="text"
+        name="ans3Page11"
+        [(ngModel)]="libro.ans3Page11"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      /><br />
+      <!-- audio l1 167-->
+      <audio id="a9p11l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F167.mp3?alt=media&token=c8d7f302-3f4c-4ecf-a4a1-f47dac79b7ce"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a9p11l1')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>A.</strong> Are they red pens? <br />
+      <!-- audio l1 168-->
+      <audio id="a10p11l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F168.mp3?alt=media&token=19c54914-fa63-4339-b7b6-b9f5bdc79666"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a10p11l1')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>B.</strong> No,
+      <input
+        size="120"
+        style="width: 120px; height: 30px"
+        class="my-1 form-control input"
+        type="text"
+        name="ans4Page11"
+        [(ngModel)]="libro.ans4Page11"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      /><br />
+      <!-- audio l1 169-->
+      <audio id="a11p11l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F169.mp3?alt=media&token=fc0568c2-c118-4526-a547-1ccfbac71ee1"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a11p11l1')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>A.</strong> What are they? <br />
+      <!-- audio l1 170-->
+      <audio id="a12p11l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F170.mp3?alt=media&token=ef797b11-2ae5-471c-8b03-6589d6be8f0b"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a12p11l1')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>B.</strong> They are black pens.
+    </div>
+    <div class="col-md-3 col-12">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F24.jpg?alt=media&token=d12b0b9c-dc0c-4f16-b9c5-b1d8a5a2c55c"
+        class="img-fluid m-1 rounded"
+        alt="img"
+      />
+      <!-- audio l1 171-->
+      <audio id="a13p11l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F171.mp3?alt=media&token=12e20acc-69db-4012-9f6f-b0f5d8c3e013"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a13p11l1')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>A.</strong>
+      <input
+        class="my-1 form-control input"
+        type="text"
+        name="ans5Page11"
+        [(ngModel)]="libro.ans5Page11"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />? <br />
+      <!-- audio l1 172-->
+      <audio id="a14p11l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F172.mp3?alt=media&token=10ff4b5a-7374-430f-991c-341bd308c2e4"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a14p11l1')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>B.</strong> Yes,
+      <input
+        size="60"
+        style="width: 60px; height: 30px"
+        class="my-1 form-control input"
+        type="text"
+        name="ans6Page11"
+        [(ngModel)]="libro.ans6Page11"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      /><br />
+      <!-- audio l1 173-->
+      <audio id="a15p11l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F173.mp3?alt=media&token=cbad9ed5-719e-4c86-a271-12bdcd6c78ab"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a15p11l1')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>A.</strong>
+      <input
+        class="my-1 form-control input"
+        type="text"
+        name="ans7Page11"
+        [(ngModel)]="libro.ans7Page11"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />? <br />
+      <!-- audio l1 174-->
+      <audio id="a16p11l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F174.mp3?alt=media&token=1c4aaf8c-f87f-44b9-9878-ba2f83c28ee5"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a16p11l1')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>B.</strong> No,
+      <input
+        size="100"
+        style="width: 100px; height: 30px"
+        class="my-1 form-control input"
+        type="text"
+        name="ans8Page11"
+        [(ngModel)]="libro.ans8Page11"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      /><br />
+      <!-- audio l1 175-->
+      <audio id="a17p11l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F175.mp3?alt=media&token=64f9614e-0884-44fd-9d6a-54dbfd9bb591"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a17p11l1')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>A.</strong>
+      <input
+        class="my-1 form-control input"
+        type="text"
+        name="ans9Page11"
+        [(ngModel)]="libro.ans9Page11"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <br />
+      <!-- audio l1 176-->
+      <audio id="a18p11l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F176.mp3?alt=media&token=234f11fb-8db4-439b-b844-0c5c74e98b52"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a18p11l1')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>B.</strong>
+      <input
+        class="my-1 form-control input"
+        type="text"
+        name="ans10Page11"
+        [(ngModel)]="libro.ans10Page11"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+    </div>
+    <div class="col-md-3 col-12">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F22.jpg?alt=media&token=6059da56-2039-4d64-9a70-87396842c992"
+        class="img-fluid m-1 rounded"
+        alt="img"
+      />
+      <!-- audio l1 177-->
+      <audio id="a19p11l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F177.mp3?alt=media&token=25522a78-9adf-4a6c-8bb4-40218d8bb85e"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a19p11l1')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>A.</strong>
+      <input
+        class="my-1 form-control input"
+        type="text"
+        name="ans11Page11"
+        [(ngModel)]="libro.ans11Page11"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />? <br />
+      <!-- audio l1 178-->
+      <audio id="a20p11l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F178.mp3?alt=media&token=24108f31-a0de-4cca-bb64-e4f5d827736f"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a20p11l1')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>B.</strong> Yes,
+      <input
+        size="60"
+        style="width: 60px; height: 30px"
+        class="my-1 form-control input"
+        type="text"
+        name="ans12Page11"
+        [(ngModel)]="libro.ans12Page11"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      /><br />
+      <!-- audio l1 179-->
+      <audio id="a21p11l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F179.mp3?alt=media&token=e84143f3-4a88-4356-b8bc-1bb2ccd27372"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a21p11l1')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>A.</strong>
+      <input
+        class="my-1 form-control input"
+        type="text"
+        name="ans13Page11"
+        [(ngModel)]="libro.ans13Page11"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />? <br />
+      <!-- audio l1 180-->
+      <audio id="a22p11l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F180.mp3?alt=media&token=03ee1652-a7fb-4c2d-9035-f5c388c8925a"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a22p11l1')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>B.</strong> No,
+      <input
+        size="100"
+        style="width: 100px; height: 30px"
+        class="my-1 form-control input"
+        type="text"
+        name="ans14Page11"
+        [(ngModel)]="libro.ans14Page11"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      /><br />
+      <!-- audio l1 181-->
+      <audio id="a23p11l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F181.mp3?alt=media&token=adda68d1-2f49-4f37-a259-ff290c1015e7"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a23p11l1')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>A.</strong>
+      <input
+        class="my-1 form-control input"
+        type="text"
+        name="ans15Page11"
+        [(ngModel)]="libro.ans15Page11"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <br />
+      <!-- audio l1 182-->
+      <audio id="a24p11l1" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F182.mp3?alt=media&token=476a4e44-cd20-4f3d-9013-f3154f540e63"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a24p11l1')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>B.</strong>
+      <input
+        class="my-1 form-control input"
+        type="text"
+        name="ans16Page11"
+        [(ngModel)]="libro.ans16Page11"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+    </div>
+  </div>
 </div>

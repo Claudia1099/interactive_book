@@ -6,6 +6,12 @@
     }
 }
 
+.audio{
+    color: white;
+    background: blue;
+    margin-bottom: 1px;
+}
+
 .center {
     text-align: center;
 }

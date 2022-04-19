@@ -2,20 +2,13 @@
   <div class="row">
     <div class="col-md-12 mb-3">
       <h1><span class="badge bg-warning my-2">Class 1</span></h1>
-    </div>
-    <div class="col-md-4">
-      <img
-        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F1.png?alt=media&token=7f366fa0-192e-41b9-a703-1a39935d3c3e"
-        class="img-fluid rounded w-75"
-        alt="img"
-      />
+      <h3 class="text-center">GREETING</h3>
     </div>
 
-    <div class="col-md-4 d-flex align-items-center">
+    <div class="col-md-3 d-flex align-items-center">
       <div>
-        <h3 class="text-center my-4">GREETING</h3>
         <ul>
-          <li>
+          <li class="mb-1">
             <!-- audio l1 1-->
             <audio id="a1p1l1" aria-label="audio" class="d-none" controls>
               <source
@@ -31,7 +24,7 @@
             </button>
             A. Hi, how are you?
           </li>
-          <li>
+          <li class="mb-1">
             <!-- audio l1 2-->
             <audio id="a2p1l1" aria-label="audio" class="d-none" controls>
               <source
@@ -47,7 +40,7 @@
             </button>
             B. Fine thanks and you?
           </li>
-          <li>
+          <li class="mb-1">
             <!-- audio l1 3-->
             <audio id="a3p1l1" aria-label="audio" class="d-none" controls>
               <source
@@ -66,13 +59,204 @@
         </ul>
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-3">
       <img
-        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F6.png?alt=media&token=5790dade-e8ef-4a1c-bf0e-de694b0bd802"
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F1.png?alt=media&token=7f366fa0-192e-41b9-a703-1a39935d3c3e"
         class="img-fluid rounded w-75"
         alt="img"
       />
     </div>
+
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-6">
+          <h5>TEACHER</h5>
+          <ul>
+            <li class="mb-1">
+              <!-- audio l1 30-->
+              <audio id="a30p1l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F30.mp3?alt=media&token=5b13f96d-1c2d-4e2f-a3df-9577cd35b330"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a30p1l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i></button
+              >- What's your name?
+              <ul>
+                <li class="mb-1">
+                  <!-- audio l1 31-->
+                  <audio
+                    id="a31p1l1"
+                    aria-label="audio"
+                    class="d-none"
+                    controls
+                  >
+                    <source
+                      type="audio/mp3"
+                      src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F31.mp3?alt=media&token=1ef14740-dac8-49ad-94c4-2149dca23213"
+                    />
+                  </audio>
+                  <button
+                    (click)="reproducirAudio('a31p1l1')"
+                    class="btn azul rounded-pill text-white btn-sm"
+                  >
+                    <i class="fas fa-volume-up"></i></button
+                  >Her
+                </li>
+                <li class="mb-1">
+                  <!-- audio l1 32-->
+                  <audio
+                    id="a32p1l1"
+                    aria-label="audio"
+                    class="d-none"
+                    controls
+                  >
+                    <source
+                      type="audio/mp3"
+                      src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F32.mp3?alt=media&token=d0356e50-7602-42ef-b92c-b63ed4b27232"
+                    />
+                  </audio>
+                  <button
+                    (click)="reproducirAudio('a32p1l1')"
+                    class="btn azul rounded-pill text-white btn-sm"
+                  >
+                    <i class="fas fa-volume-up"></i></button
+                  >His
+                </li>
+              </ul>
+            </li>
+            <li class="mb-1">
+              <!-- audio l1 33-->
+              <audio id="a33p1l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F33.mp3?alt=media&token=f6199d29-5b7c-4640-9cd9-1796c8f69609"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a33p1l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i></button
+              >- Spell it, please
+            </li>
+            <li class="mb-1">
+              <!-- audio l1 34-->
+              <audio id="a34p1l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F34.mp3?alt=media&token=b3c86fb4-e1da-4049-969f-713874a0a952"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a34p1l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i></button
+              >- Nice to meet you
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h5>STUDENT</h5>
+          <ul>
+            <li class="mb-1">
+              <!-- audio l1 35-->
+              <audio id="a35p1l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F35.mp3?alt=media&token=87815fe1-af5a-4dc8-8b38-ac9b42cd73a0"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a35p1l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i></button
+              >- My name is...
+              <ul>
+                <li class="mb-1">
+                  <!-- audio l1 36-->
+                  <audio
+                    id="a36p1l1"
+                    aria-label="audio"
+                    class="d-none"
+                    controls
+                  >
+                    <source
+                      type="audio/mp3"
+                      src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F36.mp3?alt=media&token=3e93e0a0-0526-48fa-8622-ac644afdd9e6"
+                    />
+                  </audio>
+                  <button
+                    (click)="reproducirAudio('a36p1l1')"
+                    class="btn azul rounded-pill text-white btn-sm"
+                  >
+                    <i class="fas fa-volume-up"></i></button
+                  >Her
+                </li>
+                <li class="mb-1">
+                  <!-- audio l1 37-->
+                  <audio
+                    id="a37p1l1"
+                    aria-label="audio"
+                    class="d-none"
+                    controls
+                  >
+                    <source
+                      type="audio/mp3"
+                      src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F37.mp3?alt=media&token=d32cc21f-d576-47f5-bf67-4fe82a7afed2"
+                    />
+                  </audio>
+                  <button
+                    (click)="reproducirAudio('a37p1l1')"
+                    class="btn azul rounded-pill text-white btn-sm"
+                  >
+                    <i class="fas fa-volume-up"></i></button
+                  >His
+                </li>
+              </ul>
+            </li>
+
+            <li class="mb-1">
+              <!-- audio l1 38-->
+              <audio id="a38p1l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F38.mp3?alt=media&token=a48b3e27-901f-4c8a-940b-d0a2a7fe6066"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a38p1l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i></button
+              >- W-I-L-T-O-N
+            </li>
+            <li class="mb-1">
+              <!-- audio l1 39-->
+              <audio id="a39p1l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F39.mp3?alt=media&token=1d3a230d-76c0-4781-b026-f3b0ab031a92"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a39p1l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i></button
+              >- Nice to meet you too
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
     <div class="col-md-12 container">
       <hr />
       <h3 class="center my-3">THE ALPHABET</h3>
