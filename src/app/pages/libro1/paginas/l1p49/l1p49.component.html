@@ -1,44 +1,254 @@
 <div>
-    <div class="row">
-        <div class="col-md-12">
-            <h4 class="my-2">MOVE ON</h4>
-        </div>
-        <div class="col-md-6">
-
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F153.PNG?alt=media&token=0438c110-2a21-4426-a9d4-e147a7bca468" class="m-1 rounded img-fluid" alt="img">
-        </div>
-        <div class="col-md-6">
-            <ol start="3">
-
-                <li class="my-2">
-                    A. Is there a hospital in this town?
-                    <input type="text" class="form-control my-1" placeholder="B" name="ans1page50" [(ngModel)]="libro.ans1Page50" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-                    <input type="text" class="form-control my-1" placeholder="A" name="ans2page50" [(ngModel)]="libro.ans2Page50" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-                    <input type="text" class="form-control my-1" placeholder="B" name="ans3page50" [(ngModel)]="libro.ans3Page50" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-                </li>
-            </ol>
-        </div>
-        <div class="col-md-6">
-            <ol start="4">
-
-                <li class="my-2">
-                    A. Is there a laundromat in this neighborhood?
-                    <input type="text" class="form-control my-1" placeholder="B" name="ans4page50" [(ngModel)]="libro.ans4Page50" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-                    <input type="text" class="form-control my-1" placeholder="A" name="ans5page50" [(ngModel)]="libro.ans5Page50" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-                    <input type="text" class="form-control my-1" placeholder="B" name="ans6page50" [(ngModel)]="libro.ans6Page50" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-                </li>
-            </ol>
-        </div>
-        <div class="col-md-6">
-            <ol start="5">
-
-                <li class="my-2">
-                    A. Is there a barber shop nearby?
-                    <input type="text" class="form-control my-1" placeholder="B" name="ans7page50" [(ngModel)]="libro.ans7Page50" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-                    <input type="text" class="form-control my-1" placeholder="A" name="ans8page50" [(ngModel)]="libro.ans8Page50" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-                    <input type="text" class="form-control my-1" placeholder="B" name="ans9page50" [(ngModel)]="libro.ans9Page50" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-                </li>
-            </ol>
-        </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h4 class="my-2">MOVE ON</h4>
     </div>
+    <div class="col-md-6">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F153.PNG?alt=media&token=0438c110-2a21-4426-a9d4-e147a7bca468"
+        class="m-1 rounded img-fluid"
+        alt="img"
+      />
+    </div>
+    <div class="col-md-6">
+      <ol start="3">
+        <li class="my-2">
+          <div class="d-flex align-items-center">
+            <!-- audio l1 698-->
+            <audio id="a1p49l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F698.mp3?alt=media&token=136b7839-3d0d-45f8-91dd-79a284e9d95c"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a1p49l1')"
+              class="btn rounded-pill btn-sm audio"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+            <b>A. </b> Is there a hospital in this town?
+          </div>
+          <div class="d-flex align-items-center">
+            <div class="d-flex">
+              <!-- audio l1 699-->
+              <audio id="a2p49l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F699.mp3?alt=media&token=7803c54e-b176-4925-a485-82c67dad3467"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a2p49l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              <div><b>B. </b></div>
+            </div>
+            <input
+              type="text"
+              class="form-control my-1"
+              placeholder="B"
+              name="ans1page50"
+              [(ngModel)]="libro.ans1Page50"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+          </div>
+          <div class="d-flex align-items-center">
+            <div>
+              <div><b>A. </b></div>
+            </div>
+            <input
+              type="text"
+              class="form-control my-1"
+              placeholder="A"
+              name="ans2page50"
+              [(ngModel)]="libro.ans2Page50"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+          </div>
+          <div class="d-flex align-items-center">
+            <div>
+              <div><b>B. </b></div>
+            </div>
+            <input
+              type="text"
+              class="form-control my-1"
+              placeholder="B"
+              name="ans3page50"
+              [(ngModel)]="libro.ans3Page50"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+          </div>
+        </li>
+      </ol>
+    </div>
+    <div class="col-md-6">
+      <ol start="4">
+        <li class="my-2">
+          <div class="d-flex align-items-center">
+            <!-- audio l1 700-->
+            <audio id="a3p49l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F700.mp3?alt=media&token=dcafc854-0e65-42af-b53f-3a6310d9cc86"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a3p49l1')"
+              class="btn rounded-pill btn-sm audio"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+            <b>A. </b> Is there a laundromat in this neighborhood?
+          </div>
+          <div class="d-flex align-items-center">
+            <div class="d-flex">
+              <!-- audio l1 701-->
+              <audio id="a4p49l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F701.mp3?alt=media&token=5981b4c2-50c1-4d22-9a88-74b37f848ada"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a4p49l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              <div><b>B. </b></div>
+            </div>
+            <input
+              type="text"
+              class="form-control my-1"
+              placeholder="B"
+              name="ans4page50"
+              [(ngModel)]="libro.ans4Page50"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+          </div>
+          <div class="d-flex align-items-center">
+            <div>
+              <div><b>A. </b></div>
+            </div>
+            <input
+              type="text"
+              class="form-control my-1"
+              placeholder="A"
+              name="ans5page50"
+              [(ngModel)]="libro.ans5Page50"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+          </div>
+          <div class="d-flex align-items-center">
+            <div>
+              <div><b>B. </b></div>
+            </div>
+            <input
+              type="text"
+              class="form-control my-1"
+              placeholder="B"
+              name="ans6page50"
+              [(ngModel)]="libro.ans6Page50"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+          </div>
+        </li>
+      </ol>
+    </div>
+    <div class="col-md-6">
+      <ol start="5">
+        <li class="my-2">
+          <div class="d-flex align-items-center">
+            <!-- audio l1 702-->
+            <audio id="a5p49l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F702.mp3?alt=media&token=20a33f94-326e-4d4f-ac13-06aa339e3344"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a5p49l1')"
+              class="btn rounded-pill btn-sm audio"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+            <b>A. </b> Is there a barber shop nearby?
+          </div>
+          <div class="d-flex align-items-center">
+            <div class="d-flex">
+              <!-- audio l1 703-->
+              <audio id="a6p49l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F703.mp3?alt=media&token=65251e72-3097-47d8-b6d2-45664a621e29"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a6p49l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              <div><b>B. </b></div>
+            </div>
+            <input
+              type="text"
+              class="form-control my-1"
+              placeholder="B"
+              name="ans7page50"
+              [(ngModel)]="libro.ans7Page50"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+          </div>
+          <div class="d-flex align-items-center">
+            <div>
+              <div><b>A. </b></div>
+            </div>
+            <input
+              type="text"
+              class="form-control my-1"
+              placeholder="A"
+              name="ans8page50"
+              [(ngModel)]="libro.ans8Page50"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+          </div>
+          <div class="d-flex align-items-center">
+            <div>
+              <div><b>B. </b></div>
+            </div>
+            <input
+              type="text"
+              class="form-control my-1"
+              placeholder="B"
+              name="ans9page50"
+              [(ngModel)]="libro.ans9Page50"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+          </div>
+        </li>
+      </ol>
+    </div>
+  </div>
 </div>

@@ -1,72 +1,397 @@
 <div>
-    <div class="row ">
-        <div class="col-md-12 mb-3">
-            <h1><span class="badge bg-warning my-2">Class 8</span></h1>
-            <h3 class="text-center"><span class="badge azul rounded-pill"><i class="fas fa-volume-up"></i></span> DAYS OF THE WEEK </h3>
-            <p class="center">Press the buttons to listen</p>
-        </div>
-
-        <div class="col-md-5 card border-primary ">
-            <div class="row  ">
-                <div class="col-md-6 d-flex justify-content-center">
-                    <span class="badge bg-info m-1"><h4>Sunday</h4></span>
-                    <span class="badge morado m-1"><h4>Sun.</h4></span>
-                </div>
-                <div class="col-md-6 d-flex justify-content-center ">
-                    <span class="badge bg-info m-1"><h4>Monday</h4></span>
-                    <span class="badge morado m-1"><h4>Mon.</h4></span>
-                </div>
-                <div class="col-md-6 d-flex justify-content-center ">
-                    <span class="badge bg-info m-1"><h4>Tuesday</h4></span>
-                    <span class="badge morado m-1"><h4>Tues.</h4></span>
-                </div>
-                <div class="col-md-6 d-flex justify-content-center ">
-                    <span class="badge bg-info m-1"><h4>Wednesday</h4></span>
-                    <span class="badge morado m-1"><h4>Wed.</h4></span>
-                </div>
-                <div class="col-md-6 d-flex justify-content-center ">
-                    <span class="badge bg-info m-1"><h4>Thursday</h4></span>
-                    <span class="badge morado m-1"><h4>Thurs.</h4></span>
-                </div>
-                <div class="col-md-6 d-flex justify-content-center ">
-                    <span class="badge bg-info m-1"><h4>Friday</h4></span>
-                    <span class="badge morado m-1"><h4>Fri.</h4></span>
-                </div>
-                <div class="col-md-6 d-flex justify-content-center ">
-                    <span class="badge bg-info m-1"><h4>Saturday</h4></span>
-                    <span class="badge morado m-1"><h4>Sat.</h4></span>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-7  table-responsive d-flex justify-content-center">
-            <table style="width:100%">
-                <thead>
-                    <th class="center">Teacher</th>
-                    <th class="center">Student</th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="center"> What day is it today? </td>
-                        <td><input type="text" class="form-control m-1" placeholder=" Today is " name="ans1page33" [(ngModel)]="libro.ans1Page33" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                    <tr>
-                        <td class="center"> What day is it after Friday? </td>
-                        <td> It’s Saturday</td>
-                    </tr>
-                    <tr>
-                        <td class="center"> What day is it before Monday? </td>
-                        <td> It’s Sunday</td>
-                    </tr>
-                    <tr>
-                        <td class="center"> What day is it after tomorrow? </td>
-                        <td> <input type="text" class="form-control m-1" name="ans2page33" [(ngModel)]="libro.ans2Page33" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                    <tr>
-                        <td class="center"> What day is before Wednesday? </td>
-                        <td> <input type="text" class="form-control m-1" name="ans3page33" [(ngModel)]="libro.ans3Page33" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+  <div class="row">
+    <div class="col-md-12 mb-3">
+      <h1><span class="badge bg-warning my-2">Class 8</span></h1>
+      <h3 class="text-center">
+        <!-- audio l1 542-->
+        <audio id="a1p31l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F542.mp3?alt=media&token=161b29f1-83f9-4d51-b645-2a0848fa0b12"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a1p31l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        DAYS OF THE WEEK
+      </h3>
     </div>
+
+    <div class="col-md-12">
+      <div class="row justify-content-center">
+        <div
+          class="col-md-3 d-flex justify-content-center align-items-center my-2"
+        >
+          <div>
+            <!-- audio l1 543-->
+            <audio id="a2p31l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F543.mp3?alt=media&token=e760f39a-60ac-4ca4-9bce-fb47960348a5"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a2p31l1')"
+              class="btn rounded-pill btn-sm audio"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+          </div>
+
+          <span class="badge bg-info m-1"><h4>Sunday</h4></span>
+          <span class="badge morado m-1"><h4>Sun.</h4></span>
+        </div>
+        <div
+          class="col-md-3 d-flex justify-content-center align-items-center my-2"
+        >
+          <div>
+            <!-- audio l1 544-->
+            <audio id="a3p31l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F544.mp3?alt=media&token=1160edef-df75-4315-ab84-5f2d662defdf"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a3p31l1')"
+              class="btn rounded-pill btn-sm audio"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+          </div>
+
+          <span class="badge bg-info m-1"><h4>Monday</h4></span>
+          <span class="badge morado m-1"><h4>Mon.</h4></span>
+        </div>
+        <div
+          class="col-md-3 d-flex justify-content-center align-items-center my-2"
+        >
+          <div>
+            <!-- audio l1 545-->
+            <audio id="a4p31l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F545.mp3?alt=media&token=1a81396c-a6c7-4871-8cac-a593b944a854"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a4p31l1')"
+              class="btn rounded-pill btn-sm audio"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+          </div>
+
+          <span class="badge bg-info m-1"><h4>Tuesday</h4></span>
+          <span class="badge morado m-1"><h4>Tues.</h4></span>
+        </div>
+        <div
+          class="col-md-3 d-flex justify-content-center align-items-center my-2"
+        >
+          <div>
+            <!-- audio l1 546-->
+            <audio id="a5p31l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F546.mp3?alt=media&token=ed0673f9-b525-4b01-9e3a-565b0394217c"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a5p31l1')"
+              class="btn rounded-pill btn-sm audio"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+          </div>
+
+          <span class="badge bg-info m-1"><h4>Wednesday</h4></span>
+          <span class="badge morado m-1"><h4>Wed.</h4></span>
+        </div>
+        <div
+          class="col-md-3 d-flex justify-content-center align-items-center my-2"
+        >
+          <div>
+            <!-- audio l1 547-->
+            <audio id="a6p31l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F547.mp3?alt=media&token=05297d54-7f51-4d54-a87a-7bfc005b0809"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a6p31l1')"
+              class="btn rounded-pill btn-sm audio"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+          </div>
+
+          <span class="badge bg-info m-1"><h4>Thursday</h4></span>
+          <span class="badge morado m-1"><h4>Thurs.</h4></span>
+        </div>
+        <div
+          class="col-md-3 d-flex justify-content-center align-items-center my-2"
+        >
+          <div>
+            <!-- audio l1 548-->
+            <audio id="a7p31l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F548.mp3?alt=media&token=247c1869-91d0-432e-8749-d9600d019448"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a7p31l1')"
+              class="btn rounded-pill btn-sm audio"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+          </div>
+
+          <span class="badge bg-info m-1"><h4>Friday</h4></span>
+          <span class="badge morado m-1"><h4>Fri.</h4></span>
+        </div>
+        <div
+          class="col-md-3 d-flex justify-content-center align-items-center my-2"
+        >
+          <div>
+            <!-- audio l1 549-->
+            <audio id="a8p31l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F549.mp3?alt=media&token=3b763b75-0d91-40c9-8e77-a63d28393c2e"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a8p31l1')"
+              class="btn rounded-pill btn-sm audio"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+          </div>
+
+          <span class="badge bg-info m-1"><h4>Saturday</h4></span>
+          <span class="badge morado m-1"><h4>Sat.</h4></span>
+        </div>
+      </div>
+    </div>
+    <hr class="my-3" />
+    <div class="col-md-12 table-responsive">
+      <table style="width: 100%" class="table table-striped">
+        <thead>
+          <th>Teacher</th>
+          <th>Student</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <!-- audio l1 550-->
+              <audio id="a9p31l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F550.mp3?alt=media&token=9673ef3a-cd9f-46e6-8442-5de673277339"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a9p31l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              What day is it today?
+            </td>
+            <td class="d-flex align-items-center">
+              <div>
+                <!-- audio l1 551-->
+                <audio id="a10p31l1" aria-label="audio" class="d-none" controls>
+                  <source
+                    type="audio/mp3"
+                    src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F551.mp3?alt=media&token=5ee62f03-1e24-4b2f-8d49-f3e0d7b1c1eb"
+                  />
+                </audio>
+                <button
+                  (click)="reproducirAudio('a10p31l1')"
+                  class="btn rounded-pill btn-sm audio"
+                >
+                  <i class="fas fa-volume-up"></i>
+                </button>
+              </div>
+
+              <input
+                type="text"
+                class="form-control m-1"
+                placeholder=" Today is "
+                name="ans1page33"
+                [(ngModel)]="libro.ans1Page33"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- audio l1 552-->
+              <audio id="a11p31l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F552.mp3?alt=media&token=0516a1dc-1a3c-4048-8b38-e669ed75f5ac"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a11p31l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              What day is it after Friday?
+            </td>
+            <td>
+              <!-- audio l1 553-->
+              <audio id="a12p31l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F553.mp3?alt=media&token=5fbfde3a-ac83-4a82-97a3-b3a37051e90d"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a12p31l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              It’s Saturday
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- audio l1 554-->
+              <audio id="a13p31l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F554.mp3?alt=media&token=5f715403-5d43-4214-b069-eb635bc1dad6"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a13p31l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              What day is it before Monday?
+            </td>
+            <td>
+              <!-- audio l1 555-->
+              <audio id="a14p31l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F555.mp3?alt=media&token=92dc3a79-5149-4dbf-9f3f-8883c97d69c9"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a14p31l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              It’s Sunday
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- audio l1 556-->
+              <audio id="a15p31l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F556.mp3?alt=media&token=0a0a2b1a-9f91-4aa1-b1f3-88c1609c591c"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a15p31l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              What day is it after tomorrow?
+            </td>
+            <td class="d-flex align-items-center">
+              <div>
+                <!-- audio l1 557-->
+                <audio id="a16p31l1" aria-label="audio" class="d-none" controls>
+                  <source
+                    type="audio/mp3"
+                    src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F557.mp3?alt=media&token=32a4644a-61cf-403b-bf14-397c2e234a2a"
+                  />
+                </audio>
+                <button
+                  (click)="reproducirAudio('a16p31l1')"
+                  class="btn rounded-pill btn-sm audio"
+                >
+                  <i class="fas fa-volume-up"></i>
+                </button>
+              </div>
+
+              <input
+                type="text"
+                class="form-control m-1"
+                name="ans2page33"
+                [(ngModel)]="libro.ans2Page33"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- audio l1 558-->
+              <audio id="a17p31l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F558.mp3?alt=media&token=d82f397f-be12-4ec6-a012-a02e0a916ac3"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a17p31l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              What day is before Wednesday?
+            </td>
+            <td class="d-flex align-items-center">
+              <div>
+                <!-- audio l1 559-->
+                <audio id="a18p31l1" aria-label="audio" class="d-none" controls>
+                  <source
+                    type="audio/mp3"
+                    src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F559.mp3?alt=media&token=abcf833c-cba3-49bb-8b34-10d07eeac846"
+                  />
+                </audio>
+                <button
+                  (click)="reproducirAudio('a18p31l1')"
+                  class="btn rounded-pill btn-sm audio"
+                >
+                  <i class="fas fa-volume-up"></i>
+                </button>
+              </div>
+
+              <input
+                type="text"
+                class="form-control m-1"
+                name="ans3page33"
+                [(ngModel)]="libro.ans3Page33"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </div>

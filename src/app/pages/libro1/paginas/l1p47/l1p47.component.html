@@ -1,75 +1,441 @@
 <div>
-    <div class="row">
-        <div class="col-md-12 col-12">
-            <h4 class="my-2">GIVING DIRECTIONS</h4>
-            <div class="row">
-                <div class="col-md-3 col-6">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F149.jpg?alt=media&token=5a5d31c5-f45d-497e-b232-3e77e433c157" class="img-fluid rounded" alt="img">
-                    <h6 class="text-center">1. Around the corner from </h6>
-                </div>
-                <div class="col-md-3 col-6">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F150.jpg?alt=media&token=43215699-a2f5-4a8c-aad4-28e280b43748" class="img-fluid rounded" alt="img">
-                    <h6 class="text-center">2. Across from </h6>
-                </div>
-                <div class="col-md-3 col-6">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F151.jpg?alt=media&token=21025c76-3eee-4d37-acae-be1529150d3a" class="img-fluid rounded" alt="img">
-                    <h6 class="text-center">3. Next t </h6>
-                </div>
-                <div class="col-md-3 col-6">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F152.jpg?alt=media&token=f1fc075f-9451-417c-b1c4-a4af15cd843a" class="img-fluid rounded" alt="img">
-                    <h6 class="text-center">4. Between </h6>
-                </div>
-            </div>
+  <div class="row">
+    <div class="col-md-12 col-12">
+      <h4 class="my-2">
+        <!-- audio l1 673-->
+        <audio id="a1p47l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F673.mp3?alt=media&token=f761dc95-e656-4af6-9cf7-b702ad4f09a6"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a1p47l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        GIVING DIRECTIONS
+      </h4>
+      <div class="row">
+        <div class="col-md-3 col-6">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F149.jpg?alt=media&token=5a5d31c5-f45d-497e-b232-3e77e433c157"
+            class="img-fluid rounded"
+            alt="img"
+          />
+          <h6 class="text-center my-1">
+            <!-- audio l1 674-->
+            <audio id="a2p47l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F674.mp3?alt=media&token=cd45e4ce-43c5-47f0-b538-fe7d9ac4b4bd"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a2p47l1')"
+              class="btn rounded-pill btn-sm audio"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+            1. Around the corner from
+          </h6>
         </div>
-        <div class="col-md-12">
-            <hr class="my-3">
-            <p>Complete the sentence base on the map above.</p>
-            <table class="table table-striped  table-responsive">
-                <thead>
-                    <tr>
-                        <th>TEACHER</th>
-                        <th><span class="badge azul rounded-pill"><i class="fas fa-volume-up"></i></span></th>
-                        <th>STUDENTS</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Movie theater (Next to)</td>
-                        <td><span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span></td>
-                        <td><input type="text" class="form-control" name="" value="There is a movie theater next to the library" disabled></td>
-                    </tr>
-                    <tr>
-                        <td>Fire station (Next to)</td>
-                        <td><span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span></td>
-                        <td><input type="text" class="form-control" name="ans1page48" [(ngModel)]="libro.ans1Page48" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                    <tr>
-                        <td>Clinic (across from)</td>
-                        <td><span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span></td>
-                        <td><input type="text" class="form-control" name="ans2page48" [(ngModel)]="libro.ans2Page48" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                    <tr>
-                        <td>Post office (around the corner from)</td>
-                        <td><span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span></td>
-                        <td><input type="text" class="form-control" name="ans3page48" [(ngModel)]="libro.ans3Page48" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                    <tr>
-                        <td>Supermarket (Between)</td>
-                        <td><span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span></td>
-                        <td><input type="text" class="form-control" name="ans4page48" [(ngModel)]="libro.ans4Page48" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                    <tr>
-                        <td>Gas Station (Next to)</td>
-                        <td><span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span></td>
-                        <td><input type="text" class="form-control" name="ans5page48" [(ngModel)]="libro.ans5Page48" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                    <tr>
-                        <td>School (across from)</td>
-                        <td><span class="badge azul rounded-pill btn"><i class="fas fa-volume-up"></i></span></td>
-                        <td><input type="text" class="form-control" name="ans6page48" [(ngModel)]="libro.ans6Page48" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="col-md-3 col-6">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F150.jpg?alt=media&token=43215699-a2f5-4a8c-aad4-28e280b43748"
+            class="img-fluid rounded"
+            alt="img"
+          />
+          <h6 class="text-center my-1">
+            <!-- audio l1 675-->
+            <audio id="a3p47l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F675.mp3?alt=media&token=a3efc0cd-5249-4440-a358-13d3fb0ae7ec"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a3p47l1')"
+              class="btn rounded-pill btn-sm audio"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+            2. Across from
+          </h6>
         </div>
+        <div class="col-md-3 col-6">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F151.jpg?alt=media&token=21025c76-3eee-4d37-acae-be1529150d3a"
+            class="img-fluid rounded"
+            alt="img"
+          />
+          <h6 class="text-center my-1">
+            <!-- audio l1 676-->
+            <audio id="a4p47l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F676.mp3?alt=media&token=bda3b1d9-96f0-40c5-8203-74ae319e5eea"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a4p47l1')"
+              class="btn rounded-pill btn-sm audio"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+            3. Next to
+          </h6>
+        </div>
+        <div class="col-md-3 col-6">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F152.jpg?alt=media&token=f1fc075f-9451-417c-b1c4-a4af15cd843a"
+            class="img-fluid rounded"
+            alt="img"
+          />
+          <h6 class="text-center my-1">
+            <!-- audio l1 677-->
+            <audio id="a5p47l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F677.mp3?alt=media&token=83f66eba-48c1-41c5-9e51-48a74bbe8dc9"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a5p47l1')"
+              class="btn rounded-pill btn-sm audio"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+            4. Between
+          </h6>
+        </div>
+      </div>
     </div>
+    <div class="col-md-12">
+      <hr class="my-3" />
+      <p>Complete the sentence base on the map above.</p>
+      <table class="table table-striped table-responsive">
+        <thead>
+          <tr>
+            <th>TEACHER</th>
+            <th>
+              <button
+                (click)="reproducirAudio('a?p47l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+            </th>
+            <th>STUDENTS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <!-- audio l1 678-->
+              <audio id="a6p47l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F678.mp3?alt=media&token=b7f1524b-7387-4105-b8b2-3653c7e65781"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a6p47l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i></button
+              >Movie theater (Next to)
+            </td>
+            <td>
+              <!-- audio l1 679-->
+              <audio id="a7p47l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F679.mp3?alt=media&token=5faf19df-f546-4af4-a786-8f3d06c33d89"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a7p47l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+            </td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                name=""
+                value="There is a movie theater next to the library"
+                disabled
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- audio l1 680-->
+              <audio id="a8p47l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F680.mp3?alt=media&token=1b7cd21b-f266-4fb1-8c66-7b2531412bca"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a8p47l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i></button
+              >Fire station (Next to)
+            </td>
+            <td>
+              <!-- audio l1 681-->
+              <audio id="a9p47l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F681.mp3?alt=media&token=b7b2cdab-f1a0-4333-8f94-78f4fd78728f"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a9p47l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+            </td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                name="ans1page48"
+                [(ngModel)]="libro.ans1Page48"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- audio l1 682-->
+              <audio id="a10p47l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F682.mp3?alt=media&token=6d4453e5-1379-4a8a-8f15-2a07df00f47a"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a10p47l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              Clinic (across from)
+            </td>
+            <td>
+              <!-- audio l1 683-->
+              <audio id="a11p47l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F683.mp3?alt=media&token=d4965e98-7159-4710-a6bc-ab74508b2099"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a11p47l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+            </td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                name="ans2page48"
+                [(ngModel)]="libro.ans2Page48"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- audio l1 684-->
+              <audio id="a12p47l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F684.mp3?alt=media&token=56350729-323d-4282-97ab-11b23e39709f"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a12p47l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              Post office (around the corner from)
+            </td>
+            <td>
+              <!-- audio l1 685-->
+              <audio id="a13p47l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F685.mp3?alt=media&token=5909df56-8db7-41ac-8660-f7a5653cfe47"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a13p47l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+            </td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                name="ans3page48"
+                [(ngModel)]="libro.ans3Page48"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- audio l1 686-->
+              <audio id="a14p47l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F686.mp3?alt=media&token=3e9b8006-61da-4f84-b9ea-0e4eb67a678b"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a14p47l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              Supermarket (Between)
+            </td>
+            <td>
+              <!-- audio l1 687-->
+              <audio id="a15p47l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F687.mp3?alt=media&token=e904a5ac-5db0-4692-b4ca-a8bdded4c0ed"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a15p47l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+            </td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                name="ans4page48"
+                [(ngModel)]="libro.ans4Page48"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- audio l1 688-->
+              <audio id="a16p47l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F688.mp3?alt=media&token=3f2aee21-96be-44f4-95f7-130742db166d"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a16p47l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i></button
+              >Gas Station (Next to)
+            </td>
+            <td>
+              <!-- audio l1 689-->
+              <audio id="a17p47l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F689.mp3?alt=media&token=7afe7f2f-43cb-4351-aad0-c08ff9a5ce21"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a17p47l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+            </td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                name="ans5page48"
+                [(ngModel)]="libro.ans5Page48"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- audio l1 690-->
+              <audio id="a18p47l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F690.mp3?alt=media&token=1d1ca72f-1581-4870-91ab-34bbcb669032"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a18p47l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              School (across from)
+            </td>
+            <td>
+              <!-- audio l1 691-->
+              <audio id="a19p47l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F691.mp3?alt=media&token=d71d391d-bbca-48d6-94e2-c3f7f7583252"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a19p47l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+            </td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                name="ans6page48"
+                [(ngModel)]="libro.ans6Page48"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </div>

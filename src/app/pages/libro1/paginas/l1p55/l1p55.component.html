@@ -1,82 +1,520 @@
 <div>
-    <div class="row">
-        <div class="col-md-3">
-            <hr>
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F167.jpg?alt=media&token=c92c0243-07d9-4117-9ee0-0a2b7c590e15" class="img-fluid rounded p-1" alt="img">
-        </div>
-        <div class="col-md-3">
-            <hr>
-            <input type="text" class="form-control m-1 chat chat1" name="" id="" disabled value="A. Is Mario tall?">
-            <input type="text" class="form-control m-1 chat chat2" name="" id="" disabled value="B. Yes, he is.">
-            <input type="text" class="form-control m-1 chat chat1" name="" id="" disabled value="A. Is he short?">
-            <input type="text" class="form-control m-1 chat chat2" name="" id="" disabled value="B. No, he isn't.">
-            <input type="text" class="form-control m-1 chat chat1" name="" id="" disabled value="A. WHAT IS HE LIKE?">
-            <input type="text" class="form-control m-1 chat chat2" name="" id="" disabled value="B. He is tall.">
-        </div>
-        <div class="col-md-3">
-            <hr>
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F170.jpg?alt=media&token=f4d9ef82-4034-43cd-8d1d-99ba09017fbb" class="img-fluid rounded p-1" alt="img">
-        </div>
-        <div class="col-md-3">
-            <hr>
-            <input type="text" placeholder="A" class="form-control chat chat1 m-1" name="ans1page56" [(ngModel)]="libro.ans1Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-            <input type="text" placeholder="B" class="form-control chat chat2 m-1" name="ans2page56" [(ngModel)]="libro.ans2Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-            <input type="text" placeholder="A" class="form-control chat chat1 m-1" name="ans3page56" [(ngModel)]="libro.ans3Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-            <input type="text" placeholder="B" class="form-control chat chat2 m-1" name="ans4page56" [(ngModel)]="libro.ans4Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-            <input type="text" placeholder="A" class="form-control chat chat1 m-1" name="ans5page56" [(ngModel)]="libro.ans5Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-            <input type="text" placeholder="B" class="form-control chat chat2 m-1" name="ans6page56" [(ngModel)]="libro.ans6Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-        </div>
-        <div class="col-md-3">
-            <hr>
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F176.jpg?alt=media&token=15d2ecf7-6311-48cb-8731-103e445c9577" class="img-fluid rounded p-1" alt="img">
-        </div>
-        <div class="col-md-3">
-            <hr>
-            <input type="text" placeholder="A" class="form-control chat chat1 m-1" name="ans7page56" [(ngModel)]="libro.ans7Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-            <input type="text" placeholder="B" class="form-control chat chat2 m-1" name="ans8page56" [(ngModel)]="libro.ans8Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-            <input type="text" placeholder="A" class="form-control chat chat1 m-1" name="ans9page56" [(ngModel)]="libro.ans9Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-            <input type="text" placeholder="B" class="form-control chat chat2 m-1" name="ans10age56" [(ngModel)]="libro.ans10age56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-            <input type="text" placeholder="A" class="form-control chat chat1 m-1" name="ans11page56" [(ngModel)]="libro.ans11Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-            <input type="text" placeholder="B" class="form-control chat chat2 m-1" name="ans12page56" [(ngModel)]="libro.ans12Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-        </div>
-        <div class="col-md-3">
-            <hr>
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F172.jpg?alt=media&token=9ce60e59-2b76-4e7a-9585-f04aa4ea4b63" class="img-fluid rounded p-1" alt="img">
-        </div>
-        <div class="col-md-3">
-            <hr>
-            <input type="text" placeholder="A" class="form-control chat chat1 m-1" name="ans13page56" [(ngModel)]="libro.ans13Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-            <input type="text" placeholder="B" class="form-control chat chat2 m-1" name="ans14page56" [(ngModel)]="libro.ans14Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-            <input type="text" placeholder="A" class="form-control chat chat1 m-1" name="ans15page56" [(ngModel)]="libro.ans15Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-            <input type="text" placeholder="B" class="form-control chat chat2 m-1" name="ans16page56" [(ngModel)]="libro.ans16Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-            <input type="text" placeholder="A" class="form-control chat chat1 m-1" name="ans17page56" [(ngModel)]="libro.ans17Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-            <input type="text" placeholder="B" class="form-control chat chat2 m-1" name="ans18page56" [(ngModel)]="libro.ans18Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-        </div>
-        <div class="col-md-3">
-            <hr>
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F175.jpg?alt=media&token=2d325b18-f7ba-4d81-a1bf-6124393a5d3e" class="img-fluid rounded p-1" alt="img">
-        </div>
-        <div class="col-md-3">
-            <hr>
-            <input type="text" placeholder="A" class="form-control chat chat1 m-1" name="ans19page56" [(ngModel)]="libro.ans19Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-            <input type="text" placeholder="B" class="form-control chat chat2 m-1" name="ans20page56" [(ngModel)]="libro.ans20Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-            <input type="text" placeholder="A" class="form-control chat chat1 m-1" name="ans21page56" [(ngModel)]="libro.ans21Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-            <input type="text" placeholder="B" class="form-control chat chat2 m-1" name="ans22page56" [(ngModel)]="libro.ans22Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-            <input type="text" placeholder="A" class="form-control chat chat1 m-1" name="ans23page56" [(ngModel)]="libro.ans23Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-            <input type="text" placeholder="B" class="form-control chat chat2 m-1" name="ans24page56" [(ngModel)]="libro.ans24Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-        </div>
-        <div class="col-md-3">
-            <hr>
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F171.jpg?alt=media&token=ff4b435b-3089-4ff8-9165-c4719a39a07f" class="img-fluid rounded p-1" alt="img">
-        </div>
-        <div class="col-md-3">
-            <hr>
-            <input type="text" placeholder="A" class="form-control chat chat1 m-1" name="ans25page56" [(ngModel)]="libro.ans25Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-            <input type="text" placeholder="B" class="form-control chat chat2 m-1" name="ans26page56" [(ngModel)]="libro.ans26Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-            <input type="text" placeholder="A" class="form-control chat chat1 m-1" name="ans27page56" [(ngModel)]="libro.ans27Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-            <input type="text" placeholder="B" class="form-control chat chat2 m-1" name="ans28page56" [(ngModel)]="libro.ans28Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-            <input type="text" placeholder="A" class="form-control chat chat1 m-1" name="ans29page56" [(ngModel)]="libro.ans29Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-            <input type="text" placeholder="B" class="form-control chat chat2 m-1" name="ans30page56" [(ngModel)]="libro.ans30Page56" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-        </div>
+  <div class="row">
+    <div class="col-md-3">
+      <hr />
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F167.jpg?alt=media&token=c92c0243-07d9-4117-9ee0-0a2b7c590e15"
+        class="img-fluid rounded p-1"
+        alt="img"
+      />
     </div>
+    <div class="col-md-3">
+      <hr />
+      <div class="d-flex align-items-center">
+        <div>
+          <!-- audio l1 782-->
+          <audio id="a1p55l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F782.mp3?alt=media&token=3d1fdf5a-9e0f-48d2-9907-73f529ba390c"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a1p55l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+        </div>
+        <input
+          type="text"
+          class="form-control m-1 chat chat1"
+          name=""
+          id=""
+          disabled
+          value="A. Is Mario tall?"
+        />
+      </div>
+      <div class="d-flex align-items-center">
+        <div>
+          <!-- audio l1 783-->
+          <audio id="a2p55l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F783.mp3?alt=media&token=75390d6c-dfc4-44e9-bb11-3dc2fa005360"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a2p55l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+        </div>
+        <input
+          type="text"
+          class="form-control m-1 chat chat2"
+          name=""
+          id=""
+          disabled
+          value="B. Yes, he is."
+        />
+      </div>
+      <div class="d-flex align-items-center">
+        <div>
+          <!-- audio l1 784-->
+          <audio id="a3p55l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F784.mp3?alt=media&token=5c547444-2e38-4e88-9e18-d4e5c629d5f6"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a3p55l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+        </div>
+        <input
+          type="text"
+          class="form-control m-1 chat chat1"
+          name=""
+          id=""
+          disabled
+          value="A. Is he short?"
+        />
+      </div>
+      <div class="d-flex align-items-center">
+        <div>
+          <!-- audio l1 785-->
+          <audio id="a4p55l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F785.mp3?alt=media&token=415dc3b1-510a-49af-83c3-7b5169010679"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a4p55l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+        </div>
+        <input
+          type="text"
+          class="form-control m-1 chat chat2"
+          name=""
+          id=""
+          disabled
+          value="B. No, he isn't."
+        />
+      </div>
+      <div class="d-flex align-items-center">
+        <div>
+          <!-- audio l1 786-->
+          <audio id="a5p55l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F786.mp3?alt=media&token=abda1053-a53f-4463-bcc9-e291673c66f9"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a5p55l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+        </div>
+        <input
+          type="text"
+          class="form-control m-1 chat chat1"
+          name=""
+          id=""
+          disabled
+          value="A. WHAT IS HE LIKE?"
+        />
+      </div>
+      <div class="d-flex align-items-center">
+        <div>
+          <!-- audio l1 787-->
+          <audio id="a6p55l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F787.mp3?alt=media&token=695c26ad-b131-4cdd-b2dd-6485786e6b09"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a6p55l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+        </div>
+        <input
+          type="text"
+          class="form-control m-1 chat chat2"
+          name=""
+          id=""
+          disabled
+          value="B. He is tall."
+        />
+      </div>
+    </div>
+    <div class="col-md-3">
+      <hr />
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F170.jpg?alt=media&token=f4d9ef82-4034-43cd-8d1d-99ba09017fbb"
+        class="img-fluid rounded p-1"
+        alt="img"
+      />
+    </div>
+    <div class="col-md-3">
+      <hr />
+      <input
+        type="text"
+        placeholder="A"
+        class="form-control chat chat1 m-1"
+        name="ans1page56"
+        [(ngModel)]="libro.ans1Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="B"
+        class="form-control chat chat2 m-1"
+        name="ans2page56"
+        [(ngModel)]="libro.ans2Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="A"
+        class="form-control chat chat1 m-1"
+        name="ans3page56"
+        [(ngModel)]="libro.ans3Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="B"
+        class="form-control chat chat2 m-1"
+        name="ans4page56"
+        [(ngModel)]="libro.ans4Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="A"
+        class="form-control chat chat1 m-1"
+        name="ans5page56"
+        [(ngModel)]="libro.ans5Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="B"
+        class="form-control chat chat2 m-1"
+        name="ans6page56"
+        [(ngModel)]="libro.ans6Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+    </div>
+    <div class="col-md-3">
+      <hr />
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F176.jpg?alt=media&token=15d2ecf7-6311-48cb-8731-103e445c9577"
+        class="img-fluid rounded p-1"
+        alt="img"
+      />
+    </div>
+    <div class="col-md-3">
+      <hr />
+      <input
+        type="text"
+        placeholder="A"
+        class="form-control chat chat1 m-1"
+        name="ans7page56"
+        [(ngModel)]="libro.ans7Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="B"
+        class="form-control chat chat2 m-1"
+        name="ans8page56"
+        [(ngModel)]="libro.ans8Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="A"
+        class="form-control chat chat1 m-1"
+        name="ans9page56"
+        [(ngModel)]="libro.ans9Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="B"
+        class="form-control chat chat2 m-1"
+        name="ans10age56"
+        [(ngModel)]="libro.ans10age56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="A"
+        class="form-control chat chat1 m-1"
+        name="ans11page56"
+        [(ngModel)]="libro.ans11Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="B"
+        class="form-control chat chat2 m-1"
+        name="ans12page56"
+        [(ngModel)]="libro.ans12Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+    </div>
+    <div class="col-md-3">
+      <hr />
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F172.jpg?alt=media&token=9ce60e59-2b76-4e7a-9585-f04aa4ea4b63"
+        class="img-fluid rounded p-1"
+        alt="img"
+      />
+    </div>
+    <div class="col-md-3">
+      <hr />
+      <input
+        type="text"
+        placeholder="A"
+        class="form-control chat chat1 m-1"
+        name="ans13page56"
+        [(ngModel)]="libro.ans13Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="B"
+        class="form-control chat chat2 m-1"
+        name="ans14page56"
+        [(ngModel)]="libro.ans14Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="A"
+        class="form-control chat chat1 m-1"
+        name="ans15page56"
+        [(ngModel)]="libro.ans15Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="B"
+        class="form-control chat chat2 m-1"
+        name="ans16page56"
+        [(ngModel)]="libro.ans16Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="A"
+        class="form-control chat chat1 m-1"
+        name="ans17page56"
+        [(ngModel)]="libro.ans17Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="B"
+        class="form-control chat chat2 m-1"
+        name="ans18page56"
+        [(ngModel)]="libro.ans18Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+    </div>
+    <div class="col-md-3">
+      <hr />
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F175.jpg?alt=media&token=2d325b18-f7ba-4d81-a1bf-6124393a5d3e"
+        class="img-fluid rounded p-1"
+        alt="img"
+      />
+    </div>
+    <div class="col-md-3">
+      <hr />
+      <input
+        type="text"
+        placeholder="A"
+        class="form-control chat chat1 m-1"
+        name="ans19page56"
+        [(ngModel)]="libro.ans19Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="B"
+        class="form-control chat chat2 m-1"
+        name="ans20page56"
+        [(ngModel)]="libro.ans20Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="A"
+        class="form-control chat chat1 m-1"
+        name="ans21page56"
+        [(ngModel)]="libro.ans21Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="B"
+        class="form-control chat chat2 m-1"
+        name="ans22page56"
+        [(ngModel)]="libro.ans22Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="A"
+        class="form-control chat chat1 m-1"
+        name="ans23page56"
+        [(ngModel)]="libro.ans23Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="B"
+        class="form-control chat chat2 m-1"
+        name="ans24page56"
+        [(ngModel)]="libro.ans24Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+    </div>
+    <div class="col-md-3">
+      <hr />
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F171.jpg?alt=media&token=ff4b435b-3089-4ff8-9165-c4719a39a07f"
+        class="img-fluid rounded p-1"
+        alt="img"
+      />
+    </div>
+    <div class="col-md-3">
+      <hr />
+      <input
+        type="text"
+        placeholder="A"
+        class="form-control chat chat1 m-1"
+        name="ans25page56"
+        [(ngModel)]="libro.ans25Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="B"
+        class="form-control chat chat2 m-1"
+        name="ans26page56"
+        [(ngModel)]="libro.ans26Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="A"
+        class="form-control chat chat1 m-1"
+        name="ans27page56"
+        [(ngModel)]="libro.ans27Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="B"
+        class="form-control chat chat2 m-1"
+        name="ans28page56"
+        [(ngModel)]="libro.ans28Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="A"
+        class="form-control chat chat1 m-1"
+        name="ans29page56"
+        [(ngModel)]="libro.ans29Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="B"
+        class="form-control chat chat2 m-1"
+        name="ans30page56"
+        [(ngModel)]="libro.ans30Page56"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+    </div>
+  </div>
 </div>

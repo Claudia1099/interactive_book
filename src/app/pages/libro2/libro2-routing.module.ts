@@ -1,12 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Libro2Component } from './libro2.component';
+import { Routes } from '@angular/router';
 
-
+const routes: Routes = [
+  {
+    path: '',
+    component: Libro2Component,
+    children: [{ path: 'libro2', component: Libro2Component }],
+  },
+];
 
 @NgModule({
   declarations: [],
-  imports: [
-    CommonModule
-  ]
+  imports: [CommonModule],
 })
-export class Libro2RoutingModule { }
+export class Libro2RoutingModule {}

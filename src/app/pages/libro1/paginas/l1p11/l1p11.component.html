@@ -235,29 +235,35 @@
         class="img-fluid m-1 rounded"
         alt="img"
       />
-      <!-- audio l1 171-->
-      <audio id="a13p11l1" aria-label="audio" class="d-none" controls>
-        <source
-          type="audio/mp3"
-          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F171.mp3?alt=media&token=12e20acc-69db-4012-9f6f-b0f5d8c3e013"
-        />
-      </audio>
-      <button
-        (click)="reproducirAudio('a13p11l1')"
-        class="btn azul rounded-pill text-white btn-sm"
-      >
-        <i class="fas fa-volume-up"></i>
-      </button>
-      <strong>A.</strong>
-      <input
-        class="my-1 form-control input"
-        type="text"
-        name="ans5Page11"
-        [(ngModel)]="libro.ans5Page11"
-        (keyup.enter)="guardarInfo()"
-        (blur)="guardarInfo()"
-        id=""
-      />? <br />
+      <div class="d-flex align-items-center">
+        <!-- audio l1 171-->
+        <div class="d-flex">
+          <div>
+            <audio id="a13p11l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F171.mp3?alt=media&token=12e20acc-69db-4012-9f6f-b0f5d8c3e013"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a13p11l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+          </div>
+          <strong>A.</strong>
+        </div>
+        <input
+          class="my-1 form-control input"
+          type="text"
+          name="ans5Page11"
+          [(ngModel)]="libro.ans5Page11"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />?
+      </div>
       <!-- audio l1 172-->
       <audio id="a14p11l1" aria-label="audio" class="d-none" controls>
         <source
@@ -282,102 +288,128 @@
         (keyup.enter)="guardarInfo()"
         (blur)="guardarInfo()"
         id=""
-      /><br />
-      <!-- audio l1 173-->
-      <audio id="a15p11l1" aria-label="audio" class="d-none" controls>
-        <source
-          type="audio/mp3"
-          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F173.mp3?alt=media&token=cbad9ed5-719e-4c86-a271-12bdcd6c78ab"
-        />
-      </audio>
-      <button
-        (click)="reproducirAudio('a15p11l1')"
-        class="btn azul rounded-pill text-white btn-sm"
-      >
-        <i class="fas fa-volume-up"></i>
-      </button>
-      <strong>A.</strong>
-      <input
-        class="my-1 form-control input"
-        type="text"
-        name="ans7Page11"
-        [(ngModel)]="libro.ans7Page11"
-        (keyup.enter)="guardarInfo()"
-        (blur)="guardarInfo()"
-        id=""
-      />? <br />
-      <!-- audio l1 174-->
-      <audio id="a16p11l1" aria-label="audio" class="d-none" controls>
-        <source
-          type="audio/mp3"
-          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F174.mp3?alt=media&token=1c4aaf8c-f87f-44b9-9878-ba2f83c28ee5"
-        />
-      </audio>
-      <button
-        (click)="reproducirAudio('a16p11l1')"
-        class="btn azul rounded-pill text-white btn-sm"
-      >
-        <i class="fas fa-volume-up"></i>
-      </button>
-      <strong>B.</strong> No,
-      <input
-        size="100"
-        style="width: 100px; height: 30px"
-        class="my-1 form-control input"
-        type="text"
-        name="ans8Page11"
-        [(ngModel)]="libro.ans8Page11"
-        (keyup.enter)="guardarInfo()"
-        (blur)="guardarInfo()"
-        id=""
-      /><br />
-      <!-- audio l1 175-->
-      <audio id="a17p11l1" aria-label="audio" class="d-none" controls>
-        <source
-          type="audio/mp3"
-          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F175.mp3?alt=media&token=64f9614e-0884-44fd-9d6a-54dbfd9bb591"
-        />
-      </audio>
-      <button
-        (click)="reproducirAudio('a17p11l1')"
-        class="btn azul rounded-pill text-white btn-sm"
-      >
-        <i class="fas fa-volume-up"></i>
-      </button>
-      <strong>A.</strong>
-      <input
-        class="my-1 form-control input"
-        type="text"
-        name="ans9Page11"
-        [(ngModel)]="libro.ans9Page11"
-        (keyup.enter)="guardarInfo()"
-        (blur)="guardarInfo()"
-        id=""
       />
-      <br />
-      <!-- audio l1 176-->
-      <audio id="a18p11l1" aria-label="audio" class="d-none" controls>
-        <source
-          type="audio/mp3"
-          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F176.mp3?alt=media&token=234f11fb-8db4-439b-b844-0c5c74e98b52"
+      <div class="d-flex align-items-center">
+        <div class="d-flex">
+          <!-- audio l1 173-->
+          <div>
+            <audio id="a15p11l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F173.mp3?alt=media&token=cbad9ed5-719e-4c86-a271-12bdcd6c78ab"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a15p11l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+          </div>
+          <strong>A.</strong>
+        </div>
+
+        <input
+          class="my-1 form-control input"
+          type="text"
+          name="ans7Page11"
+          [(ngModel)]="libro.ans7Page11"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />?
+      </div>
+
+      <div class="d-flex align-items-center">
+        <div class="d-flex">
+          <!-- audio l1 174-->
+          <div>
+            <audio id="a16p11l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F174.mp3?alt=media&token=1c4aaf8c-f87f-44b9-9878-ba2f83c28ee5"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a16p11l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+          </div>
+          <strong>B.</strong> No,
+        </div>
+        <input
+          size="100"
+          style="width: 100px; height: 30px"
+          class="my-1 form-control input"
+          type="text"
+          name="ans8Page11"
+          [(ngModel)]="libro.ans8Page11"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
         />
-      </audio>
-      <button
-        (click)="reproducirAudio('a18p11l1')"
-        class="btn azul rounded-pill text-white btn-sm"
-      >
-        <i class="fas fa-volume-up"></i>
-      </button>
-      <strong>B.</strong>
-      <input
-        class="my-1 form-control input"
-        type="text"
-        name="ans10Page11"
-        [(ngModel)]="libro.ans10Page11"
-        (keyup.enter)="guardarInfo()"
-        (blur)="guardarInfo()"
-        id=""
-      />
+      </div>
+
+      <div class="d-flex align-items-center">
+        <div class="d-flex">
+          <div>
+            <!-- audio l1 175-->
+            <audio id="a17p11l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F175.mp3?alt=media&token=64f9614e-0884-44fd-9d6a-54dbfd9bb591"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a17p11l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+          </div>
+          <strong>A.</strong>
+        </div>
+        <input
+          class="my-1 form-control input"
+          type="text"
+          name="ans9Page11"
+          [(ngModel)]="libro.ans9Page11"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />
+      </div>
+      <div class="d-flex align-items-center">
+        <div class="d-flex">
+          <div>
+            <!-- audio l1 176-->
+            <audio id="a18p11l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F176.mp3?alt=media&token=234f11fb-8db4-439b-b844-0c5c74e98b52"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a18p11l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+          </div>
+          <strong>B.</strong>
+        </div>
+        <input
+          class="my-1 form-control input"
+          type="text"
+          name="ans10Page11"
+          [(ngModel)]="libro.ans10Page11"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />
+      </div>
     </div>
     <div class="col-md-3 col-12">
       <img
@@ -385,29 +417,35 @@
         class="img-fluid m-1 rounded"
         alt="img"
       />
-      <!-- audio l1 177-->
-      <audio id="a19p11l1" aria-label="audio" class="d-none" controls>
-        <source
-          type="audio/mp3"
-          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F177.mp3?alt=media&token=25522a78-9adf-4a6c-8bb4-40218d8bb85e"
-        />
-      </audio>
-      <button
-        (click)="reproducirAudio('a19p11l1')"
-        class="btn azul rounded-pill text-white btn-sm"
-      >
-        <i class="fas fa-volume-up"></i>
-      </button>
-      <strong>A.</strong>
-      <input
-        class="my-1 form-control input"
-        type="text"
-        name="ans11Page11"
-        [(ngModel)]="libro.ans11Page11"
-        (keyup.enter)="guardarInfo()"
-        (blur)="guardarInfo()"
-        id=""
-      />? <br />
+      <div class="d-flex align-items-center">
+        <div class="d-flex">
+          <div>
+            <!-- audio l1 177-->
+            <audio id="a19p11l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F177.mp3?alt=media&token=25522a78-9adf-4a6c-8bb4-40218d8bb85e"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a19p11l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+          </div>
+          <strong>A.</strong>
+        </div>
+        <input
+          class="my-1 form-control input"
+          type="text"
+          name="ans11Page11"
+          [(ngModel)]="libro.ans11Page11"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />?
+      </div>
       <!-- audio l1 178-->
       <audio id="a20p11l1" aria-label="audio" class="d-none" controls>
         <source
@@ -433,29 +471,35 @@
         (blur)="guardarInfo()"
         id=""
       /><br />
-      <!-- audio l1 179-->
-      <audio id="a21p11l1" aria-label="audio" class="d-none" controls>
-        <source
-          type="audio/mp3"
-          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F179.mp3?alt=media&token=e84143f3-4a88-4356-b8bc-1bb2ccd27372"
-        />
-      </audio>
-      <button
-        (click)="reproducirAudio('a21p11l1')"
-        class="btn azul rounded-pill text-white btn-sm"
-      >
-        <i class="fas fa-volume-up"></i>
-      </button>
-      <strong>A.</strong>
-      <input
-        class="my-1 form-control input"
-        type="text"
-        name="ans13Page11"
-        [(ngModel)]="libro.ans13Page11"
-        (keyup.enter)="guardarInfo()"
-        (blur)="guardarInfo()"
-        id=""
-      />? <br />
+      <div class="d-flex align-items-center">
+        <div class="d-flex">
+          <div>
+            <!-- audio l1 179-->
+            <audio id="a21p11l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F179.mp3?alt=media&token=e84143f3-4a88-4356-b8bc-1bb2ccd27372"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a21p11l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+          </div>
+          <strong>A.</strong>
+        </div>
+        <input
+          class="my-1 form-control input"
+          type="text"
+          name="ans13Page11"
+          [(ngModel)]="libro.ans13Page11"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />?
+      </div>
       <!-- audio l1 180-->
       <audio id="a22p11l1" aria-label="audio" class="d-none" controls>
         <source
@@ -481,53 +525,65 @@
         (blur)="guardarInfo()"
         id=""
       /><br />
-      <!-- audio l1 181-->
-      <audio id="a23p11l1" aria-label="audio" class="d-none" controls>
-        <source
-          type="audio/mp3"
-          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F181.mp3?alt=media&token=adda68d1-2f49-4f37-a259-ff290c1015e7"
+
+      <div class="d-flex align-items-center">
+        <div class="d-flex">
+          <div>
+            <!-- audio l1 181-->
+            <audio id="a23p11l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F181.mp3?alt=media&token=adda68d1-2f49-4f37-a259-ff290c1015e7"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a23p11l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+          </div>
+          <strong>A.</strong>
+        </div>
+        <input
+          class="my-1 form-control input"
+          type="text"
+          name="ans15Page11"
+          [(ngModel)]="libro.ans15Page11"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
         />
-      </audio>
-      <button
-        (click)="reproducirAudio('a23p11l1')"
-        class="btn azul rounded-pill text-white btn-sm"
-      >
-        <i class="fas fa-volume-up"></i>
-      </button>
-      <strong>A.</strong>
-      <input
-        class="my-1 form-control input"
-        type="text"
-        name="ans15Page11"
-        [(ngModel)]="libro.ans15Page11"
-        (keyup.enter)="guardarInfo()"
-        (blur)="guardarInfo()"
-        id=""
-      />
-      <br />
-      <!-- audio l1 182-->
-      <audio id="a24p11l1" aria-label="audio" class="d-none" controls>
-        <source
-          type="audio/mp3"
-          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F182.mp3?alt=media&token=476a4e44-cd20-4f3d-9013-f3154f540e63"
+      </div>
+      <div class="d-flex align-items-center">
+        <div class="d-flex">
+          <!-- audio l1 182-->
+          <div>
+            <audio id="a24p11l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F182.mp3?alt=media&token=476a4e44-cd20-4f3d-9013-f3154f540e63"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a24p11l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+          </div>
+          <strong>B.</strong>
+        </div>
+        <input
+          class="my-1 form-control input"
+          type="text"
+          name="ans16Page11"
+          [(ngModel)]="libro.ans16Page11"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
         />
-      </audio>
-      <button
-        (click)="reproducirAudio('a24p11l1')"
-        class="btn azul rounded-pill text-white btn-sm"
-      >
-        <i class="fas fa-volume-up"></i>
-      </button>
-      <strong>B.</strong>
-      <input
-        class="my-1 form-control input"
-        type="text"
-        name="ans16Page11"
-        [(ngModel)]="libro.ans16Page11"
-        (keyup.enter)="guardarInfo()"
-        (blur)="guardarInfo()"
-        id=""
-      />
+      </div>
     </div>
   </div>
 </div>

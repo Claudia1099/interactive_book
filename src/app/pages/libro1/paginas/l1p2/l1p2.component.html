@@ -66,54 +66,63 @@
       />
     </div>
     <div class="col-md-3">
-      <!-- audio l1 32-->
-      <audio id="a2p2l1" aria-label="audio" class="d-none" controls>
-        <source
-          type="audio/mp3"
-          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F32.mp3?alt=media&token=d0356e50-7602-42ef-b92c-b63ed4b27232"
-        />
-      </audio>
-      <button
-        (click)="reproducirAudio('a2p2l1')"
-        class="btn azul rounded-pill text-white btn-sm"
-      >
-        <i class="fas fa-volume-up"></i>
-      </button>
+      <div class="d-flex align-items-center">
+        <div>
+          <!-- audio l1 32-->
+          <audio id="a2p2l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F32.mp3?alt=media&token=d0356e50-7602-42ef-b92c-b63ed4b27232"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a2p2l1')"
+            class="btn azul rounded-pill text-white btn-sm"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+        </div>
 
-      <input
-        type="text"
-        class="form-control m-1"
-        placeholder="Answer"
-        name="ans1page2"
-        [(ngModel)]="libro.ans3Page2"
-        (keyup.enter)="guardarInfo()"
-        (blur)="guardarInfo()"
-        id=""
-      />
-      - His name is Jefferson.<br />
-      <!-- audio l1 33-->
-      <audio id="a6p2l1" aria-label="audio" class="d-none" controls>
-        <source
-          type="audio/mp3"
-          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F33.mp3?alt=media&token=f6199d29-5b7c-4640-9cd9-1796c8f69609"
+        <input
+          type="text"
+          class="form-control m-1"
+          placeholder="Answer"
+          name="ans1page2"
+          [(ngModel)]="libro.ans3Page2"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
         />
-      </audio>
-      <button
-        (click)="reproducirAudio('a6p2l1')"
-        class="btn azul rounded-pill text-white btn-sm"
-      >
-        <i class="fas fa-volume-up"></i>
-      </button>
-      <input
-        type="text"
-        class="form-control m-1"
-        placeholder="Answer"
-        name="ans1page2"
-        [(ngModel)]="libro.ans4Page2"
-        (keyup.enter)="guardarInfo()"
-        (blur)="guardarInfo()"
-        id=""
-      />- J-E-F-F-E-R-S-O-N
+      </div>
+      - His name is Jefferson.<br />
+      <div class="d-flex align-items-center">
+        <div>
+          <!-- audio l1 33-->
+          <audio id="a6p2l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F33.mp3?alt=media&token=f6199d29-5b7c-4640-9cd9-1796c8f69609"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a6p2l1')"
+            class="btn azul rounded-pill text-white btn-sm"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+        </div>
+        <input
+          type="text"
+          class="form-control m-1"
+          placeholder="Answer"
+          name="ans1page2"
+          [(ngModel)]="libro.ans4Page2"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />
+      </div>
+      - J-E-F-F-E-R-S-O-N
     </div>
     <div class="col-md-3">
       <img

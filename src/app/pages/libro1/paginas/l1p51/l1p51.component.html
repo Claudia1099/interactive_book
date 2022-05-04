@@ -1,74 +1,317 @@
 <div>
-    <div class="row">
-        <div class="col-md-12">
-            <h6>Grammar Flash</h6>
-            <h4 class="text-center my-2">QUESTION FOR QUANTITY</h4>
-        </div>
-        <div class="col-md-5">
-
-            <table class="table table-striped  table-responsive">
-                <thead>
-                    <tr>
-                        <th colspan="3" class="text-center">PLURAL</th>
-
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>How many</th>
-                        <th>Count Noun</th>
-                        <th>are there...</th>
-                    </tr>
-                    <tr>
-                        <td>How many</td>
-                        <td>Windows</td>
-                        <td>are there in the house?</td>
-                    </tr>
-                    <tr>
-                        <td colspan="3" class="text-center">There are 3 windows in the house</td>
-                    </tr>
-                </tbody>
-            </table>
-            <div class="d-flex justify-content-center">
-                <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F6.png?alt=media&token=5790dade-e8ef-4a1c-bf0e-de694b0bd802" class="img-fluid w-50 rounded m-1" alt="img">
-            </div>
-        </div>
-        <div class="col-md-7">
-            <table class="table table-striped  table-responsive">
-                <thead>
-                    <tr>
-                        <th>TEACHER</th>
-                        <th>STUDENTS</th>
-
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>How many windows are there in the house?</td>
-                        <td>How many windows are there in the house?</td>
-                    </tr>
-                    <tr>
-                        <td>(Bedrooms)</td>
-                        <td>How many bedrooms are there in the house?</td>
-                    </tr>
-                    <tr>
-                        <td>(Bathrooms)</td>
-                        <td>How many bathrooms are there in the house?</td>
-                    </tr>
-                    <tr>
-                        <td>Washing machine in the basement</td>
-                        <td>How many washing machine are there in the basement?</td>
-                    </tr>
-                    <tr>
-                        <td>Closets in the bedroom</td>
-                        <td>How many closets are there in the bedroom?</td>
-                    </tr>
-                    <tr>
-                        <td>Answer (2)</td>
-                        <td>There are two closets in the bedroom?</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h6>Grammar Flash</h6>
+      <h4 class="text-center my-2">QUESTION FOR QUANTITY</h4>
     </div>
+    <div class="col-md-5">
+      <table class="table table-striped table-responsive">
+        <thead>
+          <tr>
+            <th colspan="3" class="text-center">
+              <!-- audio l1 716-->
+              <audio id="a1p51l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F716.mp3?alt=media&token=342cc256-fed3-4c52-8062-89ccf866f2e3"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a1p51l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              PLURAL
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>
+              <!-- audio l1 717-->
+              <audio id="a2p51l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F717.mp3?alt=media&token=2dca8e03-d336-4132-b745-c49cf511646d"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a2p51l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              How many
+            </th>
+            <th>
+              <!-- audio l1 718-->
+              <audio id="a3p51l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F718.mp3?alt=media&token=1460b645-bb55-42e1-9b64-f89351d7e0ba"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a3p51l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              Count Noun
+            </th>
+            <th>
+              <!-- audio l1 719-->
+              <audio id="a4p51l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F719.mp3?alt=media&token=117dc557-cebc-4908-b4f3-b89ab0f59026"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a4p51l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              are there...
+            </th>
+          </tr>
+          <tr>
+            <td>How many</td>
+            <td>Windows</td>
+            <td>are there in the house?</td>
+          </tr>
+          <tr>
+            <td colspan="3" class="text-center">
+              There are 3 windows in the house
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="d-flex justify-content-center">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F6.png?alt=media&token=5790dade-e8ef-4a1c-bf0e-de694b0bd802"
+          class="img-fluid w-50 rounded m-1"
+          alt="img"
+        />
+      </div>
+    </div>
+    <div class="col-md-7">
+      <table class="table table-striped table-responsive">
+        <thead>
+          <tr>
+            <th>TEACHER</th>
+            <th>STUDENTS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <!-- audio l1 720-->
+              <audio id="a5p51l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F720.mp3?alt=media&token=f994d58d-40b5-4885-9bef-344b7c9647e3"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a5p51l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              How many windows are there in the house?
+            </td>
+            <td>
+              <!-- audio l1 721-->
+              <audio id="a6p51l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F721.mp3?alt=media&token=66dca0d6-9a89-4570-9856-6cc95e228921"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a6p51l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              How many windows are there in the house?
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- audio l1 722-->
+              <audio id="a7p51l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F722.mp3?alt=media&token=d56a1ea3-826d-4c89-b58f-82f6dd8975bc"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a7p51l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              (Bedrooms)
+            </td>
+            <td>
+              <!-- audio l1 723-->
+              <audio id="a8p51l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F723.mp3?alt=media&token=47b0da4c-bbe1-430f-8b96-81ccfd0070db"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a8p51l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              How many bedrooms are there in the house?
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- audio l1 724-->
+              <audio id="a9p51l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F724.mp3?alt=media&token=48c62dea-5471-4096-ab29-4860d76b83b7"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a9p51l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              (Bathrooms)
+            </td>
+            <td>
+              <!-- audio l1 725-->
+              <audio id="a10p51l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F725.mp3?alt=media&token=e059c44d-38f1-4ce8-a45c-0c9e23752834"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a10p51l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              How many bathrooms are there in the house?
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- audio l1 726-->
+              <audio id="a11p51l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F726.mp3?alt=media&token=ddd8d9df-e5ff-4e08-a5dd-a5f0d88bb812"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a11p51l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              Washing machine in the basement
+            </td>
+            <td>
+              <!-- audio l1 727-->
+              <audio id="a12p51l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F727.mp3?alt=media&token=da924a6f-58ed-4928-98fe-9b9df95359fe"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a12p51l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              How many washing machine are there in the basement?
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- audio l1 728-->
+              <audio id="a13p51l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F728.mp3?alt=media&token=6439dcd3-73db-459e-90ad-e8a79d26da00"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a13p51l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              Closets in the bedroom
+            </td>
+            <td>
+              <!-- audio l1 729-->
+              <audio id="a14p51l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F729.mp3?alt=media&token=445b25d7-3ec7-4e35-8108-6ad718100929"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a14p51l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              How many closets are there in the bedroom?
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- audio l1 730-->
+              <audio id="a15p51l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F730.mp3?alt=media&token=781cdf47-25c9-4b0e-8be6-56b1dae2f2a4"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a15p51l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              Answer (2)
+            </td>
+            <td>
+              <!-- audio l1 31-->
+              <audio id="a16p51l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F731.mp3?alt=media&token=61132f40-b1be-4264-b4ad-33df6f0947f7"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a16p51l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              There are two closets in the bedroom?
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </div>

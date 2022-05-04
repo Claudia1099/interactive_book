@@ -1,22 +1,411 @@
 <div>
-    <div class="row">
-        <div class="col-md-6 text-center">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F38.PNG?alt=media&token=22635e22-b836-4a60-a428-6ebf7a7e2886" class="img-fluid m-1 rounded w-75" alt="img">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F39.PNG?alt=media&token=124c1a1d-dfb1-4af1-be76-bb2251bcd8d6" class="img-fluid m-1 rounded w-75" alt="img">
-        </div>
-        <div class="col-md-6">
-            <ol>
-                <li> Where is your father?<input type="text" class="form-control" placeholder="Answer" name="ans1Page15" [(ngModel)]="libro.ans1Page15" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li> Where is your mother? <input type="text" class="form-control" placeholder="Answer" name="ans2Page15" [(ngModel)]="libro.ans2Page15" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li> Where <input type="text" size=60 style="width : 60px; height : 30px" class="m-1 form-control input" name="ans3Page15" [(ngModel)]="libro.ans3Page15" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> your notebook? <input type="text"
-                        class="form-control" placeholder="Answer" name="ans4Page15" [(ngModel)]="libro.ans4Page15" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li> Where’s the teacher? <input type="text" class="form-control" placeholder="Answer" name="ans5Page15" [(ngModel)]="libro.ans5Page15" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li> Where <input type="text" size=60 style="width : 60px; height : 30px" class="m-1 form-control input" name="ans6Page15" [(ngModel)]="libro.ans6Page15" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> your sharpeners? <input type="text"
-                        class="form-control" placeholder="Answer" name="ans7Page15" [(ngModel)]="libro.ans7Page15" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li> Where is your Pet? <input type="text" class="form-control" placeholder="Answer" name="ans8Page15" [(ngModel)]="libro.ans8Page15" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-                <li> Where <input type="text" size=60 style="width : 60px; height : 30px" class="m-1 form-control input" name="ans9Page15" [(ngModel)]="libro.ans9Page15" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> your new friend <input type="text"
-                        class="form-control" placeholder="Answer" name="ans10Page15" [(ngModel)]="libro.ans10Page15" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""></li>
-            </ol>
-        </div>
+  <div class="row">
+    <div class="col-md-6 text-center">
+      <div class="col-12">
+        <!-- audio 260 l1 -->
+        <audio id="a1p15l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F260.mp3?alt=media&token=a5230471-99fe-4568-9768-6cb6bb42d251"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a1p15l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i></button
+        ><!-- audio 261 l1 -->
+        <audio id="a2p15l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F261.mp3?alt=media&token=42a92074-ec63-4365-8072-d008c1c4b78a"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a2p15l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F38.PNG?alt=media&token=22635e22-b836-4a60-a428-6ebf7a7e2886"
+          class="img-fluid m-1 rounded w-75"
+          alt="img"
+        />
+      </div>
+      <div class="col-12">
+        <!-- audio 262 l1 -->
+        <audio id="a3p15l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F262.mp3?alt=media&token=e1232747-d16a-41cc-935d-962e9062ffec"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a3p15l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i></button
+        ><!-- audio 263 l1 -->
+        <audio id="a4p15l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F263.mp3?alt=media&token=bc1d2ee0-94bb-4c04-982f-43aa27f3dcd8"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a4p15l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F39.PNG?alt=media&token=124c1a1d-dfb1-4af1-be76-bb2251bcd8d6"
+          class="img-fluid m-1 rounded w-75"
+          alt="img"
+        />
+      </div>
     </div>
+    <div class="col-md-6">
+      <ol>
+        <li>
+          <!-- audio 264 l1 -->
+          <audio id="a5p15l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F264.mp3?alt=media&token=88c535ce-c693-4672-8e55-1bf7c9a52573"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a5p15l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          Where is your father?
+          <div class="d-flex align-items-center">
+            <div>
+              <!-- audio 265 l1 -->
+              <audio id="a6p15l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F265.mp3?alt=media&token=ec41b84d-76d7-41e2-8dc6-b62facad4865"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a6p15l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Answer"
+              name="ans1Page15"
+              [(ngModel)]="libro.ans1Page15"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+          </div>
+        </li>
+        <li>
+          <!-- audio 266 l1 -->
+          <audio id="a7p15l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F266.mp3?alt=media&token=c4a34652-ccc6-4d2b-9ca8-ded893f6acda"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a7p15l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          Where is your mother?
+          <div class="d-flex align-items-center">
+            <div>
+              <!-- audio 267 l1 -->
+              <audio id="a8p15l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F267.mp3?alt=media&token=e6da6e32-5385-4538-ac95-d16df4d45af2"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a8p15l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Answer"
+              name="ans2Page15"
+              [(ngModel)]="libro.ans2Page15"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+          </div>
+        </li>
+        <li>
+          <!-- audio 268 l1 -->
+          <audio id="a9p15l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F268.mp3?alt=media&token=05103757-58f0-4681-b448-5d4e446f53d7"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a9p15l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          Where
+          <input
+            type="text"
+            size="60"
+            style="width: 60px; height: 30px"
+            class="m-1 form-control input"
+            name="ans3Page15"
+            [(ngModel)]="libro.ans3Page15"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          your notebook?
+          <div class="d-flex align-items-center">
+            <div>
+              <!-- audio 269 l1 -->
+              <audio id="a10p15l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F269.mp3?alt=media&token=767b0bad-798d-408a-bc45-acff420737b0"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a10p15l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Answer"
+              name="ans4Page15"
+              [(ngModel)]="libro.ans4Page15"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+          </div>
+        </li>
+        <li>
+          <!-- audio 270 l1 -->
+          <audio id="a11p15l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F270.mp3?alt=media&token=e49497dc-280e-4827-98d7-b44fc73acb5e"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a11p15l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          Where’s the teacher?
+          <div class="d-flex align-items-center">
+            <div>
+              <!-- audio 271 l1 -->
+              <audio id="a12p15l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F271.mp3?alt=media&token=a8611a4f-df5a-4c84-832c-8d78cc3f57f0"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a12p15l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Answer"
+              name="ans5Page15"
+              [(ngModel)]="libro.ans5Page15"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+          </div>
+        </li>
+        <li>
+          <!-- audio 272 l1 -->
+          <audio id="a13p15l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F272.mp3?alt=media&token=9c744de5-52e5-4b86-b522-02ff1c194b6e"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a13p15l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          Where
+          <input
+            type="text"
+            size="60"
+            style="width: 60px; height: 30px"
+            class="m-1 form-control input"
+            name="ans6Page15"
+            [(ngModel)]="libro.ans6Page15"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          your sharpeners?
+          <div class="d-flex align-items-center">
+            <div>
+              <!-- audio 273 l1 -->
+              <audio id="a14p15l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F273.mp3?alt=media&token=71694528-7984-4dd2-8ee2-448403301254"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a14p15l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Answer"
+              name="ans7Page15"
+              [(ngModel)]="libro.ans7Page15"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+          </div>
+        </li>
+        <li>
+          <!-- audio 274 l1 -->
+          <audio id="a15p15l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F274.mp3?alt=media&token=8d950a67-f841-4853-a75f-529fc2729f6f"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a15p15l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          Where is your Pet?
+          <div class="d-flex align-items-center">
+            <div>
+              <!-- audio 275 l1 -->
+              <audio id="a16p15l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F275.mp3?alt=media&token=01ed3fcc-0774-4724-83e5-800a076266db"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a16p15l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Answer"
+              name="ans8Page15"
+              [(ngModel)]="libro.ans8Page15"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+          </div>
+        </li>
+        <li>
+          <!-- audio 276 l1 -->
+          <audio id="a17p15l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F276.mp3?alt=media&token=30757bb3-e51d-4974-a786-dbd989f04cf5"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a17p15l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          Where
+          <input
+            type="text"
+            size="60"
+            style="width: 60px; height: 30px"
+            class="m-1 form-control input"
+            name="ans9Page15"
+            [(ngModel)]="libro.ans9Page15"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          your new friend
+          <div class="d-flex align-items-center">
+            <div>
+              <!-- audio 277 l1 -->
+              <audio id="a18p15l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F277.mp3?alt=media&token=1c3b41df-d685-41a4-b673-5bce9d10a2ae"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a18p15l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Answer"
+              name="ans10Page15"
+              [(ngModel)]="libro.ans10Page15"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+          </div>
+        </li>
+      </ol>
+    </div>
+  </div>
 </div>

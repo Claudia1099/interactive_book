@@ -1,39 +1,458 @@
 <div>
-    <div class="row">
-        <div class="col-md-4">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F62.jpg?alt=media&token=63e87307-ccfb-4194-9608-548375609d1f" class="img-fluid m-1 rounded w-75" alt="img"><br>
-            <strong> A.</strong> Whose necklace is this?<br>
-            <strong> B.</strong> P.A: it’s her necklace<br> P.P: it’s hers
-        </div>
-        <div class="col-md-4">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F63.jpg?alt=media&token=74f6c476-bcb2-449b-a23d-bc33db8c25f7" class="img-fluid m-1 rounded w-75" alt="img"><br>
-            <strong> A.</strong> Whose necklace is this?
-            <strong> B.</strong> <input type="text" placeholder="P.A:" class="form-control" name="ans1Page26" [(ngModel)]="libro.ans1Page26" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> <input type="text" placeholder="P.P:" class="form-control"
-                name="ans2Page26" [(ngModel)]="libro.ans2Page26" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-        </div>
-        <div class="col-md-4">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F64.jpg?alt=media&token=2891b4ed-e02d-4bf3-bb07-b3f94c2a9c76" class="img-fluid m-1 rounded w-75" alt="img"><br>
-            <strong> A.</strong> Whose tie is this?
-            <strong> B.</strong> <input type="text" placeholder="P.A:" class="form-control" name="ans3Page26" [(ngModel)]="libro.ans3Page26" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> <input type="text" placeholder="P.P:" class="form-control"
-                name="ans4Page26" [(ngModel)]="libro.ans4Page26" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-        </div>
-        <div class="col-md-4">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F65.jpg?alt=media&token=b1d5186e-7f1c-4a95-a135-426f52c33a25" class="img-fluid m-1 rounded w-75" alt="img"><br>
-            <strong> A.</strong> Whose glasses are these?
-            <strong> B.</strong> <input type="text" placeholder="P.A:" class="form-control" name="ans5Page26" [(ngModel)]="libro.ans5Page26" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> <input type="text" placeholder="P.P:" class="form-control"
-                name="ans6Page26" [(ngModel)]="libro.ans6Page26" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-        </div>
-        <div class="col-md-4">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F66.jpg?alt=media&token=d1ecd555-187e-4f44-a4a8-603e5ef17f84" class="img-fluid m-1 rounded w-75" alt="img"><br>
-            <strong> A.</strong>Whose watches are these?
-            <strong> B.</strong> <input type="text" placeholder="P.A:" class="form-control" name="ans7Page26" [(ngModel)]="libro.ans7Page26" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> <input type="text" placeholder="P.P:" class="form-control"
-                name="ans8Page26" [(ngModel)]="libro.ans8Page26" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-        </div>
-        <div class="col-md-4">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F67.jpg?alt=media&token=2219bce7-430e-4719-9e54-37b09e7bb583" class="img-fluid m-1 rounded w-75" alt="img"><br>
-            <strong> A.</strong> Whose earrings are these?
-            <strong> B.</strong> <input type="text" placeholder="P.A:" class="form-control" name="ans9Page26" [(ngModel)]="libro.ans9Page26" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""> <input type="text" placeholder="P.P:" class="form-control"
-                name="ans10Page26" [(ngModel)]="libro.ans10Page26" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-        </div>
+  <div class="row">
+    <div class="col-md-4">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F62.jpg?alt=media&token=63e87307-ccfb-4194-9608-548375609d1f"
+        class="img-fluid m-1 rounded w-75"
+        alt="img"
+      /><br />
+      <strong
+        ><!-- audio l1 430 -->
+        <audio id="a1p25l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F430.mp3?alt=media&token=d4ba08dd-7e94-49c2-a3d1-c3e0ac1f3314"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a1p25l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        A.</strong
+      >
+      Whose necklace is this?<br />
+      <strong> B.</strong>
+      <ul>
+        <li>
+          <!-- audio l1 -->
+          <!-- <audio id="a2p25l1" aria-label="audio" class="d-none" controls>
+            <source type="audio/mp3" src="" />
+          </audio>
+          <button
+            (click)="reproducirAudio('a2p25l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button> -->
+          P.A: it’s her necklace
+        </li>
+        <li>
+          <!-- audio l1 -->
+          <!-- <audio id="a3p25l1" aria-label="audio" class="d-none" controls>
+            <source type="audio/mp3" src="" />
+          </audio>
+          <button
+            (click)="reproducirAudio('a3p25l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button> -->
+          P.P: it’s hers
+        </li>
+      </ul>
     </div>
+    <div class="col-md-4">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F63.jpg?alt=media&token=74f6c476-bcb2-449b-a23d-bc33db8c25f7"
+        class="img-fluid m-1 rounded w-75"
+        alt="img"
+      /><br />
+      <strong
+        ><!-- audio l1 431-->
+        <audio id="a4p25l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F431.mp3?alt=media&token=b37c5d52-0d4f-44b8-9831-d111fdcca5e5"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a4p25l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        A.</strong
+      >
+      Whose chains is this? <strong> B.</strong>
+      <div class="d-flex align-items-center">
+        <div class="d-flex">
+          <!-- audio l1 432-->
+          <audio id="a5p25l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F432.mp3?alt=media&token=1157f8dd-1b49-4d99-afbb-8d8be092805f"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a5p25l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          <div>P.A:</div>
+        </div>
+        <input
+          type="text"
+          placeholder="P.A:"
+          class="form-control mb-1"
+          name="ans1Page26"
+          [(ngModel)]="libro.ans1Page26"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />
+      </div>
+      <div class="d-flex align-items-center">
+        <div class="d-flex">
+          <!-- audio l1 433-->
+          <audio id="a6p25l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F433.mp3?alt=media&token=6f05b027-54e5-4188-95e5-2329d9caa09c"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a6p25l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          <div>P.P:</div>
+        </div>
+        <input
+          type="text"
+          placeholder="P.P:"
+          class="form-control mb-1"
+          name="ans2Page26"
+          [(ngModel)]="libro.ans2Page26"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />
+      </div>
+    </div>
+    <div class="col-md-4">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F64.jpg?alt=media&token=2891b4ed-e02d-4bf3-bb07-b3f94c2a9c76"
+        class="img-fluid m-1 rounded w-75"
+        alt="img"
+      /><br />
+      <strong
+        ><!-- audio l1 434-->
+        <audio id="a7p25l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F434.mp3?alt=media&token=d8a6a928-feca-47f9-bda2-823b8eb77180"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a7p25l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        A.</strong
+      >
+      Whose tie is this?
+      <strong> B.</strong>
+      <div class="d-flex align-items-center">
+        <div class="d-flex">
+          <!-- audio l1 435-->
+          <audio id="a8p25l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F435.mp3?alt=media&token=da8782aa-4fa3-4f6f-a7a7-f2c7e6e12373"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a8p25l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          <div>P.A:</div>
+        </div>
+        <input
+          type="text"
+          placeholder="P.A:"
+          class="form-control mb-1"
+          name="ans3Page26"
+          [(ngModel)]="libro.ans3Page26"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />
+      </div>
+      <div class="d-flex align-items-center">
+        <div class="d-flex">
+          <!-- audio l1 436-->
+          <audio id="a9p25l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F436.mp3?alt=media&token=103673fa-aa6d-403d-92ed-cf18bce08646"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a9p25l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          <div>P.P:</div>
+        </div>
+        <input
+          type="text"
+          placeholder="P.P:"
+          class="form-control mb-1"
+          name="ans4Page26"
+          [(ngModel)]="libro.ans4Page26"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F65.jpg?alt=media&token=b1d5186e-7f1c-4a95-a135-426f52c33a25"
+        class="img-fluid m-1 rounded w-75"
+        alt="img"
+      /><br />
+      <strong
+        ><!-- audio l1 437-->
+        <audio id="a10p25l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F437.mp3?alt=media&token=62afb48c-7dec-4f89-9ea9-912373cc2873"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a10p25l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        A.</strong
+      >
+      Whose glasses are these? <strong> B.</strong>
+      <div class="d-flex align-items-center">
+        <div class="d-flex">
+          <!-- audio l1 438-->
+          <audio id="a11p25l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F438.mp3?alt=media&token=ce065404-e6ed-4835-85f0-efb5e588e678"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a11p25l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          <div>P.A:</div>
+        </div>
+        <input
+          type="text"
+          placeholder="P.A:"
+          class="form-control mb-1"
+          name="ans5Page26"
+          [(ngModel)]="libro.ans5Page26"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />
+      </div>
+      <div class="d-flex align-items-center">
+        <div class="d-flex">
+          <!-- audio l1 439-->
+          <audio id="a12p25l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F439.mp3?alt=media&token=83ab83f5-0bf3-4239-9ec7-b38a0c5385b0"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a12p25l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          <div>P.P:</div>
+        </div>
+        <input
+          type="text"
+          placeholder="P.P:"
+          class="form-control mb-1"
+          name="ans6Page26"
+          [(ngModel)]="libro.ans6Page26"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />
+      </div>
+    </div>
+    <div class="col-md-4">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F66.jpg?alt=media&token=d1ecd555-187e-4f44-a4a8-603e5ef17f84"
+        class="img-fluid m-1 rounded w-75"
+        alt="img"
+      /><br />
+      <strong
+        ><!-- audio l1 440-->
+        <audio id="a13p25l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F440.mp3?alt=media&token=008f7575-f9da-49d9-9e2d-4bd69b92e751"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a13p25l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        A.</strong
+      >Whose watches are these? <strong> B.</strong>
+      <div class="d-flex align-items-center">
+        <div class="d-flex">
+          <!-- audio l1 441-->
+          <audio id="a14p25l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F441.mp3?alt=media&token=37e58ada-c164-4c5f-8b16-03c61c1e9b38"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a14p25l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          <div>P.A:</div>
+        </div>
+        <input
+          type="text"
+          placeholder="P.A:"
+          class="form-control mb-1"
+          name="ans7Page26"
+          [(ngModel)]="libro.ans7Page26"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />
+      </div>
+      <div class="d-flex align-items-center">
+        <div class="d-flex">
+          <!-- audio l1 442-->
+          <audio id="a15p25l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F442.mp3?alt=media&token=57846830-b2c2-4169-a8b9-15ab5e852bcb"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a15p25l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          <div>P.P:</div>
+        </div>
+        <input
+          type="text"
+          placeholder="P.P:"
+          class="form-control mb-1"
+          name="ans8Page26"
+          [(ngModel)]="libro.ans8Page26"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />
+      </div>
+    </div>
+    <div class="col-md-4">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F67.jpg?alt=media&token=2219bce7-430e-4719-9e54-37b09e7bb583"
+        class="img-fluid m-1 rounded w-75"
+        alt="img"
+      /><br />
+      <strong
+        ><!-- audio l1 443-->
+        <audio id="a16p25l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F443.mp3?alt=media&token=23c90d31-5621-40a1-a0d1-9783976224ff"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a16p25l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        A.</strong
+      >
+      Whose earrings are these? <strong> B.</strong>
+      <div class="d-flex align-items-center">
+        <div class="d-flex">
+          <!-- audio l1 444-->
+          <audio id="a17p25l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F444.mp3?alt=media&token=09cf4ceb-2299-4f2d-94bf-eb52dba11dee"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a17p25l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          <div>P.A:</div>
+        </div>
+        <input
+          type="text"
+          placeholder="P.A:"
+          class="form-control mb-1"
+          name="ans9Page26"
+          [(ngModel)]="libro.ans9Page26"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />
+      </div>
+      <div class="d-flex align-items-center">
+        <div class="d-flex">
+          <!-- audio l1 445-->
+          <audio id="a18p25l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F445.mp3?alt=media&token=cadca704-b8a8-4929-ab0b-e675d29a99f6"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a18p25l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          <div>P.P:</div>
+        </div>
+        <input
+          type="text"
+          placeholder="P.P:"
+          class="form-control mb-1"
+          name="ans10Page26"
+          [(ngModel)]="libro.ans10Page26"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />
+      </div>
+    </div>
+  </div>
 </div>

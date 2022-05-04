@@ -1,48 +1,365 @@
 <div>
-    <div class="row">
-        <div class="col-md-12 mb-3">
-            <h1><span class="badge bg-warning my-2">Class 5</span></h1>
-            <h3 class="text-center"><span class="badge azul rounded-pill"><i class="fas fa-volume-up"></i></span> POSSESSIVE ADJECTIVES </h3>
-        </div>
-        <div class="col-md-6">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F40.jpg?alt=media&token=cda50f8c-fb48-4c5b-80d0-b296aa8d1ee7" class="img-fluid m-1 rounded" alt="img">
-        </div>
-        <div class="col-md-3">
-            <ul>
-                <span class="badge bg-primary"><h6>marriage</h6></span>
-                <li>1. Wife</li>
-                <li>2. Husband</li>
-                <br>
-                <span class="badge bg-primary"><h6>Parents</h6></span>
-                <li>3. Mother</li>
-                <li>4. Father</li>
-                <br>
-                <span class="badge bg-primary"><h6>Children</h6></span>
-                <li>5. Daughter</li>
-                <li>6. Son</li>
-                <li>7. Sister</li>
-                <li>8. Brother</li>
-                <br>
-
-            </ul>
-        </div>
-        <div class="col-md-3">
-            <ul>
-                <span class="badge bg-primary"><h6>Grandparents</h6></span>
-                <li>9. Grandmother</li>
-                <li>10. Grandfather</li>
-                <br>
-                <span class="badge bg-primary"><h6>Grandchildren</h6></span>
-                <li>11. Granddaughter</li>
-                <li>12. Grandson</li>
-                <br>
-                <span class="badge bg-primary"><h6> more family</h6></span>
-                <li>13. Aunt</li>
-                <li>14. Uncle</li>
-                <li>15. Niece</li>
-                <li>16. Nephew</li>
-                <li>17. Cousin</li>
-            </ul>
-        </div>
+  <div class="row">
+    <div class="col-md-12 mb-3">
+      <h1><span class="badge bg-warning my-2">Class 5</span></h1>
+      <h3 class="text-center">
+        <!-- audio 365 l1 -->
+        <audio id="a1p18l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F365.mp3?alt=media&token=b9ccfc56-d9fc-4bac-a4af-88cea62d4320"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a1p18l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        POSSESSIVE ADJECTIVES
+      </h3>
     </div>
+    <div class="col-md-6">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F40.jpg?alt=media&token=cda50f8c-fb48-4c5b-80d0-b296aa8d1ee7"
+        class="img-fluid m-1 rounded"
+        alt="img"
+      />
+    </div>
+    <div class="col-md-3">
+      <ul>
+        <span class="badge morado my-1"><h6>marriage</h6></span>
+        <li>
+          <!-- audio 278 l1 -->
+          <audio id="a2p18l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F278.mp3?alt=media&token=bdc32a48-2098-474b-9c32-b2211f39ff76"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a2p18l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          1. Wife
+        </li>
+        <li>
+          <!-- audio 279 l1 -->
+          <audio id="a3p18l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F279.mp3?alt=media&token=3efe70d8-bacb-45af-8683-d761228c7c26"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a3p18l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          2. Husband
+        </li>
+        <br /><!-- audio 280 l1 -->
+        <audio id="a4p18l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F280.mp3?alt=media&token=475dda89-ac55-434f-8496-dd51393a60a2"
+          />
+        </audio>
+
+        <span
+          (click)="reproducirAudio('a4p18l1')"
+          class="btn badge morado my-1"
+        >
+          <h6><i class="fas fa-volume-up"></i> Parents</h6></span
+        >
+        <li>
+          <!-- audio 281 l1 -->
+          <audio id="a5p18l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F281.mp3?alt=media&token=51df79de-359c-4ee8-829e-20f0219cf6c3"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a5p18l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          3. Mother
+        </li>
+        <li>
+          <!-- audio 282 l1 -->
+          <audio id="a6p18l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F282.mp3?alt=media&token=e8cb24a8-e559-4c37-a823-97b345b1dc6e"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a6p18l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          4. Father
+        </li>
+        <br /><!-- audio 283 l1 -->
+        <audio id="a7p18l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F283.mp3?alt=media&token=5b72a68d-d08a-40e5-b106-9c86b030ad16"
+          />
+        </audio>
+
+        <span (click)="reproducirAudio('a7p18l1')" class="badge morado my-1 btn"
+          ><h6><i class="fas fa-volume-up"></i> Children</h6></span
+        >
+        <li>
+          <!-- audio 284 l1 -->
+          <audio id="a8p18l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F284.mp3?alt=media&token=29566e82-d651-48eb-b870-78f6ff13e135"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a8p18l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          5. Daughter
+        </li>
+        <li>
+          <!-- audio 285 l1 -->
+          <audio id="a9p18l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F285.mp3?alt=media&token=a48a7d6d-58a9-4250-bd72-a27bc4681a7b"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a9p18l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          6. Son
+        </li>
+        <li>
+          <!-- audio 286 l1 -->
+          <audio id="a10p18l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F286.mp3?alt=media&token=a5871acc-3746-4491-97bf-7682d0cbe7fe"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a10p18l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          7. Sister
+        </li>
+        <li>
+          <!-- audio 287 l1 -->
+          <audio id="a11p18l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F287.mp3?alt=media&token=74f88887-9da7-438b-a62d-26f45de3daea"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a11p18l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          8. Brother
+        </li>
+        <br />
+      </ul>
+    </div>
+    <div class="col-md-3">
+      <ul>
+        <!-- audio 288 l1 -->
+        <audio id="a12p18l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F288.mp3?alt=media&token=aa067ad2-71a4-4ab1-9bba-4ad959cde76d"
+          />
+        </audio>
+
+        <span
+          (click)="reproducirAudio('a12p18l1')"
+          class="badge morado btn my-1"
+          ><h6><i class="fas fa-volume-up"></i> Grandparents</h6></span
+        >
+        <li>
+          <!-- audio 289 l1 -->
+          <audio id="a13p18l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F289.mp3?alt=media&token=d56a29ff-4198-4dab-a32e-8837bc8f1746"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a13p18l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          9. Grandmother
+        </li>
+        <li>
+          <!-- audio 290 l1 -->
+          <audio id="a14p18l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F290.mp3?alt=media&token=d7c382bf-f092-48fd-8b6b-6de03343fdfb"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a14p18l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          10. Grandfather
+        </li>
+        <br /><!-- audio 291 l1 -->
+        <audio id="a15p18l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F291.mp3?alt=media&token=9650d65e-a0df-46ff-8aa6-a3f02e03b933"
+          />
+        </audio>
+
+        <span
+          (click)="reproducirAudio('a15p18l1')"
+          class="badge morado btn my-1"
+          ><h6><i class="fas fa-volume-up"></i> Grandchildren</h6></span
+        >
+        <li>
+          <!-- audio 292 l1 -->
+          <audio id="a16p18l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F292.mp3?alt=media&token=10ee92ef-a333-481b-92c9-af28efef59c7"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a16p18l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          11. Granddaughter
+        </li>
+        <li>
+          <!-- audio 293 l1 -->
+          <audio id="a17p18l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F293.mp3?alt=media&token=08dfee72-e678-4b30-aade-f2833b5fcee8"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a17p18l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          12. Grandson
+        </li>
+        <br />
+        <span class="badge morado my-1"><h6>more family</h6></span>
+        <li>
+          <!-- audio 294 l1 -->
+          <audio id="a18p18l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F294.mp3?alt=media&token=39e1d3ef-ad58-4d27-ab26-f3593e7f22da"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a18p18l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          13. Aunt
+        </li>
+        <li>
+          <!-- audio 295 l1 -->
+          <audio id="a19p18l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F295.mp3?alt=media&token=e02d84af-67ce-40a9-87fc-9388b47206f5"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a19p18l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          14. Uncle
+        </li>
+        <li>
+          <!-- audio 296 l1 -->
+          <audio id="a20p18l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F296.mp3?alt=media&token=31c08a37-8c50-4447-9660-f6ce34a1f368"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a20p18l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          15. Niece
+        </li>
+        <li>
+          <!-- audio 297 l1 -->
+          <audio id="a21p18l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F297.mp3?alt=media&token=1ab8c0b2-7fee-4c64-94e3-b61a4fdec0f1"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a21p18l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          16. Nephew
+        </li>
+        <li>
+          <!-- audio 298 l1 -->
+          <audio id="a22p18l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F298.mp3?alt=media&token=a2f99b40-76da-40dc-b157-a71ee45fbc7b"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a22p18l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          17. Cousin
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>

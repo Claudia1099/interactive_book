@@ -1,35 +1,344 @@
 <div>
-    <div class="row">
-        <div class="col-md-6 d-flex align-items-center text-center">
-            <div class="text-center">
-                <h6 class="mb-5">Grammar flash:</h6>
-                <h4>DEMONSTRATIVE ADJECTIVES</h4>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2Fcuadropag37.png?alt=media&token=f8600394-798f-49b3-9cbd-273f8801151d" class="img-fluid rounded" alt="img">
-        </div>
-
-        <hr class="my-3">
-        <div class="col-md-3 ">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F106.jpg?alt=media&token=75d1bc8c-1100-4770-8f28-23ebd8748d2b" class="img-fluid rounded mb-1" alt="img">
-            <p><b>A. </b>How much is that tie?<br>
-                <b>B.</b> It's U$ 2.50</p>
-        </div>
-        <div class="col-md-3 ">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F107.jpg?alt=media&token=c4d016a9-1495-47c0-b55f-a6d4c5c8b330" class="img-fluid rounded mb-1" alt="img">
-            <p><b>A. </b>How much are those shoes?<br>
-                <b>B.</b> They are U$ 10.50</p>
-        </div>
-        <div class="col-md-3 ">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F108.jpg?alt=media&token=983cbbdf-f203-43dd-99b2-30e538269882" class="img-fluid rounded mb-1" alt="img">
-            <b>A.</b> <input type="text" class="form-control input" name="ans1page38" [(ngModel)]="libro.ans1Page38" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""><br>
-            <b>B.</b> <input type="text" class="form-control input" name="ans2page38" [(ngModel)]="libro.ans2Page38" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-        </div>
-        <div class="col-md-3 ">
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F109.PNG?alt=media&token=f6a21d47-6d58-497c-bf56-3f9479c4877b" class="img-fluid rounded mb-1" alt="img">
-            <b>A.</b> <input type="text" class="form-control input" name="ans3page38" [(ngModel)]="libro.ans3Page38" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""><br>
-            <b>B.</b> <input type="text" class="form-control input" name="ans4page38" [(ngModel)]="libro.ans4Page38" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-        </div>
+  <div class="row">
+    <div class="col-md-6 d-flex align-items-center text-center">
+      <div class="text-center">
+        <h6 class="mb-5">Grammar flash:</h6>
+        <h4>
+          <!-- audio l1 573-->
+          <audio id="a1p37l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F573.mp3?alt=media&token=bf19486f-c385-449d-a884-e304db5b9b09"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a1p37l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i></button
+          >DEMONSTRATIVE ADJECTIVES
+        </h4>
+      </div>
     </div>
+    <div class="col-md-6">
+      <!-- <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2Fcuadropag37.png?alt=media&token=f8600394-798f-49b3-9cbd-273f8801151d" class="img-fluid rounded" alt="img"> -->
+      <table
+        class="table table-bordered table-responsive table-primary text-center"
+      >
+        <thead>
+          <tr>
+            <th colspan="2">
+              <!-- audio l1 574-->
+              <audio id="a2p37l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F574.mp3?alt=media&token=8f4aa9cf-bf04-4fa5-a60b-dc86b3075da9"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a2p37l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              SINGULAR
+            </th>
+            <th colspan="2">
+              <!-- audio l1 577-->
+              <audio id="a3p37l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F577.mp3?alt=media&token=a7b09b85-0141-4009-a862-026c641ce9ea"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a3p37l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              PLURAL
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              Contact <i class="fas fa-long-arrow-alt-right"></i>
+              <!-- audio l1 575-->
+              <audio id="a4p37l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F575.mp3?alt=media&token=e519bbf7-bc10-48f4-8fac-4ce5c5fbfe16"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a4p37l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              this
+            </td>
+            <td rowspan="2">is</td>
+            <td>
+              Contact <i class="fas fa-long-arrow-alt-right"></i>
+              <!-- audio l1 578-->
+              <audio id="a5p37l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F578.mp3?alt=media&token=e8799c59-6fa0-4cad-9530-48350da987c7"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a5p37l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              these
+            </td>
+            <td rowspan="2">are</td>
+          </tr>
+          <tr>
+            <td>
+              No contact <i class="fas fa-long-arrow-alt-right"></i>
+              <!-- audio l1 576-->
+              <audio id="a6p37l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F576.mp3?alt=media&token=1bda8a92-9941-4904-a18c-01886b490f55"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a6p37l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              that
+            </td>
+
+            <td>
+              No contact <i class="fas fa-long-arrow-alt-right"></i>
+              <!-- audio l1 579-->
+              <audio id="a7p37l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F579.mp3?alt=media&token=8f3d636c-a9bd-442e-96fb-5de8c382728a"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a7p37l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              those
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <hr class="my-3" />
+    <div class="col-md-3">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F106.jpg?alt=media&token=75d1bc8c-1100-4770-8f28-23ebd8748d2b"
+        class="img-fluid rounded mb-1"
+        alt="img"
+      />
+      <p>
+        <b>
+          <!-- audio l1 580-->
+          <audio id="a8p37l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F580.mp3?alt=media&token=2e6cc674-01f0-4844-9e7f-f1cf54ae6068"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a8p37l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          A. </b
+        >How much is that tie?<br />
+        <b>
+          <!-- audio l1 581-->
+          <audio id="a9p37l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F581.mp3?alt=media&token=21bab520-88a3-422e-b09b-c626df78a9d3"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a9p37l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          B.</b
+        >
+        It's U$ 2.50
+      </p>
+    </div>
+    <div class="col-md-3">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F107.jpg?alt=media&token=c4d016a9-1495-47c0-b55f-a6d4c5c8b330"
+        class="img-fluid rounded mb-1"
+        alt="img"
+      />
+      <p>
+        <b>
+          <!-- audio l1 582-->
+          <audio id="a10p37l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F582.mp3?alt=media&token=288fbc71-87a9-4098-8f0e-2e9b7a2b0d6c"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a10p37l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          A. </b
+        >How much are those shoes?<br />
+        <b>
+          <!-- audio l1 583-->
+          <audio id="a11p37l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F583.mp3?alt=media&token=9bbe8571-e2d5-4232-b3cf-300571e012b9"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a11p37l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          B.</b
+        >
+        They are U$ 10.50
+      </p>
+    </div>
+    <div class="col-md-3">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F108.jpg?alt=media&token=983cbbdf-f203-43dd-99b2-30e538269882"
+        class="img-fluid rounded mb-1"
+        alt="img"
+      />
+      <b>
+        <!-- audio l1 584-->
+        <audio id="a12p37l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F584.mp3?alt=media&token=6c5b61b4-3336-4000-9d92-e91a6a9a4c9d"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a12p37l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        A.</b
+      >
+      <input
+        type="text"
+        class="form-control input"
+        name="ans1page38"
+        [(ngModel)]="libro.ans1Page38"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      /><br />
+      <b>
+        <!-- audio l1 585-->
+        <audio id="a13p37l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F585.mp3?alt=media&token=7ab3d7b1-5f26-456d-ab69-0c55691435ca"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a13p37l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        B.</b
+      >
+      <input
+        type="text"
+        class="form-control input"
+        name="ans2page38"
+        [(ngModel)]="libro.ans2Page38"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+    </div>
+    <div class="col-md-3">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F109.PNG?alt=media&token=f6a21d47-6d58-497c-bf56-3f9479c4877b"
+        class="img-fluid rounded mb-1"
+        alt="img"
+      />
+      <b>
+        <!-- audio l1 586-->
+        <audio id="a14p37l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F586.mp3?alt=media&token=b9d7c67f-08ee-4a59-a8d0-228af4f52aea"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a14p37l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        A.</b
+      >
+      <input
+        type="text"
+        class="form-control input"
+        name="ans3page38"
+        [(ngModel)]="libro.ans3Page38"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      /><br />
+      <b>
+        <!-- audio l1 587-->
+        <audio id="a15p37l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F587.mp3?alt=media&token=71aa292e-762f-4ff6-ba65-bd7234f211c8"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a15p37l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        B.</b
+      >
+      <input
+        type="text"
+        class="form-control input"
+        name="ans4page38"
+        [(ngModel)]="libro.ans4Page38"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+    </div>
+  </div>
 </div>

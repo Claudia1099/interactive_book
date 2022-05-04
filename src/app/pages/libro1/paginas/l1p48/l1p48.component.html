@@ -1,27 +1,164 @@
 <div>
-    <div class="row">
-        <div class="col-md-12">
-            <h4 class="my-2">MOVE ON</h4>
-        </div>
-        <div class="col-md-6">
-
-            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F153.PNG?alt=media&token=0438c110-2a21-4426-a9d4-e147a7bca468" class="m-1 rounded img-fluid" alt="img">
-        </div>
-        <div class="col-md-6">
-            <ol>
-                <li class="my-2">
-                    <b>A.</b> Is there a bakery in this neighborhood?<br>
-                    <b>B.</b> Yes, there is one on River Avenue Between the barber shop and the bank.<br>
-                    <b>A.</b> Thanks a lot.<br>
-                    <b>B.</b> You're welcome.
-                </li>
-                <li class="my-2">
-                    A. Is there a church near here?
-                    <input type="text" class="form-control my-1" placeholder="B" name="ans1page49" [(ngModel)]="libro.ans1Page49" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-                    <input type="text" class="form-control my-1" placeholder="A" name="ans2page49" [(ngModel)]="libro.ans2Page49" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-                    <input type="text" class="form-control my-1" placeholder="B" name="ans3page49" [(ngModel)]="libro.ans3Page49" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="">
-                </li>
-            </ol>
-        </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h4 class="my-2">MOVE ON</h4>
     </div>
+    <div class="col-md-6">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F153.PNG?alt=media&token=0438c110-2a21-4426-a9d4-e147a7bca468"
+        class="m-1 rounded img-fluid"
+        alt="img"
+      />
+    </div>
+    <div class="col-md-6">
+      <ol>
+        <li class="my-2">
+          <b
+            ><!-- audio l1 692-->
+            <audio id="a1p48l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F692.mp3?alt=media&token=13065346-33d7-4a86-9782-b3096c917007"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a1p48l1')"
+              class="btn rounded-pill btn-sm audio"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+            A.</b
+          >
+          Is there a bakery in this neighborhood?<br />
+          <b
+            ><!-- audio l1 693-->
+            <audio id="a2p48l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F693.mp3?alt=media&token=f249a7d4-dba5-40c7-aead-32046eec13f8"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a2p48l1')"
+              class="btn rounded-pill btn-sm audio"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+            B.</b
+          >
+          Yes, there is one on River Avenue Between the barber shop and the
+          bank.<br />
+          <b
+            ><!-- audio l1 694-->
+            <audio id="a3p48l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F694.mp3?alt=media&token=7d80c507-b337-4207-97a2-c68e1440d825"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a3p48l1')"
+              class="btn rounded-pill btn-sm audio"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+            A.</b
+          >
+          Thanks a lot.<br />
+          <b
+            ><!-- audio l1 695-->
+            <audio id="a4p48l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F695.mp3?alt=media&token=2a75a5dc-ae01-4155-9504-3c86b3846588"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a4p48l1')"
+              class="btn rounded-pill btn-sm audio"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+            B.</b
+          >
+          You're welcome.
+        </li>
+        <hr class="my-2" />
+        <li class="my-2">
+          <div>
+            <!-- audio l1 696-->
+            <audio id="a5p48l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F696.mp3?alt=media&token=8dec2ee1-1dfe-498c-a349-04175ffbb727"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a5p48l1')"
+              class="btn rounded-pill btn-sm audio"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+            <b>A.</b> Is there a church near here?
+          </div>
+          <div class="d-flex align-items-center">
+            <div class="d-flex">
+              <!-- audio l1 697-->
+              <audio id="a6p48l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F697.mp3?alt=media&token=c98e742f-b4b8-4aa0-b755-d330584ea22a"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a6p48l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              <div>
+                <b> B.</b>
+              </div>
+            </div>
+            <input
+              type="text"
+              class="form-control my-1"
+              placeholder="B"
+              name="ans1page49"
+              [(ngModel)]="libro.ans1Page49"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+          </div>
+          <div class="d-flex align-items-center">
+            <b>A. </b>
+            <input
+              type="text"
+              class="form-control my-1"
+              placeholder="A"
+              name="ans2page49"
+              [(ngModel)]="libro.ans2Page49"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+          </div>
+          <div class="d-flex align-items-center">
+            <b>B.</b>
+            <input
+              type="text"
+              class="form-control my-1"
+              placeholder="B"
+              name="ans3page49"
+              [(ngModel)]="libro.ans3Page49"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+          </div>
+        </li>
+      </ol>
+    </div>
+  </div>
 </div>
