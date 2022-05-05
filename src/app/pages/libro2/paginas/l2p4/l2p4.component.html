@@ -1,1 +1,231 @@
-<p>l2p4 works!</p>
+<div>
+  <div class="row">
+    <div class="col-md-6">
+      <h5>WRITING ACTIVITY</h5>
+      <p>Fill in the blanks with the correct words.</p>
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro2%2Fwa1.PNG?alt=media&token=22a806e3-2c4c-4328-92fa-d59a47f579d2"
+        alt="img"
+        class="img-fluid"
+      />
+    </div>
+    <div class="col-md-6">
+      <strong class="text-center">ARTHUR IS VERY ANGRY</strong>
+      <p class="justify">
+        It’s late at night. Arthur is sitting on his bed, and he’s looking at
+        his clock. His neighbors are making a lot of noise, and Arthur is VERY
+        angry.<br />
+        The people in Apartment 2 are dancing. The man in Apartment 3 is
+        vacuuming his rug. The woman in Apartment 4 is playing the drums. The
+        teenagers in Apartment 5 are listening to loud music. The dog in
+        Apartment 6 is barking. And the people in Apartment 7 are having a big
+        argument.<br />
+        It’s very late, and Arthur is tired and angry. What a terrible night!
+      </p>
+    </div>
+    <div class="col-md-12">
+      <p>Using this model, make questions and answers based on the story.</p>
+      <ul>
+        <li>
+          A. What’s the man in Apartment 3 doing?
+          <input
+            type="text"
+            class="form-control"
+            name="ans1page4"
+            [(ngModel)]="libro.ans1Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          B. He’s vacuuming his rugs.
+          <input
+            type="text"
+            class="form-control"
+            name="ans2page4"
+            [(ngModel)]="libro.ans2Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+      </ul>
+      <hr class="my-3" />
+      <h5 class="my-2">CHOOSE</h5>
+    </div>
+    <div class="col-md-6">
+      <ol>
+        <li>
+          Arthur’s neighbors are ____
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q1-p4-l2"
+              id="q1-p4-l2-o1"
+              autocomplete="off"
+            />
+            <label class="btn btn-outline-primary" for="q1-p4-l2-o1"
+              >a. noisy</label
+            >
+
+            <input
+              type="radio"
+              class="btn-check"
+              name="q1-p4-l2"
+              id="q1-p4-l2-o2"
+              autocomplete="off"
+            />
+            <label class="btn btn-outline-primary" for="q1-p4-l2-o2"
+              >b. angry</label
+            >
+          </div>
+        </li>
+        <li>
+          The man in Apartment 3 is ____
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q2-p4-l2"
+              id="q2-p4-l2-o1"
+              autocomplete="off"
+            />
+            <label class="btn btn-outline-primary" for="q2-p4-l2-o1"
+              >a. painting
+            </label>
+
+            <input
+              type="radio"
+              class="btn-check"
+              name="q2-p4-l2"
+              id="q2-p4-l2-o2"
+              autocomplete="off"
+            />
+            <label class="btn btn-outline-primary" for="q2-p4-l2-o2"
+              >b. cleaning
+            </label>
+          </div>
+        </li>
+        <li>
+          The people in Apartment 5 are ___
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q3-p4-l2"
+              id="q3-p4-l2-o1"
+              autocomplete="off"
+            />
+            <label class="btn btn-outline-primary" for="q3-p4-l2-o1"
+              >a. young
+            </label>
+
+            <input
+              type="radio"
+              class="btn-check"
+              name="q3-p4-l2"
+              id="q3-p4-l2-o2"
+              autocomplete="off"
+            />
+            <label class="btn btn-outline-primary" for="q3-p4-l2-o2"
+              >b. old
+            </label>
+          </div>
+        </li>
+      </ol>
+    </div>
+    <div class="col-md-6">
+      <ol start="4">
+        <li>
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q4-p4-l2"
+              id="q4-p4-l2-o1"
+              autocomplete="off"
+            />
+            <label class="btn btn-outline-primary" for="q4-p4-l2-o1">His</label>
+
+            <input
+              type="radio"
+              class="btn-check"
+              name="q4-p4-l2"
+              id="q4-p4-l2-o2"
+              autocomplete="off"
+            />
+            <label class="btn btn-outline-primary" for="q4-p4-l2-o2">Her</label>
+          </div>
+        </li>
+        <li>
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q5-p4-l2"
+              id="q5-p4-l2-o1"
+              autocomplete="off"
+            />
+            <label class="btn btn-outline-primary" for="q5-p4-l2-o1">His</label>
+
+            <input
+              type="radio"
+              class="btn-check"
+              name="q5-p4-l2"
+              id="q5-p4-l2-o2"
+              autocomplete="off"
+            />
+            <label class="btn btn-outline-primary" for="q5-p4-l2-o2">Her</label>
+          </div>
+        </li>
+        <li>
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q6-p4-l2"
+              id="q6-p4-l2-o1"
+              autocomplete="off"
+            />
+            <label class="btn btn-outline-primary" for="q6-p4-l2-o1">His</label>
+
+            <input
+              type="radio"
+              class="btn-check"
+              name="q6-p4-l2"
+              id="q6-p4-l2-o2"
+              autocomplete="off"
+            />
+            <label class="btn btn-outline-primary" for="q6-p4-l2-o2">Her</label>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </div>
+</div>

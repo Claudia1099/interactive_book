@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { AuthService } from 'src/app/services/auth.service';
 
 @Component({
   selector: 'app-l2p3',
@@ -6,7 +8,29 @@ import { Component, OnInit } from '@angular/core';
   styles: [],
 })
 export class L2p3Component implements OnInit {
-  constructor() {}
+  constructor(private auth: AuthService) {}
+  @Input('libro2')
+  libro2!: Observable<any>;
+  @Input('email') email!: Promise<string>;
+  libro: any = '';
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    setTimeout(() => {
+      this.libro2.subscribe((resp) => {
+        this.libro = resp.payload.data();
+        // console.log(this.libro);
+      });
+    }, 3000);
+  }
+
+  guardarInfo() {
+    this.email.then((resp) => {
+      this.auth
+        .guardarDatos(resp, 'book2', this.libro)
+        .then(() => {})
+        .catch(() => {
+          console.log('error');
+        });
+    });
+  }
 }
