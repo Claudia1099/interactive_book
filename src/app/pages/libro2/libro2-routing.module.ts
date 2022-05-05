@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Libro2Component } from './libro2.component';
-import { Routes } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
@@ -13,6 +13,7 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [],
-  imports: [CommonModule],
+  imports: [RouterModule.forChild(routes)],
+  exports: [RouterModule],
 })
 export class Libro2RoutingModule {}
