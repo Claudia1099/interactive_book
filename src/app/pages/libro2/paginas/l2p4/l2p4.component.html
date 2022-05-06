@@ -1,15 +1,9 @@
 <div>
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-6 my-2">
       <h5>WRITING ACTIVITY</h5>
       <p>Fill in the blanks with the correct words.</p>
-      <img
-        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro2%2Fwa1.PNG?alt=media&token=22a806e3-2c4c-4328-92fa-d59a47f579d2"
-        alt="img"
-        class="img-fluid"
-      />
-    </div>
-    <div class="col-md-6">
+
       <strong class="text-center">ARTHUR IS VERY ANGRY</strong>
       <p class="justify">
         It’s late at night. Arthur is sitting on his bed, and he’s looking at
@@ -22,8 +16,7 @@
         argument.<br />
         It’s very late, and Arthur is tired and angry. What a terrible night!
       </p>
-    </div>
-    <div class="col-md-12">
+      <hr />
       <p>Using this model, make questions and answers based on the story.</p>
       <ul>
         <li>
@@ -51,181 +44,197 @@
           />
         </li>
       </ul>
+    </div>
+    <div class="col-md-6 d-flex justify-content-center">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro2%2Fwa1.PNG?alt=media&token=22a806e3-2c4c-4328-92fa-d59a47f579d2"
+        alt="img"
+        class="img-fluid w-50"
+      />
+    </div>
+    <div class="col-md-12">
       <hr class="my-3" />
       <h5 class="my-2">CHOOSE</h5>
     </div>
-    <div class="col-md-6">
-      <ol>
-        <li>
-          Arthur’s neighbors are ____
-          <div
-            class="btn-group"
-            role="group"
-            aria-label="Basic radio toggle button group"
-          >
-            <input
-              type="radio"
-              class="btn-check"
-              name="q1-p4-l2"
-              id="q1-p4-l2-o1"
-              autocomplete="off"
-            />
-            <label class="btn btn-outline-primary" for="q1-p4-l2-o1"
-              >a. noisy</label
-            >
-
-            <input
-              type="radio"
-              class="btn-check"
-              name="q1-p4-l2"
-              id="q1-p4-l2-o2"
-              autocomplete="off"
-            />
-            <label class="btn btn-outline-primary" for="q1-p4-l2-o2"
-              >b. angry</label
-            >
-          </div>
-        </li>
-        <li>
-          The man in Apartment 3 is ____
-          <div
-            class="btn-group"
-            role="group"
-            aria-label="Basic radio toggle button group"
-          >
-            <input
-              type="radio"
-              class="btn-check"
-              name="q2-p4-l2"
-              id="q2-p4-l2-o1"
-              autocomplete="off"
-            />
-            <label class="btn btn-outline-primary" for="q2-p4-l2-o1"
-              >a. painting
-            </label>
-
-            <input
-              type="radio"
-              class="btn-check"
-              name="q2-p4-l2"
-              id="q2-p4-l2-o2"
-              autocomplete="off"
-            />
-            <label class="btn btn-outline-primary" for="q2-p4-l2-o2"
-              >b. cleaning
-            </label>
-          </div>
-        </li>
-        <li>
-          The people in Apartment 5 are ___
-          <div
-            class="btn-group"
-            role="group"
-            aria-label="Basic radio toggle button group"
-          >
-            <input
-              type="radio"
-              class="btn-check"
-              name="q3-p4-l2"
-              id="q3-p4-l2-o1"
-              autocomplete="off"
-            />
-            <label class="btn btn-outline-primary" for="q3-p4-l2-o1"
-              >a. young
-            </label>
-
-            <input
-              type="radio"
-              class="btn-check"
-              name="q3-p4-l2"
-              id="q3-p4-l2-o2"
-              autocomplete="off"
-            />
-            <label class="btn btn-outline-primary" for="q3-p4-l2-o2"
-              >b. old
-            </label>
-          </div>
-        </li>
-      </ol>
+    <div class="col-md-6 my-2">
+      <p class="fw-bold">1. Arthur’s neighbors are ____</p>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="l2p4-q1-"
+          id="l2p4-q1-o1"
+          value="l2p4-q1-o1"
+          [checked]="libro['l2p4-q1'] === 'l2p4-q1-o1'"
+          [(ngModel)]="libro['l2p4-q1']"
+          (change)="guardarInfo()"
+        />
+        <label class="form-check-label" for="l2p4-q1-o1"> a. noisy </label>
+      </div>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="l2p4-q1-"
+          id="l2p4-q1-o2"
+          value="l2p4-q1-o2"
+          [checked]="libro['l2p4-q1'] === 'l2p4-q1-o2'"
+          [(ngModel)]="libro['l2p4-q1']"
+          (change)="guardarInfo()"
+        />
+        <label class="form-check-label" for="l2p4-q1-o2"> b. angry </label>
+      </div>
     </div>
-    <div class="col-md-6">
-      <ol start="4">
-        <li>
-          <div
-            class="btn-group"
-            role="group"
-            aria-label="Basic radio toggle button group"
-          >
-            <input
-              type="radio"
-              class="btn-check"
-              name="q4-p4-l2"
-              id="q4-p4-l2-o1"
-              autocomplete="off"
-            />
-            <label class="btn btn-outline-primary" for="q4-p4-l2-o1">His</label>
-
-            <input
-              type="radio"
-              class="btn-check"
-              name="q4-p4-l2"
-              id="q4-p4-l2-o2"
-              autocomplete="off"
-            />
-            <label class="btn btn-outline-primary" for="q4-p4-l2-o2">Her</label>
-          </div>
-        </li>
-        <li>
-          <div
-            class="btn-group"
-            role="group"
-            aria-label="Basic radio toggle button group"
-          >
-            <input
-              type="radio"
-              class="btn-check"
-              name="q5-p4-l2"
-              id="q5-p4-l2-o1"
-              autocomplete="off"
-            />
-            <label class="btn btn-outline-primary" for="q5-p4-l2-o1">His</label>
-
-            <input
-              type="radio"
-              class="btn-check"
-              name="q5-p4-l2"
-              id="q5-p4-l2-o2"
-              autocomplete="off"
-            />
-            <label class="btn btn-outline-primary" for="q5-p4-l2-o2">Her</label>
-          </div>
-        </li>
-        <li>
-          <div
-            class="btn-group"
-            role="group"
-            aria-label="Basic radio toggle button group"
-          >
-            <input
-              type="radio"
-              class="btn-check"
-              name="q6-p4-l2"
-              id="q6-p4-l2-o1"
-              autocomplete="off"
-            />
-            <label class="btn btn-outline-primary" for="q6-p4-l2-o1">His</label>
-
-            <input
-              type="radio"
-              class="btn-check"
-              name="q6-p4-l2"
-              id="q6-p4-l2-o2"
-              autocomplete="off"
-            />
-            <label class="btn btn-outline-primary" for="q6-p4-l2-o2">Her</label>
-          </div>
-        </li>
-      </ol>
+    <div class="col-md-6 my-2">
+      <p class="fw-bold">2. The man in Apartment 3 is ___</p>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="l2p4-q2-"
+          id="l2p4-q2-o1"
+          value="l2p4-q2-o1"
+          [checked]="libro['l2p4-q2'] === 'l2p4-q2-o1'"
+          [(ngModel)]="libro['l2p4-q2']"
+          (change)="guardarInfo()"
+        />
+        <label class="form-check-label" for="l2p4-q2-o1"> a. painting </label>
+      </div>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="l2p4-q2-"
+          id="l2p4-q2-o2"
+          value="l2p4-q2-o2"
+          [checked]="libro['l2p4-q2'] === 'l2p4-q2-o2'"
+          [(ngModel)]="libro['l2p4-q2']"
+          (change)="guardarInfo()"
+        />
+        <label class="form-check-label" for="l2p4-q2-o2"> b. cleaning </label>
+      </div>
+    </div>
+    <div class="col-md-6 my-2">
+      <p class="fw-bold">3. The people in Apartment 5 are ___</p>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="l2p4-q3-"
+          id="l2p4-q3-o1"
+          value="l2p4-q3-o1"
+          [checked]="libro['l2p4-q3'] === 'l2p4-q3-o1'"
+          [(ngModel)]="libro['l2p4-q3']"
+          (change)="guardarInfo()"
+        />
+        <label class="form-check-label" for="l2p4-q3-o1"> a. young </label>
+      </div>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="l2p4-q3-"
+          id="l2p4-q3-o2"
+          value="l2p4-q3-o2"
+          [checked]="libro['l2p4-q3'] === 'l2p4-q3-o2'"
+          [(ngModel)]="libro['l2p4-q3']"
+          (change)="guardarInfo()"
+        />
+        <label class="form-check-label" for="l2p4-q3-o2"> b. old </label>
+      </div>
+    </div>
+    <div class="col-md-6 my-2">
+      <p class="fw-bold">4. The dog in Apartment 6 isn’t _____</p>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="l2p4-q4-"
+          id="l2p4-q4-o1"
+          value="l2p4-q4-o1"
+          [checked]="libro['l2p4-q4'] === 'l2p4-q4-o1'"
+          [(ngModel)]="libro['l2p4-q4']"
+          (change)="guardarInfo()"
+        />
+        <label class="form-check-label" for="l2p4-q4-o1"> a. sleeping </label>
+      </div>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="l2p4-q4-"
+          id="l2p4-q4-o2"
+          value="l2p4-q4-o2"
+          [checked]="libro['l2p4-q4'] === 'l2p4-q4-o2'"
+          [(ngModel)]="libro['l2p4-q4']"
+          (change)="guardarInfo()"
+        />
+        <label class="form-check-label" for="l2p4-q4-o2">
+          b. making noise
+        </label>
+      </div>
+    </div>
+    <div class="col-md-6 my-2">
+      <p class="fw-bold">5. The woman in Apartment 4 is ___</p>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="l2p4-q5-"
+          id="l2p4-q5-o1"
+          value="l2p4-q5-o1"
+          [checked]="libro['l2p4-q5'] === 'l2p4-q5-o1'"
+          [(ngModel)]="libro['l2p4-q5']"
+          (change)="guardarInfo()"
+        />
+        <label class="form-check-label" for="l2p4-q5-o1">
+          a. playing cards
+        </label>
+      </div>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="l2p4-q5-"
+          id="l2p4-q5-o2"
+          value="l2p4-q5-o2"
+          [checked]="libro['l2p4-q5'] === 'l2p4-q5-o2'"
+          [(ngModel)]="libro['l2p4-q5']"
+          (change)="guardarInfo()"
+        />
+        <label class="form-check-label" for="l2p4-q5-o2">
+          b. playing music
+        </label>
+      </div>
+    </div>
+    <div class="col-md-6 my-2">
+      <p class="fw-bold">6. Arthur isn’t very ________</p>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="l2p4-q6-"
+          id="l2p4-q6-o1"
+          value="l2p4-q6-o1"
+          [checked]="libro['l2p4-q6'] === 'l2p4-q6-o1'"
+          [(ngModel)]="libro['l2p4-q6']"
+          (change)="guardarInfo()"
+        />
+        <label class="form-check-label" for="l2p4-q6-o1">a. happy </label>
+      </div>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="l2p4-q6-"
+          id="l2p4-q6-o2"
+          value="l2p4-q6-o2"
+          [checked]="libro['l2p4-q6'] === 'l2p4-q6-o2'"
+          [(ngModel)]="libro['l2p4-q6']"
+          (change)="guardarInfo()"
+        />
+        <label class="form-check-label" for="l2p4-q6-o2"> b. tired </label>
+      </div>
     </div>
   </div>
 </div>
