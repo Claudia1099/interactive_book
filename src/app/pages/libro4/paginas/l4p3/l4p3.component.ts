@@ -19,7 +19,7 @@ export class L4p3Component implements OnInit {
     setTimeout(() => {
       this.libro4.subscribe((resp) => {
         this.libro = resp.payload.data();
-        // console.log(this.libro);
+        // console.log(this.libro) ;
       });
     }, 3000);
   }
