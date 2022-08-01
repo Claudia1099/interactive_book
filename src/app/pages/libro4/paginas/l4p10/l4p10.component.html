@@ -1,0 +1,172 @@
+<div>
+  <div class="row">
+    <div class="col-md-6">
+      <h4 class="my-3">ACTIVITY</h4>
+      <p class="justify">Complete the sentences. Use should or shouldn’t</p>
+      <ol>
+        <li>
+          Students
+          <input
+            m-1
+            type="text"
+            size="100"
+            style="width: 100px; height: 30px"
+            class="form-control input m-1"
+            value="should"
+            disabled
+            id=""
+          />
+          come to class every day.
+        </li>
+        <li>
+          Students
+          <input
+            m-1
+            type="text"
+            size="100"
+            style="width: 100px; height: 30px"
+            class="form-control input m-1"
+            value="shouldn't"
+            disabled
+            id=""
+          />
+          cut class.
+        </li>
+        <li>
+          We
+          <input
+            m-1
+            type="text"
+            size="100"
+            style="width: 100px; height: 30px"
+            class="form-control input m-1"
+            name="ans1page10"
+            [(ngModel)]="libro.ans1Page10"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          waste our money on things we don't need.
+        </li>
+        <li>
+          It's raining. You
+          <input
+            m-1
+            type="text"
+            size="100"
+            style="width: 100px; height: 30px"
+            class="form-control input m-1"
+            name="ans2page10"
+            [(ngModel)]="libro.ans2Page10"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          take your umbrella when you leave.
+        </li>
+        <li>
+          Jimmy, you
+          <input
+            m-1
+            type="text"
+            size="100"
+            style="width: 100px; height: 30px"
+            class="form-control input m-1"
+            name="ans3page10"
+            [(ngModel)]="libro.ans3Page10"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          pull the cat’s tail!
+        </li>
+        <li>
+          People
+          <input
+            m-1
+            type="text"
+            size="100"
+            style="width: 100px; height: 30px"
+            class="form-control input m-1"
+            name="ans4page10"
+            [(ngModel)]="libro.ans4Page10"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          be cruel to animals.
+        </li>
+        <li>
+          Your plane leaves at 8:00. You
+          <input
+            m-1
+            type="text"
+            size="100"
+            style="width: 100px; height: 30px"
+            class="form-control input m-1"
+            name="ans5page10"
+            [(ngModel)]="libro.ans5Page10"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          get to the airport by
+        </li>
+        <li>00.</li>
+        <li>
+          Life is short. We
+          <input
+            m-1
+            type="text"
+            size="100"
+            style="width: 100px; height: 30px"
+            class="form-control input m-1"
+            name="ans6page10"
+            [(ngModel)]="libro.ans6Page10"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          waste it.
+        </li>
+        <li>
+          You
+          <input
+            m-1
+            type="text"
+            size="100"
+            style="width: 100px; height: 30px"
+            class="form-control input m-1"
+            name="ans7page10"
+            [(ngModel)]="libro.ans7Page10"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          smoke in a public place because the smoke bothers other people.
+        </li>
+      </ol>
+    </div>
+    <div class="col-md-6">
+      <h4 class="my-3">WRITING ACTIVITY:</h4>
+      <p class="justify">
+        <b>Write about your hometown. Use a separate piece of paper.</b> I'm a
+        tourist. I'm going to visit your hometown. Is your hometown a good place
+        for a tourist to visit? Why? What should I do when I'm there? Where
+        should I go? What should I see? What shouldn't I do? Are there places I
+        shouldn't visit? Will I enjoy my visit? Write a composition in which you
+        tell me (a tourist) about your hometown.
+      </p>
+      <textarea
+        class="form-control"
+        name="ans8page10"
+        [(ngModel)]="libro.ans8Page10"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+        cols="30"
+        rows="7"
+      ></textarea>
+    </div>
+  </div>
+</div>

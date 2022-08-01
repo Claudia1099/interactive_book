@@ -7,23 +7,9 @@ import { ComponentesModule } from '../components/componentes.module';
 import { ListadoLibrosComponent } from './listado-libros/listado-libros.component';
 import { ReactiveFormsModule } from '@angular/forms';
 
-
-
 @NgModule({
-  declarations: [
-    HomeComponent,
-    PagesComponent,
-    ListadoLibrosComponent
-  ],
-  imports: [
-    CommonModule,
-    RouterModule,
-    ComponentesModule,
-    ReactiveFormsModule
-  ],
-  exports:[
-    HomeComponent,
-    PagesComponent
-  ]
+  declarations: [HomeComponent, PagesComponent, ListadoLibrosComponent],
+  imports: [CommonModule, RouterModule, ComponentesModule, ReactiveFormsModule],
+  exports: [HomeComponent, PagesComponent],
 })
-export class PagesModule { }
+export class PagesModule {}

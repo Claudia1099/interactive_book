@@ -1,1 +1,202 @@
-<p>l2p17 works!</p>
+<div>
+  <div class="row">
+    <div class="col-md-12">
+      <h4 class="my-2">GRAMMAR FLASH</h4>
+      <div class="card border-info text-center">
+        <p>
+          Question asking for a reason
+          <span class="badge bg-primary m-1">WHY</span> ?<br />
+          Answer and connector for a reason
+          <span class="badge bg-primary m-1">BECAUSE</span> ......<br />
+          <!-- audio l1 -->
+          <audio id="a1p17l2" aria-label="audio" class="d-none" controls>
+            <source type="audio/mp3" src="" />
+          </audio>
+          <button
+            (click)="reproducirAudio('a1p17l2')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i></button
+          >- <span class="badge bg-primary m-1">WHY</span> are you drinking?<br />
+          I am drinking
+          <span class="badge bg-primary m-1">BECAUSE</span> I am thirsty
+        </p>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <h4 class="my-3">DRILLS</h4>
+      <table class="table table-striped table-responsive">
+        <thead>
+          <tr>
+            <th>TEACHER</th>
+            <th>STUDENTS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>I am crying because I am sad</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                value="I am crying because I am sad"
+                disabled
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>She ........................</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                value="She is crying because she is sad"
+                disabled
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>We .........................</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                name="ans1page18"
+                [(ngModel)]="libro.ans1Page18"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Shout - Angry ..............</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                name="ans2page18"
+                [(ngModel)]="libro.ans2Page18"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Eat - hungry ...............</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                name="ans3page18"
+                [(ngModel)]="libro.ans3Page18"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>They .......................</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                name="ans4page18"
+                [(ngModel)]="libro.ans4Page18"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>He .........................</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                name="ans5page18"
+                [(ngModel)]="libro.ans5Page18"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Blush - embarrased .........</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                name="ans6page18"
+                [(ngModel)]="libro.ans6Page18"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>question - (why) ...........</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                value="Why is he craying?"
+                disabled
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Drinking ...................</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                name="ans7page18"
+                [(ngModel)]="libro.ans7Page18"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Biting his nails ...........</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                name="ans8page18"
+                [(ngModel)]="libro.ans8Page18"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Answer .....................</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                name="ans9page18"
+                [(ngModel)]="libro.ans9Page18"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

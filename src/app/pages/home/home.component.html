@@ -2,7 +2,11 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-6 center my-2 d-none d-lg-block">
-      <img class="size-m" src="assets/navbar/personas.png" alt="persons" />
+      <img
+        class="img-fluid w-75"
+        src="assets/navbar/personas.webp"
+        alt="persons"
+      />
     </div>
     <div class="col-md-6 center my-2">
       <div class="App-cont">
@@ -41,6 +45,9 @@
                     alt="backLogin"
                   />
                 </div>
+                <div>
+                  <h5 class="text-center">Iniciar Sesión</h5>
+                </div>
                 <form (ngSubmit)="iniciarSesion()" [formGroup]="login">
                   <div class="card-body">
                     <input
@@ -65,7 +72,7 @@
                         type="submit"
                         value="Iniciar Sesión"
                       >
-                        <span class="fas fa-sing-in-alt"></span> Iniciar Sesión
+                        <span class="fas fa-sing-in-alt"></span> Ingresar
                       </button>
                     </div>
                   </div>
