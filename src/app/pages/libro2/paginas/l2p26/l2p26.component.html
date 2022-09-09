@@ -1,0 +1,287 @@
+<div>
+  <div class="row">
+    <div class="col-md-12">
+      <h4 class="text-center">CHAT TIME</h4>
+    </div>
+    <div class="col-md-3">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro2%2F6-9.jpg?alt=media&token=e66697ef-8d17-4333-b277-febd7522dba6"
+        class="img-fluid rounded p-1"
+        alt="img"
+      />
+    </div>
+    <div class="col-md-3">
+      <h5>1.</h5>
+      <input
+        type="text"
+        placeholder="A"
+        class="form-control m-1 chat chat1 m-1"
+        value="A. Were yoou working yesterday at 2 p.m.?"
+        disabled
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="B"
+        class="form-control m-1 chat chat2 m-1"
+        value="B. No, I Wasn't"
+        disabled
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="A"
+        class="form-control m-1 chat chat1 m-1"
+        value="A. What were you doing?"
+        disabled
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="B"
+        class="form-control m-1 chat chat2 m-1"
+        value="B.  I was watching T.V.        "
+        disabled
+        id=""
+      />
+    </div>
+
+    <div class="col-md-3">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro2%2F6-10.jpg?alt=media&token=b68a1945-26f3-40a8-9591-7ab6e7ba2998"
+        class="img-fluid rounded p-1"
+        alt="img"
+      />
+    </div>
+    <div class="col-md-3">
+      <h4>2.</h4>
+      <input
+        type="text"
+        placeholder="A"
+        class="form-control m-1 chat chat2 m-1"
+        value="A. Was your sister dancing last night?"
+        disabled
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="B. No, ..."
+        class="form-control m-1 chat chat1 m-1"
+        name="ans1page27"
+        [(ngModel)]="libro.ans1Page27"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="A."
+        class="form-control m-1 chat chat2 m-1"
+        name="ans2page27"
+        [(ngModel)]="libro.ans2Page27"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="B."
+        class="form-control m-1 chat chat1 m-1"
+        name="ans3page27"
+        [(ngModel)]="libro.ans3Page27"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+    </div>
+    <div class="col-md-3">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro2%2F6-11.jpg?alt=media&token=59a86f74-e73f-48e1-a2d4-7c72f7f6641b"
+        class="img-fluid rounded p-1"
+        alt="img"
+      />
+    </div>
+    <div class="col-md-3">
+      <h4>3.</h4>
+      <input
+        type="text"
+        placeholder="A"
+        class="form-control m-1 chat chat2 m-1"
+        value="A. Were your children getting on a bus yesterday at 3 p.m.?"
+        disabled
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="B. No..."
+        class="form-control m-1 chat chat2 m-1"
+        name="ans6page27"
+        [(ngModel)]="libro.ans6Page27"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="A"
+        class="form-control m-1 chat chat1 m-1"
+        name="ans7page27"
+        [(ngModel)]="libro.ans7Page27"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="B"
+        class="form-control m-1 chat chat2 m-1"
+        name="ans8page27"
+        [(ngModel)]="libro.ans8Page27"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+    </div>
+    <div class="col-md-3">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro2%2F6-3.jpg?alt=media&token=fb95edb6-cfa5-4c53-866e-d30bcb7c5e85"
+        class="img-fluid rounded p-1"
+        alt="img"
+      />
+    </div>
+    <div class="col-md-3">
+      <h4>4.</h4>
+      <input
+        type="text"
+        placeholder="A"
+        class="form-control m-1 chat chat2 m-1"
+        value="A. What were you doing while she was drinking ?"
+        disabled
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="B. "
+        class="form-control m-1 chat chat2 m-1"
+        name="ans6page27"
+        [(ngModel)]="libro.ans6Page27"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="A"
+        class="form-control m-1 chat chat1 m-1"
+        name="ans7page27"
+        [(ngModel)]="libro.ans7Page27"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="B"
+        class="form-control m-1 chat chat2 m-1"
+        name="ans8page27"
+        [(ngModel)]="libro.ans8Page27"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+    </div>
+
+    <div class="col-md-3">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro2%2F6-12.jpg?alt=media&token=58f4f818-e421-4562-9f91-a3f7766152de"
+        class="img-fluid rounded p-1"
+        alt="img"
+      />
+    </div>
+    <div class="col-md-3">
+      <h4>5.</h4>
+      <input
+        type="text"
+        placeholder="A"
+        class="form-control m-1 chat chat2 m-1"
+        value="A. What were you doing while she was drinking ?"
+        disabled
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="B. ............ home."
+        class="form-control m-1 chat chat2 m-1"
+        name="ans6page27"
+        [(ngModel)]="libro.ans6Page27"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="A."
+        class="form-control m-1 chat chat2 m-1"
+        value="A. What were you doing?"
+        disabled
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="B."
+        class="form-control m-1 chat chat2 m-1"
+        name="ans8page27"
+        [(ngModel)]="libro.ans8Page27"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+    </div>
+    <div class="col-md-3">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro2%2F6-13.jpg?alt=media&token=da08b2f2-8e57-47fe-9fd3-a660585e2501"
+        class="img-fluid rounded p-1"
+        alt="img"
+      />
+    </div>
+    <div class="col-md-3">
+      <h4>6.</h4>
+      <input
+        type="text"
+        placeholder="A."
+        class="form-control m-1 chat chat2 m-1"
+        value="A. What was your daughter doing?"
+        disabled
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="B. "
+        class="form-control m-1 chat chat2 m-1"
+        name="ans6page27"
+        [(ngModel)]="libro.ans6Page27"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="A."
+        class="form-control m-1 chat chat2 m-1"
+        value="A. Where was she doing that?"
+        disabled
+        id=""
+      />
+      <input
+        type="text"
+        placeholder="B."
+        class="form-control m-1 chat chat2 m-1"
+        name="ans8page27"
+        [(ngModel)]="libro.ans8Page27"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+      />
+    </div>
+  </div>
+</div>

@@ -1,0 +1,191 @@
+<div>
+  <div class="row">
+    <div class="col-md-12">
+      <h5>MOVE ON</h5>
+    </div>
+    <div class="col-md-3">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F133.jpg?alt=media&token=9afdce2e-0955-463b-8f43-c284ec91f3fd"
+        class="img-fluid mb-2 rounded"
+        alt="img"
+      />
+      <p>
+        <!-- audio 119-->
+        <audio id="a1p43l3" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F119.mp3?alt=media&token=e1a59bd7-bc6b-4b5f-87bf-b53718443bb0"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a1p43l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        1. A. What does he have to do?
+        <br />
+        B. He has to clean the kitchen and wash the dishes.
+      </p>
+    </div>
+    <div class="col-md-3">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F134.jpg?alt=media&token=d82712c1-7a2c-4907-b2dc-a96971bfa8c6"
+        class="img-fluid mb-2 rounded"
+        alt="img"
+      />
+      <p>
+        2. A. What do they want to do?
+        <br />
+        B.
+        <textarea
+          name="ans12page43"
+          [(ngModel)]="libro.ans12Page43"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+          cols="30"
+          class="form-control"
+          rows="2"
+        ></textarea>
+      </p>
+    </div>
+    <div class="col-md-3">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F135.jpg?alt=media&token=ea945f0e-1f34-4e50-a0ee-b305cc2e641b"
+        class="img-fluid mb-2 rounded"
+        alt="img"
+      />
+      <p>
+        <!-- audio 120-->
+        <audio id="a2p43l3" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F120.mp3?alt=media&token=3edc2be4-d47a-4c60-b789-0ddd02c0a483"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a2p43l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        3. A. what does he like to do every weekend?
+        <br />
+        B.
+        <textarea
+          name="ans1page44"
+          [(ngModel)]="libro.ans1Page44"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+          cols="30"
+          class="form-control"
+          rows="2"
+        ></textarea>
+      </p>
+    </div>
+    <div class="col-md-3">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F136.jpg?alt=media&token=6a6e961f-2548-4218-aafe-35ede5ff3e66"
+        class="img-fluid mb-2 rounded"
+        alt="img"
+      />
+      <p>
+        4. A. What do you need to do every afternoon?
+        <br />
+        B.
+        <textarea
+          name="ans2page44"
+          [(ngModel)]="libro.ans2Page44"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+          cols="30"
+          class="form-control"
+          rows="2"
+        ></textarea>
+      </p>
+    </div>
+
+    <div class="col-md-12">
+      <hr />
+      <h5>ORAL PRACTICE</h5>
+      <ul>
+        <li>
+          One student interviews their partner and writes their answers in the
+          spaces provided.
+        </li>
+        <li>
+          Tell the students to ask the questions in a random order so their
+          partner really has to listen.
+        </li>
+        <li>When the interview is over, the students swap roles.</li>
+        <li>
+          When both students have finished, they compare their daily routines
+          and look for similarities and differences.
+        </li>
+        <li>
+          As an extension, students write a paragraph about their partner's
+          daily routine in the present simple.
+        </li>
+      </ul>
+      <p>
+        Ask your partner present simple 'Wh' questions about their daily
+        routine, e.g. 'What time do you wake up?' Write your partner's answers
+        in the spaces provided.
+      </p>
+      <h6>What time...</h6>
+      <ul>
+        <li>
+          / wake up?
+          <input
+            type="text"
+            class="form-control"
+            name="ans3page44"
+            [(ngModel)]="libro.ans3Page44"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          / have breakfast?
+          <input
+            type="text"
+            class="form-control"
+            name="ans4page44"
+            [(ngModel)]="libro.ans4Page44"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          / go to work/class?
+          <input
+            type="text"
+            class="form-control"
+            name="ans5page44"
+            [(ngModel)]="libro.ans5Page44"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+        <li>
+          / have lunch?
+          <input
+            type="text"
+            class="form-control"
+            name="ans6page44"
+            [(ngModel)]="libro.ans6Page44"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

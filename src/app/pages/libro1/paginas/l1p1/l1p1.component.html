@@ -1,0 +1,694 @@
+<div>
+  <div class="row">
+    <div class="col-md-12 mb-3">
+      <h1><span class="badge bg-warning my-2">Class 1</span></h1>
+      <h3 class="text-center">GREETING</h3>
+    </div>
+
+    <div class="col-md-3 d-flex align-items-center">
+      <div>
+        <ul>
+          <li class="mb-1">
+            <!-- audio l1 1-->
+            <audio id="a1p1l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F1.mp3?alt=media&token=6cbd0e80-c4ab-4291-8185-127343fdaac8"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a1p1l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+            A. Hi, how are you?
+          </li>
+          <li class="mb-1">
+            <!-- audio l1 2-->
+            <audio id="a2p1l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F2.mp3?alt=media&token=80157b83-37b9-4f1d-b312-54b71eab16b7"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a2p1l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+            B. Fine thanks and you?
+          </li>
+          <li class="mb-1">
+            <!-- audio l1 3-->
+            <audio id="a3p1l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F3.mp3?alt=media&token=12419339-1ac7-427e-bd77-952d096bcc90"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a3p1l1')"
+              class="btn azul rounded-pill text-white btn-sm"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+            A. Great
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F1.png?alt=media&token=7f366fa0-192e-41b9-a703-1a39935d3c3e"
+        class="img-fluid rounded w-75"
+        alt="img"
+      />
+    </div>
+
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-6">
+          <h5>TEACHER</h5>
+          <ul>
+            <li class="mb-1">
+              <!-- audio l1 30-->
+              <audio id="a30p1l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F30.mp3?alt=media&token=5b13f96d-1c2d-4e2f-a3df-9577cd35b330"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a30p1l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i></button
+              >- What's your name?
+              <ul>
+                <li class="mb-1">
+                  <!-- audio l1 31-->
+                  <audio
+                    id="a31p1l1"
+                    aria-label="audio"
+                    class="d-none"
+                    controls
+                  >
+                    <source
+                      type="audio/mp3"
+                      src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F31.mp3?alt=media&token=1ef14740-dac8-49ad-94c4-2149dca23213"
+                    />
+                  </audio>
+                  <button
+                    (click)="reproducirAudio('a31p1l1')"
+                    class="btn azul rounded-pill text-white btn-sm"
+                  >
+                    <i class="fas fa-volume-up"></i></button
+                  >Her
+                </li>
+                <li class="mb-1">
+                  <!-- audio l1 32-->
+                  <audio
+                    id="a32p1l1"
+                    aria-label="audio"
+                    class="d-none"
+                    controls
+                  >
+                    <source
+                      type="audio/mp3"
+                      src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F32.mp3?alt=media&token=d0356e50-7602-42ef-b92c-b63ed4b27232"
+                    />
+                  </audio>
+                  <button
+                    (click)="reproducirAudio('a32p1l1')"
+                    class="btn azul rounded-pill text-white btn-sm"
+                  >
+                    <i class="fas fa-volume-up"></i></button
+                  >His
+                </li>
+              </ul>
+            </li>
+            <li class="mb-1">
+              <!-- audio l1 33-->
+              <audio id="a33p1l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F33.mp3?alt=media&token=f6199d29-5b7c-4640-9cd9-1796c8f69609"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a33p1l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i></button
+              >- Spell it, please
+            </li>
+            <li class="mb-1">
+              <!-- audio l1 34-->
+              <audio id="a34p1l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F34.mp3?alt=media&token=b3c86fb4-e1da-4049-969f-713874a0a952"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a34p1l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i></button
+              >- Nice to meet you
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h5>STUDENT</h5>
+          <ul>
+            <li class="mb-1">
+              <!-- audio l1 35-->
+              <audio id="a35p1l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F35.mp3?alt=media&token=87815fe1-af5a-4dc8-8b38-ac9b42cd73a0"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a35p1l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i></button
+              >- My name is...
+              <ul>
+                <li class="mb-1">
+                  <!-- audio l1 36-->
+                  <audio
+                    id="a36p1l1"
+                    aria-label="audio"
+                    class="d-none"
+                    controls
+                  >
+                    <source
+                      type="audio/mp3"
+                      src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F36.mp3?alt=media&token=3e93e0a0-0526-48fa-8622-ac644afdd9e6"
+                    />
+                  </audio>
+                  <button
+                    (click)="reproducirAudio('a36p1l1')"
+                    class="btn azul rounded-pill text-white btn-sm"
+                  >
+                    <i class="fas fa-volume-up"></i></button
+                  >Her
+                </li>
+                <li class="mb-1">
+                  <!-- audio l1 37-->
+                  <audio
+                    id="a37p1l1"
+                    aria-label="audio"
+                    class="d-none"
+                    controls
+                  >
+                    <source
+                      type="audio/mp3"
+                      src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F37.mp3?alt=media&token=d32cc21f-d576-47f5-bf67-4fe82a7afed2"
+                    />
+                  </audio>
+                  <button
+                    (click)="reproducirAudio('a37p1l1')"
+                    class="btn azul rounded-pill text-white btn-sm"
+                  >
+                    <i class="fas fa-volume-up"></i></button
+                  >His
+                </li>
+              </ul>
+            </li>
+
+            <li class="mb-1">
+              <!-- audio l1 38-->
+              <audio id="a38p1l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F38.mp3?alt=media&token=a48b3e27-901f-4c8a-940b-d0a2a7fe6066"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a38p1l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i></button
+              >- W-I-L-T-O-N
+            </li>
+            <li class="mb-1">
+              <!-- audio l1 39-->
+              <audio id="a39p1l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F39.mp3?alt=media&token=1d3a230d-76c0-4781-b026-f3b0ab031a92"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a39p1l1')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i></button
+              >- Nice to meet you too
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-12 container">
+      <hr />
+      <h3 class="center my-3">THE ALPHABET</h3>
+      <p class="text-center fw-bold">
+        <button class="btn azul rounded-pill text-white btn-sm">
+          <i class="fas fa-volume-up"></i>
+        </button>
+        Click on the letter to listen
+      </p>
+      <div class="row justify-content-center">
+        <div class="col-md-1 col-3">
+          <!-- audio l1 4-->
+          <audio id="a4p1l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F4.mp3?alt=media&token=9c6961b0-2d14-4f42-af3d-76d912977f00"
+            />
+          </audio>
+
+          <img
+            (click)="reproducirAudio('a4p1l1')"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2FA.png?alt=media&token=eec19fd8-94ab-4ff4-bedd-35d4b81554cd"
+            class="img-fluid m-1 cursor-pointer"
+            alt="img"
+          />
+          <h6 class="text-center">/ei/</h6>
+        </div>
+        <div class="col-md-1 col-3">
+          <!-- audio l1 5-->
+          <audio id="a5p1l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F5.mp3?alt=media&token=3ad8dfee-38a9-4152-89de-cc4a97e4a0a0"
+            />
+          </audio>
+          <img
+            (click)="reproducirAudio('a5p1l1')"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2FB.png?alt=media&token=20be7b29-f56f-445b-81f0-29d9695a2d34"
+            class="img-fluid m-1 cursor-pointer"
+            alt="img"
+          />
+          <h6 class="text-center">/bi/</h6>
+        </div>
+        <div class="col-md-1 col-3">
+          <!-- audio l1 6-->
+          <audio id="a6p1l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F6.mp3?alt=media&token=0e21fcc4-abd2-4fc9-805d-799c5f2e8e59"
+            />
+          </audio>
+          <img
+            (click)="reproducirAudio('a6p1l1')"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2Fc.png?alt=media&token=9d95a31c-04c4-4ecb-8b62-9b63a48ccf5d"
+            class="img-fluid m-1 cursor-pointer"
+            alt="img"
+          />
+          <h6 class="text-center">/ci/</h6>
+        </div>
+        <div class="col-md-1 col-3">
+          <!-- audio l1 7-->
+          <audio id="a7p1l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F7.mp3?alt=media&token=ad00e068-1114-4cec-a02d-d371662b7969"
+            />
+          </audio>
+          <img
+            (click)="reproducirAudio('a7p1l1')"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2FD.png?alt=media&token=58a4674d-2edd-41c3-ab67-b94e3747e8d0"
+            class="img-fluid m-1 cursor-pointer"
+            alt="img"
+          />
+          <h6 class="text-center">/di/</h6>
+        </div>
+        <div class="col-md-1 col-3">
+          <!-- audio l1 8-->
+          <audio id="a8p1l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F8.mp3?alt=media&token=1141c957-1cb4-4779-a7f0-cd7f58b2252d"
+            />
+          </audio>
+          <img
+            (click)="reproducirAudio('a8p1l1')"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2FE.png?alt=media&token=d36d56de-1293-4420-a9d7-ad274e379b83"
+            class="img-fluid m-1 cursor-pointer"
+            alt="img"
+          />
+          <h6 class="text-center">/i/</h6>
+        </div>
+        <div class="col-md-1 col-3">
+          <!-- audio l1 9-->
+          <audio id="a9p1l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F9.mp3?alt=media&token=0c69381d-344b-46f1-862e-7efa9f94522c"
+            />
+          </audio>
+          <img
+            (click)="reproducirAudio('a9p1l1')"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2FF.png?alt=media&token=370aa6cc-c6e1-4ce5-abbe-a3ac540abefa"
+            class="img-fluid m-1 cursor-pointer"
+            alt="img"
+          />
+          <h6 class="text-center">/ef/</h6>
+        </div>
+        <div class="col-md-1 col-3">
+          <!-- audio l1 10-->
+          <audio id="a10p1l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F10.mp3?alt=media&token=676d1103-1eaf-4836-8f3e-e5c42e254ef8"
+            />
+          </audio>
+          <img
+            (click)="reproducirAudio('a10p1l1')"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2FG.png?alt=media&token=0b0fd3ad-74f4-4bf2-a9fa-a08c6d44eb57"
+            class="img-fluid m-1 cursor-pointer"
+            alt="img"
+          />
+          <h6 class="text-center">/yii/</h6>
+        </div>
+        <div class="col-md-1 col-3">
+          <!-- audio l1 11-->
+          <audio id="a11p1l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F11.mp3?alt=media&token=0a4c3939-7684-4a58-b33b-115c6aa04446"
+            />
+          </audio>
+          <img
+            (click)="reproducirAudio('a11p1l1')"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2FH.png?alt=media&token=a8ebe857-8242-4986-ad4e-b50fae8f3bd1"
+            class="img-fluid m-1 cursor-pointer"
+            alt="img"
+          />
+          <h6 class="text-center">/eitch/</h6>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-1 col-3">
+          <!-- audio l1 12-->
+          <audio id="a12p1l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F12.mp3?alt=media&token=14680222-e5a7-4bc5-9567-47c0de7d99d7"
+            />
+          </audio>
+          <img
+            (click)="reproducirAudio('a12p1l1')"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2FI.png?alt=media&token=2c6ba2ae-6d4d-4ade-a68c-70acf92d79ff"
+            class="img-fluid m-1 cursor-pointer"
+            alt="img"
+          />
+          <h6 class="text-center">/ai/</h6>
+        </div>
+        <div class="col-md-1 col-3">
+          <!-- audio l1 13-->
+          <audio id="a13p1l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F13.mp3?alt=media&token=92b6c53e-b69b-43b7-95c6-d96c76924f2d"
+            />
+          </audio>
+          <img
+            (click)="reproducirAudio('a13p1l1')"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2FJ.png?alt=media&token=4eb31542-65f5-45bf-bc97-dd6f5d7a1526"
+            class="img-fluid m-1 cursor-pointer"
+            alt="img"
+          />
+          <h6 class="text-center">/yei/</h6>
+        </div>
+        <div class="col-md-1 col-3">
+          <!-- audio l1 14-->
+          <audio id="a14p1l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F14.mp3?alt=media&token=fe1bf33a-e857-4aa9-b83f-42f42a7702e6"
+            />
+          </audio>
+          <img
+            (click)="reproducirAudio('a14p1l1')"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2FK.png?alt=media&token=fd79729f-9148-417d-bc54-f29b275cbaed"
+            class="img-fluid m-1 cursor-pointer"
+            alt="img"
+          />
+          <h6 class="text-center">/kei/</h6>
+        </div>
+        <div class="col-md-1 col-3">
+          <!-- audio l1 15-->
+          <audio id="a15p1l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F15.mp3?alt=media&token=930848e9-35f6-4ff8-a297-1267addf1fe3"
+            />
+          </audio>
+          <img
+            (click)="reproducirAudio('a15p1l1')"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2FL.png?alt=media&token=7c6a9640-eac0-4948-b320-78d54af5bfa1"
+            class="img-fluid m-1 cursor-pointer"
+            alt="img"
+          />
+          <h6 class="text-center">/el/</h6>
+        </div>
+        <div class="col-md-1 col-3">
+          <!-- audio l1 16-->
+          <audio id="a16p1l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F16.mp3?alt=media&token=a951f1a6-75d8-46cf-91c0-9fc1868e9875"
+            />
+          </audio>
+          <img
+            (click)="reproducirAudio('a16p1l1')"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2FM.png?alt=media&token=10e22a1c-ca63-44f1-891f-d57acc2c7ac0"
+            class="img-fluid m-1 cursor-pointer"
+            alt="img"
+          />
+          <h6 class="text-center">/em/</h6>
+        </div>
+        <div class="col-md-1 col-3">
+          <!-- audio l1 17-->
+          <audio id="a17p1l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F17.mp3?alt=media&token=ceaf24b0-daaf-4d21-92be-40f1b271ca02"
+            />
+          </audio>
+          <img
+            (click)="reproducirAudio('a17p1l1')"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2FN.png?alt=media&token=0b998db4-bc43-431b-bd0f-3847766e7315"
+            class="img-fluid m-1 cursor-pointer"
+            alt="img"
+          />
+          <h6 class="text-center">/en/</h6>
+        </div>
+        <div class="col-md-1 col-3">
+          <!-- audio l1 18-->
+          <audio id="a18p1l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F18.mp3?alt=media&token=528b4d46-267e-4ce1-a953-ff5c0e9a93fa"
+            />
+          </audio>
+          <img
+            (click)="reproducirAudio('a18p1l1')"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2FO.png?alt=media&token=4e7c3cb6-81ad-4593-9b92-998783b3c44d"
+            class="img-fluid m-1 cursor-pointer"
+            alt="img"
+          />
+          <h6 class="text-center">/ou/</h6>
+        </div>
+        <div class="col-md-1 col-3">
+          <!-- audio l1 19-->
+          <audio id="a19p1l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F19.mp3?alt=media&token=43ca4359-be82-4ae7-8509-73c96dadb9d6"
+            />
+          </audio>
+          <img
+            (click)="reproducirAudio('a19p1l1')"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2FP.png?alt=media&token=7db6f6bd-6b39-46b9-835a-f61f4c434f85"
+            class="img-fluid m-1 cursor-pointer"
+            alt="img"
+          />
+          <h6 class="text-center">/pi/</h6>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-1 col-3">
+          <!-- audio l1 20-->
+          <audio id="a20p1l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F20.mp3?alt=media&token=2a85e428-7ac8-45ad-9929-1e560178e468"
+            />
+          </audio>
+          <img
+            (click)="reproducirAudio('a20p1l1')"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2FQ.png?alt=media&token=58571268-aaf5-4faf-bfb8-9929c6b40f41"
+            class="img-fluid m-1 cursor-pointer"
+            alt="img"
+          />
+          <h6 class="text-center">/kiu/</h6>
+        </div>
+        <div class="col-md-1 col-3">
+          <!-- audio l1 21-->
+          <audio id="a21p1l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F21.mp3?alt=media&token=9ffd78b7-835f-4731-9ab9-4ea46799be48"
+            />
+          </audio>
+          <img
+            (click)="reproducirAudio('a21p1l1')"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2FR.png?alt=media&token=f789ef22-9731-4324-8529-aea85e6b464f"
+            class="img-fluid m-1 cursor-pointer"
+            alt="img"
+          />
+          <h6 class="text-center">/ar/</h6>
+        </div>
+        <div class="col-md-1 col-3">
+          <!-- audio l1 22-->
+          <audio id="a22p1l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F22.mp3?alt=media&token=70c89e11-7106-4cd6-ba96-85fadb085aa1"
+            />
+          </audio>
+          <img
+            (click)="reproducirAudio('a22p1l1')"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2FS.png?alt=media&token=e6ad6722-a1a1-4578-9df2-675e0dc04bf5"
+            class="img-fluid m-1 cursor-pointer"
+            alt="img"
+          />
+          <h6 class="text-center">/es/</h6>
+        </div>
+        <div class="col-md-1 col-3">
+          <!-- audio l1 23-->
+          <audio id="a23p1l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F23.mp3?alt=media&token=72c75dad-b2bd-443c-ae69-de7b46660f78"
+            />
+          </audio>
+          <img
+            (click)="reproducirAudio('a23p1l1')"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2FT.png?alt=media&token=7b3b1bd2-6e57-404a-adf8-82da1eeb406a"
+            class="img-fluid m-1 cursor-pointer"
+            alt="img"
+          />
+          <h6 class="text-center">/ti/</h6>
+        </div>
+        <div class="col-md-1 col-3">
+          <!-- audio l1 24-->
+          <audio id="a24p1l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F24.mp3?alt=media&token=c1936315-8c6f-43af-a1ad-02b707de36a2"
+            />
+          </audio>
+          <img
+            (click)="reproducirAudio('a24p1l1')"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2FU.png?alt=media&token=4155fdfd-f89b-44ce-a0bf-524e1df11a99"
+            class="img-fluid m-1 cursor-pointer"
+            alt="img"
+          />
+          <h6 class="text-center">/iu/</h6>
+        </div>
+        <div class="col-md-1 col-3">
+          <!-- audio l1 25-->
+          <audio id="a25p1l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F25.mp3?alt=media&token=d1fff57f-4879-46a5-936d-7be85f97725e"
+            />
+          </audio>
+          <img
+            (click)="reproducirAudio('a25p1l1')"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2FV.png?alt=media&token=4a9a44b1-28f3-40f7-964c-c67a623f84ae"
+            class="img-fluid m-1 cursor-pointer"
+            alt="img"
+          />
+          <h6 class="text-center">/vi/</h6>
+        </div>
+        <div class="col-md-1 col-3">
+          <!-- audio l1 26-->
+          <audio id="a26p1l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F26.mp3?alt=media&token=0fb41d36-e82f-486a-acc6-dca1820c9181"
+            />
+          </audio>
+          <img
+            (click)="reproducirAudio('a26p1l1')"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2FW.png?alt=media&token=eb9f14e2-696e-4ef0-a524-be725fae1649"
+            class="img-fluid m-1 cursor-pointer"
+            alt="img"
+          />
+          <h6 class="text-center">/dobliu/</h6>
+        </div>
+        <div class="col-md-1 col-3">
+          <!-- audio l1 27-->
+          <audio id="a27p1l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F27.mp3?alt=media&token=6db5ecff-b7ae-4e5b-bcbc-0d6c686e6da8"
+            />
+          </audio>
+          <img
+            (click)="reproducirAudio('a27p1l1')"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2FX.png?alt=media&token=22e920d0-024d-4a0f-8b11-a151ed34d346"
+            class="img-fluid m-1 cursor-pointer"
+            alt="img"
+          />
+          <h6 class="text-center">/eks/</h6>
+        </div>
+        <div class="col-md-1 col-3">
+          <!-- audio l1 28-->
+          <audio id="a28p1l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F28.mp3?alt=media&token=e9f66d35-fe34-480e-8588-d0439aa52ba7"
+            />
+          </audio>
+          <img
+            (click)="reproducirAudio('a28p1l1')"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2FY.png?alt=media&token=b2ca1f0e-7ca2-4cf6-99be-bf5b743f04b3"
+            class="img-fluid m-1 cursor-pointer"
+            alt="img"
+          />
+          <h6 class="text-center">/way/</h6>
+        </div>
+        <div class="col-md-1 col-3">
+          <!-- audio l1 29-->
+          <audio id="a29p1l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F29.mp3?alt=media&token=bacf0283-8e05-4725-bdcc-7dd330fc205d"
+            />
+          </audio>
+          <img
+            (click)="reproducirAudio('a29p1l1')"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2FZ.png?alt=media&token=763ae8f0-90f9-4ae1-ab2b-ff5a454d583e"
+            class="img-fluid m-1 cursor-pointer"
+            alt="img"
+          />
+          <h6 class="text-center">/zi/</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,7 @@
+.logo {
+    width: 100px;
+}
+
+.sticky-wrapper {
+    z-index: 4 !important;
+}

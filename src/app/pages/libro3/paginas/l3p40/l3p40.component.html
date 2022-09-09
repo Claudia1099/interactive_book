@@ -1,0 +1,292 @@
+<div>
+  <div class="row">
+    <div class="col-md-12">
+      <h5 class="center">HOMEWORK</h5>
+      <p class="justify">
+        Describe a typical day in your life, from the time you get up in the
+        morning until you go to bed. Use the following words to show the order
+        of your activities: then, next, at... o'clock, after that, later.
+      </p>
+    </div>
+    <div class="col-md-6">
+      <p class="justify">
+        <strong>Example:</strong><br /><!-- audio 107-->
+        <audio id="a1p40l3" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F107.mp3?alt=media&token=567756c5-4567-40b6-af29-0af7a07ef8da"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a1p40l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        I usually get up at seven-thirty. I shave, brush my teeth, and take a
+        shower. Then I put on my clothes and go to the cafeteria for breakfast.
+        After that, I go back to my room. I sometimes watch the news on TV. At
+        8:15 I leave the dormitory. I go to class. My class begins at 8:30. I’m
+        in class from 8:30 to 11:30. After that I eat lunch. I usually have a
+        sandwich and a cup of tea for lunch. (Continue until you complete your
+        day.)
+      </p>
+    </div>
+    <div class="col-md-6">
+      <br />
+      <textarea
+        name="ans1page41"
+        [(ngModel)]="libro.ans1Page41"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+        cols="60"
+        rows="5"
+        class="form-control"
+      ></textarea>
+    </div>
+    <div class="col-md-12">
+      <strong>EXERCISE: </strong><br />
+      <p>
+        Complete the sentences. Use the words in parentheses. Use the SIMPLE
+        PRESENT TENSE. Pay special attention to singular and plural, to
+        spelling, and to pronunciation of final <strong>-s/-es.</strong>
+      </p>
+      <ol>
+        <li>
+          The students (ask, often)
+          <input
+            class="m-1 form-control input"
+            type="text"
+            value="often ask"
+            name=""
+            id=""
+            disabled
+          />
+          questions in class.
+        </li>
+        <li>
+          Pablo (study, usually)
+          <input
+            class="m-1 form-control input"
+            type="text"
+            name="ans2page41"
+            [(ngModel)]="libro.ans2Page41"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          at the library every evening.
+        </li>
+        <li>
+          Olga (bite)
+          <input
+            class="m-1 form-control input"
+            type="text"
+            name="ans3page41"
+            [(ngModel)]="libro.ans3Page41"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          her fingernails when she is nervous.
+        </li>
+        <li>
+          Don (cash)
+          <input
+            class="m-1 form-control input"
+            type="text"
+            name="ans4page41"
+            [(ngModel)]="libro.ans4Page41"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          a check at the bank once a week.
+        </li>
+        <li>
+          Sometimes I (worry)
+          <input
+            class="m-1 form-control input"
+            type="text"
+            name="ans5page41"
+            [(ngModel)]="libro.ans5Page41"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          about my grades at school. <br />
+          Sonya (worry, never)
+          <input
+            class="m-1 form-control input"
+            type="text"
+            name="ans6page41"
+            [(ngModel)]="libro.ans6Page41"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          about her grades. <br />She (study)
+          <input
+            class="m-1 form-control input"
+            type="text"
+            name="ans7page41"
+            [(ngModel)]="libro.ans7Page41"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          hard.
+        </li>
+        <li>
+          Ms. Jones and Mr. Anderson (teach)
+          <input
+            class="m-1 form-control input"
+            type="text"
+            name="ans8page41"
+            [(ngModel)]="libro.ans8Page41"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          at the local high school. Ms. Jones (teach)
+          <input
+            class="m-1 form-control input"
+            type="text"
+            name="ans9page41"
+            [(ngModel)]="libro.ans9Page41"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          math.
+        </li>
+        <li>
+          Birds (fly)
+          <input
+            class="m-1 form-control input"
+            type="text"
+            name="ans10page41"
+            [(ngModel)]="libro.ans10Page41"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          . They (have)
+          <input
+            class="m-1 form-control input"
+            type="text"
+            name="ans11page41"
+            [(ngModel)]="libro.ans11Page41"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          wings.
+        </li>
+        <li>
+          A bird (fly)
+          <input
+            class="m-1 form-control input"
+            type="text"
+            name="ans12page41"
+            [(ngModel)]="libro.ans12Page41"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          . It (have)
+          <input
+            class="m-1 form-control input"
+            type="text"
+            name="ans13page41"
+            [(ngModel)]="libro.ans13Page41"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          wings.
+        </li>
+        <li>
+          Jason (do, always)
+          <input
+            class="m-1 form-control input"
+            type="text"
+            name="ans14page41"
+            [(ngModel)]="libro.ans14Page41"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          his homework. He (go, never)
+          <input
+            class="m-1 form-control input"
+            type="text"
+            name="ans15page41"
+            [(ngModel)]="libro.ans15Page41"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          to bed until his homework is finished.
+        </li>
+        <li>
+          Mr. Cook (say, always)
+          <input
+            class="m-1 form-control input"
+            type="text"
+            name="ans16page41"
+            [(ngModel)]="libro.ans16Page41"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          hello to his neighbor in the morning.
+        </li>
+        <li>
+          Ms. Chu (pay, always)
+          <input
+            class="m-1 form-control input"
+            type="text"
+            name="ans17page41"
+            [(ngModel)]="libro.ans17Page41"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          attention in class. She (answer)
+          <input
+            class="m-1 form-control input"
+            type="text"
+            name="ans18page41"
+            [(ngModel)]="libro.ans18Page41"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          questions. She (listen)
+          <input
+            class="m-1 form-control input"
+            type="text"
+            name="ans19page41"
+            [(ngModel)]="libro.ans19Page41"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          to the teacher. She (ask)
+          <input
+            class="m-1 form-control input"
+            type="text"
+            name="ans20page41"
+            [(ngModel)]="libro.ans20Page41"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          questions.
+        </li>
+      </ol>
+    </div>
+  </div>
+</div>

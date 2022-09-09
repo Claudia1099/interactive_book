@@ -1,0 +1,209 @@
+<div>
+  <div class="row">
+    <div class="col-md-12">
+      <h4 class="my-2">CHAT TIME</h4>
+    </div>
+    <div class="col-md-4 text-center">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F192.jpg?alt=media&token=b4913d12-fd16-4a53-8e5c-0b0fba769715"
+        class="img-fluid rounded m-1 w-75"
+        alt="img"
+      />
+      <h6>
+        <b>
+          <!-- audio l1 851-->
+          <audio id="a1p59l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F851.mp3?alt=media&token=f79d78bc-a466-4010-844a-5073217a0b88"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a1p59l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          A.</b
+        >
+        Is Daniel taller than James?<br />
+        <b>
+          <!-- audio l1 852-->
+          <audio id="a2p59l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F852.mp3?alt=media&token=03342eb9-0aae-4898-9455-7e78cf5cf6c6"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a2p59l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          B.</b
+        >
+        No, he isn’t. He is shorter than James.
+      </h6>
+    </div>
+    <div class="col-md-4 text-center">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F193.jpg?alt=media&token=917586a8-28e2-4359-b57d-35d28bab7b6b"
+        class="img-fluid rounded m-1 w-75"
+        alt="img"
+      />
+      <h6>
+        <b>
+          <!-- audio l1 853-->
+          <audio id="a3p59l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F853.mp3?alt=media&token=d9de7f2a-4a59-441d-8585-bb127b601f46"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a3p59l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          A.</b
+        >
+        Is this car faster than that one?<br />
+        <b>
+          <!-- audio l1 854-->
+          <audio id="a4p59l1" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F854.mp3?alt=media&token=cdc3fd89-cace-4e2b-828b-4f64416d5a20"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a4p59l1')"
+            class="btn rounded-pill btn-sm audio"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          B.</b
+        >
+        No, it isn’t. This car is slower than that one.
+      </h6>
+    </div>
+    <div class="col-md-4 text-center">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F194.jpg?alt=media&token=7f47325e-50cb-4e0d-b501-25039f2cb0aa"
+        class="img-fluid rounded m-1 w-75"
+        alt="img"
+      />
+      <h6>
+        <input
+          type="text"
+          class="form-control my-1"
+          placeholder="A."
+          name="ans1page60"
+          [(ngModel)]="libro.ans1Page60"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />
+        <input
+          type="text"
+          class="form-control my-1"
+          placeholder="B."
+          name="ans2page60"
+          [(ngModel)]="libro.ans2Page60"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />
+      </h6>
+    </div>
+    <div class="col-md-4 text-center">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F195.jpg?alt=media&token=4fa93567-c2f8-4f35-8916-99171ed8de52"
+        class="img-fluid rounded m-1 w-75"
+        alt="img"
+      />
+      <h6>
+        <input
+          type="text"
+          class="form-control my-1"
+          placeholder="A."
+          name="ans3page60"
+          [(ngModel)]="libro.ans3Page60"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />
+        <input
+          type="text"
+          class="form-control my-1"
+          placeholder="B."
+          name="ans4page60"
+          [(ngModel)]="libro.ans4Page60"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />
+      </h6>
+    </div>
+    <div class="col-md-4 text-center">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F196.jpg?alt=media&token=21f05872-9edc-4c7e-b82e-a727da5b4f96"
+        class="img-fluid rounded m-1 w-75"
+        alt="img"
+      />
+      <h6>
+        <input
+          type="text"
+          class="form-control my-1"
+          placeholder="A."
+          name="ans5page60"
+          [(ngModel)]="libro.ans5Page60"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />
+        <input
+          type="text"
+          class="form-control my-1"
+          placeholder="B."
+          name="ans6page60"
+          [(ngModel)]="libro.ans6Page60"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />
+      </h6>
+    </div>
+    <div class="col-md-4 text-center">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F197.jpg?alt=media&token=e7388fc8-bf69-4606-afca-d27d7219ecdf"
+        class="img-fluid rounded m-1 w-75"
+        alt="img"
+      />
+      <h6>
+        <input
+          type="text"
+          class="form-control my-1"
+          placeholder="A."
+          name="ans7page60"
+          [(ngModel)]="libro.ans7Page60"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />
+        <input
+          type="text"
+          class="form-control my-1"
+          placeholder="B."
+          name="ans8page60"
+          [(ngModel)]="libro.ans8Page60"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />
+      </h6>
+    </div>
+  </div>
+</div>

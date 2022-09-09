@@ -1,0 +1,74 @@
+<div>
+    <div class="row">
+
+        <div class="col-md-12 text-center">
+            <p>B. In pairs, take it in turns to describe the people below</p>
+            <img class="img-fluid " src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/ImgLibro1%2Fimg6_libroA1.png?alt=media&token=d2b32902-7ca3-480e-b703-12e0c3c2cea0" alt="">
+            <h3 class="center">Clothes</h3>
+            <h5><strong>We use the verb 'wear' to talk about the clothes someone has on.</strong></h5>
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col-md-4">
+                    <div class="card border-info center">
+                        <div class="card-body">
+                            <p class="card-text">Present simple form 'wear' <br><strong>Example:</strong> She wears a uniform to school.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-info center">
+                        <div class="card-body">
+                            <p class="card-text">Past simple form 'wore' <br><strong>Example:</strong> I wore a T-shirt and jeans yesterday.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-info center">
+                        <div class="card-body">
+                            <p class="card-text">Present continuous form 'wearing' <br><strong>Example:</strong> He is wearing a shirt and tie.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-12 table-responsive mx-2">
+            <p><br>A. What otheritems of clothing can you add to thislist?Write your answersin the spaces below.
+            </p>
+            <table class="table table-striped">
+                <tbody>
+                    <tr>
+                        <td>T – shirt</td>
+                        <td>dress</td>
+                        <td>sweater</td>
+                        <td>shirt</td>
+                        <td>__</td>
+                        <td>__</td>
+                    </tr>
+                    <tr>
+                        <td>jeans</td>
+                        <td>skirt</td>
+                        <td>suit</td>
+                        <td>boots</td>
+                        <td>__</td>
+                        <td>__</td>
+                    </tr>
+                    <tr>
+                        <td>trainers</td>
+                        <td>socks</td>
+                        <td>trousers</td>
+                        <td>shoes</td>
+                        <td>__</td>
+                        <td>__</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-12">
+            <p>A. What are you wearing now?</p>
+            <input type="text" name="ans1page4" [(ngModel)]="libro.ans1Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" placeholder="Answer" class="form-control">
+
+            <p>B. What did you wear yesterday?</p>
+            <input type="text" name="ans2page4" [(ngModel)]="libro.ans2Page4" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" placeholder="Answer" class="form-control">
+        </div>
+    </div>
+</div>

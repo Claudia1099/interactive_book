@@ -1,0 +1,4 @@
+.altura-pantalla {
+    min-height: calc(100vh);
+    /* -px header -pxfooter */
+}

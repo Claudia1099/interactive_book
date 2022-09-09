@@ -1,0 +1,158 @@
+<div>
+    <div class="row">
+
+        <div class="col-md-12">
+            <h2 class="center">WORKSHEET</h2>
+            <h4>Preparation</h4>
+            <p><strong>Do this exercise before you listen.</strong> Write the words in the correct group.</p>
+            <span class="badge bg-info mx-2"> Banana Cake</span>
+            <span class="badge bg-info mx-2"> Cola</span>
+            <span class="badge bg-info mx-2"> Ice cream</span>
+            <span class="badge bg-info mx-2"> Water</span>
+            <span class="badge bg-info mx-2"> Apple tart</span>
+            <span class="badge bg-info mx-2"> Apple juice</span>
+            <span class="badge bg-info mx-2"> Four cheeses pizza</span>
+            <span class="badge bg-info mx-2"> Cheese burger</span>
+            <span class="badge bg-info mx-2"> Chicken curry and rice</span>
+            <span class="badge bg-info mx-2"> Orange Juice</span>
+            <span class="badge bg-info mx-2"> Chocolate cake</span>
+            <span class="badge bg-info mx-2"> Seafood salad with bread</span>
+        </div>
+        <div class="col-md-4 col-12 p-1">
+            <h6>Main courses</h6>
+            <textarea name="ans1page26" [(ngModel)]="libro.ans1Page26" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" cols="20" rows="6" class="form-control"></textarea>
+        </div>
+        <div class="col-md-4 col-12 p-1">
+            <h6>Desserts</h6>
+            <textarea name="ans2page26" [(ngModel)]="libro.ans2Page26" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" cols="20" rows="6" class="form-control"></textarea>
+        </div>
+        <div class="col-md-4 col-12 p-1">
+            <h6>Drinks</h6>
+            <textarea name="ans3page26" [(ngModel)]="libro.ans3Page26" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" cols="20" rows="6" class="form-control"></textarea>
+        </div>
+        <div class="col-md-6">
+            <h4>1. Check your understanding: multiple choice</h4>
+            <p><strong>Do this exercise while you listen.</strong> Circle the best answer to complete these sentences.</p>
+            <ol>
+                <li>For him main course. Andi chooses
+                    <ol>
+
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="q1-p26-la1" id="q1-p26-la1-o1" value="q1-p26-la1-o1" [checked]="libro['q1-p26-la1']==='q1-p26-la1-o1'" [(ngModel)]="libro['q1-p26-la1']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="q1-p26-la1-o1">
+                                a normal cheese burger
+                            </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="q1-p26-la1" id="q1-p26-la1-o2" value="q1-p26-la1-o2" [checked]="libro['q1-p26-la1']==='q1-p26-la1-o2'" [(ngModel)]="libro['q1-p26-la1']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="q1-p26-la1-o2">
+                                   a double cheese burger
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="q1-p26-la1" id="q1-p26-la1-o3" value="q1-p26-la1-o3" [checked]="libro['q1-p26-la1']==='q1-p26-la1-o3'" [(ngModel)]="libro['q1-p26-la1']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="q1-p26-la1-o3">
+                                    a burger with chips
+                                </label>
+                            </div>
+                        </li>
+                    </ol>
+                </li>
+                <li>For dessert, Andi chooses
+                    <ol>
+
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="q2-p26-la1" id="q2-p26-la1-o1" value="q2-p26-la1-o1" [checked]="libro['q2-p26-la1']==='q2-p26-la1-o1'" [(ngModel)]="libro['q2-p26-la1']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="q2-p26-la1-o1">
+                                Ice cream
+                            </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="q2-p26-la1" id="q2-p26-la1-o2" value="q2-p26-la1-o2" [checked]="libro['q2-p26-la1']==='q2-p26-la1-o2'" [(ngModel)]="libro['q2-p26-la1']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="q2-p26-la1-o2">
+                                   chocolate cake
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="q2-p26-la1" id="q2-p26-la1-o3" value="q2-p26-la1-o3" [checked]="libro['q2-p26-la1']==='q2-p26-la1-o3'" [(ngModel)]="libro['q2-p26-la1']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="q2-p26-la1-o3">
+                                    banana cake
+                                </label>
+                            </div>
+                        </li>
+                    </ol>
+                </li>
+                <li>To drink, Andi chooses
+                    <ol>
+
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="q3-p26-la1" id="q3-p26-la1-o1" value="q3-p26-la1-o1" [checked]="libro['q3-p26-la1']==='q3-p26-la1-o1'" [(ngModel)]="libro['q3-p26-la1']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="q3-p26-la1-o1">
+                                apple juice
+                            </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="q3-p26-la1" id="q3-p26-la1-o2" value="q3-p26-la1-o2" [checked]="libro['q3-p26-la1']==='q3-p26-la1-o2'" [(ngModel)]="libro['q3-p26-la1']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="q3-p26-la1-o2">
+                                   fizzy water
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="q3-p26-la1" id="q3-p26-la1-o3" value="q3-p26-la1-o3" [checked]="libro['q3-p26-la1']==='q3-p26-la1-o3'" [(ngModel)]="libro['q3-p26-la1']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="q3-p26-la1-o3">
+                                    still water
+                                </label>
+                            </div>
+                        </li>
+                    </ol>
+                </li>
+            </ol>
+        </div>
+        <div class="col-md-6">
+            <h4>2. Check your understanding: ordering</h4>
+            <p>Write a number (1-5) to put the questions in the order you hear them.</p>
+            <ul>
+                <li class="my-2"><span class="badge bg-info"><input type="text" maxlength="1"  name="ans4page26" [(ngModel)]="libro.ans4Page26" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""  style="width : 35px; height : 23px"></span> anything else? </li>
+                <li class="my-2"><span class="badge bg-info"><input type="text" maxlength="1"  name="ans5page26" [(ngModel)]="libro.ans5Page26" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""  style="width : 35px; height : 23px"></span> a cheese burger or double
+                    cheese burger? </li>
+                <li class="my-2"><span class="badge bg-info"><input type="text" maxlength="1"  name="ans6page26" [(ngModel)]="libro.ans6Page26" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""  style="width : 35px; height : 23px"></span> What would you like?</li>
+                <li class="my-2"><span class="badge bg-info"><input type="text" maxlength="1"  name="ans7page26" [(ngModel)]="libro.ans7Page26" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""  style="width : 35px; height : 23px"></span> Would you like a drink?</li>
+                <li class="my-2"><span class="badge bg-info"><input type="text" maxlength="1"  name="ans8page26" [(ngModel)]="libro.ans8Page26" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id=""  style="width : 35px; height : 23px"></span> What´s your table number?</li>
+            </ul>
+
+        </div>
+        <div class="col-md-12">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Discussion</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Do you like fast food? Why or why not? <input type="text" name="ans9page26" [(ngModel)]="libro.ans9Page26" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" placeholder="answer" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>What´s your favorite restaurant? What food and drink do you like to have there? <input type="text" name="ans10page26" [(ngModel)]="libro.ans10Page26" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" placeholder="answer"
+                                class="form-control"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

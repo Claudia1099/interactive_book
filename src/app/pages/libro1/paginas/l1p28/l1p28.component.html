@@ -1,0 +1,363 @@
+<div>
+  <div class="row">
+    <div class="col-md-3">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F69.jpg?alt=media&token=5e8ba176-12ec-40ef-bb0d-505bd638b26f"
+        class="img-fluid m-1 rounded"
+        alt="img"
+      />
+      <strong
+        ><!-- audio l1 485-->
+        <audio id="a1p28l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F485.mp3?alt=media&token=28e19e05-aef7-49fc-8b3d-cb2b0ff77fbf"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a1p28l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        A.</strong
+      >
+      Is it raining?<br />
+      <strong
+        ><!-- audio l1 486-->
+        <audio id="a2p28l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F486.mp3?alt=media&token=ad4d636b-fa93-450c-8e39-cf6994f1354b"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a2p28l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        B.</strong
+      >
+      No, it isn’t. It’s sunny.
+    </div>
+    <div class="col-md-3">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F71.jpg?alt=media&token=e5638313-157f-43a0-a932-f599a879cda3"
+        class="img-fluid m-1 rounded"
+        alt="img"
+      />
+      <strong
+        ><!-- audio l1 487-->
+        <audio id="a3p28l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F487.mp3?alt=media&token=94cf6321-8dc1-4740-bb5f-d18fde9c7ccf"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a3p28l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        A.</strong
+      >
+      Is it sunny?
+      <div class="d-flex align-items-center">
+        <div class="d-flex">
+          <div>
+            <!-- audio l1 488-->
+            <audio id="a4p28l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F488.mp3?alt=media&token=e80e5c95-7d68-48d5-a241-6d1e793761f2"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a4p28l1')"
+              class="btn rounded-pill btn-sm audio"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+          </div>
+          <strong>B.</strong>
+          No,
+        </div>
+        <input
+          type="text"
+          class="form-control"
+          name="ans1page29"
+          [(ngModel)]="libro.ans1Page29"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />
+      </div>
+    </div>
+    <div class="col-md-3">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F72.jpg?alt=media&token=1c23a554-3a14-409e-a66c-7372e3e521f3"
+        class="img-fluid m-1 rounded"
+        alt="img"
+      />
+      <strong
+        ><!-- audio l1 489-->
+        <audio id="a5p28l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F489.mp3?alt=media&token=4cd43784-44e4-43b2-9047-a9a1fe41fa13"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a5p28l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        A.</strong
+      >
+      Is it windy?
+      <div class="d-flex align-items-center">
+        <div class="d-flex">
+          <div>
+            <!-- audio l1 490-->
+            <audio id="a6p28l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F490.mp3?alt=media&token=eb6d1115-4fe0-4444-a1f8-a959ed566a8c"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a6p28l1')"
+              class="btn rounded-pill btn-sm audio"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+          </div>
+          <strong>B.</strong> No,
+        </div>
+        <input
+          type="text"
+          class="form-control"
+          name="ans2page29"
+          [(ngModel)]="libro.ans2Page29"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />
+      </div>
+    </div>
+    <div class="col-md-3">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2F73.jpg?alt=media&token=9a4d0164-1f4f-4981-98bd-0e53c3559fb3"
+        class="img-fluid m-1 rounded"
+        alt="img"
+      />
+      <strong
+        ><!-- audio l1 491-->
+        <audio id="a7p28l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F491.mp3?alt=media&token=725893a6-97fc-42a1-9cda-e703e7ab205c"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a7p28l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        A.</strong
+      >
+      Is it cloudy? <br />
+      <div class="d-flex align-items-center">
+        <div class="d-flex">
+          <div>
+            <!-- audio l1 492-->
+            <audio id="a8p28l1" aria-label="audio" class="d-none" controls>
+              <source
+                type="audio/mp3"
+                src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F492.mp3?alt=media&token=244096ff-86f3-4459-a1f9-4dcb6b406136"
+              />
+            </audio>
+            <button
+              (click)="reproducirAudio('a8p28l1')"
+              class="btn rounded-pill btn-sm audio"
+            >
+              <i class="fas fa-volume-up"></i>
+            </button>
+          </div>
+          <strong>B.</strong>
+          No,
+        </div>
+        <input
+          type="text"
+          class="form-control"
+          name="ans3page29"
+          [(ngModel)]="libro.ans3Page29"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />
+      </div>
+    </div>
+
+    <hr class="my-2" />
+    <div class="col-md-12">
+      <h3 class="center">
+        <!-- audio l1 493-->
+        <audio id="a9p28l1" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F493.mp3?alt=media&token=7d039e60-5549-4ac6-ab30-838f37894ef7"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a9p28l1')"
+          class="btn rounded-pill btn-sm audio"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        THE TEMPERATURE
+      </h3>
+      <div class="row">
+        <div class="col-md-4 col-12">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro-1%2Ftermometro.png?alt=media&token=255c843a-62c0-4117-a6b1-4b74181a2353"
+            class="img-fluid m-1 rounded w-75"
+            alt="img"
+          />
+        </div>
+        <div class="col-md-3 col-6">
+          <ol>
+            <li class="my-1">
+              <!-- audio l1 494-->
+              <audio id="a10p28l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F494.mp3?alt=media&token=05488794-0776-4fb1-84ea-392dbceff36e"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a10p28l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i></button
+              ><span class="badge bg-primary mx-1"><h5>Thermometer</h5> </span>
+            </li>
+            <li class="my-1">
+              <!-- audio l1 495-->
+              <audio id="a11p28l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F495.mp3?alt=media&token=204df23b-f799-4e91-99a2-4ffba3f13173"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a11p28l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i></button
+              ><span class="badge bg-primary mx-1"><h5>Fahrenheit</h5> </span>
+            </li>
+            <li class="my-1">
+              <!-- audio l1 496-->
+              <audio id="a12p28l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F496.mp3?alt=media&token=28b91b3f-9c80-4619-bc26-664cc24197c6"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a12p28l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i></button
+              ><span class="badge bg-primary mx-1"><h5>Celsius</h5> </span>
+            </li>
+            <li class="my-1">
+              <!-- audio l1 497-->
+              <audio id="a13p28l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F497.mp3?alt=media&token=cfead7e4-f145-4194-bdac-ff7998a87038"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a13p28l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i></button
+              ><span class="badge bg-primary mx-1"><h5>Hot</h5></span>
+            </li>
+          </ol>
+        </div>
+        <div class="col-md-3 col-6">
+          <ol start="5">
+            <li class="my-1">
+              <!-- audio l1 498-->
+              <audio id="a14p28l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F498.mp3?alt=media&token=6c0c1742-0a0e-4b72-b38a-614b1b33dd1f"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a14p28l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i></button
+              ><span class="badge bg-primary mx-1"><h5>Warm</h5></span>
+            </li>
+            <li class="my-1">
+              <!-- audio l1 499-->
+              <audio id="a15p28l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F499.mp3?alt=media&token=448aaa27-d37a-44b5-9ebb-a0f278617b74"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a15p28l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i></button
+              ><span class="badge bg-primary mx-1"><h5>Cool</h5></span>
+            </li>
+            <li class="my-1">
+              <!-- audio l1 500-->
+              <audio id="a16p28l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F500.mp3?alt=media&token=59073248-39d9-44e2-b834-2f4f4173dcf3"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a16p28l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i></button
+              ><span class="badge bg-primary mx-1"><h5>Cold</h5></span>
+            </li>
+            <li class="my-1">
+              <!-- audio l1 501-->
+              <audio id="a17p28l1" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/AudiosLibro1%2F501.mp3?alt=media&token=8bcd98ce-8edb-47b0-9be7-1f1f47a8ec43"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a17p28l1')"
+                class="btn rounded-pill btn-sm audio"
+              >
+                <i class="fas fa-volume-up"></i></button
+              ><span class="badge bg-primary mx-1"><h5>Freezing</h5></span>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

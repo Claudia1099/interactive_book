@@ -1,0 +1,18 @@
+.bg-aes {
+    min-height: 250px;
+    max-height: max-content;
+    background: linear-gradient(90deg, rgba(178, 81, 219, 1) 0%, rgba(83, 54, 228, 1) 46%);
+}
+
+.iconos {
+    width: 120px;
+}
+
+.text-navbar {
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.none-link {
+    text-decoration: none;
+}

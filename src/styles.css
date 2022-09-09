@@ -1,0 +1,126 @@
+/* You can add global styles to this file, and also import other style files */
+
+@media (min-width: 1366px) {
+    .iniciarsesion-75 {
+        width: 75%;
+    }
+}
+
+.audio{
+    color: white;
+    background: blue;
+    margin-bottom: 1px;
+}
+
+.center {
+    text-align: center;
+}
+
+.bg-header {
+    background-color: #f0f2fb;
+}
+
+.text-blue {
+    color: darkblue;
+}
+
+.text-white {
+    color: white;
+}
+.text-black{
+    color: black;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.paginacion {
+    text-align-last: right;
+    background-color: rgba(170, 222, 238, 0.788);
+    margin-bottom: 10px;
+}
+
+.bg-page {
+    background-color: #f8f8fbd4;
+}
+
+.linea-media {
+    border-right: 2px solid lightgrey;
+}
+
+.img1 {
+    height: 50vh;
+}
+
+.justify {
+    text-align: justify;
+}
+.lila{
+    background-color: #E2A7FA;
+}
+.morado {
+    background-color: purple;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.verde {
+    background-color: chartreuse;
+}
+
+.verde2 {
+    background-color: green;
+}
+
+.rojo {
+    background-color: rgb(235, 22, 22);
+}
+
+.list-none {
+    list-style: none;
+}
+
+.list-may {
+    list-style: upper-alpha;
+}
+
+.list-min {
+    list-style: lower-alpha;
+}
+
+.chat {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.chat1 {
+    background-color: #BBEBFC;
+    text-align: start;
+}
+
+.chat2 {
+    background-color: #E2A7FA;
+    text-align: end;
+}
+
+.input {
+    display: inline;
+    width: auto;
+    margin-bottom: 1px;
+}
+.modal-backdrop.show{
+    z-index: 2;
+}
+
+.btn-outline-morado {
+    color: purple;
+    border-color: purple;
+}
+.btn-outline-morado:hover {
+    color: #fff;
+    background-color: purple;
+    border-color: purple;
+}

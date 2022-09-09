@@ -1,0 +1,133 @@
+<div>
+  <div class="row">
+    <div class="col-md-12 mb-3">
+      <h3 class="center">THE SIMPLE PRESENT vs. THE PRESENT PROGRESSIVE</h3>
+      <p class="center">
+        <!-- audio 68-->
+        <audio id="a1p29l3" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F68.mp3?alt=media&token=6ee1be8a-8f8e-41a5-9ae8-f06d81a7ea0e"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a1p29l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i></button
+        ><strong> LET’S TALK:</strong> Look at the pictures and create your
+        dialogue.
+      </p>
+    </div>
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-6 card border-info">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F95.jpg?alt=media&token=c0f6ebe1-f5db-41b1-b597-fb712ca75c42"
+            class="img-fluid rounded m-1"
+            alt="img"
+          />
+        </div>
+        <div class="col-md-6">
+          <ul>
+            <li><strong>A.</strong> What is Mary doing?</li>
+            <li>
+              <strong>B.</strong> She is chatting on line with her new
+              boyfriend.
+            </li>
+            <li><strong>A.</strong> Does she chat on line every day?</li>
+            <li>
+              <strong>B.</strong> No, she doesn’t. She usually chats on line on
+              Sunday.
+            </li>
+          </ul>
+        </div>
+        <hr class="my-2" />
+        <div class="col-md-6">
+          <!-- audio 69-->
+          <audio id="a2p29l3" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F69.mp3?alt=media&token=1522550a-9273-4b17-9e43-9fceb4291c67"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a2p29l3')"
+            class="btn azul rounded-pill text-white btn-sm"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          <ul>
+            <li><strong>A.</strong> What are you doing?</li>
+            <li><strong>B.</strong> I am waking up early today.</li>
+            <li><strong>A.</strong> Do you wake up early every day?</li>
+            <li>
+              <strong>B.</strong> No, I don’t. I usually wake up at 8am, but on
+              Tuesdays I have to wake up early.
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 card border-info">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F92.jpg?alt=media&token=ab2b85d6-803f-44e2-bb25-419a1af2bb25"
+            class="img-fluid rounded m-1"
+            alt="img"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 p-3">
+      <div class="card border-info p-1">
+        <div class="d-flex justify-content-center">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F97.jpg?alt=media&token=57636aca-6a10-4376-9716-1a4dc7bb4305"
+            class="img-fluid rounded w-50 center"
+            alt="img"
+          />
+        </div>
+
+        <ul>
+          <!-- audio 70-->
+          <audio id="a3p29l3" aria-label="audio" class="d-none" controls>
+            <source
+              type="audio/mp3"
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F70.mp3?alt=media&token=5bde4674-8222-4385-9bc8-dff943d406a2"
+            />
+          </audio>
+          <button
+            (click)="reproducirAudio('a3p29l3')"
+            class="btn azul rounded-pill text-white btn-sm"
+          >
+            <i class="fas fa-volume-up"></i>
+          </button>
+          <li><strong>A.</strong> What is your mother doing?</li>
+          <li>
+            <strong>B.</strong>
+            <input
+              type="text"
+              class="form-control"
+              name="ans1page30"
+              [(ngModel)]="libro.ans1Page30"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+          </li>
+          <li><strong>A.</strong> Does she always help poor?</li>
+          <li>
+            <strong>B.</strong>
+            <input
+              type="text"
+              class="form-control"
+              name="ans2page30"
+              [(ngModel)]="libro.ans2Page30"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,162 @@
+<div>
+  <div class="row">
+    <div class="col-md-6">
+      <h5 class="text-center">
+        <button
+          (click)="reproducirAudio('a1p22l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i></button
+        >AVERY OUTGOING PERSON
+      </h5>
+      <div class="text-center">
+        <audio
+          aria-label="audio"
+          id="a1p22l3"
+          class=""
+          controls
+          controlslist="nodownload"
+        >
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F51.mp3?alt=media&token=6bfa9a3f-bcb1-45b6-b06f-1b1314530770"
+          />
+        </audio>
+      </div>
+      <br />
+      <p class="justify">
+        Alice is a very outgoing person. She spends a lot of time with her
+        friends. She goes to parties. She goes to movies, and she goes to
+        concerts. She's very popular. She also likes sports very much. She plays
+        basketball. She plays baseball, and she plays volleyball. She's very
+        athletic.
+      </p>
+      <p class="justify">
+        Alice doesn't stay home alone very often. She doesn't read many books,
+        she doesn't watch TV, and she doesn't listen to music. She's very
+        active.
+      </p>
+      <p class="justify">As you can see, Alice is a very outgoing person.</p>
+      <br />
+    </div>
+    <div class="col-md-6">
+      <strong>A VERY SHY PERSON</strong>
+      <p class="justify">
+        Using the story about Alice as a model, tell a story about Sheldon.
+        Begin your story: Sheldon is a very shy person. He doesn't spend a lot
+        of time with his friends. He doesn't go...
+      </p>
+      <br />
+      <strong>INTERVIEW</strong>
+      <p class="justify">
+        Interview another student, then tell the class about yourself and other
+        student. Interview another student. Then tell the class about yourself
+        and other student. First answer these questions about yourself. Next,
+        interview another student. Then, tell the class about yourself and the
+        other student.
+      </p>
+    </div>
+    <div class="col-md-12">
+      <hr />
+
+      <button
+        (click)="reproducirAudio('a2p22l3')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i></button
+      ><strong> Listens</strong>
+      <br />
+      <audio
+        aria-label="audio"
+        id="a2p22l3"
+        class=""
+        controls
+        controlslist="nodownload"
+      >
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F52.mp3?alt=media&token=551bea1a-90b4-4bc3-bb6d-d36dd2e9ff58"
+        />
+      </audio>
+      <hr />
+
+      <div class="row">
+        <div class="col-md-6">
+          <strong>1. What kind of movies do you like?</strong>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Answer"
+            name="ans13page22"
+            [(ngModel)]="libro.ans13Page22"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </div>
+        <div class="col-md-2 card border-info">
+          <h6 class="text-center">COMEDIES</h6>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F65.jpg?alt=media&token=d33ff137-14e0-4d69-8f7e-eef696bc3ca0"
+            class="img-fluid m-2 rounded"
+            alt="img"
+          />
+        </div>
+        <div class="col-md-2 card border-info">
+          <h6 class="text-center">DRAMA</h6>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F66.jpg?alt=media&token=ad6732ec-1710-4440-83f4-55535c22363a"
+            class="img-fluid m-2 rounded"
+            alt="img"
+          />
+        </div>
+        <div class="col-md-2 card border-info">
+          <h6 class="text-center">WESTERNS</h6>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F67.jpg?alt=media&token=df015d4d-abd5-40a1-9c8a-53b59eb17446"
+            class="img-fluid m-2 rounded"
+            alt="img"
+          />
+        </div>
+        <hr class="my-2" />
+        <div class="col-md-6">
+          <strong>Who’s your favourite movies Star?</strong>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Answer"
+            name="ans14page22"
+            [(ngModel)]="libro.ans14Page22"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </div>
+        <div class="col-md-2 card border-info">
+          <h6 class="text-center">ADVENTURE MOVIES</h6>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F68.jpg?alt=media&token=94a6e326-7ba5-46c9-95dc-daca6e52d125"
+            class="img-fluid m-2 rounded"
+            alt="img"
+          />
+        </div>
+        <div class="col-md-2 card border-info">
+          <h6 class="text-center">SCIENCE FICTION MOVIES</h6>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F69.jpg?alt=media&token=edbb8774-5e5f-41eb-857d-02eb60d49e15"
+            class="img-fluid m-2 rounded"
+            alt="img"
+          />
+        </div>
+        <div class="col-md-2 card border-info">
+          <h6 class="text-center">CARTOONS</h6>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F70.jpg?alt=media&token=3cd14b57-53e7-4b43-b87f-cfd0b5c4368a"
+            class="img-fluid m-2 rounded"
+            alt="img"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

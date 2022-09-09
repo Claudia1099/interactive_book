@@ -1,0 +1,366 @@
+<div>
+  <div class="row">
+    <div class="col-md-6">
+      <table class="table-bordered table-reponsive table table-striped">
+        <tbody>
+          <tr>
+            <td class="p-1">
+              <!-- audio 129-->
+              <audio id="a1p45l3" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F129.mp3?alt=media&token=3ecbce1f-2531-4cf5-a7c0-37eec5eb24b6"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a1p45l3')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              9. There are lots of restaurants and sandwich shops near the
+              school, so you...
+            </td>
+            <td class="p-1">can’t</td>
+            <td class="p-1">...be on time every morning.</td>
+          </tr>
+          <tr>
+            <td class="p-1">
+              <!-- audio 130-->
+              <audio id="a2p45l3" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F130.mp3?alt=media&token=3af27177-5679-474d-aeeb-05bc3482346f"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a2p45l3')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              10. It’s important to be quiet when you go near the Headmaster's
+              office, so you...
+            </td>
+            <td class="p-1">have to</td>
+            <td class="p-1">...wear casual clothes to school.</td>
+          </tr>
+          <tr>
+            <td class="p-1">
+              <!-- audio 131 -->
+              <audio id="a3p45l3" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F131.mp3?alt=media&token=44245a95-79f5-4e62-a874-55beb6d29c7b"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a3p45l3')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              11. The canteen is open all day, so you...
+            </td>
+            <td class="p-1">can’</td>
+            <td class="p-1">...eat in the school canteen.</td>
+          </tr>
+          <tr>
+            <td class="p-1">
+              <!-- audio 132 -->
+              <audio id="a4p45l3" aria-label="audio" class="d-none" controls>
+                <source
+                  type="audio/mp3"
+                  src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F132.mp3?alt=media&token=576de982-686c-4646-8399-8e7fe6d352c4"
+                />
+              </audio>
+              <button
+                (click)="reproducirAudio('a4p45l3')"
+                class="btn azul rounded-pill text-white btn-sm"
+              >
+                <i class="fas fa-volume-up"></i>
+              </button>
+              12. When you don't come to school, you...
+            </td>
+            <td class="p-1">don't have to</td>
+            <td class="p-1">...go without asking him or her.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-6">
+      <h5 class="center">ACTIVITY IN CLASS</h5>
+      <p class="my-1 justify">
+        Students to work alone and complete the sentences, according to how they
+        would like the people to behave. When everyone has finished writing,
+        divide the students into groups of four. Have the students discuss and
+        compare their answers and see who wrote similar sentences. The students
+        then discuss what qualities each person on the worksheet should have.
+      </p>
+    </div>
+
+    <div class="col-md-6 my-2">
+      <div class="row">
+        <div class="col-md-4">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F137.jpg?alt=media&token=7032f13e-b108-4b9a-ad91-fe13daae6317"
+            class="img-fluid rounded"
+            alt="img"
+          />
+        </div>
+        <div class="col-md-8">
+          A good friend must
+          <input
+            type="text"
+            class="form-control"
+            name="ans1page46"
+            [(ngModel)]="libro.ans1Page46"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          A good friend mustn't
+          <input
+            type="text"
+            class="form-control"
+            name="ans2page46"
+            [(ngModel)]="libro.ans2Page46"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 my-2">
+      <div class="row">
+        <div class="col-md-4">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F138.jpg?alt=media&token=e565f556-3660-406e-a913-6c1a34f4cc34"
+            class="img-fluid rounded"
+            alt="img"
+          />
+        </div>
+        <div class="col-md-8">
+          A good teacher must
+          <input
+            type="text"
+            class="form-control"
+            name="ans3page46"
+            [(ngModel)]="libro.ans3Page46"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          A good teacher mustn't
+          <input
+            type="text"
+            class="form-control"
+            name="ans4page46"
+            [(ngModel)]="libro.ans4Page46"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 my-2">
+      <div class="row">
+        <div class="col-md-4">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F139.jpg?alt=media&token=cbefcc46-e269-4f87-950e-7977bb85fac3"
+            class="img-fluid rounded"
+            alt="img"
+          />
+        </div>
+        <div class="col-md-8">
+          A good classmate must
+          <input
+            type="text"
+            class="form-control"
+            name="ans5page46"
+            [(ngModel)]="libro.ans5Page46"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          A good classmate mustn't
+          <input
+            type="text"
+            class="form-control"
+            name="ans6page46"
+            [(ngModel)]="libro.ans6Page46"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 my-2">
+      <div class="row">
+        <div class="col-md-4">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F140.jpg?alt=media&token=ba705a49-aff3-4ddb-8e2a-8eeabe5d6677"
+            class="img-fluid rounded"
+            alt="img"
+          />
+        </div>
+        <div class="col-md-8">
+          A good brother or sister must
+          <input
+            type="text"
+            class="form-control"
+            name="ans7page46"
+            [(ngModel)]="libro.ans7Page46"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />A good brother or sister mustn't
+          <input
+            type="text"
+            class="form-control"
+            name="ans8page46"
+            [(ngModel)]="libro.ans8Page46"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 my-2">
+      <div class="row">
+        <div class="col-md-4">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F141.jpg?alt=media&token=d9a95d3d-1064-4e55-8e0f-36bb3ae3e65f"
+            class="img-fluid rounded"
+            alt="img"
+          />
+        </div>
+        <div class="col-md-8">
+          A good waiter must
+          <input
+            type="text"
+            class="form-control"
+            name="ans9page46"
+            [(ngModel)]="libro.ans9Page46"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          A good waiter mustn't
+          <input
+            type="text"
+            class="form-control"
+            name="ans10page46"
+            [(ngModel)]="libro.ans10Page46"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 my-2">
+      <div class="row">
+        <div class="col-md-4">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F142.jpg?alt=media&token=514b0765-a514-4459-892a-41900b255f11"
+            class="img-fluid rounded"
+            alt="img"
+          />
+        </div>
+        <div class="col-md-8">
+          A good doctor must
+          <input
+            type="text"
+            class="form-control"
+            name="ans11page46"
+            [(ngModel)]="libro.ans11Page46"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          A good doctor mustn't
+          <input
+            type="text"
+            class="form-control"
+            name="ans12page46"
+            [(ngModel)]="libro.ans12Page46"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 my-2">
+      <div class="row">
+        <div class="col-md-4">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F143.jpg?alt=media&token=e9338e2a-51ea-4411-abb6-706731188fb5"
+            class="img-fluid rounded"
+            alt="img"
+          />
+        </div>
+        <div class="col-md-8">
+          A good neighbor must
+          <input
+            type="text"
+            class="form-control"
+            name="ans13page46"
+            [(ngModel)]="libro.ans13Page46"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          A good neighbor mustn't
+          <input
+            type="text"
+            class="form-control"
+            name="ans14page46"
+            [(ngModel)]="libro.ans14Page46"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 my-2">
+      <div class="row">
+        <div class="col-md-4">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F144.jpg?alt=media&token=815ca1bf-24b9-45af-a43d-655eecf72457"
+            class="img-fluid rounded"
+            alt="img"
+          />
+        </div>
+        <div class="col-md-8">
+          A good shop assistant must
+          <input
+            type="text"
+            class="form-control"
+            name="ans15page46"
+            [(ngModel)]="libro.ans15Page46"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+          A good shop assistant mustn't
+          <input
+            type="text"
+            class="form-control"
+            name="ans16page46"
+            [(ngModel)]="libro.ans16Page46"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

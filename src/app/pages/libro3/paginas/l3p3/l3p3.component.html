@@ -1,0 +1,396 @@
+<div>
+  <div class="row">
+    <div class="col-md-12 mb-3">
+      <h3 class="center">
+        <button
+          (click)="reproducirAudio('a1p3l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        INTERVIEWS AROUND THE WORLD
+      </h3>
+      <div class="text-center">
+        <audio
+          aria-label="audio"
+          id="a1p3l3"
+          class=""
+          controls
+          controlslist="nodownload"
+        >
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F16.mp3?alt=media&token=f25b295d-86d0-41db-ad07-35ddb4e19e5e"
+          />
+        </audio>
+      </div>
+
+      <span class="badge bg-primary m-1"> What </span>
+      <span class="badge bg-primary m-1"> Languaje </span>
+      <span class="badge bg-primary m-1"> we </span>
+      <span class="badge bg-primary m-1"> our </span>
+      <span class="badge bg-primary m-1"> is </span>
+      <span class="badge bg-primary m-1"> eat </span>
+      <span class="badge bg-primary m-1"> read </span>
+      <span class="badge bg-primary m-1"> What´s </span>
+      <span class="badge bg-primary m-1"> name </span>
+      <span class="badge bg-primary m-1"> you </span>
+      <span class="badge bg-primary m-1"> your </span>
+      <span class="badge bg-primary m-1"> are </span>
+      <span class="badge bg-primary m-1"> live </span>
+      <span class="badge bg-primary m-1"> watch </span>
+      <span class="badge bg-primary m-1"> where </span>
+      <span class="badge bg-primary m-1"> names </span>
+      <span class="badge bg-primary m-1"> they </span>
+      <span class="badge bg-primary m-1"> their </span>
+      <span class="badge bg-primary m-1"> do </span>
+      <span class="badge bg-primary m-1"> sing </span>
+      <span class="badge bg-primary m-1"> speak </span>
+    </div>
+    <hr />
+    <div class="col-md-6">
+      <ul>
+        <li><strong>A. </strong> What´s(1) your name?</li>
+        <li>
+          <strong>B. </strong> My
+          <input
+            type="text"
+            placeholder="Answer"
+            name="ans1page4"
+            [(ngModel)]="libro.ans1Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+            class="my-1 form-control input"
+          />
+          (2)
+          <input
+            type="text"
+            placeholder="Answer"
+            name="ans2page4"
+            [(ngModel)]="libro.ans2Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+            class="my-1 form-control input"
+          />(3) Sung Hee.
+        </li>
+        <li>
+          <strong>A. </strong> Where
+          <input
+            type="text"
+            placeholder="Answer"
+            name="ans3page4"
+            [(ngModel)]="libro.ans3Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+            class="my-1 form-control input"
+          />(4)
+          <input
+            type="text"
+            placeholder="Answer"
+            name="ans4page4"
+            [(ngModel)]="libro.ans4Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+            class="my-1 form-control input"
+          />(5) live?
+        </li>
+        <li>
+          <strong>B. </strong> I
+          <input
+            type="text"
+            placeholder="Answer"
+            name="ans5page4"
+            [(ngModel)]="libro.ans5Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+            class="my-1 form-control input"
+          />
+          (6) in Seoul.
+        </li>
+        <li>
+          <strong>A. </strong>
+          <input
+            type="text"
+            placeholder="Answer"
+            name="ans6page4"
+            [(ngModel)]="libro.ans6Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+            class="my-1 form-control input"
+          />(7)
+          <input
+            type="text"
+            placeholder="Answer"
+            name="ans7page4"
+            [(ngModel)]="libro.ans7Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+            class="my-1 form-control input"
+          />(8) do you speak?
+        </li>
+        <li>
+          <strong>B. </strong> I
+          <input
+            type="text"
+            placeholder="Answer"
+            name="ans8page4"
+            [(ngModel)]="libro.ans8Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+            class="my-1 form-control input"
+          />(9) Korean.
+        </li>
+        <li>
+          <strong>A. </strong> What
+          <input
+            type="text"
+            placeholder="Answer"
+            name="ans9page4"
+            [(ngModel)]="libro.ans9Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+            class="my-1 form-control input"
+          />(10)
+          <input
+            type="text"
+            placeholder="Answer"
+            name="ans10page4"
+            [(ngModel)]="libro.ans10Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+            class="my-1 form-control input"
+          />(11) do every day?
+        </li>
+        <li>
+          <strong>B. </strong> Every day I
+          <input
+            type="text"
+            placeholder="Answer"
+            name="ans11page4"
+            [(ngModel)]="libro.ans11Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+            class="my-1 form-control input"
+          />(12) Korean food, and I
+          <input
+            type="text"
+            placeholder="Answer"
+            name="ans12page4"
+            [(ngModel)]="libro.ans12Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+            class="my-1 form-control input"
+          />
+          (13) Korean TV shows
+        </li>
+      </ul>
+      <div class="center">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F8.jpg?alt=media&token=cebf524d-5e34-4741-b2a0-09bdfba559ed"
+          class="img-fluid"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="col-md-6">
+      <ul>
+        <li>
+          <strong>A. </strong> What
+          <input
+            type="text"
+            placeholder="Answer"
+            name="ans13page4"
+            [(ngModel)]="libro.ans13Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+            class="my-1 form-control input"
+          />(14) your names?
+        </li>
+        <li>
+          <strong>B. </strong>
+          <input
+            type="text"
+            placeholder="Answer"
+            name="ans14page4"
+            [(ngModel)]="libro.ans14Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+            class="my-1 form-control input"
+          />(15)
+          <input
+            type="text"
+            placeholder="Answer"
+            name="ans15page4"
+            [(ngModel)]="libro.ans15Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+            class="my-1 form-control input"
+          />(16) are Carlos and Maria
+        </li>
+        <li>
+          <strong>A. </strong> Where
+          <input
+            type="text"
+            placeholder="Answer"
+            name="ans16page4"
+            [(ngModel)]="libro.ans16Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+            class="my-1 form-control input"
+          />(17)
+          <input
+            type="text"
+            placeholder="Answer"
+            name="ans17page4"
+            [(ngModel)]="libro.ans17Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+            class="my-1 form-control input"
+          />(18) live?
+        </li>
+        <li>
+          <strong>B. </strong>
+          <input
+            type="text"
+            placeholder="Answer"
+            name="ans18page4"
+            [(ngModel)]="libro.ans18Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+            class="my-1 form-control input"
+          />(19)
+          <input
+            type="text"
+            placeholder="Answer"
+            name="ans19page4"
+            [(ngModel)]="libro.ans19Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+            class="my-1 form-control input"
+          />(20) in Madrid.
+        </li>
+        <li>
+          <strong>A. </strong>
+          <input
+            type="text"
+            placeholder="Answer"
+            name="ans20page4"
+            [(ngModel)]="libro.ans20Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+            class="my-1 form-control input"
+          />(21) languaje
+          <input
+            type="text"
+            placeholder="Answer"
+            name="ans21page4"
+            [(ngModel)]="libro.ans21Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+            class="my-1 form-control input"
+          />(22)
+          <input
+            type="text"
+            placeholder="Answer"
+            name="ans22page4"
+            [(ngModel)]="libro.ans22Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+            class="my-1 form-control input"
+          />(23) speak?
+        </li>
+        <li>
+          <strong>B. </strong> We
+          <input
+            type="text"
+            placeholder="Answer"
+            name="ans23page4"
+            [(ngModel)]="libro.ans23Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+            class="my-1 form-control input"
+          />(24) Spanish?
+        </li>
+        <li>
+          <strong>A. </strong> What
+          <input
+            type="text"
+            placeholder="Answer"
+            name="ans24page4"
+            [(ngModel)]="libro.ans24Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+            class="my-1 form-control input"
+          />(25) you
+          <input
+            type="text"
+            placeholder="Answer"
+            name="ans25page4"
+            [(ngModel)]="libro.ans25Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+            class="my-1 form-control input"
+          />(26) every day?
+        </li>
+        <li>
+          <strong>B. </strong> Every day
+          <input
+            type="text"
+            placeholder="Answer"
+            name="ans26page4"
+            [(ngModel)]="libro.ans26Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+            class="my-1 form-control input"
+          />(27)
+          <input
+            type="text"
+            placeholder="Answer"
+            name="ans27page4"
+            [(ngModel)]="libro.ans27Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+            class="my-1 form-control input"
+          />(28) Spanish songs, and we
+          <input
+            type="text"
+            placeholder="Answer"
+            name="ans28page4"
+            [(ngModel)]="libro.ans28Page4"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            id=""
+            class="my-1 form-control input"
+          />(29) Spanish newspapers
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

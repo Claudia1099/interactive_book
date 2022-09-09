@@ -1,0 +1,90 @@
+<div class="container-fluid px-0">
+  <div class="row">
+    <div class="col-md-12">
+      <nav id="sticker" class="navbar navbar-expand-lg navbar-light bg-header">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="../../../assets/logos-aes/aesLogo.png"
+              alt="LogoAes"
+              class="img-fluid logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse d-lg-flex justify-content-end align-items-center"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav">
+              <ng-container *ngIf="email | async">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    {{ email | async }}
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a
+                        class="dropdown-item cursor-pointer"
+                        routerLink="/listado"
+                        routerLinkActive="active"
+                        >Mis libros</a
+                      >
+                    </li>
+
+                    <li>
+                      <a
+                        class="dropdown-item cursor-pointer"
+                        href="https://aesinstituto.com/Landing-Page/#/inicio"
+                        target="_blank"
+                        >Mis Examenes</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item cursor-pointer"
+                        routerLink=""
+                        routerLinkActive=""
+                        >Mis Estadisticas</a
+                      >
+                    </li>
+                    <hr />
+                    <li>
+                      <a class="dropdown-item cursor-pointer" (click)="logOut()"
+                        >Cerrar Sesión</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ng-container>
+              <a class="nav-link cursor-pointer">
+                <i class="fab fa-facebook-f text-blue"></i
+                ><span class="d-lg-none text-blue"> Facebook</span></a
+              >
+              <a class="nav-link cursor-pointer">
+                <i class="fab fa-instagram text-blue"></i
+                ><span class="d-lg-none text-blue"> Instagram</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>

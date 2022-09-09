@@ -1,0 +1,141 @@
+<div>
+    <div class="row">
+
+        <div class="col-md-8 table-responsive">
+            <h5>1. Check your understanding : True or false</h5>
+            <p>Circle True or False for these sentences</p>
+            <table class="table table-striped">
+                <tbody>
+                    <tr>
+                        <td>1. Tom doesn't know how to start studying.</td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="la1p21-1-" id="la1p21-1-1" value="q1-p21-la1-o1" [checked]="libro['q1-p21-la1']==='q1-p21-la1-o1'" [(ngModel)]="libro['q1-p21-la1']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="la1p21-1-1">True</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="la1p21-1-" id="la1p21-1-2" value="q1-p21-la1-o2" [checked]="libro['q1-p21-la1']==='q1-p21-la1-o2'" [(ngModel)]="libro['q1-p21-la1']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="la1p21-1-2">False</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2. Tom's mum thinks that music helps people study.</td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="la1p21-2-" id="la1p21-2-1" value="q2-p21-la1-o1" [checked]="libro['q2-p21-la1']==='q2-p21-la1-o1'" [(ngModel)]="libro['q2-p21-la1']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="la1p21-2-1">True</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="la1p21-2-" id="la1p21-2-2" value="q2-p21-la1-o2" [checked]="libro['q2-p21-la1']==='q2-p21-la1-o2'" [(ngModel)]="libro['q2-p21-la1']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="la1p21-2-2">False</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3. Tom puts the dog outside.</td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="la1p21-3-" id="la1p21-3-1" value="q3-p21-la1-o1" [checked]="libro['q3-p21-la1']==='q3-p21-la1-o1'" [(ngModel)]="libro['q3-p21-la1']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="la1p21-3-1">True</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="la1p21-3-" id="la1p21-3-2" value="q3-p21-la1-o2" [checked]="libro['q3-p21-la1']==='q3-p21-la1-o2'" [(ngModel)]="libro['q3-p21-la1']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="la1p21-3-2">False</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4. Tom's mum recommends having a sandwich on the desk. </td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="la1p21-4-" id="la1p21-4-1" value="q4-p21-la1-o1" [checked]="libro['q4-p21-la1']==='q4-p21-la1-o1'" [(ngModel)]="libro['q4-p21-la1']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="la1p21-4-1">True</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="la1p21-4-" id="la1p21-4-2" value="q4-p21-la1-o2" [checked]="libro['q4-p21-la1']==='q4-p21-la1-o2'" [(ngModel)]="libro['q4-p21-la1']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="la1p21-4-2">False</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5. Tom doesn't want to turn off his phone at first.</td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="la1p21-5-" id="la1p21-5-1" value="q5-p21-la1-o1" [checked]="libro['q5-p21-la1']==='q5-p21-la1-o1'" [(ngModel)]="libro['q5-p21-la1']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="la1p21-5-1">True</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="la1p21-5-" id="la1p21-5-2" value="q5-p21-la1-o2" [checked]="libro['q5-p21-la1']==='q5-p21-la1-o2'" [(ngModel)]="libro['q5-p21-la1']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="la1p21-5-2">False</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>6. Tom needs the internet to study.</td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="la1p21-6-" id="la1p21-6-1" value="q6-p21-la1-o1" [checked]="libro['q6-p21-la1']==='q6-p21-la1-o1'" [(ngModel)]="libro['q6-p21-la1']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="la1p21-6-1">True</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="la1p21-6-" id="la1p21-6-2" value="q6-p21-la1-o2" [checked]="libro['q6-p21-la1']==='q6-p21-la1-o2'" [(ngModel)]="libro['q6-p21-la1']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="la1p21-6-2">False</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>7. Tom's going to turn off his messages.</td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="la1p21-7-" id="la1p21-7-1" value="q7-p21-la1-o1" [checked]="libro['q7-p21-la1']==='q7-p21-la1-o1'" [(ngModel)]="libro['q7-p21-la1']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="la1p21-7-1">True</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="la1p21-7-" id="la1p21-7-2" value="q7-p21-la1-o2" [checked]="libro['q7-p21-la1']==='q7-p21-la1-o2'" [(ngModel)]="libro['q7-p21-la1']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="la1p21-7-2">False</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>8. Tom thinks his mum has helped him.</td>
+                        <td>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="la1p21-8-" id="la1p21-8-1" value="q8-p21-la1-o1" [checked]="libro['q8-p21-la1']==='q8-p21-la1-o1'" [(ngModel)]="libro['q8-p21-la1']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="la1p21-8-1">True</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="la1p21-8-" id="la1p21-8-2" value="q8-p21-la1-o2" [checked]="libro['q8-p21-la1']==='q8-p21-la1-o2'" [(ngModel)]="libro['q8-p21-la1']" (change)="guardarInfo()">
+                                <label class="form-check-label" for="la1p21-8-2">False</label>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-4">
+            <h4>Discussion</h4>
+            <textarea name="ans7page21" [(ngModel)]="libro.ans7Page21" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" cols="30" rows="10" class="form-control"></textarea>
+        </div>
+        <hr>
+        <div class="col-md-6">
+            <h2 class="center">READING</h2>
+            <h5 class="center">The Rabbit and the Turtle</h5>
+            <p class="justify">One day a rabbit was boasting about how fast he could run. He was laughing at the turtle for being so slow. Much to the rabbit's surprise, the turtle challenged him to a race. The rabbit thought this was a good joke and accepted the challenge.
+                The fox was to be the umpire of the race. As the race began, the rabbit raced way ahead of the turtle, just like everyone thought. The rabbit got to the halfway point and could not see the turtle anywhere. He was hot and tired and decided
+                to stop and take a short nap. Even if the turtle passed him, he would be able to race to the finish line ahead of him. All this time the turtle kept walking step by step by step. He never quit no matter how hot or tired he got. He just
+                kept going. However, the rabbit slept longer than he had thought and woke up. He could not see the turtle anywhere! He went at full-speed to the finish line but found the turtle there waiting for him.</p>
+        </div>
+        <div class="col-md-6">
+            <ol>
+                <li class="mb-1"> Who wanted to challenge the rabbit to a race? <input type="text" name="ans1page21" [(ngModel)]="libro.ans1Page21" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="form-control" placeholder="Answer"></li>
+                <li class="mb-1"> What happened at the start of the race? <input type="text" name="ans2page21" [(ngModel)]="libro.ans2Page21" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="form-control" placeholder="Answer"></li>
+                <li class="mb-1"> What happened at the half-way point? <input type="text" name="ans3page21" [(ngModel)]="libro.ans3Page21" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="form-control" placeholder="Answer"></li>
+                <li class="mb-1"> What did the turtle do? <input type="text" name="ans4page21" [(ngModel)]="libro.ans4Page21" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="form-control" placeholder="Answer"></li>
+                <li class="mb-1"> Who won the race? <input type="text" name="ans5page21" [(ngModel)]="libro.ans5Page21" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="form-control" placeholder="Answer"></li>
+                <li class="mb-1"> What lesson do we learn from this story? Explain <input type="text" name="ans6page21" [(ngModel)]="libro.ans6Page21" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="form-control" placeholder="Answer"></li>
+
+            </ol>
+        </div>
+    </div>
+</div>

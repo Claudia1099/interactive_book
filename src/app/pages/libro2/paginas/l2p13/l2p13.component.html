@@ -1,0 +1,55 @@
+<div>
+  <div class="row">
+    <div class="col-md-6">
+      <h3 class="my-3 text-center">WRITING TIME</h3>
+      <p class="justify">
+        My name is Bob. I am 35 years old. I live in an apartment with my
+        family. Today is Sunday and we are doing different activities. My wife
+        is drinking a cup of coffee and watching the kids. My daughter is
+        reading her favorite book. My son is playing with his toys. And I am
+        reading the newspaper. We are all in the leaving room waiting for my
+        parents. They are coming to visit today.
+      </p>
+    </div>
+    <div class="col-md-6 d-flex justify-content-center">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro2%2F3-7.PNG?alt=media&token=6b58cd2b-30f5-4ad7-950b-d165043b01b0"
+        class="img-fluid w-50"
+        alt="img"
+      />
+    </div>
+    <hr class="my-2" />
+    <div class="col-md-4 d-flex justify-content-center">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro2%2F3-8.PNG?alt=media&token=42f7da1f-a661-4cc5-b379-184c711ea88b"
+        class="img-fluid w-75"
+        alt="img"
+      />
+    </div>
+    <div class="col-md-4">
+      <p>
+        Look at the picture and answer the following questions in a parragraph.
+      </p>
+      <ol>
+        <li>Who are they?</li>
+        <li>What are theirs names?</li>
+        <li>what are they doing?</li>
+        <li>Where are they?</li>
+        <li>What they do you think it is?</li>
+        <li>Why do you think they are cleaning the house?</li>
+      </ol>
+    </div>
+    <div class="col-md-4">
+      <textarea
+        class="form-control"
+        name="ans1page13"
+        [(ngModel)]="libro.ans1Page13"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+        cols="30"
+        rows="10"
+      ></textarea>
+    </div>
+  </div>
+</div>

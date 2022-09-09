@@ -1,0 +1,231 @@
+<div>
+  <div class="row">
+    <div class="col-md-12 my-4 text-center">
+      <span class="m-1 badge bg-primary"><h6>Bake</h6></span>
+      <span class="m-1 badge bg-primary"><h6>Clean</h6></span>
+      <span class="m-1 badge bg-primary"><h6>Make</h6></span>
+      <span class="m-1 badge bg-primary"><h6>Sweep</h6></span>
+      <span class="m-1 badge bg-primary"><h6>VaccumWash</h6></span>
+    </div>
+
+    <div class="col-md-6 my-2">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro2%2F6-24.jpg?alt=media&token=2638fc2e-3604-4f15-8ce6-e52d8027ce8f"
+            alt="img"
+            class="img-fluid w-75"
+          />
+        </div>
+        <div class="col-md-12">
+          <div class="d-flex align-items-center">
+            <div class="d-flex"><b>1.A. </b></div>
+            <input
+              type="text"
+              class="form-control m-1"
+              value="What was Mr. Franklin doing when they arrived?"
+              disabled
+              id=""
+            />
+          </div>
+
+          <div class="d-flex align-items-center">
+            <div class="d-flex"><b>B. </b></div>
+            <input
+              type="text"
+              class="form-control m-1"
+              value="He was cleaning the dining room"
+              disabled
+              id=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 my-2">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro2%2F6-25.jpg?alt=media&token=25be4c29-907b-457a-957f-97a9d396d08a"
+            alt="img"
+            class="img-fluid w-75"
+          />
+        </div>
+        <div class="col-md-12">
+          <div class="d-flex align-items-center">
+            <div class="d-flex"><b>2.A. </b></div>
+            <input
+              type="text"
+              class="form-control m-1"
+              value="What was Mrs. Franklin doing when they arrived?"
+              disabled
+              id=""
+            />
+          </div>
+
+          <div class="d-flex align-items-center">
+            <div class="d-flex"><b>B. </b></div>
+            <input
+              type="text"
+              class="form-control m-1 input"
+              name="ans1page30"
+              [(ngModel)]="libro.ans1Page30"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+            <div><p>the living room rug</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 my-2">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro2%2F6-26.jpg?alt=media&token=0439b690-a64f-4ab8-84e4-ba38b27bf9eb"
+            alt="img"
+            class="img-fluid w-75"
+          />
+        </div>
+        <div class="col-md-12">
+          <div class="d-flex align-items-center">
+            <div class="d-flex"><b>3.A. </b></div>
+            <input
+              type="text"
+              class="form-control m-1"
+              value="What was Tommy Franklin doing?"
+              disabled
+              id=""
+            />
+          </div>
+
+          <div class="d-flex align-items-center">
+            <div class="d-flex"><b>B. </b></div>
+            <input
+              type="text"
+              class="form-control m-1 input"
+              name="ans2page30"
+              [(ngModel)]="libro.ans2Page30"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+            <div><p>the kitchen floor</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 my-2">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro2%2F6-27.jpg?alt=media&token=a9631839-25f5-4107-b297-d2fe59f71a04"
+            alt="img"
+            class="img-fluid w-75"
+          />
+        </div>
+        <div class="col-md-12">
+          <div class="d-flex align-items-center">
+            <div class="d-flex"><b>4.A. </b></div>
+            <input
+              type="text"
+              class="form-control m-1"
+              value="What was his sister Lucy doing?"
+              disabled
+              id=""
+            />
+          </div>
+
+          <div class="d-flex align-items-center">
+            <div class="d-flex"><b>B. </b></div>
+            <input
+              type="text"
+              class="form-control m-1 input"
+              name="ans3page30"
+              [(ngModel)]="libro.ans3Page30"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+            <div><p>the windows</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 my-2">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro2%2F6-28.jpg?alt=media&token=8fd82271-7630-4e00-bf9b-982d862d5428"
+            alt="img"
+            class="img-fluid w-75"
+          />
+        </div>
+        <div class="col-md-12">
+          <div class="d-flex align-items-center">
+            <div class="d-flex"><b>5.A. </b></div>
+            <input
+              type="text"
+              class="form-control m-1"
+              value="What were Mrs. Franklin's parents doing?"
+              disabled
+              id=""
+            />
+          </div>
+
+          <div class="d-flex align-items-center">
+            <div class="d-flex"><b>B. </b></div>
+            <input
+              type="text"
+              class="form-control m-1 input"
+              name="ans4page30"
+              [(ngModel)]="libro.ans4Page30"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+            <div><p>spaghetti</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 my-2">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro2%2F6-29.jpg?alt=media&token=674e25c1-335a-407f-8f51-f4e4a7ce0558"
+            alt="img"
+            class="img-fluid w-75"
+          />
+        </div>
+        <div class="col-md-12">
+          <div class="d-flex align-items-center">
+            <div class="d-flex"><b>6.A. </b></div>
+            <input
+              type="text"
+              class="form-control m-1"
+              value="What were Mr. Franklin's parents doing?"
+              disabled
+              id=""
+            />
+          </div>
+
+          <div class="d-flex align-items-center">
+            <div class="d-flex"><b>B. </b></div>
+            <input
+              type="text"
+              class="form-control m-1 input"
+              name="ans5page30"
+              [(ngModel)]="libro.ans5Page30"
+              (keyup.enter)="guardarInfo()"
+              (blur)="guardarInfo()"
+              id=""
+            />
+            <div><p>Cakes and cookies</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

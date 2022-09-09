@@ -1,0 +1,244 @@
+<div>
+  <div class="row">
+    <div class="col-md-6">
+      <br />
+      <h5>
+        <!-- audio 117-->
+        <audio id="a1p9l3" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F117.mp3?alt=media&token=54bc5852-2203-4273-8ae6-b124f6cf4715"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a1p9l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i></button
+        >GRAMMAR FLASH
+      </h5>
+      <br />
+      <h4 class="center">HAVE – WANT – NEED – LIKE – LOVE + INFINITIVE</h4>
+    </div>
+    <div class="col-md-6">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2Fcuadro%203.png?alt=media&token=ab2cf106-eefa-4365-a76d-aaebd774ed36"
+        class="img-fluid rounded m-1"
+        alt=""
+      />
+    </div>
+    <div class="col-md-12">
+      <!-- audio 118-->
+      <audio
+        id="a2p9l3"
+        aria-label="audio"
+        class=""
+        controls
+        controlslist="nodownload"
+      >
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F118.mp3?alt=media&token=1eaf008f-8196-466d-9842-e4d73f4424fd"
+        /></audio
+      ><br />
+      <button
+        (click)="reproducirAudio('a2p9l3')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+    </div>
+    <div class="col-md-6 table-responsive">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Teacher</th>
+            <th>Students</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>I have to take a <br />shower every-day ...</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                value="I have to take a shower every-day
+                                "
+                name=""
+                id=""
+                disabled
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>(She) ...</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                name="ans1page43"
+                [(ngModel)]="libro.ans1Page43"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>(He) ...</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                name="ans2page43"
+                [(ngModel)]="libro.ans2Page43"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>(Wants to) ...</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                name="ans3page43"
+                [(ngModel)]="libro.ans3Page43"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>(Go dancing) ...</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                name="ans4page43"
+                [(ngModel)]="libro.ans4Page43"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>(They) ...</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                name="ans5page43"
+                [(ngModel)]="libro.ans5Page43"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-6 table-responsive">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Teacher</th>
+            <th>Students</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>(I) ...</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                name="ans6page43"
+                [(ngModel)]="libro.ans6Page43"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>(Get a job) ...</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                name="ans7page43"
+                [(ngModel)]="libro.ans7Page43"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>(Kate) ...</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                name="ans8page43"
+                [(ngModel)]="libro.ans8Page43"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>(You and your friend) ...</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                name="ans9page43"
+                [(ngModel)]="libro.ans9Page43"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>(Have to) ...</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                name="ans10page43"
+                [(ngModel)]="libro.ans10Page43"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>(Peter) ...</td>
+            <td>
+              <input
+                type="text"
+                class="form-control"
+                name="ans11page43"
+                [(ngModel)]="libro.ans11Page43"
+                (keyup.enter)="guardarInfo()"
+                (blur)="guardarInfo()"
+                id=""
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,101 @@
+<div>
+    <div class="row">
+        <div class="col-md-4 justify-content-center d-flex">
+            <img src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F147.jpg?alt=media&token=09bd72a8-ebc9-4a56-9feb-d76e07ffc2c5" class="img-fluid my-1 rounded w-50" alt="img">
+        </div>
+        <div class="col-md-6">
+            <h3 class="justify-content-center mt-md-2 d-flex">THE HOTEL RULES ARE THE FOLLOWING
+            </h3>
+        </div>
+        <div class="col-md-6">
+            <table class="table-bordered table table-striped">
+                <thead>
+                    <tr>
+                        <th class="center">Guests</th>
+                        <th class="center">Rules</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="p-2"><strong>Checking in and out</strong>
+                            <ul>
+                                <li> check out time?</li>
+                                <li> check in time?</li>
+                                <li> pay by cash/credit card?</li>
+                                <li> if a guest checks out late? </li>
+                                <li> if a guest wants to stay longer? </li>
+                                <li> cancellation cost? </li>
+                            </ul>
+                        </td>
+                        <td class="p-2"><textarea name="ans1page51" [(ngModel)]="libro.ans1Page51" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="form-control" cols="30" rows="5"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td class="p-2"><strong>Rooms</strong>
+                            <ul>
+                                <li> leave key when guests go out?</li>
+                                <li> smoking in the room?</li>
+                                <li> Wi-Fi access? Cost?</li>
+                                <li> have visitors?</li>
+                                <li> TV channels?</li>
+                            </ul>
+                        </td>
+                        <td class="p-2"><textarea name="ans2page51" [(ngModel)]="libro.ans2Page51" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="form-control" cols="30" rows="5"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td class="p-2"><strong>Meals</strong>
+                            <ul>
+                                <li> breakfast start/finish time?</li>
+                                <li> breakfast included/not included?</li>
+                                <li> book a table for lunch/dinner?</li>
+                                <li> tipping?</li>
+                            </ul>
+                        </td>
+                        <td class="p-2"><textarea name="ans3page51" [(ngModel)]="libro.ans3Page51" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="form-control" cols="30" rows="5"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td class="p-2"><strong>Other rules</strong></td>
+                        <td class="p-2"><textarea name="ans4page51" [(ngModel)]="libro.ans4Page51" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="form-control" cols="30" rows="5"></textarea></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-6">
+            <table class="table-bordered table table-striped">
+                <thead>
+                    <tr>
+                        <th>Staf</th>
+                        <th>Rules</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="p-2"><strong>Working hours</strong>
+                            <ul>
+                                <li> work weekends (how often?)</li>
+                                <li> work evenings (how often?)</li>
+                                <li> holiday leave (how often?)</li>
+                                <li> if a member of staff is sick?</li>
+                            </ul>
+                        </td>
+                        <td class="p-2"><textarea name="ans5page51" [(ngModel)]="libro.ans5Page51" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="form-control" cols="30" rows="5"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td class="p-2"><strong>Clothes</strong>
+                            <ul>
+                                <li> wear a uniform?</li>
+                                <li> clothing for receptionists/bellboys?</li>
+                                <li> clothing for kitchen staff? </li>
+                            </ul>
+                        </td>
+                        <td class="p-2"><textarea name="ans6page51" [(ngModel)]="libro.ans6Page51" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="form-control" cols="30" rows="5"></textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td class="p-2"><strong>Other rules</strong></td>
+                        <td class="p-2"><textarea name="ans7page51" [(ngModel)]="libro.ans7Page51" (keyup.enter)="guardarInfo()" (blur)="guardarInfo()" id="" class="form-control" cols="30" rows="5"></textarea></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

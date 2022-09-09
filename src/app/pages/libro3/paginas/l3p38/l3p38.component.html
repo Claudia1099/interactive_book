@@ -1,0 +1,333 @@
+<div>
+  <div class="row">
+    <div class="col-md-12">
+      <h4 class="text-center">MOVING FORWARD</h4>
+    </div>
+    <div class="col-md-3">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F120.jpg?alt=media&token=a5f33439-e3f6-426f-a59b-9a75947b0ab2"
+        class="img-fluid m-1 rounded"
+        alt="img"
+      />
+      <ul>
+        <!-- audio 95-->
+        <audio id="a1p38l3" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F95.mp3?alt=media&token=15482ee7-987d-4fbd-884c-a6a926e3f195"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a1p38l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        1.
+        <li>A. Do you always study at night?</li>
+        <li>B. No, I never study at night I always study in the morning.</li>
+      </ul>
+    </div>
+    <div class="col-md-3">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F121.jpg?alt=media&token=ec912afd-0c28-4b5f-8944-76341a8d5a42"
+        class="img-fluid m-1 rounded"
+        alt="img"
+      />
+      <ul>
+        <!-- audio 96-->
+        <audio id="a2p38l3" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F96.mp3?alt=media&token=f070bfee-b646-4bf1-9e1a-aaa48b6b9701"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a2p38l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        2.
+        <li>A. Do you usually play sports?</li>
+        <li>
+          B.
+          <textarea
+            name="ans1page39"
+            [(ngModel)]="libro.ans1Page39"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            class="form-control"
+            id=""
+            cols="30"
+            rows="2"
+          ></textarea>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-3">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F122.jpg?alt=media&token=247cdecd-1d25-4c0c-a47a-92f72764473e"
+        class="img-fluid m-1 rounded"
+        alt="img"
+      />
+      <ul>
+        <!-- audio 97-->
+        <audio id="a3p38l3" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F97.mp3?alt=media&token=176a8642-e29c-4ba4-9574-50d79ce054c6"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a3p38l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        3.
+        <li>A.(Cry) Do you often cry when you watch t.v?</li>
+        <li>
+          B.
+          <textarea
+            name="ans2page39"
+            [(ngModel)]="libro.ans2Page39"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            class="form-control"
+            id=""
+            cols="30"
+            rows="2"
+          ></textarea>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-3">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2F123.jpg?alt=media&token=24c7ddbf-35e1-4f4b-8a0f-0f103a90b63b"
+        class="img-fluid m-1 rounded"
+        alt="img"
+      />
+      <ul>
+        <!-- audio 98 -->
+        <audio id="a4p38l3" aria-label="audio" class="d-none" controls>
+          <source
+            type="audio/mp3"
+            src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F98.mp3?alt=media&token=06e03974-1143-4dcb-87ff-198e9950228a"
+          />
+        </audio>
+        <button
+          (click)="reproducirAudio('a4p38l3')"
+          class="btn azul rounded-pill text-white btn-sm"
+        >
+          <i class="fas fa-volume-up"></i>
+        </button>
+        4.
+        <li>A. Do you walk or ride a bus to school?</li>
+        <li>
+          B.
+          <textarea
+            name="ans3page39"
+            [(ngModel)]="libro.ans3Page39"
+            (keyup.enter)="guardarInfo()"
+            (blur)="guardarInfo()"
+            class="form-control"
+            id=""
+            cols="30"
+            rows="2"
+          ></textarea>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-12">
+      <hr />
+      <h5>Peer work. Ask and answer the questions.</h5>
+    </div>
+    <div class="col-md-2">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2Fp1.png?alt=media&token=9163e45c-f469-4cb2-8c74-56c851761b9b"
+        class="img-fluid m-1 rounded"
+        alt="img"
+      />
+      <!-- audio 99 -->
+      <audio id="a5p38l3" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F99.mp3?alt=media&token=79f60f13-8f2e-4133-9236-194b9657a1cd"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a5p38l3')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      When do you bite your nails?
+      <textarea
+        name="ans4page39"
+        [(ngModel)]="libro.ans4Page39"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        class="form-control"
+        id=""
+        cols="30"
+        rows="2"
+      ></textarea>
+    </div>
+    <div class="col-md-2">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2Fp2.png?alt=media&token=7dda7445-1b45-495b-84b9-d0c06fc89ef5"
+        class="img-fluid m-1 rounded"
+        alt="img"
+      />
+      <!-- audio 100-->
+      <audio id="a6p38l3" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F100.mp3?alt=media&token=eb41e486-1f6a-44f4-9354-5d702172d5e4"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a6p38l3')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      When you do you shout?
+      <textarea
+        name="ans7page39"
+        [(ngModel)]="libro.ans7Page39"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        class="form-control"
+        id=""
+        cols="30"
+        rows="2"
+      ></textarea>
+    </div>
+    <div class="col-md-2">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2Fp3.png?alt=media&token=b9866238-def6-4704-b6d2-a0738c42015c"
+        class="img-fluid m-1 rounded"
+        alt="img"
+      />
+      <!-- audio 101-->
+      <audio id="a7p38l3" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F101.mp3?alt=media&token=4df664f2-0cca-473f-8812-b9ed74635e9f"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a7p38l3')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      What do you often do when you are sad?
+      <textarea
+        name="ans5page39"
+        [(ngModel)]="libro.ans5Page39"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        class="form-control"
+        id=""
+        cols="30"
+        rows="2"
+      ></textarea>
+    </div>
+    <div class="col-md-2">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2Fp4.png?alt=media&token=7eeac659-d4b7-4dbc-94ba-13e1052aeb47"
+        class="img-fluid m-1 rounded"
+        alt="img"
+      />
+      <!-- audio 102-->
+      <audio id="a8p38l3" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F102.mp3?alt=media&token=0694444e-22cf-431e-8339-357155a3b62b"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a8p38l3')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      What do usually do when you are scared?
+      <textarea
+        name="ans8page39"
+        [(ngModel)]="libro.ans8Page39"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        class="form-control"
+        id=""
+        cols="30"
+        rows="2"
+      ></textarea>
+    </div>
+    <div class="col-md-2">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2Fp5.png?alt=media&token=37772404-df1a-4885-841d-56340bec7489"
+        class="img-fluid m-1 rounded"
+        alt="img"
+      />
+      <!-- audio 103-->
+      <audio id="a9p38l3" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F103.mp3?alt=media&token=eedbf93c-ebcc-4a90-8bea-5a0fea0d7c38"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a9p38l3')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      When do you run away?
+      <textarea
+        name="ans6page39"
+        [(ngModel)]="libro.ans6Page39"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        class="form-control"
+        id=""
+        cols="30"
+        rows="2"
+      ></textarea>
+    </div>
+    <div class="col-md-2">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/imgLibro3%2Fp6.png?alt=media&token=df6a9643-4f9d-452f-aa0d-19aa063e01da"
+        class="img-fluid m-1 rounded"
+        alt="img"
+      />
+      <!-- audio 104-->
+      <audio id="a10p38l3" aria-label="audio" class="d-none" controls>
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F104.mp3?alt=media&token=462ae448-6e93-4e38-b1de-592b0ae3372b"
+        />
+      </audio>
+      <button
+        (click)="reproducirAudio('a10p38l3')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      Do you get on your knees when you are desperate?
+      <textarea
+        name="ans9page39"
+        [(ngModel)]="libro.ans9Page39"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        class="form-control"
+        id=""
+        cols="30"
+        rows="2"
+      ></textarea>
+    </div>
+  </div>
+</div>

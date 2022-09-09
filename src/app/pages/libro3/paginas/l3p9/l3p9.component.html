@@ -1,0 +1,476 @@
+<div>
+  <div class="row">
+    <div class="col-md-6">
+      <h5 class="text-center mb-3">READING ACTIVITY</h5>
+      <audio
+        aria-label="audio"
+        id="a1p9l3"
+        class=""
+        controls
+        controlslist="nodownload"
+      >
+        <source
+          type="audio/mp3"
+          src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Libro3%2F27.mp3?alt=media&token=dea45a53-4341-4122-ae7d-f61ad421927e"
+        /></audio
+      ><br />
+      <button
+        (click)="reproducirAudio('a1p9l3')"
+        class="btn azul rounded-pill text-white btn-sm"
+      >
+        <i class="fas fa-volume-up"></i>
+      </button>
+      <strong>
+        READ the article about life on the International Space Station.</strong
+      >
+      <p class="justify">
+        Life on the Space Station Astronauts on the International Space Station
+        have a busy schedule. Every day they wake up at 7:00 GMT. From 7:00 to
+        8:00, they wash up and eat breakfast. At 8:00 in the morning, they call
+        Ground Control in their countries. After they talk to Ground Control,
+        their workday begins. The astronauts don’t do the same thing every day.
+        Their schedules change every week. The astronauts don’t work all the
+        time. Each day they exercise for an hour in the morning and an hour in
+        the afternoon. After dinner, they have free time. Then, it’s time to go
+        to sleep. Sometimes this isn’t easy because the sun rises and sets 16
+        times each day on the space station. The astronauts’ work doesn’t end on
+        Friday. They work a half day on Saturday and all day on Sunday.
+        Astronauts are very busy people.
+      </p>
+    </div>
+
+    <div class="col-md-6 table-responsive">
+      <strong>1 GMT: Greenwich Mean Time</strong>
+      <strong
+        >2 Ground Control: People on Earth who work with astronauts in
+        space</strong
+      >
+      <p>
+        CHECK. Match each of the astonauts’ activities with the correct time.
+      </p>
+      <table class="table table-striped table-bordered">
+        <tbody>
+          <tr>
+            <td>
+              <span class="badge bg-info"> 1 </span> They wash up and have
+              breakfast.
+            </td>
+            <td>
+              <span class="badge bg-info"
+                ><input
+                  type="text"
+                  name="ans1page10"
+                  [(ngModel)]="libro.ans1Page10"
+                  (keyup.enter)="guardarInfo()"
+                  (blur)="guardarInfo()"
+                  maxlength="1"
+                  style="width: 35px; height: 23px"
+                />
+              </span>
+              -> <span class="badge bg-info"> A </span> at 8:00 in the morning
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span class="badge bg-info"> 2 </span> They talk to Ground
+              Control.
+            </td>
+            <td>
+              <span class="badge bg-info"
+                ><input
+                  type="text"
+                  name="ans2page10"
+                  [(ngModel)]="libro.ans2Page10"
+                  (keyup.enter)="guardarInfo()"
+                  (blur)="guardarInfo()"
+                  maxlength="1"
+                  style="width: 35px; height: 23px"
+                />
+              </span>
+              -> <span class="badge bg-info"> B </span> after dinner
+            </td>
+          </tr>
+          <tr>
+            <td><span class="badge bg-info"> 3 </span> They exercise.</td>
+            <td>
+              <span class="badge bg-info"
+                ><input
+                  type="text"
+                  name="ans3page10"
+                  [(ngModel)]="libro.ans3Page10"
+                  (keyup.enter)="guardarInfo()"
+                  (blur)="guardarInfo()"
+                  maxlength="1"
+                  style="width: 35px; height: 23px"
+                />
+              </span>
+              -> <span class="badge bg-info"> C </span> on Saturday
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span class="badge bg-info"> 4 </span> They have some free time.
+            </td>
+            <td>
+              <span class="badge bg-info"
+                ><input
+                  type="text"
+                  name="ans4page10"
+                  [(ngModel)]="libro.ans4Page10"
+                  (keyup.enter)="guardarInfo()"
+                  (blur)="guardarInfo()"
+                  maxlength="1"
+                  style="width: 35px; height: 23px"
+                />
+              </span>
+              -> <span class="badge bg-info"> D </span> from 7:00 to 8:00 in the
+              morning
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span class="badge bg-info"> 5 </span> They need to work a half
+              day.
+            </td>
+            <td>
+              <span class="badge bg-info"
+                ><input
+                  type="text"
+                  name="ans5page10"
+                  [(ngModel)]="libro.ans5Page10"
+                  (keyup.enter)="guardarInfo()"
+                  (blur)="guardarInfo()"
+                  maxlength="1"
+                  style="width: 35px; height: 23px"
+                />
+              </span>
+              -> <span class="badge bg-info"> E </span> for an hour in the
+              morning and an hour in the afternoon
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-6">
+      <h6>Circle doesn’t or don’t to complete each sentence.</h6>
+      <ol>
+        <li class="my-1">
+          An astronaut on the International Space Station
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q1-p9-l3"
+              id="q1-p9-l3-o1"
+              autocomplete="off"
+              value="q1-p9-l3-o1"
+              [checked]="libro['q1-p9-l3'] === 'q1-p9-l3-o1'"
+              [(ngModel)]="libro['q1-p9-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q1-p9-l3-o1"
+              >doesn’t</label
+            >
+
+            <input
+              type="radio"
+              class="btn-check"
+              name="q1-p9-l3"
+              id="q1-p9-l3-o2"
+              autocomplete="off"
+              value="q1-p9-l3-o2"
+              [checked]="libro['q1-p9-l3'] === 'q1-p9-l3-o2'"
+              [(ngModel)]="libro['q1-p9-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q1-p9-l3-o2"
+              >don’t</label
+            >
+          </div>
+          have a lot of free time.
+        </li>
+        <li class="my-1">
+          Astronauts
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q2-p9-l3"
+              id="q2-p9-l3-o1"
+              autocomplete="off"
+              value="q2-p9-l3-o1"
+              [checked]="libro['q2-p9-l3'] === 'q2-p9-l3-o1'"
+              [(ngModel)]="libro['q2-p9-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q2-p9-l3-o1"
+              >doesn’t</label
+            >
+
+            <input
+              type="radio"
+              class="btn-check"
+              name="q2-p9-l3"
+              id="q2-p9-l3-o2"
+              autocomplete="off"
+              value="q2-p9-l3-o2"
+              [checked]="libro['q2-p9-l3'] === 'q2-p9-l3-o2'"
+              [(ngModel)]="libro['q2-p9-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q2-p9-l3-o2"
+              >don’t</label
+            >
+          </div>
+          work all day on Saturday.
+        </li>
+        <li class="my-1">
+          An astronaut
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q3-p9-l3"
+              id="q3-p9-l3-o1"
+              autocomplete="off"
+              value="q3-p9-l3-o1"
+              [checked]="libro['q3-p9-l3'] === 'q3-p9-l3-o1'"
+              [(ngModel)]="libro['q3-p9-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q3-p9-l3-o1"
+              >doesn’t</label
+            >
+
+            <input
+              type="radio"
+              class="btn-check"
+              name="q3-p9-l3"
+              id="q3-p9-l3-o2"
+              autocomplete="off"
+              value="q3-p9-l3-o2"
+              [checked]="libro['q3-p9-l3'] === 'q3-p9-l3-o2'"
+              [(ngModel)]="libro['q3-p9-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q3-p9-l3-o2"
+              >don’t</label
+            >
+          </div>
+          have the same schedule every day.
+        </li>
+        <li class="my-1">
+          We
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q4-p9-l3"
+              id="q4-p9-l3-o1"
+              autocomplete="off"
+              value="q4-p9-l3-o1"
+              [checked]="libro['q4-p9-l3'] === 'q4-p9-l3-o1'"
+              [(ngModel)]="libro['q4-p9-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q4-p9-l3-o1"
+              >doesn’t</label
+            >
+
+            <input
+              type="radio"
+              class="btn-check"
+              name="q4-p9-l3"
+              id="q4-p9-l3-o2"
+              autocomplete="off"
+              value="q4-p9-l3-o2"
+              [checked]="libro['q4-p9-l3'] === 'q4-p9-l3-o2'"
+              [(ngModel)]="libro['q4-p9-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q4-p9-l3-o2"
+              >don’t</label
+            >
+          </div>
+          work on weekends.
+        </li>
+      </ol>
+    </div>
+    <div class="col-md-6">
+      <ol start="5">
+        <li class="my-1">
+          I
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q5-p9-l3"
+              id="q5-p9-l3-o1"
+              autocomplete="off"
+              value="q5-p9-l3-o1"
+              [checked]="libro['q5-p9-l3'] === 'q5-p9-l3-o1'"
+              [(ngModel)]="libro['q5-p9-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q5-p9-l3-o1"
+              >doesn’t</label
+            >
+
+            <input
+              type="radio"
+              class="btn-check"
+              name="q5-p9-l3"
+              id="q5-p9-l3-o2"
+              autocomplete="off"
+              value="q5-p9-l3-o2"
+              [checked]="libro['q5-p9-l3'] === 'q5-p9-l3-o2'"
+              [(ngModel)]="libro['q5-p9-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q5-p9-l3-o2"
+              >don’t</label
+            >
+          </div>
+          work in an office.
+        </li>
+        <li class="my-1">
+          My office
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q6-p9-l3"
+              id="q6-p9-l3-o1"
+              autocomplete="off"
+              value="q6-p9-l3-o1"
+              [checked]="libro['q6-p9-l3'] === 'q6-p9-l3-o1'"
+              [(ngModel)]="libro['q6-p9-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q6-p9-l3-o1"
+              >doesn’t</label
+            >
+
+            <input
+              type="radio"
+              class="btn-check"
+              name="q6-p9-l3"
+              id="q6-p9-l3-o2"
+              autocomplete="off"
+              value="q6-p9-l3-o2"
+              [checked]="libro['q6-p9-l3'] === 'q6-p9-l3-o2'"
+              [(ngModel)]="libro['q6-p9-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q6-p9-l3-o2"
+              >don’t</label
+            >
+          </div>
+          have a window.
+        </li>
+        <li class="my-1">
+          She
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q7-p9-l3"
+              id="q7-p9-l3-o1"
+              autocomplete="off"
+              value="q7-p9-l3-o1"
+              [checked]="libro['q7-p9-l3'] === 'q7-p9-l3-o1'"
+              [(ngModel)]="libro['q7-p9-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q7-p9-l3-o1"
+              >doesn’t</label
+            >
+
+            <input
+              type="radio"
+              class="btn-check"
+              name="q7-p9-l3"
+              id="q7-p9-l3-o2"
+              autocomplete="off"
+              value="q7-p9-l3-o2"
+              [checked]="libro['q7-p9-l3'] === 'q7-p9-l3-o2'"
+              [(ngModel)]="libro['q7-p9-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q7-p9-l3-o2"
+              >don’t</label
+            >
+          </div>
+          travel for her job.
+        </li>
+        <li class="my-1">
+          You
+          <div
+            class="btn-group"
+            role="group"
+            aria-label="Basic radio toggle button group"
+          >
+            <input
+              type="radio"
+              class="btn-check"
+              name="q8-p9-l3"
+              id="q8-p9-l3-o1"
+              autocomplete="off"
+              value="q8-p9-l3-o1"
+              [checked]="libro['q8-p9-l3'] === 'q8-p9-l3-o1'"
+              [(ngModel)]="libro['q8-p9-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q8-p9-l3-o1"
+              >doesn’t</label
+            >
+
+            <input
+              type="radio"
+              class="btn-check"
+              name="q8-p9-l3"
+              id="q8-p9-l3-o2"
+              autocomplete="off"
+              value="q8-p9-l3-o2"
+              [checked]="libro['q8-p9-l3'] === 'q8-p9-l3-o2'"
+              [(ngModel)]="libro['q8-p9-l3']"
+              (change)="guardarInfo()"
+            />
+            <label class="btn btn-outline-primary" for="q8-p9-l3-o2"
+              >don’t</label
+            >
+          </div>
+          have a busy schedule.
+        </li>
+      </ol>
+    </div>
+  </div>
+</div>
