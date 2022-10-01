@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "ruta": "/libro1",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Portadas-Libros%2Fbook1.png?alt=media&token=7c124514-9115-44b1-93f9-3aca32e9482d",
+        "titulo": "Book 1 - A1",
+        "libro": false
+    },
+    {
+        "id": 2,
+        "ruta": "/libro2",
+        "imagen": "https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/Portadas-Libros%2Fbook2.png?alt=media&token=e4e208c6-d8e7-419e-9b63-fb0da8cc3dab",
+        "titulo": "Book 2 - A1",
+        "libro": false
+    }
+]
