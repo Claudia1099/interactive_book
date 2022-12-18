@@ -4,25 +4,25 @@ import { HeaderComponent } from './header/header.component';
 import { FootersComponent } from './footers/footers.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RouterModule } from '@angular/router';
-import { ModalQuizComponent } from './modal-quiz/modal-quiz.component';
-
-
+import { SelectorQuicesComponent } from './selector-quices/selector-quices.component';
+import { CuestionarioComponent } from './cuestionario/cuestionario.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     HeaderComponent,
     FootersComponent,
     NavbarComponent,
-    ModalQuizComponent
+    SelectorQuicesComponent,
+    CuestionarioComponent,
   ],
-  imports: [
-    CommonModule,
-    RouterModule
-  ],
+  imports: [CommonModule, RouterModule, FormsModule],
   exports: [
     HeaderComponent,
     FootersComponent,
-    NavbarComponent
-  ]
+    NavbarComponent,
+    SelectorQuicesComponent,
+    CuestionarioComponent,
+  ],
 })
-export class ComponentesModule { }
+export class ComponentesModule {}

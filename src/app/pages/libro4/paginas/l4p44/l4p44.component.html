@@ -1,0 +1,327 @@
+<div>
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h5>TELL ME ABOUT YOUR VACATION</h5>
+    </div>
+    <div class="col-md-6 p-1">
+      <div class="card border-info">
+        <div class="row">
+          <div class="col-md-4 col-12 text-center">
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/ImgLibro4%2F7-14.webp?alt=media&token=0d40ecde-b58c-4f50-983d-5263072a6f0c"
+              class="img-fluid"
+              alt="img"
+            />
+          </div>
+          <div class="col-md-8 col-12">
+            <ul class="list-none">
+              <b>1.</b>
+              <li><b>A.</b> Did you go to Paris?</li>
+              <li><b>B.</b> No, we didn’t.</li>
+              <li><b>A.</b> Where did you go?</li>
+              <li><b>B.</b> We went to Rome.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 p-1">
+      <div class="card border-info">
+        <div class="row">
+          <div class="col-md-4 col-12 text-center">
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/ImgLibro4%2F7-15.webp?alt=media&token=5ae6933f-5d87-4574-a03b-379e57a2f684"
+              class="img-fluid"
+              alt="img"
+            />
+          </div>
+          <div class="col-md-8 col-12">
+            <ul class="list-none">
+              <b>2.</b>
+              <li><b>A.</b> Did you get there by boat?</li>
+              <li class="d-flex">
+                <b>B.</b> No,
+                <input
+                  type="text"
+                  style="height: 30px"
+                  class="form-control input m-1"
+                  name="ans1page44"
+                  [(ngModel)]="libro.ans1Page44"
+                  (keyup.enter)="guardarInfo()"
+                  (blur)="guardarInfo()"
+                  id=""
+                />
+              </li>
+              <li class="d-flex">
+                <b>A.</b> How
+                <input
+                  type="text"
+                  style="height: 30px"
+                  class="form-control input m-1"
+                  name="ans2page44"
+                  [(ngModel)]="libro.ans2Page44"
+                  (keyup.enter)="guardarInfo()"
+                  (blur)="guardarInfo()"
+                  id=""
+                />?
+              </li>
+              <li class="d-flex">
+                <b>B.</b>
+                <input
+                  type="text"
+                  style="height: 30px"
+                  class="form-control input m-1"
+                  name="ans3page44"
+                  [(ngModel)]="libro.ans3Page44"
+                  (keyup.enter)="guardarInfo()"
+                  (blur)="guardarInfo()"
+                  id=""
+                />
+                by plane.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 p-1">
+      <div class="card border-info">
+        <div class="row">
+          <div class="col-md-4 col-12 text-center">
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/ImgLibro4%2F7-16.webp?alt=media&token=b47f0163-97f5-40b4-be80-c66072bfb688"
+              class="img-fluid"
+              alt="img"
+            />
+          </div>
+          <div class="col-md-8 col-12">
+            <ul class="list-none">
+              <b>3.</b>
+              <li><b>A.</b> Did your plane leave on time?</li>
+              <li class="d-flex">
+                <b>B.</b> No,
+                <input
+                  type="text"
+                  style="height: 30px"
+                  class="form-control input m-1"
+                  name="ans4page44"
+                  [(ngModel)]="libro.ans4Page44"
+                  (keyup.enter)="guardarInfo()"
+                  (blur)="guardarInfo()"
+                  id=""
+                />
+              </li>
+              <li class="d-flex">
+                <b>A.</b> How late
+
+                <input
+                  type="text"
+                  style="height: 30px"
+                  class="form-control input m-1"
+                  name="ans5page44"
+                  [(ngModel)]="libro.ans5Page44"
+                  (keyup.enter)="guardarInfo()"
+                  (blur)="guardarInfo()"
+                  id=""
+                />?
+              </li>
+              <li class="d-flex">
+                <b>B.</b>
+                <input
+                  type="text"
+                  style="height: 30px"
+                  class="form-control input m-1"
+                  name="ans6page44"
+                  [(ngModel)]="libro.ans6Page44"
+                  (keyup.enter)="guardarInfo()"
+                  (blur)="guardarInfo()"
+                  id=""
+                />
+                two hours late
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 p-1">
+      <div class="card border-info">
+        <div class="row">
+          <div class="col-md-4 col-12 text-center">
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/ImgLibro4%2F7-17.webp?alt=media&token=bc21de47-fbdb-433c-a9b2-a886ba0d0192"
+              class="img-fluid"
+              alt="img"
+            />
+          </div>
+          <div class="col-md-8 col-12">
+            <ul class="list-none">
+              <b>4.</b>
+              <li><b>A.</b> Did you have good weather during the flight?</li>
+              <li class="d-flex">
+                <b>B.</b> No,
+                <input
+                  type="text"
+                  style="height: 30px"
+                  class="form-control input m-1"
+                  name="ans7page44"
+                  [(ngModel)]="libro.ans7Page44"
+                  (keyup.enter)="guardarInfo()"
+                  (blur)="guardarInfo()"
+                  id=""
+                />
+              </li>
+              <li class="d-flex">
+                <b>A.</b> What kind of
+
+                <input
+                  type="text"
+                  style="height: 30px"
+                  class="form-control input m-1"
+                  name="ans8page44"
+                  [(ngModel)]="libro.ans8Page44"
+                  (keyup.enter)="guardarInfo()"
+                  (blur)="guardarInfo()"
+                  id=""
+                />?
+              </li>
+              <li class="d-flex">
+                <b>B.</b>
+                <input
+                  type="text"
+                  style="height: 30px"
+                  class="form-control input m-1"
+                  name="ans9page44"
+                  [(ngModel)]="libro.ans9Page44"
+                  (keyup.enter)="guardarInfo()"
+                  (blur)="guardarInfo()"
+                  id=""
+                />
+                Terrible weather
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 p-1">
+      <div class="card border-info">
+        <div class="row">
+          <div class="col-md-4 col-12 text-center">
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/ImgLibro4%2F7-18.webp?alt=media&token=f181d831-3a56-427c-9efa-968184c6a731"
+              class="img-fluid"
+              alt="img"
+            />
+          </div>
+          <div class="col-md-8 col-12">
+            <ul class="list-none">
+              <b>5.</b>
+              <li><b>A.</b> Did you stay in a big hotel?</li>
+              <li class="d-flex">
+                <b>B.</b> No,
+                <input
+                  type="text"
+                  style="height: 30px"
+                  class="form-control input m-1"
+                  name="ans10page44"
+                  [(ngModel)]="libro.ans10Page44"
+                  (keyup.enter)="guardarInfo()"
+                  (blur)="guardarInfo()"
+                  id=""
+                />
+              </li>
+              <li class="d-flex">
+                <b>A.</b> What kind of
+                <input
+                  type="text"
+                  style="height: 30px"
+                  class="form-control input m-1"
+                  name="ans11page44"
+                  [(ngModel)]="libro.ans11Page44"
+                  (keyup.enter)="guardarInfo()"
+                  (blur)="guardarInfo()"
+                  id=""
+                />?
+              </li>
+              <li class="d-flex">
+                <b>B.</b>
+                <input
+                  type="text"
+                  style="height: 30px"
+                  class="form-control input m-1"
+                  name="ans10page44"
+                  [(ngModel)]="libro.ans10Page44"
+                  (keyup.enter)="guardarInfo()"
+                  (blur)="guardarInfo()"
+                  id=""
+                />
+                a small hotel.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 p-1">
+      <div class="card border-info">
+        <div class="row">
+          <div class="col-md-4 col-12 text-center">
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/interactivebook-62574.appspot.com/o/ImgLibro4%2F7-19.webp?alt=media&token=6fafd7d5-a71d-4441-81b5-e914c4dbea09"
+              class="img-fluid"
+              alt="img"
+            />
+          </div>
+          <div class="col-md-8 col-12">
+            <ul class="list-none">
+              <b>6.</b>
+              <li><b>A.</b> Did you eat in fancy restaurants?</li>
+              <li class="d-flex">
+                <b>B.</b> No,
+                <input
+                  type="text"
+                  style="height: 30px"
+                  class="form-control input m-1"
+                  name="ans13page44"
+                  [(ngModel)]="libro.ans13Page44"
+                  (keyup.enter)="guardarInfo()"
+                  (blur)="guardarInfo()"
+                  id=""
+                />
+              </li>
+              <li class="d-flex">
+                <b>A.</b>
+                Where
+                <input
+                  type="text"
+                  style="height: 30px"
+                  class="form-control input m-1"
+                  name="ans14page44"
+                  [(ngModel)]="libro.ans14Page44"
+                  (keyup.enter)="guardarInfo()"
+                  (blur)="guardarInfo()"
+                  id=""
+                />?
+              </li>
+              <li class="d-flex">
+                <b>B.</b>
+                <input
+                  type="text"
+                  style="height: 30px"
+                  class="form-control input m-1"
+                  name="ans15page44"
+                  [(ngModel)]="libro.ans15Page44"
+                  (keyup.enter)="guardarInfo()"
+                  (blur)="guardarInfo()"
+                  id=""
+                />
+                cheap restaurants.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

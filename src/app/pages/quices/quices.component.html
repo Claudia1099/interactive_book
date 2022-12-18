@@ -1,0 +1,13 @@
+<app-header></app-header>
+<div class="container">
+  <div class="row text-center my-3">
+    <app-selector-quices
+      [title]="title"
+      [posicion]="posiciones"
+      (quiz)="getQuiz($event)"
+    ></app-selector-quices>
+    <app-cuestionario [preguntas]="quiz"></app-cuestionario>
+  </div>
+</div>
+
+<app-footers></app-footers>

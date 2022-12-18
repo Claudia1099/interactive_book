@@ -7,37 +7,37 @@ import { AuthService } from 'src/app/services/auth.service';
   templateUrl: './la1p1.component.html',
 })
 export class La1p1Component implements OnInit {
-
-  constructor(private auth: AuthService) { }
+  constructor(private auth: AuthService) {}
   @Input('libroA1')
   libroA1!: Observable<any>;
   @Input('email') email!: Promise<string>;
-  libro: any = "";
+  libro: any = '';
 
   ngOnInit(): void {
-      setTimeout(() => {
-        this.libroA1.subscribe(resp => {
-          if(resp.payload.data()){
+    setTimeout(() => {
+      this.libroA1.subscribe(
+        (resp) => {
+          if (resp.payload.data()) {
             this.libro = resp.payload.data();
-          }
-          else{
+          } else {
             this.libro = {};
           }
-
-        }, error => {
+        },
+        (error) => {
           console.log(error);
-        })
-      }, 3000);
+        }
+      );
+    }, 3000);
   }
 
-  guardarInfo(){
-    this.email.then(resp => {
-      this.auth.guardarDatos(resp,'bookA1',this.libro).then(() => {
-       // console.log(resp);
-      }).catch(()=> {
-        console.log("error");
-      })
-    })
+  guardarInfo() {
+    this.email.then((resp) => {
+      this.auth
+        .guardarDatos(resp, 'bookA1', this.libro)
+        .then(() => {})
+        .catch(() => {
+          console.log('error');
+        });
+    });
   }
-
 }

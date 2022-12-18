@@ -6,7 +6,6 @@ import { AuthService } from 'src/app/services/auth.service';
 @Component({
   selector: 'app-l4p3',
   templateUrl: './l4p3.component.html',
-  styles: [],
 })
 export class L4p3Component implements OnInit {
   constructor(private auth: AuthService, private audioServices: AudioService) {}
@@ -17,10 +16,18 @@ export class L4p3Component implements OnInit {
 
   ngOnInit(): void {
     setTimeout(() => {
-      this.libro4.subscribe((resp) => {
-        this.libro = resp.payload.data();
-        // console.log(this.libro) ;
-      });
+      this.libro4.subscribe(
+        (resp) => {
+          if (resp.payload.data()) {
+            this.libro = resp.payload.data();
+          } else {
+            this.libro = {};
+          }
+        },
+        (error) => {
+          console.log(error);
+        }
+      );
     }, 3000);
   }
 

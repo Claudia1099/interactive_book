@@ -43,8 +43,10 @@ export class ListadoLibrosComponent implements OnInit {
             return 0;
           });
           this.listadoLibros.forEach((listado, index) => {
-            listado.libro =
-              this.auxLibros[index][this.auxLibros[index].property];
+            if (this.auxLibros[index]) {
+              listado.libro =
+                this.auxLibros[index][this.auxLibros[index].property];
+            }
           });
         });
       },

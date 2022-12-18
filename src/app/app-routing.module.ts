@@ -30,6 +30,11 @@ const routes: Routes = [
     loadChildren: () =>
       import('./pages/libro4/libro4.module').then((m) => m.Libro4Module),
   },
+  {
+    path: 'quices',
+    loadChildren: () =>
+      import('./pages/quices/quices.module').then((m) => m.QuicesModule),
+  },
   { path: '**', pathMatch: 'full', redirectTo: '/home' },
 ];
 

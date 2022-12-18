@@ -3,6 +3,7 @@
 export interface ListadoLibros {
   id: number;
   ruta: string;
+  rutaQuices: string;
   imagen: string;
   titulo: string;
   libro: boolean;

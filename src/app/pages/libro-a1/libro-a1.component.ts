@@ -4,11 +4,10 @@ import { AuthService } from 'src/app/services/auth.service';
 
 @Component({
   selector: 'app-libro-a1',
-  templateUrl: './libro-a1.component.html'
+  templateUrl: './libro-a1.component.html',
 })
 export class LibroA1Component implements OnInit {
-
-  constructor(private auth: AuthService) { }
+  constructor(private auth: AuthService) {}
   email!: Promise<string>;
   libroA1!: Observable<any>;
 
@@ -17,11 +16,10 @@ export class LibroA1Component implements OnInit {
       this.email = new Promise((resolver, reject) => {
         resolver(resp.email);
         reject('No hay correo registrado');
-      })
-    this.email?.then((resp: any) => {
-      this.libroA1 = this.auth.obtenerLibro(resp, 'bookA1');
-    })
-  })
+      });
+      this.email?.then((resp: any) => {
+        this.libroA1 = this.auth.obtenerLibro(resp, 'bookA1');
+      });
+    });
   }
-
 }

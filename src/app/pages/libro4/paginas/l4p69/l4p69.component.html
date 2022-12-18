@@ -1,0 +1,35 @@
+<div>
+  <div class="row">
+    <div class="col-md-12">
+      <h6>
+        J. Now write your own recipe. Use as many of the ingredients from I. as
+        you can. First, give your recipe a name. Then list the ingredients on
+        your recipe card. After that, tell how to make this recipe. List the
+        steps in the correct order. Tell how many people you can serve
+      </h6>
+      <h4 class="text-center my-3">Share your recipe with your classmates.</h4>
+      <h6 class="text-center">
+        My recipe for
+        <input
+          type="text"
+          class="form-control m-1 input"
+          name="ans1page69"
+          [(ngModel)]="libro.ans1Page69"
+          (keyup.enter)="guardarInfo()"
+          (blur)="guardarInfo()"
+          id=""
+        />
+      </h6>
+      <textarea
+        class="form-control"
+        name="ans2page69"
+        [(ngModel)]="libro.ans2Page69"
+        (keyup.enter)="guardarInfo()"
+        (blur)="guardarInfo()"
+        id=""
+        cols="30"
+        rows="15"
+      ></textarea>
+    </div>
+  </div>
+</div>

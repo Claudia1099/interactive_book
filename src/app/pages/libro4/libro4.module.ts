@@ -44,6 +44,35 @@ import { L4p37Component } from './paginas/l4p37/l4p37.component';
 import { L4p38Component } from './paginas/l4p38/l4p38.component';
 import { L4p39Component } from './paginas/l4p39/l4p39.component';
 import { L4p40Component } from './paginas/l4p40/l4p40.component';
+import { L4p41Component } from './paginas/l4p41/l4p41.component';
+import { L4p42Component } from './paginas/l4p42/l4p42.component';
+import { L4p43Component } from './paginas/l4p43/l4p43.component';
+import { L4p44Component } from './paginas/l4p44/l4p44.component';
+import { L4p45Component } from './paginas/l4p45/l4p45.component';
+import { L4p46Component } from './paginas/l4p46/l4p46.component';
+import { L4p47Component } from './paginas/l4p47/l4p47.component';
+import { L4p48Component } from './paginas/l4p48/l4p48.component';
+import { L4p49Component } from './paginas/l4p49/l4p49.component';
+import { L4p50Component } from './paginas/l4p50/l4p50.component';
+import { L4p51Component } from './paginas/l4p51/l4p51.component';
+import { L4p52Component } from './paginas/l4p52/l4p52.component';
+import { L4p53Component } from './paginas/l4p53/l4p53.component';
+import { L4p54Component } from './paginas/l4p54/l4p54.component';
+import { L4p55Component } from './paginas/l4p55/l4p55.component';
+import { L4p56Component } from './paginas/l4p56/l4p56.component';
+import { L4p57Component } from './paginas/l4p57/l4p57.component';
+import { L4p58Component } from './paginas/l4p58/l4p58.component';
+import { L4p59Component } from './paginas/l4p59/l4p59.component';
+import { L4p60Component } from './paginas/l4p60/l4p60.component';
+import { L4p61Component } from './paginas/l4p61/l4p61.component';
+import { L4p62Component } from './paginas/l4p62/l4p62.component';
+import { L4p63Component } from './paginas/l4p63/l4p63.component';
+import { L4p64Component } from './paginas/l4p64/l4p64.component';
+import { L4p65Component } from './paginas/l4p65/l4p65.component';
+import { L4p66Component } from './paginas/l4p66/l4p66.component';
+import { L4p67Component } from './paginas/l4p67/l4p67.component';
+import { L4p68Component } from './paginas/l4p68/l4p68.component';
+import { L4p69Component } from './paginas/l4p69/l4p69.component';
 
 @NgModule({
   declarations: [
@@ -88,6 +117,35 @@ import { L4p40Component } from './paginas/l4p40/l4p40.component';
     L4p38Component,
     L4p39Component,
     L4p40Component,
+    L4p41Component,
+    L4p42Component,
+    L4p43Component,
+    L4p44Component,
+    L4p45Component,
+    L4p46Component,
+    L4p47Component,
+    L4p48Component,
+    L4p49Component,
+    L4p50Component,
+    L4p51Component,
+    L4p52Component,
+    L4p53Component,
+    L4p54Component,
+    L4p55Component,
+    L4p56Component,
+    L4p57Component,
+    L4p58Component,
+    L4p59Component,
+    L4p60Component,
+    L4p61Component,
+    L4p62Component,
+    L4p63Component,
+    L4p64Component,
+    L4p65Component,
+    L4p66Component,
+    L4p67Component,
+    L4p68Component,
+    L4p69Component,
   ],
   imports: [CommonModule, Libro4RoutingModule, FormsModule, ComponentesModule],
 })

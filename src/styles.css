@@ -79,6 +79,10 @@
     background-color: rgb(235, 22, 22);
 }
 
+.fuscia{
+    background-color: fuchsia;
+}
+
 .list-none {
     list-style: none;
 }
